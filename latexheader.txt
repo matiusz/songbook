@@ -1,0 +1,24 @@
+\documentclass{report}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{paracol}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{changepage}
+
+\setlength\parindent{0pt}
+
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\begin{document}
+
+\newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
+
+
+\renewcommand{\contentsname}{Spis treści}
+\tableofcontents
