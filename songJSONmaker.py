@@ -2,7 +2,7 @@ from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit,
                                 QHBoxLayout, QVBoxLayout, QPlainTextEdit, 
                                 QPushButton, QTableWidget, QSpacerItem, 
                                 QScrollArea, QLayout, QSizePolicy, QComboBox)
-from PySide6.QtCore import Slot, QSize
+from PySide6.QtCore import QLine, Slot, QSize
 
 import json
 
@@ -14,6 +14,15 @@ def ensure_dir(file_path):
     directory = os.path.dirname(file_path)
     if not os.path.exists(directory):
         os.makedirs(directory)
+
+
+class NewCategory(QVBoxLayout):
+    def __init__(self):
+        self.name = QLineEdit()
+        self.name.setPlaceholderText("Category Name")
+        self.addWidget(self.name)
+        
+    pass
 
 class MainMenu(QWidget):
     def __init__(self):
