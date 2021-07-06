@@ -6,7 +6,7 @@
 
   ## songbook.py
 
-  Reads .sng files from all the subdirectories in current working directory and covnerts them to single tex file. Currently both categories and songs in them are sorted          alphabetically.
+  Reads .sng files from all the subdirectories in current working directory and converts them to single tex file. Currently both categories and songs in them are sorted          alphabetically.
   
   ## Generated songbook.tex
   
