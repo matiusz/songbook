@@ -8,7 +8,8 @@
 
   Reads .sng files from all the subdirectories in current working directory and converts them to single tex file. Currently both categories and songs in them are sorted          alphabetically.
   
-  ## Generated songbook.tex
+  ## Requirements
   
-  Uses paracol module that may need to be added extrenally
-  
+  - Made using Python 3.9, should be compatible with most 3.x versoins.
+  - PySide6 for Python
+  - paracol for LaTeX
