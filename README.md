@@ -2,7 +2,7 @@
 
   ## songJSONmaker.py
 
-  Allows converting songs from text to JSON to prepare them for later processing into TeX file. List of categories is based on directories located in current working directory - if you want to add new cateogry simple create a new directory. Song JSON is saved with a <songTitle>.sng into the respective folder.
+  Allows converting songs from text to JSON to prepare them for later processing into TeX file. List of categories is based on directories located in current working directory - if you want to add new cateogry simple create a new directory. Song JSON is saved with a .sng extension into the respective folder.
 
   ## songbook.py
 
