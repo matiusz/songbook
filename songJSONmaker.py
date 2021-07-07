@@ -41,6 +41,7 @@ class NewCategory(QWidget):
     def closeEvent(self, event):
         category = self.name.text()
         if category:
+            
             create_dir(category)
             image = self.image.selectedFiles()[0]
             if image:
@@ -168,6 +169,7 @@ if __name__=="__main__":
     import sys
     app = QApplication(sys.argv)
     window = MainMenu()
+    create_dir(".images")
     app.exec()
     f = open("categories.cfg", "wb")
     for dirname in os.listdir():
