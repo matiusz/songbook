@@ -32,16 +32,23 @@ class NewCategory(QWidget):
         self.label.setText("Choose image for the category")
         self.image = QFileDialog()
         self.image.setNameFilter("*.py *.jpg *.png *.bmp")
+        self.image.setFileMode(QFileDialog.ExistingFile)
+        self.image.fileSelected.connect(lambda: self.update_label())
+        closeButton = QPushButton('Save&Quit', self)
+        closeButton.clicked.connect(lambda: self.close())
         layout = QVBoxLayout()
         layout.addWidget(self.name)
         layout.addWidget(self.label)
         layout.addWidget(self.image)
+        layout.addWidget(closeButton)
         self.setLayout(layout)
         self.show()
+    def update_label(self):
+        self.label.setText(self.image.selectedFiles()[0])
+        self.setGeometry(200, 100, 100, 100)
     def closeEvent(self, event):
         category = self.name.text()
         if category:
-            
             create_dir(category)
             image = self.image.selectedFiles()[0]
             if image:
@@ -111,9 +118,9 @@ class Song(QWidget):
         self.titleBar.setPlaceholderText("Song Title")
         layout.addWidget(self.titleBar)
         btnVerse = QPushButton('New Verse', self)
-        btnVerse.clicked.connect(lambda: self.newSection())
+        btnVerse.clicked.connect(self.newSection)
         btnChorus = QPushButton('New Chorus', self)
-        btnChorus.clicked.connect(lambda: self.newSection(chorus = True))
+        btnChorus.clicked.connect(partial(self.newSection, chorus = True))
         btnClose = QPushButton('Save&Quit', self)
         btnClose.clicked.connect(lambda: self.parent.close())
         #btn_quit.resize(btn_quit.sizeHint())
