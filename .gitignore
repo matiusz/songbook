@@ -1,3 +1,12 @@
 .vscode/launch.json
 /vscode
 songbook.tex
+songbook.aux
+songbook.fdb_latexmk
+songbook.log
+songbook.synctex.gz
+songbook.toc
+songbook.fls
+songbook.pdf
+categories.cfg
+songbook.tex

@@ -6,7 +6,8 @@
 \usepackage{geometry}
 \usepackage{indentfirst}
 \usepackage{changepage}
-
+\usepackage{graphicx}
+\graphicspath{{./.images}}
 \setlength\parindent{0pt}
 
  \geometry{
