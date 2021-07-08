@@ -2,7 +2,6 @@
 vscode/
 dist/
 additional_files/
-data/
 __pycache__/
 songbook.tex
 songbook.aux
@@ -12,6 +11,5 @@ songbook.synctex.gz
 songbook.toc
 songbook.fls
 songbook.pdf
-songbook.tex
 setup.py
 additional_files.rar
