@@ -11,5 +11,5 @@
   ## Requirements
   
   - Made using Python 3.9, should be compatible with most 3.x versoins.
-  - PySide6 for Python
-  - paracol for LaTeX
+  - PySide6 for Python for generating song JSONs
+  - pdfTeX is required for the automated script
