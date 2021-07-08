@@ -61,20 +61,22 @@ def main():
     
     categories = defaultdict(lambda: {})
 
-    for dirname in os.listdir():
-        if os.path.isdir(dirname) and not (dirname.startswith(".") or dirname.startswith("_")):
-            for filename in os.listdir(dirname):
+    for dirname in os.listdir("data"):
+        if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
+            for filename in os.listdir(os.path.join("data", dirname)):
                 if filename.endswith(".sng"):
-                    songFile = open(os.path.join(dirname, filename))
+                    songFile = open(os.path.join("data", dirname, filename))
                     song = json.loads(songFile.read())
                     categories[song['category']][song['title']] = song
 
-    if os.path.exists("categories.cfg"):
-        configFile = open("categories.cfg", "rb")
+    cats = []
+    if os.path.exists(os.path.join("data", "categories.cfg")):
+        configFile = open(os.path.join("data", "categories.cfg"), "rb")
         cats_text = de_utf8(configFile.read())
         cats = cats_text.splitlines()
 
-    cats = [cat for cat in cats if cat and not cat.startswith("#")]
+    if cats:
+        cats = [cat for cat in cats if not cat.startswith("#")]
 
     cats = cats or sorted(categories.keys())
     

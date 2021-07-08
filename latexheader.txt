@@ -8,7 +8,7 @@
 \usepackage{changepage}
 \usepackage{graphicx}
 \usepackage{inconsolata}
-\graphicspath{{./.images}}
+\graphicspath{{./data/.images}}
 \setlength\parindent{0pt}
 
 % HACKING \adjustwidth
