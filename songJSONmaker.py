@@ -78,7 +78,7 @@ class NewCategory(QWidget):
         self.image.fileSelected.connect(lambda: self.updateLabel())
         layout.addWidget(self.image)
 
-        closeButton = QPushButton('Save&Quit', self)
+        closeButton = QPushButton('Save and Quit', self)
         closeButton.clicked.connect(lambda: self.close())
         layout.addWidget(closeButton)
 
@@ -154,7 +154,7 @@ class Song(QWidget):
         
         layout.addLayout(buttonBox)
         
-        closeButton = QPushButton('Save&Quit', self)
+        closeButton = QPushButton('Save and Quit', self)
         closeButton.clicked.connect(lambda: self.parent.close())
         layout.addWidget(closeButton)
         
@@ -200,7 +200,7 @@ class SongSection(QHBoxLayout):
         jsonSection['chorus'] = self.chorus
         return jsonSection
 
-if __name__=="__main__":
+def main():
     import sys
     app = QApplication(sys.argv)
     window = MainMenu()
@@ -208,6 +208,9 @@ if __name__=="__main__":
     app.exec()
     f = open("categories.cfg", "wb")
     for dirname in os.listdir():
-        if os.path.isdir(dirname) and not dirname.startswith("."):
+        if os.path.isdir(dirname) and not (dirname.startswith(".") or dirname.startswith("_")):
             f.write((dirname+"\n").encode("utf-8"))
     f.close()
+
+if __name__=="__main__":
+    main()
