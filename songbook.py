@@ -20,9 +20,9 @@ def convert_section(section):
     if section['chorus']:
         text = chorus_wrapper(text)
     songStr += text
-    songStr += "\n\\switchcolumn\n"
+    songStr += "\n\\switchcolumn\n\\ttfamily\n"
     songStr += convert_line_breaks(section['chords'])
-    songStr += "\n\\end{paracol}\n"
+    songStr += "\n\\rmfamily\n\\end{paracol}\n"
     return songStr
 
 def chorus_wrapper(text):

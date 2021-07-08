@@ -7,6 +7,7 @@
 \usepackage{indentfirst}
 \usepackage{changepage}
 \usepackage{graphicx}
+\usepackage{inconsolata}
 \graphicspath{{./.images}}
 \setlength\parindent{0pt}
 
