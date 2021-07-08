@@ -1,5 +1,7 @@
-.vscode/launch.json
-/vscode
+data/
+__pycache__/
+dist/
+additional_files/
 songbook.tex
 songbook.aux
 songbook.fdb_latexmk
@@ -8,5 +10,4 @@ songbook.synctex.gz
 songbook.toc
 songbook.fls
 songbook.pdf
-categories.cfg
 songbook.tex

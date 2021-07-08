@@ -1,3 +1,6 @@
+
+import PySide6.QtWidgets
+
 from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit, 
                                 QHBoxLayout, QVBoxLayout, QPlainTextEdit, 
                                 QPushButton,QScrollArea, QLayout,  
@@ -22,8 +25,8 @@ def ensureDir(directory):
 
 def getCategoriesFromDirs():
     categories = []
-    for dirname in os.listdir():
-        if os.path.isdir(dirname) and not dirname.startswith("."):
+    for dirname in os.listdir("data"):
+        if os.path.isdir(os.path.join("data", dirname)) and not dirname.startswith("."):
             categories.append(dirname)
     return categories
 
@@ -33,9 +36,12 @@ class MainMenu(QWidget):
         super().__init__()
         self.setWindowTitle('Songbook Maker')
 
-        image = QPixmap("logo")
         label = QLabel()
-        label.setPixmap(image)
+        if os.path.exists("logo.png"):
+            image = QPixmap("logo")
+            label.setPixmap(image)
+        else:
+            label.setText("Songbook Maker\n<Warning: Logo.png is missing>")
 
         categoryButton = QPushButton('New Category', self)
         categoryButton.clicked.connect(self.addCategoryField)
@@ -86,19 +92,20 @@ class NewCategory(QWidget):
         self.show()
 
     def updateLabel(self):
-        image = QPixmap(self.image.selectedFiles()[0])
+        self.selectedFile = self.image.selectedFiles()[0]
+        image = QPixmap(self.selectedFile)
         size = QSize(500, 500)
         image = image.scaled(size, Qt.KeepAspectRatio)
         self.label.setPixmap(image)
     def closeEvent(self, event):
         category = self.name.text()
         if category:
-            ensureDir(category)
-            image = self.image.selectedFiles()[0]
+            ensureDir(os.path.join("data", category))
+            image = self.selectedFile
             if image:
                 _, file_extension = os.path.splitext(image)
                 image_from = open(image, "rb")
-                image_to = open(os.path.join(".images" , category) + file_extension, "wb")
+                image_to = open(os.path.join("data", ".images" , category) + file_extension, "wb")
                 image_to.write(image_from.read())
                 image_from.close()
                 image_to.close()
@@ -116,7 +123,7 @@ class ScrollableSong(QScrollArea):
 
     def closeEvent(self, event):
         preJSON = self.widget().toJSON()
-        path = os.path.join(preJSON['category'], preJSON['title'] + ".sng")
+        path = os.path.join("data", preJSON['category'], preJSON['title'] + ".sng")
         ensureFileDir(path)
         f = open(path, "w")
         f.write(json.dumps(preJSON))
@@ -204,11 +211,11 @@ def main():
     import sys
     app = QApplication(sys.argv)
     window = MainMenu()
-    ensureDir(".images")
+    ensureDir(os.path.join("data", ".images"))
     app.exec()
-    f = open("categories.cfg", "wb")
-    for dirname in os.listdir():
-        if os.path.isdir(dirname) and not (dirname.startswith(".") or dirname.startswith("_")):
+    f = open(os.path.join("data", "categories.cfg"), "wb")
+    for dirname in os.listdir("data"):
+        if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
             f.write((dirname+"\n").encode("utf-8"))
     f.close()
 
