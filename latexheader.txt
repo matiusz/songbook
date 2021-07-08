@@ -10,6 +10,12 @@
 \graphicspath{{./.images}}
 \setlength\parindent{0pt}
 
+% HACKING \adjustwidth
+\usepackage{etoolbox}
+\makeatletter
+\apptocmd\adjustwidth{\@inlabelfalse\@newlistfalse}
+\makeatother
+
  \geometry{
  a4paper,
  total={170mm,257mm},
@@ -19,7 +25,6 @@
 \begin{document}
 
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
-
 
 \renewcommand{\contentsname}{Spis treści}
 \tableofcontents
