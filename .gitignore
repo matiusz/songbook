@@ -1,5 +1,9 @@
 .vscode/launch.json
-/vscode
+vscode/
+dist/
+additional_files/
+data/
+__pycache__/
 songbook.tex
 songbook.aux
 songbook.fdb_latexmk
