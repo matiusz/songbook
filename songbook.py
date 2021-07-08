@@ -73,8 +73,8 @@ def main():
         configFile = open("categories.cfg", "rb")
         cats_text = de_utf8(configFile.read())
         cats = cats_text.splitlines()
-        
-    cats = [cat for cat in cats if not cat.startswith("#")]
+
+    cats = [cat for cat in cats if cat and not cat.startswith("#")]
 
     cats = cats or sorted(categories.keys())
     
