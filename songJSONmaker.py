@@ -193,7 +193,7 @@ class Song(QWidget):
         jsonSong = {}
         jsonSong['title'] = self.titleBar.text()
         jsonSong['category'] = self.catBar.currentText()
-        jsonSong['sections'] = [section.toJSON() for section in self.sections]
+        jsonSong['sections'] = [section.toJSON() for section in self.sections if section]
         return jsonSong
     def loadSong(self, songFilename):
         if songFilename:
@@ -247,7 +247,11 @@ class SongSection(QHBoxLayout):
             stretches = (75, 25)
         self.addWidget(self.lyrics, stretches[0])
         self.addWidget(self.chords, stretches[1])
-
+    def __bool__(self):
+        if self.chords.toPlainText() or self.lyrics.toPlainText():
+            return True
+        else:
+            return False
     def toJSON(self):
         jsonSection = {}
         jsonSection['chords'] = self.chords.toPlainText()
