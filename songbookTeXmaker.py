@@ -51,6 +51,7 @@ def categoryToTex(category):
 def main():
     configFilename = "categories.cfg"
     headerFilename = "latexheader.txt"
+    dataFolder = "data"
     headerFile = open(headerFilename, "rb")
     songbookFilename = "songbook.tex"
     if os.path.exists(songbookFilename):
@@ -61,22 +62,19 @@ def main():
     
     categories = defaultdict(lambda: {})
 
-    for dirname in os.listdir("data"):
-        if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            for filename in os.listdir(os.path.join("data", dirname)):
+    for dirname in os.listdir(dataFolder):
+        if os.path.isdir(os.path.join(dataFolder, dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
+            for filename in os.listdir(os.path.join(dataFolder, dirname)):
                 if filename.endswith(".sng"):
-                    songFile = open(os.path.join("data", dirname, filename))
+                    songFile = open(os.path.join(dataFolder, dirname, filename))
                     song = json.loads(songFile.read())
                     categories[song['category']][song['title']] = song
 
     cats = []
-    if os.path.exists(os.path.join("data", "categories.cfg")):
-        configFile = open(os.path.join("data", "categories.cfg"), "rb")
+    if os.path.exists(os.path.join(dataFolder, configFilename)):
+        configFile = open(os.path.join(dataFolder, configFilename), "rb")
         cats_text = de_utf8(configFile.read())
-        cats = cats_text.splitlines()
-
-    if cats:
-        cats = [cat for cat in cats if not cat.startswith("#")]
+        cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
 
     cats = cats or sorted(categories.keys())
     

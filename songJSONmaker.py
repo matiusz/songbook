@@ -1,4 +1,3 @@
-
 import PySide6.QtWidgets
 
 from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit, 
@@ -29,6 +28,13 @@ def getCategoriesFromDirs():
         if os.path.isdir(os.path.join("data", dirname)) and not dirname.startswith("."):
             categories.append(dirname)
     return categories
+
+def getSongsFromCatDir(category):
+    songs = []
+    for songname in os.listdir(os.path.join("data", category)):
+        if songname.endswith(".sng"):
+            songs.append(songname)
+    return songs
 
 
 class MainMenu(QWidget):
@@ -115,7 +121,7 @@ class ScrollableSong(QScrollArea):
     def __init__(self):
         super().__init__()
         self.song = Song(self)
-        self.setGeometry(300, 100, 500, 100)
+        self.setGeometry(300, 100, 500, 200)
         self.setWindowTitle('Song Field')
         self.setWidget(self.song)
         self.setWidgetResizable(True)
@@ -123,10 +129,11 @@ class ScrollableSong(QScrollArea):
 
     def closeEvent(self, event):
         preJSON = self.widget().toJSON()
-        path = os.path.join("data", preJSON['category'], preJSON['title'] + ".sng")
-        ensureFileDir(path)
-        f = open(path, "w")
-        f.write(json.dumps(preJSON))
+        if preJSON['title']:
+            path = os.path.join("data", preJSON['category'], preJSON['title'] + ".sng")
+            ensureFileDir(path)
+            f = open(path, "w")
+            f.write(json.dumps(preJSON))
         event.accept()
 
 
@@ -143,7 +150,14 @@ class Song(QWidget):
         
         self.catBar = QComboBox()
         self.catBar.addItems(getCategoriesFromDirs())
+        self.catBar.currentTextChanged.connect(self.reloadSongs)
         layout.addWidget(self.catBar)
+
+        self.readySongsBar = QComboBox()
+        self.readySongsBar.addItem("")
+        self.readySongsBar.addItems(getSongsFromCatDir(self.catBar.currentText()))
+        self.readySongsBar.currentTextChanged.connect(self.loadSong)
+        layout.addWidget(self.readySongsBar)
         
         self.titleBar = QLineEdit()
         self.titleBar.setPlaceholderText("Song Title")
@@ -174,12 +188,46 @@ class Song(QWidget):
         if len(self.sections)<5:
             self.parent.setMinimumHeight(self.minimumSize().height()+110)
         self.layout().addLayout(newSection)
+        return newSection
     def toJSON(self):
         jsonSong = {}
         jsonSong['title'] = self.titleBar.text()
         jsonSong['category'] = self.catBar.currentText()
         jsonSong['sections'] = [section.toJSON() for section in self.sections]
         return jsonSong
+    def loadSong(self, songFilename):
+        if songFilename:
+            f = open(os.path.join("data", self.catBar.currentText(), songFilename), "rb")
+            jsonSong = json.loads(f.read().decode("utf-8"))
+            f.close()
+            self.titleBar.setText(jsonSong['title'])
+            for i, section in enumerate(self.sections):
+                section.setParent(None)
+                section.lyrics.deleteLater()
+                section.chords.deleteLater()
+                section.deleteLater()
+            self.sections = []
+            for section in jsonSong['sections']:
+                sect = self.newSection(chorus=section['chorus'])
+                sect.lyrics.setPlainText(section['lyrics'])
+                sect.chords.setPlainText(section['chords'])
+        else:
+            for i, section in enumerate(self.sections):
+                section.setParent(None)
+                section.lyrics.deleteLater()
+                section.chords.deleteLater()
+                section.deleteLater()
+            self.sections = []
+            self.titleBar.setText("")
+    def reloadSongs(self):
+        self.readySongsBar.clear()
+        catSongs = getSongsFromCatDir(self.catBar.currentText())
+        self.readySongsBar.addItem("")
+        self.readySongsBar.addItems(catSongs)
+
+
+
+
 
 
 class SongSection(QHBoxLayout):
