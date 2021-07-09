@@ -1,6 +1,7 @@
 import os
 import json
 from collections import defaultdict
+import math
 
 def en_utf8(st):
     return st.encode('utf-8')
@@ -15,14 +16,20 @@ def songToTex(songJSON):
     return songStr
 
 def convert_section(section):
+    lyrics, l1 = convert_line_breaks(section['lyrics'])
+    chords, l2 = convert_line_breaks(section['chords'])
     songStr = "\\begin{paracol}{2}\n"
-    text = convert_line_breaks(section['lyrics'])
+    songStr += "\\ensurevspace{{{}\\baselineskip}}\n".format(max(l1, l2))
+    songStr += "\\begin{leftcolumn*}\n"
     if section['chorus']:
-        text = chorus_wrapper(text)
-    songStr += text
-    songStr += "\n\\switchcolumn\n\\ttfamily\n"
-    songStr += convert_line_breaks(section['chords'])
-    songStr += "\n\\rmfamily\n\\end{paracol}\n"
+        lyrics = chorus_wrapper(lyrics)
+    songStr += lyrics
+    songStr += "\n\\end{leftcolumn*}\n\\ttfamily\n"
+    songStr += "\\begin{rightcolumn}\n"
+    songStr += chords
+    songStr += "\n\\rmfamily\n"
+    songStr += "\\end{rightcolumn}\n"
+    songStr += "\\end{paracol}\n"
     return songStr
 
 def chorus_wrapper(text):
@@ -33,12 +40,14 @@ def chorus_wrapper(text):
 
 def convert_line_breaks(text):
     converted_text = ""
+    length = 0
     for line in text.splitlines():
         if line:
             converted_text += line + "\\\\\n" 
         else:
             converted_text += "\\vspace{\\baselineskip}\n"
-    return converted_text
+        length +=1
+    return converted_text, length
 
 def categoryToTex(category):
     catStr = "\\chapter*{{\centering {category}}}\n".format(category=category) + \
