@@ -15,15 +15,6 @@ from functools import partial
 
 import re
 
-def ensureFileDir(file_path):
-    directory = os.path.dirname(file_path)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
-def ensureDir(directory):
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
 def getCategoriesFromDirs():
     categories = []
     for dirname in os.listdir("data"):
@@ -179,13 +170,7 @@ def main():
     import sys
     app = QApplication(sys.argv)
     window = ScrollableSong()
-    ensureDir(os.path.join("data", ".images"))
     app.exec()
-    f = open(os.path.join("data", "categories.cfg"), "wb")
-    for dirname in os.listdir("data"):
-        if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            f.write((dirname+"\n").encode("utf-8"))
-    f.close()
 
 if __name__=="__main__":
     main()
