@@ -12,5 +12,6 @@ songbook.synctex.gz
 songbook.toc
 songbook.fls
 songbook.pdf
+songlist.toc
 setup.py
 additional_files.rar

@@ -162,6 +162,10 @@ class Song(QWidget):
         self.titleBar = QLineEdit()
         self.titleBar.setPlaceholderText("Song Title")
         layout.addWidget(self.titleBar)
+
+        self.authorBar = QLineEdit()
+        self.authorBar.setPlaceholderText("Song Authors")
+        layout.addWidget(self.authorBar)
         
         buttonBox = QHBoxLayout()
         
@@ -192,6 +196,7 @@ class Song(QWidget):
     def toJSON(self):
         jsonSong = {}
         jsonSong['title'] = self.titleBar.text()
+        jsonSong['author'] = self.authorBar.text()
         jsonSong['category'] = self.catBar.currentText()
         jsonSong['sections'] = [section.toJSON() for section in self.sections if section]
         return jsonSong
@@ -201,6 +206,10 @@ class Song(QWidget):
             jsonSong = json.loads(f.read().decode("utf-8"))
             f.close()
             self.titleBar.setText(jsonSong['title'])
+            try:
+                self.authorBar.setText(jsonSong['author'])
+            except KeyError:
+                self.authorBar.setText("")
             for i, section in enumerate(self.sections):
                 section.setParent(None)
                 section.lyrics.deleteLater()
@@ -265,10 +274,16 @@ def main():
     window = MainMenu()
     ensureDir(os.path.join("data", ".images"))
     app.exec()
+    f = open(os.path.join("data", "categories.cfg"), "rb")
+    existingCategories = [line.decode("utf-8") for line in f.readlines()]
+    f.close()
     f = open(os.path.join("data", "categories.cfg"), "wb")
+    for cat in existingCategories:
+        f.write(cat.encode("utf-8"))
     for dirname in os.listdir("data"):
         if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            f.write((dirname+"\n").encode("utf-8"))
+            if (dirname + "\n") not in existingCategories:
+                f.write((dirname+"\n").encode("utf-8"))
     f.close()
 
 if __name__=="__main__":

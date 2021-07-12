@@ -3,26 +3,32 @@ import json
 from collections import defaultdict
 import math
 
-def en_utf8(st):
+def enUTF8(st):
     return st.encode('utf-8')
-def de_utf8(st):
+def deUTF8(st):
     return st.decode('utf-8')
 
 def songToTex(songJSON):
     songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.7,0.3}}\n".format(title=songJSON['title'])
+    try:
+        author = songJSON['author']
+    except KeyError:
+        pass
+    else:
+        songStr += "\\begin{{flushright}}\n{author}\n\\end{{flushright}}".format(author = author)
     for section in songJSON['sections']:
-        songStr += convert_section(section)
+        songStr += convertSection(section)
     songStr += "\\newpage\n"
     return songStr
 
-def convert_section(section):
-    lyrics, l1 = convert_line_breaks(section['lyrics'])
-    chords, l2 = convert_line_breaks(section['chords'])
+def convertSection(section):
+    lyrics, l1 = convertLineBreaks(section['lyrics'])
+    chords, l2 = convertLineBreaks(section['chords'])
     songStr = "\\begin{paracol}{2}\n"
     songStr += "\\ensurevspace{{{}\\baselineskip}}\n".format(max(l1, l2))
     songStr += "\\begin{leftcolumn*}\n"
     if section['chorus']:
-        lyrics = chorus_wrapper(lyrics)
+        lyrics = chorusWrapper(lyrics)
     songStr += lyrics
     songStr += "\n\\end{leftcolumn*}\n\\ttfamily\n"
     songStr += "\\begin{rightcolumn}\n"
@@ -32,13 +38,13 @@ def convert_section(section):
     songStr += "\\end{paracol}\n"
     return songStr
 
-def chorus_wrapper(text):
+def chorusWrapper(text):
     wrapped_text = "\\begin{chorus}\n"
     wrapped_text += text
     wrapped_text += "\\end{chorus}\n"
     return wrapped_text
 
-def convert_line_breaks(text):
+def convertLineBreaks(text):
     converted_text = ""
     length = 0
     for line in text.splitlines():
@@ -82,18 +88,19 @@ def main():
     cats = []
     if os.path.exists(os.path.join(dataFolder, configFilename)):
         configFile = open(os.path.join(dataFolder, configFilename), "rb")
-        cats_text = de_utf8(configFile.read())
+        cats_text = deUTF8(configFile.read())
         cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
 
     cats = cats or sorted(categories.keys())
     
     for cat in cats:
         print(cat)
-        songbookFile.write(en_utf8(categoryToTex(cat)))
+        songbookFile.write(enUTF8(categoryToTex(cat)))
         for song in sorted(categories[cat].keys()):
             print("\t" + song)
-            songbookFile.write(en_utf8(songToTex(categories[cat][song])))
-    songbookFile.write(en_utf8("\end{document}"))
+            songbookFile.write(enUTF8(songToTex(categories[cat][song])))
+    songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\input{songlist.toc}}{}\n"))
+    songbookFile.write(enUTF8("\\end{document}"))
     songbookFile.close()
 
 if __name__=="__main__":
