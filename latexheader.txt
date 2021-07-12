@@ -11,7 +11,7 @@
 \graphicspath{{./data/.images/}}
 \setlength\parindent{0pt}
 
-\hbadness=99999  % or any number >=10000
+\hbadness=15000  % or any number >=10000
 
 % HACKING \adjustwidth
 \usepackage{etoolbox}

@@ -9,33 +9,41 @@ def deUTF8(st):
     return st.decode('utf-8')
 
 def songToTex(songJSON):
-    songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.7,0.3}}\n".format(title=songJSON['title'])
+    songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.8,0.2}}\n".format(title=songJSON['title'])
     try:
         author = songJSON['author']
     except KeyError:
         pass
     else:
         songStr += "\\begin{{flushright}}\n{author}\n\\end{{flushright}}".format(author = author)
+        
+    songStr += "\\begin{paracol}{2}\n"
     for section in songJSON['sections']:
         songStr += convertSection(section)
+    songStr += "\\end{paracol}\n"
     songStr += "\\newpage\n"
     return songStr
 
 def convertSection(section):
     lyrics, l1 = convertLineBreaks(section['lyrics'])
-    chords, l2 = convertLineBreaks(section['chords'])
-    songStr = "\\begin{paracol}{2}\n"
-    songStr += "\\ensurevspace{{{}\\baselineskip}}\n".format(max(l1, l2))
+    if section['chords']:
+        chords, l2 = convertLineBreaks(section['chords'])
+    else:
+        chords, l2 = "", 0
+    songStr = "\n\\ensurevspace{{{}\\baselineskip}}\n".format(max(l1, l2))
     songStr += "\\begin{leftcolumn*}\n"
     if section['chorus']:
         lyrics = chorusWrapper(lyrics)
     songStr += lyrics
-    songStr += "\n\\end{leftcolumn*}\n\\ttfamily\n"
-    songStr += "\\begin{rightcolumn}\n"
-    songStr += chords
-    songStr += "\n\\rmfamily\n"
-    songStr += "\\end{rightcolumn}\n"
-    songStr += "\\end{paracol}\n"
+    songStr += "\\end{leftcolumn*}\n"
+    if chords:
+        songStr += "\\begin{rightcolumn}\n"
+        
+        songStr += "\n\\ttfamily\n"
+        songStr += chords
+        songStr += "\\end{rightcolumn}\n"
+        
+        songStr += "\n\\rmfamily\n"
     return songStr
 
 def chorusWrapper(text):
