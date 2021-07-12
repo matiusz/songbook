@@ -5,7 +5,6 @@ def main():
         content = [line.decode('utf-8') for line in f.readlines() if "section" in line.decode("utf-8")]
 
     with open("songlist.toc", 'wb') as f:
-        #f.write("\\babel@toc {english}{}\n".encode("utf-8"))
         for i in sorted(content):
             f.write(i.encode("utf-8"))
 

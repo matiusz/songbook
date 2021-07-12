@@ -234,11 +234,6 @@ class Song(QWidget):
         self.readySongsBar.addItem("")
         self.readySongsBar.addItems(catSongs)
 
-
-
-
-
-
 class SongSection(QHBoxLayout):
     def __init__(self, chorus = False):
         super().__init__()
@@ -274,15 +269,19 @@ def main():
     window = MainMenu()
     ensureDir(os.path.join("data", ".images"))
     app.exec()
-    f = open(os.path.join("data", "categories.cfg"), "rb")
-    existingCategories = [line.decode("utf-8") for line in f.readlines()]
-    f.close()
+    try:
+        f = open(os.path.join("data", "categories.cfg"), "rb")
+    except FileNotFoundError:
+        existingCategories = []
+    else:
+        existingCategories = [line.decode("utf-8") for line in f.readlines()]
+        f.close()
     f = open(os.path.join("data", "categories.cfg"), "wb")
     for cat in existingCategories:
         f.write(cat.encode("utf-8"))
     for dirname in os.listdir("data"):
         if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            if (dirname + "\n") not in existingCategories:
+            if (dirname + "\n") not in existingCategories and ("#" + dirname + "\n") not in existingCategories:
                 f.write((dirname+"\n").encode("utf-8"))
     f.close()
 
