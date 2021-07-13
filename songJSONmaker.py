@@ -273,13 +273,13 @@ def main():
     except FileNotFoundError:
         existingCategories = []
     else:
-        existingCategories = [line.decode("utf-8") for line in f.readlines()]
+        existingCategories = [line.decode("utf-8").replace("\r", "").replace("\n", "") for line in f.readlines()]
         f.close()
     app.exec()
     f = open(os.path.join("data", "categories.cfg"), "ab")
     for dirname in os.listdir("data"):
         if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            if (dirname + "\n") not in existingCategories and ("#" + dirname + "\n") not in existingCategories:
+            if dirname not in existingCategories and ("#" + dirname) not in existingCategories:
                 f.write((dirname+"\n").encode("utf-8"))
     f.close()
 
