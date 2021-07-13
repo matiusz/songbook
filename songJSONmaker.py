@@ -268,7 +268,6 @@ def main():
     app = QApplication(sys.argv)
     window = MainMenu()
     ensureDir(os.path.join("data", ".images"))
-    app.exec()
     try:
         f = open(os.path.join("data", "categories.cfg"), "rb")
     except FileNotFoundError:
@@ -276,9 +275,8 @@ def main():
     else:
         existingCategories = [line.decode("utf-8") for line in f.readlines()]
         f.close()
-    f = open(os.path.join("data", "categories.cfg"), "wb")
-    for cat in existingCategories:
-        f.write(cat.encode("utf-8"))
+    app.exec()
+    f = open(os.path.join("data", "categories.cfg"), "ab")
     for dirname in os.listdir("data"):
         if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
             if (dirname + "\n") not in existingCategories and ("#" + dirname + "\n") not in existingCategories:
