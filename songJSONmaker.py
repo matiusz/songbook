@@ -52,7 +52,7 @@ class MainMenu(QWidget):
         categoryButton = QPushButton('New Category', self)
         categoryButton.clicked.connect(self.addCategoryField)
         
-        songButton = QPushButton('New Song', self)
+        songButton = QPushButton('Song Editor', self)
         songButton.clicked.connect(self.addSongField)
 
         layout = QVBoxLayout()
