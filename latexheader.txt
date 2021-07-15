@@ -8,6 +8,13 @@
 \usepackage{changepage}
 \usepackage{graphicx}
 \usepackage{inconsolata}
+\usepackage{hyperref}
+
+\hypersetup{
+    hidelinks=true
+    linktoc=all
+}
+
 \graphicspath{{./data/.images/}}
 \setlength\parindent{0pt}
 
@@ -26,6 +33,7 @@
  inner=20mm,
  top=20mm,
  }
+
 \begin{document}
 
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
