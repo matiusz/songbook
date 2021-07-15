@@ -107,7 +107,7 @@ def main():
         for song in sorted(categories[cat].keys()):
             print("\t" + song)
             songbookFile.write(enUTF8(songToTex(categories[cat][song])))
-    songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\input{songlist.toc}}{}\n"))
+    songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
     songbookFile.write(enUTF8("\\end{document}"))
     songbookFile.close()
 
