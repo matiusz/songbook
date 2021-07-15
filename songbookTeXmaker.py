@@ -3,6 +3,8 @@ import json
 from collections import defaultdict
 import math
 
+from plAlphabetSort import plSortKey
+
 def enUTF8(st):
     return st.encode('utf-8')
 def deUTF8(st):
@@ -99,12 +101,12 @@ def main():
         cats_text = deUTF8(configFile.read())
         cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
 
-    cats = cats or sorted(categories.keys())
+    cats = cats or sorted(categories.keys(), key=plSortKey)
     
     for cat in cats:
         print(cat)
         songbookFile.write(enUTF8(categoryToTex(cat)))
-        for song in sorted(categories[cat].keys()):
+        for song in sorted(categories[cat].keys(), key=plSortKey):
             print("\t" + song)
             songbookFile.write(enUTF8(songToTex(categories[cat][song])))
     songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
