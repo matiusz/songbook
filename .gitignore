@@ -1,6 +1,7 @@
 .vscode/launch.json
 vscode/
 dist/
+data/
 additional_files/
 __pycache__/
 songbook.tex
