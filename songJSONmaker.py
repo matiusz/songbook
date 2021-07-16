@@ -1,3 +1,4 @@
+from genericpath import exists
 import PySide6.QtWidgets
 
 from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit, 
@@ -15,12 +16,10 @@ from functools import partial
 
 def ensureFileDir(file_path):
     directory = os.path.dirname(file_path)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+    os.makedirs(directory, exist_ok = True)
 
 def ensureDir(directory):
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+    os.makedirs(directory, exist_ok = True)
 
 def getCategoriesFromDirs():
     categories = []
@@ -43,12 +42,12 @@ class MainMenu(QWidget):
         self.setWindowTitle('Songbook Maker')
 
         label = QLabel()
-        if os.path.exists("logo.png"):
-            image = QPixmap("logo")
+        image = QPixmap("logo")
+        if image:            
             label.setPixmap(image)
         else:
             label.setText("Songbook Maker\n<Warning: Logo.png is missing>")
-
+            
         categoryButton = QPushButton('New Category', self)
         categoryButton.clicked.connect(self.addCategoryField)
         

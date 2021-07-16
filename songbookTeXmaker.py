@@ -84,8 +84,10 @@ def main():
     dataFolder = "data"
     headerFile = open(headerFilename, "rb")
     songbookFilename = "songbook.tex"
-    if os.path.exists(songbookFilename):
+    try:
         os.remove(songbookFilename)
+    except FileNotFoundError:
+        pass
     songbookFile = open(songbookFilename, "ab")
     songbookFile.write(headerFile.read())
     headerFile.close()
@@ -99,15 +101,13 @@ def main():
                     songFile = open(os.path.join(dataFolder, dirname, filename))
                     song = json.loads(songFile.read())
                     categories[song['category']][song['title']] = song
-
-    cats = []
-    if os.path.exists(os.path.join(dataFolder, configFilename)):
-        configFile = open(os.path.join(dataFolder, configFilename), "rb")
-        cats_text = deUTF8(configFile.read())
+    try:
+        with open(os.path.join(dataFolder, configFilename), "rb") as configFile:
+            cats_text = deUTF8(configFile.read())
+    except FileNotFoundError:
+        cats = sorted(categories.keys(), key=plSortKey)
+    else:
         cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
-
-    cats = cats or sorted(categories.keys(), key=plSortKey)
-    
     for cat in cats:
         print(cat)
         songbookFile.write(enUTF8(categoryToTex(cat)))
