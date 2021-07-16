@@ -18,7 +18,12 @@ def songToTex(songJSON):
         pass
     else:
         songStr += "\\begin{{flushright}}\n{author}\n\\end{{flushright}}".format(author = author)
-        
+    try:
+        capo = songJSON['capo']
+    except KeyError:
+        pass
+    else:
+        songStr += "\\begin{{flushright}}\n{capo}\n\\end{{flushright}}".format(capo = capo)     
     songStr += "\\begin{paracol}{2}\n"
     for section in songJSON['sections']:
         songStr += convertSection(section)

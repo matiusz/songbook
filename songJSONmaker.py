@@ -166,6 +166,10 @@ class Song(QWidget):
         self.authorBar = QLineEdit()
         self.authorBar.setPlaceholderText("Song Authors")
         layout.addWidget(self.authorBar)
+
+        self.capoBar = QLineEdit()
+        self.capoBar.setPlaceholderText("Capo")
+        layout.addWidget(self.capoBar)
         
         buttonBox = QHBoxLayout()
         
@@ -196,7 +200,10 @@ class Song(QWidget):
     def toJSON(self):
         jsonSong = {}
         jsonSong['title'] = self.titleBar.text()
-        jsonSong['author'] = self.authorBar.text()
+        if author := self.authorBar.text():
+            jsonSong["author"] = author
+        if capo := self.capoBar.text():
+            jsonSong['capo'] = capo
         jsonSong['category'] = self.catBar.currentText()
         jsonSong['sections'] = [section.toJSON() for section in self.sections if section]
         return jsonSong
@@ -210,6 +217,10 @@ class Song(QWidget):
                 self.authorBar.setText(jsonSong['author'])
             except KeyError:
                 self.authorBar.setText("")
+            try:
+                self.capoBar.setText(jsonSong['capo'])
+            except KeyError:
+                self.capoBar.setText("")
             for i, section in enumerate(self.sections):
                 section.setParent(None)
                 section.lyrics.deleteLater()
