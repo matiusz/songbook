@@ -1,4 +1,4 @@
-\documentclass{report}
+\documentclass[a4paper, twoside]{report}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{blindtext}
@@ -8,10 +8,18 @@
 \usepackage{changepage}
 \usepackage{graphicx}
 \usepackage{inconsolata}
+\usepackage{hyperref}
+
+\hypersetup{
+    hidelinks=true
+    linktoc=all
+}
+
 \graphicspath{{./data/.images/}}
 \setlength\parindent{0pt}
 
 \hbadness=15000  % or any number >=10000
+\vfuzz = 15pt
 
 % HACKING \adjustwidth
 \usepackage{etoolbox}
@@ -22,9 +30,10 @@
  \geometry{
  a4paper,
  total={170mm,257mm},
- left=20mm,
+ inner=20mm,
  top=20mm,
  }
+
 \begin{document}
 
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}

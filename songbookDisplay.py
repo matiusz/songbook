@@ -4,7 +4,7 @@ from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit,
                                 QHBoxLayout, QVBoxLayout, QPlainTextEdit, 
                                 QPushButton,QScrollArea, QLayout,  
                                 QComboBox, QFileDialog, QLabel)
-from PySide6.QtGui import QPixmap
+from PySide6.QtGui import QPalette, QPixmap
 from PySide6.QtCore import QSize, Qt
 
 import json
@@ -50,6 +50,8 @@ class ScrollableSong(QScrollArea):
     def __init__(self):
         super().__init__()
         self.song = Song(self)
+        self.setBackgroundRole(QPalette.Base)
+        self.setAutoFillBackground(True)
         self.setGeometry(300, 100, 500, 200)
         self.setWindowTitle('Song Field')
         self.setWidget(self.song)

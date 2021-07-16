@@ -1,3 +1,5 @@
+from plAlphabetSort import plSortKey
+
 def main():
     filename = 'songbook.toc'
 
@@ -5,7 +7,7 @@ def main():
         content = [line.decode('utf-8') for line in f.readlines() if "section" in line.decode("utf-8")]
 
     with open("songlist.toc", 'wb') as f:
-        for i in sorted(content):
+        for i in sorted(content, key=plSortKey):
             f.write(i.encode("utf-8"))
 
 
