@@ -1,4 +1,4 @@
-\documentclass[a4paper, twoside]{report}
+\documentclass[a4paper, twoside, 10pt]{report}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{blindtext}
