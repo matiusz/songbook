@@ -17,8 +17,6 @@ def main():
             os.remove(auxFil)
         except FileNotFoundError:
             pass
-        except Exception as ex:
-            raise ex
 
 if __name__=="__main__":
     main()

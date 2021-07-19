@@ -1,6 +1,3 @@
-from genericpath import exists
-import PySide6.QtWidgets
-
 from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit, 
                                 QHBoxLayout, QVBoxLayout, QPlainTextEdit, 
                                 QPushButton,QScrollArea, QLayout,  
@@ -84,7 +81,7 @@ class NewCategory(QWidget):
         layout.addWidget(self.label)
 
         self.image = QFileDialog()
-        self.image.setNameFilter("*.jpg *.png *.bmp")
+        self.image.setNameFilter("*.jpg *.png *.bmp *.tiff *.tif *.jpeg")
         self.image.setFileMode(QFileDialog.ExistingFile)
         self.image.fileSelected.connect(lambda: self.updateLabel())
         layout.addWidget(self.image)

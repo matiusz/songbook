@@ -73,7 +73,7 @@ def convertLineBreaks(text):
 def categoryToTex(category):
     catStr = "\\chapter*{{\centering {category}}}\n".format(category=category) + \
         "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=category) + \
-        "\\includegraphics[width=\\textwidth]{{{category}}}\n".format(category=category) + \
+        "{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{category}}} \\par}}\n".format(category=category) + \
         "\\newpage\n"
     return catStr
 
@@ -84,21 +84,17 @@ def main():
     dataFolder = "data"
     headerFile = open(headerFilename, "rb")
     songbookFilename = "songbook.tex"
-    try:
-        os.remove(songbookFilename)
-    except FileNotFoundError:
-        pass
-    songbookFile = open(songbookFilename, "ab")
+    songbookFile = open(songbookFilename, "wb")
     songbookFile.write(headerFile.read())
     headerFile.close()
     
     categories = defaultdict(lambda: {})
 
     for dirname in os.listdir(dataFolder):
-        if os.path.isdir(os.path.join(dataFolder, dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            for filename in os.listdir(os.path.join(dataFolder, dirname)):
+        if os.path.isdir(dirpath := os.path.join(dataFolder, dirname)) and not (dirname.startswith((".", "_"))):
+            for filename in os.listdir(dirpath):
                 if filename.endswith(".sng"):
-                    songFile = open(os.path.join(dataFolder, dirname, filename))
+                    songFile = open(os.path.join(dirpath, filename))
                     song = json.loads(songFile.read())
                     categories[song['category']][song['title']] = song
     try:
