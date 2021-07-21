@@ -1,8 +1,7 @@
 import os
 import json
 from collections import defaultdict
-import math
-
+import re
 from plAlphabetSort import plSortKey
 
 def enUTF8(st):
@@ -31,6 +30,16 @@ def songToTex(songJSON):
     songStr += "\\newpage\n"
     return songStr
 
+
+def superscriptSpecialChars(text):
+    specialChars = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", "*", "sus", "add", "/"]
+    chDict = {}
+    for idx, ch in enumerate(specialChars):
+        chDict[ch] = ("\\textsuperscript{{{char}}}".format(char = ch))
+    pattern = re.compile('|'.join(sorted([re.escape(key) for key in chDict.keys()], key=len, reverse=True)))
+    result = pattern.sub(lambda x: chDict[x.group()], text)
+    return result
+
 def convertSection(section):
     lyrics, l1 = convertLineBreaks(section['lyrics'])
     if section['chords']:
@@ -45,11 +54,11 @@ def convertSection(section):
     songStr += "\\end{leftcolumn*}\n"
     if chords:
         songStr += "\\begin{rightcolumn}\n"
-        
+        songStr += "\\begin{bfseries}\n"
         songStr += "\n\\ttfamily\n"
-        songStr += chords
+        songStr += superscriptSpecialChars(chords)
+        songStr += "\\end{bfseries}\n"
         songStr += "\\end{rightcolumn}\n"
-        
         songStr += "\n\\rmfamily\n"
     return songStr
 

@@ -4,7 +4,7 @@ from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit,
                                 QHBoxLayout, QVBoxLayout, QPlainTextEdit, 
                                 QPushButton,QScrollArea, QLayout,  
                                 QComboBox, QFileDialog, QLabel)
-from PySide6.QtGui import QPalette, QPixmap
+from PySide6.QtGui import QPalette, QPixmap, QFont
 from PySide6.QtCore import QSize, Qt
 
 import json
@@ -14,6 +14,7 @@ import os
 from functools import partial
 
 import re
+
 
 def getCategoriesFromDirs():
     categories = []
@@ -62,6 +63,7 @@ class Song(QWidget):
     def __init__(self, parent):
         super().__init__()
         self.parent = parent
+        self.resizeFactor = 1
         self.setGeometry(300, 100, 500, 100)
         self.setWindowTitle('Song Field')
         self.sections = []
@@ -80,7 +82,6 @@ class Song(QWidget):
         self.readySongsBar.currentTextChanged.connect(self.loadSong)
 
         shiftButtonBox = QHBoxLayout()
-
         
         pitchDownButton = QPushButton('Shift Down', self)
         pitchDownButton.clicked.connect(self.shiftDown)
@@ -91,15 +92,40 @@ class Song(QWidget):
         shiftButtonBox.addWidget(pitchDownButton)
         shiftButtonBox.addWidget(pitchUpButton)
 
-        layout.addWidget(self.readySongsBar)
+        resizeButtonBox = QHBoxLayout()
+
+        sizeUpButton = QPushButton('Size +', self)
+        sizeUpButton.clicked.connect(self.sizeUp)
         
+        sizeDownButton = QPushButton('Size -', self)
+        sizeDownButton.clicked.connect(self.sizeDown)
+
+        resizeButtonBox.addWidget(sizeDownButton)
+        resizeButtonBox.addWidget(sizeUpButton)
+
+        layout.addWidget(self.readySongsBar)
+
+        layout.addLayout(resizeButtonBox)
+
         layout.addLayout(shiftButtonBox)
+
 
         self.setLayout(layout)
         self.show()
     def updateChords(self):
         for i, section in enumerate(self.sections):
             section.chords.setText(chordShift(section.chords.text(), self.shift))
+    def sizeUp(self):
+        self.resizeFactor += 0.1
+        self.resizeSections()
+    def sizeDown(self):
+        self.resizeFactor += -0.1
+        self.resizeSections()
+    def resizeSections(self):
+        font = QFont("Times", 10*self.resizeFactor)
+        for i, section in enumerate(self.sections):
+            section.lyrics.setFont(font)
+            section.chords.setFont(font)
     def shiftUp(self):
         self.shift = 1
         self.updateChords()
@@ -129,8 +155,8 @@ class Song(QWidget):
                 sect = self.newSection(chorus=section['chorus'])
                 sect.lyrics.setText(section['lyrics'])
                 sect.chords.setText(chordShift(section['chords'], self.shift))
-
-            self.parent.setGeometry(300, 100, 500, 700)
+            self.resizeSections()
+            self.parent.setGeometry(300, 100, 500*self.resizeFactor, 600*self.resizeFactor)
             self.parent.repaint()
         else:
             for i, section in enumerate(self.sections):
@@ -146,8 +172,8 @@ class Song(QWidget):
         catSongs = getSongsFromCatDir(self.catBar.currentText())
         self.readySongsBar.addItem("")
         self.readySongsBar.addItems(catSongs)
-        self.parent.setGeometry(300, 100, 500, 200)
-        self.parent.repaint()
+        #self.parent.setGeometry(300, 100, 500, 200)
+        #self.parent.repaint()
 
 class SongSection(QHBoxLayout):
     def __init__(self, chorus = False):
@@ -155,9 +181,12 @@ class SongSection(QHBoxLayout):
         #self.addStrut(90)
         self.chorus = chorus
         self.lyrics = QLabel()
+        font = QFont()
+        self.lyrics.setFont(font)
         self.lyrics.setTextFormat(Qt.PlainText)
         self.lyrics.setAlignment(Qt.AlignTop | Qt.AlignLeft)
         self.chords = QLabel()
+        self.chords.setFont(font)
         self.chords.setTextFormat(Qt.PlainText)
         self.chords.setAlignment(Qt.AlignTop | Qt.AlignLeft)
         if self.chorus:
