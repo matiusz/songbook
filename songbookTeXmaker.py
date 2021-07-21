@@ -46,7 +46,7 @@ def convertSection(section):
         chords, l2 = convertLineBreaks(section['chords'])
     else:
         chords, l2 = "", 0
-    songStr = "\n\\ensurevspace{{{}\\baselineskip}}\n".format(max(l1, l2))
+    songStr = "\n\\ensurevspace{{{linecount}\\baselineskip}}\n".format(linecount = max(l1, l2))
     songStr += "\\begin{leftcolumn*}\n"
     if section['chorus']:
         lyrics = chorusWrapper(lyrics)

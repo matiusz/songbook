@@ -282,6 +282,7 @@ def main():
     else:
         existingCategories = [line.decode("utf-8").replace("\r", "").replace("\n", "") for line in f.readlines()]
         f.close()
+    [ensureDir(os.path.join("data", cat)) for cat in existingCategories]
     app.exec()
     f = open(os.path.join("data", "categories.cfg"), "ab")
     for dirname in os.listdir("data"):
