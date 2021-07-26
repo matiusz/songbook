@@ -4,6 +4,8 @@ from collections import defaultdict
 import re
 from plAlphabetSort import plSortKey
 
+from chordShift import chordShift, shiftChords
+
 def enUTF8(st):
     return st.encode('utf-8')
 def deUTF8(st):
@@ -41,9 +43,10 @@ def superscriptSpecialChars(text):
     return result
 
 def convertSection(section):
+    chordShift = 0
     lyrics, l1 = convertLineBreaks(section['lyrics'])
     if section['chords']:
-        chords, l2 = convertLineBreaks(section['chords'].replace("\\", "\\textbackslash "))
+        chords, l2 = convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "))
     else:
         chords, l2 = "", 0
     songStr = "\n\\ensurevspace{{{linecount}\\baselineskip}}\n".format(linecount = max(l1, l2))
@@ -114,15 +117,18 @@ def main():
         cats = sorted(categories.keys(), key=plSortKey)
     else:
         cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
+    songCount = 0
     for cat in cats:
         print(cat)
         songbookFile.write(enUTF8(categoryToTex(cat)))
         for song in sorted(categories[cat].keys(), key=plSortKey):
+            songCount += 1
             print("\t" + song)
             songbookFile.write(enUTF8(songToTex(categories[cat][song])))
     songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
     songbookFile.write(enUTF8("\\end{document}"))
     songbookFile.close()
+    print("Total number of songs: {songCount}".format(songCount=songCount))
 
 if __name__=="__main__":
     main()

@@ -13,8 +13,7 @@ import os
 
 from functools import partial
 
-import re
-
+from chordShift import shiftChords
 
 def getCategoriesFromDirs():
     categories = []
@@ -30,21 +29,6 @@ def getSongsFromCatDir(category):
             songs.append(songname[:-4])
     return songs
 
-
-def chordShift(chords, diff):
-    majChords = ['C', 'Cis', 'D', 'Dis', 'E', 'F', 'Fis', 'G', 'Gis', 'A', 'B', 'H']
-    minChords = [ch.lower() for ch in majChords]
-    chDict = {}
-    chDict['add'] = 'add'
-    chDict['sus'] = 'sus'
-    for idx, ch in enumerate(majChords):
-        chDict[ch] = majChords[(idx + diff) % len(majChords)]
-    for idx, ch in enumerate(minChords):
-        chDict[ch] = minChords[(idx + diff) % len(minChords)]
-        
-    pattern = re.compile('|'.join(sorted(chDict.keys(), key=len, reverse=True)))
-    result = pattern.sub(lambda x: chDict[x.group()], chords)
-    return result
 
 
 class ScrollableSong(QScrollArea):
@@ -114,7 +98,7 @@ class Song(QWidget):
         self.show()
     def updateChords(self):
         for i, section in enumerate(self.sections):
-            section.chords.setText(chordShift(section.chords.text(), self.shift))
+            section.chords.setText(shiftChords(section.chords.text(), self.shift))
     def sizeUp(self):
         self.resizeFactor += 0.1
         self.resizeSections()
@@ -154,7 +138,7 @@ class Song(QWidget):
             for section in jsonSong['sections']:
                 sect = self.newSection(chorus=section['chorus'])
                 sect.lyrics.setText(section['lyrics'])
-                sect.chords.setText(chordShift(section['chords'], self.shift))
+                sect.chords.setText(shiftChords(section['chords'], self.shift))
             self.resizeSections()
             self.parent.setGeometry(300, 100, 500*self.resizeFactor, 600*self.resizeFactor)
             self.parent.repaint()
