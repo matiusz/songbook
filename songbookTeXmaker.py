@@ -43,7 +43,7 @@ def superscriptSpecialChars(text):
 def convertSection(section):
     lyrics, l1 = convertLineBreaks(section['lyrics'])
     if section['chords']:
-        chords, l2 = convertLineBreaks(section['chords'])
+        chords, l2 = convertLineBreaks(section['chords'].replace("\\", "\\textbackslash "))
     else:
         chords, l2 = "", 0
     songStr = "\n\\ensurevspace{{{linecount}\\baselineskip}}\n".format(linecount = max(l1, l2))
