@@ -122,14 +122,16 @@ class ScrollableSong(QScrollArea):
         self.setWidget(self.song)
         self.setWidgetResizable(True)
         self.show()
-
-    def closeEvent(self, event):
-        preJSON = self.widget().toJSON()
+    def saveSong(self):
+        preJSON = self.song.toJSON()
         if preJSON['title']:
             path = os.path.join("data", preJSON['category'], preJSON['title'] + ".sng")
             ensureFileDir(path)
             f = open(path, "w")
             f.write(json.dumps(preJSON))
+        self.song.reloadSongs()
+    def closeEvent(self, event):
+        #self.saveSong()
         event.accept()
 
 
@@ -143,6 +145,11 @@ class Song(QWidget):
 
         layout = QVBoxLayout()
         layout.setSizeConstraint(QLayout.SetMinimumSize)
+        
+        self.changeCatBar = QComboBox()
+        self.changeCatBar.addItem("Change Category")
+        self.changeCatBar.addItems(getCategoriesFromDirs())
+        layout.addWidget(self.changeCatBar)
         
         self.catBar = QComboBox()
         self.catBar.addItems(getCategoriesFromDirs())
@@ -179,9 +186,13 @@ class Song(QWidget):
         
         layout.addLayout(buttonBox)
         
-        closeButton = QPushButton('Save and Quit', self)
+        closeButton = QPushButton('Quit', self)
         closeButton.clicked.connect(lambda: self.parent.close())
         layout.addWidget(closeButton)
+        
+        saveButton = QPushButton('Save', self)
+        saveButton.clicked.connect(lambda: self.parent.saveSong())
+        layout.addWidget(saveButton)
         
         self.setLayout(layout)
         self.show()
@@ -200,7 +211,11 @@ class Song(QWidget):
             jsonSong["author"] = author
         if capo := self.capoBar.text():
             jsonSong['capo'] = capo
-        jsonSong['category'] = self.catBar.currentText()
+        if (newCat := self.changeCatBar.currentText()) != "Change Category":
+            jsonSong["category"] = newCat
+            os.remove(os.path.join("data", self.catBar.currentText(), self.titleBar.text() + ".sng"))
+        else:
+            jsonSong['category'] = self.catBar.currentText()
         jsonSong['sections'] = [section.toJSON() for section in self.sections if section]
         return jsonSong
     def loadSong(self, songFilename):
@@ -236,6 +251,7 @@ class Song(QWidget):
             self.sections = []
             self.titleBar.setText("")
     def reloadSongs(self):
+        self.changeCatBar.setCurrentText("Change Category")
         self.readySongsBar.clear()
         catSongs = getSongsFromCatDir(self.catBar.currentText())
         self.readySongsBar.addItem("")

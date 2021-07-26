@@ -84,6 +84,7 @@ def categoryToTex(category):
         "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=category) + \
         "{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{category}}} \\par}}\n".format(category=category) + \
         "\\newpage\n"
+    #catStr += "\\cleardoublepage\n"
     return catStr
 
 
