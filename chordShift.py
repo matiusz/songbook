@@ -1,6 +1,8 @@
 import re
 
 def shiftChords(chords, diff):
+    if not diff:
+        return chords
     majChords = ['C', 'Cis', 'D', 'Dis', 'E', 'F', 'Fis', 'G', 'Gis', 'A', 'B', 'H']
     minChords = [ch.lower() for ch in majChords]
     chDict = {}

@@ -4,7 +4,7 @@ from collections import defaultdict
 import re
 from plAlphabetSort import plSortKey
 
-from chordShift import chordShift, shiftChords
+from chordShift import shiftChords
 
 def enUTF8(st):
     return st.encode('utf-8')
@@ -36,7 +36,7 @@ def songToTex(songJSON):
 def superscriptSpecialChars(text):
     specialChars = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", "*", "sus", "add", "/"]
     chDict = {}
-    for idx, ch in enumerate(specialChars):
+    for ch in specialChars:
         chDict[ch] = ("\\textsuperscript{{{char}}}".format(char = ch))
     pattern = re.compile('|'.join(sorted([re.escape(key) for key in chDict.keys()], key=len, reverse=True)))
     result = pattern.sub(lambda x: chDict[x.group()], text)
@@ -94,9 +94,10 @@ def categoryToTex(category):
 def main():
     configFilename = "categories.cfg"
     headerFilename = "latexheader.txt"
-    dataFolder = "data"
-    headerFile = open(headerFilename, "rb")
     songbookFilename = "songbook.tex"
+    dataFolder = "data"
+    
+    headerFile = open(headerFilename, "rb")
     songbookFile = open(songbookFilename, "wb")
     songbookFile.write(headerFile.read())
     headerFile.close()
@@ -107,7 +108,7 @@ def main():
         if os.path.isdir(dirpath := os.path.join(dataFolder, dirname)) and not (dirname.startswith((".", "_"))):
             for filename in os.listdir(dirpath):
                 if filename.endswith(".sng"):
-                    songFile = open(os.path.join(dirpath, filename))
+                    songFile = open(os.path.join(dirpath, filename), "r")
                     song = json.loads(songFile.read())
                     categories[song['category']][song['title']] = song
     try:
