@@ -1,12 +1,11 @@
-import songJSONmaker
+import songJSONmaker as jsonmaker
 
-songJSONmaker.main()
+jsonmaker.main()
 
-import songbookTeXmaker
+import songbookTeXmaker as texmaker
 
-songbookTeXmaker.main()
+texmaker.main()
 
-import TeXcompile
+import TeXcompile as texcompiler
 
-TeXcompile.main()
-
+texcompiler.main()
