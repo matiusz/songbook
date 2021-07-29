@@ -3,17 +3,12 @@
   ## songbook.py
   
   Script for running all the parts of the application.
-
-  ## songJSONmaker.py
-
-  Allows creating categories with pictures and converting songs from text to JSON to prepare them for later processing into TeX file. Song JSONs are saved with a .sng extension into respective directories.
-
-  ## songbookTeXmaker.py
-
-  Reads .sng files from all the subdirectories in current working directory and converts them to single tex file. Categories can be sorted manually by modifying generated categories.cfg file. Songs within each category are sorted alphabetically.
   
+  Opens GUI which enables creating and editing songs. After GUI is closed it creates a .tex file, then compiles it to pdf and removes any auxiliary files.
+
   ## Requirements
   
-  - Made using Python 3.9, should be compatible with most 3.x versoins.
-  - PySide6 for Python for generating song JSONs
-  - pdfTeX is required for the automated script
+  - Python 3.7+
+  - PySide6 (pip install PySide6) - GUI module
+  - aiofiles (pip install aiofiles) - module for async I/O operations on files
+  - pdfTeX (included with e.g. https://miktex.org/) - required for .tex -> .pdf compilation
