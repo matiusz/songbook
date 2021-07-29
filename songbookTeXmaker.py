@@ -124,7 +124,6 @@ async def asyncMain():
     async with aiofiles.open(songbookFilename, "wb") as songbookFile:
         async with aiofiles.open(headerFilename, "rb") as headerFile:
             await songbookFile.write(await headerFile.read())
-        headerFile.close()
     
         songbookDict = defaultdict(lambda: {})
 
@@ -151,7 +150,6 @@ async def asyncMain():
                 await songbookFile.write(enUTF8(songbookDict[cat][song].tex))
         await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
-        await songbookFile.close()
         print("Total number of songs: {songCount}".format(songCount=songCount))
     
 if __name__=="__main__":
