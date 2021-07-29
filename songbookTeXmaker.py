@@ -3,7 +3,6 @@ import json
 from collections import defaultdict
 import re
 from plAlphabetSort import plSortKey
-import timeit
 import asyncio
 import aiofiles
 
@@ -94,7 +93,8 @@ def categoryToTex(category):
     return catStr
 
 async def gatherCategories(dataFolder):
-    tasks = [gatherSongs(dirpath) for dirname in os.listdir(dataFolder) if os.path.isdir(dirpath := os.path.join(dataFolder, dirname)) and not (dirname.startswith((".", "_")))]
+    tasks = [gatherSongs(dirpath) for dirname in os.listdir(dataFolder) \
+        if os.path.isdir(dirpath := os.path.join(dataFolder, dirname)) and not (dirname.startswith((".", "_")))]
     categories = await asyncio.gather(*tasks)
     return categories
 
@@ -105,46 +105,54 @@ async def gatherSongs(dirpath):
 
 async def readSong(dirpath, filename):
     async with aiofiles.open(os.path.join(dirpath, filename), "r") as songFile:
-        song = json.loads(await songFile.read())
+        song = Song(await songFile.read())
     return song
+
+class Song:
+    def __init__(self, file):
+        self.dict = json.loads(file)
+        self.tex = songToTex(self.dict)
+
+def main():
+    asyncio.run(asyncMain())
 
 async def asyncMain():
     configFilename = "categories.cfg"
     headerFilename = "latexheader.txt"
     songbookFilename = "songbook.tex"
     dataFolder = "data"
-    async with aiofiles.open(headerFilename, "rb") as headerFile:
-        async with aiofiles.open(songbookFilename, "wb") as songbookFile:
+    async with aiofiles.open(songbookFilename, "wb") as songbookFile:
+        async with aiofiles.open(headerFilename, "rb") as headerFile:
             await songbookFile.write(await headerFile.read())
         headerFile.close()
     
-    songbookDict = defaultdict(lambda: {})
+        songbookDict = defaultdict(lambda: {})
 
-    gatheredSongs = await gatherCategories(dataFolder)
+        gatheredSongs = await gatherCategories(dataFolder)
 
-    for category in gatheredSongs:
-        for song in category:
-            songbookDict[song['category']][song['title']] = song
+        for category in gatheredSongs:
+            for song in category:
+                songbookDict[song.dict['category']][song.dict['title']] = song
 
-    try:
-        with open(os.path.join(dataFolder, configFilename), "rb") as configFile:
-            cats_text = deUTF8(configFile.read())
-    except FileNotFoundError:
-        cats = sorted(songbookDict.keys(), key=plSortKey)
-    else:
-        cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
-    songCount = 0
-    for cat in cats:
-        print(cat)
-        songbookFile.write(enUTF8(categoryToTex(cat)))
-        for song in sorted(songbookDict[cat].keys(), key=plSortKey):
-            songCount += 1
-            print("\t" + song)
-            songbookFile.write(enUTF8(songToTex(songbookDict[cat][song])))
-    songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
-    songbookFile.write(enUTF8("\\end{document}"))
-    songbookFile.close()
-    print("Total number of songs: {songCount}".format(songCount=songCount))
+        try:
+            async with aiofiles.open(os.path.join(dataFolder, configFilename), "rb") as configFile:
+                cats_text = deUTF8(await configFile.read())
+        except FileNotFoundError:
+            cats = sorted(songbookDict.keys(), key=plSortKey)
+        else:
+            cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
+        songCount = 0
+        for cat in cats:
+            print(cat)
+            await songbookFile.write(enUTF8(categoryToTex(cat)))
+            for song in sorted(songbookDict[cat].keys(), key=plSortKey):
+                songCount += 1
+                print("\t" + song)
+                await songbookFile.write(enUTF8(songbookDict[cat][song].tex))
+        await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
+        await songbookFile.write(enUTF8("\\end{document}"))
+        await songbookFile.close()
+        print("Total number of songs: {songCount}".format(songCount=songCount))
     
 if __name__=="__main__":
-    asyncio.run(asyncMain())
+    main()
