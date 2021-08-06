@@ -1,1 +1,37 @@
-{"title": "We wtorek w schronisku po sezonie", "author": "Wo\u0142osatki", "category": "Turystyczne", "sections": [{"chords": "C F C\ne F d G\nC F E a\nF G C G", "lyrics": "Z\u0142otym kobiercem wymoszczone g\u00f3ry\nJesie\u0144 w doliny zesz\u0142a dzi\u015b nad ranem\nBuki czerwieni\u0105 zabarwi\u0142y chmury\nZ latem si\u0119 z\u0142otym w\u0142a\u015bnie po\u017cegna\u0142em ", "chorus": false}, {"chords": "C F G C\na D G G7\nC F E a\nF G C G", "lyrics": "We wtorek w schronisku po sezonie\nW doliny wczoraj zszed\u0142 ostatni go\u015b\u0107\nZa oknem plucha kubek parzy w d\u0142onie\nI tej herbaty i tych g\u00f3r mam do\u015b\u0107 ", "chorus": true}, {"chords": "", "lyrics": "Szaruga niebo powoli zasnuwa\nWiatr ju\u017c ga\u0142\u0119zie pootrz\u0105sa\u0142 z li\u015bci\nPod wiatr pod g\u00f3r\u0119 znowu sam zasuwam\nmo\u017ce w schronisku spotkam kogo\u015b z bliskich", "chorus": false}, {"chords": "", "lyrics": "We wtorek w schronisku...", "chorus": true}, {"chords": "", "lyrics": "Ludzie tak wiele spraw musz\u0105 za\u0142atwi\u0107\nA czas p\u0142ynie wolno panta rei\nDo siebie tylko ju\u017c nie umiem trafi\u0107\nKocha\u0107 to wi\u0119cej z siebie da\u0107 czy mniej", "chorus": false}, {"chords": "", "lyrics": "We wtorek w schronisku...", "chorus": true}]}
+{
+    "title": "We wtorek w schronisku po sezonie",
+    "author": "Wo\u0142osatki",
+    "category": "Turystyczne",
+    "sections": [
+        {
+            "chords": "C F C\ne F d G\nC F E a\nF G C G",
+            "lyrics": "Z\u0142otym kobiercem wymoszczone g\u00f3ry\nJesie\u0144 w doliny zesz\u0142a dzi\u015b nad ranem\nBuki czerwieni\u0105 zabarwi\u0142y chmury\nZ latem si\u0119 z\u0142otym w\u0142a\u015bnie po\u017cegna\u0142em ",
+            "chorus": false
+        },
+        {
+            "chords": "C F G C\na D G G7\nC F E a\nF G C G",
+            "lyrics": "We wtorek w schronisku po sezonie\nW doliny wczoraj zszed\u0142 ostatni go\u015b\u0107\nZa oknem plucha kubek parzy w d\u0142onie\nI tej herbaty i tych g\u00f3r mam do\u015b\u0107 ",
+            "chorus": true
+        },
+        {
+            "chords": "C F C\ne F d G\nC F E a\nF G C G",
+            "lyrics": "Szaruga niebo powoli zasnuwa\nWiatr ju\u017c ga\u0142\u0119zie pootrz\u0105sa\u0142 z li\u015bci\nPod wiatr pod g\u00f3r\u0119 znowu sam zasuwam\nmo\u017ce w schronisku spotkam kogo\u015b z bliskich",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "We wtorek w schronisku...",
+            "chorus": true
+        },
+        {
+            "chords": "C F C\ne F d G\nC F E a\nF G C G",
+            "lyrics": "Ludzie tak wiele spraw musz\u0105 za\u0142atwi\u0107\nA czas p\u0142ynie wolno panta rei\nDo siebie tylko ju\u017c nie umiem trafi\u0107\nKocha\u0107 to wi\u0119cej z siebie da\u0107 czy mniej",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "We wtorek w schronisku...",
+            "chorus": true
+        }
+    ]
+}

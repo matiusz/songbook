@@ -1,1 +1,27 @@
-{"title": "Ale to ju\u017c by\u0142o", "author": "Maryla Rodowicz", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": " F G\n C G C\n F G\n e d\n F G\n e d\n F G", "lyrics": "Z wielu piec\u00f3w si\u0119 jad\u0142o chleb\nBo od lat przygl\u0105dam si\u0119 \u015bwiatu\nNieraz rano zabola\u0142 \u0142eb\nI m\u00f3wili zmiana klimatu \nCzasem zdarzy\u0142 si\u0119 wielki raut\nAlbo feta proletariatu \nCzasem podr\u00f3\u017c najlepszym z aut \nCz\u0119\u015bciej szare drogi powiatu \n", "chorus": false}, {"chords": "F\nG C\n e\n F C\n F\n G C\n e\n F C", "lyrics": "Ale to ju\u017c by\u0142o \nI nie wr\u00f3ci wi\u0119cej \nI cho\u0107 tyle si\u0119 zdarzy\u0142o\nTo do przodu wci\u0105\u017c wyrywa g\u0142upie serce\nAle to ju\u017c by\u0142o\nZnik\u0142o gdzie\u015b za nami\nCho\u0107 w papierach lat przyby\u0142o\nTo naprawd\u0119 wci\u0105\u017c jeste\u015bmy tacy sami", "chorus": true}, {"chords": " F G\n C G C\n F G\n e d\n F G\n e d\n F G", "lyrics": "Na regale kolekcja p\u0142yt\nI wywiad\u00f3w pe\u0142ne gazety\nZa oknami kolejny \u015bwit\nI w sypialni dzieci oddechy\nOne lec\u0105 droga do gwiazd\nPrzez niebieski ocean nieba\nAle przecie\u017c za jaki\u015b czas\nB\u0119d\u0105 mog\u0142y same za\u015bpiewa\u0107", "chorus": false}, {"chords": "", "lyrics": "Ale to ju\u017c by\u0142o...\n", "chorus": true}]}
+{
+    "title": "Ale to ju\u017c by\u0142o",
+    "author": "Maryla Rodowicz",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " F G\n C G C\n F G\n e d\n F G\n e d\n F G",
+            "lyrics": "Z wielu piec\u00f3w si\u0119 jad\u0142o chleb\nBo od lat przygl\u0105dam si\u0119 \u015bwiatu\nNieraz rano zabola\u0142 \u0142eb\nI m\u00f3wili zmiana klimatu \nCzasem zdarzy\u0142 si\u0119 wielki raut\nAlbo feta proletariatu \nCzasem podr\u00f3\u017c najlepszym z aut \nCz\u0119\u015bciej szare drogi powiatu \n",
+            "chorus": false
+        },
+        {
+            "chords": "F\nG C\n e\n F C\n F\n G C\n e\n F C",
+            "lyrics": "Ale to ju\u017c by\u0142o \nI nie wr\u00f3ci wi\u0119cej \nI cho\u0107 tyle si\u0119 zdarzy\u0142o\nTo do przodu wci\u0105\u017c wyrywa g\u0142upie serce\nAle to ju\u017c by\u0142o\nZnik\u0142o gdzie\u015b za nami\nCho\u0107 w papierach lat przyby\u0142o\nTo naprawd\u0119 wci\u0105\u017c jeste\u015bmy tacy sami",
+            "chorus": true
+        },
+        {
+            "chords": " F G\n C G C\n F G\n e d\n F G\n e d\n F G",
+            "lyrics": "Na regale kolekcja p\u0142yt\nI wywiad\u00f3w pe\u0142ne gazety\nZa oknami kolejny \u015bwit\nI w sypialni dzieci oddechy\nOne lec\u0105 droga do gwiazd\nPrzez niebieski ocean nieba\nAle przecie\u017c za jaki\u015b czas\nB\u0119d\u0105 mog\u0142y same za\u015bpiewa\u0107",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Ale to ju\u017c by\u0142o...\n",
+            "chorus": true
+        }
+    ]
+}

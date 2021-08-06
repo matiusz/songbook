@@ -1,1 +1,32 @@
-{"title": "Lipka", "author": "Cyrkiel", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": " e D e D\n G C H7\n e D e D\nC H7 e", "lyrics": "Z tamtej strony jeziora\nStoi lipka zielona\nA na tej lipce na tej zieloniutkiej\nTrzej ptaszkowie \u015bpiewaj\u0105 ", "chorus": false}, {"chords": " e D e D\n G C H7\n e D e D\nC H7 e", "lyrics": "Nie byli to ptaszkowie\nJeno trzej braciszkowie\nCo si\u0119 spierali o jedn\u0105 dziewczyn\u0119\nKt\u00f3ry ci j\u0105 dostanie", "chorus": false}, {"chords": " e D e D\n G C H7\n e D e D\nC H7 e", "lyrics": "Jeden m\u00f3wi - ty\u015b moja\nDrugi m\u00f3wi - jak B\u00f3g da\nA trzeci m\u00f3wi - moja najmilejsza\nCzemu\u015b ty dzi\u015b tak smutna", "chorus": false}, {"chords": " e D e D\n G C H7\n e D e D\nC H7 e", "lyrics": "Jak\u017ce nie mam smutna by\u0107\nZa starego ka\u017c\u0105 i\u015b\u0107\nCzasu tak niewiele jeszcze dwie niedziele\nMog\u0119 mi\u0142y z tob\u0105 by\u0107", "chorus": false}, {"chords": " e D e D\n G C H7\n e D e D\nC H7 e", "lyrics": "Z tamtej strony jeziora\nStoi lipka zielona\nA na tej lipce na tej zieloniutkiej\nTrzej ptaszkowie \u015bpiewaj\u0105", "chorus": false}]}
+{
+    "title": "Lipka",
+    "author": "Cyrkiel",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " e D e D\n G C H7\n e D e D\nC H7 e",
+            "lyrics": "Z tamtej strony jeziora\nStoi lipka zielona\nA na tej lipce na tej zieloniutkiej\nTrzej ptaszkowie \u015bpiewaj\u0105 ",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n G C H7\n e D e D\nC H7 e",
+            "lyrics": "Nie byli to ptaszkowie\nJeno trzej braciszkowie\nCo si\u0119 spierali o jedn\u0105 dziewczyn\u0119\nKt\u00f3ry ci j\u0105 dostanie",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n G C H7\n e D e D\nC H7 e",
+            "lyrics": "Jeden m\u00f3wi - ty\u015b moja\nDrugi m\u00f3wi - jak B\u00f3g da\nA trzeci m\u00f3wi - moja najmilejsza\nCzemu\u015b ty dzi\u015b tak smutna",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n G C H7\n e D e D\nC H7 e",
+            "lyrics": "Jak\u017ce nie mam smutna by\u0107\nZa starego ka\u017c\u0105 i\u015b\u0107\nCzasu tak niewiele jeszcze dwie niedziele\nMog\u0119 mi\u0142y z tob\u0105 by\u0107",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n G C H7\n e D e D\nC H7 e",
+            "lyrics": "Z tamtej strony jeziora\nStoi lipka zielona\nA na tej lipce na tej zieloniutkiej\nTrzej ptaszkowie \u015bpiewaj\u0105",
+            "chorus": false
+        }
+    ]
+}

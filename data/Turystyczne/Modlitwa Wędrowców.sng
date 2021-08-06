@@ -1,1 +1,37 @@
-{"title": "Modlitwa w\u0119drowc\u00f3w", "author": "My\u015bli Rozczochrane Wiatrem Zapisane", "category": "Turystyczne", "sections": [{"chords": "a d a\nd e d a", "lyrics": "I daj nam, Panie, odkry\u0107 nowy szlak\n \u015bpiewa\u0107 po\u0142oninom w\u015br\u00f3d rzek i polnych traw", "chorus": true}, {"chords": "a d e a\nF G a\na d e a\na d e a", "lyrics": "Kiedy z cich\u0105 jutrzenk\u0105 wyruszymy w drog\u0119,\nrozpal w sercach w\u0119drowc\u00f3w \u017cywy, jasny ogie\u0144\nTy, co z nieba spogl\u0105dasz, stopy nasze prowad\u017a,\nkroki miej w opiece, od z\u0142ego nas zachowaj ", "chorus": false}, {"chords": "", "lyrics": "Uka\u017c Twe drogowskazy, wszak szlak w\u0142\u00f3cz\u0119g\u00f3w znasz\nI b\u0105d\u017a pochwalony, Panie, przez brata wiatr\nniech s\u0142awi Ci\u0119 wierzba, \u0142za jej rzewna,\ndrewniana kapliczka, Madonna starocerkiewna", "chorus": false}, {"chords": "", "lyrics": "Niech gwiazdy i ksi\u0119\u017cyc, zorza poranna\n\u015bl\u0105 przez doliny radosne \u2018Hosanna\u2019\na gdy ptaki podniebne znu\u017c\u0105 si\u0119 lotem\nniechaj \u0142any pszenicy wielbi\u0105 Ciebie z\u0142otem", "chorus": false}, {"chords": "", "lyrics": "O powrot z w\u0119drowki modli\u0107 nam si\u0119 trzeba...\nSpraw, o Mi\u0142osierny, by nie zabrak\u0142o chleba!\na gdy wargi strumieniom spierzchn\u0105 z pragnienia,\nho\u0142d niech Ci oddaje sp\u0119kana Matka Ziemia", "chorus": false}, {"chords": "", "lyrics": "Kiedy powieki zamkniemy pod sennym kurhanem\nna drug\u0105 stron\u0119 s\u0142o\u0144ca wprowad\u017a nas, o Panie\nA gdy lasy zastygn\u0105 w \u015bwi\u0119tym milczeniu\nniech wieki schyl\u0105 g\u0142owy w niemym uwielbieniu", "chorus": false}]}
+{
+    "title": "Modlitwa w\u0119drowc\u00f3w",
+    "author": "My\u015bli Rozczochrane Wiatrem Zapisane",
+    "category": "Turystyczne",
+    "sections": [
+        {
+            "chords": "a d a\nd e d a",
+            "lyrics": "I daj nam, Panie, odkry\u0107 nowy szlak\n \u015bpiewa\u0107 po\u0142oninom w\u015br\u00f3d rzek i polnych traw",
+            "chorus": true
+        },
+        {
+            "chords": "a d e a\nF G a\na d e a\na d e a",
+            "lyrics": "Kiedy z cich\u0105 jutrzenk\u0105 wyruszymy w drog\u0119,\nrozpal w sercach w\u0119drowc\u00f3w \u017cywy, jasny ogie\u0144\nTy, co z nieba spogl\u0105dasz, stopy nasze prowad\u017a,\nkroki miej w opiece, od z\u0142ego nas zachowaj ",
+            "chorus": false
+        },
+        {
+            "chords": "a d e a\nF G a\na d e a\na d e a",
+            "lyrics": "Uka\u017c Twe drogowskazy, wszak szlak w\u0142\u00f3cz\u0119g\u00f3w znasz\nI b\u0105d\u017a pochwalony, Panie, przez brata wiatr\nniech s\u0142awi Ci\u0119 wierzba, \u0142za jej rzewna,\ndrewniana kapliczka, Madonna starocerkiewna",
+            "chorus": false
+        },
+        {
+            "chords": "a d e a\nF G a\na d e a\na d e a",
+            "lyrics": "Niech gwiazdy i ksi\u0119\u017cyc, zorza poranna\n\u015bl\u0105 przez doliny radosne \u2018Hosanna\u2019\na gdy ptaki podniebne znu\u017c\u0105 si\u0119 lotem\nniechaj \u0142any pszenicy wielbi\u0105 Ciebie z\u0142otem",
+            "chorus": false
+        },
+        {
+            "chords": "a d e a\nF G a\na d e a\na d e a",
+            "lyrics": "O powrot z w\u0119drowki modli\u0107 nam si\u0119 trzeba...\nSpraw, o Mi\u0142osierny, by nie zabrak\u0142o chleba!\na gdy wargi strumieniom spierzchn\u0105 z pragnienia,\nho\u0142d niech Ci oddaje sp\u0119kana Matka Ziemia",
+            "chorus": false
+        },
+        {
+            "chords": "a d e a\nF G a\na d e a\na d e a",
+            "lyrics": "Kiedy powieki zamkniemy pod sennym kurhanem\nna drug\u0105 stron\u0119 s\u0142o\u0144ca wprowad\u017a nas, o Panie\nA gdy lasy zastygn\u0105 w \u015bwi\u0119tym milczeniu\nniech wieki schyl\u0105 g\u0142owy w niemym uwielbieniu",
+            "chorus": false
+        }
+    ]
+}

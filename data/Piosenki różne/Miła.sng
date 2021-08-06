@@ -1,1 +1,37 @@
-{"title": "Mi\u0142a", "author": "oryg. Karel Kryl, wersja polska Antonina Krzyszto\u0144, EKT Gdynia", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": " e\n H7\n a\n G H7", "lyrics": "Szczur ko\u0144czy gulasz md\u0142y ju\u017c pora wyj\u015b\u0107 z kantyny\nKarcianej zapis gry na li\u015bcie od dziewczyny\nPrzed nami d\u0142uga noc ruszamy jutro z rana\nPod szary wpe\u0142zasz koc co skrywa grzech Onana", "chorus": false}, {"chords": " e a H7\n a H7\n G D e\n D H7\n e a H7\n a H7\n G D e\n D H7 e", "lyrics": "Mi\u0142a nie przychod\u017a na wo\u0142anie \nMi\u0142a wojenka moja pani\nZ ni\u0105 si\u0119 kocha\u0107 chc\u0119\nGdy w nocy si\u0119 budz\u0119\nMi\u0142a tw\u0105 posta\u0107 widz\u0119 we \u015bnie \nMi\u0142a dojrza\u0142e dwie czere\u015bnie \nWe\u017amiesz z d\u0142oni mej \nGdy kiedy\u015b powr\u00f3c\u0119", "chorus": true}, {"chords": " e\n H7\n a\n G H7", "lyrics": "Dwadzie\u015bcia prawie lat i w czapk\u0119 znaczek wpi\u0119ty\nPapieros w k\u0105cie warg niedbale u\u015bmiechni\u0119tych\nObija si\u0119 o bok nabite parabellum\n\u015apiewamy id\u0105c w krok dwa metry od burdelu", "chorus": false}, {"chords": "", "lyrics": "Mi\u0142a nie przychod\u017a na wo\u0142anie...", "chorus": true}, {"chords": " e\n H7\n a\n G H7", "lyrics": "Ju\u017c dojad\u0142 resztki szczur do koszar powracamy\nNa \u015bcianach latryn wz\u00f3r z napis\u00f3w nie dla damy\nNa sen nam czasu brak kostucha ko\u015bci liczy\nPijani w drobny mak walimy si\u0119 na prycze\n", "chorus": false}, {"chords": "", "lyrics": "Mi\u0142a nie przychod\u017a na wo\u0142anie...", "chorus": true}]}
+{
+    "title": "Mi\u0142a",
+    "author": "oryg. Karel Kryl, wersja polska Antonina Krzyszto\u0144, EKT Gdynia",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " e\n H7\n a\n G H7",
+            "lyrics": "Szczur ko\u0144czy gulasz md\u0142y ju\u017c pora wyj\u015b\u0107 z kantyny\nKarcianej zapis gry na li\u015bcie od dziewczyny\nPrzed nami d\u0142uga noc ruszamy jutro z rana\nPod szary wpe\u0142zasz koc co skrywa grzech Onana",
+            "chorus": false
+        },
+        {
+            "chords": " e a H7\n a H7\n G D e\n D H7\n e a H7\n a H7\n G D e\n D H7 e",
+            "lyrics": "Mi\u0142a nie przychod\u017a na wo\u0142anie \nMi\u0142a wojenka moja pani\nZ ni\u0105 si\u0119 kocha\u0107 chc\u0119\nGdy w nocy si\u0119 budz\u0119\nMi\u0142a tw\u0105 posta\u0107 widz\u0119 we \u015bnie \nMi\u0142a dojrza\u0142e dwie czere\u015bnie \nWe\u017amiesz z d\u0142oni mej \nGdy kiedy\u015b powr\u00f3c\u0119",
+            "chorus": true
+        },
+        {
+            "chords": " e\n H7\n a\n G H7",
+            "lyrics": "Dwadzie\u015bcia prawie lat i w czapk\u0119 znaczek wpi\u0119ty\nPapieros w k\u0105cie warg niedbale u\u015bmiechni\u0119tych\nObija si\u0119 o bok nabite parabellum\n\u015apiewamy id\u0105c w krok dwa metry od burdelu",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Mi\u0142a nie przychod\u017a na wo\u0142anie...",
+            "chorus": true
+        },
+        {
+            "chords": " e\n H7\n a\n G H7",
+            "lyrics": "Ju\u017c dojad\u0142 resztki szczur do koszar powracamy\nNa \u015bcianach latryn wz\u00f3r z napis\u00f3w nie dla damy\nNa sen nam czasu brak kostucha ko\u015bci liczy\nPijani w drobny mak walimy si\u0119 na prycze\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Mi\u0142a nie przychod\u017a na wo\u0142anie...",
+            "chorus": true
+        }
+    ]
+}

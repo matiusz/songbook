@@ -1,1 +1,31 @@
-{"title": "U studni", "category": "SDM", "sections": [{"chords": "E A\nE\nE\nA H", "lyrics": "Spotkamy si\u0119 kiedy\u015b u studni\nWko\u0142o b\u0119dzie zielono\nNasze \u017cony b\u0119d\u0105 od\u015bwi\u0119tne\nNawet w\u00f3dk\u0119 wypi\u0107 pozwol\u0105 ", "chorus": false}, {"chords": "E A\nE\nE\nA H", "lyrics": "Spotkamy si\u0119 kiedy\u015b u studni\nTakiej zwyk\u0142ej - z ko\u0142owrotem\nWoda w niej b\u0119dzie ch\u0142odna\nW \u015bwiat uwierzymy z powrotem", "chorus": false}, {"chords": "A\nH E\nA\nH E", "lyrics": "Spotkamy si\u0119 u studni\nBy\u0107 mo\u017ce \u017ce na drugim \u015bwiecie\nB\u00f3g przecie\u017c jest \u0142askawy\nI pewnie da nam t\u0119 pociech\u0119 ", "chorus": true}, {"chords": "E A\nE\nE\nA H", "lyrics": "Spotkamy si\u0119 kiedy\u015b u studni\nZ wiecznie \u017cyw\u0105 wod\u0105\nBellona te\u017c zaprosimy\nOn przecie\u017c b\u0119dzie polewa\u0142 ", "chorus": false}, {"chords": "A\nH E\nA\nH E", "lyrics": "Spotkamy si\u0119 u studni\nI b\u0119dziemy zn\u00f3w tacy m\u0142odzi\nNasze \u017cony b\u0119d\u0105 pi\u0119kne\nNam w\u00f3dka nie b\u0119dzie szkodzi\u0107", "chorus": true}]}
+{
+    "title": "U studni",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "E A\nE\nE\nA H",
+            "lyrics": "Spotkamy si\u0119 kiedy\u015b u studni\nWko\u0142o b\u0119dzie zielono\nNasze \u017cony b\u0119d\u0105 od\u015bwi\u0119tne\nNawet w\u00f3dk\u0119 wypi\u0107 pozwol\u0105 ",
+            "chorus": false
+        },
+        {
+            "chords": "E A\nE\nE\nA H",
+            "lyrics": "Spotkamy si\u0119 kiedy\u015b u studni\nTakiej zwyk\u0142ej - z ko\u0142owrotem\nWoda w niej b\u0119dzie ch\u0142odna\nW \u015bwiat uwierzymy z powrotem",
+            "chorus": false
+        },
+        {
+            "chords": "A\nH E\nA\nH E",
+            "lyrics": "Spotkamy si\u0119 u studni\nBy\u0107 mo\u017ce \u017ce na drugim \u015bwiecie\nB\u00f3g przecie\u017c jest \u0142askawy\nI pewnie da nam t\u0119 pociech\u0119 ",
+            "chorus": true
+        },
+        {
+            "chords": "E A\nE\nE\nA H",
+            "lyrics": "Spotkamy si\u0119 kiedy\u015b u studni\nZ wiecznie \u017cyw\u0105 wod\u0105\nBellona te\u017c zaprosimy\nOn przecie\u017c b\u0119dzie polewa\u0142 ",
+            "chorus": false
+        },
+        {
+            "chords": "A\nH E\nA\nH E",
+            "lyrics": "Spotkamy si\u0119 u studni\nI b\u0119dziemy zn\u00f3w tacy m\u0142odzi\nNasze \u017cony b\u0119d\u0105 pi\u0119kne\nNam w\u00f3dka nie b\u0119dzie szkodzi\u0107",
+            "chorus": true
+        }
+    ]
+}

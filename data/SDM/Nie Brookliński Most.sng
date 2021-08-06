@@ -1,1 +1,36 @@
-{"title": "Nie brookli\u0144ski most", "category": "SDM", "sections": [{"chords": "d\nC\nd\nC d", "lyrics": "Rozdzieraj\u0105cy\nJak tygrysa pazur\nAntylopy plecy\nJest smutek cz\u0142owieczy.", "chorus": false}, {"chords": "C d\nC d\nC d\nC d", "lyrics": "Nie brookli\u0144ski most\nAle przemieni\u0107 w jasny, nowy dzie\u0144\nNajsmutniejsz\u0105 noc\nTo jest dopiero co\u015b! ", "chorus": true}, {"chords": "d\nC\nd\nC d", "lyrics": "Przera\u017caj\u0105cy\nJak ozdoba \u015bwiata\nCo w malignie bredzi\nJest ob\u0142\u0119d cz\u0142owieczy.", "chorus": false}, {"chords": "C d\nC d\nC d\nC d", "lyrics": "Nie brookli\u0144ski most\nLecz na drug\u0105 stron\u0119\nG\u0142ow\u0105 przebi\u0107 si\u0119\nPrzez ob\u0142\u0119du los -\nTo jest dopiero co\u015b!", "chorus": true}, {"chords": "d\nC\nd\nC d", "lyrics": "B\u0119dziemy smuci\u0107 si\u0119 starannie!\nB\u0119dziemy szale\u0107 nienagannie!\nB\u0119dziemy naprz\u00f3d nies\u0142ychanie!\nKu polanie ", "chorus": false}, {"chords": "C d\nC d\nC d\nC d", "lyrics": "Nie brookli\u0144ski most\nLecz na drug\u0105 stron\u0119\nG\u0142ow\u0105 przebi\u0107 si\u0119\nPrzez ob\u0142\u0119du los -\nTo jest dopiero co\u015b!", "chorus": true}]}
+{
+    "title": "Nie brookli\u0144ski most",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "d\nC\nd\nC d",
+            "lyrics": "Rozdzieraj\u0105cy\nJak tygrysa pazur\nAntylopy plecy\nJest smutek cz\u0142owieczy.",
+            "chorus": false
+        },
+        {
+            "chords": "C d\nC d\nC d\nC d",
+            "lyrics": "Nie brookli\u0144ski most\nAle przemieni\u0107 w jasny, nowy dzie\u0144\nNajsmutniejsz\u0105 noc\nTo jest dopiero co\u015b! ",
+            "chorus": true
+        },
+        {
+            "chords": "d\nC\nd\nC d",
+            "lyrics": "Przera\u017caj\u0105cy\nJak ozdoba \u015bwiata\nCo w malignie bredzi\nJest ob\u0142\u0119d cz\u0142owieczy.",
+            "chorus": false
+        },
+        {
+            "chords": "C d\nC d\nC d\nC d",
+            "lyrics": "Nie brookli\u0144ski most\nLecz na drug\u0105 stron\u0119\nG\u0142ow\u0105 przebi\u0107 si\u0119\nPrzez ob\u0142\u0119du los -\nTo jest dopiero co\u015b!",
+            "chorus": true
+        },
+        {
+            "chords": "d\nC\nd\nC d",
+            "lyrics": "B\u0119dziemy smuci\u0107 si\u0119 starannie!\nB\u0119dziemy szale\u0107 nienagannie!\nB\u0119dziemy naprz\u00f3d nies\u0142ychanie!\nKu polanie ",
+            "chorus": false
+        },
+        {
+            "chords": "C d\nC d\nC d\nC d",
+            "lyrics": "Nie brookli\u0144ski most\nLecz na drug\u0105 stron\u0119\nG\u0142ow\u0105 przebi\u0107 si\u0119\nPrzez ob\u0142\u0119du los -\nTo jest dopiero co\u015b!",
+            "chorus": true
+        }
+    ]
+}

@@ -1,1 +1,37 @@
-{"title": "Piosenka z szabli", "author": "Pawe\u0142 Orkisz", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": " e D e D\n e D H7\n G D a\n H7 e", "lyrics": "Niech w ksi\u0119gach wiedzy szpera rabin\nNauka to jest wymys\u0142 diabli\nM\u0105dro\u015bci\u0105 moj\u0105 jest karabin karabin \nI klinga ukochanej szabli", "chorus": false}, {"chords": " e D e D\n e D H7\n G D a\n H7 e", "lyrics": "Nie dbam o szar\u017c\u0119 ni o gwiazdk\u0119\nCo kiedy\u015b mi przystroj\u0105 ko\u0142nierz\nWy piszcie klechdy i powiastki powiastki\nJa bij\u0119 si\u0119 jak musi \u017co\u0142nierz", "chorus": false}, {"chords": " e D e D\n e D H7\n G D a\n H7 e", "lyrics": "Nie t\u0119skni\u0119 do kawiarni gwarnej\nGdzie mieszka banda dziwol\u0105g\u00f3w\nGardz\u0119 zapachem buduar\u00f3w buduar\u00f3w\nGdzie Ania psoci w\u015br\u00f3d szezlong\u00f3w", "chorus": false}, {"chords": " e D e D\n e D H7\n G D a\n H7 e", "lyrics": "Nie n\u0119c\u0105 mnie zalety babin\nKobieta zdradn\u0105 bierz j\u0105 diabli\nKochank\u0105 moj\u0105 jest karabin karabin\nI klinga ukochanej szabli", "chorus": false}, {"chords": " e D e D\n e D H7\n G D a\n H7 e", "lyrics": "Niejeden wr\u00f3g mia\u0142 na mnie chrapk\u0119\nA teraz j\u0119czy w piekle na dnie\nZe \u015bmierci\u0105 igram w ciuciubabk\u0119 ciuciubabk\u0119\nWi\u0119c mo\u017ce wkr\u00f3tce mnie dopadnie", "chorus": false}, {"chords": " e D e D\n e D H7\n G D a\n H7 e", "lyrics": "Ksi\u0105dz niech mnie grzebie albo rabin\n\u017bo\u0142nierza si\u0119 nie czepi\u0105 diabli\nLecz w gr\u00f3b po\u0142\u00f3\u017ccie mi karabin karabin\nI kling\u0119 ukochanej szabli", "chorus": false}]}
+{
+    "title": "Piosenka z szabli",
+    "author": "Pawe\u0142 Orkisz",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " e D e D\n e D H7\n G D a\n H7 e",
+            "lyrics": "Niech w ksi\u0119gach wiedzy szpera rabin\nNauka to jest wymys\u0142 diabli\nM\u0105dro\u015bci\u0105 moj\u0105 jest karabin karabin \nI klinga ukochanej szabli",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n e D H7\n G D a\n H7 e",
+            "lyrics": "Nie dbam o szar\u017c\u0119 ni o gwiazdk\u0119\nCo kiedy\u015b mi przystroj\u0105 ko\u0142nierz\nWy piszcie klechdy i powiastki powiastki\nJa bij\u0119 si\u0119 jak musi \u017co\u0142nierz",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n e D H7\n G D a\n H7 e",
+            "lyrics": "Nie t\u0119skni\u0119 do kawiarni gwarnej\nGdzie mieszka banda dziwol\u0105g\u00f3w\nGardz\u0119 zapachem buduar\u00f3w buduar\u00f3w\nGdzie Ania psoci w\u015br\u00f3d szezlong\u00f3w",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n e D H7\n G D a\n H7 e",
+            "lyrics": "Nie n\u0119c\u0105 mnie zalety babin\nKobieta zdradn\u0105 bierz j\u0105 diabli\nKochank\u0105 moj\u0105 jest karabin karabin\nI klinga ukochanej szabli",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n e D H7\n G D a\n H7 e",
+            "lyrics": "Niejeden wr\u00f3g mia\u0142 na mnie chrapk\u0119\nA teraz j\u0119czy w piekle na dnie\nZe \u015bmierci\u0105 igram w ciuciubabk\u0119 ciuciubabk\u0119\nWi\u0119c mo\u017ce wkr\u00f3tce mnie dopadnie",
+            "chorus": false
+        },
+        {
+            "chords": " e D e D\n e D H7\n G D a\n H7 e",
+            "lyrics": "Ksi\u0105dz niech mnie grzebie albo rabin\n\u017bo\u0142nierza si\u0119 nie czepi\u0105 diabli\nLecz w gr\u00f3b po\u0142\u00f3\u017ccie mi karabin karabin\nI kling\u0119 ukochanej szabli",
+            "chorus": false
+        }
+    ]
+}

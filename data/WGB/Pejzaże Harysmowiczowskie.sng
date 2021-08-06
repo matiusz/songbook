@@ -1,1 +1,27 @@
-{"title": "Pejza\u017ce harysmowiczowskie", "author": "Wolna Grupa Bukowina", "category": "WGB", "sections": [{"chords": " G D \n C e \n G D \n e C D \n G D\n C e\n G D\n e C D\n", "lyrics": "Kiedy sta\u0142em w przed\u015bwicie a Synaj\nPrawd\u0119 g\u0142osi\u0142 przez tr\u0105by wiatru\nZasmreczy\u0142y si\u0119 chmur igliwiem\nBure \u015bwierki o g\u00f3ry wsparte\nI na niebie by\u0142em ja jeden\nPlot\u0105c pie\u015bni w warkocze bukowe\nI schodzi\u0142em na ziemie za kwest\u0105\nPrzez skrzydl\u0105c\u0105 si\u0119 bram\u0119 Lackowej", "chorus": false}, {"chords": " G C G \n G C D\n D \n C D G \n", "lyrics": "I by\u0142 Beskid i by\u0142y s\u0142owa\nZanurzone po p\u0119pki w cerkwi baniach\nRoz\u0142o\u017cy\u015bcie z\u0142otych\nSmagaj\u0105cych si\u0119 wiatrem do krwi.", "chorus": true}, {"chords": " G D \n C e G \n G D\n e C D\n G D\n C e\n G D\n e C ", "lyrics": "Moje my\u015bli biega\u0142y ko\u0144mi\nPo niebieskich mokrych po\u0142oninach\nI modli\u0142em si\u0119 z\u0142o\u017cywszy d\u0142onie\nDo g\u00f3r, do Madonny brunatnolicej\nA gdy serce kroplami t\u0119sknoty\nJ\u0119\u0142o spada\u0107 na g\u00f3ry sine\nCzarodziejskim kwiatem paproci\nRozgwie\u017adzi\u0142a si\u0119 Bukowina", "chorus": false}, {"chords": "", "lyrics": "I by\u0142 Beskid i by\u0142y s\u0142owa..", "chorus": true}]}
+{
+    "title": "Pejza\u017ce harysmowiczowskie",
+    "author": "Wolna Grupa Bukowina",
+    "category": "WGB",
+    "sections": [
+        {
+            "chords": " G D \n C e \n G D \n e C D \n G D\n C e\n G D\n e C D\n",
+            "lyrics": "Kiedy sta\u0142em w przed\u015bwicie a Synaj\nPrawd\u0119 g\u0142osi\u0142 przez tr\u0105by wiatru\nZasmreczy\u0142y si\u0119 chmur igliwiem\nBure \u015bwierki o g\u00f3ry wsparte\nI na niebie by\u0142em ja jeden\nPlot\u0105c pie\u015bni w warkocze bukowe\nI schodzi\u0142em na ziemie za kwest\u0105\nPrzez skrzydl\u0105c\u0105 si\u0119 bram\u0119 Lackowej",
+            "chorus": false
+        },
+        {
+            "chords": " G C G \n G C D\n D \n C D G \n",
+            "lyrics": "I by\u0142 Beskid i by\u0142y s\u0142owa\nZanurzone po p\u0119pki w cerkwi baniach\nRoz\u0142o\u017cy\u015bcie z\u0142otych\nSmagaj\u0105cych si\u0119 wiatrem do krwi.",
+            "chorus": true
+        },
+        {
+            "chords": " G D \n C e G \n G D\n e C D\n G D\n C e\n G D\n e C ",
+            "lyrics": "Moje my\u015bli biega\u0142y ko\u0144mi\nPo niebieskich mokrych po\u0142oninach\nI modli\u0142em si\u0119 z\u0142o\u017cywszy d\u0142onie\nDo g\u00f3r, do Madonny brunatnolicej\nA gdy serce kroplami t\u0119sknoty\nJ\u0119\u0142o spada\u0107 na g\u00f3ry sine\nCzarodziejskim kwiatem paproci\nRozgwie\u017adzi\u0142a si\u0119 Bukowina",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I by\u0142 Beskid i by\u0142y s\u0142owa..",
+            "chorus": true
+        }
+    ]
+}

@@ -1,1 +1,23 @@
-{"title": "Co lubi\u0119 najbardziej", "author": "A. Wyrwol", "capo": "Capo III", "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie", "sections": [{"chords": "C F G\nC F\nC G\nC", "lyrics": "Hej, \u015bpiewanie piosenek i picie alkoholu,\nTo jest to co lubi\u0119 najbardziej,\nTo jest to co lubie najbardziej,\nPi\u0107 alkohol", "chorus": false}, {"chords": "b", "lyrics": "I do tego chodzi\u0107 po g\u00f3rach", "chorus": true}, {"chords": "C F G\nC", "lyrics": "To koliiiba,\nHawiarska Koliba", "chorus": false}]}
+{
+    "title": "Co lubi\u0119 najbardziej",
+    "author": "A. Wyrwol",
+    "capo": "Capo III",
+    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "sections": [
+        {
+            "chords": "C F G\nC F\nC G\nC",
+            "lyrics": "Hej, \u015bpiewanie piosenek i picie alkoholu,\nTo jest to co lubi\u0119 najbardziej,\nTo jest to co lubie najbardziej,\nPi\u0107 alkohol",
+            "chorus": false
+        },
+        {
+            "chords": "b",
+            "lyrics": "I do tego chodzi\u0107 po g\u00f3rach",
+            "chorus": true
+        },
+        {
+            "chords": "C F G\nC",
+            "lyrics": "To koliiiba,\nHawiarska Koliba",
+            "chorus": false
+        }
+    ]
+}

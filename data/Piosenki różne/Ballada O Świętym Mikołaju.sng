@@ -1,1 +1,27 @@
-{"title": "Ballada o \u015awi\u0119tym Miko\u0142aju", "author": "Andrzej Wierzbicki", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": " a G a\n a G E\n F E\n a C\n d E\n a d e a\n d e a", "lyrics": "W rozstrzelanej chacie\nRozpali\u0142em ogie\u0144\nZ rozwalonych piec\u00f3w\nPie\u015bni wynios\u0142em w\u0119gle\nNaci\u0105gn\u0105\u0142em na drzazgi gont\u00f3w\nB\u0142\u0119kitn\u0105 p\u0142acht\u0119 nieba\nB\u0119d\u0119 malowa\u0107 od nowa\nWiosk\u0119 w dolinie\n", "chorus": false}, {"chords": " C G\n C E\n a d e a\n d G (d E a)", "lyrics": "\u015awi\u0119ty Miko\u0142aju\nOpowiedz jak to by\u0142o\nJakie pie\u015bni \u015bpiewano\nGdzie si\u0119 pas\u0142y konie\n", "chorus": true}, {"chords": " a G a\n a G E\n F E\n a C\n d E\n a d e a\n d e a", "lyrics": "A on nie chce gada\u0107\nZe mn\u0105 po polsku\nZ wypalonych \u017arenic\nTylko deszcze p\u0142yn\u0105\nHej \u015blepcze naucz\u0119 swoje\nDziecko po \u0142emkowsku\nB\u0119dziecie razem \u017cebra\u0107\nW malowanych wioskach", "chorus": false}, {"chords": " C G\n C E\n a d e a\n d G (d E a)", "lyrics": "\u015awi\u0119ty Miko\u0142aju \nOpowiedz jak to by\u0142o \nJakie pie\u015bni \u015bpiewano \nGdzie si\u0119 pas\u0142y konie", "chorus": true}]}
+{
+    "title": "Ballada o \u015awi\u0119tym Miko\u0142aju",
+    "author": "Andrzej Wierzbicki",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " a G a\n a G E\n F E\n a C\n d E\n a d e a\n d e a",
+            "lyrics": "W rozstrzelanej chacie\nRozpali\u0142em ogie\u0144\nZ rozwalonych piec\u00f3w\nPie\u015bni wynios\u0142em w\u0119gle\nNaci\u0105gn\u0105\u0142em na drzazgi gont\u00f3w\nB\u0142\u0119kitn\u0105 p\u0142acht\u0119 nieba\nB\u0119d\u0119 malowa\u0107 od nowa\nWiosk\u0119 w dolinie\n",
+            "chorus": false
+        },
+        {
+            "chords": " C G\n C E\n a d e a\n d G (d E a)",
+            "lyrics": "\u015awi\u0119ty Miko\u0142aju\nOpowiedz jak to by\u0142o\nJakie pie\u015bni \u015bpiewano\nGdzie si\u0119 pas\u0142y konie\n",
+            "chorus": true
+        },
+        {
+            "chords": " a G a\n a G E\n F E\n a C\n d E\n a d e a\n d e a",
+            "lyrics": "A on nie chce gada\u0107\nZe mn\u0105 po polsku\nZ wypalonych \u017arenic\nTylko deszcze p\u0142yn\u0105\nHej \u015blepcze naucz\u0119 swoje\nDziecko po \u0142emkowsku\nB\u0119dziecie razem \u017cebra\u0107\nW malowanych wioskach",
+            "chorus": false
+        },
+        {
+            "chords": " C G\n C E\n a d e a\n d G (d E a)",
+            "lyrics": "\u015awi\u0119ty Miko\u0142aju \nOpowiedz jak to by\u0142o \nJakie pie\u015bni \u015bpiewano \nGdzie si\u0119 pas\u0142y konie",
+            "chorus": true
+        }
+    ]
+}

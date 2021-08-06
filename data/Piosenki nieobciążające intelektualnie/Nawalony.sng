@@ -1,1 +1,52 @@
-{"title": "Nawalony", "author": "Martin Lechowicz", "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie", "sections": [{"chords": " D G\n D A\n D G\n D A D", "lyrics": "Ludzie mi m\u00f3wi\u0105: nie masz \u017cony\nNie mam \u017cony. Nie mam te\u017c raka\nPo co mi \u017cona, skoro s\u0105 rzeczy\nLepsze - zw\u0142aszcza dla Polaka\n", "chorus": false}, {"chords": " D G\n D A\n D G\n D A D", "lyrics": "Kiedy\u015b kolega opowiada\u0142\nJak wr\u00f3ci\u0142 z knajpy p\u00f3\u017an\u0105 noc\u0105\nI \u017cona krzyczy: by\u0142e\u015b na babach!\nA on: w sumie mog\u0142em. Tylko po co?", "chorus": false}, {"chords": " G D A D\n G D A D", "lyrics": "Zamiast chodzi\u0107 na panienki, wol\u0119 wina \u0142yk z butelki\nZamiast szuka\u0107 sobie \u017cony wol\u0119 chodzi\u0107 nawalony", "chorus": true}, {"chords": " D G\n D A\n D G\n D A D", "lyrics": "Mam kole\u017cank\u0119, magister biologii\nWie wszystko na temat paj\u0119czak\u00f3w\nCzasem mi o nich opowiada\nKiedy ma przerw\u0119 na zmywaku", "chorus": false}, {"chords": " D G\n D A\n D G\n D A D", "lyrics": "Wi\u0119c zamiast si\u0119 stara\u0107 o tytu\u0142 magistra\nRobi\u0142em wszystko \u017ceby si\u0119 nie da\u0107\nBo jedni studiuj\u0105 jakiego\u015b robaka\nA inni wol\u0105 go zalewa\u0107", "chorus": false}, {"chords": " G D \n A D\n G D\n A D", "lyrics": "Zamiast bada\u0107 pantofelki/Po co zwiedza\u0107 uniwerki \nWol\u0119 wina \u0142yk z butelki\nZamiast mno\u017cy\u0107 jamoch\u0142ony\nWol\u0119 chodzi\u0107 nawalony\n", "chorus": true}, {"chords": " D G\n D A\n D G\n D A D", "lyrics": "A jeden ksi\u0105dz raz m\u00f3wi\u0142 kazanie:\nKto pije, B\u00f3g go ska\u017ce za to!\nI nagle wstaje jaka\u015b dziewczyna\nWstaje i m\u00f3wi: masz racj\u0119, tato", "chorus": false}, {"chords": " D G\n D A\n D G\n D A D", "lyrics": "A jeden pastor kiedy\u015b powiedzia\u0142\n\u017be wino jest z\u0142e, grzeszne i niezdrowe\nPytam: a w co Jezus zmieni\u0142 wod\u0119?\nA on: w wino. Bezalkoholowe.", "chorus": false}, {"chords": " G D A D\n G D A D \n G D A D\n G D A D", "lyrics": "Po co chodzi\u0107 na pasterki, wol\u0119 wina \u0142yk z butelki\nNiepotrzebne mi ko\u015bcio\u0142y, wol\u0119 chodzi\u0107 nawalony\nWino stworzy\u0142 B\u00f3g by zwala\u0142o z n\u00f3g\nNawet ludzie ca\u0142kiem pro\u015bci pij\u0105 owoc winoro\u015bli", "chorus": true}]}
+{
+    "title": "Nawalony",
+    "author": "Martin Lechowicz",
+    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "sections": [
+        {
+            "chords": " D G\n D A\n D G\n D A D",
+            "lyrics": "Ludzie mi m\u00f3wi\u0105: nie masz \u017cony\nNie mam \u017cony. Nie mam te\u017c raka\nPo co mi \u017cona, skoro s\u0105 rzeczy\nLepsze - zw\u0142aszcza dla Polaka\n",
+            "chorus": false
+        },
+        {
+            "chords": " D G\n D A\n D G\n D A D",
+            "lyrics": "Kiedy\u015b kolega opowiada\u0142\nJak wr\u00f3ci\u0142 z knajpy p\u00f3\u017an\u0105 noc\u0105\nI \u017cona krzyczy: by\u0142e\u015b na babach!\nA on: w sumie mog\u0142em. Tylko po co?",
+            "chorus": false
+        },
+        {
+            "chords": " G D A D\n G D A D",
+            "lyrics": "Zamiast chodzi\u0107 na panienki, wol\u0119 wina \u0142yk z butelki\nZamiast szuka\u0107 sobie \u017cony wol\u0119 chodzi\u0107 nawalony",
+            "chorus": true
+        },
+        {
+            "chords": " D G\n D A\n D G\n D A D",
+            "lyrics": "Mam kole\u017cank\u0119, magister biologii\nWie wszystko na temat paj\u0119czak\u00f3w\nCzasem mi o nich opowiada\nKiedy ma przerw\u0119 na zmywaku",
+            "chorus": false
+        },
+        {
+            "chords": " D G\n D A\n D G\n D A D",
+            "lyrics": "Wi\u0119c zamiast si\u0119 stara\u0107 o tytu\u0142 magistra\nRobi\u0142em wszystko \u017ceby si\u0119 nie da\u0107\nBo jedni studiuj\u0105 jakiego\u015b robaka\nA inni wol\u0105 go zalewa\u0107",
+            "chorus": false
+        },
+        {
+            "chords": " G D \n A D\n G D\n A D",
+            "lyrics": "Zamiast bada\u0107 pantofelki/Po co zwiedza\u0107 uniwerki \nWol\u0119 wina \u0142yk z butelki\nZamiast mno\u017cy\u0107 jamoch\u0142ony\nWol\u0119 chodzi\u0107 nawalony\n",
+            "chorus": true
+        },
+        {
+            "chords": " D G\n D A\n D G\n D A D",
+            "lyrics": "A jeden ksi\u0105dz raz m\u00f3wi\u0142 kazanie:\nKto pije, B\u00f3g go ska\u017ce za to!\nI nagle wstaje jaka\u015b dziewczyna\nWstaje i m\u00f3wi: masz racj\u0119, tato",
+            "chorus": false
+        },
+        {
+            "chords": " D G\n D A\n D G\n D A D",
+            "lyrics": "A jeden pastor kiedy\u015b powiedzia\u0142\n\u017be wino jest z\u0142e, grzeszne i niezdrowe\nPytam: a w co Jezus zmieni\u0142 wod\u0119?\nA on: w wino. Bezalkoholowe.",
+            "chorus": false
+        },
+        {
+            "chords": " G D A D\n G D A D \n G D A D\n G D A D",
+            "lyrics": "Po co chodzi\u0107 na pasterki, wol\u0119 wina \u0142yk z butelki\nNiepotrzebne mi ko\u015bcio\u0142y, wol\u0119 chodzi\u0107 nawalony\nWino stworzy\u0142 B\u00f3g by zwala\u0142o z n\u00f3g\nNawet ludzie ca\u0142kiem pro\u015bci pij\u0105 owoc winoro\u015bli",
+            "chorus": true
+        }
+    ]
+}

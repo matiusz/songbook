@@ -1,1 +1,26 @@
-{"title": "Pod k\u0105tem rozwartym", "category": "SDM", "sections": [{"chords": "c G7/4 G\nG7 c\nGis6 Ais\nDis9 Dis", "lyrics": "Jest jeszcze k\u0105t, dla mnie na ziemi\nK\u0105t jak Twe ramiona rozwarty\nI zawsze mo\u017cna biec do Ciebie\nPrzeczeka\u0107 burze ostre wiatry", "chorus": false}, {"chords": "Gis Ais\nDis G7/4 G\nc Gis6\nC0 G7/4 G", "lyrics": "Jestem dla Ciebie piorunochronem\nI gradobicie \u015bwiata tego zbieram\nChc\u0119 chroni\u0107 nas jak tylko umiem\nGdy na zakr\u0119cie nasza ziemia", "chorus": true}, {"chords": "c G7/4 G\nG7 c\nGis6 Ais\nDis9 Dis", "lyrics": "Dobrze ze jest k\u0105t na tej ziemi\nK\u0105t jak Twe ramiona rozwarty\nBo razem ra\u017aniej nam rozegra\u0107\nTak dziwnie rozdane karty", "chorus": false}, {"chords": "Gis Ais\nDis G7/4 G\nc Gis6\nC0 G7/4 G", "lyrics": "I lamp\u0105 ci jestem kt\u00f3ra o\u015bwietla\nGo\u015bciniec mroczny i wci\u0105\u017c wyboisty\nBo trzeba krok za krokiem i\u015b\u0107 by by\u0107\ndla siebie jeszcze bli\u017cszym", "chorus": true}]}
+{
+    "title": "Pod k\u0105tem rozwartym",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "c G7/4 G\nG7 c\nGis6 Ais\nDis9 Dis",
+            "lyrics": "Jest jeszcze k\u0105t, dla mnie na ziemi\nK\u0105t jak Twe ramiona rozwarty\nI zawsze mo\u017cna biec do Ciebie\nPrzeczeka\u0107 burze ostre wiatry",
+            "chorus": false
+        },
+        {
+            "chords": "Gis Ais\nDis G7/4 G\nc Gis6\nC0 G7/4 G",
+            "lyrics": "Jestem dla Ciebie piorunochronem\nI gradobicie \u015bwiata tego zbieram\nChc\u0119 chroni\u0107 nas jak tylko umiem\nGdy na zakr\u0119cie nasza ziemia",
+            "chorus": true
+        },
+        {
+            "chords": "c G7/4 G\nG7 c\nGis6 Ais\nDis9 Dis",
+            "lyrics": "Dobrze ze jest k\u0105t na tej ziemi\nK\u0105t jak Twe ramiona rozwarty\nBo razem ra\u017aniej nam rozegra\u0107\nTak dziwnie rozdane karty",
+            "chorus": false
+        },
+        {
+            "chords": "Gis Ais\nDis G7/4 G\nc Gis6\nC0 G7/4 G",
+            "lyrics": "I lamp\u0105 ci jestem kt\u00f3ra o\u015bwietla\nGo\u015bciniec mroczny i wci\u0105\u017c wyboisty\nBo trzeba krok za krokiem i\u015b\u0107 by by\u0107\ndla siebie jeszcze bli\u017cszym",
+            "chorus": true
+        }
+    ]
+}

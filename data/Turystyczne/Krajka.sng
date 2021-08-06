@@ -1,1 +1,36 @@
-{"title": "Krajka", "author": "", "category": "Turystyczne", "sections": [{"chords": "a d\na F G\na d\nE E7", "lyrics": "Chora\u0142em dzwonk\u00f3w dzie\u0144 rozkwita,\nJeszcze od rosy rz\u0119sy mokre,\nWe mgle turkoce pierwsza bryka,\nS\u0142o\u0144ce wyrusza na w\u0142\u00f3cz\u0119g\u0119", "chorus": false}, {"chords": "a d\na F G7\nC d\nE7", "lyrics": "Drog\u0105 pylista, drog\u0105 poln\u0105,\nJak kolorowa panny krajka,\nS\u0142o\u0144ce si\u0119 wznosi nad stodo\u0142\u0105,\nB\u0119dziemy ta\u0144czy\u0107 walca, ", "chorus": true}, {"chords": "F G\nC a\nd E a A7", "lyrics": "A ja mam sw\u0105 gitar\u0119,\nSpodnie wytarte i buty stare,\nWiatry nios\u0105 mnie", "chorus": true}, {"chords": "", "lyrics": "Zmokni\u0119te \u015bwierszcze stroj\u0105 skrzypce,\n\u017buraw si\u0119 wspar\u0142 o cembrowin\u0119,\nWiele nanosi wody jeszcze,\nWielu si\u0119 ludzi z niej napije", "chorus": false}, {"chords": "", "lyrics": "Drog\u0105 pylista, drog\u0105 poln\u0105,\nJak kolorowa panny krajka,\nS\u0142o\u0144ce si\u0119 wznosi nad stodo\u0142\u0105,\nB\u0119dzie ta\u0144czy\u0142a walca,", "chorus": true}, {"chords": "", "lyrics": "A ja mam sw\u0105 gitar\u0119,\nSpodnie wytarte i buty stare,\nWiatry nios\u0105 mnie", "chorus": true}]}
+{
+    "title": "Krajka",
+    "category": "Turystyczne",
+    "sections": [
+        {
+            "chords": "a d\na F G\na d\nE E7",
+            "lyrics": "Chora\u0142em dzwonk\u00f3w dzie\u0144 rozkwita,\nJeszcze od rosy rz\u0119sy mokre,\nWe mgle turkoce pierwsza bryka,\nS\u0142o\u0144ce wyrusza na w\u0142\u00f3cz\u0119g\u0119",
+            "chorus": false
+        },
+        {
+            "chords": "a d\na F G7\nC d\nE7",
+            "lyrics": "Drog\u0105 pylista, drog\u0105 poln\u0105,\nJak kolorowa panny krajka,\nS\u0142o\u0144ce si\u0119 wznosi nad stodo\u0142\u0105,\nB\u0119dziemy ta\u0144czy\u0107 walca, ",
+            "chorus": true
+        },
+        {
+            "chords": "F G\nC a\nd E a A7",
+            "lyrics": "A ja mam sw\u0105 gitar\u0119,\nSpodnie wytarte i buty stare,\nWiatry nios\u0105 mnie",
+            "chorus": true
+        },
+        {
+            "chords": "a d\na F G\na d\nE E7",
+            "lyrics": "Zmokni\u0119te \u015bwierszcze stroj\u0105 skrzypce,\n\u017buraw si\u0119 wspar\u0142 o cembrowin\u0119,\nWiele nanosi wody jeszcze,\nWielu si\u0119 ludzi z niej napije",
+            "chorus": false
+        },
+        {
+            "chords": "a d\na F G7\nC d\nE7",
+            "lyrics": "Drog\u0105 pylista, drog\u0105 poln\u0105,\nJak kolorowa panny krajka,\nS\u0142o\u0144ce si\u0119 wznosi nad stodo\u0142\u0105,\nB\u0119dzie ta\u0144czy\u0142a walca,",
+            "chorus": true
+        },
+        {
+            "chords": "F G\nC a\nd E a A7",
+            "lyrics": "A ja mam sw\u0105 gitar\u0119,\nSpodnie wytarte i buty stare,\nWiatry nios\u0105 mnie",
+            "chorus": true
+        }
+    ]
+}

@@ -1,1 +1,32 @@
-{"title": "Ko\u0142ysanka dla nieznajomej", "author": "Perfect", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": "C a \nF \nC a \nF \nC a\ne\nF C F\nF G a\nF G", "lyrics": "Gdy nie bawi ci\u0119 ju\u017c\n\u015awiat zabawek mechanicznych\nKiedy dr\u0119czy ci\u0119 b\u00f3l \nniefizyczny\nZamiast s\u0142ucha\u0107 bzdur\nG\u0142upich telefonicznych wr\u00f3\u017cek \nzza siedmiu m\u00f3rz\nSpytaj siebie czego pragniesz\nDlaczego k\u0142amiesz, \u017ce mia\u0142a\u015b wszystko", "chorus": false}, {"chords": "C a \nF \nC a \nF \nC a\ne\nF C F\nF G a\nF G", "lyrics": "Gdy udaj\u0105c, \u017ce \u015bpisz\nW g\u0142owie tropisz bajki z gazet\nKiedy nie chcesz ju\u017c \u015bni\u0107\nCudzych marze\u0144\nBosa do mnie przyjd\u017a\nI od progu bezwstydnie powiedz mi\nCzego chcesz\nS\u0142uchaj jak dwa serca bij\u0105\nCo ludzie my\u015bl\u0105 - to nieistotne", "chorus": false}, {"chords": "C G7 a7 G\nC G7 a7 G\nC G7 a7 G\ne\nF G\nF G a\nF G", "lyrics": "Kochaj mnie\nKochaj mnie\nKochaj mnie nieprzytomnie\nJak zapalniczka p\u0142omie\u0144\nJak sucha studnia wod\u0119\nKochaj mnie nami\u0119tnie tak\nJakby \u015bwiat si\u0119 sko\u0144czy\u0107 mia\u0142", "chorus": true}, {"chords": "C a\ne\nF C F\nF G a\nF G", "lyrics": "Swoje miejsce znajd\u017a\nI nie pytaj czy taki uk\u0142ad ma jaki\u015b sens\nS\u0142uchaj co twe cia\u0142o m\u00f3wi\nW mi\u0142osnej studni ju\u017c nie utoniesz\n", "chorus": false}, {"chords": "C G7 a7 G\nC G7 a7 G\nC G7 a7 G\ne\nF G\nF G a\nF G", "lyrics": "Kochaj mnie\nKochaj mnie\nKochaj mnie nieprzytomnie\nJak ksi\u0119\u017cyc w oknie \u015bmiej si\u0119 i p\u0142acz\nNa linie nad przepa\u015bci\u0105 ta\u0144cz\nA\u017c w jedn\u0105 kr\u00f3tk\u0105 chwil\u0119\nPojmiesz po co \u017cyjesz", "chorus": true}]}
+{
+    "title": "Ko\u0142ysanka dla nieznajomej",
+    "author": "Perfect",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "C a \nF \nC a \nF \nC a\ne\nF C F\nF G a\nF G",
+            "lyrics": "Gdy nie bawi ci\u0119 ju\u017c\n\u015awiat zabawek mechanicznych\nKiedy dr\u0119czy ci\u0119 b\u00f3l \nniefizyczny\nZamiast s\u0142ucha\u0107 bzdur\nG\u0142upich telefonicznych wr\u00f3\u017cek \nzza siedmiu m\u00f3rz\nSpytaj siebie czego pragniesz\nDlaczego k\u0142amiesz, \u017ce mia\u0142a\u015b wszystko",
+            "chorus": false
+        },
+        {
+            "chords": "C a \nF \nC a \nF \nC a\ne\nF C F\nF G a\nF G",
+            "lyrics": "Gdy udaj\u0105c, \u017ce \u015bpisz\nW g\u0142owie tropisz bajki z gazet\nKiedy nie chcesz ju\u017c \u015bni\u0107\nCudzych marze\u0144\nBosa do mnie przyjd\u017a\nI od progu bezwstydnie powiedz mi\nCzego chcesz\nS\u0142uchaj jak dwa serca bij\u0105\nCo ludzie my\u015bl\u0105 - to nieistotne",
+            "chorus": false
+        },
+        {
+            "chords": "C G7 a7 G\nC G7 a7 G\nC G7 a7 G\ne\nF G\nF G a\nF G",
+            "lyrics": "Kochaj mnie\nKochaj mnie\nKochaj mnie nieprzytomnie\nJak zapalniczka p\u0142omie\u0144\nJak sucha studnia wod\u0119\nKochaj mnie nami\u0119tnie tak\nJakby \u015bwiat si\u0119 sko\u0144czy\u0107 mia\u0142",
+            "chorus": true
+        },
+        {
+            "chords": "C a\ne\nF C F\nF G a\nF G",
+            "lyrics": "Swoje miejsce znajd\u017a\nI nie pytaj czy taki uk\u0142ad ma jaki\u015b sens\nS\u0142uchaj co twe cia\u0142o m\u00f3wi\nW mi\u0142osnej studni ju\u017c nie utoniesz\n",
+            "chorus": false
+        },
+        {
+            "chords": "C G7 a7 G\nC G7 a7 G\nC G7 a7 G\ne\nF G\nF G a\nF G",
+            "lyrics": "Kochaj mnie\nKochaj mnie\nKochaj mnie nieprzytomnie\nJak ksi\u0119\u017cyc w oknie \u015bmiej si\u0119 i p\u0142acz\nNa linie nad przepa\u015bci\u0105 ta\u0144cz\nA\u017c w jedn\u0105 kr\u00f3tk\u0105 chwil\u0119\nPojmiesz po co \u017cyjesz",
+            "chorus": true
+        }
+    ]
+}

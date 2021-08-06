@@ -1,1 +1,22 @@
-{"title": "Szatan", "author": "Kury", "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie", "sections": [{"chords": " Cis Gis b A\n Cis Gis b A\n Cis2 E\n Cis2 E", "lyrics": "Czy ju\u017c widzisz kszta\u0142ty drzew?\nA czy rozumiesz ptak\u00f3w \u015bpiew?\nCzarna mewa goni bia\u0142\u0105 mew\u0119, \nz czym Ci si\u0119 to kojarzy?", "chorus": false}, {"chords": " Cis Gis b A\n Cis Gis b A\n Cis2 E\n Cis2 E", "lyrics": "Czy ju\u017c s\u0142yszysz \u0142oskot fal?\nCzy Ci\u0119 nie razi s\u0142o\u0144ca blask? \nOto nadci\u0105gaj\u0105 cumulusy,\nchyba rozumiesz, co to znaczy?", "chorus": false}, {"chords": " H E\n H Fis H", "lyrics": "Szatan, szatan, szatan, szatan\no\u0142 je, o\u0142 je", "chorus": true}]}
+{
+    "title": "Szatan",
+    "author": "Kury",
+    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "sections": [
+        {
+            "chords": " Cis Gis b A\n Cis Gis b A\n Cis2 E\n Cis2 E",
+            "lyrics": "Czy ju\u017c widzisz kszta\u0142ty drzew?\nA czy rozumiesz ptak\u00f3w \u015bpiew?\nCzarna mewa goni bia\u0142\u0105 mew\u0119, \nz czym Ci si\u0119 to kojarzy?",
+            "chorus": false
+        },
+        {
+            "chords": " Cis Gis b A\n Cis Gis b A\n Cis2 E\n Cis2 E",
+            "lyrics": "Czy ju\u017c s\u0142yszysz \u0142oskot fal?\nCzy Ci\u0119 nie razi s\u0142o\u0144ca blask? \nOto nadci\u0105gaj\u0105 cumulusy,\nchyba rozumiesz, co to znaczy?",
+            "chorus": false
+        },
+        {
+            "chords": " H E\n H Fis H",
+            "lyrics": "Szatan, szatan, szatan, szatan\no\u0142 je, o\u0142 je",
+            "chorus": true
+        }
+    ]
+}

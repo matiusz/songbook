@@ -1,1 +1,47 @@
-{"title": "Hiszpa\u0144skie Dziewczyny", "author": "s\u0142. Andrzej Mendygra\u0142, G. Wasilewski", "category": "Szanty", "sections": [{"chords": "e C h7\ne C D\nG D e\nC H7 e", "lyrics": "\u017begnajcie nam dzi\u015b hiszpa\u0144skie dziewczyny\n\u017begnajcie nam dzi\u015b marzenia ze sn\u00f3w\nKu brzegom angielskim ju\u017c rusza\u0107 nam pora\nLecz kiedy\u015b na pewno wr\u00f3cimy tu zn\u00f3w.", "chorus": false}, {"chords": "e C h7\ne C D\nG D e\nC H7 e", "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny\nW noc ciemn\u0105 i z\u0142\u0105 nam b\u0119dzie si\u0119 \u015bni\u0142\nLeniwe pop\u0142yn\u0105 zn\u00f3w rejsu godziny\nWspomnienie ust waszych przysporzy nam si\u0142.", "chorus": true}, {"chords": "e C h7\ne C D\nG D e\nC H7 e", "lyrics": "Nied\u0142ugo ujrzymy zn\u00f3w w dali Cape Deadman\nI g\u0142ow\u0119 Barani\u0105 stercz\u0105c\u0105 w\u015br\u00f3d wzg\u00f3rz\nI statki stoj\u0105ce na redzie przed Plymouth\nKlarowa\u0107 kotwic\u0119 najwy\u017cszy czas ju\u017c", "chorus": false}, {"chords": "", "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny...", "chorus": true}, {"chords": "e C h7\ne C D\nG D e\nC H7 e", "lyrics": "Nied\u0142ugo ju\u017c \u017cagle na masztach rozkwitn\u0105,\nKurs szyper wyznaczy na Portland i Wight.\nI zn\u00f3w stara \u0142ajba potoczy si\u0119 ci\u0119\u017cko\nPrzez fale w kierunku na Beachie Fairlie.", "chorus": false}, {"chords": "", "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny...", "chorus": true}, {"chords": "e C h7\ne C D\nG D e\nC H7 e", "lyrics": "Zab\u0142ysn\u0105 nam biel\u0105 ska\u0142 z\u0119by pod Dover\nI zn\u00f3w noc w kubryku w\u015br\u00f3d legend i bajd\u2026\nPowoli i znojnie tak p\u0142ynie nam \u017cycie\nNa wodach i w portach South Foreland Light.", "chorus": false}, {"chords": "", "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny...", "chorus": true}]}
+{
+    "title": "Hiszpa\u0144skie Dziewczyny",
+    "author": "s\u0142. Andrzej Mendygra\u0142, G. Wasilewski",
+    "category": "Szanty",
+    "sections": [
+        {
+            "chords": "e C h7\ne C D\nG D e\nC H7 e",
+            "lyrics": "\u017begnajcie nam dzi\u015b hiszpa\u0144skie dziewczyny\n\u017begnajcie nam dzi\u015b marzenia ze sn\u00f3w\nKu brzegom angielskim ju\u017c rusza\u0107 nam pora\nLecz kiedy\u015b na pewno wr\u00f3cimy tu zn\u00f3w.",
+            "chorus": false
+        },
+        {
+            "chords": "e C h7\ne C D\nG D e\nC H7 e",
+            "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny\nW noc ciemn\u0105 i z\u0142\u0105 nam b\u0119dzie si\u0119 \u015bni\u0142\nLeniwe pop\u0142yn\u0105 zn\u00f3w rejsu godziny\nWspomnienie ust waszych przysporzy nam si\u0142.",
+            "chorus": true
+        },
+        {
+            "chords": "e C h7\ne C D\nG D e\nC H7 e",
+            "lyrics": "Nied\u0142ugo ujrzymy zn\u00f3w w dali Cape Deadman\nI g\u0142ow\u0119 Barani\u0105 stercz\u0105c\u0105 w\u015br\u00f3d wzg\u00f3rz\nI statki stoj\u0105ce na redzie przed Plymouth\nKlarowa\u0107 kotwic\u0119 najwy\u017cszy czas ju\u017c",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny...",
+            "chorus": true
+        },
+        {
+            "chords": "e C h7\ne C D\nG D e\nC H7 e",
+            "lyrics": "Nied\u0142ugo ju\u017c \u017cagle na masztach rozkwitn\u0105,\nKurs szyper wyznaczy na Portland i Wight.\nI zn\u00f3w stara \u0142ajba potoczy si\u0119 ci\u0119\u017cko\nPrzez fale w kierunku na Beachie Fairlie.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny...",
+            "chorus": true
+        },
+        {
+            "chords": "e C h7\ne C D\nG D e\nC H7 e",
+            "lyrics": "Zab\u0142ysn\u0105 nam biel\u0105 ska\u0142 z\u0119by pod Dover\nI zn\u00f3w noc w kubryku w\u015br\u00f3d legend i bajd\u2026\nPowoli i znojnie tak p\u0142ynie nam \u017cycie\nNa wodach i w portach South Foreland Light.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I smak waszych ust hiszpa\u0144skie dziewczyny...",
+            "chorus": true
+        }
+    ]
+}

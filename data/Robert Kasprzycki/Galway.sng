@@ -1,1 +1,42 @@
-{"title": "Galway", "author": "Robert Kasprzycki i Carrantuohill", "category": "Robert Kasprzycki", "sections": [{"chords": "e7 G C2 G", "lyrics": "Hen daleko, gdzie nie si\u0119ga wzrok i pami\u0119\u0107,\nJest m\u00f3j dom, jest m\u00f3j dom.\nW mech zakl\u0119ty, w szary progu kamie\u0144,\nCzeka wci\u0105\u017c, czeka wci\u0105\u017c.", "chorus": false}, {"chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G", "lyrics": "Ojciec m\u00f3j, jeszcze wczoraj taki m\u0142ody,\nDzi\u015b ju\u017c tylko, z wiar\u0105 patrzy w dal.\nChce doczeka\u0107, u\u015bmiechn\u0105\u0107 si\u0119 i odej\u015b\u0107,\nWraca\u0107 czas, wraca\u0107 czas. ", "chorus": true}, {"chords": "e7 G C2 G", "lyrics": "Gdzie soko\u0142y, wij\u0105 gniazda po\u015br\u00f3d ska\u0142,\nJest m\u00f3j dom.\nS\u0142o\u0144ca promie\u0144, srebrny skrzyde\u0142 blask,\nWraca\u0107 czas, wraca\u0107 czas", "chorus": false}, {"chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G", "lyrics": "Ostrza ska\u0142, spadaj\u0105 w czarne morze,\nDumnie grzmi, oceanu dziki \u015bpiew.\nShannon, jak kochanka p\u0142yniesz,\nGdzie Galway Bay, gdzie Galway.", "chorus": true}, {"chords": "e7 G C2 G", "lyrics": "Nad wzg\u00f3rzami, grzmi\u0105 irlandzkie dudy,\nWyje wiatr, wyje wiatr.\nHen w dolinach, ga\u015bnie p\u0142omie\u0144 r\u00f3\u017c,\nMg\u0142a opada.", "chorus": false}, {"chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G", "lyrics": "Ojciec m\u00f3j, znowu taki m\u0142ody,\nBiegnie zboczem, ile w piersi tchu.\nI dziewczynie, pierwszy bukiet wrzos\u00f3w,\nNiesie zn\u00f3w, niesie zn\u00f3w.", "chorus": true}, {"chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G", "lyrics": "Ostrza ska\u0142, spadaj\u0105 w czarne morze,\nDumnie grzmi, oceanu dziki \u015bpiew.\nShannon, jak czas wieczna p\u0142yniesz,\nGdzie Galway Bay, gdzie Galway", "chorus": true}]}
+{
+    "title": "Galway",
+    "author": "Robert Kasprzycki i Carrantuohill",
+    "category": "Robert Kasprzycki",
+    "sections": [
+        {
+            "chords": "e7 G C2 G",
+            "lyrics": "Hen daleko, gdzie nie si\u0119ga wzrok i pami\u0119\u0107,\nJest m\u00f3j dom, jest m\u00f3j dom.\nW mech zakl\u0119ty, w szary progu kamie\u0144,\nCzeka wci\u0105\u017c, czeka wci\u0105\u017c.",
+            "chorus": false
+        },
+        {
+            "chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G",
+            "lyrics": "Ojciec m\u00f3j, jeszcze wczoraj taki m\u0142ody,\nDzi\u015b ju\u017c tylko, z wiar\u0105 patrzy w dal.\nChce doczeka\u0107, u\u015bmiechn\u0105\u0107 si\u0119 i odej\u015b\u0107,\nWraca\u0107 czas, wraca\u0107 czas. ",
+            "chorus": true
+        },
+        {
+            "chords": "e7 G C2 G",
+            "lyrics": "Gdzie soko\u0142y, wij\u0105 gniazda po\u015br\u00f3d ska\u0142,\nJest m\u00f3j dom.\nS\u0142o\u0144ca promie\u0144, srebrny skrzyde\u0142 blask,\nWraca\u0107 czas, wraca\u0107 czas",
+            "chorus": false
+        },
+        {
+            "chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G",
+            "lyrics": "Ostrza ska\u0142, spadaj\u0105 w czarne morze,\nDumnie grzmi, oceanu dziki \u015bpiew.\nShannon, jak kochanka p\u0142yniesz,\nGdzie Galway Bay, gdzie Galway.",
+            "chorus": true
+        },
+        {
+            "chords": "e7 G C2 G",
+            "lyrics": "Nad wzg\u00f3rzami, grzmi\u0105 irlandzkie dudy,\nWyje wiatr, wyje wiatr.\nHen w dolinach, ga\u015bnie p\u0142omie\u0144 r\u00f3\u017c,\nMg\u0142a opada.",
+            "chorus": false
+        },
+        {
+            "chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G",
+            "lyrics": "Ojciec m\u00f3j, znowu taki m\u0142ody,\nBiegnie zboczem, ile w piersi tchu.\nI dziewczynie, pierwszy bukiet wrzos\u00f3w,\nNiesie zn\u00f3w, niesie zn\u00f3w.",
+            "chorus": true
+        },
+        {
+            "chords": "D C2 G\nD C2 G\ne7 G C2 G\ne7 G C2 G",
+            "lyrics": "Ostrza ska\u0142, spadaj\u0105 w czarne morze,\nDumnie grzmi, oceanu dziki \u015bpiew.\nShannon, jak czas wieczna p\u0142yniesz,\nGdzie Galway Bay, gdzie Galway",
+            "chorus": true
+        }
+    ]
+}

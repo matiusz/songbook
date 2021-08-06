@@ -1,1 +1,37 @@
-{"title": "10 w skali Beauforta", "author": "Krzysztof Klenczon", "category": "Szanty", "sections": [{"chords": "a d\nE7 a\nd a\nH7 E7", "lyrics": "Ko\u0142ysa\u0142 nas zachodni wiatr,\nBrzeg gdzie\u015b za ruf\u0105 zosta\u0142.\nI nagle kto\u015b, jak papier zblad\u0142\nSztorm idzie, panie bosman!", "chorus": false}, {"chords": "F C F C\nF E7 a\nF G a E7 a\nF E7 a", "lyrics": "A bosman tylko zapi\u0105\u0142 p\u0142aszcz\nI zakl\u0105\u0142 - Ech, do czorta!\nNie daj\u0119 \u0142ajbie \u017cadnych szans,\nDziesi\u0119\u0107 w skali Beauforta!", "chorus": true}, {"chords": "a d\nE7 a\nd a\nH7 E7", "lyrics": "Z zas\u0142ony o\u0142owianych chmur\nUlewa spad\u0142a nagle.\nRzuca\u0142o nami w g\u00f3r\u0119, w d\u00f3\u0142\nI fala zmy\u0142a \u017cagle.", "chorus": false}, {"chords": "", "lyrics": "A bosman tylko zapi\u0105\u0142 p\u0142aszcz...", "chorus": true}, {"chords": "a d\nE7 a\nd a\nH7 E7", "lyrics": "O pok\u0142ad zn\u00f3w uderzy\u0142 deszcz\nI pada\u0142 ju\u017c od rana.\nDiabelnie ci\u0119\u017cki to by\u0142 rejs,\nSzczeg\u00f3lnie dla bosmana.", "chorus": false}, {"chords": "F C F C\nF E7 a\nF G a E7 a\nF E7 a", "lyrics": "A bosman tylko zapi\u0105\u0142 p\u0142aszcz\nI zakl\u0105\u0142 - Ech, do czorta!\nPrzedziwne czasem sny si\u0119 ma,\nDziesi\u0119\u0107 w skali Beauforta!", "chorus": true}]}
+{
+    "title": "10 w skali Beauforta",
+    "author": "Krzysztof Klenczon",
+    "category": "Szanty",
+    "sections": [
+        {
+            "chords": "a d\nE7 a\nd a\nH7 E7",
+            "lyrics": "Ko\u0142ysa\u0142 nas zachodni wiatr,\nBrzeg gdzie\u015b za ruf\u0105 zosta\u0142.\nI nagle kto\u015b, jak papier zblad\u0142\nSztorm idzie, panie bosman!",
+            "chorus": false
+        },
+        {
+            "chords": "F C F C\nF E7 a\nF G a E7 a\nF E7 a",
+            "lyrics": "A bosman tylko zapi\u0105\u0142 p\u0142aszcz\nI zakl\u0105\u0142 - Ech, do czorta!\nNie daj\u0119 \u0142ajbie \u017cadnych szans,\nDziesi\u0119\u0107 w skali Beauforta!",
+            "chorus": true
+        },
+        {
+            "chords": "a d\nE7 a\nd a\nH7 E7",
+            "lyrics": "Z zas\u0142ony o\u0142owianych chmur\nUlewa spad\u0142a nagle.\nRzuca\u0142o nami w g\u00f3r\u0119, w d\u00f3\u0142\nI fala zmy\u0142a \u017cagle.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A bosman tylko zapi\u0105\u0142 p\u0142aszcz...",
+            "chorus": true
+        },
+        {
+            "chords": "a d\nE7 a\nd a\nH7 E7",
+            "lyrics": "O pok\u0142ad zn\u00f3w uderzy\u0142 deszcz\nI pada\u0142 ju\u017c od rana.\nDiabelnie ci\u0119\u017cki to by\u0142 rejs,\nSzczeg\u00f3lnie dla bosmana.",
+            "chorus": false
+        },
+        {
+            "chords": "F C F C\nF E7 a\nF G a E7 a\nF E7 a",
+            "lyrics": "A bosman tylko zapi\u0105\u0142 p\u0142aszcz\nI zakl\u0105\u0142 - Ech, do czorta!\nPrzedziwne czasem sny si\u0119 ma,\nDziesi\u0119\u0107 w skali Beauforta!",
+            "chorus": true
+        }
+    ]
+}

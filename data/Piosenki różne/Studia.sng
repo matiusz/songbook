@@ -1,1 +1,37 @@
-{"title": "Studia", "author": "Grzmi\u0105ca P\u00f3\u0142litr\u00f3wa", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": "A\nD\nA E\nA\nD\nA E A", "lyrics": "Czterech by\u0142o nas w pokoju \nCzterech wielkich piwopoj\u00f3w \nKazek, Stacho, Zdzich i ja. \nCo dzie\u0144 czyje\u015b urodziny \nTa\u0144ce, \u015bpiewy i dziewczyny \nPierwszy odpad\u0142 Stach", "chorus": false}, {"chords": " D A\n D A\n D A fis\n h E A", "lyrics": "Studia \u2013 to by\u0142y z\u0142udzenia\nNikt ci\u0119 bracie nie docenia\nI nie b\u0119dzie in\u017cyniera\nStudia \u2013 a niech to cholera", "chorus": true}, {"chords": "A\nD\nA E\nA\nD\nA E A", "lyrics": "Zdzich jak m\u00f3g\u0142 unika\u0142 szko\u0142y\nJednak podpad\u0142 docentowi\nTaki g\u0142upi traf\nAsystenci si\u0119 uwzi\u0119li\nNie zda\u0142 nic opr\u00f3cz po\u015bcieli\nPoszed\u0142 w Staszka \u015blad", "chorus": false}, {"chords": "A\nD\nA E\nA\nD\nA E A", "lyrics": "Kazek si\u0119 najd\u0142u\u017cej trzyma\u0142\nLecz nadesz\u0142a sroga zima\nSesja i komisy dwa\nZm\u00f3g\u0142 ch\u0142opaka srogi luty\nTeraz ma wojskowe buty\nCzapk\u0119 i zielony p\u0142aszcz", "chorus": false}, {"chords": "A\nD\nA E\nA\nD\nA E A", "lyrics": "P\u0142yn\u0105 lata krok za krokiem\nJa wci\u0105\u017c walcz\u0119 z pierwszym rokiem\nBo to wa\u017cna gra\nKa\u017cdy wydzia\u0142 ju\u017c pozna\u0142em\nTrzech rektor\u00f3w przetrzyma\u0142em\nKa\u017cdy mnie tu zna", "chorus": false}, {"chords": "A\nD\nA E\nA\nD\nA E A", "lyrics": "Odnowi\u0142em kontakt z domem\nPisz\u0105 \u201eSynu, co z dyplomem\nTo ju\u017c tyle trwa\nPewno ju\u017c nied\u0142ugo sko\u0144czysz\nJak pozdajesz wszystko \u2013 odpisz\nMama, tata, brat\u201d\n", "chorus": false}]}
+{
+    "title": "Studia",
+    "author": "Grzmi\u0105ca P\u00f3\u0142litr\u00f3wa",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "A\nD\nA E\nA\nD\nA E A",
+            "lyrics": "Czterech by\u0142o nas w pokoju \nCzterech wielkich piwopoj\u00f3w \nKazek, Stacho, Zdzich i ja. \nCo dzie\u0144 czyje\u015b urodziny \nTa\u0144ce, \u015bpiewy i dziewczyny \nPierwszy odpad\u0142 Stach",
+            "chorus": false
+        },
+        {
+            "chords": " D A\n D A\n D A fis\n h E A",
+            "lyrics": "Studia \u2013 to by\u0142y z\u0142udzenia\nNikt ci\u0119 bracie nie docenia\nI nie b\u0119dzie in\u017cyniera\nStudia \u2013 a niech to cholera",
+            "chorus": true
+        },
+        {
+            "chords": "A\nD\nA E\nA\nD\nA E A",
+            "lyrics": "Zdzich jak m\u00f3g\u0142 unika\u0142 szko\u0142y\nJednak podpad\u0142 docentowi\nTaki g\u0142upi traf\nAsystenci si\u0119 uwzi\u0119li\nNie zda\u0142 nic opr\u00f3cz po\u015bcieli\nPoszed\u0142 w Staszka \u015blad",
+            "chorus": false
+        },
+        {
+            "chords": "A\nD\nA E\nA\nD\nA E A",
+            "lyrics": "Kazek si\u0119 najd\u0142u\u017cej trzyma\u0142\nLecz nadesz\u0142a sroga zima\nSesja i komisy dwa\nZm\u00f3g\u0142 ch\u0142opaka srogi luty\nTeraz ma wojskowe buty\nCzapk\u0119 i zielony p\u0142aszcz",
+            "chorus": false
+        },
+        {
+            "chords": "A\nD\nA E\nA\nD\nA E A",
+            "lyrics": "P\u0142yn\u0105 lata krok za krokiem\nJa wci\u0105\u017c walcz\u0119 z pierwszym rokiem\nBo to wa\u017cna gra\nKa\u017cdy wydzia\u0142 ju\u017c pozna\u0142em\nTrzech rektor\u00f3w przetrzyma\u0142em\nKa\u017cdy mnie tu zna",
+            "chorus": false
+        },
+        {
+            "chords": "A\nD\nA E\nA\nD\nA E A",
+            "lyrics": "Odnowi\u0142em kontakt z domem\nPisz\u0105 \u201eSynu, co z dyplomem\nTo ju\u017c tyle trwa\nPewno ju\u017c nied\u0142ugo sko\u0144czysz\nJak pozdajesz wszystko \u2013 odpisz\nMama, tata, brat\u201d\n",
+            "chorus": false
+        }
+    ]
+}

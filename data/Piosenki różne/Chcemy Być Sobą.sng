@@ -1,1 +1,37 @@
-{"title": "Chcemy by\u0107 sob\u0105", "author": "Perfect", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": "e\n h7 a7 h7\ne\n h7 a7 h7", "lyrics": "Chcia\u0142bym by\u0107 sob\u0105 \nChcia\u0142bym by\u0107 sob\u0105 wreszcie\nChcia\u0142bym by\u0107 sob\u0105 \nChcia\u0142bym by\u0107 sob\u0105 jeszcze", "chorus": true}, {"chords": " G D\n C D\n G D\n C D\n G D\n C D\n G D\n C D", "lyrics": "Jak co dzie\u0144 rano bu\u0142k\u0119 ma\u015blan\u0105\nPopijam kaw\u0105 nad gazety plam\u0105\nNikt mi nie powie, wiem co mam robi\u0107\nSzklank\u0119 o \u015bcian\u0119 rzucam, chc\u0119 wychodzi\u0107\nNa klatce stoi cie\u0107, co si\u0119 boi\nNawet odk\u0142oni\u0107, miot\u0142\u0119 \u015bciska w d\u0142oni\nOrtalion szary chwyta, za bary\nI przera\u017conej twarzy krzycz\u0119 prosto w nos.", "chorus": false}, {"chords": "", "lyrics": "Chcia\u0142bym by\u0107 sob\u0105...", "chorus": true}, {"chords": " G D\n C D\n G D\n C D\n G D\n C D\n G D\n C D", "lyrics": "Trzymam si\u0119 \u015bciany niczym pijany\nT\u0142um wko\u0142o ta\u0144czy tangiem op\u0119tany\nStopy zm\u0119czone depcz\u0105 koron\u0119\nKr\u00f3l balu zwleka, oczy ma szalone\nMagda w podzi\u0119ce chwyta me r\u0119ce\nI nie ma sprawy, \u015blicznie jej w sukience\nPo co si\u0119 spieszysz, po co si\u0119 spieszysz\nPrzecie\u017c do ko\u0144ca \u017cycia mamy na to czas", "chorus": false}, {"chords": "", "lyrics": "Aby by\u0107 sob\u0105...", "chorus": true}, {"chords": "", "lyrics": "Chcemy by\u0107 sob\u0105... ", "chorus": true}]}
+{
+    "title": "Chcemy by\u0107 sob\u0105",
+    "author": "Perfect",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "e\n h7 a7 h7\ne\n h7 a7 h7",
+            "lyrics": "Chcia\u0142bym by\u0107 sob\u0105 \nChcia\u0142bym by\u0107 sob\u0105 wreszcie\nChcia\u0142bym by\u0107 sob\u0105 \nChcia\u0142bym by\u0107 sob\u0105 jeszcze",
+            "chorus": true
+        },
+        {
+            "chords": " G D\n C D\n G D\n C D\n G D\n C D\n G D\n C D",
+            "lyrics": "Jak co dzie\u0144 rano bu\u0142k\u0119 ma\u015blan\u0105\nPopijam kaw\u0105 nad gazety plam\u0105\nNikt mi nie powie, wiem co mam robi\u0107\nSzklank\u0119 o \u015bcian\u0119 rzucam, chc\u0119 wychodzi\u0107\nNa klatce stoi cie\u0107, co si\u0119 boi\nNawet odk\u0142oni\u0107, miot\u0142\u0119 \u015bciska w d\u0142oni\nOrtalion szary chwyta, za bary\nI przera\u017conej twarzy krzycz\u0119 prosto w nos.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Chcia\u0142bym by\u0107 sob\u0105...",
+            "chorus": true
+        },
+        {
+            "chords": " G D\n C D\n G D\n C D\n G D\n C D\n G D\n C D",
+            "lyrics": "Trzymam si\u0119 \u015bciany niczym pijany\nT\u0142um wko\u0142o ta\u0144czy tangiem op\u0119tany\nStopy zm\u0119czone depcz\u0105 koron\u0119\nKr\u00f3l balu zwleka, oczy ma szalone\nMagda w podzi\u0119ce chwyta me r\u0119ce\nI nie ma sprawy, \u015blicznie jej w sukience\nPo co si\u0119 spieszysz, po co si\u0119 spieszysz\nPrzecie\u017c do ko\u0144ca \u017cycia mamy na to czas",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Aby by\u0107 sob\u0105...",
+            "chorus": true
+        },
+        {
+            "chords": "",
+            "lyrics": "Chcemy by\u0107 sob\u0105... ",
+            "chorus": true
+        }
+    ]
+}

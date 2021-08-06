@@ -1,1 +1,47 @@
-{"title": "Po\u017cegnanie Liverpoolu", "author": "Cztery Refy", "category": "Szanty", "sections": [{"chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C", "lyrics": "\u017begnaj nam dostojny, stary porcie,\nRzeko Mersey \u017cegnaj nam!\nZaci\u0105gn\u0105\u0142em si\u0119 na rejs do Kalifornii,\nBy\u0142em tam ju\u017c niejeden raz. ", "chorus": false}, {"chords": "G F C\nC   G\nC C7 F C\nC G7 C", "lyrics": "A wi\u0119c \u017cegnaj mi, kochana ma!\nZa chwil\u0119 wyp\u0142yniemy w d\u0142ugi rejs.\nIle miesi\u0119cy Ci\u0119 nie b\u0119d\u0119 widzia\u0142, nie wiem sam,\nLecz pami\u0119ta\u0107 zawsze b\u0119d\u0119 Ci\u0119.", "chorus": true}, {"chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C", "lyrics": "Zaci\u0105gn\u0105\u0142em si\u0119 na herbaciany kliper,\nDobry statek, cho\u0107 s\u0142aw\u0119 ma z\u0142\u0105,\nA \u017ce kapitanem jest tam stary Burgess,\nP\u0142ywaj\u0105cym piek\u0142em wszyscy go zw\u0105.", "chorus": false}, {"chords": "", "lyrics": "A wi\u0119c \u017cegnaj mi...", "chorus": true}, {"chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C", "lyrics": "Z kapitanem tym p\u0142yn\u0119 ju\u017c nie pierwszy raz,\nZnamy si\u0119 od wielu, wielu lat.\nJe\u015bli\u015b dobrym \u017ceglarzem - rad\u0119 sobie dasz,\nJe\u015bli nie - to\u015b cholernie wpad\u0142.", "chorus": false}, {"chords": "", "lyrics": "A wi\u0119c \u017cegnaj mi...", "chorus": true}, {"chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C", "lyrics": "\u017begnaj nam dostojny, stary porcie,\nRzeko Mersey \u017cegnaj nam.\nWyp\u0142ywamy ju\u017c na rejs do Kalifornii,\nGdy wr\u00f3cimy - opowiemy wam.", "chorus": false}, {"chords": "", "lyrics": "A wi\u0119c \u017cegnaj mi...", "chorus": true}]}
+{
+    "title": "Po\u017cegnanie Liverpoolu",
+    "author": "Cztery Refy",
+    "category": "Szanty",
+    "sections": [
+        {
+            "chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C",
+            "lyrics": "\u017begnaj nam dostojny, stary porcie,\nRzeko Mersey \u017cegnaj nam!\nZaci\u0105gn\u0105\u0142em si\u0119 na rejs do Kalifornii,\nBy\u0142em tam ju\u017c niejeden raz. ",
+            "chorus": false
+        },
+        {
+            "chords": "G F C\nC   G\nC C7 F C\nC G7 C",
+            "lyrics": "A wi\u0119c \u017cegnaj mi, kochana ma!\nZa chwil\u0119 wyp\u0142yniemy w d\u0142ugi rejs.\nIle miesi\u0119cy Ci\u0119 nie b\u0119d\u0119 widzia\u0142, nie wiem sam,\nLecz pami\u0119ta\u0107 zawsze b\u0119d\u0119 Ci\u0119.",
+            "chorus": true
+        },
+        {
+            "chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C",
+            "lyrics": "Zaci\u0105gn\u0105\u0142em si\u0119 na herbaciany kliper,\nDobry statek, cho\u0107 s\u0142aw\u0119 ma z\u0142\u0105,\nA \u017ce kapitanem jest tam stary Burgess,\nP\u0142ywaj\u0105cym piek\u0142em wszyscy go zw\u0105.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A wi\u0119c \u017cegnaj mi...",
+            "chorus": true
+        },
+        {
+            "chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C",
+            "lyrics": "Z kapitanem tym p\u0142yn\u0119 ju\u017c nie pierwszy raz,\nZnamy si\u0119 od wielu, wielu lat.\nJe\u015bli\u015b dobrym \u017ceglarzem - rad\u0119 sobie dasz,\nJe\u015bli nie - to\u015b cholernie wpad\u0142.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A wi\u0119c \u017cegnaj mi...",
+            "chorus": true
+        },
+        {
+            "chords": "C C7 F C\nC   G\nC C7 F C\nC G7 C",
+            "lyrics": "\u017begnaj nam dostojny, stary porcie,\nRzeko Mersey \u017cegnaj nam.\nWyp\u0142ywamy ju\u017c na rejs do Kalifornii,\nGdy wr\u00f3cimy - opowiemy wam.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A wi\u0119c \u017cegnaj mi...",
+            "chorus": true
+        }
+    ]
+}

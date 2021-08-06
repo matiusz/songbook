@@ -1,1 +1,66 @@
-{"title": "Lenin", "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie", "sections": [{"chords": "a\nA7 d", "lyrics": "Spyta\u0142a kiedy\u015b mnie moja dziewczyna:\nDlaczego ty nie przypominasz mi Lenina? ", "chorus": false}, {"chords": " d a\n H7 E a (E a)", "lyrics": "A ty maszeruj, maszeruj, g\u0142o\u015bno krzycz:\nNiech \u017cyje nam Wo\u0142odia Ilicz!", "chorus": true}, {"chords": "a\nA7 d", "lyrics": "A kiedy rano nie chce ci si\u0119 podnie\u015b\u0107 dupska,\nPrzypomnij sobie jak walczy\u0142a Nadia Krupska.\n", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "A w Poroninie \u017cyje jeszcze taki baca,\nCo Leninowi kwa\u015bnym mlekiem leczy\u0142 kaca", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "Do dzisiaj ro\u015bnie w Poroninie ta buczyna,\nkt\u00f3r\u0105 olewa\u0142 przes\u0142awny mocz Lenina.", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "Dzi\u015b w Poroninie stoi jeszcze ten piaskowiec,\nZ kt\u00f3rego Lenin obserwowa\u0142 stado owiec.\n", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "Dzi\u015b wszystkie kwiaty, wszystkie ptaki, wszystkie drzewa,\nCa\u0142a przyroda o Leninie dzisiaj \u015bpiewa", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "Wczoraj widzia\u0142em nowy western w kinie\nWszyscy kowboje \u015bpiewali o Leninie", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "Pewnego razu przywieziono mi trofeum:\nCzerwone ucho wywiezione z mauzoleum.\n", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "W mojej szafie le\u017cy szokuj\u0105ca fotografia\nLenin bez czapki! To\u017c to czysta pornografia", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "Dzi\u015b ca\u0142a nocka pe\u0142na jest polucji,\nna sam\u0105 my\u015bl o wielkim wodzu rewolucji.", "chorus": false}, {"chords": "a\nA7 d", "lyrics": "Kiedy do \u0142\u00f3\u017cka wpycha ci si\u0119 dziewczyna\nPrzep\u0119d\u017a j\u0105 i we\u017a za dzie\u0142a si\u0119 Lenina", "chorus": false}]}
+{
+    "title": "Lenin",
+    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "sections": [
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Spyta\u0142a kiedy\u015b mnie moja dziewczyna:\nDlaczego ty nie przypominasz mi Lenina? ",
+            "chorus": false
+        },
+        {
+            "chords": " d a\n H7 E a (E a)",
+            "lyrics": "A ty maszeruj, maszeruj, g\u0142o\u015bno krzycz:\nNiech \u017cyje nam Wo\u0142odia Ilicz!",
+            "chorus": true
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "A kiedy rano nie chce ci si\u0119 podnie\u015b\u0107 dupska,\nPrzypomnij sobie jak walczy\u0142a Nadia Krupska.\n",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "A w Poroninie \u017cyje jeszcze taki baca,\nCo Leninowi kwa\u015bnym mlekiem leczy\u0142 kaca",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Do dzisiaj ro\u015bnie w Poroninie ta buczyna,\nkt\u00f3r\u0105 olewa\u0142 przes\u0142awny mocz Lenina.",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Dzi\u015b w Poroninie stoi jeszcze ten piaskowiec,\nZ kt\u00f3rego Lenin obserwowa\u0142 stado owiec.\n",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Dzi\u015b wszystkie kwiaty, wszystkie ptaki, wszystkie drzewa,\nCa\u0142a przyroda o Leninie dzisiaj \u015bpiewa",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Wczoraj widzia\u0142em nowy western w kinie\nWszyscy kowboje \u015bpiewali o Leninie",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Pewnego razu przywieziono mi trofeum:\nCzerwone ucho wywiezione z mauzoleum.\n",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "W mojej szafie le\u017cy szokuj\u0105ca fotografia\nLenin bez czapki! To\u017c to czysta pornografia",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Dzi\u015b ca\u0142a nocka pe\u0142na jest polucji,\nna sam\u0105 my\u015bl o wielkim wodzu rewolucji.",
+            "chorus": false
+        },
+        {
+            "chords": "a\nA7 d",
+            "lyrics": "Kiedy do \u0142\u00f3\u017cka wpycha ci si\u0119 dziewczyna\nPrzep\u0119d\u017a j\u0105 i we\u017a za dzie\u0142a si\u0119 Lenina",
+            "chorus": false
+        }
+    ]
+}

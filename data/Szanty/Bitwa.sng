@@ -1,1 +1,57 @@
-{"title": "Bitwa", "author": "Mechanicy Szanty", "category": "Szanty", "sections": [{"chords": "e h C a\ne D G H", "lyrics": "Okr\u0119t nasz wp\u0142yn\u0105\u0142 w mg\u0142\u0119 i fregaty dwie\nPop\u0142yn\u0119\u0142y naszym kursem by nie zgubi\u0107 si\u0119\nPotem szkwa\u0142 wypchn\u0105\u0142 nas poza mleczny pas\nI nikt wtedy nie przypuszcza\u0142 \u017ce fregaty \u015bmier\u0107 nam nios\u0105", "chorus": false}, {"chords": "G D e h\nC D e", "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami\nWygra ten kto utrzyma ship\nW huku dzia\u0142 kto\u015b przykryje si\u0119 falami\nJak da B\u00f3g ocalimy bryg\n", "chorus": true}, {"chords": "e h C a\ne D G H", "lyrics": "Nag\u0142y huk w uszach gra\u0142 i ju\u017c atak trwa\u0142\nTo fregaty uzbrojone rz\u0119dem w setk\u0119 dzia\u0142\nCzarny dym spowi\u0142 nas przyszed\u0142 \u015bmierci czas\nKrzyk i lament mych kamrat\u00f3w przerywany ogniem kat\u00f3w", "chorus": false}, {"chords": "", "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...", "chorus": true}, {"chords": "e h C a\ne D G H", "lyrics": "Pocisk nasz trafi\u0142 w maszt us\u0142ysza\u0142em trzask\nTo sterburt\u0119 rozwali\u0142a jedna z naszych salw\n\u017bagiel staw krzykn\u0105\u0142 kto\u015b zn\u00f3w pirat\u00f3w z\u0142o\u015b\u0107\nBo od rufy nam powia\u0142o a fregatom w mord\u0119 wia\u0142o\n", "chorus": false}, {"chords": "", "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...", "chorus": true}, {"chords": "e h C a\ne D G H", "lyrics": "Z fregat dw\u00f3ch tylko ta pierwsza w pogo\u0144 sz\u0142a\nWnet aborda\u017c rozpocz\u0119li gdy dopadli nas\nSzyper ich dziury dwie zrobi\u0142 w swoim dnie\nNie pomog\u0142o to psubratom reszta z rei zwisa za to\n", "chorus": false}, {"chords": "", "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...", "chorus": true}, {"chords": "e h C a\ne D G H", "lyrics": "Po dzi\u015b dzie\u0144 tamt\u0105 mg\u0142\u0119 i fregaty dwie\nKiedy noc zamyka oczy widz\u0119 w moim \u015bnie\nTamci co \u015bpi\u0105 na dnie u\u015bmiechaj\u0105 si\u0119\n\u017be ich straszn\u0105 \u015bmier\u0107 pom\u015bcili bracia kt\u00f3rzy zwyci\u0119\u017cyli", "chorus": false}, {"chords": "", "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...", "chorus": true}]}
+{
+    "title": "Bitwa",
+    "author": "Mechanicy Szanty",
+    "category": "Szanty",
+    "sections": [
+        {
+            "chords": "e h C a\ne D G H",
+            "lyrics": "Okr\u0119t nasz wp\u0142yn\u0105\u0142 w mg\u0142\u0119 i fregaty dwie\nPop\u0142yn\u0119\u0142y naszym kursem by nie zgubi\u0107 si\u0119\nPotem szkwa\u0142 wypchn\u0105\u0142 nas poza mleczny pas\nI nikt wtedy nie przypuszcza\u0142 \u017ce fregaty \u015bmier\u0107 nam nios\u0105",
+            "chorus": false
+        },
+        {
+            "chords": "G D e h\nC D e",
+            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami\nWygra ten kto utrzyma ship\nW huku dzia\u0142 kto\u015b przykryje si\u0119 falami\nJak da B\u00f3g ocalimy bryg\n",
+            "chorus": true
+        },
+        {
+            "chords": "e h C a\ne D G H",
+            "lyrics": "Nag\u0142y huk w uszach gra\u0142 i ju\u017c atak trwa\u0142\nTo fregaty uzbrojone rz\u0119dem w setk\u0119 dzia\u0142\nCzarny dym spowi\u0142 nas przyszed\u0142 \u015bmierci czas\nKrzyk i lament mych kamrat\u00f3w przerywany ogniem kat\u00f3w",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
+            "chorus": true
+        },
+        {
+            "chords": "e h C a\ne D G H",
+            "lyrics": "Pocisk nasz trafi\u0142 w maszt us\u0142ysza\u0142em trzask\nTo sterburt\u0119 rozwali\u0142a jedna z naszych salw\n\u017bagiel staw krzykn\u0105\u0142 kto\u015b zn\u00f3w pirat\u00f3w z\u0142o\u015b\u0107\nBo od rufy nam powia\u0142o a fregatom w mord\u0119 wia\u0142o\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
+            "chorus": true
+        },
+        {
+            "chords": "e h C a\ne D G H",
+            "lyrics": "Z fregat dw\u00f3ch tylko ta pierwsza w pogo\u0144 sz\u0142a\nWnet aborda\u017c rozpocz\u0119li gdy dopadli nas\nSzyper ich dziury dwie zrobi\u0142 w swoim dnie\nNie pomog\u0142o to psubratom reszta z rei zwisa za to\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
+            "chorus": true
+        },
+        {
+            "chords": "e h C a\ne D G H",
+            "lyrics": "Po dzi\u015b dzie\u0144 tamt\u0105 mg\u0142\u0119 i fregaty dwie\nKiedy noc zamyka oczy widz\u0119 w moim \u015bnie\nTamci co \u015bpi\u0105 na dnie u\u015bmiechaj\u0105 si\u0119\n\u017be ich straszn\u0105 \u015bmier\u0107 pom\u015bcili bracia kt\u00f3rzy zwyci\u0119\u017cyli",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
+            "chorus": true
+        }
+    ]
+}

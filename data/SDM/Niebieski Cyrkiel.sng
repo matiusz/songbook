@@ -1,1 +1,36 @@
-{"title": "Niebieski cyrkiel", "category": "SDM", "sections": [{"chords": "a\nC F\nG\na", "lyrics": "Na chwil\u0119 mi da\u0142e\u015b\nMiejsce na Twej Ziemi\nCienkie linie dr\u00f3g\nCyrklem wyznaczy\u0142e\u015b", "chorus": false}, {"chords": "a\nC\nF\nG a", "lyrics": "I wodzisz mnie wci\u0105\u017c\nPo \u015bcie\u017ckach kr\u0119tych\nGdzie nawet trawy\nSzepcz\u0105 Twoje imi\u0119 ", "chorus": false}, {"chords": "F C\nG\nF G\na", "lyrics": "Wci\u0105\u017c ucz\u0119 si\u0119 \u017cy\u0107\nNa w\u0142asnej sk\u00f3rze\nI p\u0142ac\u0119 jak umiem\nTen dziwny rachunek ", "chorus": true}, {"chords": "a\nC F\nG\na", "lyrics": "Czasem hymn \u015bpiewam\nNa Twoj\u0105 chwa\u0142\u0119\nCzasem co\u015b w z\u0142o\u015bci\nSycz\u0119 przez z\u0119by", "chorus": false}, {"chords": "a\nC\nF\nG a", "lyrics": "Bo tyle skrajnych\nDawno ju\u017c przekroczonych\nI tyle decyzji\nTak do ko\u0144ca b\u0142\u0119dnych", "chorus": false}, {"chords": "", "lyrics": "Wci\u0105\u017c ucz\u0119 si\u0119 \u017cy\u0107...", "chorus": true}]}
+{
+    "title": "Niebieski cyrkiel",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "a\nC F\nG\na",
+            "lyrics": "Na chwil\u0119 mi da\u0142e\u015b\nMiejsce na Twej Ziemi\nCienkie linie dr\u00f3g\nCyrklem wyznaczy\u0142e\u015b",
+            "chorus": false
+        },
+        {
+            "chords": "a\nC\nF\nG a",
+            "lyrics": "I wodzisz mnie wci\u0105\u017c\nPo \u015bcie\u017ckach kr\u0119tych\nGdzie nawet trawy\nSzepcz\u0105 Twoje imi\u0119 ",
+            "chorus": false
+        },
+        {
+            "chords": "F C\nG\nF G\na",
+            "lyrics": "Wci\u0105\u017c ucz\u0119 si\u0119 \u017cy\u0107\nNa w\u0142asnej sk\u00f3rze\nI p\u0142ac\u0119 jak umiem\nTen dziwny rachunek ",
+            "chorus": true
+        },
+        {
+            "chords": "a\nC F\nG\na",
+            "lyrics": "Czasem hymn \u015bpiewam\nNa Twoj\u0105 chwa\u0142\u0119\nCzasem co\u015b w z\u0142o\u015bci\nSycz\u0119 przez z\u0119by",
+            "chorus": false
+        },
+        {
+            "chords": "a\nC\nF\nG a",
+            "lyrics": "Bo tyle skrajnych\nDawno ju\u017c przekroczonych\nI tyle decyzji\nTak do ko\u0144ca b\u0142\u0119dnych",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Wci\u0105\u017c ucz\u0119 si\u0119 \u017cy\u0107...",
+            "chorus": true
+        }
+    ]
+}

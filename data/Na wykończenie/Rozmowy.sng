@@ -1,1 +1,47 @@
-{"title": "Rozmowy", "author": "Dom o Zielonych Progach", "category": "Na wyko\u0144czenie", "sections": [{"chords": "C G d G\nC G d G\nC G d G\n", "lyrics": "S\u0105 modlitwy jak ptaki niewidome, kt\u00f3re bezkres celu przera\u017ca \nS\u0105 twarze pozornie znajome i zdarzenia, w kt\u00f3rych si\u0119 zdarzasz\nS\u0105 modlitwy kt\u00f3re zetrze pierwszy podmuch cia\u0142a", "chorus": false}, {"chords": " C e F G\n C e F G\n", "lyrics": "Chyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b\nChyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b", "chorus": true}, {"chords": "C G d G\nC G d G", "lyrics": "S\u0105 modlitwy, kt\u00f3rych nikt nie wys\u0142ucha - to nieprawda, to nieprawda\nI te z kt\u00f3rych niebiesko\u015b\u0107 czytasz, dopiero dzi\u015b si\u0119 pytasz...", "chorus": false}, {"chords": " C e F G\n C e F G\n", "lyrics": "Dopiero sie pytasz, dopiero sie pytasz\nDopiero sie pytasz, dopiero sie pytasz", "chorus": true}, {"chords": "C G d G\nC G d G\nC G d G\n", "lyrics": "S\u0105 modlitwy jak ptaki niewidome, kt\u00f3re bezkres celu przera\u017ca\nS\u0105 twarze pozornie znajome i zdarzenia, w kt\u00f3rych si\u0119 zdarzasz\nS\u0105 modlitwy, kt\u00f3re zetrze pierwszy podmuch cia\u0142a", "chorus": false}, {"chords": " C e F G\n C e F G\n", "lyrics": "Chyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b\nChyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b", "chorus": true}, {"chords": "C G d G\nC G d G", "lyrics": "S\u0105 modlitwy, kt\u00f3rych nikt nie wys\u0142ucha - to nieprawda, to nieprawda\nI te z kt\u00f3rych niebiesko\u015b\u0107 czytasz, dopiero dzi\u015b si\u0119 pytasz...\n", "chorus": false}, {"chords": " C e F G\n C e F G\n", "lyrics": "Dopiero sie pytasz, dopiero sie pytasz\nDopiero sie pytasz, dopiero sie pytasz", "chorus": true}]}
+{
+    "title": "Rozmowy",
+    "author": "Dom o Zielonych Progach",
+    "category": "Na wyko\u0144czenie",
+    "sections": [
+        {
+            "chords": "C G d G\nC G d G\nC G d G\n",
+            "lyrics": "S\u0105 modlitwy jak ptaki niewidome, kt\u00f3re bezkres celu przera\u017ca \nS\u0105 twarze pozornie znajome i zdarzenia, w kt\u00f3rych si\u0119 zdarzasz\nS\u0105 modlitwy kt\u00f3re zetrze pierwszy podmuch cia\u0142a",
+            "chorus": false
+        },
+        {
+            "chords": " C e F G\n C e F G\n",
+            "lyrics": "Chyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b\nChyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b",
+            "chorus": true
+        },
+        {
+            "chords": "C G d G\nC G d G",
+            "lyrics": "S\u0105 modlitwy, kt\u00f3rych nikt nie wys\u0142ucha - to nieprawda, to nieprawda\nI te z kt\u00f3rych niebiesko\u015b\u0107 czytasz, dopiero dzi\u015b si\u0119 pytasz...",
+            "chorus": false
+        },
+        {
+            "chords": " C e F G\n C e F G\n",
+            "lyrics": "Dopiero sie pytasz, dopiero sie pytasz\nDopiero sie pytasz, dopiero sie pytasz",
+            "chorus": true
+        },
+        {
+            "chords": "C G d G\nC G d G\nC G d G\n",
+            "lyrics": "S\u0105 modlitwy jak ptaki niewidome, kt\u00f3re bezkres celu przera\u017ca\nS\u0105 twarze pozornie znajome i zdarzenia, w kt\u00f3rych si\u0119 zdarzasz\nS\u0105 modlitwy, kt\u00f3re zetrze pierwszy podmuch cia\u0142a",
+            "chorus": false
+        },
+        {
+            "chords": " C e F G\n C e F G\n",
+            "lyrics": "Chyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b\nChyba p\u0142aka\u0142a\u015b, Chyba p\u0142aka\u0142a\u015b",
+            "chorus": true
+        },
+        {
+            "chords": "C G d G\nC G d G",
+            "lyrics": "S\u0105 modlitwy, kt\u00f3rych nikt nie wys\u0142ucha - to nieprawda, to nieprawda\nI te z kt\u00f3rych niebiesko\u015b\u0107 czytasz, dopiero dzi\u015b si\u0119 pytasz...\n",
+            "chorus": false
+        },
+        {
+            "chords": " C e F G\n C e F G\n",
+            "lyrics": "Dopiero sie pytasz, dopiero sie pytasz\nDopiero sie pytasz, dopiero sie pytasz",
+            "chorus": true
+        }
+    ]
+}

@@ -1,1 +1,36 @@
-{"title": "Nie rozdziobi\u0105 nas kruki", "category": "SDM", "sections": [{"chords": "D G0 h G\nfis e A A4\nD G0 h G\nD A G", "lyrics": "Nie rozdziobi\u0105 nas kruki\nni wrony, ani nic!\nNie rozszarpi\u0105 na sztuki\nPoezji w\u015bciek\u0142e k\u0142y!", "chorus": false}, {"chords": "Fis h\nG D A A4\nFis h\nG D A D", "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo;\nNiechybnie brakuje tam nas!\nOd stania w miejscu niejeden ju\u017c zgin\u0105\u0142,\nNiejeden zgin\u0105\u0142 ju\u017c kwiat!", "chorus": true}, {"chords": "D G0 h G\nfis e A A4\nD G0 h G\nD A G", "lyrics": "Nie omami nas forsa\nni s\u0142awy pusty d\u017awi\u0119k!\nInn\u0105 \u015bcigamy posta\u0107:\nRealnej zjawy tren!", "chorus": false}, {"chords": "", "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo...", "chorus": true}, {"chords": "D G0 h G\nfis e A A4\nD G0 h G\nD A G", "lyrics": "Nie zdechniemy tak szybko,\nJak sobie roi \u015bmier\u0107!\nZiemia dla nas za p\u0142ytka,\nFruniemy w g\u00f3r\u0119 gdzie\u015b!", "chorus": false}, {"chords": "", "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo...", "chorus": true}]}
+{
+    "title": "Nie rozdziobi\u0105 nas kruki",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "D G0 h G\nfis e A A4\nD G0 h G\nD A G",
+            "lyrics": "Nie rozdziobi\u0105 nas kruki\nni wrony, ani nic!\nNie rozszarpi\u0105 na sztuki\nPoezji w\u015bciek\u0142e k\u0142y!",
+            "chorus": false
+        },
+        {
+            "chords": "Fis h\nG D A A4\nFis h\nG D A D",
+            "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo;\nNiechybnie brakuje tam nas!\nOd stania w miejscu niejeden ju\u017c zgin\u0105\u0142,\nNiejeden zgin\u0105\u0142 ju\u017c kwiat!",
+            "chorus": true
+        },
+        {
+            "chords": "D G0 h G\nfis e A A4\nD G0 h G\nD A G",
+            "lyrics": "Nie omami nas forsa\nni s\u0142awy pusty d\u017awi\u0119k!\nInn\u0105 \u015bcigamy posta\u0107:\nRealnej zjawy tren!",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo...",
+            "chorus": true
+        },
+        {
+            "chords": "D G0 h G\nfis e A A4\nD G0 h G\nD A G",
+            "lyrics": "Nie zdechniemy tak szybko,\nJak sobie roi \u015bmier\u0107!\nZiemia dla nas za p\u0142ytka,\nFruniemy w g\u00f3r\u0119 gdzie\u015b!",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo...",
+            "chorus": true
+        }
+    ]
+}

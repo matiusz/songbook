@@ -1,1 +1,57 @@
-{"title": "Nasze przebudzenie", "author": "Buzu Squat", "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie", "sections": [{"chords": " C G d a\n C G d a\n C G d a\n C G d a", "lyrics": " S\u0142ucha\u0107 w pe\u0142nym s\u0142o\u0144cu, jak pulsuje ziemia\nUspokoi\u0107 swoje serce, niczego ju\u017c nie zmienia\u0107\nI uwierzy\u0107 w siebie, porzucaj\u0105c sny\nA tw\u00f3j bunt przemija, a nie ty. I", "chorus": false}, {"chords": "C\nG\nd a", "lyrics": "Nie wiesz\nNie wiesz\nNie rozumiesz nic /x2", "chorus": true}, {"chords": " C G d a\n C G d a\n C G d a\n C G d a", "lyrics": "Widzie\u0107 par\u0119 bobr\u00f3w przytulonych nad potokiem\nNie zabija\u0107 ich wi\u0119cej, cieszy\u0107 si\u0119 widokiem\nNie wyjada\u0107 ich wn\u0119trzno\u015bci, nie wchodzi\u0107 w ich sk\u00f3r\u0119\nSt\u0119pi\u0107 w sobie instynkt \u0142owcy, wtopi\u0107 w natur\u0119. I", "chorus": false}, {"chords": "", "lyrics": "Nie wiesz...", "chorus": true}, {"chords": " C G d a\n C G d a\n C G d a\n C G d a", "lyrics": "Wybra\u0107 to co dobre, z m\u0105drych starych ksi\u0105g\nUszanowa\u0107 swoj\u0105 godno\u015b\u0107, doceniaj\u0105c j\u0105\nA gdy wreszcie uda si\u0119, w\u0142asne z\u0142o pokona\u0107\n\u017beby zawsze mie\u0107 przy sobie, czyje\u015b ramiona. I\n", "chorus": false}, {"chords": "", "lyrics": "Nie wiesz...", "chorus": true}, {"chords": " C G d a\n C G d a\n C G d a\n C G d a", "lyrics": "Wyczu\u0107 tak\u0105 chwil\u0119 w kt\u00f3rej kocha si\u0119 \u017cycie\nI m\u00f3c w niej by\u0107 stale na wieczno\u015b\u0107 w zachwycie\nW pe\u0142nym s\u0142o\u0144cu dumnie, na w\u0142asnych nogach\nMo\u017ce wtedy b\u0119dzie mo\u017cna ujrze\u0107 u\u015bmiech Boga. I", "chorus": false}, {"chords": "", "lyrics": "Nie wiesz...", "chorus": true}, {"chords": "G B C C", "lyrics": "", "chorus": false}, {"chords": " F C\n d a", "lyrics": "Przej\u015b\u0107 wielk\u0105 rzek\u0119\nBez b\u00f3lu i wyrzecze\u0144", "chorus": false}]}
+{
+    "title": "Nasze przebudzenie",
+    "author": "Buzu Squat",
+    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "sections": [
+        {
+            "chords": " C G d a\n C G d a\n C G d a\n C G d a",
+            "lyrics": " S\u0142ucha\u0107 w pe\u0142nym s\u0142o\u0144cu, jak pulsuje ziemia\nUspokoi\u0107 swoje serce, niczego ju\u017c nie zmienia\u0107\nI uwierzy\u0107 w siebie, porzucaj\u0105c sny\nA tw\u00f3j bunt przemija, a nie ty. I",
+            "chorus": false
+        },
+        {
+            "chords": "C\nG\nd a",
+            "lyrics": "Nie wiesz\nNie wiesz\nNie rozumiesz nic /x2",
+            "chorus": true
+        },
+        {
+            "chords": " C G d a\n C G d a\n C G d a\n C G d a",
+            "lyrics": "Widzie\u0107 par\u0119 bobr\u00f3w przytulonych nad potokiem\nNie zabija\u0107 ich wi\u0119cej, cieszy\u0107 si\u0119 widokiem\nNie wyjada\u0107 ich wn\u0119trzno\u015bci, nie wchodzi\u0107 w ich sk\u00f3r\u0119\nSt\u0119pi\u0107 w sobie instynkt \u0142owcy, wtopi\u0107 w natur\u0119. I",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Nie wiesz...",
+            "chorus": true
+        },
+        {
+            "chords": " C G d a\n C G d a\n C G d a\n C G d a",
+            "lyrics": "Wybra\u0107 to co dobre, z m\u0105drych starych ksi\u0105g\nUszanowa\u0107 swoj\u0105 godno\u015b\u0107, doceniaj\u0105c j\u0105\nA gdy wreszcie uda si\u0119, w\u0142asne z\u0142o pokona\u0107\n\u017beby zawsze mie\u0107 przy sobie, czyje\u015b ramiona. I\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Nie wiesz...",
+            "chorus": true
+        },
+        {
+            "chords": " C G d a\n C G d a\n C G d a\n C G d a",
+            "lyrics": "Wyczu\u0107 tak\u0105 chwil\u0119 w kt\u00f3rej kocha si\u0119 \u017cycie\nI m\u00f3c w niej by\u0107 stale na wieczno\u015b\u0107 w zachwycie\nW pe\u0142nym s\u0142o\u0144cu dumnie, na w\u0142asnych nogach\nMo\u017ce wtedy b\u0119dzie mo\u017cna ujrze\u0107 u\u015bmiech Boga. I",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Nie wiesz...",
+            "chorus": true
+        },
+        {
+            "chords": "G B C C",
+            "lyrics": "",
+            "chorus": false
+        },
+        {
+            "chords": " F C\n d a",
+            "lyrics": "Przej\u015b\u0107 wielk\u0105 rzek\u0119\nBez b\u00f3lu i wyrzecze\u0144",
+            "chorus": false
+        }
+    ]
+}

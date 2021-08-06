@@ -1,1 +1,26 @@
-{"title": "Pod k\u0105tem ostrym", "category": "SDM", "sections": [{"chords": "G C\nD e\nF C\nG D", "lyrics": "Dom m\u00f3j ostatnio\nLedwo sta\u0142 na nogach\nSt\u00f3\u0142 nawet przechyla\u0142 si\u0119\nKiedy jad\u0142em obiad ", "chorus": false}, {"chords": "G C\nD e\nF C\nG D", "lyrics": "Pod\u0142oga grzbiet pr\u0119\u017cy\u0142a\nKlepki a\u017c trzeszcza\u0142y\nJako\u015b tak nie mog\u0142em\nZ\u0142apa\u0107 r\u00f3wnowagi", "chorus": false}, {"chords": "G C\nD e\nF C\nG D", "lyrics": "Przechyli\u0142 si\u0119 mrocznie\nM\u00f3j dom na chwil\u0119\nI mieszka\u0142em k\u0105tem\nNa r\u00f3wni pochy\u0142ej", "chorus": false}, {"chords": "G C\nD e\nF C\nG D", "lyrics": "Dobrze \u017ce wr\u00f3ci\u0142a\u015b\nKwiaty w wazonie\nZn\u00f3w oswojone\nCicho pij\u0105 wod\u0119", "chorus": false}]}
+{
+    "title": "Pod k\u0105tem ostrym",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "G C\nD e\nF C\nG D",
+            "lyrics": "Dom m\u00f3j ostatnio\nLedwo sta\u0142 na nogach\nSt\u00f3\u0142 nawet przechyla\u0142 si\u0119\nKiedy jad\u0142em obiad ",
+            "chorus": false
+        },
+        {
+            "chords": "G C\nD e\nF C\nG D",
+            "lyrics": "Pod\u0142oga grzbiet pr\u0119\u017cy\u0142a\nKlepki a\u017c trzeszcza\u0142y\nJako\u015b tak nie mog\u0142em\nZ\u0142apa\u0107 r\u00f3wnowagi",
+            "chorus": false
+        },
+        {
+            "chords": "G C\nD e\nF C\nG D",
+            "lyrics": "Przechyli\u0142 si\u0119 mrocznie\nM\u00f3j dom na chwil\u0119\nI mieszka\u0142em k\u0105tem\nNa r\u00f3wni pochy\u0142ej",
+            "chorus": false
+        },
+        {
+            "chords": "G C\nD e\nF C\nG D",
+            "lyrics": "Dobrze \u017ce wr\u00f3ci\u0142a\u015b\nKwiaty w wazonie\nZn\u00f3w oswojone\nCicho pij\u0105 wod\u0119",
+            "chorus": false
+        }
+    ]
+}

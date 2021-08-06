@@ -1,1 +1,27 @@
-{"title": "Prze\u017cyj to sam", "author": "Lombard", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": " C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7", "lyrics": "Na \u017cycie patrzysz bez emocji\nNa przek\u00f3r czasom i ludziom wbrew\nGdziekolwiek jeste\u015b, w dzie\u0144 czy w nocy\nOczyma widza ogl\u0105dasz gr\u0119\nKto\u015b inny zmienia \u015bwiat za ciebie\nNadstawia g\u0142ow\u0119, podnosi krzyk\nA ty z daleka, bo tak lepiej\nI w razie czego nie tracisz nic", "chorus": false}, {"chords": " C E a d G\n C E a\n d G G7", "lyrics": "Prze\u017cyj to sam, prze\u017cyj to sam\nNie zamieniaj serca w twardy g\u0142az\nP\u00f3ki jeszcze serce masz", "chorus": true}, {"chords": " C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7", "lyrics": "Widzia\u0142e\u015b wczoraj zn\u00f3w w dzienniku\nZm\u0119czonych ludzi wzburzony t\u0142um\nI jeden szczeg\u00f3\u0142 wzrok tw\u00f3j przyku\u0142\nOgromne morze ludzkich g\u0142\u00f3w\nA spiker cedzi\u0142 ostre s\u0142owa\nOd kt\u00f3rych nag\u0142a wzbiera\u0142a z\u0142o\u015b\u0107\nI pocz\u0105\u0142 w tobie gniew kie\u0142kowa\u0107\nA\u017c pomy\u015bla\u0142e\u015b milczenia do\u015b\u0107", "chorus": false}, {"chords": "", "lyrics": "Prze\u017cyj to sam...\n", "chorus": true}]}
+{
+    "title": "Prze\u017cyj to sam",
+    "author": "Lombard",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7",
+            "lyrics": "Na \u017cycie patrzysz bez emocji\nNa przek\u00f3r czasom i ludziom wbrew\nGdziekolwiek jeste\u015b, w dzie\u0144 czy w nocy\nOczyma widza ogl\u0105dasz gr\u0119\nKto\u015b inny zmienia \u015bwiat za ciebie\nNadstawia g\u0142ow\u0119, podnosi krzyk\nA ty z daleka, bo tak lepiej\nI w razie czego nie tracisz nic",
+            "chorus": false
+        },
+        {
+            "chords": " C E a d G\n C E a\n d G G7",
+            "lyrics": "Prze\u017cyj to sam, prze\u017cyj to sam\nNie zamieniaj serca w twardy g\u0142az\nP\u00f3ki jeszcze serce masz",
+            "chorus": true
+        },
+        {
+            "chords": " C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7\n C E a\n d G G7",
+            "lyrics": "Widzia\u0142e\u015b wczoraj zn\u00f3w w dzienniku\nZm\u0119czonych ludzi wzburzony t\u0142um\nI jeden szczeg\u00f3\u0142 wzrok tw\u00f3j przyku\u0142\nOgromne morze ludzkich g\u0142\u00f3w\nA spiker cedzi\u0142 ostre s\u0142owa\nOd kt\u00f3rych nag\u0142a wzbiera\u0142a z\u0142o\u015b\u0107\nI pocz\u0105\u0142 w tobie gniew kie\u0142kowa\u0107\nA\u017c pomy\u015bla\u0142e\u015b milczenia do\u015b\u0107",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Prze\u017cyj to sam...\n",
+            "chorus": true
+        }
+    ]
+}

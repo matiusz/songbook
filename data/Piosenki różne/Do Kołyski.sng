@@ -1,1 +1,42 @@
-{"title": "Do ko\u0142yski", "author": "D\u017cem", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A h", "lyrics": "\u017byj z ca\u0142ych si\u0142\nI u\u015bmiechaj si\u0119 do ludzi\nBo nie jeste\u015b sam\n\u015apij, noc\u0105 \u015bnij\nNiech z\u0142y sen Ci\u0119 nigdy wi\u0119cej nie obudzi\nTeraz \u015bpij\n", "chorus": false}, {"chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A D", "lyrics": "Niech dobry B\u00f3g\nZawsze ci\u0119 za r\u0119k\u0119 trzyma\nKiedy ciemny wiatr\nPorywa spok\u00f3j\nSiej\u0105c smutek i zw\u0105tpienie\nPami\u0119taj, \u017ce ", "chorus": false}, {"chords": "e A h\ne A G\ne A h\ne   A", "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic\u2026\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil\u2026", "chorus": true}, {"chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A D", "lyrics": "Id\u017a w\u0142asn\u0105 drog\u0105\nBo w tym ca\u0142y sens istnienia\n\u017beby umie\u0107 \u017cy\u0107\nBez znieczulenia\nBez niepotrzebnych niespe\u0142nienia\nMy\u015bli z\u0142ych", "chorus": false}, {"chords": "e A h\ne A G\ne A h\ne A G\ne   A", "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic...\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil...\nNajlepsz\u0105 z Twoich chwil", "chorus": true}, {"chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A D", "lyrics": "Niech dobry B\u00f3g\nZawsze ci\u0119 za r\u0119k\u0119 trzyma\nKiedy ciemny wiatr\nPorywa spok\u00f3j\nSiej\u0105c smutek i zw\u0105tpienie\nPami\u0119taj", "chorus": false}, {"chords": "e A h\ne A G\ne A h\ne A G\ne   A", "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic...\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil...\nNajlepsz\u0105 z Twoich chwil\n", "chorus": true}]}
+{
+    "title": "Do ko\u0142yski",
+    "author": "D\u017cem",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A h",
+            "lyrics": "\u017byj z ca\u0142ych si\u0142\nI u\u015bmiechaj si\u0119 do ludzi\nBo nie jeste\u015b sam\n\u015apij, noc\u0105 \u015bnij\nNiech z\u0142y sen Ci\u0119 nigdy wi\u0119cej nie obudzi\nTeraz \u015bpij\n",
+            "chorus": false
+        },
+        {
+            "chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A D",
+            "lyrics": "Niech dobry B\u00f3g\nZawsze ci\u0119 za r\u0119k\u0119 trzyma\nKiedy ciemny wiatr\nPorywa spok\u00f3j\nSiej\u0105c smutek i zw\u0105tpienie\nPami\u0119taj, \u017ce ",
+            "chorus": false
+        },
+        {
+            "chords": "e A h\ne A G\ne A h\ne   A",
+            "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic\u2026\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil\u2026",
+            "chorus": true
+        },
+        {
+            "chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A D",
+            "lyrics": "Id\u017a w\u0142asn\u0105 drog\u0105\nBo w tym ca\u0142y sens istnienia\n\u017beby umie\u0107 \u017cy\u0107\nBez znieczulenia\nBez niepotrzebnych niespe\u0142nienia\nMy\u015bli z\u0142ych",
+            "chorus": false
+        },
+        {
+            "chords": "e A h\ne A G\ne A h\ne A G\ne   A",
+            "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic...\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil...\nNajlepsz\u0105 z Twoich chwil",
+            "chorus": true
+        },
+        {
+            "chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A D",
+            "lyrics": "Niech dobry B\u00f3g\nZawsze ci\u0119 za r\u0119k\u0119 trzyma\nKiedy ciemny wiatr\nPorywa spok\u00f3j\nSiej\u0105c smutek i zw\u0105tpienie\nPami\u0119taj",
+            "chorus": false
+        },
+        {
+            "chords": "e A h\ne A G\ne A h\ne A G\ne   A",
+            "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic...\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil...\nNajlepsz\u0105 z Twoich chwil\n",
+            "chorus": true
+        }
+    ]
+}

@@ -1,1 +1,37 @@
-{"title": "Pie\u015b\u0144 na wyj\u015bcie", "author": "", "category": "SDM", "sections": [{"chords": "a a\nd d7\nE E7\nF G\na e", "lyrics": "Id\u017a, cz\u0142owieku, id\u017a, rozpowiedz\nId\u017acie wszystkie stany\nKolorowi, biali, czarni\nId\u017acie zw\u0142aszcza wy, ludkowie\nPrzez na o\u015bcie\u017c bramy ", "chorus": false}, {"chords": "C G a e\nC G a e", "lyrics": "Dla wszystkich starczy miejsca\nPod wielkim dachem nieba ", "chorus": true}, {"chords": "C e\na e\nC e\na e", "lyrics": "Rozejd\u017acie si\u0119 po drogach\nPo \u0142\u0105kach, po roz\u0142ogach\nPo polach, b\u0142oniach i wygonach\nW blasku s\u0142o\u0144ca, w cieniu chmur ", "chorus": false}, {"chords": "F G\nF G\nF G\na e", "lyrics": "Rozejd\u017acie si\u0119 po ni\u017cu\nRozejd\u017acie si\u0119 po wy\u017cu\nRozejd\u017acie si\u0119 po p\u0142askowy\u017cu\nW blasku s\u0142o\u0144ca, w cieniu chmur ", "chorus": false}, {"chords": "C e a e\nC e a e", "lyrics": "Dla wszystkich starczy miejsca\nPod wielkim dachem nieba ", "chorus": true}, {"chords": "C e a\nC e a", "lyrics": "Na ziemi, kt\u00f3rej ja i ty\nNie zamienimy w bagno krwi ", "chorus": false}]}
+{
+    "title": "Pie\u015b\u0144 na wyj\u015bcie",
+    "author": "",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "a a\nd d7\nE E7\nF G\na e",
+            "lyrics": "Id\u017a, cz\u0142owieku, id\u017a, rozpowiedz\nId\u017acie wszystkie stany\nKolorowi, biali, czarni\nId\u017acie zw\u0142aszcza wy, ludkowie\nPrzez na o\u015bcie\u017c bramy ",
+            "chorus": false
+        },
+        {
+            "chords": "C G a e\nC G a e",
+            "lyrics": "Dla wszystkich starczy miejsca\nPod wielkim dachem nieba ",
+            "chorus": true
+        },
+        {
+            "chords": "C e\na e\nC e\na e",
+            "lyrics": "Rozejd\u017acie si\u0119 po drogach\nPo \u0142\u0105kach, po roz\u0142ogach\nPo polach, b\u0142oniach i wygonach\nW blasku s\u0142o\u0144ca, w cieniu chmur ",
+            "chorus": false
+        },
+        {
+            "chords": "F G\nF G\nF G\na e",
+            "lyrics": "Rozejd\u017acie si\u0119 po ni\u017cu\nRozejd\u017acie si\u0119 po wy\u017cu\nRozejd\u017acie si\u0119 po p\u0142askowy\u017cu\nW blasku s\u0142o\u0144ca, w cieniu chmur ",
+            "chorus": false
+        },
+        {
+            "chords": "C e a e\nC e a e",
+            "lyrics": "Dla wszystkich starczy miejsca\nPod wielkim dachem nieba ",
+            "chorus": true
+        },
+        {
+            "chords": "C e a\nC e a",
+            "lyrics": "Na ziemi, kt\u00f3rej ja i ty\nNie zamienimy w bagno krwi ",
+            "chorus": false
+        }
+    ]
+}

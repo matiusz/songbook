@@ -1,1 +1,37 @@
-{"title": "Wspinaczka, czyli historia pewnej rewolucji", "author": "Lady Pank", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": "e C\nD h", "lyrics": "Porwali\u015bmy si\u0119 na zdobycie wielkich g\u00f3r\nherosi z dawnych lat s\u0142u\u017cyli nam za wz\u00f3r\nprzez niebotyczn\u0105 gra\u0144 pi\u0119li\u015bmy d\u0142ugo si\u0119\nniejeden opad\u0142 tam, znajduj\u0105c w dole \u015bmier\u0107\npo drodze hula\u0142 wiatr i sypa\u0142 w oczy \u015bnieg\nparali\u017cowa\u0142 strach, odbiera\u0142 zmys\u0142y l\u0119k\nlecz nie ustawa\u0142 nikt, nawet w godzinie z\u0142ej\nzaciska\u0142 pi\u0119\u015bci i ze \u015bmiechem wo\u0142a\u0142 Hej!", "chorus": false}, {"chords": "", "lyrics": "Przepi\u0119knie jest\ni tylko tlenu mniej...", "chorus": true}, {"chords": "e C\nD h", "lyrics": "A prowadzi\u0142y nas Nadzieja, Wiara, Z\u0142o\u015b\u0107\nbo tam na dole Z\u0142a naprawd\u0119 by\u0142o do\u015b\u0107\ni warto by\u0142o i\u015b\u0107, do g\u00f3ry wci\u0105\u017c si\u0119 pi\u0105\u0107\nby sob\u0105 wreszcie by\u0107, by przesta\u0107 karki gi\u0105\u0107\ni w czas w\u0119dr\u00f3wki tej by\u0142 ka\u017cdy z nas jak brat\ncho\u0107 nie oby\u0142o si\u0119 bez wiaro\u0142omnych zdrad\nlecz nie ustawa\u0142 nikt, nawet w godzinie z\u0142ej\nzaciska\u0142 pi\u0119\u015bci i ze \u015bmiechem wo\u0142a\u0142: Hej!", "chorus": false}, {"chords": "", "lyrics": "Przepi\u0119knie jest\ni tylko tlenu mniej...", "chorus": true}, {"chords": "e C\nD h", "lyrics": "A\u017c po tysi\u0105cach pr\u00f3b, przez przera\u017aliw\u0105 biel\nop\u0142aci\u0142 si\u0119 nasz trud- osi\u0105gn\u0119li\u015bmy cel\nczuli\u015bmy bicie serc i pod stopami szczyt\ngdzie pewne by\u0142o, \u017ce przed nami nie by\u0142 nikt\nlecz nie odezwa\u0142 si\u0119 tym razem \u017caden \u015bmiech\nbo wszyscy padli tu, zajadle \u0142api\u0105c dech\ni dziwny jaki\u015b by\u0142 zwyci\u0119stwa s\u0142odki smak\nmin\u0119\u0142o par\u0119 chwil, a\u017c kto\u015b wychrypia\u0142 tak:", "chorus": false}, {"chords": "", "lyrics": "Przepi\u0119knie jest\ni tylko tlenu brak...", "chorus": true}]}
+{
+    "title": "Wspinaczka, czyli historia pewnej rewolucji",
+    "author": "Lady Pank",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "e C\nD h",
+            "lyrics": "Porwali\u015bmy si\u0119 na zdobycie wielkich g\u00f3r\nherosi z dawnych lat s\u0142u\u017cyli nam za wz\u00f3r\nprzez niebotyczn\u0105 gra\u0144 pi\u0119li\u015bmy d\u0142ugo si\u0119\nniejeden opad\u0142 tam, znajduj\u0105c w dole \u015bmier\u0107\npo drodze hula\u0142 wiatr i sypa\u0142 w oczy \u015bnieg\nparali\u017cowa\u0142 strach, odbiera\u0142 zmys\u0142y l\u0119k\nlecz nie ustawa\u0142 nikt, nawet w godzinie z\u0142ej\nzaciska\u0142 pi\u0119\u015bci i ze \u015bmiechem wo\u0142a\u0142 Hej!",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Przepi\u0119knie jest\ni tylko tlenu mniej...",
+            "chorus": true
+        },
+        {
+            "chords": "e C\nD h",
+            "lyrics": "A prowadzi\u0142y nas Nadzieja, Wiara, Z\u0142o\u015b\u0107\nbo tam na dole Z\u0142a naprawd\u0119 by\u0142o do\u015b\u0107\ni warto by\u0142o i\u015b\u0107, do g\u00f3ry wci\u0105\u017c si\u0119 pi\u0105\u0107\nby sob\u0105 wreszcie by\u0107, by przesta\u0107 karki gi\u0105\u0107\ni w czas w\u0119dr\u00f3wki tej by\u0142 ka\u017cdy z nas jak brat\ncho\u0107 nie oby\u0142o si\u0119 bez wiaro\u0142omnych zdrad\nlecz nie ustawa\u0142 nikt, nawet w godzinie z\u0142ej\nzaciska\u0142 pi\u0119\u015bci i ze \u015bmiechem wo\u0142a\u0142: Hej!",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Przepi\u0119knie jest\ni tylko tlenu mniej...",
+            "chorus": true
+        },
+        {
+            "chords": "e C\nD h",
+            "lyrics": "A\u017c po tysi\u0105cach pr\u00f3b, przez przera\u017aliw\u0105 biel\nop\u0142aci\u0142 si\u0119 nasz trud- osi\u0105gn\u0119li\u015bmy cel\nczuli\u015bmy bicie serc i pod stopami szczyt\ngdzie pewne by\u0142o, \u017ce przed nami nie by\u0142 nikt\nlecz nie odezwa\u0142 si\u0119 tym razem \u017caden \u015bmiech\nbo wszyscy padli tu, zajadle \u0142api\u0105c dech\ni dziwny jaki\u015b by\u0142 zwyci\u0119stwa s\u0142odki smak\nmin\u0119\u0142o par\u0119 chwil, a\u017c kto\u015b wychrypia\u0142 tak:",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Przepi\u0119knie jest\ni tylko tlenu brak...",
+            "chorus": true
+        }
+    ]
+}

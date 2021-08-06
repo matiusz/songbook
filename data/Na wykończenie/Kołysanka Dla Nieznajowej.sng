@@ -1,1 +1,37 @@
-{"title": "Ko\u0142ysanka dla nieznajowej", "author": "Apolinary Polek, Niezwykle Smutna Ryba", "category": "Na wyko\u0144czenie", "sections": [{"chords": " G D e C D\n G D C\n G D e C D\n e D C", "lyrics": "Zima powoli sunie w ciszy przez dolin\u0119,\nKopczyki \u015bniegu zamiast kwiat\u00f3w na ga\u0142\u0119ziach.\nUciek\u0142em tam, gdzie mo\u017cna uciec najskuteczniej,\nDo tych kapliczek po\u0142emkowskich czas nie si\u0119ga.\n", "chorus": false}, {"chords": " e D C G\n e D C G\n e D C G\n e D C G", "lyrics": "\u015apij, \u015bpij, nadszed\u0142 czas,\nW \u015bniegu strumie\u0144, w s\u0142o\u0144cu las.\n\u015apij, \u015bpij, nadszed\u0142 czas,\nW \u015bniegu strumie\u0144, w s\u0142o\u0144cu las.", "chorus": true}, {"chords": " G D e C D\n G D C\n G D e C D\n e D C", "lyrics": "Kto\u015b tu zbudowa\u0142 kiedy\u015b piec z nier\u00f3wnych cegie\u0142,\nGliniane serce \u017car rozpala, \u017ce a\u017c huczy.\nZosta\u0142o jeszcze kilka p\u00f3\u0142ek i obrazek,\nI co\u015b, co ka\u017ce \"Encore jeszcze raz\" zanuci\u0107.", "chorus": false}, {"chords": "", "lyrics": "\u015apij, \u015bpij, nadszed\u0142 czas...", "chorus": true}, {"chords": " G D e C D\n G D C\n G D e C D\n e D C", "lyrics": "Beskid nakryje tutaj mnie pokorn\u0105 cisz\u0105,\nZima zasypie cicho \u015blady, zetnie ch\u0142odem.\nI to nie ja powr\u00f3c\u0119 jutro przez Rozstajne,\nSiebie zostawi\u0119 w bia\u0142ej pustce w Nieznajowej.", "chorus": false}, {"chords": "", "lyrics": "\u015apij, \u015bpij, nadszed\u0142 czas...", "chorus": true}]}
+{
+    "title": "Ko\u0142ysanka dla nieznajowej",
+    "author": "Apolinary Polek, Niezwykle Smutna Ryba",
+    "category": "Na wyko\u0144czenie",
+    "sections": [
+        {
+            "chords": " G D e C D\n G D C\n G D e C D\n e D C",
+            "lyrics": "Zima powoli sunie w ciszy przez dolin\u0119,\nKopczyki \u015bniegu zamiast kwiat\u00f3w na ga\u0142\u0119ziach.\nUciek\u0142em tam, gdzie mo\u017cna uciec najskuteczniej,\nDo tych kapliczek po\u0142emkowskich czas nie si\u0119ga.\n",
+            "chorus": false
+        },
+        {
+            "chords": " e D C G\n e D C G\n e D C G\n e D C G",
+            "lyrics": "\u015apij, \u015bpij, nadszed\u0142 czas,\nW \u015bniegu strumie\u0144, w s\u0142o\u0144cu las.\n\u015apij, \u015bpij, nadszed\u0142 czas,\nW \u015bniegu strumie\u0144, w s\u0142o\u0144cu las.",
+            "chorus": true
+        },
+        {
+            "chords": " G D e C D\n G D C\n G D e C D\n e D C",
+            "lyrics": "Kto\u015b tu zbudowa\u0142 kiedy\u015b piec z nier\u00f3wnych cegie\u0142,\nGliniane serce \u017car rozpala, \u017ce a\u017c huczy.\nZosta\u0142o jeszcze kilka p\u00f3\u0142ek i obrazek,\nI co\u015b, co ka\u017ce \"Encore jeszcze raz\" zanuci\u0107.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "\u015apij, \u015bpij, nadszed\u0142 czas...",
+            "chorus": true
+        },
+        {
+            "chords": " G D e C D\n G D C\n G D e C D\n e D C",
+            "lyrics": "Beskid nakryje tutaj mnie pokorn\u0105 cisz\u0105,\nZima zasypie cicho \u015blady, zetnie ch\u0142odem.\nI to nie ja powr\u00f3c\u0119 jutro przez Rozstajne,\nSiebie zostawi\u0119 w bia\u0142ej pustce w Nieznajowej.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "\u015apij, \u015bpij, nadszed\u0142 czas...",
+            "chorus": true
+        }
+    ]
+}

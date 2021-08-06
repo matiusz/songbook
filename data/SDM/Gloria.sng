@@ -1,1 +1,37 @@
-{"title": "Gloria", "author": "", "category": "SDM", "sections": [{"chords": "G e G a C D G G7", "lyrics": "", "chorus": false}, {"chords": "G e\nG a C D G G7\nC D\ne\nC D C\nD G", "lyrics": "Chwa\u0142a najsampierw komu,\nKomu gloria na wysoko\u015bciach?\nChwa\u0142a najsampierw tobie\nTrawo przychylna ka\u017cdemu,\nKraino na d\u00f3\u0142 od Edenu.\nGloria! Gloria! ", "chorus": false}, {"chords": "", "lyrics": "Chwa\u0142a tobie, s\u0142o\u0144ce\nOdy\u0144cu ty samotny,\nCo wstajesz rano z trz\u0119sawisk nocnych, \nI w g\u00f3r\u0119 bie\u017cysz, w niebo sam si\u0119 wzbijasz\nI chmury czarne bia\u0142ym k\u0142em przebijasz\nI to wszystko bezkrwawo - brawo, brawo\nI to wszystko z\u0142oci\u015bcie, i nikogo nie boli\nGloria! Gloria in excelsis soli! ", "chorus": false}, {"chords": "", "lyrics": "Z s\u0142o\u0144cem pochwalonym teraz p\u0119d\u017amy razem\nNa nim, na ody\u0144cu galopujmy dalej.\nChwa\u0142a tobie, wietrze\nWieczny, ty m\u0142odziku,\nSieroto \u015bwiata, ulubie\u0144cze losu\nOd z\u0142ego ratuj i k\u0105koli w zbo\u017cu\n\u0141agodnie ko\u0142ysz tych co s\u0105 na morzu\nGloria! Gloria in excelsis eoli!", "chorus": false}, {"chords": "", "lyrics": "Z wiatrem pochwalonym teraz p\u0119d\u017amy spo\u0142em\nNa nim, na koniku galopujmy polem.\nChwa\u0142a wam ptaszki \u015bpiewaj\u0105ce!\nChwa\u0142a wam ryby pluskaj\u0105ce!\nChwa\u0142a wam zaj\u0105ce na \u0142\u0105ce\nZakochane w biedronce!", "chorus": false}, {"chords": "", "lyrics": "Chwa\u0142a wam: zimy, wiosny, lata i jesienie\nChwa\u0142a temu co bez gniewu idzie\nPoprzez \u015bniegi, deszcze, blaski oraz cienie,\nW piersi pod koszul\u0105 ca\u0142e jego mienie!\nGloria! Gloria!", "chorus": false}]}
+{
+    "title": "Gloria",
+    "author": "",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "G e G a C D G G7",
+            "lyrics": "",
+            "chorus": false
+        },
+        {
+            "chords": "G e\nG a C D G G7\nC D\ne\nC D C\nD G",
+            "lyrics": "Chwa\u0142a najsampierw komu,\nKomu gloria na wysoko\u015bciach?\nChwa\u0142a najsampierw tobie\nTrawo przychylna ka\u017cdemu,\nKraino na d\u00f3\u0142 od Edenu.\nGloria! Gloria! ",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Chwa\u0142a tobie, s\u0142o\u0144ce\nOdy\u0144cu ty samotny,\nCo wstajesz rano z trz\u0119sawisk nocnych, \nI w g\u00f3r\u0119 bie\u017cysz, w niebo sam si\u0119 wzbijasz\nI chmury czarne bia\u0142ym k\u0142em przebijasz\nI to wszystko bezkrwawo - brawo, brawo\nI to wszystko z\u0142oci\u015bcie, i nikogo nie boli\nGloria! Gloria in excelsis soli! ",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Z s\u0142o\u0144cem pochwalonym teraz p\u0119d\u017amy razem\nNa nim, na ody\u0144cu galopujmy dalej.\nChwa\u0142a tobie, wietrze\nWieczny, ty m\u0142odziku,\nSieroto \u015bwiata, ulubie\u0144cze losu\nOd z\u0142ego ratuj i k\u0105koli w zbo\u017cu\n\u0141agodnie ko\u0142ysz tych co s\u0105 na morzu\nGloria! Gloria in excelsis eoli!",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Z wiatrem pochwalonym teraz p\u0119d\u017amy spo\u0142em\nNa nim, na koniku galopujmy polem.\nChwa\u0142a wam ptaszki \u015bpiewaj\u0105ce!\nChwa\u0142a wam ryby pluskaj\u0105ce!\nChwa\u0142a wam zaj\u0105ce na \u0142\u0105ce\nZakochane w biedronce!",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Chwa\u0142a wam: zimy, wiosny, lata i jesienie\nChwa\u0142a temu co bez gniewu idzie\nPoprzez \u015bniegi, deszcze, blaski oraz cienie,\nW piersi pod koszul\u0105 ca\u0142e jego mienie!\nGloria! Gloria!",
+            "chorus": false
+        }
+    ]
+}

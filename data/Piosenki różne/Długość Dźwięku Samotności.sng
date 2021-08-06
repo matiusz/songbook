@@ -1,1 +1,37 @@
-{"title": "D\u0142ugo\u015b\u0107 d\u017awi\u0119ku samotno\u015bci", "author": "Myslovitz", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": "F d\n a G\nF d\n a G", "lyrics": "I nawet kiedy b\u0119d\u0119 sam \nNie zmieni\u0119 si\u0119, to nie m\u00f3j \u015bwiat\nPrzede mn\u0105 droga kt\u00f3r\u0105 znam,\nKt\u00f3r\u0105 ja wybra\u0142em sam", "chorus": true}, {"chords": " B F\n d C\n B F\n d C", "lyrics": "Tak, zawsze genialny\nIdealny musz\u0119 by\u0107\nI musz\u0119 chcie\u0107, super luz i ju\u017c\nSetki bzdur i ju\u017c, to nie ja", "chorus": false}, {"chords": "", "lyrics": "I nawet kiedy b\u0119d\u0119 sam...", "chorus": true}, {"chords": " B F\n d C\n B F\n d C\n B F\n d C\n B F\n d C", "lyrics": "Wiesz, lubi\u0119 wieczory\nLubi\u0119 si\u0119 schowa\u0107 na jaki\u015b czas\nI jako\u015b tak, nienaturalnie\nTroch\u0119 przesadnie, poby\u0107 sam\nWej\u015b\u0107 na drzewo i patrze\u0107 w niebo\nTak zwyczajnie, tylko \u017ce\nTutaj te\u017c wiem kolejny raz\nNie mam szans by\u0107 kim chc\u0119", "chorus": false}, {"chords": "", "lyrics": "I nawet kiedy b\u0119d\u0119 sam...", "chorus": true}, {"chords": " B F\n d C\n B F\n d C\n B F\n d C\n B F\n d C", "lyrics": "Noc, a noc\u0105 gdy nie \u015bpi\u0119\nWychodz\u0119 cho\u0107 nie chc\u0119 spojrze\u0107 na\nChemiczny \u015bwiat, pachn\u0105cy szaro\u015bci\u0105\nZ papieru mi\u0142o\u015bci\u0105, gdzie ty i ja\nI jeszcze kto\u015b, nie wiem kto\nChcia\u0142by tak przez kilka lat\nZbyt zach\u0142annie i troch\u0119 przesadnie\nPoby\u0107 chwil\u0119 sam, chyba go znam", "chorus": false}]}
+{
+    "title": "D\u0142ugo\u015b\u0107 d\u017awi\u0119ku samotno\u015bci",
+    "author": "Myslovitz",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "F d\n a G\nF d\n a G",
+            "lyrics": "I nawet kiedy b\u0119d\u0119 sam \nNie zmieni\u0119 si\u0119, to nie m\u00f3j \u015bwiat\nPrzede mn\u0105 droga kt\u00f3r\u0105 znam,\nKt\u00f3r\u0105 ja wybra\u0142em sam",
+            "chorus": true
+        },
+        {
+            "chords": " B F\n d C\n B F\n d C",
+            "lyrics": "Tak, zawsze genialny\nIdealny musz\u0119 by\u0107\nI musz\u0119 chcie\u0107, super luz i ju\u017c\nSetki bzdur i ju\u017c, to nie ja",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I nawet kiedy b\u0119d\u0119 sam...",
+            "chorus": true
+        },
+        {
+            "chords": " B F\n d C\n B F\n d C\n B F\n d C\n B F\n d C",
+            "lyrics": "Wiesz, lubi\u0119 wieczory\nLubi\u0119 si\u0119 schowa\u0107 na jaki\u015b czas\nI jako\u015b tak, nienaturalnie\nTroch\u0119 przesadnie, poby\u0107 sam\nWej\u015b\u0107 na drzewo i patrze\u0107 w niebo\nTak zwyczajnie, tylko \u017ce\nTutaj te\u017c wiem kolejny raz\nNie mam szans by\u0107 kim chc\u0119",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I nawet kiedy b\u0119d\u0119 sam...",
+            "chorus": true
+        },
+        {
+            "chords": " B F\n d C\n B F\n d C\n B F\n d C\n B F\n d C",
+            "lyrics": "Noc, a noc\u0105 gdy nie \u015bpi\u0119\nWychodz\u0119 cho\u0107 nie chc\u0119 spojrze\u0107 na\nChemiczny \u015bwiat, pachn\u0105cy szaro\u015bci\u0105\nZ papieru mi\u0142o\u015bci\u0105, gdzie ty i ja\nI jeszcze kto\u015b, nie wiem kto\nChcia\u0142by tak przez kilka lat\nZbyt zach\u0142annie i troch\u0119 przesadnie\nPoby\u0107 chwil\u0119 sam, chyba go znam",
+            "chorus": false
+        }
+    ]
+}

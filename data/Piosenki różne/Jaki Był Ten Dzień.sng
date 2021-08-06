@@ -1,1 +1,27 @@
-{"title": "Jaki by\u0142 ten dzie\u0144", "author": "Turbo", "category": "Piosenki r\u00f3\u017cne", "sections": [{"chords": " d B C a\n B F\n g A\n d B C a\n B F\n g A", "lyrics": "P\u00f3\u017ano ju\u017c, otwiera si\u0119 noc\nSen podchodzi do drzwi\nNa palcach jak kot\nNadchodzi czas ucieczki na out\nGdy kolejny m\u00f3j dzie\u0144 \nWspomnieniem si\u0119 sta\u0142", "chorus": false}, {"chords": " d B C a\n B F g A\n d B C a\n B F g A", "lyrics": "Jaki by\u0142 ten dzie\u0144, Co darowa\u0142 co wzi\u0105\u0142 \nCzy wyni\u00f3s\u0142 mnie pod niebo, czy zrzuci\u0142 na dno \nJaki by\u0142 ten dzie\u0144, czy co\u015b zmieni\u0142 czy nie \nCzy by\u0142 tylko nadziej\u0105 na dobre i z\u0142e", "chorus": true}, {"chords": " d B C a\n B F g A\n d B C a\n B F g A", "lyrics": "\u0141agodny mrok zas\u0142ania mi twarz \nJakby przeczy\u0142, \u017ce chce by\u0107 z tob\u0105 chocia\u017c raz\nNie skar\u017c\u0119 si\u0119, \u017ce mam to co mam\n\u017be przegra\u0142em co\u015b zn\u00f3w i jestem tu sam", "chorus": false}, {"chords": "", "lyrics": "Jaki by\u0142 ten dzie\u0144...", "chorus": true}]}
+{
+    "title": "Jaki by\u0142 ten dzie\u0144",
+    "author": "Turbo",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " d B C a\n B F\n g A\n d B C a\n B F\n g A",
+            "lyrics": "P\u00f3\u017ano ju\u017c, otwiera si\u0119 noc\nSen podchodzi do drzwi\nNa palcach jak kot\nNadchodzi czas ucieczki na out\nGdy kolejny m\u00f3j dzie\u0144 \nWspomnieniem si\u0119 sta\u0142",
+            "chorus": false
+        },
+        {
+            "chords": " d B C a\n B F g A\n d B C a\n B F g A",
+            "lyrics": "Jaki by\u0142 ten dzie\u0144, Co darowa\u0142 co wzi\u0105\u0142 \nCzy wyni\u00f3s\u0142 mnie pod niebo, czy zrzuci\u0142 na dno \nJaki by\u0142 ten dzie\u0144, czy co\u015b zmieni\u0142 czy nie \nCzy by\u0142 tylko nadziej\u0105 na dobre i z\u0142e",
+            "chorus": true
+        },
+        {
+            "chords": " d B C a\n B F g A\n d B C a\n B F g A",
+            "lyrics": "\u0141agodny mrok zas\u0142ania mi twarz \nJakby przeczy\u0142, \u017ce chce by\u0107 z tob\u0105 chocia\u017c raz\nNie skar\u017c\u0119 si\u0119, \u017ce mam to co mam\n\u017be przegra\u0142em co\u015b zn\u00f3w i jestem tu sam",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Jaki by\u0142 ten dzie\u0144...",
+            "chorus": true
+        }
+    ]
+}

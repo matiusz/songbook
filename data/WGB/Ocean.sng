@@ -1,1 +1,27 @@
-{"title": "Ocean", "author": "Wolna Grupa Bukowina\r", "category": "WGB", "sections": [{"chords": " A G D A\n A G D A\n A E G D\n A G D A", "lyrics": "Oceanie sinow\u0142osy bia\u0142e statki ku mnie wy\u015blij\nDwa kamyki moje my\u015bli na otwartych d\u0142oniach nios\u0119\nDaj mi miejsce w g\u0142\u0119bi morza szczypt\u0119 l\u0105du szczypt\u0119 ska\u0142y\nTu zbuduj\u0119 zamek bia\u0142y tutaj gniazdo swe za\u0142o\u017c\u0119", "chorus": false}, {"chords": " A G D A\n A G D A\n A E G D\n A G D A", "lyrics": "Gdzie\u015b daleko w stu stolicach \u017cyj\u0105 ludzie bij\u0105 w dzwony\nNiezliczone bataliony przyczajone na granicach\nMarsza\u0142kowie szklanoocy pal\u0105 owce i dziewcz\u0119ta\nKto o kwiatach dzi\u015b pami\u0119ta szumi\u0105 gie\u0142dy w g\u0142\u0119bi nocy", "chorus": false}, {"chords": " A G D A\n A G D A\n A E \n G D\n A G D A", "lyrics": "W g\u0142\u0119bi morza zab\u0142\u0105kany nie chc\u0119 nic o ludziach s\u0142ysze\u0107\nBia\u0142y kolor, kolor ciszy w moim zamku bia\u0142e \u015bciany\nW moim zamku gdzie\u015b w ogrodzie\nB\u0119d\u0119 czyta\u0142 wschodnie ba\u015bnie\nZanim s\u0142o\u0144ce w morzu zga\u015bnie \u017ceby z morza powsta\u0107 znowu", "chorus": false}, {"chords": " A G D A\n A G \n D A\n A E G D\n A G D A", "lyrics": "A gdy ludzie wype\u0142nieni nienawi\u015bci\u0105 w jednej chwili\nZniszcz\u0105 wszystko co stworzyli\nWielkim ogniem z wn\u0119trza ziemi\nZnikn\u0105 l\u0105dy zniknie morze nie wie nikt co b\u0119dzie potem\nW bia\u0142ych \u015bwiatach ja z powrotem w \u0142onie matki si\u0119 u\u0142o\u017c\u0119", "chorus": false}]}
+{
+    "title": "Ocean",
+    "author": "Wolna Grupa Bukowina\r",
+    "category": "WGB",
+    "sections": [
+        {
+            "chords": " A G D A\n A G D A\n A E G D\n A G D A",
+            "lyrics": "Oceanie sinow\u0142osy bia\u0142e statki ku mnie wy\u015blij\nDwa kamyki moje my\u015bli na otwartych d\u0142oniach nios\u0119\nDaj mi miejsce w g\u0142\u0119bi morza szczypt\u0119 l\u0105du szczypt\u0119 ska\u0142y\nTu zbuduj\u0119 zamek bia\u0142y tutaj gniazdo swe za\u0142o\u017c\u0119",
+            "chorus": false
+        },
+        {
+            "chords": " A G D A\n A G D A\n A E G D\n A G D A",
+            "lyrics": "Gdzie\u015b daleko w stu stolicach \u017cyj\u0105 ludzie bij\u0105 w dzwony\nNiezliczone bataliony przyczajone na granicach\nMarsza\u0142kowie szklanoocy pal\u0105 owce i dziewcz\u0119ta\nKto o kwiatach dzi\u015b pami\u0119ta szumi\u0105 gie\u0142dy w g\u0142\u0119bi nocy",
+            "chorus": false
+        },
+        {
+            "chords": " A G D A\n A G D A\n A E \n G D\n A G D A",
+            "lyrics": "W g\u0142\u0119bi morza zab\u0142\u0105kany nie chc\u0119 nic o ludziach s\u0142ysze\u0107\nBia\u0142y kolor, kolor ciszy w moim zamku bia\u0142e \u015bciany\nW moim zamku gdzie\u015b w ogrodzie\nB\u0119d\u0119 czyta\u0142 wschodnie ba\u015bnie\nZanim s\u0142o\u0144ce w morzu zga\u015bnie \u017ceby z morza powsta\u0107 znowu",
+            "chorus": false
+        },
+        {
+            "chords": " A G D A\n A G \n D A\n A E G D\n A G D A",
+            "lyrics": "A gdy ludzie wype\u0142nieni nienawi\u015bci\u0105 w jednej chwili\nZniszcz\u0105 wszystko co stworzyli\nWielkim ogniem z wn\u0119trza ziemi\nZnikn\u0105 l\u0105dy zniknie morze nie wie nikt co b\u0119dzie potem\nW bia\u0142ych \u015bwiatach ja z powrotem w \u0142onie matki si\u0119 u\u0142o\u017c\u0119",
+            "chorus": false
+        }
+    ]
+}
