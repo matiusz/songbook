@@ -1,0 +1,47 @@
+{
+    "title": "Hej Leonardo!",
+    "author": "Jacek Kleyff",
+    "category": "Piosenki masowego ra\u017cenia",
+    "sections": [
+        {
+            "chords": "C G\na F G",
+            "lyrics": "Ja nie weso\u0142a, ale z kokard\u0105\nLec\u0119 do s\u0142o\u0144ca, Hej Leonardo!\nA ja si\u0119 kr\u0119c\u0119, bo sta\u0107 nie warto\nNaprz\u00f3d planeto, Hej Leonardo!",
+            "chorus": false
+        },
+        {
+            "chords": "C G\na F G",
+            "lyrics": "Do\u015b\u0107 jest wszystkiego\nDoj\u015b\u0107 mo\u017cna wsz\u0119dzie | x4",
+            "chorus": true
+        },
+        {
+            "chords": "C G\na F G",
+            "lyrics": "Diabe\u0142 mnie szarpie, trzyma za uszy\nDok\u0105d wariatko, chcesz z nim wyruszy\u0107?\nA ja gotowa, ja z halabard\u0105\nHej! droga wolna, Hej Leonardo!",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Do\u015b\u0107 jest...",
+            "chorus": true
+        },
+        {
+            "chords": "C G\na F G",
+            "lyrics": "Panie w koronie, panie z liczyd\u0142em\nNie chc\u0119 by\u0107 mr\u00f3wk\u0105, ja chc\u0119 by\u0107 skrzyd\u0142em\nA moja g\u0142owa, droga i muzyka\nDo br\u0105zowego \u017cycia umyka",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Do\u015b\u0107 jest...",
+            "chorus": true
+        },
+        {
+            "chords": "C G\na F G",
+            "lyrics": "Wysz\u0142a z bylek\u0105d, ale co z tego\nZmierzam daleko, hej! hej kolego!\nOd\u0142\u00f3\u017cmy sprawy, kochany synku\nNa jakie\u015b dziewi\u0119\u0107 miejsc po przecinku",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Do\u015b\u0107 jest...",
+            "chorus": true
+        }
+    ]
+}

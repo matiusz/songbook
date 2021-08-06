@@ -1,0 +1,37 @@
+{
+    "title": "Przemijanie",
+    "author": "s\u0142. Bogus\u0142aw Nowicki",
+    "category": "Piosenki masowego ra\u017cenia",
+    "sections": [
+        {
+            "chords": "a G a\nC G a e\nC G a e\nC G a",
+            "lyrics": "Dzie\u0144 kolejny min\u0105\u0142,\nDzie\u0144 co nic nie przyni\u00f3s\u0142,\nJeszcze si\u0119 nie sko\u0144czy\u0142,\nA ju\u017c nowy wyr\u00f3s\u0142. ",
+            "chorus": false
+        },
+        {
+            "chords": "C G a e\nC G a e\nC G a e\nC G a",
+            "lyrics": "Tyle dni min\u0119\u0142o, tyle marze\u0144,\nTylu ludzi przesz\u0142o, tyle zdarze\u0144,\nTyle marze\u0144 sennych si\u0119 nie spe\u0142ni\u0142o,\nTyle dobrych gwiazd uby\u0142o.",
+            "chorus": true
+        },
+        {
+            "chords": "a G a\nC G a e\nC G a e\nC G a",
+            "lyrics": "Tyle s\u0142\u00f3w powiedzia\u0142,\nS\u0142\u00f3w, co nic nie znacz\u0105.\nMo\u017ce kogo\u015b urazi\u0142,\nCzyje\u015b oczy p\u0142acz\u0105.\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Tyle dni min\u0119\u0142o...",
+            "chorus": true
+        },
+        {
+            "chords": "a G a\nC G a e\nC G a e\nC G a",
+            "lyrics": "Znowu czasu mijanie,\nZnowu min\u0105\u0142 dzie\u0144 -\nKomu przynius\u0142 rado\u015b\u0107,\nKomu smutek - wiem.\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Tyle dni min\u0119\u0142o...",
+            "chorus": true
+        }
+    ]
+}

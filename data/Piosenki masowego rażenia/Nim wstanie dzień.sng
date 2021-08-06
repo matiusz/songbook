@@ -1,0 +1,32 @@
+{
+    "title": "Nim wstanie dzie\u0144",
+    "author": "s\u0142. Agnieszka Osiecka, muz. Krzysztof Komeda",
+    "category": "Piosenki masowego ra\u017cenia",
+    "sections": [
+        {
+            "chords": "a e a\na e a\ne a C D\na D\nD e\na",
+            "lyrics": "Ze \u015bwiata czterech stron,\nZ jarz\u0119binowych dr\u00f3g,\nGdzie las spalony, wiatr zm\u0119czony, noc i front.\nGdzie nie zebrany plon,\nGdzie poczernia\u0142y g\u0142\u00f3g,\nWstaje dzie\u0144",
+            "chorus": false
+        },
+        {
+            "chords": "a D a\nC D a\na D a G a\na D a\nC d a\na D a D",
+            "lyrics": "S\u0142o\u0144ce przytuli nas do swych r\u0105k\nI sp\u00f3jrz - ziemia ci\u0119\u017cka od krwi,\nZnowu urodzi nam zbo\u017ca \u0142an, z\u0142oty kurz.\nPrzyjm\u0105 kobiety nas pod sw\u00f3j dach\nI sp\u00f3jrz - b\u0119d\u0105 \u015bmia\u0107 si\u0119 przez \u0142zy.\nZnowu do ta\u0144ca kto\u015b zagra nam. ",
+            "chorus": false
+        },
+        {
+            "chords": "C\na G\nG C\na",
+            "lyrics": "Mo\u017ce ju\u017c\nZa dzie\u0144, za dwa,\nZa noc, za trzy,\nCho\u0107 nie dzi\u015b.",
+            "chorus": true
+        },
+        {
+            "chords": "a D a\nC D a\na D a G a\na D a\nC d a\na D a D",
+            "lyrics": "Chleby upiek\u0105 si\u0119 w piecach nam.\nI sp\u00f3jrz - tam gdzie tylko by\u0142 dym,\nKwiatem zabli\u017ani si\u0119 wojny \u015blad, barw\u0105 r\u00f3\u017c.\nDzieci urodz\u0105 si\u0119 nowe nam.\nI sp\u00f3jrz - b\u0119d\u0105 \u015bmia\u0107 si\u0119, \u017ce my\nZn\u00f3w wspominamy ten pod\u0142y czas, por\u0119 burz.",
+            "chorus": false
+        },
+        {
+            "chords": "a G\nG C\na\na G\nG C\na",
+            "lyrics": "Za dzie\u0144, za dwa,\nZa noc, za trzy,\nCho\u0107 nie dzi\u015b.\nZa noc, za dzie\u0144,\nDoczekasz si\u0119,\nWstanie \u015bwit.",
+            "chorus": true
+        }
+    ]
+}

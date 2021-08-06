@@ -1,0 +1,27 @@
+{
+    "title": "Wehiku\u0142 czasu",
+    "author": "D\u017cem",
+    "category": "Piosenki masowego ra\u017cenia",
+    "sections": [
+        {
+            "chords": "A E fis D\nA E D A",
+            "lyrics": "Pami\u0119tam dobrze idea\u0142 sw\u00f3j\nMarzeniami \u017cy\u0142em jak kr\u00f3l\nSi\u00f3dma rano, to dla mnie noc\nPracowa\u0107 nie chcia\u0142em, w\u0142\u00f3czy\u0142em si\u0119\nZa to do puszki zamykano mnie\nZa to zwykle zamykano mnie\nPo knajpach grywa\u0142em za piwo i chleb\nNa \u017cyciu bluesa tak mija\u0142 mi dzie\u0144 ",
+            "chorus": false
+        },
+        {
+            "chords": "E fis D A\nE fis D A\nE fis DA\nE fis D\nD",
+            "lyrics": "Tylko noc\u0105 do klubu p\u00f3j\u015b\u0107\nJam session do rana, tam kr\u00f3lowa\u0142 blues\nTo ju\u017c min\u0119\u0142o, ten klimat, ten luz\nCi wspaniali ludzie nie powr\u00f3c\u0105\nNie powr\u00f3c\u0105 ju\u017c",
+            "chorus": true
+        },
+        {
+            "chords": "A E fis D\nA E D A",
+            "lyrics": "Lecz we mnie zosta\u0142o co\u015b z tamtych lat\nM\u00f3j ma\u0142y intymny muzyczny \u015bwiat\nGdy tak wspominam ten miniony czas\nWiem jedno, \u017ce to nie posz\u0142o w las\nDu\u017co bym da\u0142, by prze\u017cy\u0107 to zn\u00f3w\nWehiku\u0142 czasu to by\u0142by cud\nMam jeszcze wiar\u0119, odmieni si\u0119 los\nZn\u00f3w kwiatek do lufy wetknie mi kto\u015b",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Tylko noc\u0105 do klubu p\u00f3j\u015b\u0107...",
+            "chorus": true
+        }
+    ]
+}

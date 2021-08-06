@@ -1,0 +1,37 @@
+{
+    "title": "Hahahaczyk",
+    "author": "Akurat",
+    "category": "Piosenki masowego ra\u017cenia",
+    "sections": [
+        {
+            "chords": "E5 A h\nE5 A h\nE5 A h",
+            "lyrics": "Dyskoteka gra\nDyskoteka gra\nDyskoteka gra",
+            "chorus": true
+        },
+        {
+            "chords": "E5 A\nh\nD5 E5\nA h\nD5 E5 A\nh\nD5 E5\nA h",
+            "lyrics": "On wypatrzy\u0142 dawno j\u0105\nSta\u0142a za filarem\nMia\u0142a spodnie, bluz\u0119 modn\u0105\nI modny zegarek\nPodszed\u0142 bli\u017cej, przyjrza\u0142 si\u0119\nTak, to b\u0119dzie ona\nWymarzona cud - kobieta\nMo\u017ce nawet \u017cona ",
+            "chorus": false
+        },
+        {
+            "chords": "E5 A\nh\nD5 E5\nA h\nD5 E5 A\nh\nD5 E5\nA h\n",
+            "lyrics": "Ch\u0142opak zdoby\u0142 si\u0119 na gest\nSkoczy\u0142 po dwa drinki\nJak to cudo rusza si\u0119!\nJaki kolor szminki!\nTeraz albo nigdy - my\u015bli\nCh\u0142opak ju\u017c nie mo\u017ce\nYou know babe\nTrzymaj drinka\nCzekam na danceflorze\nA na p\u0142ycie w reflektorach\nBig rozczarowanie\nBo bez listka by\u0142 zegarek\nBez pask\u00f3w ubranie\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Dyskoteka gra...",
+            "chorus": true
+        },
+        {
+            "chords": "E5 A\nh\nD5 E5\nA h\nD5 E5 A\nh\nD5 E5\nA h",
+            "lyrics": "Kto z paskami spodnie nosi\nHa, ha, haczyk na bluzie\nRobi cz\u0119sto smutne oczy\nI smutn\u0105 ma buzi\u0119\nO czym my\u015bli tajemnicza\nSmutnooka m\u0142odzie\u017c?\nCzy z haczykiem ma obuwie\nI z paskami odzie\u017c",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Dyskoteka gra...",
+            "chorus": true
+        }
+    ]
+}

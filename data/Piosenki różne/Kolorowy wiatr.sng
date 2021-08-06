@@ -15,12 +15,12 @@
         },
         {
             "chords": "a e F\na e\nF G a\nF G\nF C",
-            "lyrics": "Czy wiesz czemu wilk tak wyje\nW ksi\u0119\u017cycow\u0105 noc\nI czemu ry\u015b tak z\u0119by szczerzy rad?\nCzy powt\u00f3rzysz t\u0119 melodi\u0119 co z g\u00f3r p\u0142ynie\nBarwy, kt\u00f3re kolorowy niesie wiatr\nBarwy, kt\u00f3re kolorowy niesie wiatr?",
+            "lyrics": "Czy wiesz czemu wilk tak wyje\nW ksi\u0119\u017cycow\u0105 noc\nI czemu ry\u015b tak z\u0119by szczerzy rad?\nCzy powt\u00f3rzysz t\u0119 melodie co z g\u00f3r p\u0142yn\u0105\nBarwy, kt\u00f3re kolorowy niesie wiatr\nBarwy, kt\u00f3re kolorowy niesie wiatr?",
             "chorus": true
         },
         {
             "chords": "C a \nC e\na F\nd G a",
-            "lyrics": "Pobiegnij za mn\u0105 le\u015bnych dukt\u00f3w szlakiem,\nSpr\u00f3bujmy jag\u00f3d w pe\u0142ne s\u0142o\u0144ca dni.\nZanurzmy si\u0119 w tych skarbach niezmierzonych\nI cho\u0107 raz o ich cenach nie m\u00f3w nic.",
+            "lyrics": "Pobiegnij za mn\u0105 le\u015bnych dukt\u00f3w szlakiem,\nSpr\u00f3bujmy jag\u00f3d w pe\u0142ne s\u0142o\u0144ca dni.\nZanurzmy si\u0119 w tych skarbach niezmierzonych\nI cho\u0107 raz o ich cenach nie m\u00f3w mi.",
             "chorus": false
         },
         {
@@ -35,8 +35,13 @@
         },
         {
             "chords": "a e F\na e\nF G a\nF G\nF C",
-            "lyrics": "To nie tobie ptak si\u0119 zwierza\nW ksi\u0119\u017cycow\u0105 noc,\nLecz ludziom wszelkich ras i wszelkich wiar.\nWi\u0119c zanu\u0107my t\u0119 melodi\u0119, co z g\u00f3r p\u0142ynie -\nBarwy, kt\u00f3re kolorowy niesie wiatr.\nMo\u017cesz zdoby\u0107 \u015bwiat,\nLecz to b\u0119dzie tylko \u015bwiat,\nTylko \u015bwiat -\nNie barwy, kt\u00f3re niesie wiatr",
+            "lyrics": "To nie tobie ptak si\u0119 zwierza\nW ksi\u0119\u017cycow\u0105 noc,\nLecz ludziom wszelkich ras i wszelkich wiar.\nWi\u0119c zanu\u0107my t\u0119 melodi\u0119, co z g\u00f3r p\u0142ynie -\nBarwy, kt\u00f3re kolorowy niesie wiatr.",
             "chorus": true
+        },
+        {
+            "chords": "F G\nC e a\nF",
+            "lyrics": "Mo\u017cesz zdoby\u0107 \u015bwiat,\nLecz to b\u0119dzie tylko \u015bwiat,\nTylko \u015bwiat -\nNie barwy, kt\u00f3re niesie wiatr",
+            "chorus": false
         }
     ]
 }
