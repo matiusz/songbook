@@ -4,17 +4,17 @@
     "category": "Szanty",
     "sections": [
         {
-            "chords": "a e a e\na e de a",
+            "chords": "a e a e\na e d e a",
             "lyrics": "Nasz diament prawie got\u00f3w ju\u017c, w cie\u015bninach nie ma kry.\nNa kei pi\u0119kne panny stoj\u0105, w oczach b\u0142yszcz\u0105 \u0142zy.\nKapitan w niebo wbija wzrok \u2013 ruszamy lada dzie\u0144,\nP\u0142yniemy tam gdzie s\u0142o\u0144ca blask nie zm\u0105ci nocy cie\u0144.",
             "chorus": false
         },
         {
-            "chords": "ae a\nae a\naC G\nde a",
+            "chords": "a e a\na e a\na C G\nd e a",
             "lyrics": "A wi\u0119c krzycz O\u2013 ho! \nOdwag\u0119 w sercu miej!\nWieloryb\u00f3w cielska gro\u017ane s\u0105, \nLecz dostaniemy je! ",
             "chorus": true
         },
         {
-            "chords": "",
+            "chords": "a e a e\na e d e a",
             "lyrics": "Hej panno powiedz po co \u0142zy, nic nie zatrzyma mnie.\nBo pr\u0119dzej w morzach kwiat zakwitnie, ni\u017c wycofam si\u0119.\nNo nie p\u0142acz ma\u0142a, wr\u00f3c\u0119 tu, nasz los nie taki z\u0142y,\nBo da dukat\u00f3w w\u00f3r za tran i wieloryba k\u0142y.",
             "chorus": false
         },
@@ -24,7 +24,7 @@
             "chorus": true
         },
         {
-            "chords": "",
+            "chords": "a e a e\na e d e a",
             "lyrics": "Na deku stary w\u0105cha\u0142 wiatr, lunet\u0119 w r\u0119ku mia\u0142.\nNa \u0142odziach, co zwisa\u0142y ju\u017c, z harpunem ka\u017cdy sta\u0142.\nI dmucha tu i dmucha tam ogromne stado wci\u0105\u017c.\nHarpuny, wios\u0142a liny bra\u0107 i ci\u0105gaj brachu ci\u0105g!",
             "chorus": false
         },
@@ -34,7 +34,7 @@
             "chorus": true
         },
         {
-            "chords": "a e a e\na e de a",
+            "chords": "a e a e\na e d e a",
             "lyrics": "I dla wieloryba ju\u017c ostatni to dzie\u0144,\nGdy \u015bmia\u0142y harpunnik uderza we\u0144!",
             "chorus": false
         },

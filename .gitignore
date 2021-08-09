@@ -15,3 +15,5 @@ songlist.toc
 setup.py
 additional_files.rar
 songbook.out
+headerconfig.py
+latexheader copy.txt

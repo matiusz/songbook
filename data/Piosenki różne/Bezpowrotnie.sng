@@ -1,7 +1,7 @@
 {
     "title": "Bezpowrotnie",
-    "category": "Piosenki r\u00f3\u017cne",
     "author": "Na Bani",
+    "category": "Piosenki r\u00f3\u017cne",
     "sections": [
         {
             "chords": "cis\nA\ncis\nA\ngis\nA\ngis\nA gis\ncis\nA\ngis\nA gis",
@@ -9,7 +9,7 @@
             "chorus": false
         },
         {
-            "chords": "cis\ncis\ncis\ncis\nA H\ncis\nAH\ncis",
+            "chords": "cis\ncis\ncis\ncis\nA H\ncis\nA H\ncis",
             "lyrics": "G\u0142ow\u0105 chmury nie przebijesz,\nNie podskoczysz zbyt wysoko.\nNie powr\u00f3cisz, sk\u0105d przyby\u0142e\u015b,\nT\u0119sknie patrzysz ku ob\u0142okom.\nTu masz swoje miejsce w \u015bwiecie,\nTu wybudowa\u0142e\u015b dom.\nTam ci\u0119 nikt nie wpu\u015bci,\nPrzecie\u017c one \u015bpi\u0105. ",
             "chorus": true
         },
@@ -29,7 +29,7 @@
             "chorus": false
         },
         {
-            "chords": "cis\ncis\ncis\ncis\nA H\ncis\nAH\ncis",
+            "chords": "cis\ncis\ncis\ncis\nA H\ncis\nA H\ncis",
             "lyrics": "Wolno\u015b\u0107 i samotno\u015b\u0107 tylko\nZaczynaj\u0105 si\u0119 inaczej.\nObie staj\u0105 o\u015bci\u0105 w gardle;\nTo odwieczna wojna znacze\u0144.\nTu masz swoje miejsce w domu\nTu na ciebie czekam ja.\nPorzu\u0107 sny i ocal to,\nCo jeszcze trwa.",
             "chorus": true
         }
