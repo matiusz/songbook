@@ -39,4 +39,4 @@
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
 
 \renewcommand{\contentsname}{Spis treści}
-\tableofcontents
+
