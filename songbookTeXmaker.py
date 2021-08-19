@@ -1,6 +1,5 @@
 import os
 import json
-from collections import defaultdict
 import re
 from plAlphabetSort import plSortKey
 import asyncio
@@ -34,6 +33,7 @@ class Category:
     def __init__(self, name):
         self.songs = {}
         self.name = name
+    @property
     def tex(self):
         catStr = "\\chapter*{{\centering {category}}}\n".format(category=self.name) + \
         "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=self.name) + \
@@ -49,10 +49,11 @@ class Song:
             song = Song(await songFile.read())
         return song
 
-    def __init__(self, file):
-        self.dict = json.loads(file)
+    def __init__(self, songJSON):
+        self.dict = json.loads(songJSON)
         self.title = self.dict['title']
         self.category = self.dict['category']
+    @property
     def tex(self):
         songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.8,0.2}}\n".format(title=self.title)
         try:
@@ -124,9 +125,9 @@ class Song:
         return converted_text, length
 
 def main():
-    asyncio.run(asyncMain())
+    asyncio.run(_asyncMain())
 
-async def asyncMain():
+async def _asyncMain():
     configFilename = "categories.cfg"
     headerFilename = "latexheader.txt"
     songbookFilename = "songbook.tex"
@@ -155,16 +156,16 @@ async def asyncMain():
         for song in songbookDict["Title"].songs.values():
             songCount += 1
             print("\t" + song.title)
-            await songbookFile.write(enUTF8(song.tex()))
+            await songbookFile.write(enUTF8(song.tex))
         await songbookFile.write(enUTF8("\\tableofcontents\n"))
         for cat in cats:
             if cat != "Title":
                 print(cat)
-                await songbookFile.write(enUTF8(songbookDict[cat].tex()))
+                await songbookFile.write(enUTF8(songbookDict[cat].tex))
                 for song in sorted(songbookDict[cat].songs.keys(), key=plSortKey):
                     songCount += 1
                     print("\t" + song)
-                    await songbookFile.write(enUTF8(songbookDict[cat].songs[song].tex()))
+                    await songbookFile.write(enUTF8(songbookDict[cat].songs[song].tex))
         await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
         print("Total number of songs: {songCount}".format(songCount=songCount))

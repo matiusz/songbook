@@ -3,7 +3,7 @@ from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit,
                                 QPushButton,QScrollArea, QLayout,  
                                 QComboBox, QFileDialog, QLabel)
 from PySide6.QtGui import QPixmap
-from PySide6.QtCore import QSize, Qt
+from PySide6.QtCore import QLine, QSize, Qt
 
 import json
 
@@ -51,17 +51,84 @@ class MainMenu(QWidget):
         songButton = QPushButton('Song Editor', self)
         songButton.clicked.connect(self.addSongField)
 
+        listButton = QPushButton('Songs List', self)
+        listButton.clicked.connect(self.listSongsField)
+
         layout = QVBoxLayout()
         layout.addWidget(label)
         layout.addWidget(categoryButton)
         layout.addWidget(songButton)
+        layout.addWidget(listButton)
         self.setLayout(layout)
         self.show()
 
+    def listSongsField(self):
+        self.songList = ScrollableSongList()
     def addSongField(self):
         self.currentSong = ScrollableSong()
     def addCategoryField(self):
         self.currentCat = NewCategory()
+
+
+class ScrollableSongList(QScrollArea):
+    def __init__(self):
+        super().__init__()
+        self.songList = SongList()
+        self.setWindowTitle('Song list')
+        self.setWidgetResizable(True)
+        self.setWidget(self.songList)
+        self.show()
+
+
+class SongList(QWidget):
+    def __init__(self):
+        super().__init__()
+        layout = QVBoxLayout()
+
+        self.filter = QLineEdit()
+        self.filter.setPlaceholderText("Search...")
+        self.filter.textChanged.connect(self.filterList)
+        layout.addWidget(self.filter)
+        self.songListDisplay = QLabel()
+        self.loadSongs()
+        self.songListDisplay.setText(self.text)
+        self.songListDisplay.setAlignment(Qt.AlignTop)
+
+        
+
+        layout.addWidget(self.songListDisplay)
+
+        self.setLayout(layout)
+        self.show()
+
+    def filterList(self):
+        self.songListDisplay.setText(self.text)
+        pass
+    
+    def loadSongs(self):
+        cats = getCategoriesFromDirs()
+        self.catSongs = {}
+        for cat in cats:
+            self.catSongs[cat] = getSongsFromCatDir(cat)
+    @property
+    def text(self):
+        textLines = []
+        for cat in self.catSongs.keys():
+            catEmpty = True
+            textLines.append("{cat}".format(cat = cat))
+            for song in self.catSongs[cat]:
+                if self.filter.text() != None:
+                    if self.filter.text().lower() in song.lower():
+                        textLines.append("\t{song}".format(song = song[:-4]))
+                        catEmpty = False
+                else:
+                    textLines.append("\t{song}".format(song = song[:-4]))
+                    catEmpty = False
+            if catEmpty:
+                textLines.pop()
+        return "\n".join(textLines)
+
+
 
 
 class NewCategory(QWidget):
@@ -133,7 +200,6 @@ class ScrollableSong(QScrollArea):
     def closeEvent(self, event):
         #self.saveSong()
         event.accept()
-
 
 class Song(QWidget):
     def __init__(self, parent):

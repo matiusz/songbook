@@ -29,7 +29,7 @@
 
  \geometry{
  a4paper,
- total={170mm,257mm},
+ total={180mm,257mm},
  inner=20mm,
  top=20mm,
  }
@@ -39,4 +39,3 @@
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
 
 \renewcommand{\contentsname}{Spis treści}
-
