@@ -3,13 +3,15 @@ from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit,
                                 QPushButton,QScrollArea, QLayout,  
                                 QComboBox, QFileDialog, QLabel)
 from PySide6.QtGui import QPixmap
-from PySide6.QtCore import QLine, QSize, Qt
+from PySide6.QtCore import QSize, Qt
 
 import json
 
 import os
 
 from functools import partial
+
+from pprint import pformat
 
 def ensureFileDir(file_path):
     directory = os.path.dirname(file_path)
@@ -69,7 +71,6 @@ class MainMenu(QWidget):
     def addCategoryField(self):
         self.currentCat = NewCategory()
 
-
 class ScrollableSongList(QScrollArea):
     def __init__(self):
         super().__init__()
@@ -79,30 +80,27 @@ class ScrollableSongList(QScrollArea):
         self.setWidget(self.songList)
         self.show()
 
-
 class SongList(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout()
+        self.loadSongs()
 
         self.filter = QLineEdit()
         self.filter.setPlaceholderText("Search...")
-        self.filter.textChanged.connect(self.filterList)
+        self.filter.textChanged.connect(self.reloadText)
         layout.addWidget(self.filter)
-        self.songListDisplay = QLabel()
-        self.loadSongs()
-        self.songListDisplay.setText(self.text)
-        self.songListDisplay.setAlignment(Qt.AlignTop)
-
         
-
+        self.songListDisplay = QLabel()
+        self.songListDisplay.setText(self.getText())
+        self.songListDisplay.setAlignment(Qt.AlignTop)
         layout.addWidget(self.songListDisplay)
 
         self.setLayout(layout)
         self.show()
 
-    def filterList(self):
-        self.songListDisplay.setText(self.text)
+    def reloadText(self, filt):
+        self.songListDisplay.setText(self.getText(filt))
         pass
     
     def loadSongs(self):
@@ -110,15 +108,15 @@ class SongList(QWidget):
         self.catSongs = {}
         for cat in cats:
             self.catSongs[cat] = getSongsFromCatDir(cat)
-    @property
-    def text(self):
+
+    def getText(self, filt = None):
         textLines = []
         for cat in self.catSongs.keys():
             catEmpty = True
             textLines.append("{cat}".format(cat = cat))
             for song in self.catSongs[cat]:
-                if self.filter.text() != None:
-                    if self.filter.text().lower() in song.lower():
+                if filt:
+                    if filt.lower() in song.lower():
                         textLines.append("\t{song}".format(song = song[:-4]))
                         catEmpty = False
                 else:
@@ -127,9 +125,6 @@ class SongList(QWidget):
             if catEmpty:
                 textLines.pop()
         return "\n".join(textLines)
-
-
-
 
 class NewCategory(QWidget):
     def __init__(self):
@@ -179,7 +174,6 @@ class NewCategory(QWidget):
                 image_from.close()
                 image_to.close()
 
-
 class ScrollableSong(QScrollArea):
     def __init__(self):
         super().__init__()
@@ -195,7 +189,7 @@ class ScrollableSong(QScrollArea):
             path = os.path.join("data", preJSON['category'], preJSON['title'] + ".sng")
             ensureFileDir(path)
             f = open(path, "w")
-            f.write(json.dumps(preJSON))
+            f.write(json.dumps(preJSON, indent = 4))
         self.song.reloadSongs()
     def closeEvent(self, event):
         #self.saveSong()
@@ -360,17 +354,22 @@ def main():
     try:
         f = open(os.path.join("data", "categories.cfg"), "rb")
     except FileNotFoundError:
-        existingCategories = []
+        #existingCategories = []
+        existingCatsDict = {}
     else:
-        existingCategories = [line.decode("utf-8").replace("\r", "").replace("\n", "") for line in f.readlines()]
+        #existingCategories = [line.decode("utf-8").replace("\r", "").replace("\n", "") for line in f.readlines()]
+        print(f.read().decode("utf-8"))
+        existingCatsDict = json.loads(f.read().decode("utf-8"))
         f.close()
-    [ensureDir(os.path.join("data", cat)) for cat in existingCategories]
+    [ensureDir(os.path.join("data", cat)) for cat in existingCatsDict.keys()]
     app.exec()
-    f = open(os.path.join("data", "categories.cfg"), "ab")
+    f = open(os.path.join("data", "categories.cfg"), "wb")
     for dirname in os.listdir("data"):
         if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            if dirname not in existingCategories and ("#" + dirname) not in existingCategories:
-                f.write((dirname+"\n").encode("utf-8"))
+            if dirname not in existingCatsDict.keys():
+                existingCatsDict[dirname] = dirname
+    
+    f.write(json.dumps(existingCatsDict, indent = 4).encode("utf-8"))
     f.close()
 
 if __name__=="__main__":

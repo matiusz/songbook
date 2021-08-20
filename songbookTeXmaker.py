@@ -12,14 +12,14 @@ def enUTF8(st):
 def deUTF8(st):
     return st.decode('utf-8')
 
-async def gatherCategories(dataFolder):
-    tasks = [gatherSongs(dirpath) for dirname in os.listdir(dataFolder) \
-        if os.path.isdir(dirpath := os.path.join(dataFolder, dirname)) and not (dirname.startswith((".", "_")))]
+async def gatherAllCategories(dataFolderName):
+    tasks = [gatherSongs(dirpath) for dirname in os.listdir(dataFolderName) \
+        if os.path.isdir(dirpath := os.path.join(dataFolderName, dirname)) and not (dirname.startswith((".", "_")))]
     categories = await asyncio.gather(*tasks)
     return categories
 
 async def gatherSongs(dirpath):
-    tasks = [Song.load(dirpath, filename) for filename in os.listdir(dirpath) if filename.endswith(".sng")]
+    tasks = [Song.load(os.path.join(dirpath, filename)) for filename in os.listdir(dirpath) if filename.endswith(".sng")]
     songs = await asyncio.gather(*tasks)
     return songs
     
@@ -33,10 +33,16 @@ class Category:
     def __init__(self, name):
         self.songs = {}
         self.name = name
+    def setCatMapping(self, catsDict):
+        self.catMap = catsDict
     @property
     def tex(self):
-        catStr = "\\chapter*{{\centering {category}}}\n".format(category=self.name) + \
-        "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=self.name) + \
+        try: 
+            name = self.catMap[self.name]
+        except KeyError:
+            name = self.name
+        catStr = "\\chapter*{{\centering {category}}}\n".format(category=name) + \
+        "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=name) + \
         "{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{category}}} \\par}}\n".format(category=self.name) + \
         "\\newpage\n"
         #catStr += "\\cleardoublepage\n"
@@ -44,8 +50,8 @@ class Category:
 
 class Song:
     @staticmethod
-    async def load(dirpath, filename):
-        async with aiofiles.open(os.path.join(dirpath, filename), "r") as songFile:
+    async def load(filepath):
+        async with aiofiles.open(filepath, "r") as songFile:
             song = Song(await songFile.read())
         return song
 
@@ -124,6 +130,38 @@ class Song:
             length +=1
         return converted_text, length
 
+async def copyHeader(headerFilename, songbookFilename):
+    async with aiofiles.open(songbookFilename, "wb") as songbookFile:
+        async with aiofiles.open(headerFilename, "rb") as headerFile:
+            await songbookFile.write(await headerFile.read())
+
+def makeSongbookDict(songs):
+    songbookDict = CategoryDict()
+    for category in songs:
+            for song in category:
+                songbookDict[song.category].songs[song.title] = song
+    return songbookDict
+
+async def getCategoriesConfig(configFilepath, songbookDict):
+    try:
+        async with aiofiles.open(configFilepath, "rb") as configFile:
+            cats_dict = json.loads(deUTF8(await configFile.read()))
+    except FileNotFoundError:
+        print("mapping not found")
+        cats_dict = {cat:cat for cat in sorted(songbookDict.keys(), key=plSortKey)}
+    #else:
+        #cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
+    return cats_dict
+
+async def processCategoryFromDict(cat, songbookFile):
+    songCount = 0
+    for songKey in sorted(cat.songs.keys(), key=plSortKey):
+        song = cat.songs[songKey]
+        print("\t" + song.title)
+        songCount += 1
+        await songbookFile.write(enUTF8(song.tex))
+    return songCount
+
 def main():
     asyncio.run(_asyncMain())
 
@@ -131,44 +169,37 @@ async def _asyncMain():
     configFilename = "categories.cfg"
     headerFilename = "latexheader.txt"
     songbookFilename = "songbook.tex"
-    dataFolder = "data"
-    async with aiofiles.open(songbookFilename, "wb") as songbookFile:
-        async with aiofiles.open(headerFilename, "rb") as headerFile:
-            await songbookFile.write(await headerFile.read())
+    dataFolderName = "data"
     
-        songbookDict = CategoryDict()
+    await copyHeader(headerFilename, songbookFilename)
+    
+    gatheredSongs = await gatherAllCategories(dataFolderName)
 
-        gatheredSongs = await gatherCategories(dataFolder)
+    songbookDict = makeSongbookDict(gatheredSongs)
 
-        for category in gatheredSongs:
-            for song in category:
-                songbookDict[song.category].songs[song.title] = song
+    cats = await getCategoriesConfig(os.path.join(dataFolderName, configFilename), songbookDict)
 
-        try:
-            async with aiofiles.open(os.path.join(dataFolder, configFilename), "rb") as configFile:
-                cats_text = deUTF8(await configFile.read())
-        except FileNotFoundError:
-            cats = sorted(songbookDict.keys(), key=plSortKey)
-        else:
-            cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
-        songCount = 0
-        print("Title songs")
-        for song in songbookDict["Title"].songs.values():
-            songCount += 1
-            print("\t" + song.title)
-            await songbookFile.write(enUTF8(song.tex))
+    for cat in songbookDict.values():
+        cat.setCatMapping(cats)
+
+    songCount = 0
+    print("Title songs")
+
+    async with aiofiles.open(songbookFilename, "ab") as songbookFile:
+
+        songCount += await processCategoryFromDict(songbookDict["Title"], songbookFile)
+        
         await songbookFile.write(enUTF8("\\tableofcontents\n"))
-        for cat in cats:
+
+        for cat in songbookDict.keys():
             if cat != "Title":
                 print(cat)
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
-                for song in sorted(songbookDict[cat].songs.keys(), key=plSortKey):
-                    songCount += 1
-                    print("\t" + song)
-                    await songbookFile.write(enUTF8(songbookDict[cat].songs[song].tex))
+                songCount += await processCategoryFromDict(songbookDict[cat], songbookFile)
+
         await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
-        print("Total number of songs: {songCount}".format(songCount=songCount))
+    print("Total number of songs: {songCount}".format(songCount=songCount))
     
 if __name__=="__main__":
     main()
