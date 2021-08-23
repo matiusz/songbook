@@ -352,25 +352,18 @@ def main():
     window = MainMenu()
     ensureDir(os.path.join("data", ".images"))
     try:
-        f = open(os.path.join("data", "categories.cfg"), "rb")
+        with open(os.path.join("data", "categories.cfg"), "rb") as catConfig:
+            existingCatsDict = json.loads(catConfig.read())
     except FileNotFoundError:
-        #existingCategories = []
         existingCatsDict = {}
-    else:
-        #existingCategories = [line.decode("utf-8").replace("\r", "").replace("\n", "") for line in f.readlines()]
-        print(f.read().decode("utf-8"))
-        existingCatsDict = json.loads(f.read().decode("utf-8"))
-        f.close()
     [ensureDir(os.path.join("data", cat)) for cat in existingCatsDict.keys()]
     app.exec()
-    f = open(os.path.join("data", "categories.cfg"), "wb")
-    for dirname in os.listdir("data"):
-        if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
-            if dirname not in existingCatsDict.keys():
-                existingCatsDict[dirname] = dirname
+    with open(os.path.join("data", "categories.cfg"), "wb") as f:
+        for dirname in os.listdir("data"):
+            if os.path.isdir(os.path.join("data", dirname)) and not (dirname.startswith(".") or dirname.startswith("_")):
+                if dirname not in existingCatsDict.keys():
+                    existingCatsDict[dirname] = dirname
+        f.write(json.dumps(existingCatsDict, indent = 4).encode("utf-8"))
     
-    f.write(json.dumps(existingCatsDict, indent = 4).encode("utf-8"))
-    f.close()
-
 if __name__=="__main__":
     main()

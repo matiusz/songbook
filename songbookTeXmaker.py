@@ -39,7 +39,7 @@ class Category:
     def tex(self):
         try: 
             name = self.catMap[self.name]
-        except KeyError:
+        except (KeyError, AttributeError):
             name = self.name
         catStr = "\\chapter*{{\centering {category}}}\n".format(category=name) + \
         "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=name) + \
@@ -149,8 +149,6 @@ async def getCategoriesConfig(configFilepath, songbookDict):
     except FileNotFoundError:
         print("mapping not found")
         cats_dict = {cat:cat for cat in sorted(songbookDict.keys(), key=plSortKey)}
-    #else:
-        #cats = [cat for cat in cats_text.splitlines() if not cat.startswith("#")]
     return cats_dict
 
 async def processCategoryFromDict(cat, songbookFile):
@@ -191,7 +189,7 @@ async def _asyncMain():
         
         await songbookFile.write(enUTF8("\\tableofcontents\n"))
 
-        for cat in songbookDict.keys():
+        for cat in cats.keys():
             if cat != "Title":
                 print(cat)
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
