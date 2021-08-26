@@ -1,0 +1,36 @@
+{
+    "title": "Bolero",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "a\nG\nF\nE",
+            "lyrics": "W ma\u0142ym miasteczku \nGdzie\u015b na kra\u0144cach Hiszpanii \nStary krawiec Augusto \nSzy\u0142 bolera najtaniej ",
+            "chorus": false
+        },
+        {
+            "chords": "a\nG\nF\nE",
+            "lyrics": "I czy pan by\u0142 bogaty\nPan by\u0142 biedny czy kmie\u0107\nKa\u017cdy takie bolero\nChcia\u0142 mie\u0107",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "To bolero\nDla bogatych cavaleros\nW tym bolero b\u0119dziesz si\u0144ior\nPrezentowa\u0142 si\u0119 jak stru\u015b\nNa bolero z Cavaleros ty si\u0119 sku\u015b\nNa bolero z Cavaleros ty si\u0119 sku\u015b\n",
+            "chorus": true
+        },
+        {
+            "chords": "",
+            "lyrics": "jakie chcesz pan bolero\nBia\u0142e, czarne, r\u00f3\u017cowe\nZapinane od przodu\nCzy wk\u0142adane przez g\u0142ow\u0119\nZ przodu z\u0142ote guziki\nZ ty\u0142u patka czy bez\nJakie chcesz pan bolero OLE",
+            "chorus": true
+        },
+        {
+            "chords": "a\nG\nF\nE\na\nG\nF\nE",
+            "lyrics": "Na corrid\u0119 gdy p\u00f3jdziesz\nW tym bolero ukryty\nO biust karter zabije\nSerce twej si\u0144iority\nNo i ona zemdlona\nNa twe \u0142ono bez si\u0142\nPadnie, szepcz\u0105c \u201eAmigo!\nKto to szy\u0142???!!!\u201d",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "To bolero...",
+            "chorus": true
+        }
+    ]
+}

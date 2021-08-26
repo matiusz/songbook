@@ -1,0 +1,47 @@
+{
+    "title": "Poczekalnia",
+    "author": "Jacek Kaczmarski",
+    "category": "Jacek Kaczmarski",
+    "sections": [
+        {
+            "chords": "d A7 d\nC A7\nd A7 d\nC A7\nd C \nB A B A\nd C B A\nB A",
+            "lyrics": "Siedzieli\u015bmy w poczekalni, bo na zewn\u0105trz deszcz i zi\u0105b\nDo poci\u0105gu sporo czasu jeszcze by\u0142o\nMo\u017cna zatem wypi\u0107 kaw\u0119 albo rzuci\u0107 co\u015b na z\u0105b\nBo nikt nie wie, kiedy cz\u0142ek zn\u00f3w napcha ry\u0142o\nWtem s\u0142yszymy k\u00f3\u0142 stukoty i lokomotywy \u015bwist\nWi\u0119c rzucamy si\u0119 do wyj\u015bcia na perony\nAle w miejscu nas zatrzyma\u0142 megafon\u00f3w zgrzyt i pisk\n- To nie wasz poci\u0105g - og\u0142osi\u0142y megafony",
+            "chorus": false
+        },
+        {
+            "chords": "d C d\nA d\nF G a\nd A d",
+            "lyrics": "Uwierzyli\u015bmy megafonom\nUprzejmie wszak ostrzeg\u0142y nas\nPo co sta\u0107 w deszczu na peronie\nSkoro przed nami jeszcze czas?",
+            "chorus": true
+        },
+        {
+            "chords": "d A7 d\nC A7\nd A7 d\nC A7\nd C \nB A B A\nd C B A\nB A",
+            "lyrics": "\u017barcie szybko si\u0119 sko\u0144czy\u0142o, nuda zagrozi\u0142a nam\nZacz\u0119li\u015bmy drzema\u0107, marzy\u0107 i flirtowa\u0107\nKto\u015b przygrywa\u0142 na gitarze, zanucili tu i tam\nZaci\u0105\u017cy\u0142y nam do ty\u0142u nasze g\u0142owy\nWtem s\u0142yszymy k\u00f3\u0142 stukoty i lokomotywy \u015bwist\nWi\u0119c ospale podnosimy si\u0119 z foteli\nAle w miejscu nas zatrzyma\u0142 megafon\u00f3w zgrzyt i pisk\n- To nie wasz poci\u0105g - przez megafon powiedzieli",
+            "chorus": false
+        },
+        {
+            "chords": "d C d\nA d\nF G a\nd A d",
+            "lyrics": "Uwierzyli\u015bmy megafonom\nPomarzy\u0107 w cieple - dobra rzecz\nPo co sta\u0107 w deszczu na peronie\nZamiast w fotelu mi\u0119kkim lec?",
+            "chorus": true
+        },
+        {
+            "chords": "d A7 d\nC A7\nd A7 d\nC A7\nd C \nB A B A\nd C B A\nB A",
+            "lyrics": "Po marzeniach przysz\u0142a kolej na dziewczyny oraz \u0142yk\nCo pozwoli\u0142 nam zapomnie\u0107 o czekaniu\nGdy tymczasem za oknami n-ty ju\u017c si\u0119 puszy\u0142 \u015bwit\nI poczuli\u015bmy si\u0119 troch\u0119 oszukani\nWi\u0119c gdy znowu k\u00f3\u0142 stukoty us\u0142yszeli\u015bmy i \u015bwist\nW gar\u015b\u0107 si\u0119 wzi\u0119li\u015bmy i dalej - na perony!\nLecz zatrzyma\u0142 nas na progu ju\u017c znajomy zgrzyt i pisk\n- To nie wasz poci\u0105g! - Og\u0142osi\u0142y megafony",
+            "chorus": false
+        },
+        {
+            "chords": "d C d\nA d\nF G a\nd A d",
+            "lyrics": "Uwierzyli\u015bmy megafonom\nW ko\u0144cu nie by\u0142o nam tak \u017ale\nPo co sta\u0107 w deszczu na peronie\nGdzie z wszystkich stron wichura dmie?",
+            "chorus": true
+        },
+        {
+            "chords": "d A7 d\nC A7\nd A7 d\nC A7\nd C \nB A B A\nd C B A\nB A",
+            "lyrics": "Uderzy\u0142o nas jak gromem, spojrzeli\u015bmy wreszcie w kr\u0105g\nA ju\u017c wiele, wiele \u015bwit\u00f3w przemin\u0119\u0142o!\nI patrzymy w starcze oczy, powstrzymuj\u0105c dr\u017cenie r\u0105k\nZadziwieni - gdzie si\u0119 \u017cycie nam podzia\u0142o?\nWybiegamy na perony, lecz na torach le\u017cy rdza\nSemafory, hen pod lasem - opuszczone\n\u017baden poci\u0105g nie zabierze ju\u017c z tej poczekalni nas\nMilcz\u0105 teraz niepotrzebne megafony",
+            "chorus": false
+        },
+        {
+            "chords": "d C d\nA d\nF G a\nd A d",
+            "lyrics": "I gorzko si\u0119 zapatrzyli\u015bmy\nW zabrane nam dalekie strony\nI w duszach swych przeklinali\u015bmy\nT\u0119 \u0142atw\u0105 wiar\u0119 w megafony",
+            "chorus": true
+        }
+    ]
+}

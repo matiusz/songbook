@@ -1,0 +1,27 @@
+{
+    "title": "G\u0142upi Gienek",
+    "author": "S\u0142owa: Adam Ziemianin",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": "D A \nG D\nh e h\nG A7",
+            "lyrics": "Gienek gra na gitarze\nMia\u0142 by\u0107 szewcem lecz mu nie wysz\u0142o \nZa oknem jesie\u0144 przybija podk\u00f3wki \nChyba na przysz\u0142o\u015b\u0107 ",
+            "chorus": false
+        },
+        {
+            "chords": "D A\nD A\nG D e h\nG A7",
+            "lyrics": "Gitara Gienka jest taka cienka \nPo prostu ma\u0142o ma strun \nLecz Gienek jej wierzy wie \u017ce struna p\u0119ka \nZw\u0142aszcza gdy cienka i ju\u017c \n",
+            "chorus": true
+        },
+        {
+            "chords": "D A \nG D\nh e h\nG A7",
+            "lyrics": "Gienek nie b\u0119dzie ju\u017c szewcem\nBo wbi\u0142 sobie w g\u0142ow\u0119 gw\u00f3\u017ad\u017a\nWoli gitar\u0119 mie\u0107 za \u017con\u0119\nZ gitar\u0105 bierze \u015blub",
+            "chorus": false
+        },
+        {
+            "chords": "D A\nD A\nG D e h\nG A7",
+            "lyrics": "Gitara Gienka jest taka cienka\nPo prostu ma\u0142o ma strun\nLecz Gienek jej wierzy wie \u017ce struna p\u0119ka\nZw\u0142aszcza gdy cienka i ju\u017c",
+            "chorus": true
+        }
+    ]
+}

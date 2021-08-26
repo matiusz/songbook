@@ -1,0 +1,37 @@
+{
+    "title": "Twoje oczy lubi\u0105 mnie",
+    "author": "Strachy na lachy",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "g d\nF g\ng d\nF g\ng d\nF g\ng d\nF g\nc (c d Dis F)",
+            "lyrics": "Tw\u00f3j niewyra\u017any g\u0142os \nMuska si\u0119 po pi\u0119ciolinii\n\u015amiejesz mi si\u0119 w nos\nChcesz mnie obcygani\u0107\nCzujesz \u0142atwy \u0142up\nJeste\u015b wszak sprytnym z\u0142odziejem\nNie rzucasz s\u0142\u00f3w na wiatr\nDobrze wiesz, \u017ce ju\u017c wieje",
+            "chorus": false
+        },
+        {
+            "chords": "g g c F",
+            "lyrics": "Twoje oczy lubi\u0105 mnie i to mnie zgubi | x4",
+            "chorus": true
+        },
+        {
+            "chords": "g d\nF g\ng d\nF g\ng d\nF g\ng d\nF g\nc (c d Dis F)",
+            "lyrics": "Ty nie naci\u0105gasz strun\nTy nie walisz w b\u0119ben\nKa\u017cda jednoznaczno\u015b\u0107\nWed\u0142ug ciebie jest b\u0142\u0119dem\nBojkotujesz konkret\nWystarczy ci jedynie zarys\nC\u00f3\u017c mi mo\u017cesz da\u0107?\nWi\u015bnie pio\u0142un i curry?",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Twoje oczy...",
+            "chorus": true
+        },
+        {
+            "chords": "g d\nF g\ng d\nF g\ng d\nF g\ng d\nF g\nc (c d Dis F)",
+            "lyrics": "Lekko \u015bciszasz g\u0142os\nLekko poprawiasz grzywk\u0119\nA co ukry\u0142e\u015b tam?\nTam mam zaszyt\u0105 wszywk\u0119\nTam schowan\u0105 mam\nPami\u0105tk\u0119 po innej dziewczynie\nGram w to jeszcze raz\nZagram z tob\u0105 i zgin\u0119",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Twoje oczy...",
+            "chorus": true
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "title": "Nocny Kamboj",
+    "author": "Jacek Kaczmarski",
+    "category": "Jacek Kaczmarski",
+    "sections": [
+        {
+            "chords": "",
+            "lyrics": "(tekst po polsku, angielsku, rosyjsku i \u0142\u00f3dzku) ",
+            "chorus": false
+        },
+        {
+            "chords": "C\nC7\nF G C",
+            "lyrics": "Kiedy kamboj nie ma konia \nKiedy kamboj nie ma konia \nNie wie po co \u017cyje po co jest ",
+            "chorus": false
+        },
+        {
+            "chords": " F G\n C e a \n F G C \n F G C e a \n F G C ",
+            "lyrics": "Jed\u017a do miasta wielkiego\nDo wielkiego miasta jed\u017a\nTam kambojom bez konia \u0142atwiej \u017cy\u0107\nZapytaj\u0105 ci\u0119 ludzie: Gdzie jest tw\u00f3j ko\u0144?\nPowiedz by si\u0119 nie przypierdalali do\u0144",
+            "chorus": true
+        },
+        {
+            "chords": "C\nC7\nF G C",
+            "lyrics": "\u0141en de kamboj hez no\u0142 horsez, \n\u0141en de kamboj hez no\u0142 horsez, \nHi dazynt no\u0142 how tu bi or not tu bi. ",
+            "chorus": false
+        },
+        {
+            "chords": " F G\n C e a \n F G C \n F G C e a \n F G C ",
+            "lyrics": "Lets go\u0142 tu big siti, \nTu big siti lets go\u0142 \nDer \u0142ida\u0142t horsez is izjer tu liw. \nEnd dej \u0142il esk ju \nWer iz jor hors \nEnd ju enser \"Kis maj es\"",
+            "chorus": true
+        },
+        {
+            "chords": "C\nC7\nF G C",
+            "lyrics": "Niet \u0142oszadi u kamboja, \nNiet \u0142oszadi u kamboja, \nOn nie znajet kak jemu \u017cyt' ",
+            "chorus": false
+        },
+        {
+            "chords": " F G\n C e a \n F G C \n F G C e a \n F G C ",
+            "lyrics": "Ujez\u017caj w balszoj gorad, \nW balszoj gorad ujez\u017caj, \nTam kambojom bez \u0142oszadi liegczie \u017cyt' \nBudu sprasziwat' ludi - \nGdzie \u0142oszad' twaja, \nNiet \u0142oszadi, ni szczastia ni chuja. ",
+            "chorus": true
+        },
+        {
+            "chords": "C\nC7\nF G C",
+            "lyrics": "Kiedy aktor nie ma rola, \nKiedy aktor nie ma rola, \nNie wie, po co \u017cyje, po co jest.",
+            "chorus": false
+        },
+        {
+            "chords": " F G\n C e a \n F G C \n F G C e a \n F G C ",
+            "lyrics": "Jed\u017a do miasta ma\u0142ego, \nDo ma\u0142ego miasta - jed\u017a, \nTam aktorom bez rola \u0142atwiej \u017cy\u0107. \nZapytaj\u0105 koledzy - gdzie sukces tw\u00f3j, \n\"Sukces m\u00f3j, biznes m\u00f3j I taki...\" ",
+            "chorus": true
+        }
+    ]
+}

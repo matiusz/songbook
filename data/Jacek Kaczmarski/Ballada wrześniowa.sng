@@ -1,0 +1,52 @@
+{
+    "title": "Ballada wrze\u015bniowa",
+    "author": "Jacek Kaczmarski",
+    "category": "Jacek Kaczmarski",
+    "sections": [
+        {
+            "chords": "e\na\nFis\nH7",
+            "lyrics": "D\u0142ugo\u015bmy na ten dzie\u0144 czekali\nZ nadziej\u0105 niecierpliw\u0105 w duszy,\nKiedy bez s\u0142\u00f3w Towarzysz Stalin \nNa mapie fajk\u0105 strza\u0142ki ruszy. ",
+            "chorus": false
+        },
+        {
+            "chords": "e\na\nFis\nH7",
+            "lyrics": "Krzyk jeden pomkn\u0105\u0142 wzd\u0142u\u017c granicy\nI zanim zmilk\u0142, zagrzmia\u0142y dzia\u0142a\nTo w b\u00f3j z szybko\u015bci\u0105 nawa\u0142nicy\nArmia Czerwona wyrusza\u0142a.\n",
+            "chorus": false
+        },
+        {
+            "chords": "e \nG\na e\nH7 e E7\na e\nH7 e (a e H7)",
+            "lyrics": "\nA c\u00f3\u017c to za historia nowa?\nZdumiona spyta Europa\nJak to? To ch\u0142opcy Mo\u0142otowa\nI sojusznicy Ribbentropa\nJak to? To ch\u0142opcy Mo\u0142otowa\nI sojusznicy Ribbentropa",
+            "chorus": true
+        },
+        {
+            "chords": "e\na\nFis\nH7",
+            "lyrics": "Zwyci\u0119stw si\u0119 szlak ich seri\u0105 znaczy,\nSztandar wolno\u015bci okry\u0142 chwa\u0142\u0105;\nG\u0142owami polskich posiadaczy\nBrukuj\u0105 Ukrain\u0119 ca\u0142\u0105.\n",
+            "chorus": false
+        },
+        {
+            "chords": "e\na\nFis\nH7",
+            "lyrics": "Pada Podole, w ho\u0142dach Wo\u0142y\u0144,\nLud pie\u015bni\u0105 wita ustr\u00f3j nowy,\nP\u0142on\u0105 maj\u0105tki i ko\u015bcio\u0142y\nI Chrystus \u2013 z kul\u0105 w tyle g\u0142owy.",
+            "chorus": false
+        },
+        {
+            "chords": "e \nG\na e\nH7 e E7\na e\nH7 e (a e H7)",
+            "lyrics": "Nad polem bitwy d\u0142onie wznios\u0105\nWe wsp\u00f3ln\u0105 pi\u0119\u015b\u0107, co dech zapiera\nNieprzeliczone dzieci Soso,\nNiezwyci\u0119\u017cony miot Hitlera.\nNieprzeliczone dzieci Soso,\nNiezwyci\u0119\u017cony miot Hitlera.\n",
+            "chorus": true
+        },
+        {
+            "chords": "e\na\nFis\nH7",
+            "lyrics": "Ju\u017c starty z map wersalski b\u0119kart,\nJu\u017c wolny \u017byd i Bia\u0142orusin,\nJu\u017c nigdy wi\u0119cej polska r\u0119ka\nIch do niczego nie przymusi.",
+            "chorus": false
+        },
+        {
+            "chords": "e\na\nFis\nH7",
+            "lyrics": "Now\u0105 im wolno\u015b\u0107 g\u0142osi \u201ePrawda\u201d,\n\u015awiat ca\u0142y wie\u015b\u0107 obiega w lot,\n\u017be jeden odt\u0105d \u0142\u0105czy sztandar\nGwiazd\u0119, sierp, hakenkreuz i m\u0142ot.",
+            "chorus": false
+        },
+        {
+            "chords": "e \nG\na e\nH7 e E7\na e\nH7 e (a e)",
+            "lyrics": "Tych dni historia nie zapomni,\nGdy stary l\u0105d w zdumieniu zastyg\u0142\nI \u015bwi\u0119ci\u0107 b\u0119d\u0105 nam potomni\nPo pierwszym wrze\u015bnia \u2013 siedemnasty.\nI \u015bwi\u0119ci\u0107 b\u0119d\u0105 nam potomni\nPo pierwszym \u2013 siedemnasty",
+            "chorus": true
+        }
+    ]
+}

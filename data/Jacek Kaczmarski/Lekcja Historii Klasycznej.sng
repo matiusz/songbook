@@ -1,0 +1,42 @@
+{
+    "title": "Lekcja Historii Klasycznej",
+    "author": "Jacek Kaczmarski",
+    "category": "Jacek Kaczmarski",
+    "sections": [
+        {
+            "chords": " E H\n fis Gis \n cis A\n E H E (A E H)",
+            "lyrics": "Galia est omnis divisa in partes tres\nQuorum unam incolunt Belgae aliam Aquitani\nTertiam qui ipsorum lingua Celtae nostra apelantur\nAve Caesar morituri te salutant",
+            "chorus": true
+        },
+        {
+            "chords": " E H\n fis Gis \n cis A\n E H E (A E H)",
+            "lyrics": "Nad Europ\u0105 twardy krok legion\u00f3w grzmi\nNieunikniony wr\u00f3\u017cy koniec republiki\nGnij\u0105 wzg\u00f3rza galijskie w pomieszanej krwi\nA Juliusz Cezar pisze swoje pami\u0119tniki\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Galia est omnis...",
+            "chorus": true
+        },
+        {
+            "chords": " E H\n fis Gis \n cis A\n E H E (A E H)",
+            "lyrics": "Pozw\u00f3l Cezarze gdy zdob\u0119dziemy ca\u0142y \u015bwiat\nGwa\u0142ci\u0107 rabowa\u0107 syci\u0107 wszelkie po\u017c\u0105dania\nProste pro\u015bby \u017co\u0142nierzy te same s\u0105 od lat\nA Juliusz Cezar milcz\u0105c zabaw nie zabrania",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Galia est omnis...",
+            "chorus": true
+        },
+        {
+            "chords": " E H\n fis Gis \n cis A\n E H E (A E H)",
+            "lyrics": "Cywilizuje podbite narody nowy \u0142ad\nRosn\u0105 krzy\u017ce przy drogach od Renu do Nilu\nSkarg\u0105, krzykiem i p\u0142aczem rozbrzmiewa ca\u0142y \u015bwiat\nA Juliusz Cezar \u0107wiczy lapidarno\u015b\u0107 stylu",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Galia est omnis...",
+            "chorus": true
+        }
+    ]
+}

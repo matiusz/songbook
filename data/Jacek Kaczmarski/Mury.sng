@@ -1,0 +1,37 @@
+{
+    "title": "Mury",
+    "author": "Jacek Kaczmarski",
+    "category": "Jacek Kaczmarski",
+    "sections": [
+        {
+            "chords": " e H7 e\n e H7\n C H7 C\n C H7 e\n e H7 e\n e H7\n C H7 C\n C H7 e",
+            "lyrics": "A On natchniony i m\u0142ody by\u0142,\nIch nie policzy\u0142by nikt.\nOn im dodawa\u0142 pie\u015bni\u0105 si\u0142,\n\u015apiewa\u0142, \u017ce blisko ju\u017c \u015bwit.\n\u015awiec tysi\u0105ce palili mu,\nZ nad g\u0142\u00f3w podnosi\u0142 si\u0119 dym,\n\u015apiewa\u0142, \u017ce czas, by run\u0105\u0142 mur\u2026\nOni \u015bpiewali wraz z nim:",
+            "chorus": false
+        },
+        {
+            "chords": " H7 e\n H7 e\n e a\n H7 e\n",
+            "lyrics": "Wyrwij murom z\u0119by krat!\nZerwij kajdany, po\u0142am bat!\nA mury run\u0105, run\u0105, run\u0105\nI pogrzebi\u0105 stary \u015bwiat! \n\n",
+            "chorus": true
+        },
+        {
+            "chords": " e H7 e\n e H7\n C H7 C\n C H7 e\n e H7 e\n e H7\n C H7 C\n C H7 e",
+            "lyrics": "Wkr\u00f3tce na pami\u0119\u0107 znali pie\u015b\u0144\nI sama melodia bez s\u0142\u00f3w\nNios\u0142a ze sob\u0105 star\u0105 tre\u015b\u0107,\nDreszcze na wskro\u015b serc i g\u0142\u00f3w.\n\u015apiewali wi\u0119c, klaskali w rytm,\nJak wystrza\u0142 poklask ich brzmia\u0142.\nI ci\u0105\u017cy\u0142 \u0142a\u0144cuch, zwleka\u0142 \u015bwit\u2026\nOn wci\u0105\u017c \u015bpiewa\u0142 i gra\u0142:",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Wyrwij murom z\u0119by krat\u2026\n",
+            "chorus": true
+        },
+        {
+            "chords": " e H7 e\n e H7\n C H7 C\n C H7 e\n e H7 e\n e H7\n C H7 C\n C H7 e",
+            "lyrics": "A\u017c zobaczyli ilu ich,\nPoczuli si\u0142\u0119 i czas\nI z pie\u015bni\u0105, \u017ce ju\u017c blisko \u015bwit\nSzli ulicami miast.\nZwalali pomniki i rwali bruk:\n\u2013 Ten z nami! Ten przeciw nam!\nKto sam, ten najgorszy wr\u00f3g!\nA \u015bpiewak tak\u017ce by\u0142 sam\u2026",
+            "chorus": false
+        },
+        {
+            "chords": " H7 e\n H7 e\n e a\n H7 e\n",
+            "lyrics": "Patrzy\u0142 na r\u00f3wny t\u0142um\u00f3w marsz,\nMilcza\u0142, ws\u0142uchany w krok\u00f3w huk,\nA mury ros\u0142y, ros\u0142y, ros\u0142y,\n\u0141a\u0144cuch ko\u0142ysa\u0142 si\u0119 u n\u00f3g.",
+            "chorus": true
+        }
+    ]
+}
