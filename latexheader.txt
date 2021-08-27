@@ -38,4 +38,6 @@
 
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
 
+\renewcommand{\rmdefault}{ptm}
+
 \renewcommand{\contentsname}{Spis treści}

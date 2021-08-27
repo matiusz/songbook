@@ -9,7 +9,7 @@
             "chorus": false
         },
         {
-            "chords": "G C\nD7 G\nG7 C\nD7 g",
+            "chords": "G C\nD7 G\nG G7 C\nD7 g",
             "lyrics": "Cztery piwka na st\u00f3\u0142, w popielniczk\u0119 pet,\nJak\u0105\u015b Dam\u0119 roze\u015bmian\u0105 Kr\u00f3l przytuli wnet.\nGdzie\u015b mi\u0119dzy palcami sennie p\u0142ynie czas.\n\"...czwarta r\u0119ka, Kr\u00f3la bije As...\"",
             "chorus": true
         },
@@ -34,7 +34,7 @@
             "chorus": false
         },
         {
-            "chords": "G C\nD7 G\nG7 C\nD7 g",
+            "chords": "G C\nD7 G\nG G7 C\nD7 g",
             "lyrics": "W popielniczk\u0119 pet, cztery piwka na st\u00f3\u0142,\nJu\u017c tej Damy roze\u015bmianej nie przytuli Kr\u00f3l.\nGdzie\u015b nam si\u0119 zapodzia\u0142 atutowy As,\nTego Szlema z nami wygra\u0142 czas.",
             "chorus": true
         },
