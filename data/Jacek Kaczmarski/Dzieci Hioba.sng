@@ -1,0 +1,28 @@
+{
+    "title": "Dzieci Hioba",
+    "author": "Jacek Kaczmarski",
+    "capo": "Capo II",
+    "category": "Jacek Kaczmarski",
+    "sections": [
+        {
+            "chords": "a d a\nd a E7\na d a\nd E\na d\na d\na d C d a\na d\na d\na d C d a (G)",
+            "lyrics": "\u017by\u0142y przecie\u017c dzieci Hioba bogobojnie i dostatnio\nSiedmiu syn\u00f3w jak te sosny siedem c\u00f3rek jak te brzozy\nSzanowa\u0142y swego ojca i kocha\u0142y swoj\u0105 matk\u0119\n\u017by\u0142y w zgodzie z ka\u017cdym przykazaniem bo\u017cym\nA tej nocy b\u0142ysk i grom\nRun\u0105\u0142 ich bezpieczny dom\nI na g\u0142owy spad\u0142 lawin\u0105 g\u0142az\u00f3w grad\nDnia nie ujrzy wi\u0119cej ju\u017c\nSiedem sosen siedem brz\u00f3z\nJednej nocy ca\u0142y las utraci\u0142 \u015bwiat",
+            "chorus": false
+        },
+        {
+            "chords": "C G \nC G \nF E\nC G\nC G\na F E\nF E\nF E\na C \nG a",
+            "lyrics": "Za t\u0119 ojc\u00f3w nadgorliwo\u015b\u0107\nW wierze w wy\u017csz\u0105 sprawiedliwo\u015b\u0107\nKt\u00f3ra ka\u017ce ufa\u0107 w dobra tryumf nad z\u0142em\nZa lojalno\u015b\u0107 i pokor\u0119\nI za \u0142ask minion\u0105 por\u0119\nZa niewiar\u0119 w \u015bwiat za progiem kt\u00f3ry jest\nZa ten zak\u0142ad diab\u0142a z Bogiem\nCzyj silniejszy b\u0119dzie ogie\u0144\nDzieci Hioba Dzieci Hioba\nIdzie kres",
+            "chorus": true
+        },
+        {
+            "chords": "a d a\nd a E7\na d a\nd E\na d\na d\na d C d a\na d\na d\na d C d a (G)",
+            "lyrics": "\u017by\u0142y przecie\u017c dzieci Hioba na nadziej\u0119 w przysz\u0142o\u015b\u0107 rodu\nSiedmiu syn\u00f3w jak te miecze siedem c\u00f3rek jak te r\u00f3\u017ce\nNie zazna\u0142y w swoim \u017cyciu smaku krwi ni smaku g\u0142odu\nI kto tylko \u017cy\u0142 szcz\u0119\u015bliwy los im wr\u00f3\u017cy\u0142\nA tej nocy grom i b\u0142ysk\n\u015api\u0105cych pozamienia\u0142 w nic\nBo\u017cy \u015bwit ogl\u0105da\u0142 ju\u017c dymi\u0105cy gruz\nPatrzy\u0142 nieomylny kat\nJak lito\u015bci\u0105 zdj\u0119ty wiatr\nBogobojny lament Hioba w niebo ni\u00f3s\u0142",
+            "chorus": false
+        },
+        {
+            "chords": "C G \nC G \nF E\nC G\nC G\na F E\nF E\nF E\na C \nG a",
+            "lyrics": "Za ten zak\u0142ad Boga z biesem\nW zgodzie z waszym interesem\nCho\u0107 ostrzega was jak mo\u017ce zmys\u0142\u00f3w pi\u0119\u0107\nZa ten zak\u0142ad Boga z czartem\nO kolejn\u0105 dziej\u00f3w kart\u0119\nI za kija ko\u0144ce oba za zwyk\u0142ego \u017cycia ch\u0119\u0107\nZa to czego nie ujrzycie\nBo si\u0119 wam odbierze \u017cycie\nDzieci Hioba Dzieci Hioba\nIdzie \u015bmier\u0107",
+            "chorus": true
+        }
+    ]
+}

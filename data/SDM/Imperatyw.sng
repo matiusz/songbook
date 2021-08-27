@@ -1,0 +1,42 @@
+{
+    "title": "Imperatyw",
+    "author": "S\u0142. Piotr Bakal",
+    "category": "SDM",
+    "sections": [
+        {
+            "chords": " e C\n a C H7\n G C G\n a G H7",
+            "lyrics": "B\u0119dziemy szli nieprzerwanie\nW ulewie, skwarze, huraganie\nPrzez chwiejne mosty, grz\u0105skie bagna\nChaszcze, pustynie i mokrad\u0142a",
+            "chorus": false
+        },
+        {
+            "chords": " e a e\n C a C H7\n C e\n a H7",
+            "lyrics": "B\u0119dziemy szli przez zamiecie\nPrzez grudnie, marce, czerwce, sierpnie\nUpalne lata, mro\u017ane zimy\nB\u0119dziemy szli - nie zawr\u00f3cimy",
+            "chorus": false
+        },
+        {
+            "chords": " C G H7\n G C D D4\n G a H7\n C",
+            "lyrics": "Z wiar\u0105 w nast\u0119pny zakr\u0119t drogi\nCo zn\u00f3w oka\u017ce si\u0119 nie ten\nW tajne przymierze z Panem Bogiem\nW naszego trudu jaki\u015b sens",
+            "chorus": true
+        },
+        {
+            "chords": " e C",
+            "lyrics": "Aaaaa...\n",
+            "chorus": true
+        },
+        {
+            "chords": " e C\n a C H7\n G C G\n a G H7",
+            "lyrics": "B\u0119dziemy szli bez wytchnienia\nUpadaj\u0105cy ze zm\u0119czenia\nBez gromkich fanfar i okrzyk\u00f3w\nBez pozy dumnych wojownik\u00f3w",
+            "chorus": false
+        },
+        {
+            "chords": " e a e\n C a C H7\n C e\n a H7",
+            "lyrics": "B\u0119dziemy szli - wbrew logice\nPowolnym marszem ca\u0142e \u017cycie\nB\u0119dziemy m\u00f3wi\u0107, \u017ce ju\u017c dosy\u0107\nI dalej dalej dalej kroczy\u0107",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Z wiar\u0105 w nast\u0119pny zakr\u0119t drogi...",
+            "chorus": true
+        }
+    ]
+}

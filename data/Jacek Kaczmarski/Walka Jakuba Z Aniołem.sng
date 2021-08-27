@@ -1,0 +1,37 @@
+{
+    "title": "Walka Jakuba Z Anio\u0142em",
+    "author": "Jacek Kaczmarski",
+    "category": "Jacek Kaczmarski",
+    "sections": [
+        {
+            "chords": "A\nE\nfis\ncis\nD E\nh E",
+            "lyrics": "\nA kiedy walczy\u0142 Jakub z anio\u0142em\nI kiedy poj\u0105\u0142, \u017ce walczy z Bogiem\nSkrzyd\u0142o \u015bwietliste b\u00f3d\u0142 spoconym czo\u0142em\nCia\u0142o nieziemskie kala\u0142 py\u0142em z drogi\nI wo\u0142a\u0142 \u2013 Daj mi Panie, bo nie puszcz\u0119\nB\u0142ogos\u0142awie\u0144stwo na teraz i na potem",
+            "chorus": false
+        },
+        {
+            "chords": "h E\nh E",
+            "lyrics": "A kaftan jego cuchn\u0105\u0142 kozim t\u0142uszczem\nA szaty Pana mieni\u0142y si\u0119 z\u0142otem",
+            "chorus": true
+        },
+        {
+            "chords": "A\nE\nfis cis\nD E",
+            "lyrics": "On sam za\u015b Pasterz lecz o r\u0119kach g\u0142adkich\nW zapasach wo\u0142a\u0142 \u2013 \u0142amiesz moje prawa\nI \u017c\u0105dasz jeszcze abym sam z nich zakpi\u0142\nCiebie co blu\u017anisz grozisz b\u0142ogos\u0142awi\u0142",
+            "chorus": false
+        },
+        {
+            "chords": "h E\nh E",
+            "lyrics": "A szaty Pana mieni\u0142y si\u0119 z\u0142otem\nKaftan Jakuba cuchn\u0105\u0142 kozim t\u0142uszczem",
+            "chorus": true
+        },
+        {
+            "chords": "A\nE\nfis cis\nD cis fis D cis fis",
+            "lyrics": "\u2013 W niewoli praw twych i w ludzkiej niewoli\n\u017by\u0142em w\u015br\u00f3d zwierz\u0105t obce karmi\u0105c plemi\u0119\nJe\u015bli na drodze do wolno\u015bci stoisz\nPrawa odrzuc\u0119 precz a Boga zmieni\u0119",
+            "chorus": false
+        },
+        {
+            "chords": "A E\nfis cis\nD E\nh E",
+            "lyrics": "I w tym spotkaniu na bydl\u0119cej drodze\nB\u00f3g uleg\u0142 i Jakuba b\u0142ogos\u0142awi\u0142\nWprz\u00f3d mu odj\u0105wszy w\u0142adz\u0119 w jednej nodze\nBy wolnych pozna\u0107 po tym \u017ce kulawi\n",
+            "chorus": true
+        }
+    ]
+}
