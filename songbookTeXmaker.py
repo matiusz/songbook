@@ -61,7 +61,7 @@ class Song:
         self.category = self.dict['category']
     @property
     def tex(self):
-        songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.8,0.2}}\n".format(title=self.title)
+        songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.8,0.2}}\n\\rmfamily".format(title=self.title)
         try:
             author = self.dict['author']
         except KeyError:
