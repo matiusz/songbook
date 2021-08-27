@@ -1,0 +1,52 @@
+{
+    "title": "Czeska szanta",
+    "author": "Poszukiwacze",
+    "category": "Szanty",
+    "sections": [
+        {
+            "chords": "e D e C D G\nC G e C D e\ne D e C D G\nC G e C D e",
+            "lyrics": "\u015amiali si\u0119 ze mnie s\u0105siedzi i \u015bmia\u0142a si\u0119 ze mnie matka,\n\u017ce chc\u0119 by\u0107 marynarzem co p\u0142ywa po czeskich statkach\nLecz uczy tego historia \u015bpiewaj\u0105 o tym Rybitwy,\n\u017ce czeska marynarka nie przegra\u0142a \u017cadnej bitwy.",
+            "chorus": false
+        },
+        {
+            "chords": "e D e\nC D G\nC G e\nC D e",
+            "lyrics": "Niech czeski nar\u00f3d powstanie\nch\u0142opaki liny w d\u0142o\u0144\njeste\u015bmy morskim krajem, \nm\u00f3wimy do siebie ahoj",
+            "chorus": true
+        },
+        {
+            "chords": "e D e C D G\nC G e C D e\ne D e C D G\nC G e C D e",
+            "lyrics": "Znalaz\u0142em czesk\u0105 za\u0142og\u0119 brakuje czeskiego portu,\nnie chcia\u0142em by moi ludzie byli gorszego sortu.\nJest ze mn\u0105 Karel Jozin my\u015bleli\u015bmy ca\u0142y rok,\na\u017c wpadli\u015bmy na pomys\u0142, nazywa si\u0119 suchy dok.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Niech czeski nar\u00f3d powstanie...",
+            "chorus": true
+        },
+        {
+            "chords": "e D e C D G\nC G e C D e\ne D e C D G\nC G e C D e",
+            "lyrics": "Opr\u00f3cz czeskiego portu przyda si\u0119 czeskie morze,\nale tu ju\u017c sam Pan B\u00f3g nam raczej nie pomo\u017ce\nAle nam to nie przeszkadza tak zaczyna si\u0119 przygoda,\nza statek b\u0119dzie nam s\u0142u\u017cy\u0107 nap\u0119dzana \u017caglem Skoda",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Niech czeski nar\u00f3d powstanie...",
+            "chorus": true
+        },
+        {
+            "chords": "e D e C D G\nC G e C D e\ne D e C D G\nC G e C D e",
+            "lyrics": "Tak zaczyna si\u0119 przygoda, obieramy kurs na Krym,\nchcia\u0142em by\u0107 marynarzem, stworzy\u0142em Czeski film.\nI bior\u0105c za przyk\u0142ad Putina, wci\u0105gamy bander\u0119 w przestworza,\ntak czeska republika zyskaaaaa\u0142a dost\u0119p do morza.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Niech czeski nar\u00f3d powstanie...",
+            "chorus": true
+        },
+        {
+            "chords": "e C h e\nC G D e\ne a C e\nC e H H7",
+            "lyrics": "",
+            "chorus": false
+        }
+    ]
+}
