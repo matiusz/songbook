@@ -64,16 +64,14 @@ class Song:
         songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.8,0.2}}\n\\rmfamily".format(title=self.title)
         try:
             author = self.dict['author']
+            songStr += "\\begin{{flushright}}\n{author}\n\\end{{flushright}}".format(author = author)
         except KeyError:
             pass
-        else:
-            songStr += "\\begin{{flushright}}\n{author}\n\\end{{flushright}}".format(author = author)
         try:
             capo = self.dict['capo']
+            songStr += "\\begin{{flushright}}\n{capo}\n\\end{{flushright}}".format(capo = capo)     
         except KeyError:
             pass
-        else:
-            songStr += "\\begin{{flushright}}\n{capo}\n\\end{{flushright}}".format(capo = capo)     
         songStr += "\\begin{paracol}{2}\n"
         for section in self.dict['sections']:
             songStr += self.convertSection(section)
@@ -114,21 +112,18 @@ class Song:
         return songStr
 
     def chorusWrapper(self, text):
-        wrapped_text = "\\begin{chorus}\n"
-        wrapped_text += text
-        wrapped_text += "\\end{chorus}\n"
+        wrapped_text = "\\begin{chorus}\n" + text + "\\end{chorus}\n"
         return wrapped_text
 
     def convertLineBreaks(self, text):
         converted_text = ""
-        length = 0
-        for line in text.splitlines():
+        lines = text.splitlines()
+        for line in lines:
             if line:
                 converted_text += line + "\\\\\n" 
             else:
                 converted_text += "\\vspace{\\baselineskip}\n"
-            length +=1
-        return converted_text, length
+        return converted_text, len(lines)
 
 async def copyHeader(headerFilename, songbookFilename):
     async with aiofiles.open(songbookFilename, "wb") as songbookFile:
@@ -138,8 +133,8 @@ async def copyHeader(headerFilename, songbookFilename):
 def makeSongbookDict(songs):
     songbookDict = CategoryDict()
     for category in songs:
-            for song in category:
-                songbookDict[song.category].songs[song.title] = song
+        for song in category:
+            songbookDict[song.category].songs[song.title] = song
     return songbookDict
 
 async def getCategoriesConfig(configFilepath, songbookDict):
@@ -152,13 +147,12 @@ async def getCategoriesConfig(configFilepath, songbookDict):
     return cats_dict
 
 async def processCategoryFromDict(cat, songbookFile):
-    songCount = 0
-    for songKey in sorted(cat.songs.keys(), key=plSortKey):
+    keys = cat.songs.keys()
+    for songKey in sorted(keys, key=plSortKey):
         song = cat.songs[songKey]
         print("\t" + song.title)
-        songCount += 1
         await songbookFile.write(enUTF8(song.tex))
-    return songCount
+    return len(keys)
 
 def main():
     asyncio.run(_asyncMain())
