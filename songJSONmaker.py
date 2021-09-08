@@ -11,8 +11,6 @@ import os
 
 from functools import partial
 
-from pprint import pformat
-
 def ensureFileDir(file_path):
     directory = os.path.dirname(file_path)
     os.makedirs(directory, exist_ok = True)
@@ -113,14 +111,14 @@ class SongList(QWidget):
         textLines = []
         for cat in self.catSongs.keys():
             catEmpty = True
-            textLines.append("{cat}".format(cat = cat))
+            textLines.append(f"{cat}")
             for song in self.catSongs[cat]:
                 if filt:
                     if filt.lower() in song.lower():
-                        textLines.append("\t{song}".format(song = song[:-4]))
+                        textLines.append(f"\t{song[:-4]}")
                         catEmpty = False
                 else:
-                    textLines.append("\t{song}".format(song = song[:-4]))
+                    textLines.append(f"\t{song[:-4]}")
                     catEmpty = False
             if catEmpty:
                 textLines.pop()

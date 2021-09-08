@@ -41,9 +41,9 @@ class Category:
             name = self.catMap[self.name]
         except (KeyError, AttributeError):
             name = self.name
-        catStr = "\\chapter*{{\centering {category}}}\n".format(category=name) + \
-        "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=name) + \
-        "{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{category}}} \\par}}\n".format(category=self.name) + \
+        catStr = f"\\chapter*{{\centering {name}}}\n" + \
+        f"\\addcontentsline{{toc}}{{chapter}}{{{name}}}\n" + \
+        f"{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{self.name}}} \\par}}\n" + \
         "\\newpage\n"
         #catStr += "\\cleardoublepage\n"
         return catStr
@@ -61,15 +61,15 @@ class Song:
         self.category = self.dict['category']
     @property
     def tex(self):
-        songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.8,0.2}}\n\\rmfamily".format(title=self.title)
+        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.8,0.2}}\n\\rmfamily"
         try:
             author = self.dict['author']
-            songStr += "\\begin{{flushright}}\n{author}\n\\end{{flushright}}".format(author = author)
+            songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
         except KeyError:
             pass
         try:
             capo = self.dict['capo']
-            songStr += "\\begin{{flushright}}\n{capo}\n\\end{{flushright}}".format(capo = capo)     
+            songStr += f"\\begin{{flushright}}\n{capo}\n\\end{{flushright}}"
         except KeyError:
             pass
         songStr += "\\begin{paracol}{2}\n"
@@ -83,7 +83,7 @@ class Song:
         specialChars = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", "*", "sus", "add", "/"]
         chDict = {}
         for ch in specialChars:
-            chDict[ch] = ("\\textsuperscript{{{char}}}".format(char = ch))
+            chDict[ch] = (f"\\textsuperscript{{{ch}}}")
         pattern = re.compile('|'.join(sorted([re.escape(key) for key in chDict.keys()], key=len, reverse=True)))
         result = pattern.sub(lambda x: chDict[x.group()], text)
         return result
@@ -95,7 +95,7 @@ class Song:
             chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "))
         else:
             chords, l2 = "", 0
-        songStr = "\n\\ensurevspace{{{linecount}\\baselineskip}}\n".format(linecount = max(l1, l2))
+        songStr = f"\n\\ensurevspace{{{max(l1, l2)}\\baselineskip}}\n"
         songStr += "\\begin{leftcolumn*}\n"
         if section['chorus']:
             lyrics = self.chorusWrapper(lyrics)
@@ -191,7 +191,7 @@ async def _asyncMain():
 
         await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
-    print("Total number of songs: {songCount}".format(songCount=songCount))
+    print(f"Total number of songs: {songCount}")
     
 if __name__=="__main__":
     main()

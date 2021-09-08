@@ -1,10 +1,10 @@
+import ToCedit
+import os
+
 def main():
-    import os
 
     texcompile = "pdflatex songbook.tex"
     os.system(texcompile)
-
-    import ToCedit
 
     ToCedit.main()
 
