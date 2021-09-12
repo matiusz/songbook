@@ -18,3 +18,4 @@ songbook.out
 headerconfig.py
 latexheader copy.txt
 tex.py
+texput.log

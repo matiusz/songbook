@@ -41,9 +41,9 @@ class Category:
             name = self.catMap[self.name]
         except (KeyError, AttributeError):
             name = self.name
-        catStr = "\\chapter*{{\centering {category}}}\n".format(category=name) + \
-        "\\addcontentsline{{toc}}{{chapter}}{{{category}}}\n".format(category=name) + \
-        "{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{category}}} \\par}}\n".format(category=self.name) + \
+        catStr = f"\\chapter*{{\centering {name}}}\n" + \
+        f"\\addcontentsline{{toc}}{{chapter}}{{{name}}}\n" + \
+        f"{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{self.name}}} \\par}}\n" + \
         "\\newpage\n"
         #catStr += "\\cleardoublepage\n"
         return catStr
@@ -61,19 +61,17 @@ class Song:
         self.category = self.dict['category']
     @property
     def tex(self):
-        songStr = "\\section*{{{title}}}\n\\addcontentsline{{toc}}{{section}}{{{title}}}\n\\columnratio{{0.8,0.2}}\n\\rmfamily".format(title=self.title)
+        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.8,0.2}}\n\\rmfamily"
         try:
             author = self.dict['author']
+            songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
         except KeyError:
             pass
-        else:
-            songStr += "\\begin{{flushright}}\n{author}\n\\end{{flushright}}".format(author = author)
         try:
             capo = self.dict['capo']
+            songStr += f"\\begin{{flushright}}\n{capo}\n\\end{{flushright}}"
         except KeyError:
             pass
-        else:
-            songStr += "\\begin{{flushright}}\n{capo}\n\\end{{flushright}}".format(capo = capo)     
         songStr += "\\begin{paracol}{2}\n"
         for section in self.dict['sections']:
             songStr += self.convertSection(section)
@@ -85,7 +83,7 @@ class Song:
         specialChars = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", "*", "sus", "add", "/"]
         chDict = {}
         for ch in specialChars:
-            chDict[ch] = ("\\textsuperscript{{{char}}}".format(char = ch))
+            chDict[ch] = (f"\\textsuperscript{{{ch}}}")
         pattern = re.compile('|'.join(sorted([re.escape(key) for key in chDict.keys()], key=len, reverse=True)))
         result = pattern.sub(lambda x: chDict[x.group()], text)
         return result
@@ -97,7 +95,7 @@ class Song:
             chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "))
         else:
             chords, l2 = "", 0
-        songStr = "\n\\ensurevspace{{{linecount}\\baselineskip}}\n".format(linecount = max(l1, l2))
+        songStr = f"\n\\ensurevspace{{{max(l1, l2)}\\baselineskip}}\n"
         songStr += "\\begin{leftcolumn*}\n"
         if section['chorus']:
             lyrics = self.chorusWrapper(lyrics)
@@ -114,21 +112,18 @@ class Song:
         return songStr
 
     def chorusWrapper(self, text):
-        wrapped_text = "\\begin{chorus}\n"
-        wrapped_text += text
-        wrapped_text += "\\end{chorus}\n"
+        wrapped_text = "\\begin{chorus}\n" + text + "\\end{chorus}\n"
         return wrapped_text
 
     def convertLineBreaks(self, text):
         converted_text = ""
-        length = 0
-        for line in text.splitlines():
+        lines = text.splitlines()
+        for line in lines:
             if line:
                 converted_text += line + "\\\\\n" 
             else:
                 converted_text += "\\vspace{\\baselineskip}\n"
-            length +=1
-        return converted_text, length
+        return converted_text, len(lines)
 
 async def copyHeader(headerFilename, songbookFilename):
     async with aiofiles.open(songbookFilename, "wb") as songbookFile:
@@ -138,8 +133,8 @@ async def copyHeader(headerFilename, songbookFilename):
 def makeSongbookDict(songs):
     songbookDict = CategoryDict()
     for category in songs:
-            for song in category:
-                songbookDict[song.category].songs[song.title] = song
+        for song in category:
+            songbookDict[song.category].songs[song.title] = song
     return songbookDict
 
 async def getCategoriesConfig(configFilepath, songbookDict):
@@ -152,13 +147,12 @@ async def getCategoriesConfig(configFilepath, songbookDict):
     return cats_dict
 
 async def processCategoryFromDict(cat, songbookFile):
-    songCount = 0
-    for songKey in sorted(cat.songs.keys(), key=plSortKey):
+    keys = cat.songs.keys()
+    for songKey in sorted(keys, key=plSortKey):
         song = cat.songs[songKey]
         print("\t" + song.title)
-        songCount += 1
         await songbookFile.write(enUTF8(song.tex))
-    return songCount
+    return len(keys)
 
 def main():
     asyncio.run(_asyncMain())
@@ -197,7 +191,7 @@ async def _asyncMain():
 
         await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
-    print("Total number of songs: {songCount}".format(songCount=songCount))
+    print(f"Total number of songs: {songCount}")
     
 if __name__=="__main__":
     main()

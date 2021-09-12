@@ -3,8 +3,18 @@
   ## songbook.py
   
   Script for running all the parts of the application.
-  
-  Opens GUI which enables creating and editing songs. After GUI is closed it creates a .tex file, then compiles it to pdf and removes any auxiliary files.
+
+  ## songJSONmaker.py
+
+  GUI with options for song lookup and adding new categories and songs and editing existing songs.
+
+  ## songbookTeXmaker.py
+
+  Creates .tex file from added songs
+
+  ## TeXcompile.py
+
+  Compiles the .tex file, generates secondary ToC and recompiles everything two more times to ensure correct page numbering.
 
   ## Requirements
   

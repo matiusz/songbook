@@ -1,11 +1,11 @@
 {
-    "title": "Lekcja Historii Klasycznej",
+    "title": "Lekcja historii klasycznej",
     "author": "Jacek Kaczmarski",
     "category": "Jacek Kaczmarski",
     "sections": [
         {
             "chords": " E H\n fis Gis \n cis A\n E H E (A E H)",
-            "lyrics": "Galia est omnis divisa in partes tres\nQuorum unam incolunt Belgae aliam Aquitani\nTertiam qui ipsorum lingua Celtae nostra apelantur\nAve Caesar morituri te salutant",
+            "lyrics": "Galia est omnis divisa in partes tres\nQuorum unam incolunt Belgae aliam Aquitani\nTertiam qui ipsorum lingua Celtae nostra Galli appellantur\nAve Caesar morituri te salutant",
             "chorus": true
         },
         {
