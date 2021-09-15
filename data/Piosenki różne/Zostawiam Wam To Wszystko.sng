@@ -1,0 +1,42 @@
+{
+    "title": "Zostawiam wam to wszystko",
+    "author": "S\u0142odki Ca\u0142us Od Buby",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": " D fis G D\n h fis G A\n G A D G\n D h G A (D)",
+            "lyrics": "Zostawiam wam to wszystko jak si\u0119 zostawia list\nAlbo jak zb\u0119dny baga\u017c, gdy miejsca nie ma w walizce.\nZnamy si\u0119 zbyt d\u0142ugo, mech por\u00f3s\u0142 nasze dni,\nA jak b\u0119dzie mi \u017ale, wtedy mo\u017ce napisz\u0119.",
+            "chorus": true
+        },
+        {
+            "chords": " D fis G D\n h fis G A\n G D\n G A D",
+            "lyrics": "Zobacz, jak po ulicach w zawody z sob\u0105 gna wiatr,\nWplata li\u015bcie we w\u0142osy chichocz\u0105cych licealistek.\nW g\u00f3r\u0119 podrywa sp\u00f3dniczki, a uda\nCo \u0142adniejsze obejrzy dok\u0142adnie.",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Zostawiam wam to wszystko...",
+            "chorus": true
+        },
+        {
+            "chords": " D fis G D\n h fis G A\n G D\n G A D",
+            "lyrics": "Kramarka za rogiem w zzi\u0119bni\u0119tej d\u0142oni trzyma\nZ resztek zimy utkany sweter,\nZ gar\u015bci\u0105 pe\u0142n\u0105 nadziei wci\u0105\u017c liczy\nNa grosz, czy na lepszy dzie\u0144...",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Zostawiam wam to wszystko...",
+            "chorus": true
+        },
+        {
+            "chords": " D fis G D\n h fis G A\n G D\n G A D",
+            "lyrics": "Portowi m\u0119czennicy, kr\u00f3lowie pijaczkowie,\nNa czas ich zawsze przywiedzie niezawodny czerwony nos.\nPrzycumowuj\u0105 przy schodkach baru,\nKt\u00f3rego okna nabieg\u0142y krwi\u0105...",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Zostawiam wam to wszystko...",
+            "chorus": true
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "title": "Matura",
+    "author": "Farben Lehre",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "h fis",
+            "lyrics": "Moja dziewczyna ma dzisiaj matur\u0119\nNie ma czasu dla mnie w og\u00f3le\nNie \u015bpi po nocach, strasznie si\u0119 boi\nSzkoda mi dziewczyny mojej",
+            "chorus": false
+        },
+        {
+            "chords": "D A h",
+            "lyrics": "Hura hura, dzisiaj matura\nMarynara i fryzura, matura\nHura hura, Broniewski, Stachura\nMarynara i fryzura, matura",
+            "chorus": true
+        },
+        {
+            "chords": "h fis",
+            "lyrics": "M\u00f3j kolega ma dzisiaj matur\u0119\nNie ma czasu na piwo w og\u00f3le\nPuchn\u0105 oczy, w gardle suszy\nSzkoda mi tak m\u0142odej duszy",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Hura hura, dzisiaj matura...",
+            "chorus": true
+        },
+        {
+            "chords": "h fis",
+            "lyrics": "Nie matura, a ch\u0119\u0107 szczera\nZrobi z Ciebie oficera\nWarto by\u015b o tym pami\u0119ta\u0142\nGdyby\u015b w razie nie zda\u0142",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Hura hura, dzisiaj matura...",
+            "chorus": true
+        },
+        {
+            "chords": "D A\nh",
+            "lyrics": "Warto by\u015b o tym pami\u0119ta\u0142\nGdyby\u015b w razie nie zda\u0142\nWarto by\u015b o tym pami\u0119ta\u0142a\nWidz\u0105c genera\u0142a",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Hura hura, dzisiaj matura...",
+            "chorus": true
+        }
+    ]
+}

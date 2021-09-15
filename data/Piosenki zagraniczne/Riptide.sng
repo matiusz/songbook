@@ -1,0 +1,53 @@
+{
+    "title": "Riptide",
+    "author": "Vance Joy",
+    "capo": "Capo I",
+    "category": "Piosenki zagraniczne",
+    "sections": [
+        {
+            "chords": "a G C",
+            "lyrics": "I was scared of dentists and the dark\nI was scared of pretty girls and starting conversations\nOh, all my friends are turning green\nYou're the magician's assistant in their dream",
+            "chorus": false
+        },
+        {
+            "chords": "a G C",
+            "lyrics": "Ah-ooh-ooh-ooh, ah-ahh-ah-ah\nAnd they come unstuck",
+            "chorus": true
+        },
+        {
+            "chords": "a G C",
+            "lyrics": "Lady, running down to the riptide\nTaken away to the dark side\nI wanna be your left hand man\nI love you when you're singing that song\nAnd I got a lump in my throat\n'Cause you're gonna sing the words wrong",
+            "chorus": true
+        },
+        {
+            "chords": "a G C",
+            "lyrics": "There's this movie that I think you'll like\nThis guy decides to quit his job and heads to New York City\nThis cowboy's running from himself\nAnd she's been living on the highest shelf",
+            "chorus": false
+        },
+        {
+            "chords": "a G C",
+            "lyrics": "Ah-ooh-ooh-ooh, ah-ahh-ah-ah\nAnd they come unstuck",
+            "chorus": true
+        },
+        {
+            "chords": "a G C",
+            "lyrics": "Lady, running down to the riptide...",
+            "chorus": true
+        },
+        {
+            "chords": "a G\nC  F7+\na G\nC  F7+",
+            "lyrics": "I just wanna, I just wanna know\nIf you're gonna, if you're gonna stay\nI just gotta, I just gotta know\nI can't have it, I can't have it any other way",
+            "chorus": false
+        },
+        {
+            "chords": "a G C\na G C",
+            "lyrics": "I swear she's destined for the screen\nClosest thing to Michelle Pfeiffer that you've ever seen, oh",
+            "chorus": false
+        },
+        {
+            "chords": "a G C",
+            "lyrics": "Lady, running down to the riptide...",
+            "chorus": true
+        }
+    ]
+}

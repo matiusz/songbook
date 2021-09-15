@@ -1,0 +1,47 @@
+{
+    "title": "Kocham Ci\u0119 jak Irlandi\u0119",
+    "author": "Kobranocka",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "C e\nG0 d\nB F\nC G",
+            "lyrics": "Mieszka\u0142a\u015b gdzie\u015b w domu nad Wis\u0142\u0105\nPami\u0119tam to tak dok\u0142adnie\nTwoich czarnych oczu blisko\u015b\u0107\nWci\u0105\u017c kocham ci\u0119 jak Irlandi\u0119 ",
+            "chorus": false
+        },
+        {
+            "chords": "C e\nG0 d\nB F\nC G C",
+            "lyrics": "A ty si\u0119 temu nie dziwisz\nWiesz dobrze co by\u0142oby dalej\nJak by\u015bmy byli szcz\u0119\u015bliwi\nGdybym nie kocha\u0142 ci\u0119 wcale",
+            "chorus": true
+        },
+        {
+            "chords": "C e\nG0 d\nB F\nC G",
+            "lyrics": "Przed szcz\u0119\u015bciem \u017cywi\u0107 obaw\u0119\nW nadziei, \u017ce mi j\u0105 skradniesz\nWlok\u0119 ten b\u00f3l przez W\u0142oc\u0142awek\nKochaj\u0105c ci\u0119 jak Irlandi\u0119",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A ty si\u0119 temu nie dziwisz\u2026",
+            "chorus": true
+        },
+        {
+            "chords": "C e\nG0 d\nB F\nC G",
+            "lyrics": "Gdzie\u015b na ulicy fabrycznej\nSpotka\u0107 nam si\u0119 wypadnie\nLecz takie s\u0105 wida\u0107 wytyczne\nBym kocha\u0142 ci\u0119 jak Irlandi\u0119",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A ty si\u0119 temu nie dziwisz\u2026",
+            "chorus": true
+        },
+        {
+            "chords": "C e\nG0 d\nB F\nC G",
+            "lyrics": "Czy mi to kiedy\u015b wybaczysz\nDzia\u0142a\u0142em tak nieporadnie\nCzy to dla ciebie co\u015b znaczy\n\u017be kocham ci\u0119 jak Irlandi\u0119",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A ty si\u0119 temu nie dziwisz\u2026",
+            "chorus": true
+        }
+    ]
+}

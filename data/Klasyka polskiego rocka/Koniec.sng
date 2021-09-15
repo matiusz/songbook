@@ -1,0 +1,42 @@
+{
+    "title": "Koniec",
+    "author": "Elektryczne Gitar",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": " G D\n e C\n G D\n e C",
+            "lyrics": "To ju\u017c jest koniec\nNie ma ju\u017c nic\nJeste\u015bmy wolni\nMo\u017cemy i\u015b\u0107\n",
+            "chorus": true
+        },
+        {
+            "chords": " G D\n e C\n G D\n e C",
+            "lyrics": "To ju\u017c jest koniec\nMo\u017cemy i\u015b\u0107\nJeste\u015bmy wolni\nBo nie ma ju\u017c nic\n",
+            "chorus": true
+        },
+        {
+            "chords": " G D\n e C\n G D\n e C",
+            "lyrics": "Robaczek w swej dziurce jak docent za biurkiem\nI pszcz\u00f3\u0142ka na kwiatkach jak kontrol w tramwaju\nTak d\u0142ubie i gmera, napisze, wymy\u015bli\nobejdzie woko\u0142o, zabrudzi, wyczy\u015bci",
+            "chorus": false
+        },
+        {
+            "chords": " G D\n e C\n G D\n e C",
+            "lyrics": "I krzaczek przy drodze, i brat przy maszynie\nJak noga w skarpecie sprzedawca w kantynie\nKamyczek na polu i stra\u017cnik na stra\u017cy\nLod\u00f3wka wci\u0105\u017c zi\u0119bi, kuchenka wci\u0105\u017c parzy\n",
+            "chorus": false
+        },
+        {
+            "chords": " G D\n e C\n G D\n e C",
+            "lyrics": "A po co, a po co tak d\u0142ubie i d\u0142ubie\nA za co, a za co tak my\u015bli i skubie\nI tak si\u0119 przyk\u0142ada i m\u00f3wi z ekranu\nI bredzi latami, wieczorem i rano.",
+            "chorus": false
+        },
+        {
+            "chords": " G D\n e C\n G D\n e C",
+            "lyrics": "To ju\u017c jest koniec \nNie ma ju\u017c nic\nJeste\u015bmy wolni\nMo\u017cemy i\u015b\u0107",
+            "chorus": true
+        },
+        {
+            "chords": " G D\n e C\n G D\n e C",
+            "lyrics": "To ju\u017c jest koniec\nMo\u017cemy i\u015b\u0107\nJeste\u015bmy wolni\nBo nie ma ju\u017c nic",
+            "chorus": true
+        }
+    ]
+}

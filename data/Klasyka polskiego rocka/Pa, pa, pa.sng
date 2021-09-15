@@ -1,0 +1,52 @@
+{
+    "title": "Pa, pa, pa",
+    "author": "Akurat",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "Gis4 Gis Fis4 Fis",
+            "lyrics": "",
+            "chorus": false
+        },
+        {
+            "chords": " fis A\n E4 E E4 E\n fis A\n E4 E E4 E\n fis A\n E4 E E4 E\n fis A\n E4 E E4 E",
+            "lyrics": "Jest ju\u017c bardzo p\u00f3\u017ano\nPora ju\u017c spa\u0107\nJutro do przedszkola\nB\u0119d\u0119 musia\u0142 wsta\u0107\nJestem tak szcz\u0119\u015bliwy\nBo w dzisiejszym dniu\nSam zawi\u0105za\u0142em\nNa kokardk\u0119 but",
+            "chorus": false
+        },
+        {
+            "chords": " cis h\n cis fis4 fis",
+            "lyrics": "Kiedy o tym my\u015bl\u0119\nNie chce mi si\u0119 spa\u0107",
+            "chorus": true
+        },
+        {
+            "chords": " D E\n cis D\n D E\n cis D",
+            "lyrics": "A ksi\u0119\u017cyc opowiada mi\nNajpi\u0119kniejsze w jego \u017cyciu sny\nNa suficie dobrze widz\u0119 je\nS\u0105 takie kolorowe | x2\n",
+            "chorus": true
+        },
+        {
+            "chords": " fis A\n E4 E E4 E\n fis A\n E4 E E4 E\n fis A\n E4 E E4 E\n fis A\n E4 E E4 E",
+            "lyrics": "Jest ju\u017c bardzo p\u00f3\u017ano\nChc\u0119 jeszcze spa\u0107\nZaraz do przedszkola\nB\u0119d\u0119 musia\u0142 wsta\u0107\nJedno co mnie cieszy\nTo radosna my\u015bl\nSam zawi\u0105\u017c\u0119 buty\nI podreptam w nich",
+            "chorus": false
+        },
+        {
+            "chords": " cis h\n cis fis4 fis",
+            "lyrics": "Kiedy o tym my\u015bl\u0119\nNie chce mi si\u0119 spa\u0107",
+            "chorus": true
+        },
+        {
+            "chords": " D E\n cis D\n D E\n cis D ",
+            "lyrics": "A s\u0142o\u0144ce opowiada mi\nNajcieplejsze w jego \u017cyciu dni\nNa b\u0142\u0119kicie dobrze widz\u0119 je\nS\u0105 takie kolorowe | x2",
+            "chorus": true
+        },
+        {
+            "chords": "D E cis D",
+            "lyrics": "Pa, pa, pa... ",
+            "chorus": false
+        },
+        {
+            "chords": "Gis4 Gis Fis4 Fis\n",
+            "lyrics": "",
+            "chorus": false
+        }
+    ]
+}

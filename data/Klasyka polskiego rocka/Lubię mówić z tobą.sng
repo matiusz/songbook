@@ -1,0 +1,27 @@
+{
+    "title": "Lubi\u0119 m\u00f3wi\u0107 z tob\u0105",
+    "author": "Akurat",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "cis E\nH cis",
+            "lyrics": "Kiedy z serca p\u0142yn\u0105 s\u0142owa\nUderzaj\u0105 z wielk\u0105 moc\u0105\nKr\u0105\u017c\u0105 blisko w\u015br\u00f3d nas ot tak\nDaj\u0105c ch\u0119tnym szczere z\u0142oto",
+            "chorus": false
+        },
+        {
+            "chords": "cis E H cis",
+            "lyrics": "I dlatego lubi\u0119 m\u00f3wi\u0107 z Tob\u0105\nI dlatego lubi\u0119 m\u00f3wi\u0107 z Tob\u0105cis E H cis",
+            "chorus": true
+        },
+        {
+            "chords": "cis E\nH cis",
+            "lyrics": "Ka\u017cdy my\u015bli to co my\u015bli\nMy\u015bli sobie moja g\u0142owa\nMo\u017ce w ko\u0144cu mi si\u0119 uda\nWypowiedzie\u0107 proste s\u0142owa",
+            "chorus": false
+        },
+        {
+            "chords": "cis E H cis",
+            "lyrics": "I dlatego lubi\u0119 m\u00f3wi\u0107 z Tob\u0105\nI dlatego lubi\u0119 m\u00f3wi\u0107 z Tob\u0105",
+            "chorus": true
+        }
+    ]
+}

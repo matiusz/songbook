@@ -1,0 +1,22 @@
+{
+    "title": "Dom wschodz\u0105cego s\u0142o\u0144ca",
+    "author": "Kult",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "a C D F\na C E\na C D F\na E a E",
+            "lyrics": "W ciemnej tej celi na zgni\u0142ym pos\u0142aniu\nM\u0142ody gitfunfel kopyrta\nPikawa mu sta\u0142a w tym wolnym konaniu\nTo m\u0142ody gitfunfel kopyrta",
+            "chorus": false
+        },
+        {
+            "chords": "a C D F\na C E\na C D F\na E a E",
+            "lyrics": "Przy jego tym koju gitsiorka przycup\u0142a\nM\u0142odemu gitowi nawija:\nTy wr\u00f3cisz do funfli, ty wr\u00f3cisz do zgredki\nGdy tylko zakwitn\u0105 nagietki",
+            "chorus": false
+        },
+        {
+            "chords": "a C D F\na C E\na C D F\na E a E",
+            "lyrics": "Nad ranem znale\u017ali m\u0142odego gitowca\nZ\u0142o\u017cyli go w ciemnej mogile\nA gity, jak stali, si\u0119 wszystkie chlastali\nTo m\u0142ody gitfunfel kopyrtn\u0105\u0142",
+            "chorus": false
+        }
+    ]
+}
