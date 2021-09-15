@@ -1,0 +1,43 @@
+{
+    "title": "Little Talks",
+    "author": "Of Monsters and Men",
+    "capo": "Capo I pr\u00f3g",
+    "category": "Piosenki zagraniczne",
+    "sections": [
+        {
+            "chords": " a F C G",
+            "lyrics": "Hey! | x4",
+            "chorus": false
+        },
+        {
+            "chords": " a F C\n \n \n \n \n a F\n C G\n a F C",
+            "lyrics": "I don't like walking around this old and empty house\nSo hold my hand, I'll walk with you my dear\nThe stairs creak as I sleep, it's keeping me awake\nIt's the house telling you to close your eyes\nSome days I can't even trust myself\nIt's killing me to see you this way\n'Cause though the truth may vary\nThis ship will carry\nOur bodies safe to shore",
+            "chorus": false
+        },
+        {
+            "chords": "  a F C G",
+            "lyrics": "Hey! | x3",
+            "chorus": true
+        },
+        {
+            "chords": " a F C",
+            "lyrics": "There's an old voice in my head that's holding me back\nTell her that I miss our little talks\nSoon it will be over and buried with our past\nWe used to play outside when we were young (and full of life and full of love)\nSome days I don't know if I am wrong or right\nYour mind is playing tricks on you my dear\n'Cause though the truth may vary\nOur bodies safe to shore. Hey!",
+            "chorus": false
+        },
+        {
+            "chords": "a F C G",
+            "lyrics": "Don't listen to a word I say. Hey! \nThe screams all sound the same. Hey!\n'Cause though the truth may vary\nThis ship will carry\nOur bodies safe to shore",
+            "chorus": true
+        },
+        {
+            "chords": "a\na\na\na\n a F C\n a F C G",
+            "lyrics": "You're gone, gone, gone away. I watched you disappear \nAll that's left is a ghost of you \nNow we're torn, torn, torn apart, there's nothing we can do. \nJust let me go, we'll meet again soon.\nNow wait, wait, wait for me. Please hang around\nI see you when I fall asleep. Hey!",
+            "chorus": false
+        },
+        {
+            "chords": "a F C G",
+            "lyrics": "Don't listen to a word I say. Hey! \nThe screams all sound the same. Hey!\n'Cause though the truth may vary\nThis ship will carry\nOur bodies safe to shore",
+            "chorus": true
+        }
+    ]
+}

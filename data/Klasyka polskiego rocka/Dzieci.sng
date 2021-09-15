@@ -1,0 +1,47 @@
+{
+    "title": "Dzieci",
+    "author": "Elektryczne Gitary",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "d C",
+            "lyrics": "Dzieci weso\u0142o wybieg\u0142y ze szko\u0142y\nZapali\u0142y papierosy, wyci\u0105gn\u0119\u0142y flaszki\nChodnik zaplu\u0142y, ludzi przep\u0119dzi\u0142y\nSiedz\u0105 na \u0142aweczkach i rycz\u0105 do siebie",
+            "chorus": false
+        },
+        {
+            "chords": "d C",
+            "lyrics": "Wszyscy mamy \u017ale w g\u0142owach, \u017ce \u017cyjemy\nHej, hej, la, la, la, la, hej, hej, hej, hej",
+            "chorus": true
+        },
+        {
+            "chords": "d C",
+            "lyrics": "Tony papieru, tony analiz\nGenialne my\u015bli, t\u0142umy na sali\nGodziny modlitw, lata nauki\nPrzysi\u0119gi, plany, podpisy, druki",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Wszyscy mamy...",
+            "chorus": true
+        },
+        {
+            "chords": "d C",
+            "lyrics": "Wzorce, przyk\u0142ady, szlachetne zabiegi\n\u0141a\u0144cuchy d\u0142oni, zwarte szeregi\nWarstwy tradycji, wieki kultury\nTydzie\u0144 dobroci, r\u0119ce do g\u00f3ry",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Wszyscy mamy...",
+            "chorus": true
+        },
+        {
+            "chords": "d C",
+            "lyrics": "Dzieci weso\u0142o wybieg\u0142y ze szko\u0142y\nZapali\u0142y papierosy, wyci\u0105gn\u0119\u0142y flaszki\nChodnik zaplu\u0142y, ludzi przep\u0119dzi\u0142y\nSiedz\u0105 na \u0142aweczkach i rycz\u0105 do siebie...",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Wszyscy mamy...",
+            "chorus": true
+        }
+    ]
+}

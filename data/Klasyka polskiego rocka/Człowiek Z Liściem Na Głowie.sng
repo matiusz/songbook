@@ -1,0 +1,42 @@
+{
+    "title": "Cz\u0142owiek z li\u015bciem na g\u0142owie",
+    "author": "Elektryczne Gitary",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "G F C F C \nG F C F C E7\n",
+            "lyrics": "",
+            "chorus": false
+        },
+        {
+            "chords": " a e\nG D\nF G C F C E",
+            "lyrics": "Wsiad\u0142 do autobusu cz\u0142owiek z li\u015bciem na g\u0142owie\nNikt go nie poratuje nikt mu nic nie powie \nTylko si\u0119 ka\u017cdy gapi, tylko si\u0119 ka\u017cdy gapi i nic ",
+            "chorus": false
+        },
+        {
+            "chords": " a e\n G D\n F G C F C",
+            "lyrics": "Siedzi w autobusie cz\u0142owiek z li\u015bciem na g\u0142owie\nO li\u015bciu w swych rzadkich w\u0142osach niepr\u0119dko si\u0119 dowie\nTylko si\u0119 w okno gapi, tylko si\u0119 w okno gapi i nic\n",
+            "chorus": false
+        },
+        {
+            "chords": " d G C F C\n G F C F C E",
+            "lyrics": "Uwa\u017caj to nie chmury, to Pa\u0142ac Kultury\nLi\u015bcie lec\u0105 z drzew, li\u015bcie lec\u0105 z drzew",
+            "chorus": true
+        },
+        {
+            "chords": " a e\n G D\n F G C F C",
+            "lyrics": "I tak siedzi w autobusie cz\u0142owiek z li\u015bciem na g\u0142owie\nNikt go nie poratuje, nikt mu nic nie powie\nTylko si\u0119 ka\u017cdy gapi i nic, tylko si\u0119 ka\u017cdy gapi i nic\n",
+            "chorus": false
+        },
+        {
+            "chords": " a e\n G D\n F G C F C",
+            "lyrics": "Wsiad\u0142 drugi, podobny, nad cz\u0142owiekiem si\u0119 zlitowa\u0142\nTamten si\u0119 pog\u0142aska\u0142 w g\u0142\u00f3wk\u0119, li\u015bcia sobie schowa\u0142\nBo ja, m\u00f3wi jestem z lasu, bo ja, m\u00f3wi jestem z lasu i ju\u017c",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Uwa\u017caj to nie chmury...",
+            "chorus": true
+        }
+    ]
+}

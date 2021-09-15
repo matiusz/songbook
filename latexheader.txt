@@ -34,7 +34,14 @@
  top=20mm,
  }
 
+\title{Śpiewnik Hawiarskiej Koliby}
+\date{Grudzień 2021}
+
 \begin{document}
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
 
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
 
