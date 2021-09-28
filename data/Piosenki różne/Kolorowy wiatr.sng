@@ -4,12 +4,12 @@
     "category": "Piosenki r\u00f3\u017cne",
     "sections": [
         {
-            "chords": "C a \nC e\na F\nd G a",
+            "chords": "C a\nC e\na F\nd G a",
             "lyrics": "Na l\u0105dzie, gdy rozgl\u0105dasz si\u0119 l\u0105duj\u0105c,\nChcesz wszystko mie\u0107 na w\u0142asno\u015b\u0107, nawet g\u0142az.\nA ja wiem, \u017ce ten g\u0142az ma tak\u017ce dusz\u0119,\nImi\u0119 ma i zakl\u0119ty w sobie czas.",
             "chorus": false
         },
         {
-            "chords": "C a \nC e\na F\nd G C",
+            "chords": "C a\nC e\na F\nd G C",
             "lyrics": "Ty my\u015blisz, \u017ce s\u0105 lud\u017ami tylko ludzie\nKt\u00f3rych lud\u017ami nazywa\u0107 chce tw\u00f3j \u015bwiat\nLecz je\u015bli p\u00f3jdziesz tropem moich braci\nDowiesz si\u0119 najwi\u0119kszych prawd, naj\u015bwi\u0119tszych prawd",
             "chorus": false
         },
@@ -19,17 +19,17 @@
             "chorus": true
         },
         {
-            "chords": "C a \nC e\na F\nd G a",
+            "chords": "C a\nC e\na F\nd G a",
             "lyrics": "Pobiegnij za mn\u0105 le\u015bnych dukt\u00f3w szlakiem,\nSpr\u00f3bujmy jag\u00f3d w pe\u0142ne s\u0142o\u0144ca dni.\nZanurzmy si\u0119 w tych skarbach niezmierzonych\nI cho\u0107 raz o ich cenach nie m\u00f3w mi.",
             "chorus": false
         },
         {
-            "chords": "C a \nC e\na F\nd G C",
+            "chords": "C a\nC e\na F\nd G C",
             "lyrics": "Ulewa jest m\u0105 siostr\u0105, strumie\u0144 bratem,\nA ka\u017cde z \u017cywych stworze\u0144 to m\u00f3j druh.\nJeste\u015bmy po\u0142\u0105czonym z sob\u0105 \u015bwiatem,\nA natura ten kr\u0105g \u017cycia wprawia w ruch.",
             "chorus": false
         },
         {
-            "chords": " C F e a\n D G",
+            "chords": "C F e a\nD G",
             "lyrics": "Do chmur ka\u017cde drzewo si\u0119 pnie\n- Sk\u0105d to wiedzie\u0107 masz, skoro \u015bcinasz je?\n",
             "chorus": true
         },

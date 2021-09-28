@@ -5,7 +5,7 @@
     "sections": [
         {
             "chords": "a\na G\nG a",
-            "lyrics": "Na horyzoncie pojawi\u0142 si\u0119 jele\u0144 i mknie\nDok\u0105d on mknie\nTego nikt nie wie ",
+            "lyrics": "Na horyzoncie pojawi\u0142 si\u0119 jele\u0144 i mknie\nDok\u0105d on mknie\nTego nikt nie wie",
             "chorus": false
         },
         {
@@ -15,7 +15,7 @@
         },
         {
             "chords": "a\nG\nF\na",
-            "lyrics": "Jele\u0144\nJele\u0144\nJele\u0144\nOn mknie! ",
+            "lyrics": "Jele\u0144\nJele\u0144\nJele\u0144\nOn mknie!",
             "chorus": true
         }
     ]

@@ -5,7 +5,7 @@
     "sections": [
         {
             "chords": "e\na\nFis\nH7",
-            "lyrics": "D\u0142ugo\u015bmy na ten dzie\u0144 czekali\nZ nadziej\u0105 niecierpliw\u0105 w duszy,\nKiedy bez s\u0142\u00f3w Towarzysz Stalin \nNa mapie fajk\u0105 strza\u0142ki ruszy. ",
+            "lyrics": "D\u0142ugo\u015bmy na ten dzie\u0144 czekali\nZ nadziej\u0105 niecierpliw\u0105 w duszy,\nKiedy bez s\u0142\u00f3w Towarzysz Stalin\nNa mapie fajk\u0105 strza\u0142ki ruszy.",
             "chorus": false
         },
         {
@@ -14,7 +14,7 @@
             "chorus": false
         },
         {
-            "chords": "e \nG\na e\nH7 e E7\na e\nH7 e (a e H7)",
+            "chords": "e\nG\na e\nH7 e E7\na e\nH7 e (a e H7)",
             "lyrics": "\nA c\u00f3\u017c to za historia nowa?\nZdumiona spyta Europa\nJak to? To ch\u0142opcy Mo\u0142otowa\nI sojusznicy Ribbentropa\nJak to? To ch\u0142opcy Mo\u0142otowa\nI sojusznicy Ribbentropa",
             "chorus": true
         },
@@ -29,7 +29,7 @@
             "chorus": false
         },
         {
-            "chords": "e \nG\na e\nH7 e E7\na e\nH7 e (a e H7)",
+            "chords": "e\nG\na e\nH7 e E7\na e\nH7 e (a e H7)",
             "lyrics": "Nad polem bitwy d\u0142onie wznios\u0105\nWe wsp\u00f3ln\u0105 pi\u0119\u015b\u0107, co dech zapiera\nNieprzeliczone dzieci Soso,\nNiezwyci\u0119\u017cony miot Hitlera.\nNieprzeliczone dzieci Soso,\nNiezwyci\u0119\u017cony miot Hitlera.\n",
             "chorus": true
         },
@@ -44,7 +44,7 @@
             "chorus": false
         },
         {
-            "chords": "e \nG\na e\nH7 e E7\na e\nH7 e (a e)",
+            "chords": "e\nG\na e\nH7 e E7\na e\nH7 e (a e)",
             "lyrics": "Tych dni historia nie zapomni,\nGdy stary l\u0105d w zdumieniu zastyg\u0142\nI \u015bwi\u0119ci\u0107 b\u0119d\u0105 nam potomni\nPo pierwszym wrze\u015bnia \u2013 siedemnasty.\nI \u015bwi\u0119ci\u0107 b\u0119d\u0105 nam potomni\nPo pierwszym \u2013 siedemnasty",
             "chorus": true
         }

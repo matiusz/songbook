@@ -4,17 +4,17 @@
     "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
     "sections": [
         {
-            "chords": " h e\n h Fis7\n h e\n h Fis7",
+            "chords": "h e\nh Fis7\nh e\nh Fis7",
             "lyrics": "Idzie sobie wiosna, s\u0142ycha\u0107 \u015bwiergot ptaka\n\u0141adna to piosenka tylko g\u0142upia taka\nJu\u017c przylecia\u0142 bocian i w ka\u0142u\u017cy d\u0142ubie\nMi to nie przeszkadza, dalej b\u0119dzie g\u0142upiej\n",
             "chorus": false
         },
         {
-            "chords": " e A D h\n e A D h\n e A D h\n e A D h",
-            "lyrics": "A! a! ... ju\u017c jest wiosna\nA! a! ... d\u0142u\u017csze dnie\nA! a! ... kwiaty rosn\u0105\nA! a! ... g\u0142upie \u2013 nie? ",
+            "chords": "e A D h\ne A D h\ne A D h\ne A D h",
+            "lyrics": "A! a! ... ju\u017c jest wiosna\nA! a! ... d\u0142u\u017csze dnie\nA! a! ... kwiaty rosn\u0105\nA! a! ... g\u0142upie \u2013 nie?",
             "chorus": true
         },
         {
-            "chords": " h e\n h Fis7\n h e\n h Fis7",
+            "chords": "h e\nh Fis7\nh e\nh Fis7",
             "lyrics": "S\u0142o\u0144ce ra\u017aniej \u015bwieci, dym si\u0119 w polu snuje\nZupe\u0142nie bez sensu, ale si\u0119 rymuje\nBudzi si\u0119 przyroda, ju\u017c zielono wsz\u0119dzie\nBa\u0107 si\u0119 nie ma czego, zaraz refren b\u0119dzie",
             "chorus": false
         },
@@ -24,8 +24,8 @@
             "chorus": true
         },
         {
-            "chords": " h e\n h Fis7\n h e\n h Fis7",
-            "lyrics": "Rozmarzaj\u0105 rzeki, p\u0142ynie kra do morza\nZwrotka nie najgorsza, tylko rymu nie ma\nDrzewa maj\u0105 p\u0105czki, w jajkach s\u0105 piskl\u0119ta\nPrzyroda jak zwrotka - niedorozwini\u0119ta ",
+            "chords": "h e\nh Fis7\nh e\nh Fis7",
+            "lyrics": "Rozmarzaj\u0105 rzeki, p\u0142ynie kra do morza\nZwrotka nie najgorsza, tylko rymu nie ma\nDrzewa maj\u0105 p\u0105czki, w jajkach s\u0105 piskl\u0119ta\nPrzyroda jak zwrotka - niedorozwini\u0119ta",
             "chorus": false
         },
         {
@@ -34,7 +34,7 @@
             "chorus": true
         },
         {
-            "chords": " h e\n h Fis7\n h e\n h Fis7",
+            "chords": "h e\nh Fis7\nh e\nh Fis7",
             "lyrics": "Wiosna jest po zimie w my\u015bl ludowych przys\u0142\u00f3w\nJa ju\u017c nie mam g\u0142owy do tych idiotyzm\u00f3w\nKo\u0144czy si\u0119 piosenka \u015bniegu nie mam prawie\n\u015apiewa\u0107 g\u0142upie teksty nawet ja potrafi\u0119",
             "chorus": false
         },

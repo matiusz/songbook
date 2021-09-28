@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QPushButton,
-                                QLabel)
+                                QLabel, QMessageBox)
 from PySide6.QtGui import QPixmap
 
 from src.gui.SongEditor import ScrollableSongEditor
@@ -49,8 +49,15 @@ class MainMenu(QWidget):
 
     def generateAndCompileTex(self):
         songbookTexFile = songbookTeXmaker.main()
-        songbookPdfFile = TeXcompile.main()
-        open_with_default_app(os.path.join(os.getcwd(), songbookPdfFile))
+        try:
+            songbookPdfFile = TeXcompile.main()
+        except ModuleNotFoundError:
+            msgBox = QMessageBox()
+            msgBox.setText("Please check if pdflatex is installed or .tex file was successfully generated.")
+            msgBox.exec()
+            return
+        else:
+            open_with_default_app(os.path.join(os.getcwd(), songbookPdfFile))
 
 
 

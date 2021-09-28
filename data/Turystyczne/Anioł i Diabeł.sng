@@ -5,17 +5,17 @@
     "sections": [
         {
             "chords": "e C D e\ne C D e\ne C D e\ne C D e",
-            "lyrics": "Idzie diabe\u0142 \u015bcie\u017ck\u0105 krzyw\u0105, pe\u0142en my\u015bli z\u0142ych, \nNie po\u017cyczy\u0142 mu na piwo, nie po\u017cyczy\u0142 nikt. \nS\u0142o\u0144ce pra\u017cy go od rana, wiatr piekielny dmucha, \nDiabe\u0142 si\u0119 z pragnienia s\u0142ania, w ten piekielny upa\u0142.",
+            "lyrics": "Idzie diabe\u0142 \u015bcie\u017ck\u0105 krzyw\u0105, pe\u0142en my\u015bli z\u0142ych,\nNie po\u017cyczy\u0142 mu na piwo, nie po\u017cyczy\u0142 nikt.\nS\u0142o\u0144ce pra\u017cy go od rana, wiatr piekielny dmucha,\nDiabe\u0142 si\u0119 z pragnienia s\u0142ania, w ten piekielny upa\u0142.",
             "chorus": false
         },
         {
-            "chords": " e C\n D e",
+            "chords": "e C\nD e",
             "lyrics": "Piwa, nalejcie piwa\nDobrego piwa, ze starej beczki (od barmana)",
             "chorus": true
         },
         {
             "chords": "e C D e\ne C D e\ne C D e\ne C D e",
-            "lyrics": "Idzie anio\u0142 w\u015br\u00f3d zieleni, dobrze mu si\u0119 wiedzie, \nPe\u0142no drobnych ma w kieszeni i przyjaci\u00f3\u0142 wsz\u0119dzie. \nNagle przystan\u0119li obaj na drodze pod \u015bliwk\u0105, \nZobaczyli, \u017ce im browar wyszed\u0142 naprzeciwko",
+            "lyrics": "Idzie anio\u0142 w\u015br\u00f3d zieleni, dobrze mu si\u0119 wiedzie,\nPe\u0142no drobnych ma w kieszeni i przyjaci\u00f3\u0142 wsz\u0119dzie.\nNagle przystan\u0119li obaj na drodze pod \u015bliwk\u0105,\nZobaczyli, \u017ce im browar wyszed\u0142 naprzeciwko",
             "chorus": false
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "chords": "e C D e\ne C D e\ne C D e\ne C D e",
-            "lyrics": "Nie ma szcz\u0119\u015bcia na tym \u015bwiecie, ni sprawiedliwo\u015bci, \nAnio\u0142 pije piwo trzecie, diabe\u0142 mu zazdro\u015bci. \nPo\u017cycz dych\u0119, m\u00f3wi diabe\u0142, B\u00f3g ci wynagrodzi. \nMy arty\u015bci w taki upa\u0142, \u017cy\u0107 musimy w zgodzie.",
+            "lyrics": "Nie ma szcz\u0119\u015bcia na tym \u015bwiecie, ni sprawiedliwo\u015bci,\nAnio\u0142 pije piwo trzecie, diabe\u0142 mu zazdro\u015bci.\nPo\u017cycz dych\u0119, m\u00f3wi diabe\u0142, B\u00f3g ci wynagrodzi.\nMy arty\u015bci w taki upa\u0142, \u017cy\u0107 musimy w zgodzie.",
             "chorus": false
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "chords": "e C D e\ne C D e\ne C D e\ne C D e",
-            "lyrics": "Na to anio\u0142 zatrzepota\u0142 skrzyde\u0142 pi\u00f3ropuszem, \ni powiada Dam ci dych\u0119 w zamian za tw\u0105 dusz\u0119 \nMusia\u0142 diabe\u0142 dusz\u0119 w\u015bciek\u0142\u0105 anio\u0142owi sprzeda\u0107. \nI stworzyli sobie piek\u0142o z odrobin\u0105 nieba. ",
+            "lyrics": "Na to anio\u0142 zatrzepota\u0142 skrzyde\u0142 pi\u00f3ropuszem,\ni powiada Dam ci dych\u0119 w zamian za tw\u0105 dusz\u0119\nMusia\u0142 diabe\u0142 dusz\u0119 w\u015bciek\u0142\u0105 anio\u0142owi sprzeda\u0107.\nI stworzyli sobie piek\u0142o z odrobin\u0105 nieba.",
             "chorus": false
         },
         {

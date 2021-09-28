@@ -1,16 +1,16 @@
 {
-    "title": "Krowa ",
+    "title": "Krowa",
     "author": "Jacek Kaczmarski",
     "category": "Jacek Kaczmarski",
     "sections": [
         {
             "chords": "a\nA7 d\nd a\nE7 a",
-            "lyrics": "Gdzie\u015b na wiosn\u0119 front ju\u017c przeszed\u0142, ch\u0142opcy poszli w trop - mnie w lesie\nCh\u0142op rannego znalaz\u0142 i si\u0119 ulitowa\u0142. \nM\u0142ody by\u0142 i niebogaty, troch\u0119 traw, co\u015b na kszta\u0142t chaty, \nA w oborze jedna zabiedzona krowa. ",
+            "lyrics": "Gdzie\u015b na wiosn\u0119 front ju\u017c przeszed\u0142, ch\u0142opcy poszli w trop - mnie w lesie\nCh\u0142op rannego znalaz\u0142 i si\u0119 ulitowa\u0142.\nM\u0142ody by\u0142 i niebogaty, troch\u0119 traw, co\u015b na kszta\u0142t chaty,\nA w oborze jedna zabiedzona krowa.",
             "chorus": false
         },
         {
             "chords": "a\nA7 d\nd a\nE7 a",
-            "lyrics": "Le\u017c\u0119 w s\u0142omie, li\u017c\u0119 rany, wtem ch\u0142op wpada zastrachany:\n- Id\u0105 Ruskie! - Wo\u0142a - ale od zachodu! \n- C\u00f3\u017ce\u015b taki niespokojny? Mo\u017ce to ju\u017c koniec wojny,\nAlbo w\u0142adz\u0119 przysy\u0142aj\u0105 dla narodu!\n",
+            "lyrics": "Le\u017c\u0119 w s\u0142omie, li\u017c\u0119 rany, wtem ch\u0142op wpada zastrachany:\n- Id\u0105 Ruskie! - Wo\u0142a - ale od zachodu!\n- C\u00f3\u017ce\u015b taki niespokojny? Mo\u017ce to ju\u017c koniec wojny,\nAlbo w\u0142adz\u0119 przysy\u0142aj\u0105 dla narodu!\n",
             "chorus": true
         },
         {

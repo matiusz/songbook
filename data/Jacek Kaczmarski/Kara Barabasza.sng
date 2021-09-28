@@ -10,7 +10,7 @@
             "chorus": false
         },
         {
-            "chords": " a G\n B a\n a G\n B E7 a",
+            "chords": "a G\nB a\na G\nB E7 a",
             "lyrics": "\u017byjemy! Dobra nasza!\nCo z \u017cycia chcesz - za \u017cycia bierz!\nPijmy za Barabasza!\nBarabasz pije te\u017c!",
             "chorus": true
         },
@@ -50,7 +50,7 @@
             "chorus": false
         },
         {
-            "chords": " a G\n B a\n a G\n B E7 a",
+            "chords": "a G\nB a\na G\nB E7 a",
             "lyrics": "\u017byjemy! Dobra nasza!\nCo z \u017cycia chcesz - za \u017cycia bierz!\nPijmy za Barabasza!\nBarabasz cz\u0142owiek te\u017c",
             "chorus": true
         }

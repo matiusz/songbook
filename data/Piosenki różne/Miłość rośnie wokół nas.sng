@@ -9,12 +9,12 @@
             "chorus": false
         },
         {
-            "chords": "F C\nF C \nF a\nF G",
+            "chords": "F C\nF C\nF a\nF G",
             "lyrics": "Ta noc karesom sprzyja F C\nMi\u0142osny tchn\u0119\u0142a czar F C\nW tej sytuacji romantycznej F a\nCo b\u0119dzie strach si\u0119 ba\u0107 F G",
             "chorus": false
         },
         {
-            "chords": " C G a F\n C F G\n F C a G F\n F d G",
+            "chords": "C G a F\nC F G\nF C a G F\nF d G",
             "lyrics": "Mi\u0142o\u015b\u0107 ro\u015bnie wok\u00f3\u0142 nas\nW spokojn\u0105 jasn\u0105 noc\nNareszcie \u015bwiat zaczyna w zgodzie \u017cy\u0107\nMagiczn\u0105 czuj\u0105c moc\n",
             "chorus": true
         },
@@ -24,22 +24,22 @@
             "chorus": false
         },
         {
-            "chords": "F C\nF C \nF a\nF G",
+            "chords": "F C\nF C\nF a\nF G",
             "lyrics": "Jest tak zamkni\u0119ty w sobie\nLecz nie uwierz\u0119, \u017ce\nNie b\u0119dzie kr\u00f3lem skoro ma\nKr\u00f3lewski ton i gest",
             "chorus": false
         },
         {
-            "chords": " C G a F\n C F G\n F C a G F\n F d G",
+            "chords": "C G a F\nC F G\nF C a G F\nF d G",
             "lyrics": "Mi\u0142o\u015b\u0107 ro\u015bnie wok\u00f3\u0142 nas\nW spokojn\u0105 jasn\u0105 noc\nNareszcie \u015bwiat zaczyna w zgodzie \u017cy\u0107\nMagiczn\u0105 czuj\u0105c moc",
             "chorus": true
         },
         {
-            "chords": " D A h G\n D G A\n G D h A G\n G D A",
+            "chords": "D A h G\nD G A\nG D h A G\nG D A",
             "lyrics": "Mi\u0142o\u015b\u0107 ro\u015bnie wok\u00f3\u0142 nas\nJej zapach jest tu\u017c tu\u017c\nKocha\u0107 to pokona\u0107 troski swe\nPrzetrwa\u0107 po\u015br\u00f3d burz",
             "chorus": true
         },
         {
-            "chords": " D A h G\n D G A\n G D h A G\n G A D",
+            "chords": "D A h G\nD G A\nG D h A G\nG A D",
             "lyrics": "Je\u017celi on zakocha si\u0119\nNasze sielskie dni\nOdchodz\u0105 w dal i nie ma rady\nJu\u017c po nim, czas na \u0142zy",
             "chorus": false
         }

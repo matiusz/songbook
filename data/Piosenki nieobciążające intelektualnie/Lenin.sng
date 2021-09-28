@@ -4,11 +4,11 @@
     "sections": [
         {
             "chords": "a\nA7 d",
-            "lyrics": "Spyta\u0142a kiedy\u015b mnie moja dziewczyna:\nDlaczego ty nie przypominasz mi Lenina? ",
+            "lyrics": "Spyta\u0142a kiedy\u015b mnie moja dziewczyna:\nDlaczego ty nie przypominasz mi Lenina?",
             "chorus": false
         },
         {
-            "chords": " d a\n H7 E a (E a)",
+            "chords": "d a\nH7 E a (E a)",
             "lyrics": "A ty maszeruj, maszeruj, g\u0142o\u015bno krzycz:\nNiech \u017cyje nam Wo\u0142odia Ilicz!",
             "chorus": true
         },

@@ -4,17 +4,17 @@
     "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
     "sections": [
         {
-            "chords": " C G a F\n C G a F",
+            "chords": "C G a F\nC G a F",
             "lyrics": "Kiedy by\u0142em ma\u0142ym ch\u0142opcem to dosta\u0142em pr\u0119tem po jajach, woo hoo\nKiedy by\u0142em troch\u0119 starszy to dosta\u0142em pr\u0119tem po jajach, woo hoo",
             "chorus": false
         },
         {
-            "chords": " C G\n a F\n C G\n a F\n",
+            "chords": "C G\na F\nC G\na F\n",
             "lyrics": "Pr\u0119tem, pr\u0119tem, pr\u0119tem po jajach\nPr\u0119tem, pr\u0119tem, pr\u0119tem po jajach\nPr\u0119tem, pr\u0119tem, pr\u0119tem po jajach\nPr\u0119tem",
             "chorus": true
         },
         {
-            "chords": " C G a F\n C G a F",
+            "chords": "C G a F\nC G a F",
             "lyrics": "Kiedy by\u0142em jeszcze starszy poszed\u0142em do podstaw\u00f3wki, woo hoo\nChcia\u0142em napi\u0107 si\u0119 tam smacznej w\u00f3dki, woo hoo\n",
             "chorus": false
         },
@@ -24,7 +24,7 @@
             "chorus": true
         },
         {
-            "chords": " C G a F\n C G a F",
+            "chords": "C G a F\nC G a F",
             "lyrics": "Kiedy by\u0142em w szkole \u015bredniej chcia\u0142em pozna\u0107 fajn\u0105 dziewczyn\u0119, woo hoo\nBardzo chcia\u0142em, \u017ceby fajn\u0105 mia\u0142a min\u0119, woo hoo",
             "chorus": false
         },

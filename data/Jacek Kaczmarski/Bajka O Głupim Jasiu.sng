@@ -6,12 +6,12 @@
     "sections": [
         {
             "chords": "a\nd\nE\na E a\nG7 C\nA7 d\nH E\nF E (E7 a)",
-            "lyrics": "Ojc\u00f3w dom po\u017cegna\u0142 G\u0142upi Jasio \nSzuka\u0107 Wody \u017bycia rad nie rad. \nStopy \u015bcisn\u0105\u0142 swym niedobrym braciom, \nKt\u00f3rzy si\u0142\u0105 go wys\u0142ali w \u015bwiat.\nSched\u0119 jego wezm\u0105 i zmarnuj\u0105 - \nNic powiedzie\u0107 nie m\u00f3g\u0142, cho\u0107by chcia\u0142, \nWi\u0119c wyruszy\u0142 w drog\u0119 pogwizduj\u0105c - \nStarczy mu, \u017ce mow\u0119 zwierz\u0105t zna\u0142. \t/x2",
+            "lyrics": "Ojc\u00f3w dom po\u017cegna\u0142 G\u0142upi Jasio\nSzuka\u0107 Wody \u017bycia rad nie rad.\nStopy \u015bcisn\u0105\u0142 swym niedobrym braciom,\nKt\u00f3rzy si\u0142\u0105 go wys\u0142ali w \u015bwiat.\nSched\u0119 jego wezm\u0105 i zmarnuj\u0105 -\nNic powiedzie\u0107 nie m\u00f3g\u0142, cho\u0107by chcia\u0142,\nWi\u0119c wyruszy\u0142 w drog\u0119 pogwizduj\u0105c -\nStarczy mu, \u017ce mow\u0119 zwierz\u0105t zna\u0142. \t/x2",
             "chorus": false
         },
         {
-            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a) ",
-            "lyrics": "G\u0142upi Jasiu, G\u0142upi Jasiu \n\u015amia\u0142 si\u0119 w lesie szczebiot ptasi \n- Prawda to, \u017ce ci rozumu brak! \nWoda \u017bycia nie istnieje \nA w obczy\u017anie nam zmarniejesz! \n- Ale on przed siebie szed\u0142 i tak\t/x2",
+            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a)",
+            "lyrics": "G\u0142upi Jasiu, G\u0142upi Jasiu\n\u015amia\u0142 si\u0119 w lesie szczebiot ptasi\n- Prawda to, \u017ce ci rozumu brak!\nWoda \u017bycia nie istnieje\nA w obczy\u017anie nam zmarniejesz!\n- Ale on przed siebie szed\u0142 i tak\t/x2",
             "chorus": true
         },
         {
@@ -20,7 +20,7 @@
             "chorus": false
         },
         {
-            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a) ",
+            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a)",
             "lyrics": "G\u0142upi Jasiu, G\u0142upi Jasiu -\nWabi\u0142 w lesie szczebiot ptasi -\nWszak bogactwo lepsze jest od bied!\nNie istnieje Woda \u017bycia,\nWi\u0119c przynajmniej miej co\u015b z \u017cycia!\n- Ale on i tak przed siebie szed\u0142.",
             "chorus": true
         },
@@ -30,7 +30,7 @@
             "chorus": false
         },
         {
-            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a) ",
+            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a)",
             "lyrics": "G\u0142upi Jasiu, G\u0142upi Jasiu\nJe\u015bli\u015b nas si\u0119 nie przestraszy\u0142 -\nId\u017a przed siebie \u015bcie\u017ck\u0105 na sam szczyt;\nLecz nie zwa\u017caj na uroki,\nNie ogl\u0105daj si\u0119 na boki,\nBo ci\u0119 wtedy nie ocali nikt.",
             "chorus": true
         },
@@ -40,7 +40,7 @@
             "chorus": false
         },
         {
-            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a) ",
+            "chords": "d\na\nE a A7\nd\nC\nH7 E (E7 a)",
             "lyrics": "G\u0142upi Jasiu, G\u0142upi Jasiu\nCo\u015b na z\u0142ud\u0119 si\u0119 po\u0142asi\u0142 -\nRaz spojrza\u0142e\u015b w d\u00f3\u0142, jedyny raz:\nNa nic trudy, droga krwawa,\nZnikn\u0105\u0142 dom i brata zjawa\nI zmieni\u0142e\u015b si\u0119 pod szczytem w g\u0142az",
             "chorus": true
         },
@@ -51,7 +51,7 @@
         },
         {
             "chords": "d\na\nE a A\nd\nC\nH E (E a)",
-            "lyrics": "G\u0142upi Jasiu, G\u0142upi Jasiu, \nRozumia\u0142e\u015b mow\u0119 ptasi\u0105, \nAle wi\u0119cej ju\u017c rozumiesz dzi\u015b:\nW ba\u015bniach \u015bpi\u0105 prawdziwe dzieje;\nWoda \u017bycia nie istnieje, \nAle zawsze warto po ni\u0105 i\u015b\u0107.",
+            "lyrics": "G\u0142upi Jasiu, G\u0142upi Jasiu,\nRozumia\u0142e\u015b mow\u0119 ptasi\u0105,\nAle wi\u0119cej ju\u017c rozumiesz dzi\u015b:\nW ba\u015bniach \u015bpi\u0105 prawdziwe dzieje;\nWoda \u017bycia nie istnieje,\nAle zawsze warto po ni\u0105 i\u015b\u0107.",
             "chorus": true
         }
     ]

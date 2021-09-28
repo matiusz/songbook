@@ -4,18 +4,18 @@
     "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
     "sections": [
         {
-            "chords": " a e\n G D\n a e\n G\n D",
+            "chords": "a e\nG D\na e\nG\nD",
             "lyrics": "Kolejny przedmiot wyrzucam\nRozstaj\u0119 si\u0119 z kolejn\u0105 rzecz\u0105\nmnie takie rzeczy lecz\u0105\n\u017ce rzeczy oknem lec\u0105\na \u015bciany pustk\u0105 \u015bwiec\u0105\n",
             "chorus": false
         },
         {
-            "chords": " a e\n G D\n a\n e\n G D",
+            "chords": "a e\nG D\na\ne\nG D",
             "lyrics": "i sam z jedn\u0105 \u015bwiec\u0105 w pokoju\ncienie dr\u017c\u0105 p\u0142askie na ekranie \u015bciany\na tylko m\u00f3j cie\u0144\na tylko \u015bwiecy cie\u0144\nkiwam si\u0119 powoli \u015bpiewaj\u0105c ze \u015bwieczk\u0105 w pokoju",
             "chorus": false
         },
         {
             "chords": "a e G D\na e G D\na e G D\na e G D",
-            "lyrics": "Mniej mam i mniemam, \u017ce nie mam ja mienia\nmnie nie omamia mania mania mniemania\nja mam imi\u0119 a nie... nie mienienie si\u0119 mianem\nja manie mam na \"nie\" a me imi\u0119 - Niemanie",
+            "lyrics": "Mniej mam i mniemam, \u017ce nie mam ja mienia\nmnie nie omamia mania mania mniemania\nja mam imi\u0119 a nie... nie mienienie si\u0119 mianem\nja manie mam na \"nie\"a me imi\u0119 - Niemanie",
             "chorus": true
         },
         {

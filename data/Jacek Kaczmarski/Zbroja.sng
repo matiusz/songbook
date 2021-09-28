@@ -9,7 +9,7 @@
             "chorus": false
         },
         {
-            "chords": "D G D \na G\na H7 C a e H7 e",
+            "chords": "D G D\na G\na H7 C a e H7 e",
             "lyrics": "Lecz cho\u0107 zagin\u0105\u0142 he\u0142m i miecz\nDla cia\u0142a \u017cadna w niej ostoja\nTo przecie\u017c w ko\u0144cu wa\u017cna rzecz - zbroja",
             "chorus": true
         },
@@ -29,7 +29,7 @@
             "chorus": false
         },
         {
-            "chords": "D G D \na G\na H7 C a e H7 e",
+            "chords": "D G D\na G\na H7 C a e H7 e",
             "lyrics": "Wi\u0119c cho\u0107 za ciosem pada cios\nI wr\u00f3g posi\u0142ki \u015ble w konwojach\nNas przed upadkiem chroni wci\u0105\u017c - zbroja",
             "chorus": true
         },
@@ -39,7 +39,7 @@
             "chorus": false
         },
         {
-            "chords": "D G D \na G\na H7 C a e H7 e",
+            "chords": "D G D\na G\na H7 C a e H7 e",
             "lyrics": "Cho\u0107 s\u0142o\u0144ce skry\u0142 bojowy gaz\nI \u017co\u0142dak p\u0142awi si\u0119 w rozbojach\nWci\u0105\u017c przed upadkiem chroni nas \u2013 zbroja",
             "chorus": true
         },
@@ -49,7 +49,7 @@
             "chorus": false
         },
         {
-            "chords": "D G D \na G\na H7 C a e H7 e",
+            "chords": "D G D\na G\na H7 C a e H7 e",
             "lyrics": "Cho\u0107 krwi\u0105 zach\u0142ysn\u0105\u0142 si\u0119 nasz czas\nCho\u0107 my\u015bli ton\u0105 w paranojach\nJak zawsze chroni\u0107 b\u0119dzie nas - zbroja",
             "chorus": true
         }

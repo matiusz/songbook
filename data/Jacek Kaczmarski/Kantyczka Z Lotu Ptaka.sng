@@ -5,47 +5,47 @@
     "category": "Jacek Kaczmarski",
     "sections": [
         {
-            "chords": " a C\n G E7\n a C\n G E7",
+            "chords": "a C\nG E7\na C\nG E7",
             "lyrics": "Patrz m\u00f3j dobrotliwy Bo\u017ce na sw\u00f3j ulubiony ludek,\nJak wychodzi rano w zbo\u017ce zgina\u0107 harde karki z trudem.\nPatrz, jak schyla si\u0119 nad prac\u0105, jak pokornie kl\u0119ski znosi\nI nie pyta - Po co? Za co? Czasem o co\u015b Ci\u0119 poprosi:\n",
             "chorus": false
         },
         {
-            "chords": " a E7 a C G \nE7 a F a E7",
+            "chords": "a E7 a C G\nE7 a F a E7",
             "lyrics": "Ujmij troch\u0119 \u0142aski nieba! Daj spokoju w zamian, chleba!\nInnym udziel swej mi\u0142o\u015bci! Nam \u2013 sprawiedliwo\u015bci!\n",
             "chorus": true
         },
         {
-            "chords": " a C\n G E7\n a C\n G E7",
+            "chords": "a C\nG E7\na C\nG E7",
             "lyrics": "Smu\u0107 si\u0119, Chryste Panie w chmurze widz\u0105c, jak si\u0119 nar\u00f3d bawi,\nZnowu chcia\u0142by by\u0107 przedmurzem i w poga\u0144skiej krwi si\u0119 p\u0142awi\u0107.\nDymi\u0105 ku\u017anie i warsztaty, lecz nie prac\u0105 a - skargami,\n\u017be nie taka, jak przed laty \u0142aska Twoja nad hufcami:",
             "chorus": false
         },
         {
-            "chords": " a E7 a C G \nE7 a F a E7",
+            "chords": "a E7 a C G\nE7 a F a E7",
             "lyrics": "Si\u0142y gro\u017c\u0105 Ci nieczyste daj nam ws\u0142awi\u0107 si\u0119, o Chryste!\nKalwin, Litwin nam ubli\u017ca! D\u017awigniem ci\u0119\u017car Krzy\u017ca!",
             "chorus": true
         },
         {
-            "chords": " a C\n G E7\n a C\n G E7",
+            "chords": "a C\nG E7\na C\nG E7",
             "lyrics": "Za\u0142am r\u0119ce Matko Boska, upadaj\u0105 obyczaje,\nNie pomog\u0142a mod\u0142om ch\u0142osta - m\u0142odzie\u017c w szranki cia\u0142a staje.\nW n\u0119dzy gzi si\u0119 krew gor\u0105ca bez sumienia, bez oddechu,\nPo czym z w\u0142asnych trzewi strz\u0105sa niedojrza\u0142y owoc grzechu.",
             "chorus": false
         },
         {
-            "chords": " a E7 a C G \nE7 a F a E7",
+            "chords": "a E7 a C G\nE7 a F a E7",
             "lyrics": "Co zbawienie nam, czy piek\u0142o! Byle \u017cycie nie uciek\u0142o!\nJeszcze b\u0119dzie czas umiera\u0107! \u017byjmy tu i teraz!",
             "chorus": true
         },
         {
-            "chords": " fis A\n E Cis7\n fis A\n E Cis7",
-            "lyrics": "Grzmijcie gniewem Wszyscy \u015bwi\u0119ci, handel lud zalewa bo\u017cy\nObce kupce i klienci w z\u0142ote wabi\u0105 go obro\u017ce. \nLiczy chciwy \u017byd i Niemiec dzi\u015b po ile polska czysto\u015b\u0107;\nKupi dusze, kupi ziemie i zostawi po\u015bmiewisko...",
+            "chords": "fis A\nE Cis7\nfis A\nE Cis7",
+            "lyrics": "Grzmijcie gniewem Wszyscy \u015bwi\u0119ci, handel lud zalewa bo\u017cy\nObce kupce i klienci w z\u0142ote wabi\u0105 go obro\u017ce.\nLiczy chciwy \u017byd i Niemiec dzi\u015b po ile polska czysto\u015b\u0107;\nKupi dusze, kupi ziemie i zostawi po\u015bmiewisko...",
             "chorus": false
         },
         {
-            "chords": " fis Cis7 fis\n A E\n Cis7 fis\n D fis Cis7",
-            "lyrics": "Co nam ha\u0144ba, gdy talary \nMaj\u0105 lepszy kurs od wiary!\nWymienimy na walut\u0119\nHonor i pokut\u0119!",
+            "chords": "fis Cis7 fis\nA E\nCis7 fis\nD fis Cis7",
+            "lyrics": "Co nam ha\u0144ba, gdy talary\nMaj\u0105 lepszy kurs od wiary!\nWymienimy na walut\u0119\nHonor i pokut\u0119!",
             "chorus": true
         },
         {
-            "chords": " fis A\n E Cis7",
+            "chords": "fis A\nE Cis7",
             "lyrics": "Jeden nar\u00f3d, tyle kwestii! Wszystkich naraz - nie wys\u0142uchasz! -\nZadumali si\u0119 Niebiescy w imi\u0119 Ojca, Syna, Ducha...",
             "chorus": false
         },

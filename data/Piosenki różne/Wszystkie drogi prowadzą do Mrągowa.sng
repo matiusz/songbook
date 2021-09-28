@@ -4,27 +4,27 @@
     "category": "Piosenki r\u00f3\u017cne",
     "sections": [
         {
-            "chords": " cis H E\n cis H E\n A H cis\n fis H",
+            "chords": "cis H E\ncis H E\nA H cis\nfis H",
             "lyrics": "Do Mr\u0105gowa droga ci\u0119 prowadzi\nCzujesz jakby\u015b z\u0142apa\u0142 w \u017cagle wiatr\nDawno temu kto\u015b mi tak poradzi\u0142\nJed\u017a t\u0105 drog\u0105 poznasz inny \u015bwiat\n",
             "chorus": false
         },
         {
-            "chords": " cis H E\n cis H E\n A H cis\n A H E",
+            "chords": "cis H E\ncis H E\nA H cis\nA H E",
             "lyrics": "Gdy kto\u015b powie ta muzyka nie jest twoja\nTaki s\u0142odki hamburgera smak\nPowiedz, \u017ce tu nikt nie \u015bpiewa o kowbojach\nTylko o kim\u015b takim jak ty i ja.\n",
             "chorus": false
         },
         {
-            "chords": " E A E\n cis H E\n A H cis\n A H E",
+            "chords": "E A E\ncis H E\nA H cis\nA H E",
             "lyrics": "Wszystkie drogi prowadz\u0105 do Mr\u0105gowa\nDo Mr\u0105gowa nad jezioro Czos\nKto tu raz przyjecha\u0142, nigdy nie \u017ca\u0142owa\u0142\nI na pewno wr\u00f3ci tu za rok.\n",
             "chorus": true
         },
         {
-            "chords": " cis H E\n cis H E\n A H cis\n fis H",
+            "chords": "cis H E\ncis H E\nA H cis\nfis H",
             "lyrics": "Wiejska droga to \u015bwie\u017cy wiatru powiew\nZapach z\u0142otych faluj\u0105cych zb\u00f3\u017c\nJe\u015bli tylko zechcesz zawsze dotrzesz do niej\nNawet gdyby drogowskazy pokry\u0142 kurz\n",
             "chorus": false
         },
         {
-            "chords": " cis H E\n cis H E\n A H cis\n A H E",
+            "chords": "cis H E\ncis H E\nA H cis\nA H E",
             "lyrics": "Gdy dopadn\u0105 Ci\u0119 nieszcz\u0119\u015bcia i z\u0142ami\u0105\nPozostanie tylko modli\u0107 si\u0119 do Boga\nTy po\u017cegluj ku jedynej swej przystani\nWszystkie drogi poprowadz\u0105 do Mr\u0105gowa.\n",
             "chorus": false
         },
@@ -34,12 +34,12 @@
             "chorus": true
         },
         {
-            "chords": " E A E\n cis H E\n A H cis\n A H E",
+            "chords": "E A E\ncis H E\nA H cis\nA H E",
             "lyrics": "Wszystkie drogi prowadz\u0105 do Mr\u0105gowa\nA tych dr\u00f3g chyba jest ze sto\nGdyby\u015b tylko kiedy\u015b chcia\u0142 spr\u00f3bowa\u0107\nTutaj mo\u017cesz sw\u00f3j odmieni\u0107 los",
             "chorus": true
         },
         {
-            "chords": " cis H E\n cis H E\n A H cis\n A H E",
+            "chords": "cis H E\ncis H E\nA H cis\nA H E",
             "lyrics": "Gdy pozna\u0142e\u015b czar tych kilku dni\nWiesz ju\u017c jak smakuje w Czosie woda\nWi\u0119c nie musz\u0119 chyba m\u00f3wi\u0107 Ci\nDok\u0105d teraz nas prowadzi droga.\n",
             "chorus": false
         },

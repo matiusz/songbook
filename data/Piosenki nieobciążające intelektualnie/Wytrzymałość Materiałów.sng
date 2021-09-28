@@ -5,21 +5,21 @@
     "sections": [
         {
             "chords": "E\nA\nB\nA E",
-            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w \nalternatyw\u0105 jest czyszczenie kana\u0142\u00f3w \njak si\u0119 tego nie naucz\u0119 \nto ze studi\u00f3w si\u0119 sam wyrzuc\u0119 ",
+            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w\nalternatyw\u0105 jest czyszczenie kana\u0142\u00f3w\njak si\u0119 tego nie naucz\u0119\nto ze studi\u00f3w si\u0119 sam wyrzuc\u0119",
             "chorus": true
         },
         {
-            "chords": " E B\n cis B\n E B\n cis\n B",
-            "lyrics": "Pochodna si\u0142y normalnej wzgl\u0119dem odci\u0119tej\nw pr\u0119cie, w pr\u0119cie\nr\u00f3wna jest ujemnemu nat\u0119\u017ceniu obci\u0105\u017cenia ci\u0105g\u0142ego\ndzia\u0142aj\u0105cego, \nr\u00f3wnolegle do osi w pr\u0119cie",
+            "chords": "E B\ncis B\nE B\ncis\nB",
+            "lyrics": "Pochodna si\u0142y normalnej wzgl\u0119dem odci\u0119tej\nw pr\u0119cie, w pr\u0119cie\nr\u00f3wna jest ujemnemu nat\u0119\u017ceniu obci\u0105\u017cenia ci\u0105g\u0142ego\ndzia\u0142aj\u0105cego,\nr\u00f3wnolegle do osi w pr\u0119cie",
             "chorus": false
         },
         {
             "chords": "",
-            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w... ",
+            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w...",
             "chorus": true
         },
         {
-            "chords": " E B\n cis B\n E B\n cis\n B",
+            "chords": "E B\ncis B\nE B\ncis\nB",
             "lyrics": "Pochodna si\u0142y tn\u0105cej dzia\u0142aj\u0105cej\nw pr\u0119cie, w pr\u0119cie\nr\u00f3wna jest ujemnemu nat\u0119\u017ceniu obci\u0105\u017cenia ci\u0105g\u0142ego\ndzia\u0142aj\u0105cego\nprostopadle do osi w pr\u0119cie",
             "chorus": false
         },
@@ -29,7 +29,7 @@
             "chorus": true
         },
         {
-            "chords": " E B\n cis B\n E B\n cis B",
+            "chords": "E B\ncis B\nE B\ncis B",
             "lyrics": "Pochodna momentu zginaj\u0105cego dzia\u0142aj\u0105cego\nw pr\u0119cie, w pr\u0119cie\nr\u00f3wna jest sile tn\u0105cej dzia\u0142aj\u0105cej\nw pr\u0119cie, w pr\u0119cie\n",
             "chorus": false
         }

@@ -5,11 +5,11 @@
     "sections": [
         {
             "chords": "A\nD\nA E\nA\nD\nA E A",
-            "lyrics": "Czterech by\u0142o nas w pokoju \nCzterech wielkich piwopoj\u00f3w \nKazek, Stacho, Zdzich i ja. \nCo dzie\u0144 czyje\u015b urodziny \nTa\u0144ce, \u015bpiewy i dziewczyny \nPierwszy odpad\u0142 Stach",
+            "lyrics": "Czterech by\u0142o nas w pokoju\nCzterech wielkich piwopoj\u00f3w\nKazek, Stacho, Zdzich i ja.\nCo dzie\u0144 czyje\u015b urodziny\nTa\u0144ce, \u015bpiewy i dziewczyny\nPierwszy odpad\u0142 Stach",
             "chorus": false
         },
         {
-            "chords": " D A\n D A\n D A fis\n h E A",
+            "chords": "D A\nD A\nD A fis\nh E A",
             "lyrics": "Studia \u2013 to by\u0142y z\u0142udzenia\nNikt ci\u0119 bracie nie docenia\nI nie b\u0119dzie in\u017cyniera\nStudia \u2013 a niech to cholera",
             "chorus": true
         },

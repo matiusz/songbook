@@ -4,7 +4,7 @@
     "category": "Klasyka polskiego rocka",
     "sections": [
         {
-            "chords": " d d7\n a A7\n E E7\n a A7\n",
+            "chords": "d d7\na A7\nE E7\na A7\n",
             "lyrics": "M\u00f3j dom murem podzielony\nPodzielone murem schody\nPo lewej stronie \u0142azienka\nPo prawej stronie kuchenka",
             "chorus": false
         },
@@ -14,7 +14,7 @@
             "chorus": false
         },
         {
-            "chords": " d d7\n a A7\n E E7\n a A7\n",
+            "chords": "d d7\na A7\nE E7\na A7\n",
             "lyrics": "Moje cia\u0142o murem podzielone\nDziesi\u0119\u0107 palc\u00f3w na lew\u0105 stron\u0119\nDrugie dziesi\u0119\u0107 na praw\u0105 stron\u0119\nG\u0142owy r\u00f3wna cz\u0119\u015b\u0107 na ka\u017cd\u0105 stron\u0119",
             "chorus": true
         },
@@ -24,7 +24,7 @@
             "chorus": true
         },
         {
-            "chords": " d d7\n a A7\n E E7\n a A7\n",
+            "chords": "d d7\na A7\nE E7\na A7\n",
             "lyrics": "Moja ulica murem podzielona\n\u015awieci neonami prawa strona\nLewa strona ca\u0142a wygaszona\nZza zas\u0142ony obserwuj\u0119 obie strony",
             "chorus": false
         },

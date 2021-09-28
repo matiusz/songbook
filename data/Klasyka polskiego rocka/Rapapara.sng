@@ -5,12 +5,12 @@
     "sections": [
         {
             "chords": "a F\nC G",
-            "lyrics": "On by\u0142 samotny, jej by\u0142o \u017ale \nGdzie\u015b w internecie poznali si\u0119 \nOn si\u0119 zakocha\u0142 ze samych zdj\u0119\u0107\nBo tam rusa\u0142ka, dziewcz\u0119 na pi\u0119\u0107\nSzcz\u0119ka mu spad\u0142a a\u017c pod sam st\u00f3\u0142\nDa\u0142 jej komentarz dziesi\u0119\u0107 i p\u00f3\u0142\nA kiedy w ko\u0144cu spotkali si\u0119\nOn jej nie pozna\u0142 dlatego, \u017ce...",
+            "lyrics": "On by\u0142 samotny, jej by\u0142o \u017ale\nGdzie\u015b w internecie poznali si\u0119\nOn si\u0119 zakocha\u0142 ze samych zdj\u0119\u0107\nBo tam rusa\u0142ka, dziewcz\u0119 na pi\u0119\u0107\nSzcz\u0119ka mu spad\u0142a a\u017c pod sam st\u00f3\u0142\nDa\u0142 jej komentarz dziesi\u0119\u0107 i p\u00f3\u0142\nA kiedy w ko\u0144cu spotkali si\u0119\nOn jej nie pozna\u0142 dlatego, \u017ce...",
             "chorus": false
         },
         {
             "chords": "a F C G",
-            "lyrics": "Rapapara, rapapara mia\u0142a ryja jak kopara, \nrapapara, rapapara mia\u0142a ryja jak kopara",
+            "lyrics": "Rapapara, rapapara mia\u0142a ryja jak kopara,\nrapapara, rapapara mia\u0142a ryja jak kopara",
             "chorus": true
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "chords": "a F\nC G",
-            "lyrics": "A w ko\u0144cu przyszed\u0142 zimowy czas\n\u015aniegu nasypa\u0142o/najeba\u0142o a\u017c po pas\nGdy on do pracy wyruszy\u0107 chcia\u0142\nUjrza\u0142, \u017ce w \u015bniegu ugrz\u0105z\u0142 mu star\nP\u0142acz\u0105c przeklina\u0142 parszywy los\nWtedy \"pomog\u0119\" us\u0142ysza\u0142 g\u0142os\nI kiedy w starze zarzuca\u0142 bieg\nTo ona ryjem spycha\u0142a \u015bnieg",
+            "lyrics": "A w ko\u0144cu przyszed\u0142 zimowy czas\n\u015aniegu nasypa\u0142o/najeba\u0142o a\u017c po pas\nGdy on do pracy wyruszy\u0107 chcia\u0142\nUjrza\u0142, \u017ce w \u015bniegu ugrz\u0105z\u0142 mu star\nP\u0142acz\u0105c przeklina\u0142 parszywy los\nWtedy \"pomog\u0119\"us\u0142ysza\u0142 g\u0142os\nI kiedy w starze zarzuca\u0142 bieg\nTo ona ryjem spycha\u0142a \u015bnieg",
             "chorus": false
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "chords": "a F C G",
-            "lyrics": "Rapapara, rapapara nawet morda jak kopara\n Rapapara, rapapara zas\u0142uguje na browara!",
+            "lyrics": "Rapapara, rapapara nawet morda jak kopara\nRapapara, rapapara zas\u0142uguje na browara!",
             "chorus": true
         }
     ]

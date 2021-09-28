@@ -7,7 +7,8 @@ def main():
     inFile = f"{songbookTitle}.tex"
     outFile = f"{songbookTitle}.pdf"
     texcompile = f"pdflatex {inFile}"
-    os.system(texcompile)
+    if os.system(texcompile) != 0:
+        raise ModuleNotFoundError(texcompile)
 
     ToCedit.main()
 

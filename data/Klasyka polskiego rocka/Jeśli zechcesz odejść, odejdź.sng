@@ -5,21 +5,21 @@
     "sections": [
         {
             "chords": "c G\nc G",
-            "lyrics": "Znowu dom pusty dzi\u015b noc\u0105, cisza a\u017c grzmi. \n\u015awiec p\u0142omienie pr\u00f3\u017cno si\u0119 z\u0142oc\u0105, nie skrzypn\u0105 drzwi.",
+            "lyrics": "Znowu dom pusty dzi\u015b noc\u0105, cisza a\u017c grzmi.\n\u015awiec p\u0142omienie pr\u00f3\u017cno si\u0119 z\u0142oc\u0105, nie skrzypn\u0105 drzwi.",
             "chorus": false
         },
         {
-            "chords": " f c\n f G c",
+            "chords": "f c\nf G c",
             "lyrics": "Milcze\u0107 b\u0119dzie moja gitara, s\u0142ycha\u0107 b\u0119dzie bicie zegara.\nJa rozumie\u0107 wszystko si\u0119 staram, m\u00f3wi\u0142em Ci.\n",
             "chorus": false
         },
         {
             "chords": "c G\nG c\nc G\nG c",
-            "lyrics": "Je\u015bli zechcesz odej\u015b\u0107 \u2013 odejd\u017a. Je\u015bli zechcesz wr\u00f3\u0107. \nNic si\u0119 przecie\u017c nie zmieni przez te dni.\nWci\u0105\u017c tak samo serca b\u0119dzie czas t\u0119sknot\u0105 tru\u0107. \n\u015awiat jak by\u0142 zostanie z\u0142y. ",
+            "lyrics": "Je\u015bli zechcesz odej\u015b\u0107 \u2013 odejd\u017a. Je\u015bli zechcesz wr\u00f3\u0107.\nNic si\u0119 przecie\u017c nie zmieni przez te dni.\nWci\u0105\u017c tak samo serca b\u0119dzie czas t\u0119sknot\u0105 tru\u0107.\n\u015awiat jak by\u0142 zostanie z\u0142y.",
             "chorus": true
         },
         {
-            "chords": " Gis c\n Gis c\n Gis c\nD G",
+            "chords": "Gis c\nGis c\nGis c\nD G",
             "lyrics": "Cho\u0107 to dzi\u015b \u017car r\u0105k splecionych czuje ka\u017cdy nerw.\nCho\u0107 w pami\u0119ci pi\u0119knych wspomnie\u0144 moc.\nNie umkniemy samotno\u015bci co nas \u017cre jak czerw,\nOdk\u0105d spad\u0142a na nas w tamt\u0105 noc.\n",
             "chorus": false
         },

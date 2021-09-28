@@ -5,12 +5,12 @@
     "sections": [
         {
             "chords": "a e G a\na e G a",
-            "lyrics": "Ain't no sunshine when she's gone. \nIt's not warm when she's away. ",
+            "lyrics": "Ain't no sunshine when she's gone.\nIt's not warm when she's away.",
             "chorus": false
         },
         {
             "chords": "a e Dis5 d\na e G a",
-            "lyrics": "Ain't no sunshine when she's gone, and she's always gone too long, \nanytime she goes away.",
+            "lyrics": "Ain't no sunshine when she's gone, and she's always gone too long,\nanytime she goes away.",
             "chorus": true
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "chords": "a\na\na\na e Dis5 d\na e G a",
-            "lyrics": "And I know, I know, I know, I know, \nI know, I know, I know, I know, I know, \nI know, I know, I know, I know, I know, \nI know, I know... Hey, I oughta leave young thing alone,\nbut ain't no sunshine when she's gone.\n",
+            "lyrics": "And I know, I know, I know, I know,\nI know, I know, I know, I know, I know,\nI know, I know, I know, I know, I know,\nI know, I know... Hey, I oughta leave young thing alone,\nbut ain't no sunshine when she's gone.\n",
             "chorus": true
         },
         {
