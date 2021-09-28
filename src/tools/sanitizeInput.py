@@ -1,4 +1,4 @@
-from src.tools import dirTools
+import dirTools
 
 import os
 
