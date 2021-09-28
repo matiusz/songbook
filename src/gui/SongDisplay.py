@@ -124,6 +124,9 @@ class Song(QWidget):
                 section.deleteLater()
             self.sections = []
             for section in jsonSong['sections']:
+                blanksection = self.newSection(False)
+                blanksection.lyrics.setText("")
+                blanksection.chords.setText("")
                 sect = self.newSection(chorus=section['chorus'])
                 sect.lyrics.setText(section['lyrics'])
                 sect.chords.setText(shiftChords(section['chords'], self.shift))
@@ -147,6 +150,7 @@ class SongSection(QHBoxLayout):
         self.chorus = chorus
         self.lyrics = QLabel()
         font = QFont()
+        font.setFamily("Times New Roman")
         self.lyrics.setFont(font)
         self.lyrics.setTextFormat(Qt.PlainText)
         self.lyrics.setAlignment(Qt.AlignTop | Qt.AlignLeft)
