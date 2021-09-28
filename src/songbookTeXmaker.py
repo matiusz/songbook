@@ -1,11 +1,11 @@
 import os
 import json
 import re
-from plAlphabetSort import plSortKey
+from src.tools.plAlphabetSort import plSortKey
 import asyncio
 import aiofiles
 
-from chordShift import shiftChords
+from src.tools.chordShift import shiftChords
 
 def enUTF8(st):
     return st.encode('utf-8')
@@ -155,7 +155,7 @@ async def processCategoryFromDict(cat, songbookFile):
     return len(keys)
 
 def main():
-    asyncio.run(_asyncMain())
+    return asyncio.run(_asyncMain())
 
 async def _asyncMain():
     configFilename = "categories.cfg"
@@ -192,6 +192,7 @@ async def _asyncMain():
         await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
     print(f"Total number of songs: {songCount}")
+    return songbookFilename
     
 if __name__=="__main__":
     main()

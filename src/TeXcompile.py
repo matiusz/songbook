@@ -1,9 +1,12 @@
-import ToCedit
 import os
 
-def main():
+from src import ToCedit
 
-    texcompile = "pdflatex songbook.tex"
+def main():
+    songbookTitle = "songbook"
+    inFile = f"{songbookTitle}.tex"
+    outFile = f"{songbookTitle}.pdf"
+    texcompile = f"pdflatex {inFile}"
     os.system(texcompile)
 
     ToCedit.main()
@@ -18,6 +21,7 @@ def main():
             os.remove(auxFil)
         except FileNotFoundError:
             pass
+    return outFile
 
 if __name__=="__main__":
     main()

@@ -1,4 +1,4 @@
-from plAlphabetSort import plSortKey
+from src.tools.plAlphabetSort import plSortKey
 
 def main():
     filename = 'songbook.toc'

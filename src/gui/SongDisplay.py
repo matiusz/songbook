@@ -1,19 +1,17 @@
 import PySide6.QtWidgets
 
-from PySide6.QtWidgets import (QApplication, QWidget, QLineEdit, 
-                                QHBoxLayout, QVBoxLayout, QPlainTextEdit, 
-                                QPushButton,QScrollArea, QLayout,  
-                                QComboBox, QFileDialog, QLabel)
-from PySide6.QtGui import QPalette, QPixmap, QFont
-from PySide6.QtCore import QSize, Qt
+from PySide6.QtWidgets import (QWidget, QHBoxLayout, QVBoxLayout,
+                                QPushButton,QScrollArea, QComboBox, 
+                                QLabel)
+from PySide6.QtGui import QPalette, QFont
+from PySide6.QtCore import Qt
 
 import json
 
 import os
 
-from functools import partial
 
-from chordShift import shiftChords
+from src.tools.chordShift import shiftChords
 
 def getCategoriesFromDirs():
     categories = []
@@ -31,39 +29,31 @@ def getSongsFromCatDir(category):
 
 
 
-class ScrollableSong(QScrollArea):
-    def __init__(self):
+class ScrollableSongDisplay(QScrollArea):
+    def __init__(self, category=None, song=None):
         super().__init__()
         self.song = Song(self)
         self.setBackgroundRole(QPalette.Base)
         self.setAutoFillBackground(True)
-        self.setGeometry(300, 100, 500, 200)
-        self.setWindowTitle('Song Field')
+        self.setGeometry(400, 50, 700, 900)
+        self.setWindowTitle(song)
         self.setWidget(self.song)
         self.setWidgetResizable(True)
         self.show()
+        if category:
+            if song:
+                self.song.loadSong(category, song)
 
 class Song(QWidget):
     def __init__(self, parent):
         super().__init__()
         self.parent = parent
-        self.resizeFactor = 1
-        self.setGeometry(300, 100, 500, 100)
+        self.resizeFactor = 1.5
         self.setWindowTitle('Song Field')
         self.sections = []
         self.shift = 0
         layout = QVBoxLayout()
         #layout.setSizeConstraint(QLayout.SetMinimumSize)
-        
-        self.catBar = QComboBox()
-        self.catBar.addItems(getCategoriesFromDirs())
-        self.catBar.currentTextChanged.connect(self.reloadSongs)
-        layout.addWidget(self.catBar)
-
-        self.readySongsBar = QComboBox()
-        self.readySongsBar.addItem("")
-        self.readySongsBar.addItems(getSongsFromCatDir(self.catBar.currentText()))
-        self.readySongsBar.currentTextChanged.connect(self.loadSong)
 
         shiftButtonBox = QHBoxLayout()
         
@@ -86,8 +76,6 @@ class Song(QWidget):
 
         resizeButtonBox.addWidget(sizeDownButton)
         resizeButtonBox.addWidget(sizeUpButton)
-
-        layout.addWidget(self.readySongsBar)
 
         layout.addLayout(resizeButtonBox)
 
@@ -123,10 +111,10 @@ class Song(QWidget):
             self.parent.setMinimumHeight(self.minimumSize().height()+110)
         self.layout().addLayout(newSection)
         return newSection
-    def loadSong(self, songFilename):
+    def loadSong(self, category, songFilename):
         self.shift = 0
         if songFilename:
-            f = open(os.path.join("data", self.catBar.currentText(), songFilename + ".sng"), "rb")
+            f = open(os.path.join("data", category, songFilename + ".sng"), "rb")
             jsonSong = json.loads(f.read().decode("utf-8"))
             f.close()
             for i, section in enumerate(self.sections):
@@ -140,7 +128,6 @@ class Song(QWidget):
                 sect.lyrics.setText(section['lyrics'])
                 sect.chords.setText(shiftChords(section['chords'], self.shift))
             self.resizeSections()
-            self.parent.setGeometry(300, 100, 500*self.resizeFactor, 600*self.resizeFactor)
             self.parent.repaint()
         else:
             for i, section in enumerate(self.sections):
@@ -149,13 +136,7 @@ class Song(QWidget):
                 section.chords.deleteLater()
                 section.deleteLater()
             self.sections = []
-            self.parent.setGeometry(300, 100, 500, 200)
             self.parent.repaint()
-    def reloadSongs(self):
-        self.readySongsBar.clear()
-        catSongs = getSongsFromCatDir(self.catBar.currentText())
-        self.readySongsBar.addItem("")
-        self.readySongsBar.addItems(catSongs)
         #self.parent.setGeometry(300, 100, 500, 200)
         #self.parent.repaint()
 
@@ -180,12 +161,3 @@ class SongSection(QHBoxLayout):
             stretches = (80, 20)
         self.addWidget(self.lyrics, stretches[0])
         self.addWidget(self.chords, stretches[1])
-
-def main():
-    import sys
-    app = QApplication(sys.argv)
-    window = ScrollableSong()
-    app.exec()
-
-if __name__=="__main__":
-    main()
