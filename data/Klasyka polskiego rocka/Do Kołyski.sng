@@ -5,7 +5,7 @@
     "sections": [
         {
             "chords": "h h\\A\nh\\G h\\Fis\ne A h\nh h\\A\nh\\G h\\Fis\ne A h",
-            "lyrics": "\u017byj z ca\u0142ych si\u0142\nI u\u015bmiechaj si\u0119 do ludzi\nBo nie jeste\u015b sam\n\u015apij, noc\u0105 \u015bnij\nNiech z\u0142y sen Ci\u0119 nigdy wi\u0119cej nie obudzi\nTeraz \u015bpij\n",
+            "lyrics": "\u017byj z ca\u0142ych si\u0142\nI u\u015bmiechaj si\u0119 do ludzi\nBo nie jeste\u015b sam\n\u015apij, noc\u0105 \u015bnij\nNiech z\u0142y sen Ci\u0119 nigdy wi\u0119cej nie obudzi\nTeraz \u015bpij",
             "chorus": false
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "chords": "e A h\ne A G\ne A h\ne A G\ne   A",
-            "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic...\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil...\nNajlepsz\u0105 z Twoich chwil\n",
+            "lyrics": "Jak na deszczu \u0142za\nCa\u0142y ten \u015bwiat nie znaczy nic a nic...\nChwila, kt\u00f3ra trwa\nMo\u017ce by\u0107 najlepsz\u0105 z Twoich chwil...\nNajlepsz\u0105 z Twoich chwil",
             "chorus": true
         }
     ]

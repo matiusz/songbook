@@ -24,5 +24,5 @@ def replaceInFile(fileName, pairs):
         print("Could not find the file you are trying to read.")
 
 songFilenames = loadSongs()
-pairs = [("    \"", "****\""), (": \"", ":::\""), ("\\n ","\\n"), (" \\n","\\n"), ("\" ","\""), (" \"","\""), (":::\"",": \""), ("****\"", "    \"")]
+pairs = [("    \"", "****\""), (": \"", ":::\""), ("\\n ","\\n"), (" \\n","\\n"), ("\" ","\""), (" \"","\""), (":::\"",": \""), ("****\"", "    \""), ("\\n\"", "\"")]
 [replaceInFile(songFilename, pairs) for songFilename in songFilenames]

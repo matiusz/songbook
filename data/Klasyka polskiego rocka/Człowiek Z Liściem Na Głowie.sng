@@ -4,7 +4,7 @@
     "category": "Klasyka polskiego rocka",
     "sections": [
         {
-            "chords": "G F C F C\nG F C F C E7\n",
+            "chords": "G F C F C\nG F C F C E7",
             "lyrics": "",
             "chorus": false
         },
@@ -15,7 +15,7 @@
         },
         {
             "chords": "a e\nG D\nF G C F C",
-            "lyrics": "Siedzi w autobusie cz\u0142owiek z li\u015bciem na g\u0142owie\nO li\u015bciu w swych rzadkich w\u0142osach niepr\u0119dko si\u0119 dowie\nTylko si\u0119 w okno gapi, tylko si\u0119 w okno gapi i nic\n",
+            "lyrics": "Siedzi w autobusie cz\u0142owiek z li\u015bciem na g\u0142owie\nO li\u015bciu w swych rzadkich w\u0142osach niepr\u0119dko si\u0119 dowie\nTylko si\u0119 w okno gapi, tylko si\u0119 w okno gapi i nic",
             "chorus": false
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "chords": "a e\nG D\nF G C F C",
-            "lyrics": "I tak siedzi w autobusie cz\u0142owiek z li\u015bciem na g\u0142owie\nNikt go nie poratuje, nikt mu nic nie powie\nTylko si\u0119 ka\u017cdy gapi i nic, tylko si\u0119 ka\u017cdy gapi i nic\n",
+            "lyrics": "I tak siedzi w autobusie cz\u0142owiek z li\u015bciem na g\u0142owie\nNikt go nie poratuje, nikt mu nic nie powie\nTylko si\u0119 ka\u017cdy gapi i nic, tylko si\u0119 ka\u017cdy gapi i nic",
             "chorus": false
         },
         {

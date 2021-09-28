@@ -5,12 +5,12 @@
     "sections": [
         {
             "chords": "A\nE\nD A\nE A",
-            "lyrics": "Raz na walcu, raz pod walcem\n\u017cycie polega na walce\nNa walce lub na wy\u015bcigu\nraz pod d\u017awigiem, raz na d\u017awigu\n",
+            "lyrics": "Raz na walcu, raz pod walcem\n\u017cycie polega na walce\nNa walce lub na wy\u015bcigu\nraz pod d\u017awigiem, raz na d\u017awigu",
             "chorus": true
         },
         {
             "chords": "E\nA E A\nA\nA E D A",
-            "lyrics": "\u017beby p\u0142aszczy\u0107 i rozgniata\u0107\nwalec \u015bwietnie si\u0119 nadaje\nKto na walec si\u0119 nie wdrapa\u0142\nten ju\u017c nijak nie odstaje\n",
+            "lyrics": "\u017beby p\u0142aszczy\u0107 i rozgniata\u0107\nwalec \u015bwietnie si\u0119 nadaje\nKto na walec si\u0119 nie wdrapa\u0142\nten ju\u017c nijak nie odstaje",
             "chorus": false
         },
         {

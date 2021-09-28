@@ -5,7 +5,7 @@
     "sections": [
         {
             "chords": "F G\nC G C\nF G\ne d\nF G\ne d\nF G",
-            "lyrics": "Z wielu piec\u00f3w si\u0119 jad\u0142o chleb\nBo od lat przygl\u0105dam si\u0119 \u015bwiatu\nNieraz rano zabola\u0142 \u0142eb\nI m\u00f3wili zmiana klimatu\nCzasem zdarzy\u0142 si\u0119 wielki raut\nAlbo feta proletariatu\nCzasem podr\u00f3\u017c najlepszym z aut\nCz\u0119\u015bciej szare drogi powiatu\n",
+            "lyrics": "Z wielu piec\u00f3w si\u0119 jad\u0142o chleb\nBo od lat przygl\u0105dam si\u0119 \u015bwiatu\nNieraz rano zabola\u0142 \u0142eb\nI m\u00f3wili zmiana klimatu\nCzasem zdarzy\u0142 si\u0119 wielki raut\nAlbo feta proletariatu\nCzasem podr\u00f3\u017c najlepszym z aut\nCz\u0119\u015bciej szare drogi powiatu",
             "chorus": false
         },
         {
@@ -20,7 +20,7 @@
         },
         {
             "chords": "",
-            "lyrics": "Ale to ju\u017c by\u0142o...\n",
+            "lyrics": "Ale to ju\u017c by\u0142o...",
             "chorus": true
         }
     ]

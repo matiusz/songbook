@@ -20,7 +20,7 @@
         },
         {
             "chords": "D E\ncis D\nD E\ncis D",
-            "lyrics": "A ksi\u0119\u017cyc opowiada mi\nNajpi\u0119kniejsze w jego \u017cyciu sny\nNa suficie dobrze widz\u0119 je\nS\u0105 takie kolorowe | x2\n",
+            "lyrics": "A ksi\u0119\u017cyc opowiada mi\nNajpi\u0119kniejsze w jego \u017cyciu sny\nNa suficie dobrze widz\u0119 je\nS\u0105 takie kolorowe | x2",
             "chorus": true
         },
         {
@@ -44,7 +44,7 @@
             "chorus": false
         },
         {
-            "chords": "Gis4 Gis Fis4 Fis\n",
+            "chords": "Gis4 Gis Fis4 Fis",
             "lyrics": "",
             "chorus": false
         }

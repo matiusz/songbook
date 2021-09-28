@@ -5,7 +5,7 @@
     "sections": [
         {
             "chords": "G C G\nG e\nD\nD G",
-            "lyrics": "Chcia\u0142em by\u0107 marynarzem\nChcia\u0142em mie\u0107 tatua\u017ce\nPodr\u00f3\u017cowa\u0107, zwiedza\u0107 \u015bwiat\nPi\u0119knie \u017cy\u0107, gar\u015bciami \u017cycie bra\u0107\n",
+            "lyrics": "Chcia\u0142em by\u0107 marynarzem\nChcia\u0142em mie\u0107 tatua\u017ce\nPodr\u00f3\u017cowa\u0107, zwiedza\u0107 \u015bwiat\nPi\u0119knie \u017cy\u0107, gar\u015bciami \u017cycie bra\u0107",
             "chorus": false
         },
         {
@@ -14,7 +14,7 @@
             "chorus": false
         },
         {
-            "chords": "G C D\nG C D\nG C D\nG C D\n",
+            "chords": "G C D\nG C D\nG C D\nG C D",
             "lyrics": "Przemierzy\u0142em ca\u0142y \u015bwiat od Las Vegas po Krym\nZgra\u0142em tysi\u0105c talii kart, kt\u00f3re lubi\u0105 dym\nSkasowa\u0142em kilka bryk, nie \u017ca\u0142uj\u0119 dzi\u015b\nNie \u017ca\u0142uj\u0119 dzi\u015b",
             "chorus": true
         },

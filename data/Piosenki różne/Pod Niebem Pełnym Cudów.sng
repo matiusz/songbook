@@ -20,7 +20,7 @@
         },
         {
             "chords": "D G\nD G\nh e\nFis G A (A7)",
-            "lyrics": "Pod cudnym niebem jeszcze\nKa\u017cdy cho\u0107 jedno miejsce\nBy\u0107 mo\u017ce ma i chwil\u0119\nGdy godnie j\u0105 prze\u017cyje\n",
+            "lyrics": "Pod cudnym niebem jeszcze\nKa\u017cdy cho\u0107 jedno miejsce\nBy\u0107 mo\u017ce ma i chwil\u0119\nGdy godnie j\u0105 prze\u017cyje",
             "chorus": false
         },
         {
@@ -30,7 +30,7 @@
         },
         {
             "chords": "",
-            "lyrics": "Ten b\u0142\u0119kit sn\u00f3w i pragnie\u0144...\n",
+            "lyrics": "Ten b\u0142\u0119kit sn\u00f3w i pragnie\u0144...",
             "chorus": true
         },
         {
@@ -45,7 +45,7 @@
         },
         {
             "chords": "",
-            "lyrics": "Ten b\u0142\u0119kit sn\u00f3w i pragnie\u0144...\n",
+            "lyrics": "Ten b\u0142\u0119kit sn\u00f3w i pragnie\u0144...",
             "chorus": true
         }
     ]

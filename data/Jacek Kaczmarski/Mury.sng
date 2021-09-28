@@ -9,8 +9,8 @@
             "chorus": false
         },
         {
-            "chords": "H7 e\nH7 e\ne a\nH7 e\n",
-            "lyrics": "Wyrwij murom z\u0119by krat!\nZerwij kajdany, po\u0142am bat!\nA mury run\u0105, run\u0105, run\u0105\nI pogrzebi\u0105 stary \u015bwiat!\n\n",
+            "chords": "H7 e\nH7 e\ne a\nH7 e",
+            "lyrics": "Wyrwij murom z\u0119by krat!\nZerwij kajdany, po\u0142am bat!\nA mury run\u0105, run\u0105, run\u0105\nI pogrzebi\u0105 stary \u015bwiat!",
             "chorus": true
         },
         {
@@ -20,7 +20,7 @@
         },
         {
             "chords": "",
-            "lyrics": "Wyrwij murom z\u0119by krat\u2026\n",
+            "lyrics": "Wyrwij murom z\u0119by krat\u2026",
             "chorus": true
         },
         {
@@ -29,7 +29,7 @@
             "chorus": false
         },
         {
-            "chords": "H7 e\nH7 e\ne a\nH7 e\n",
+            "chords": "H7 e\nH7 e\ne a\nH7 e",
             "lyrics": "Patrzy\u0142 na r\u00f3wny t\u0142um\u00f3w marsz,\nMilcza\u0142, ws\u0142uchany w krok\u00f3w huk,\nA mury ros\u0142y, ros\u0142y, ros\u0142y,\n\u0141a\u0144cuch ko\u0142ysa\u0142 si\u0119 u n\u00f3g.",
             "chorus": true
         }

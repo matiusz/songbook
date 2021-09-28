@@ -6,12 +6,12 @@
     "sections": [
         {
             "chords": "a C\nG E7\na C\nG E7",
-            "lyrics": "Patrz m\u00f3j dobrotliwy Bo\u017ce na sw\u00f3j ulubiony ludek,\nJak wychodzi rano w zbo\u017ce zgina\u0107 harde karki z trudem.\nPatrz, jak schyla si\u0119 nad prac\u0105, jak pokornie kl\u0119ski znosi\nI nie pyta - Po co? Za co? Czasem o co\u015b Ci\u0119 poprosi:\n",
+            "lyrics": "Patrz m\u00f3j dobrotliwy Bo\u017ce na sw\u00f3j ulubiony ludek,\nJak wychodzi rano w zbo\u017ce zgina\u0107 harde karki z trudem.\nPatrz, jak schyla si\u0119 nad prac\u0105, jak pokornie kl\u0119ski znosi\nI nie pyta - Po co? Za co? Czasem o co\u015b Ci\u0119 poprosi:",
             "chorus": false
         },
         {
             "chords": "a E7 a C G\nE7 a F a E7",
-            "lyrics": "Ujmij troch\u0119 \u0142aski nieba! Daj spokoju w zamian, chleba!\nInnym udziel swej mi\u0142o\u015bci! Nam \u2013 sprawiedliwo\u015bci!\n",
+            "lyrics": "Ujmij troch\u0119 \u0142aski nieba! Daj spokoju w zamian, chleba!\nInnym udziel swej mi\u0142o\u015bci! Nam \u2013 sprawiedliwo\u015bci!",
             "chorus": true
         },
         {
@@ -51,7 +51,7 @@
         },
         {
             "chords": "",
-            "lyrics": "Co nam ha\u0144ba, gdy talary...\n",
+            "lyrics": "Co nam ha\u0144ba, gdy talary...",
             "chorus": true
         }
     ]
