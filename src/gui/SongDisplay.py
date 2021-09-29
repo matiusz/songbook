@@ -10,19 +10,19 @@ import os
 from src.tools.chordShift import shiftChords
 
 class ScrollableSongDisplay(QScrollArea):
-    def __init__(self, category=None, song=None):
+    def __init__(self, category=None, songTitle=None):
         super().__init__()
         self.song = Song(self)
         self.setBackgroundRole(QPalette.Base)
         self.setAutoFillBackground(True)
         self.setGeometry(400, 50, 700, 900)
-        self.setWindowTitle(song)
+        self.setWindowTitle(songTitle)
         self.setWidget(self.song)
         self.setWidgetResizable(True)
         self.show()
         if category:
-            if song:
-                self.song.loadSong(category, song)
+            if songTitle:
+                self.song.loadSong(category, songTitle)
 
 class Song(QWidget):
     def __init__(self, parent):

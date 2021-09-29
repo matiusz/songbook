@@ -14,6 +14,8 @@ def replaceInFile(fileName, pairs):
         with open(fileName, "r+") as text_file:
             texts = text_file.read()
             for p in pairs:
+                if texts.find(p[0])!=-1:
+                    print(fileName)
                 texts = texts.replace(p[0], p[1])
         with open(fileName, "w") as text_file:
             text_file.write(texts)
