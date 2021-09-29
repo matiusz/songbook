@@ -9,9 +9,6 @@ def loadSongs():
         songFilenames.extend([os.path.join(os.getcwd(), "data", cat, song)for song in dirTools.getSongsFromCatDir(cat)])
     return songFilenames
 
-
-
-
 def replaceInFile(fileName, pairs):
     try:
         with open(fileName, "r+") as text_file:

@@ -2,6 +2,7 @@ import os
 from PySide6.QtWidgets import (QCheckBox, QHBoxLayout, QWidget, QLineEdit, QVBoxLayout, 
                                 QScrollArea, QLabel)
 from PySide6.QtCore import Qt
+from PySide6.QtGui import QPalette
 
 from src.tools import dirTools
 
@@ -15,12 +16,14 @@ class ScrollAndSearchSongList(QWidget):
 
         self.setGeometry(0, 0, 400, 1000)
         self.setWindowTitle('Song list')
+        self.setBackgroundRole(QPalette.Base)
+        self.setAutoFillBackground(True)
 
-        self.scrollableSongList = ScrollableSongList()
+        songList = SongList()
 
+        self.scrollableSongList = ScrollableSongList(songList)
 
-        self.filterBar = SearchBar(self)
-
+        self.filterBar = SearchBar(songList)
 
         layout.addWidget(self.filterBar)
         layout.addWidget(self.scrollableSongList)
@@ -30,10 +33,11 @@ class ScrollAndSearchSongList(QWidget):
         self.show()
 
 class SearchBar(QWidget):
-    def __init__(self, parent):
+    def __init__(self, songList):
         super().__init__()
-        self.parent = parent
         layout = QHBoxLayout()
+
+        self.songList = songList
 
         self.filter = QLineEdit()
         self.filter.setPlaceholderText("Search...")
@@ -52,15 +56,15 @@ class SearchBar(QWidget):
         self.setLayout(layout)
 
     def filt(self, filterText):
-        self.parent.scrollableSongList.songList.reloadText(filterText, self.checkBox.isChecked())
+        self.songList.reloadText(filterText, self.checkBox.isChecked())
     def searchInContent(self, detailed = False):
-        self.parent.scrollableSongList.songList.reloadText(self.filter.displayText(), detailed)
+        self.songList.reloadText(self.filter.displayText(), detailed)
 
 
 class ScrollableSongList(QScrollArea):
-    def __init__(self):
+    def __init__(self, songList):
         super().__init__()
-        self.songList = SongList()
+        self.songList = songList
         self.setWidgetResizable(True)
         self.setWidget(self.songList)
 
@@ -92,26 +96,21 @@ class SongList(QLabel):
     def getText(self, filt = None, detailed = False):
         textLines = []
         for cat in self.catSongs.keys():
-            catEmpty = True
-            textLines.append(f"{cat}")
+            catSongs = []
             for song in self.catSongs[cat]:
-                
                 linkedTitle = f"{'&nbsp;'*8}<a href=\"{cat}#{song}\">{song}</a>"
                 if filt:
                     if filt.lower() in song.lower():
-                        textLines.append(linkedTitle)
-                        catEmpty = False
-                    else:
-                        if detailed:
+                        catSongs.append(linkedTitle)
+                    elif detailed:
                             with open(os.path.join(os.getcwd(), "data", cat, song + ".sng"), "r") as f:
                                 text = f.read()
-                                if filt.lower() in text.lower():
-                                    textLines.append(linkedTitle)
-                                    catEmpty = False
+                            if filt.lower() in text.lower():
+                                catSongs.append(linkedTitle)
                 else:
-                    textLines.append(linkedTitle)
-                    catEmpty = False
-            if catEmpty:
-                textLines.pop()
+                    catSongs.append(linkedTitle)
+            if catSongs:
+                textLines.append(f"{cat}")
+                textLines.extend(catSongs)
         return "<br>".join(textLines)
 
