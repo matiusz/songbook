@@ -8,7 +8,18 @@ from src.tools import dirTools
 
 from .SongDisplay import ScrollableSongDisplay
 
+import json
 
+def songContents(songDict):
+    songCont = songDict['title'] + '\n'
+    songCont += songDict['category'] + '\n'
+    try:
+        songCont += songDict['author'] + '\n'
+    except KeyError:
+        pass
+    for sec in songDict['sections']:
+        songCont += sec['lyrics'] + '\n'
+    return songCont
 class ScrollAndSearchSongList(QWidget):
     def __init__(self):
         super().__init__()
@@ -101,9 +112,9 @@ class SongList(QLabel):
                     if filt.lower() in song.lower():
                         catSongs.append(linkedTitle)
                     elif detailed:
-                            with open(os.path.join(os.getcwd(), "data", cat, song + ".sng"), "r") as f:
-                                text = f.read()
-                            if filt.lower() in text.lower():
+                            with open(os.path.join(os.getcwd(), "data", cat, song + ".sng"), "rb") as f:
+                                jsonSong = json.loads(f.read().decode("utf-8"))
+                            if filt.lower() in songContents(jsonSong).lower():
                                 catSongs.append(linkedTitle)
                 else:
                     catSongs.append(linkedTitle)
