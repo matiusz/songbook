@@ -81,9 +81,7 @@ class Song:
 
     def superscriptSpecialChars(self, text):
         specialChars = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", "*", "sus", "add", "/"]
-        chDict = {}
-        for ch in specialChars:
-            chDict[ch] = (f"\\textsuperscript{{{ch}}}")
+        chDict = {ch:f"\\textsuperscript{{{ch}}}" for ch in specialChars}
         pattern = re.compile('|'.join(sorted([re.escape(key) for key in chDict.keys()], key=len, reverse=True)))
         result = pattern.sub(lambda x: chDict[x.group()], text)
         return result

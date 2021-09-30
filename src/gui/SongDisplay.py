@@ -28,7 +28,7 @@ class Song(QWidget):
     def __init__(self, parent):
         super().__init__()
         self.parent = parent
-        self.resizeFactor = 1
+        self.resizeOffset = 0
         self.sections = []
         layout = QVBoxLayout()
 
@@ -63,27 +63,24 @@ class Song(QWidget):
         self.show()
 
     def sizeUp(self):
-        self.resizeFactor += 0.1
+        self.resizeOffset += 1
         self.resizeSections()
     def sizeDown(self):
-        self.resizeFactor += -0.1
+        self.resizeOffset += -1
         self.resizeSections()
     def resizeSections(self):
-        [section.resize(15*self.resizeFactor) for section in self.sections]
+        [section.resize(15+self.resizeOffset) for section in self.sections]
 
     def shiftUp(self):
         self.shiftChords(1)
     def shiftDown(self):
         self.shiftChords(-1)
     def shiftChords(self, diff):
-        for i, section in enumerate(self.sections):
-            section.chords.setText(shiftChords(section.chords.text(), diff))
+        [section.chords.setText(shiftChords(section.chords.text(), diff)) for section in self.sections]
 
     def newSection(self, chorus = False, ff = "Times"):
         newSec = SongSection(chorus, ff)
         self.sections.append(newSec)
-        if len(self.sections)<5:
-            self.parent.setMinimumHeight(self.minimumSize().height()+110)
         self.layout().addLayout(newSec)
         return newSec
     def addBlankSection(self):

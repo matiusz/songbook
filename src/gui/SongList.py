@@ -89,9 +89,7 @@ class SongList(QLabel):
     
     def loadSongs(self):
         cats = dirTools.getCategoriesFromDirs()
-        self.catSongs = {}
-        for cat in cats:
-            self.catSongs[cat] = [song[:-4] for song in dirTools.getSongsFromCatDir(cat)]
+        self.catSongs = {cat:[song[:-4] for song in dirTools.getSongsFromCatDir(cat)] for cat in cats}
 
     def getText(self, filt = None, detailed = False):
         textLines = []

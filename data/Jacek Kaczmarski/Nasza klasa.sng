@@ -1,10 +1,11 @@
 {
     "title": "Nasza klasa",
+    "author": "Jacek Kaczmarski",
     "category": "Jacek Kaczmarski",
     "sections": [
         {
             "chords": "d A7\nd A7\nF g\nd A7\nd g A7 d",
-            "lyrics": "Co si\u0119 sta\u0142o z nasz\u0105 klas\u0105, pyta Adam w Telawiwie\nCi\u0119\u017cko sprosta\u0107 takim czasom, ci\u0119\u017cko w og\u00f3le \u017cy\u0107 uczciwie\nCo si\u0119 sta\u0142o z nasz\u0105 klas\u0105, Wojtek w Szwecji w porno klubie\nPisze dobrze mi tu p\u0142ac\u0105, za to co i tak wszak lubi\u0119",
+            "lyrics": "Co si\u0119 sta\u0142o z nasz\u0105 klas\u0105, pyta Adam w Tel Awiwie\nCi\u0119\u017cko sprosta\u0107 takim czasom, ci\u0119\u017cko w og\u00f3le \u017cy\u0107 uczciwie\nCo si\u0119 sta\u0142o z nasz\u0105 klas\u0105, Wojtek w Szwecji w porno klubie\nPisze dobrze mi tu p\u0142ac\u0105, za to co i tak wszak lubi\u0119",
             "chorus": false
         },
         {
@@ -39,7 +40,7 @@
         },
         {
             "chords": "d A7\nd A7\nF g\nd A7\nd g A7 d",
-            "lyrics": "W\u0142asne p\u0119dy w\u0142asne li\u015bcie, zapuszczamy ka\u017cdy sobie\nI korzenie oczywi\u015bcie, na wygnaniu, w kraju, w grobie\nW d\u00f3\u0142, na boki, wzwy\u017c ku s\u0142o\u0144cu, na stracenie w prawo w lewo\nKto pami\u0119ta, \u017ce to w ko\u0144cu, jedno I to samo drzewo",
+            "lyrics": "W\u0142asne p\u0119dy w\u0142asne li\u015bcie, zapuszczamy ka\u017cdy sobie\nI korzenie oczywi\u015bcie, na wygnaniu, w kraju, w grobie\nW d\u00f3\u0142, na boki, wzwy\u017c ku s\u0142o\u0144cu, na stracenie w prawo w lewo\nKto pami\u0119ta, \u017ce to w ko\u0144cu, jedno i to samo drzewo",
             "chorus": false
         }
     ]
