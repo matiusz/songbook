@@ -3,16 +3,14 @@ from PySide6.QtWidgets import (QWidget, QHBoxLayout, QVBoxLayout,
 from PySide6.QtGui import QPalette, QFont
 from PySide6.QtCore import Qt
 
-import json
-
-import os
-
 from src.tools.chordShift import shiftChords
 
-class ScrollableSongDisplay(QScrollArea):
+from src.obj.Song import Song
+
+class QScrollableSongDisplay(QScrollArea):
     def __init__(self, category=None, songTitle=None):
         super().__init__()
-        self.song = Song(self)
+        self.song = QSong(self)
         self.setBackgroundRole(QPalette.Base)
         self.setAutoFillBackground(True)
         self.setGeometry(400, 50, 700, 900)
@@ -24,12 +22,13 @@ class ScrollableSongDisplay(QScrollArea):
             if songTitle:
                 self.song.loadSong(category, songTitle)
 
-class Song(QWidget):
+class QSong(QWidget):
     def __init__(self, parent):
-        super().__init__()
+        QWidget.__init__(self)
         self.parent = parent
-        self.resizeOffset = 0
         self.sections = []
+        self.resizeOffset = 0
+        self.qSections = []
         layout = QVBoxLayout()
 
         shiftButtonBox = QHBoxLayout()
@@ -58,7 +57,6 @@ class Song(QWidget):
 
         layout.addLayout(shiftButtonBox)
 
-
         self.setLayout(layout)
         self.show()
 
@@ -79,9 +77,9 @@ class Song(QWidget):
         [section.chords.setText(shiftChords(section.chords.text(), diff)) for section in self.sections]
 
     def newSection(self, chorus = False, ff = "Times"):
-        newSec = SongSection(chorus, ff)
+        newSec = QSongSection(chorus, ff)
         self.sections.append(newSec)
-        self.layout().addLayout(newSec)
+        self.layout().addLayout(newSec, 0)
         return newSec
     def addBlankSection(self):
         self.newSection()
@@ -92,20 +90,21 @@ class Song(QWidget):
             section.chords.deleteLater()
             section.deleteLater()
         self.sections = []
-    def loadSong(self, category, songFilename):
+    def loadSong(self, category, songTitle):
         self.clearSections()
-        if songFilename:
-            with open(os.path.join("data", category, songFilename + ".sng"), "rb") as f:
-                jsonSong = json.loads(f.read().decode("utf-8"))
-            for section in jsonSong['sections']:
-                sect = self.newSection(chorus=section['chorus'])
-                sect.lyrics.setText(section['lyrics'])
-                sect.chords.setText(section['chords'])
-                self.addBlankSection()
+        song = Song.loadFromCatAndTitle(category, songTitle)
+        if songTitle:
+            song = Song.loadFromCatAndTitle(category, songTitle)
+            for section in song.sections:
+                sect = self.newSection(chorus=section.chorus)
+                sect.lyrics.setText(section.lyrics)
+                sect.chords.setText(section.chords)
+                self.layout().addSpacing(20)
             self.resizeSections()
+        self.layout().addStretch(1)
         self.parent.repaint()
 
-class SongSection(QHBoxLayout):
+class QSongSection(QHBoxLayout):
     def __init__(self, chorus = False, ff = "Times"):
         super().__init__()
         self.chorus = chorus

@@ -4,22 +4,15 @@ from PySide6.QtWidgets import (QCheckBox, QHBoxLayout, QWidget, QLineEdit, QVBox
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QPalette
 
+from src.obj.Songbook import Songbook
+from src.obj.Song import Song
+
 from src.tools import dirTools
 
-from .SongDisplay import ScrollableSongDisplay
+from src.gui.SongDisplay import QScrollableSongDisplay
 
 import json
 
-def songContents(songDict):
-    songCont = songDict['title'] + '\n'
-    songCont += songDict['category'] + '\n'
-    try:
-        songCont += songDict['author'] + '\n'
-    except KeyError:
-        pass
-    for sec in songDict['sections']:
-        songCont += sec['lyrics'] + '\n'
-    return songCont
 class ScrollAndSearchSongList(QWidget):
     def __init__(self):
         super().__init__()
@@ -65,7 +58,7 @@ class SearchBar(QWidget):
         layout.addWidget(self.checkBox)
 
         self.setLayout(layout)
-
+        
     def filt(self, filterText):
         self.songList.reloadText(filterText, self.checkBox.isChecked())
     def searchInContent(self, detailed = False):
@@ -82,44 +75,36 @@ class ScrollableSongList(QScrollArea):
 class SongList(QLabel):
     def __init__(self):
         super().__init__()
-        self.loadSongs()
-        self.setText(self.getText())
+        self.catSongs = Songbook("data").sb
+        
+        self.reloadText()
         self.setTextFormat(Qt.RichText)
         self.setAlignment(Qt.AlignTop)
     
-        
         self.linkActivated.connect(self.openSongDisplay)
 
     def openSongDisplay(self, link):
         cat, _, song = link.partition('#')
-        ScrollableSongDisplay(cat, song)
+        QScrollableSongDisplay(cat, song)
 
-    def reloadText(self, filt, detailed = False):
+    def reloadText(self, filt : str = "", detailed : bool = False):
         self.setText(self.getText(filt, detailed))
-        pass
-    
-    def loadSongs(self):
-        cats = dirTools.getCategoriesFromDirs()
-        self.catSongs = {cat:[song[:-4] for song in dirTools.getSongsFromCatDir(cat)] for cat in cats}
 
     def getText(self, filt = None, detailed = False):
         textLines = []
         for cat in self.catSongs.keys():
-            catSongs = []
+            songs = []
             for song in self.catSongs[cat]:
-                linkedTitle = f"{'&nbsp;'*8}<a href=\"{cat}#{song}\">{song}</a>"
                 if filt:
-                    if filt.lower() in song.lower():
-                        catSongs.append(linkedTitle)
+                    if filt.lower() in song.title.lower():
+                        songs.append(song.linkedTitle)
                     elif detailed:
-                            with open(os.path.join(os.getcwd(), "data", cat, song + ".sng"), "rb") as f:
-                                jsonSong = json.loads(f.read().decode("utf-8"))
-                            if filt.lower() in songContents(jsonSong).lower():
-                                catSongs.append(linkedTitle)
+                            if filt.lower() in song.filterString.lower():
+                                songs.append(song.linkedTitle)
                 else:
-                    catSongs.append(linkedTitle)
-            if catSongs:
+                    songs.append(song.linkedTitle)
+            if songs:
                 textLines.append(f"{cat}")
-                textLines.extend(catSongs)
+                textLines.extend(songs)
         return "<br>".join(textLines)
 
