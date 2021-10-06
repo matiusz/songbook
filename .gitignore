@@ -19,3 +19,5 @@ headerconfig.py
 latexheader copy.txt
 tex.py
 texput.log
+39venv/
+output/

@@ -6,6 +6,7 @@ import asyncio
 import aiofiles
 
 from src.tools.chordShift import shiftChords
+from src.tools.dirTools import resource_path
 
 def enUTF8(st):
     return st.encode('utf-8')
@@ -125,7 +126,7 @@ class Song:
 
 async def copyHeader(headerFilename, songbookFilename):
     async with aiofiles.open(songbookFilename, "wb") as songbookFile:
-        async with aiofiles.open(headerFilename, "rb") as headerFile:
+        async with aiofiles.open(resource_path(headerFilename), "rb") as headerFile:
             await songbookFile.write(await headerFile.read())
 
 def makeSongbookDict(songs):
