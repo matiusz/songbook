@@ -2,11 +2,13 @@ import dirTools
 
 import os
 
+from src.obj.Config import config
+
 def loadSongs():
     cats = dirTools.getCategoriesFromDirs()
     songFilenames = []
     for cat in cats:
-        songFilenames.extend([os.path.join(os.getcwd(), "data", cat, song)for song in dirTools.getSongsFromCatDir(cat)])
+        songFilenames.extend([os.path.join(os.getcwd(), config.dataFolder, cat, song)for song in dirTools.getSongsFromCatDir(cat)])
     return songFilenames
 
 def replaceInFile(fileName, pairs):

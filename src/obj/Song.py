@@ -2,6 +2,8 @@ from __future__ import annotations
 import json
 import os
 
+from src.obj.Config import config
+
 class Song:
     def __init__(self, title : str, category : str):
         self.title = title
@@ -48,7 +50,7 @@ class Song:
 
     @staticmethod
     def loadFromCatAndTitle(category, title) -> Song:
-        with open(os.path.join("data", category, title + ".sng"), "rb") as f:
+        with open(os.path.join(config.dataFolder, category, title + ".sng"), "rb") as f:
             return Song.loadFromDict(json.loads(f.read()))
 
 class SongSection:
@@ -66,7 +68,7 @@ class SongSection:
         return newSection
 
 if __name__=="__main__":
-    song = Song.loadFromFile(os.path.join(os.getcwd(), "data", "SDM", "Majka" + ".sng"))
+    song = Song.loadFromFile(os.path.join(os.getcwd(), config.dataFolder, "SDM", "Majka" + ".sng"))
     print(song.title)
     print(song.author)
     print(song.category)

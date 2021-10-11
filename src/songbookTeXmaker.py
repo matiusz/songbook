@@ -8,6 +8,8 @@ import aiofiles
 from src.tools.chordShift import shiftChords
 from src.tools.dirTools import resource_path
 
+from src.obj.Config import config
+
 def enUTF8(st):
     return st.encode('utf-8')
 def deUTF8(st):
@@ -157,18 +159,16 @@ def main():
     return asyncio.run(_asyncMain())
 
 async def _asyncMain():
-    configFilename = "categories.cfg"
-    headerFilename = "latexheader.txt"
-    songbookFilename = "songbook.tex"
-    dataFolderName = "data"
     
-    await copyHeader(headerFilename, songbookFilename)
+    texOutFile = f"{config.outputFile}.tex"
+
+    await copyHeader(os.path.join(config.dataFolder, config.latexHeaderFile), texOutFile)
     
-    gatheredSongs = await gatherAllCategories(dataFolderName)
+    gatheredSongs = await gatherAllCategories(config.dataFolder)
 
     songbookDict = makeSongbookDict(gatheredSongs)
 
-    cats = await getCategoriesConfig(os.path.join(dataFolderName, configFilename), songbookDict)
+    cats = await getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songbookDict)
 
     for cat in songbookDict.values():
         cat.setCatMapping(cats)
@@ -176,7 +176,8 @@ async def _asyncMain():
     songCount = 0
     print("Title songs")
 
-    async with aiofiles.open(songbookFilename, "ab") as songbookFile:
+
+    async with aiofiles.open(texOutFile, "ab") as songbookFile:
 
         songCount += await processCategoryFromDict(songbookDict["Title"], songbookFile)
         
@@ -188,10 +189,10 @@ async def _asyncMain():
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
                 songCount += await processCategoryFromDict(songbookDict[cat], songbookFile)
 
-        await songbookFile.write(enUTF8("\\IfFileExists{songlist.toc}{\n\t\\chapter*{Spis treści}\n\t\\input{songlist.toc}\n}{}\n"))
+        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}.toc}}\n}}{{}}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
     print(f"Total number of songs: {songCount}")
-    return songbookFilename
+    return texOutFile
     
 if __name__=="__main__":
     main()

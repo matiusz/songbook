@@ -12,6 +12,8 @@ from src.tools.openDefault import open_with_default_app
 
 from src.tools.dirTools import resource_path
 
+from src.obj.Config import config
+
 from src import TeXcompile, songbookTeXmaker
 
 import os
@@ -22,11 +24,11 @@ class MainMenu(QWidget):
         self.setWindowTitle('Songbook Maker')
 
         label = QLabel()
-        image = QPixmap(resource_path("logo.png"))
+        image = QPixmap(resource_path(os.path.join(config.dataFolder, config.appLogo)))
         if image:            
             label.setPixmap(image)
         else:
-            label.setText("Songbook Maker\n<Warning: Logo.png is missing>")
+            label.setText("Songbook Maker\n<Warning: logo file is missing>")
             
         categoryButton = QPushButton('New Category', self)
         categoryButton.clicked.connect(self.addCategoryField)

@@ -5,13 +5,10 @@ from PySide6.QtCore import Qt
 from PySide6.QtGui import QPalette
 
 from src.obj.Songbook import Songbook
-from src.obj.Song import Song
-
-from src.tools import dirTools
 
 from src.gui.SongDisplay import QScrollableSongDisplay
 
-import json
+from src.obj.Config import config
 
 class ScrollAndSearchSongList(QWidget):
     def __init__(self):
@@ -75,7 +72,7 @@ class ScrollableSongList(QScrollArea):
 class SongList(QLabel):
     def __init__(self):
         super().__init__()
-        self.catSongs = Songbook("data").sb
+        self.catSongs = Songbook(config.dataFolder).sb
         
         self.reloadText()
         self.setTextFormat(Qt.RichText)

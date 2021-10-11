@@ -7,6 +7,8 @@ import os
 
 from src.tools import dirTools
 
+from src.obj.Config import config
+
 
 class NewCategory(QWidget):
     def __init__(self):
@@ -46,12 +48,12 @@ class NewCategory(QWidget):
     def closeEvent(self, event):
         category = self.name.text()
         if category:
-            dirTools.ensureDir(os.path.join("data", category))
+            dirTools.ensureDir(os.path.join(config.dataFolder, category))
             image = self.selectedFile
             if image:
                 _, file_extension = os.path.splitext(image)
                 image_from = open(image, "rb")
-                image_to = open(os.path.join("data", ".images" , category) + file_extension, "wb")
+                image_to = open(os.path.join(config.dataFolder, config.imageFolder , category) + file_extension, "wb")
                 image_to.write(image_from.read())
                 image_from.close()
                 image_to.close()

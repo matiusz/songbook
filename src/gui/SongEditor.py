@@ -11,10 +11,12 @@ from functools import partial
 
 from src.tools import dirTools
 
+from src.obj.Config import config
+
 class ScrollableSongEditor(QScrollArea):
     def __init__(self):
         super().__init__()
-        self.song = Song(self)
+        self.song = QSong(self)
         self.setGeometry(300, 100, 500, 200)
         self.setWindowTitle('Song Field')
         self.setWidget(self.song)
@@ -32,7 +34,7 @@ class ScrollableSongEditor(QScrollArea):
         #self.saveSong()
         event.accept()
 
-class Song(QWidget):
+class QSong(QWidget):
     def __init__(self, parent):
         super().__init__()
         self.parent = parent
@@ -95,7 +97,7 @@ class Song(QWidget):
         self.show()
 
     def newSection(self, chorus = False):
-        newSection = SongSection(chorus = chorus)
+        newSection = QSongSection(chorus = chorus)
         self.sections.append(newSection)
         if len(self.sections)<5:
             self.parent.setMinimumHeight(self.minimumSize().height()+110)
@@ -110,14 +112,14 @@ class Song(QWidget):
             jsonSong['capo'] = capo
         if (newCat := self.changeCatBar.currentText()) != "Change Category":
             jsonSong["category"] = newCat
-            os.remove(os.path.join("data", self.catBar.currentText(), self.titleBar.text() + ".sng"))
+            os.remove(os.path.join(config.dataFolder, self.catBar.currentText(), self.titleBar.text() + ".sng"))
         else:
             jsonSong['category'] = self.catBar.currentText()
         jsonSong['sections'] = [section.toJSON() for section in self.sections if section]
         return jsonSong
     def loadSong(self, songFilename):
         if songFilename:
-            f = open(os.path.join("data", self.catBar.currentText(), songFilename), "rb")
+            f = open(os.path.join(config.dataFolder, self.catBar.currentText(), songFilename), "rb")
             jsonSong = json.loads(f.read().decode("utf-8"))
             f.close()
             self.titleBar.setText(jsonSong['title'])
@@ -154,7 +156,7 @@ class Song(QWidget):
         self.readySongsBar.addItem("")
         self.readySongsBar.addItems(catSongs)
 
-class SongSection(QHBoxLayout):
+class QSongSection(QHBoxLayout):
     def __init__(self, chorus = False):
         super().__init__()
         self.addStrut(90)

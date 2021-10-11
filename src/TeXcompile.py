@@ -2,8 +2,10 @@ import os
 
 from src import ToCedit
 
+from src.obj.Config import config
+
 def main():
-    songbookTitle = "songbook"
+    songbookTitle = config.outputFile
     inFile = f"{songbookTitle}.tex"
     outFile = f"{songbookTitle}.pdf"
     texcompile = f"pdflatex {inFile}"
@@ -15,7 +17,9 @@ def main():
     os.system(texcompile)
     os.system(texcompile)
     #auxFiles = []
-    auxFiles = ["songbook.tex", "songbook.toc", "songbook.aux", "songbook.fdb_latexmk", "songbook.ffs", "songbook.log", "songbook.synctex.gz", "songbook.fls", "songlist.toc", "songbook.out"]
+    auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk", 
+                f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls", 
+                f"{songbookTitle}.toc", f"{songbookTitle}.out"]
 
     for auxFil in auxFiles:
         try:
