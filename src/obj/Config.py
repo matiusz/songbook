@@ -15,6 +15,6 @@ class Configuration:
         self.outputFile = filePathConfig['outputFile']
         self.appLogo = filePathConfig['appLogo']
 
-config = Configuration("fileConfig.json")
+config = Configuration("config.json")
 
 
