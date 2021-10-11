@@ -1,8 +1,0 @@
-{
-    "dataFolder": "data",
-    "categoriesFile": "categories.json",
-    "imageFolder": ".images",
-    "latexHeaderFile": "latexheader.txt",
-    "outputFile": "songbook",
-    "appLogo": "logo.png"
-}
