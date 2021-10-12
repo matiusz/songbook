@@ -10,7 +10,7 @@ from src.gui.SongList import ScrollAndSearchSongList
 
 from src.tools.openDefault import open_with_default_app
 
-from src.tools.dirTools import resource_path
+from src.tools.ResourcePath import resource_path
 
 from src.obj.Config import config
 
@@ -57,7 +57,7 @@ class MainMenu(QWidget):
             songbookPdfFile = TeXcompile.main()
         except ModuleNotFoundError:
             msgBox = QMessageBox()
-            msgBox.setText("Please check if pdflatex is installed or .tex file was successfully generated.")
+            msgBox.setText("Please check if pdflatex is installed or if .tex file was successfully generated.")
             msgBox.exec()
             return
         else:

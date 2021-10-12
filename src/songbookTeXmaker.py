@@ -5,8 +5,10 @@ from src.tools.plAlphabetSort import plSortKey
 import asyncio
 import aiofiles
 
+from src import headerconfig as headerconfig
+
 from src.tools.chordShift import shiftChords
-from src.tools.dirTools import resource_path
+from src.tools.ResourcePath import resource_path
 
 from src.obj.Config import config
 
@@ -44,11 +46,13 @@ class Category:
             name = self.catMap[self.name]
         except (KeyError, AttributeError):
             name = self.name
-        catStr = f"\\chapter*{{\centering {name}}}\n" + \
+        catStr = ""
+        if config.canvas.sides == "twoside":
+            catStr += "\\cleardoublepage\n"
+        catStr += f"\\chapter*{{\centering {name}}}\n" + \
         f"\\addcontentsline{{toc}}{{chapter}}{{{name}}}\n" + \
-        f"{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{self.name}}} \\par}}\n" + \
-        "\\newpage\n"
-        #catStr += "\\cleardoublepage\n"
+        f"{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{self.name}}} \\par}}\n" 
+        catStr += "\\newpage\n"
         return catStr
 
 class Song:
@@ -90,7 +94,7 @@ class Song:
         return result
         
     def convertSection(self, section):
-        chordShift = 0
+        chordShift = config.chordShift
         lyrics, l1 = self.convertLineBreaks(section['lyrics'])
         if section['chords']:
             chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "))
@@ -159,6 +163,7 @@ def main():
     return asyncio.run(_asyncMain())
 
 async def _asyncMain():
+    headerconfig.main()
     
     texOutFile = f"{config.outputFile}.tex"
 

@@ -27,7 +27,7 @@
 \apptocmd\adjustwidth{\@inlabelfalse\@newlistfalse}
 \makeatother
 
- \geometry{
+\geometry{
  a4paper,
  total={180mm,257mm},
  inner=20mm,

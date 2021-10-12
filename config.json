@@ -7,5 +7,23 @@
             "latexHeaderFile": "latexheader.txt",
             "outputFile": "songbook",
             "appLogo": "logo.png"
-        }
+        },
+    "baseSettings": 
+    {
+        "chordShift": 0,
+        "format": "a4paper",
+        "sides": "twoside",
+        "textFieldSize": 
+        {
+            "width":180,
+            "height":257
+        },
+        "margins":
+        {
+            "horizontal": 20,
+            "vertical": 20
+        },
+        "fontSize" : 10
+    },
+    "title" : {}
 }
