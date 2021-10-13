@@ -13,7 +13,7 @@
   margins - horizontal - inner in case of twoside option, left otherwise\
           - vertical - top margin\
   fontSize - basic size of the font, supports sizes 10, 11, 12\
-  lyricsFont, chordsFont - one of the fontcodes available for example here: https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide\
+  lyricsFont, chordsFont - one of the fontcodes available for example here: https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide \
   
 
   ## Requirements
