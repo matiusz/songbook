@@ -14,6 +14,9 @@ def packages(packs):
     string += "\n"
     return string
 
+def getPackageList():
+    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref"]
+
 def hyperSetup():
     return "\\hypersetup{\n    hidelinks,\n    linktoc=all\n}\n\n"
 
@@ -27,17 +30,14 @@ def geometry(form, width, height, horizontal, vertical, sides):
 def minorSettings2():
     return "\\begin{document}\n\n" + makeTitle() +"\\newenvironment{chorus}{\\begin{adjustwidth}{2cm}{}}{\\end{adjustwidth}}\n\n"
     
-def getPackageList():
-    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "inconsolata", "hyperref"]
-
 def font():
-    return "\\renewcommand{\\rmdefault}{ptm}\n\n"
+    return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n"
 
 def toc():
     return "\\renewcommand{\\contentsname}{Spis treści}\n"
 
 def titleSettings():
-    return "\\title{Śpiewnik Hawiarskiej Koliby}\n\\date{Grudzień 2021}\n\n"
+    return f"\\title{{{config.title}}}\n\\date{{{config.date}}}\n\\author{{{config.author}}}\n\n"
 
 def makeTitle():
     return "\\begin{titlepage}\n\\maketitle\n\\end{titlepage}\n\n"

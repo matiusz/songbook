@@ -1,6 +1,10 @@
 import json
 from src.tools.ResourcePath import resource_path
 
+def enUTF8(st):
+    return st.encode('utf-8')
+def deUTF8(st):
+    return st.decode('utf-8')
 
 class TextField:
     def __init__(self, width, height):
@@ -20,9 +24,9 @@ class Canvas:
         self.margins = Margins(margins['vertical'], margins['horizontal'])
 
 class Configuration:
-    def __init__(self, configFile):
-        with open(configFile, "r") as configFile:
-            config = json.load(configFile)
+    def __init__(self, configFilename):
+        with open(configFilename, "rb") as configFile:
+            config = json.loads(deUTF8(configFile.read()))
 
         filePathConfig = config['filePaths']
         
@@ -33,14 +37,27 @@ class Configuration:
         self.outputFile = filePathConfig['outputFile']
         self.appLogo = filePathConfig['appLogo']
 
-        baseSettings = config['baseSettings']
+        pdfSettings = config['pdfSettings']
 
-        self.chordShift = baseSettings['chordShift']
+        self.chordShift = pdfSettings['chordShift']
 
-        self.canvas = Canvas(baseSettings['format'], baseSettings['sides'], baseSettings['textFieldSize'], baseSettings['margins'])
+        self.canvas = Canvas(pdfSettings['format'], pdfSettings['sides'], pdfSettings['textFieldSize'], pdfSettings['margins'])
 
-        self.fontSize = baseSettings['fontSize']
+        self.fontSize = pdfSettings['fontSize']
         
+        self.lyricsFont = pdfSettings['lyricsFont']
+
+        self.chordsFont = pdfSettings['chordsFont']
+
+        titlePageSettings = pdfSettings['titlePage']
+
+        self.title = titlePageSettings['title']
+
+        self.date = titlePageSettings['date']
+
+        self.author = titlePageSettings['author']
+
+
 config = Configuration(resource_path("config.json"))
 
 

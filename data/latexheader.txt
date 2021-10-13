@@ -1,4 +1,4 @@
-\documentclass[a4paper, twoside, 10pt]{report}
+\documentclass[a4paper, twoside, 12pt]{report}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{blindtext}
@@ -7,7 +7,6 @@
 \usepackage{indentfirst}
 \usepackage{changepage}
 \usepackage{graphicx}
-\usepackage{inconsolata}
 \usepackage{hyperref}
 
 \hypersetup{
@@ -36,6 +35,7 @@
 
 \title{Śpiewnik Hawiarskiej Koliby}
 \date{Grudzień 2021}
+\author{}
 
 \begin{document}
 
@@ -46,5 +46,6 @@
 \newenvironment{chorus}{\begin{adjustwidth}{2cm}{}}{\end{adjustwidth}}
 
 \renewcommand{\rmdefault}{ptm}
+\renewcommand{\ttdefault}{zi4}
 
 \renewcommand{\contentsname}{Spis treści}

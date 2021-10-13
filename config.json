@@ -8,7 +8,7 @@
             "outputFile": "songbook",
             "appLogo": "logo.png"
         },
-    "baseSettings": 
+    "pdfSettings": 
     {
         "chordShift": 0,
         "format": "a4paper",
@@ -23,7 +23,13 @@
             "horizontal": 20,
             "vertical": 20
         },
-        "fontSize" : 10
-    },
-    "title" : {}
+        "fontSize" : 12,
+        "lyricsFont" : "ptm",
+        "chordsFont" : "zi4",
+        "titlePage" : {
+            "title" : "Śpiewnik Hawiarskiej Koliby",
+            "date" : "Grudzień 2021",
+            "author" : ""
+        }
+    }
 }
