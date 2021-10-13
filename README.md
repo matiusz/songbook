@@ -4,7 +4,7 @@
 
   Songbook is an easy to use tool for creating songbooks where each song is represented by a different file, allowing them to be easily shared or moved between different songbooks. It has it's own display module or it can generate LaTeX files and compile them to pdf.
 
-  ##Configuration
+  ## Configuration
 
   format - e.g. a4paper, a5paper
   sides - oneside/twoside
