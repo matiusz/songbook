@@ -6,14 +6,14 @@
 
   ## Configuration
 
-  format - e.g. a4paper, a5paper
-  sides - oneside/twoside
-  twoside - pdf will have inner and outer margins and will include a blank page if chapter would start on an even page otherwise
-  textFieldSize - width and height of area text area
-  margins - horizontal - inner in case of twoside option, left otherwise
-          - vertical - top margin
-          fontSize - basic size of the font, supports sizes 10, 11, 12
-  lyricsFont, chordsFont - one of the fontcodes available for example here: https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide
+  format - e.g. a4paper, a5paper\
+  sides - oneside/twoside\
+  twoside - pdf will have inner and outer margins and will include a blank page if chapter would start on an even page otherwise\
+  textFieldSize - width and height of area text area\
+  margins - horizontal - inner in case of twoside option, left otherwise\
+          - vertical - top margin\
+  fontSize - basic size of the font, supports sizes 10, 11, 12\
+  lyricsFont, chordsFont - one of the fontcodes available for example here: https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide\
   
 
   ## Requirements
