@@ -13,9 +13,11 @@ from src.tools.codings import enUTF8, deUTF8
 
 from src.obj.Config import config
 
-async def gatherAllCategories(dataFolderName):
-    tasks = [gatherSongs(dirpath) for dirname in os.listdir(dataFolderName) \
-        if os.path.isdir(dirpath := os.path.join(dataFolderName, dirname)) and not (dirname.startswith((".", "_")))]
+def isSongCategoryDir(dirname):
+    return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
+
+async def gatherAllCategories():
+    tasks = [gatherSongs(os.path.join(config.dataFolder, dirname)) for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
     categories = await asyncio.gather(*tasks)
     return categories
 
@@ -165,7 +167,7 @@ async def _asyncMain():
 
     await copyHeader(os.path.join(config.dataFolder, config.latexHeaderFile), texOutFile)
     
-    gatheredSongs = await gatherAllCategories(config.dataFolder)
+    gatheredSongs = await gatherAllCategories()
 
     songbookDict = makeSongbookDict(gatheredSongs)
 
