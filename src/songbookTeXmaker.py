@@ -9,13 +9,9 @@ from src import headerconfig as headerconfig
 
 from src.tools.chordShift import shiftChords
 from src.tools.ResourcePath import resource_path
+from src.tools.codings import enUTF8, deUTF8
 
 from src.obj.Config import config
-
-def enUTF8(st):
-    return st.encode('utf-8')
-def deUTF8(st):
-    return st.decode('utf-8')
 
 async def gatherAllCategories(dataFolderName):
     tasks = [gatherSongs(dirpath) for dirname in os.listdir(dataFolderName) \
@@ -194,7 +190,7 @@ async def _asyncMain():
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
                 songCount += await processCategoryFromDict(songbookDict[cat], songbookFile)
 
-        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}.toc}}\n}}{{}}\n"))
+        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}_list.toc}}\n}}{{}}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
     print(f"Total number of songs: {songCount}")
     return texOutFile

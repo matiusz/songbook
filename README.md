@@ -21,7 +21,7 @@
 
   ## Requirements
   
-  - Python 3.9+
+  - Python 3.8+
   - PySide6 (pip install PySide6) - GUI module
   - aiofiles (pip install aiofiles) - module for async I/O operations on files
   - pdfTeX (included with e.g. https://miktex.org/) - required for .tex -> .pdf compilation
