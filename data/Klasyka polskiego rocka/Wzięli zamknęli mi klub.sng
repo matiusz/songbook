@@ -1,0 +1,27 @@
+{
+    "title": "Wzi\u0119li zamkn\u0119li mi klub",
+    "author": "Kwiat Jab\u0142oni",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "d \nC G\nd \nC G",
+            "lyrics": "Chc\u0119 dzi\u015b zwojowa\u0107 ca\u0142y \u015bwiat\nW\u0142a\u015bnie dzisiaj udowodni\u0119 - jestem czego\u015b wart \nId\u0119 ju\u017c Krakowskim zbli\u017cam si\u0119\nJu\u017c nied\u0142ugo, ju\u017c za chwil\u0119, za minuty dwie",
+            "chorus": false
+        },
+        {
+            "chords": "d \nd A (A C Cis)\nd \nC G\nd \nC G",
+            "lyrics": "I nagle serce staje i a\u017c zapiera dech\n\u015awiat szybko wiruje, a ja pewna jestem, \u017ce\nWzi\u0119li zamkn\u0119li dzi\u015b m\u00f3j ulubiony klub\nPod drzwiami ludzi t\u0142um ju\u017c nie zabaluj\u0119 tu\nOkna zabite, techno nie poleci ju\u017c\nNa blacie gruby kurz, a my nie zata\u0144czymy tu\n",
+            "chorus": true
+        },
+        {
+            "chords": "d \nC G\nd \nC G",
+            "lyrics": "\u015awiat\u0142a ulic wyznaczaj\u0105 szlak\nWyobra\u017cam sobie w g\u0142owie jak za dawnych lat\nPo zaj\u0119ciach p\u00f3jd\u0119 w\u0142a\u015bnie tam\nMiesi\u0105c ko\u0144czy si\u0119, no ale na jedno mnie sta\u0107",
+            "chorus": false
+        },
+        {
+            "chords": "d \nd A (A C Cis)\nd \nC G\nd \nC G",
+            "lyrics": "I nagle serce staje i a\u017c zapiera dech\n\u015awiat szybko wiruje, a ja pewna jestem, \u017ce\nWzi\u0119li zamkn\u0119li dzi\u015b m\u00f3j ulubiony klub\nPod drzwiami ludzi t\u0142um ju\u017c nie zabaluj\u0119 tu\nOkna zabite, techno nie poleci ju\u017c\nNa blacie gruby kurz, a my nie zata\u0144czymy tu\n",
+            "chorus": true
+        }
+    ]
+}
