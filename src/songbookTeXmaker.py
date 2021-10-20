@@ -8,7 +8,6 @@ import aiofiles
 from src import headerconfig as headerconfig
 
 from src.tools.chordShift import shiftChords
-from src.tools.ResourcePath import resource_path
 from src.tools.codings import enUTF8, deUTF8
 
 from src.obj.Config import config
@@ -130,7 +129,7 @@ class Song:
 
 async def copyHeader(headerFilename, songbookFilename):
     async with aiofiles.open(songbookFilename, "wb") as songbookFile:
-        async with aiofiles.open(resource_path(headerFilename), "rb") as headerFile:
+        async with aiofiles.open(headerFilename, "rb") as headerFile:
             await songbookFile.write(await headerFile.read())
 
 def makeSongbookDict(songs):

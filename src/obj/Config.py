@@ -1,5 +1,4 @@
 import json
-from src.tools.ResourcePath import resource_path
 
 def enUTF8(st):
     return st.encode('utf-8')
@@ -58,6 +57,6 @@ class Configuration:
         self.author = titlePageSettings['author']
 
 
-config = Configuration(resource_path("config.json"))
+config = Configuration("config.json")
 
 
