@@ -148,13 +148,22 @@ async def getCategoriesConfig(configFilepath, songbookDict):
         cats_dict = {cat:cat for cat in sorted(songbookDict.keys(), key=plSortKey)}
     return cats_dict
 
-async def processCategoryFromDict(cat, songbookFile):
+async def processCategory(cat, songbookFile, ignoredSongs = None):
     keys = cat.songs.keys()
+    ignoredCount = 0
     for songKey in sorted(keys, key=plSortKey):
         song = cat.songs[songKey]
-        print("\t" + song.title)
-        await songbookFile.write(enUTF8(song.tex))
-    return len(keys)
+        if (cat.name, song.title) not in ignoredSongs:
+            print("\t" + song.title)
+            await songbookFile.write(enUTF8(song.tex))
+        else:
+            ignoredCount += 1
+    return len(keys) - ignoredCount
+
+async def processSingleSong(song, songbookFile):
+    print("\t" + song.title)
+    await songbookFile.write(enUTF8(song.tex))
+    return 1
 
 def main():
     return asyncio.run(_asyncMain())
@@ -181,7 +190,9 @@ async def _asyncMain():
 
     async with aiofiles.open(texOutFile, "ab") as songbookFile:
 
-        songCount += await processCategoryFromDict(songbookDict["Title"], songbookFile)
+        titleSongs = [("Turystyczne", "Hawiarska Koliba")]
+        for titleSong in titleSongs:
+            songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)
         
         await songbookFile.write(enUTF8("\\tableofcontents\n"))
 
@@ -189,7 +200,7 @@ async def _asyncMain():
             if cat != "Title":
                 print(cat)
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
-                songCount += await processCategoryFromDict(songbookDict[cat], songbookFile)
+                songCount += await processCategory(songbookDict[cat], songbookFile, titleSongs)
 
         await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}_list.toc}}\n}}{{}}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
