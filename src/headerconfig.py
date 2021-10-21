@@ -27,9 +27,12 @@ def minorSettings():
 def geometry(form, width, height, horizontal, vertical, sides):
     return f"\\geometry{{\n {form},\n total={{{width}mm,{height}mm}},\n {'inner' if sides == 'twoside' else 'left'}={horizontal}mm,\n top={vertical}mm,\n }}\n\n"
 
+def beginDoc():
+    return "\\begin{document}\n\n"
+
 def minorSettings2():
-    return "\\begin{document}\n\n" + makeTitle() +"\\newenvironment{chorus}{\\begin{adjustwidth}{2cm}{}}{\\end{adjustwidth}}\n\n"
-    
+    return "\\newenvironment{chorus}{\\begin{adjustwidth}{2cm}{}}{\\end{adjustwidth}}\n\n"
+
 def font():
     return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n"
 
@@ -37,7 +40,12 @@ def toc():
     return "\\renewcommand{\\contentsname}{Spis treści}\n"
 
 def titleSettings():
-    return f"\\title{{{config.title}}}\n\\date{{{config.date}}}\n\\author{{{config.author}}}\n\n"
+    onePercentHack = "\\vspace{0.40\\textheight} 1 \% podatku dla “Hawiarskiej Koliby”\\\\\n" + \
+    "Numer KRS 0000083727\\\\\n" + \
+    "Z dopiskiem:\\\\\n" + \
+    "Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\\\\n" + \
+    "Dziękujemy!"
+    return f"\\title{{{config.title}}}\n\\date{{{onePercentHack}}}\n\\author{{{config.author}}}\n\n"
 
 def makeTitle():
     return "\\begin{titlepage}\n\\maketitle\n\\end{titlepage}\n\n"
@@ -58,6 +66,8 @@ def assembleHeader():
     header += minorSettings()
     header += geometry(form = form, width = width, height = height, horizontal = horizontal, vertical = vertical, sides = sides)
     header += titleSettings()
+    header += beginDoc()
+    header += makeTitle()
     header += minorSettings2()
     header += font()
     header += toc()
@@ -65,8 +75,8 @@ def assembleHeader():
 
 def main():
     with open(os.path.join(config.dataFolder, config.latexHeaderFile), "wb") as headerFile:
-        headerFile.write(assembleHeader().encode("utf-8"))
-
+       headerFile.write(assembleHeader().encode("utf-8"))
+    pass
 
 if __name__=="__main__":
     main()

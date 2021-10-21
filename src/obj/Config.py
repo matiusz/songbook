@@ -52,7 +52,7 @@ class Configuration:
 
         self.title = titlePageSettings['title']
 
-        self.date = titlePageSettings['date']
+        #self.date = titlePageSettings['date']
 
         self.author = titlePageSettings['author']
 

@@ -34,7 +34,11 @@
  }
 
 \title{Śpiewnik Hawiarskiej Koliby}
-\date{Grudzień 2021}
+\date{\vspace{0.40\textheight} 1 \% podatku dla “Hawiarskiej Koliby”\\
+Numer KRS 0000083727\\
+Z dopiskiem:\\
+Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\
+Dziękujemy!}
 \author{}
 
 \begin{document}
