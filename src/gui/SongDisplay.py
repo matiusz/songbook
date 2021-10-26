@@ -13,7 +13,7 @@ class QScrollableSongDisplay(QScrollArea):
         self.song = QSong(self)
         self.setBackgroundRole(QPalette.Base)
         self.setAutoFillBackground(True)
-        self.setGeometry(400, 50, 700, 900)
+        self.setGeometry(400, 50, 1300, 900)
         self.setWindowTitle(songTitle)
         self.setWidget(self.song)
         self.setWidgetResizable(True)
@@ -67,7 +67,7 @@ class QSong(QWidget):
         self.resizeOffset += -1
         self.resizeSections()
     def resizeSections(self):
-        [section.resize(15+self.resizeOffset) for section in self.sections]
+        [section.resize(25+self.resizeOffset) for section in self.sections]
 
     def shiftUp(self):
         self.shiftChords(1)

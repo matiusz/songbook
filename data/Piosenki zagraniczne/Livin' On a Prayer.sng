@@ -1,0 +1,37 @@
+{
+    "title": "Livin' On a Prayer",
+    "author": "Bon Jovi",
+    "category": "Piosenki zagraniczne",
+    "sections": [
+        {
+            "chords": "e e2 e\ne C D\ne e2 e\ne C D",
+            "lyrics": "Tommy used to work on the docks, union's been on strike\nHe's down on his luck, it's tough, so tough\nGina works the diner all day working for her man\nShe brings home her pay, for love, for love",
+            "chorus": false
+        },
+        {
+            "chords": "e C D\ne C D\ne C D\ne C D",
+            "lyrics": "She says, we've got to hold on to what we've got\nIt doesn't make a difference if we make it or not\nWe've got each other and that's a lot for love\nWe'll give it a shot",
+            "chorus": true
+        },
+        {
+            "chords": "e C D\nG C D\ne C D\nG C D",
+            "lyrics": "Woah, we're half way there\nWoah, livin' on a prayer\nTake my hand, we'll make it I swear\nWoah, livin' on a prayer",
+            "chorus": true
+        },
+        {
+            "chords": "e e2 e\ne C D e\ne e2 e\ne C D e",
+            "lyrics": "Tommy's got his six-string in hock\nNow he's holding in what he used to make it talk\nSo tough, it's tough\nGina dreams of running away\nWhen she cries in the night, Tommy whispers\nBaby, it's okay, someday",
+            "chorus": false
+        },
+        {
+            "chords": "e C D\ne C D\ne C D\ne C D",
+            "lyrics": "We've got to hold on to what we've got\nIt doesn't make a difference if we make it or not\nWe've got each other and that's a lot for love\nWe'll give it a shot",
+            "chorus": true
+        },
+        {
+            "chords": "e C D\nG C D\ne C D\nG C D",
+            "lyrics": "Woah, we're half way there\nWoah, livin' on a prayer\nTake my hand, we'll make it I swear\nWoah, livin' on a prayer\nLivin' on a prayer",
+            "chorus": true
+        }
+    ]
+}

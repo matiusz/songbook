@@ -1,0 +1,57 @@
+{
+    "title": "Englishman in New York",
+    "author": "Sting",
+    "category": "Piosenki zagraniczne",
+    "sections": [
+        {
+            "chords": "e A h h7",
+            "lyrics": "I don't drink coffee, I take tea, my dear\nI like my toast done on one side\nAnd you can hear it in my accent when I talk\nI'm an Englishman in New York",
+            "chorus": false
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "See me walking down Fifth Avenue\nA walking cane here at my side\nI take it everywhere I walk\nI'm an Englishman in New York",
+            "chorus": false
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "I'm an alien, I'm a legal alien\nI'm an Englishman in New York\nI'm an alien, I'm a legal alien\nI'm an Englishman in New York",
+            "chorus": true
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "If \"Manners maketh man\",\nas someone said\nThen he's the hero of the day\nIt takes a man to suffer ignorance and smile\nBe yourself no matter what they say",
+            "chorus": false
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "I'm an alien, I'm a legal alien\nI'm an Englishman in New York\nI'm an alien, I'm a legal alien\nI'm an Englishman in New York",
+            "chorus": true
+        },
+        {
+            "chords": "D A A7\nfis fis7 F\nG A\nG fis",
+            "lyrics": "Modesty, propriety can lead to notoriety\nYou could end up as the only one\nGentleness, sobriety are rare in this society\nAt night a candle's brighter than the sun",
+            "chorus": false
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "Takes more than combat gear to make a man\nTakes more than a licence for a gun\nConfront your enemies,\navoid them when you can\nA gentleman will walk but never run\n",
+            "chorus": false
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "If \"Manners maketh man\",\nas someone said\nThen he's the hero of the day\nIt takes a man to suffer ignorance and smile\nBe yourself no matter what they say",
+            "chorus": false
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "Be yourself no matter what they say (x3)",
+            "chorus": false
+        },
+        {
+            "chords": "e A h h7",
+            "lyrics": "I'm an alien, I'm a legal alien\nI'm an Englishman in New York\nI'm an alien, I'm a legal alien\nI'm an Englishman in New York",
+            "chorus": true
+        }
+    ]
+}
