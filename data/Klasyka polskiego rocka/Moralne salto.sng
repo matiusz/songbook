@@ -1,0 +1,42 @@
+{
+    "title": "Moralne salto",
+    "author": " Strachy na lachy",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "e h7 e h7 e \ne h7 C h7 e \ne h7 e h7 e \ne h7 C h7 e",
+            "lyrics": "Z krucyfiksu co noc patrzy si\u0119 na ni\u0105 \nKiedy sk\u0142ada na p\u00f3\u0142 sukienk\u0119 tani\u0105 \nNie powie nic kiedy zn\u00f3w w\u0142o\u017cy j\u0105 rano \nWszystko ju\u017c o niej wie tani str\u00f3\u017c anio\u0142 ",
+            "chorus": false
+        },
+        {
+            "chords": "e h7 e h7 e \ne h7 C h7 e \ne h7 e h7 e \ne h7 C h7 e",
+            "lyrics": "Drugi rok stoi tam za firank\u0105 \nNie wybaczy mu \u017ce on poszed\u0142 z tamt\u0105 \nWyla\u0142o si\u0119 na st\u00f3\u0142 moralne salto \nSmutna historia ta z dominant\u0105 ",
+            "chorus": false
+        },
+        {
+            "chords": "G D e\ne C h7 e\nG D e\ne C \nh7 e\nG D e\ne C \nh7 e\nG D e\ne C h7 e\nG D e\ne C h7 e",
+            "lyrics": "Sn\u00f3w dziwnych jej pi\u0119\u0107\nJak palc\u00f3w jest pi\u0119\u0107 u d\u0142oni ka\u017cdej \n\u015aciera sw\u00f3j u\u015bmiech ze starych zdj\u0119\u0107\nJego u\u015bmiechu cz\u0119\u015b\u0107\nG\u0142odne oczy nakarmi\nDobrze wie ju\u017c \u017ce my\nSi\u0119 nie dzieli przez trzy\nZ m\u0142odszymi kole\u017cankami\nJe\u015bli ju\u017c kto\u015b dzi\u015b puka w jej drzwi \nTo z ca\u0142ych si\u0142 tylko przeci\u0105g \nPrzeci\u0105g trzaska z\u0142udzeniami \nPrzeci\u0105g trzaska z\u0142udzeniami ",
+            "chorus": true
+        },
+        {
+            "chords": "e h7 e h7 e \ne h7 C h7 e \ne h7 e h7 e \ne h7 C h7 e",
+            "lyrics": "Mocniej wtuli si\u0119 w koc w czarnej godzinie \nNie policzy tych \u0142ez zosta\u0142y w kinie \nPo\u017cegna j\u0105 dym ze \u015bwiec popi\u00f3\u0142 w kominie \nZ krzy\u017ca zszed\u0142 dzi\u015b w t\u0119 noc nie b\u0119dzie przy niej ",
+            "chorus": false
+        },
+        {
+            "chords": "G D e\ne C h7 e\nG D e\ne C h7 e\nG D e\ne C h7 e\nG D e\ne C h7 e",
+            "lyrics": "Ona coraz \u015bmielsz\u0105 ma ch\u0119\u0107 \nW kuchni palnik z gazem \nSama sobie wydaje si\u0119 t\u0142em \ni \u017cycie jej puszcza si\u0119 p\u0142azem \nOna przeklina ten dzie\u0144 \nI siebie przed o\u0142tarzem \nNie pytaj mnie sk\u0105d o tym wiem \nOpowiem ci o tym innym razem... ",
+            "chorus": true
+        },
+        {
+            "chords": "",
+            "lyrics": "Sn\u00f3w dziwnych jej pi\u0119\u0107 \u2026",
+            "chorus": true
+        },
+        {
+            "chords": "G D e\nG D e",
+            "lyrics": "Nie fajnie jej z tym\nnie pytaj czy jej fajnie ",
+            "chorus": false
+        }
+    ]
+}

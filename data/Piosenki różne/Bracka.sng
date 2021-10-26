@@ -1,0 +1,47 @@
+{
+    "title": "Bracka",
+    "author": "Grzegorz Turnau",
+    "category": "Piosenki r\u00f3\u017cne",
+    "sections": [
+        {
+            "chords": "gis Fis\nH E\nG D A a2 a\nD G\nH e\nF E",
+            "lyrics": "Na p\u00f3\u0142nocy \u015bci\u0105\u0142 mr\u00f3z\nZ nieba spad\u0142 wielki w\u00f3z\nPrzykry\u0142 drogi pola i lasy\nMy\u015bli zmarz\u0142y na l\u00f3d\nDobre sny zmorzy\u0142 g\u0142\u00f3d\nLecz przynajmniej si\u0119 mo\u017cna przestraszy\u0107",
+            "chorus": false
+        },
+        {
+            "chords": "gis Fis\nH E\nG D A a2 a\nD G\nH e\nF E",
+            "lyrics": "Na po\u0142udniu ju\u017c skwar\nMi\u0119kki puch z nieba zdar\u0142\nKruchy pejza\u017c na piasek przepali\u0142\nJak upalnie m\u00f3j bo\u017ce\nLecz przynajmniej by\u0107 mo\u017ce\nWreszcie by\u015bmy si\u0119 tam zakochali",
+            "chorus": false
+        },
+        {
+            "chords": "a G F G\nF G d B\na G F G\nF G d B\na G F G",
+            "lyrics": "A w Krakowie na Brackiej pada deszcz\nGdy konieczno\u015b\u0107 istnienia trudna jest do zniesienia\nW korytarzu i w kuchni pada te\u017c\nPrzyklejony do \u015bciany zwijam mokre dywany\nNie od deszczu mokre lecz od \u0142ez",
+            "chorus": true
+        },
+        {
+            "chords": "gis Fis\nH E\nG D A a2 a\nD G\nH e\nF E",
+            "lyrics": "Na zachodzie ju\u017c noc\nWci\u0105gasz g\u0142ow\u0119 pod koc\nRaz zasypiasz i sprawa jest czysta\nD\u0142onie zaple\u0107 i z\u0142\u00f3\u017c\nNie obudzisz si\u0119 ju\u017c\nLecz przynajmniej raz mo\u017cesz si\u0119 wyspa\u0107",
+            "chorus": false
+        },
+        {
+            "chords": "gis Fis\nH E\nG D A a2 a\nD G\nH e\nF E",
+            "lyrics": "Je\u015bli wra\u017ce\u0144 ci\u0119 g\u0142\u00f3d\nZagna kiedy\u015b na wsch\u00f3d\nNie za d\u0142ugo tam chyba wytrzymasz\nLecz na wschodzie przynajmniej \u017cycie p\u0142ynie zwyczajnie\nS\u0142o\u0144ce wschodzi i dzie\u0144 si\u0119 zaczyna",
+            "chorus": false
+        },
+        {
+            "chords": "a G F G\nF G d B\na G F G\nF G d B\na G F G",
+            "lyrics": "A w Krakowie na Brackiej pada deszcz\nPrzem\u0119czony i senny zlew przecieka kuchenny\nKaloryfer jak mysz si\u0119 poci te\u017c\nZ g\u00f3ry na d\u00f3\u0142 ka\u0142u\u017ce przep\u0142ywaj\u0105 po sznurze\nNie od deszczu mokrym lecz od \u0142ez",
+            "chorus": true
+        },
+        {
+            "chords": "a G F G\nF G d B\na G F G\nF G d B\na G F G",
+            "lyrics": "Bo w Krakowie na Brackiej pada deszcz\nGdy zagadka istnienia zmusza mnie do my\u015blenia\nW korytarzu i w kuchni pada te\u017c\nPrzyklejony do \u015bciany zwijam mokre dywany\nNie od deszczu mokre lecz od \u0142ez",
+            "chorus": true
+        },
+        {
+            "chords": "a G F G\na G F G\nF\nd a",
+            "lyrics": "Bo w Krakowie na brackiej pada deszcz\nBo w Krakowie na Brackiej pada\nPada deszcz\nPada deszcz",
+            "chorus": true
+        }
+    ]
+}

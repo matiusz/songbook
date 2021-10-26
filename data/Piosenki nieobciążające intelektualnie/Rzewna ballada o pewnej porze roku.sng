@@ -1,0 +1,42 @@
+{
+    "title": "Rzewna ballada o pewnej porze roku",
+    "author": "Potok s\u0142\u00f3w",
+    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "sections": [
+        {
+            "chords": "a C G D\na C G D\na C G D\na C G G D D",
+            "lyrics": "Lokator Krzy\u015b mnie spyta\u0142 dzi\u015b niewinnym ca\u0142kiem g\u0142osem\nCzy na ten weekend mo\u017ce si\u0119 gdzie\u015b w g\u00f3ry nie wynosz\u0119\nA zw\u0142aszcza czy zamierzam by\u0107 pi\u0105tkow\u0105 szczodr\u0105 noc\u0105\nMieszkanie wolne chcia\u0142by mie\u0107 no sami wiecie po co",
+            "chorus": false
+        },
+        {
+            "chords": "a C G D\na C G D\na C G D\na C G G D D",
+            "lyrics": "Wkurwia mnie wiosna, chyba ca\u0142y \u015bwiat\nMa z kim mie\u0107 orgazm, tylko nie ja\nWkurwia mnie wiosna, chyba ca\u0142y \u015bwiat\nMa z kim mie\u0107 orgazm, tylko nie ja",
+            "chorus": true
+        },
+        {
+            "chords": "a C G D\na C G D\na C G D\na C G G D D",
+            "lyrics": "Nie mog\u0119 psu\u0107 gdy taka chu\u0107 rozpiera mi koleg\u0119\nObmy\u015blam plan co robi\u0107 mam lecz kurwa ci\u0105gle nie wiem\nHej mamo mo\u017ce zjad\u0119 w dom ten pomys\u0142 mnie zachwyca\nA musisz synku? Mamo co? No wiesz, bo dzi\u015b rocznica",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Wkurwia mnie wiosna...",
+            "chorus": true
+        },
+        {
+            "chords": "a C G D\na C G D\na C G D\na C G G D D",
+            "lyrics": "Nie mog\u0119 tak gdy mama smak ma jeszcze i ochot\u0119\nLecz co ze sob\u0105 zrobi\u0107 mam by sko\u0144czy\u0107 trzeci\u0105 zwrotk\u0119\nWi\u0119c ci\u0119\u017cko my\u015bl\u0119, dymi m\u00f3zg, co\u015b nagle w g\u0142owie b\u0142yska\nBy znale\u017a\u0107 spok\u00f3j duszy swej wyruszam do Schroniska",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Wkurwia mnie wiosna...",
+            "chorus": true
+        },
+        {
+            "chords": "a C G D\na C G D\na C G D\na C G G D D",
+            "lyrics": "Po trasie Mariusz wita mnie hej co u ciebie stary\nNo nie uwierzysz w chacie dzi\u015b \u015bpi\u0105 chyba same pary\nPocieszam go my tr\u00f3jk\u0105t dzi\u015b, cho\u0107 rzecz to troch\u0119 przykra\nSiedzimy bowiem Mariusz, Ja, a trzecie jest p\u00f3\u0142 litra",
+            "chorus": false
+        }
+    ]
+}

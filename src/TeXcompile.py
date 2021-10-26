@@ -15,11 +15,14 @@ def main():
     ToCedit.main()
 
     os.system(texcompile)
+
+    ToCedit.main()
+    
     os.system(texcompile)
     #auxFiles = []
     auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk", 
                 f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls", 
-                f"{songbookTitle}.toc", f"{songbookTitle}.out"]
+                f"{songbookTitle}_list.toc", f"{songbookTitle}.out"]
 
     for auxFil in auxFiles:
         try:

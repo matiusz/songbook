@@ -1,0 +1,37 @@
+{
+    "title": "Wiewi\u00f3rka",
+    "author": "s\u0142. Zbigniew Stefa\u0144ski, muz. Jan Stefa\u0144ski, Zbigniew Stefa\u0144ski",
+    "category": "Turystyczne",
+    "sections": [
+        {
+            "chords": "d a\nC\nd a\nd a\nF G a\nF G a\nF G a\nF G a",
+            "lyrics": "\u015amiech ze \u0142zami pomieszany\nIle\u017c w tobie niepokoju\nZnowu dzi\u015b na \u015bnieg wybieg\u0142a\u015b\nWe\u017a przynajmniej palto swoje\nPy\u0142em \u015bnie\u017cnym przypr\u00f3szona\nNatychmiast mi si\u0119 wyda\u0142a\u015b\nTaka cicha i bezbronna\nW wielkim \u015bwiecie taka ma\u0142a",
+            "chorus": false
+        },
+        {
+            "chords": "C G a\nF G a\nF G a\nF G a",
+            "lyrics": "Zobacz ko\u0144czy si\u0119 przedmie\u015bcie\nLas wyrasta bezszelestnie\nW pstrych wiewi\u00f3rek krz\u0105taninie\nPalto, palto za\u0142\u00f3\u017c wreszcie",
+            "chorus": true
+        },
+        {
+            "chords": "d a\nd a\nF G a\nF G a\nd a\nd a\nF G a\nF G a",
+            "lyrics": "Kto to widzia\u0142 tak po \u015bniegu\nW przedwieczornym mrozie biega\u0107\nW samym tylko cienkim swetrze\nW samych lekkich pantofelkach\nA ju\u017c nogi ci si\u0119 pl\u0105cz\u0105\nW\u0142osy okrywaj\u0105 szronem\nPewnie jutro b\u0119dziesz znowu\nZnowu przezi\u0119biona",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Zobacz ko\u0144czy si\u0119 przedmie\u015bcie...",
+            "chorus": true
+        },
+        {
+            "chords": "d a\nd a\nF G a",
+            "lyrics": "Staniesz oprzesz si\u0119 o drzewo\nSen nadejdzie nieproszony\nA las wo\u0142a \u2013 palto",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Zobacz ko\u0144czy si\u0119 przedmie\u015bcie...",
+            "chorus": true
+        }
+    ]
+}

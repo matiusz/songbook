@@ -10,8 +10,6 @@ from src.gui.SongList import ScrollAndSearchSongList
 
 from src.tools.openDefault import open_with_default_app
 
-from src.tools.ResourcePath import resource_path
-
 from src.obj.Config import config
 
 from src import TeXcompile, songbookTeXmaker
@@ -24,7 +22,7 @@ class MainMenu(QWidget):
         self.setWindowTitle('Songbook Maker')
 
         label = QLabel()
-        image = QPixmap(resource_path(os.path.join(config.dataFolder, config.appLogo)))
+        image = QPixmap(os.path.join(config.dataFolder, config.appLogo))
         if image:            
             label.setPixmap(image)
         else:

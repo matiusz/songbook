@@ -1,0 +1,32 @@
+{
+    "title": "Wojenka",
+    "author": "Lao Che",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "d a B\nB d C\nd a B\nB d C\nd a B\nB d C\nd a B\nB d C\nd a B\nB d C\n",
+            "lyrics": "Raz i dwa, raz i dwa \nDziewczynka Wojenka na imi\u0119 ma \nTrzy i cztery, trzy i cztery\nDziwne ona ma maniery\nPi\u0119\u0107 i sze\u015b\u0107, pi\u0119\u0107 i sze\u015b\u0107\nWcale lod\u00f3w nie chce je\u015b\u0107\nSiedem, osiem, siedem, osiem\nWci\u0105\u017c o ko\u015bci tylko prosi\nDziewi\u0119\u0107, dziesi\u0119\u0107, dziewi\u0119\u0107, dziesi\u0119\u0107\nKto z was ko\u015bci jej przyniesie\nMo\u017ce ja, mo\u017ce ty\nLicz od nowa: raz, dwa, trzy",
+            "chorus": false
+        },
+        {
+            "chords": "d\na\nd\na\nB\nd a B (B d C)",
+            "lyrics": "Gdyby do nas przysz\u0142a \nSk\u0142ama\u0142bym, \u017ce wysz\u0142a\u015b\n\u017be na \u015bwiat nie przysz\u0142a\u015b \nK\u0142ama\u0142bym jak popadnie \nCho\u0107 k\u0142ama\u0107, c\u00f3re\u0144ko \nNie\u0142adnie x3",
+            "chorus": true
+        },
+        {
+            "chords": "d a B\nB d C\nd a B\nB d C\nd a B\nB d C\nd a B\nB d C\nd a B\nB d C",
+            "lyrics": "Gdy doros\u0142y chmurny - marszczy brew\nWtedy wojna jest i sika krew\nWojna to sport, a sport to zdrowie\nSkoki do gard\u0142a i rzuty o\u0142owiem\nZawsze jest pow\u00f3d do u\u017cycia no\u017ca\nP\u0142ock \u017c\u0105da dost\u0119pu do morza\n\u017bo\u0142nierz na wojnie gnije w okopie\n\u017bona pisze: brzuch du\u017cy i ma\u0142y kopie\nMy\u015bli \u017co\u0142nierz - w dupie z wami /\nI waszymi wojnami / x3",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Gdyby do nas przysz\u0142a...",
+            "chorus": true
+        },
+        {
+            "chords": "d\na\nd\na B\nd a B (B d C)",
+            "lyrics": "Gdyby do nas przysz\u0142a \n\u017beby j\u0105 zaraza \u015bcis\u0142a \n\u017beby j\u0105 zabra\u0142a Wis\u0142a\nJak mnie s\u0142yszysz\nJa Wis\u0142a, Ja Wis\u0142a /x3",
+            "chorus": true
+        }
+    ]
+}

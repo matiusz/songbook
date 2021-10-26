@@ -8,18 +8,15 @@ import aiofiles
 from src import headerconfig as headerconfig
 
 from src.tools.chordShift import shiftChords
-from src.tools.ResourcePath import resource_path
+from src.tools.codings import enUTF8, deUTF8
 
 from src.obj.Config import config
 
-def enUTF8(st):
-    return st.encode('utf-8')
-def deUTF8(st):
-    return st.decode('utf-8')
+def isSongCategoryDir(dirname):
+    return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
 
-async def gatherAllCategories(dataFolderName):
-    tasks = [gatherSongs(dirpath) for dirname in os.listdir(dataFolderName) \
-        if os.path.isdir(dirpath := os.path.join(dataFolderName, dirname)) and not (dirname.startswith((".", "_")))]
+async def gatherAllCategories():
+    tasks = [gatherSongs(os.path.join(config.dataFolder, dirname)) for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
     categories = await asyncio.gather(*tasks)
     return categories
 
@@ -132,7 +129,7 @@ class Song:
 
 async def copyHeader(headerFilename, songbookFilename):
     async with aiofiles.open(songbookFilename, "wb") as songbookFile:
-        async with aiofiles.open(resource_path(headerFilename), "rb") as headerFile:
+        async with aiofiles.open(headerFilename, "rb") as headerFile:
             await songbookFile.write(await headerFile.read())
 
 def makeSongbookDict(songs):
@@ -151,13 +148,22 @@ async def getCategoriesConfig(configFilepath, songbookDict):
         cats_dict = {cat:cat for cat in sorted(songbookDict.keys(), key=plSortKey)}
     return cats_dict
 
-async def processCategoryFromDict(cat, songbookFile):
+async def processCategory(cat, songbookFile, ignoredSongs = None):
     keys = cat.songs.keys()
+    ignoredCount = 0
     for songKey in sorted(keys, key=plSortKey):
         song = cat.songs[songKey]
-        print("\t" + song.title)
-        await songbookFile.write(enUTF8(song.tex))
-    return len(keys)
+        if (cat.name, song.title) not in ignoredSongs:
+            print("\t" + song.title)
+            await songbookFile.write(enUTF8(song.tex))
+        else:
+            ignoredCount += 1
+    return len(keys) - ignoredCount
+
+async def processSingleSong(song, songbookFile):
+    print("\t" + song.title)
+    await songbookFile.write(enUTF8(song.tex))
+    return 1
 
 def main():
     return asyncio.run(_asyncMain())
@@ -169,7 +175,7 @@ async def _asyncMain():
 
     await copyHeader(os.path.join(config.dataFolder, config.latexHeaderFile), texOutFile)
     
-    gatheredSongs = await gatherAllCategories(config.dataFolder)
+    gatheredSongs = await gatherAllCategories()
 
     songbookDict = makeSongbookDict(gatheredSongs)
 
@@ -184,7 +190,9 @@ async def _asyncMain():
 
     async with aiofiles.open(texOutFile, "ab") as songbookFile:
 
-        songCount += await processCategoryFromDict(songbookDict["Title"], songbookFile)
+        titleSongs = [("Turystyczne", "Hawiarska Koliba")]
+        for titleSong in titleSongs:
+            songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)
         
         await songbookFile.write(enUTF8("\\tableofcontents\n"))
 
@@ -192,9 +200,9 @@ async def _asyncMain():
             if cat != "Title":
                 print(cat)
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
-                songCount += await processCategoryFromDict(songbookDict[cat], songbookFile)
+                songCount += await processCategory(songbookDict[cat], songbookFile, titleSongs)
 
-        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}.toc}}\n}}{{}}\n"))
+        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}_list.toc}}\n}}{{}}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
     print(f"Total number of songs: {songCount}")
     return texOutFile

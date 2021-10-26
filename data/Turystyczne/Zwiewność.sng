@@ -1,0 +1,37 @@
+{
+    "title": "Zwiewno\u015b\u0107",
+    "author": "s\u0142. Boles\u0142aw Le\u015bmian, muz. Zbigniew Stefa\u0144ski",
+    "category": "Turystyczne",
+    "sections": [
+        {
+            "chords": "e\nD\nC\nH7",
+            "lyrics": "Brz\u0119k muchy w pustym dzbanie co stoi na p\u00f3\u0142ce\nSmuga w oczach po znik\u0142ej za oknem jask\u00f3\u0142ce\nCie\u0144 r\u0119ki na murawie a wszystko niczyje\nLedwo si\u0119 zazieleni ju\u017c ufa \u017ce \u017cyje",
+            "chorus": false
+        },
+        {
+            "chords": "e\nD\nC\nH7",
+            "lyrics": "A jak dumnie si\u0119 modrzy u ciszy podn\u00f3\u017ca\nJak bu\u0144czucznie do boju z mg\u0142\u0105 si\u0119 napurpurza\nA jest go tak niewiele \u017ce mniej ni\u017c niebiesko\nNic pr\u00f3cz t\u0142a bia\u0142y ob\u0142ok z liliow\u0105 przekresk\u0105",
+            "chorus": true
+        },
+        {
+            "chords": "e\nD\nC\nH7",
+            "lyrics": "Dal \u015bwiata w \u015blepiach wr\u00f3bla spotkanie trwa z cia\u0142em\nSzmery w studni ja w lesie by\u0142e\u015b mg\u0142\u0105 - bywa\u0142em\nUsta twoje w alei \u015bwit pod grobl\u0105 w m\u0142ynie\nS\u0142o\u0144ce w bramie na o\u015bcie\u017c zgon pszcz\u00f3\u0142 w koniczynie",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A jak dumnie si\u0119 modrzy u ciszy podn\u00f3\u017ca...",
+            "chorus": true
+        },
+        {
+            "chords": "e\nD\nC\nH7",
+            "lyrics": "Ch\u00f3d po ziemi cz\u0142owieka co na widnokresie\nMalej\u0105c ma\u0142o zwiewn\u0105 g\u0119stw\u0119 cia\u0142a niesie\nI w tej g\u0119stwie si\u0119 modli i gmatwa co chwila\nI wyziera z g\u0119stwy w \u015bwiat i na motyla",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A jak dumnie si\u0119 modrzy u ciszy podn\u00f3\u017ca...",
+            "chorus": true
+        }
+    ]
+}
