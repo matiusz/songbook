@@ -4,17 +4,17 @@
     "sections": [
         {
             "chords": "a\nd\nE\nE E7\na\nd\nE\na",
-            "lyrics": "Ura ura ura\nCzapajew gieroj\nZa stalinu za rodinu\nNa boj na boj na boj\nZa mir, za mir, za mir a\nMy pajdiom na wraga d\nZa matuszku Rasiju E\nZa bialego cara",
+            "lyrics": "Ura ura ura\nCzapajew gieroj\nZa stalinu za rodinu\nNa boj na boj na boj\nZa mir, za mir, za mir \nMy pajdiom na wraga \nZa matuszku Rasiju \nZa bialego cara",
             "chorus": true
         },
         {
             "chords": "E a\nd\nE\nE E7\na d\nE a",
-            "lyrics": "I job twoju mat'\nMy kulturnyj narod\nMy giermancow nie boimsia\nI wsiegda idiom wpieriod!\nRassija, Rassija, Rassija maja\nTaka malie\u0144ka Polsza pobiedi\u0142a tiebia. E a",
+            "lyrics": "I job twoju mat'\nMy kulturnyj narod\nMy giermancow nie boimsia\nI wsiegda idiom wpieriod!\nRassija, Rassija, Rassija maja\nTaka malie\u0144ka Polsza pobiedi\u0142a tiebia.",
             "chorus": true
         },
         {
             "chords": "a\nd a\n/ d a\n/ E a A7 (Ea) x2",
-            "lyrics": "Kagda ja byl mal`cziszkoj, a\nNosil ja briuki-kliosz d a\nSalamiennuju szliapu | d a\nW karmanie finskij nozh | 2x E a A7 (Ea)",
+            "lyrics": "Kagda ja byl mal`cziszkoj, \nNosil ja briuki-kliosz\nSalamiennuju szliapu \nW karmanie finskij nozh ",
             "chorus": false
         },
         {
