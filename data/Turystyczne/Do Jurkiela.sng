@@ -1,0 +1,27 @@
+{
+    "title": "Do Jurkiela",
+    "author": "Potok s\u0142\u00f3w",
+    "category": "Turystyczne",
+    "sections": [
+        {
+            "chords": "G C D e\nC D G\nG C D e\nC D G",
+            "lyrics": "W Starym Porcie \u015bpiewasz do mnie ,,od Beskidu wiosna idzie'' \nA niech przyjdzie, chocia\u017c szczerze Ci si\u0119 przyznam \nBoje si\u0119 Zielonej Pani, co otwiera wszystkie drogi\nKa\u017cda z nich co nie przebyta, jest jak blizna",
+            "chorus": false
+        },
+        {
+            "chords": "G C D e\nC D G\nG C D e\nC D G",
+            "lyrics": "Przecie\u017c tyle mo\u017cliwo\u015bci, sytuacji, alternatyw\nNieprzespanych nocy i butelek wina\nTyle \u015bmiechu, tyle ognisk, wschod\u00f3w i zachod\u00f3w s\u0142o\u0144ca\nPrzecie\u017c tyle pi\u0119kna w \u017cyciu nas omija",
+            "chorus": true
+        },
+        {
+            "chords": "G C D e\nC D G\nG C D e\nC D G",
+            "lyrics": "Znasz na pewn\u0105 t\u0105 pokus\u0119, rzuci\u0107 wszystko i gdzie\u015b uciec\nW g\u00f3rach jest zupe\u0142nie inny \u017cycia klimat,\nLecz za s\u0142aby na to jestem, i dop\u00f3ki b\u0119d\u0119 taki\nP\u00f3ty prosz\u0119, niech zalega dalej zima...",
+            "chorus": false
+        },
+        {
+            "chords": "G C D e\nC D G\nG C D e\nC D G",
+            "lyrics": "Przecie\u017c tyle mo\u017cliwo\u015bci, sytuacji, alternatyw\nNieprzespanych nocy i butelek wina\nTyle \u015bmiechu, tyle ognisk, wschod\u00f3w i zachod\u00f3w s\u0142o\u0144ca\nPrzecie\u017c tyle pi\u0119kna w \u017cyciu nas omija",
+            "chorus": true
+        }
+    ]
+}

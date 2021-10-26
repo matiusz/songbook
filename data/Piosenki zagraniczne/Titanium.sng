@@ -1,0 +1,38 @@
+{
+    "title": "Titanium",
+    "author": "David Guetta",
+    "capo": "Capo II",
+    "category": "Piosenki zagraniczne",
+    "sections": [
+        {
+            "chords": "C G\na \nC G a\nC G a\nC G a",
+            "lyrics": "You shout it out\nBut I can't hear a word you say\nI'm talking loud, not saying much\nI'm criticized, but all your bullets ricochet\nShoot me down, but I get up",
+            "chorus": false
+        },
+        {
+            "chords": "F G e\na F\nG e\na F\nG e\na a2 F\nG e\na a2 F",
+            "lyrics": "I'm bulletproof, nothing to lose\nFire away, fire away\nRicochet, you take your aim\nFire away, fire away\nYou shoot me down, but I won't fall\nI am titanium\nYou shoot me down, but I won't fall\nI am titanium",
+            "chorus": true
+        },
+        {
+            "chords": "C G\na \nC G a\nC G a\nC G a",
+            "lyrics": "Cut me down\nBut it's you who'll have further to fall\nGhost town and haunted love\nRaise your voice\nSticks and stones may break my bones\nTalking loud, not saying much",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I'm bulletproof...",
+            "chorus": true
+        },
+        {
+            "chords": "F G e\na\nF G a",
+            "lyrics": "Stone-hard, machine gun\nFiring at the ones who run\nStone-hard as bulletproof glass",
+            "chorus": false
+        },
+        {
+            "chords": "G e\na a2 F",
+            "lyrics": "You shoot me down, but I won't fall\nI am titanium",
+            "chorus": true
+        }
+    ]
+}

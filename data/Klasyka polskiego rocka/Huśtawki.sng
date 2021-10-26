@@ -1,0 +1,42 @@
+{
+    "title": "Hu\u015btawki",
+    "author": "Kwiat Jab\u0142oni",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "D\nA\nh\nG\nA",
+            "lyrics": "A czy przyroda kolebka \nMy\u015bla\u0142a kiedy\u015b dok\u0142adnie \nNa co jej wielkie mamuty \nAni wygl\u0105da to \u0142adnie \nAni z nich sk\u00f3ra na buty",
+            "chorus": false
+        },
+        {
+            "chords": "D\nA\nh\nG\nA",
+            "lyrics": "Nie ma co pyta\u0107 koledzy\nRobi\u0142a i tak jej wysz\u0142o\nNikt nie wymy\u015bla\u0142 specjalnie\nTego w czym \u017cy\u0107 nam przysz\u0142o\nUprzedzam o tym lojalnie",
+            "chorus": false
+        },
+        {
+            "chords": "D\nA\nh\nG\nD\nA\nh\nG",
+            "lyrics": "Jeden jest rytm, jeden rytm\nJeden jest wydech i wdech\nNasy\u0107 si\u0119 r\u00f3wnym oddechem\nNasy\u0107 si\u0119 dzisiaj za trzech, bo\nRaz tylko dany ten czas\nAni on tw\u00f3j ani czyj\nZ czasem si\u0119 wszystko ustoi\n\u017byj na hu\u015btawce \u017cyj",
+            "chorus": true
+        },
+        {
+            "chords": "D\nA\nh\nG\nA",
+            "lyrics": "Nie skacz tak zaraz na szyny\nJeszcze nie o t\u0119 grasz stawk\u0119\nW weso\u0142ym miasteczku dziewczyny\nChc\u0105 z tob\u0105 i\u015b\u0107 na hu\u015btawk\u0119...\nLepiej ci b\u0119dzie nimi",
+            "chorus": false
+        },
+        {
+            "chords": "D\nA\nh\nG\nA",
+            "lyrics": "Pachnie tak mocno siano\nKwiaty si\u0119 gn\u0105 od motyli\nJe\u017adzi s\u0142o\u0144ce po niebie\n\u015awiat\u0142o ucieka, \u015blad myli\nMiasteczko czeka na ciebie",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Jeden jest rytm...\nRaz tylko dany...",
+            "chorus": true
+        },
+        {
+            "chords": "D\nA\nh\nG\nD\nA\nh\nG",
+            "lyrics": "Jeden jest rytm, jeden rytm\nJeden jest w\u0119giel i tlen\nZwyk\u0142\u0105 losu kolej\u0105\nPraca posi\u0142ek i sen\nJeden przypada na dzie\u0144\n\u015awit jeden i jeden zmrok\nPierwsi si\u0119 \u0142udz\u0105 nadziej\u0105\nA drudzy r\u00f3wnaj\u0105 krok\n",
+            "chorus": true
+        }
+    ]
+}

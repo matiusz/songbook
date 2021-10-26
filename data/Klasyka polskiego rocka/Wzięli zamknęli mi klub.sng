@@ -19,8 +19,13 @@
             "chorus": false
         },
         {
-            "chords": "d \nd A (A C Cis)\nd \nC G\nd \nC G",
-            "lyrics": "I nagle serce staje i a\u017c zapiera dech\n\u015awiat szybko wiruje, a ja pewna jestem, \u017ce\nWzi\u0119li zamkn\u0119li dzi\u015b m\u00f3j ulubiony klub\nPod drzwiami ludzi t\u0142um ju\u017c nie zabaluj\u0119 tu\nOkna zabite, techno nie poleci ju\u017c\nNa blacie gruby kurz, a my nie zata\u0144czymy tu\n",
+            "chords": "",
+            "lyrics": "I nagle serce staje...\n",
+            "chorus": true
+        },
+        {
+            "chords": "d \nC G\nd \nC G",
+            "lyrics": "Wzi\u0119li zamkn\u0119li dzi\u015b m\u00f3j ulubiony klub\nPod drzwiami ludzi t\u0142um ju\u017c si\u0119 nie napije tu\nOkna otwart, fleta nie us\u0142yszysz ju\u017c\nNa blacie gruby kurz, do Rio nie p\u0142yniemy tu\n",
             "chorus": true
         }
     ]

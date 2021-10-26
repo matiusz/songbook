@@ -1,0 +1,37 @@
+{
+    "title": "Cykady Na Cykladach",
+    "author": "Maanam",
+    "category": "Klasyka polskiego rocka",
+    "sections": [
+        {
+            "chords": "fis\ne\nh\nfis",
+            "lyrics": "Jest bardzo bardzo, bardzo cicho, \nS\u0142o\u0144ce rozpala nagie cia\u0142a. \nMorze i niebo ostro l\u015bni, \nDobrze mi, ach jak dobrze mi. ",
+            "chorus": false
+        },
+        {
+            "chords": "fis\ne\nh\nfis",
+            "lyrics": "Jem s\u0142odkie, s\u0142odkie winogrona,\nTy \u015bpisz w moich, moich ramionach.\nMorze i niebo ostro l\u015bni,\nDobrze mi, ach jak dobrze mi.",
+            "chorus": false
+        },
+        {
+            "chords": "A D E E\nA D E E\nA D E E D5 Cis5 H5\nA D h E",
+            "lyrics": "Cykady na Cykladach, \nCykady na Cykladach. \nW nocy, gdy gwiazdy spadaj\u0105, \ndyskoteka gra",
+            "chorus": true
+        },
+        {
+            "chords": "fis\ne\nh\nfis",
+            "lyrics": "Przez bardzo, bardzo kr\u00f3tk\u0105 chwil\u0119,\nDooko\u0142a widz\u0119 r\u00f3j motyli.\nStopy mam takie gor\u0105ce,\nGor\u0105ce w ustach s\u0142o\u0144ce.",
+            "chorus": false
+        },
+        {
+            "chords": "fis\ne\nh\nfis",
+            "lyrics": "Jem s\u0142odkie, s\u0142odkie winogrona,\nTy \u015bpisz w moich, moich ramionach.\nMorze i niebo ostro l\u015bni,\nDobrze mi, ach jak dobrze mi.\n",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Cykady na Cykladach...",
+            "chorus": true
+        }
+    ]
+}
