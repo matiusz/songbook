@@ -20,6 +20,7 @@ tex.py
 texput.log
 39venv/
 output/
+dataHK/
 songbook_list.toc
 a_py_2_exe_config.json
 Flat-Icons.com-Flat-Guitar.ico
