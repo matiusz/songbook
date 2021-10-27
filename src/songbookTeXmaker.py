@@ -65,7 +65,7 @@ class Song:
         self.category = self.dict['category']
     @property
     def tex(self):
-        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.8,0.2}}\n\\rmfamily"
+        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.75,0.25}}\n\\rmfamily"
         try:
             author = self.dict['author']
             songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
@@ -97,7 +97,7 @@ class Song:
             chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "))
         else:
             chords, l2 = "", 0
-        songStr = f"\n\\ensurevspace{{{max(l1, l2)}\\baselineskip}}\n"
+        songStr = f"\n\\ensurevspace{{{max(l1, l2)+2}\\baselineskip}}\n"
         songStr += "\\begin{leftcolumn*}\n"
         if section['chorus']:
             lyrics = self.chorusWrapper(lyrics)

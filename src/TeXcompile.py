@@ -20,7 +20,7 @@ def main():
     
     os.system(texcompile)
     #auxFiles = []
-    auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk", 
+    auxFiles = [f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk", 
                 f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls", 
                 f"{songbookTitle}_list.toc", f"{songbookTitle}.out"]
 
