@@ -14,7 +14,7 @@
             "chorus": false
         },
         {
-            "chords": "F C d E\nC H7 E\nF C d E\nF H7 E",
+            "chords": "F C d E\nC G H7 E\nF C d E\nF E",
             "lyrics": "Orawo wiatrem malowany dach\nCiupagami wysrebrzony na smrekowych pniach\nOrawo wiatrem malowany dom\nGdzie zb\u00f3jnickie \u015bpiewogrania po kolebach \u015bpi\u0105",
             "chorus": true
         },
@@ -24,7 +24,7 @@
             "chorus": false
         },
         {
-            "chords": "F C d E\nC H7 E\nF C d E\nF H7 E",
+            "chords": "F C d E\nC G H7 E\nF C d E\nF E",
             "lyrics": "Orawo wiatrem malowany dach\nCiupagami wysrebrzony na smrekowych pniach\nOrawo wiatrem malowany dom\nGdzie zb\u00f3jnickie \u015bpiewogrania po kolebach \u015bpi\u0105",
             "chorus": true
         }
