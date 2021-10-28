@@ -1,15 +1,15 @@
 {
-    "title": "W\u0119drujemy",
+    "title": "W\u0119drujemy (Dwa Swiaty)",
     "author": "Na Bani",
     "category": "Turystyczne",
     "sections": [
         {
-            "chords": "a2\na2 fis F a2\na2\na2 fis F a2",
+            "chords": "A9\nA9 fis F A9\nA9\nA9 fis F A9",
             "lyrics": "W\u0119druj\u0119 \u015bcie\u017ck\u0105 od ciebie do ciebie\nCho\u0107 droga prowadzi tylko przez g\u00f3ry\nPrzez \u015bwiat zatopiony wierzcho\u0142kami w niebie\nDwa \u015bwiaty znam - lecz ten m\u00f3j to kt\u00f3ry?",
             "chorus": false
         },
         {
-            "chords": "D E7\na2 fis F a2\nD E7\na2 fis F a2",
+            "chords": "D E7\nA9 fis F A9\nD E7\nA9 fis F A9",
             "lyrics": "G\u00f3ry rozpad\u0142y si\u0119 w stos fotografii\nPoprzecinane w\u0105wozami miasta\nAle ty m\u00f3j \u015bwiat u\u0142o\u017cy\u0107 potrafisz\nI \u015bwiat zn\u00f3w zaczyna w g\u00f3ry si\u0119 zrasta\u0107",
             "chorus": false
         },
@@ -24,12 +24,12 @@
             "chorus": true
         },
         {
-            "chords": "a2\na2 fis F a2\na2\na2 fis F a2",
+            "chords": "A9\nA9 fis F A9\nA9\nA9 fis F A9",
             "lyrics": "W\u0119druj\u0119 \u015bcie\u017ck\u0105 od ciebie do ciebie\nCho\u0107 nie ma ju\u017c drogi poza g\u00f3rami\nJu\u017c poza tob\u0105 \u015bwiata nie dostrzegam\nZawieszony mi\u0119dzy dwoma \u015bwiatami",
             "chorus": false
         },
         {
-            "chords": "D E7\na2 fis F a2\nD E7\na2 fis F a2",
+            "chords": "D E7\nA9 fis F A9\nD E7\nA9 fis F A9",
             "lyrics": "T\u0119skni\u0119 za tob\u0105 na pustych szczytach\nLecz m\u00f3j wzrok nie si\u0119ga w doliny\nU \u015bwiata kraw\u0119dzi z chmur sk\u0142\u0119bionych czytam\n\u015awiat na tobie si\u0119 ko\u0144czy, na tobie zaczyna",
             "chorus": false
         }
