@@ -1,0 +1,52 @@
+{
+    "title": "Jolene",
+    "author": "Dolly Parton",
+    "category": "Piosenki zagraniczne",
+    "sections": [
+        {
+            "chords": "a C G a\nG a\na C G a\nG a",
+            "lyrics": "Jolene, Jolene, Jolene, Jolene\nI'm begging of you please don't take my man\nJolene, Jolene, Jolene, Jolene\nPlease don't take him just because you can",
+            "chorus": true
+        },
+        {
+            "chords": "a C\nG a",
+            "lyrics": "Your beauty is beyond compare\nWith flaming locks of auburn hair\nWith ivory skin and eyes of emerald green",
+            "chorus": false
+        },
+        {
+            "chords": "a C\nG a",
+            "lyrics": "Your smile is like a breath of spring\nYou voice is soft like summer rain\nAnd I cannot compete with you, Jolene",
+            "chorus": false
+        },
+        {
+            "chords": "a C\nG a",
+            "lyrics": "He talks about you in his sleep\nThere's nothing I can do to keep\nFrom crying when he calls your name, Jolene",
+            "chorus": false
+        },
+        {
+            "chords": "a C\nG a",
+            "lyrics": "And I can easily understand\nHow you could easily take my man\nBut you don't know what he means to me, Jolene",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Jolene, Jolene...",
+            "chorus": true
+        },
+        {
+            "chords": "a C\nG a",
+            "lyrics": "You could have your choice of men\nBut I could never love again\nHe's the only one for me, Jolene",
+            "chorus": false
+        },
+        {
+            "chords": "a C\nG a",
+            "lyrics": "I had to have this talk with you\nMy happiness depends on you\nAnd whatever you decide to do, Jolene",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Jolene, Jolene...",
+            "chorus": true
+        }
+    ]
+}
