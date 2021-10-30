@@ -1,0 +1,32 @@
+{
+    "title": "Dzi\u0119ki",
+    "author": "tekst Mateusz Szwed, muz. Artur Wyrwol",
+    "category": "Turystyczne",
+    "sections": [
+        {
+            "chords": "a a D C G",
+            "lyrics": "",
+            "chorus": false
+        },
+        {
+            "chords": "F C G\nF C G\nF C G\nF C G",
+            "lyrics": "Dzi\u0119ki Wam g\u00f3ry za te cudne wspomnienia,\nDzi\u0119ki Ci ogniu, za ten cudny czar,\nDzi\u0119ki Ci wodo, \u017ce gasisz pragnienie,\nDzi\u0119ki wam wszystkim, za ten dar.",
+            "chorus": true
+        },
+        {
+            "chords": "(G)\na a \nD C G\na a\nD C G",
+            "lyrics": "Za to, \u017ce mog\u0119...\nRzuci\u0107 to szare, smutne miasto,\nRzuci\u0107 ten milcz\u0105cy zgie\u0142k,\nWzniecic na nowo, to co w Nas zgas\u0142o,\nWyruszy\u0107 tam gdzie s\u0142ycha\u0107 \u015bpiew",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Dzi\u0119ki wam g\u00f3ry...",
+            "chorus": true
+        },
+        {
+            "chords": "(G)\na a \nD C G\na a\nD C G",
+            "lyrics": "Za to, \u017ce mog\u0119...\nBos\u0105 stop\u0105 poczu\u0107 ziemi\u0119,\nZasn\u0105\u0107 tam, gdzie \u017cyj\u0105 sny.\nPo\u015br\u00f3d ciszy zagra\u0107 Siebie,\nWtuli\u0107 w ko\u0142nierz g\u00f3rskiej mg\u0142y",
+            "chorus": false
+        }
+    ]
+}
