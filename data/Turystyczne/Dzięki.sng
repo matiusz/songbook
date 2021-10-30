@@ -27,6 +27,11 @@
             "chords": "(G)\na a \nD C G\na a\nD C G",
             "lyrics": "Za to, \u017ce mog\u0119...\nBos\u0105 stop\u0105 poczu\u0107 ziemi\u0119,\nZasn\u0105\u0107 tam, gdzie \u017cyj\u0105 sny.\nPo\u015br\u00f3d ciszy zagra\u0107 Siebie,\nWtuli\u0107 w ko\u0142nierz g\u00f3rskiej mg\u0142y",
             "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Dzi\u0119ki wam g\u00f3ry...",
+            "chorus": true
         }
     ]
 }
