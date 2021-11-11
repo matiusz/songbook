@@ -7,7 +7,7 @@
   ## Usage
 
   ```
-  python3 songbook.pdf
+  python3 songbook.py
   ```
 
   ## Configuration
