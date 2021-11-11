@@ -202,7 +202,7 @@ async def _asyncMain():
         for titleSong in titleSongs:
             songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)
         
-        await songbookFile.write(enUTF8("\\tableofcontents\n"))
+        await songbookFile.write(enUTF8("\n\t\\chapter*{Spis treści}\n\\begin{multicols}{2}\n\\tableofcontents\n\\end{multicols}\n"))
 
         for cat in cats.keys():
             if cat != "Title":
@@ -210,7 +210,7 @@ async def _asyncMain():
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
                 songCount += await processCategory(songbookDict[cat], songbookFile, titleSongs)
 
-        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}_list.toc}}\n}}{{}}\n"))
+        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\\begin{{multicols}}{{2}}\n\t\\input{{{config.outputFile}_list.toc}}\n\\end{{multicols}}\n}}{{}}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
     print(f"Total number of songs: {songCount}")
     return texOutFile

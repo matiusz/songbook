@@ -8,6 +8,7 @@
 \usepackage{changepage}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{multicol}
 
 \hypersetup{
     hidelinks,
@@ -52,4 +53,4 @@ Dziękujemy!}
 \renewcommand{\rmdefault}{ptm}
 \renewcommand{\ttdefault}{zi4}
 
-\renewcommand{\contentsname}{Spis treści}
+\renewcommand{\contentsname}{\vspace*{-104pt}}
