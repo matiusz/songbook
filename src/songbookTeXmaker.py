@@ -1,10 +1,11 @@
 import os
 import json
 import re
+
 from src.tools.plAlphabetSort import plSortKey
 import asyncio
 import aiofiles
-
+    
 from src import headerconfig as headerconfig
 
 from src.tools.chordShift import shiftChords
@@ -12,19 +13,23 @@ from src.tools.codings import enUTF8, deUTF8
 
 from src.obj.Config import config
 
+
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
 
-async def gatherAllCategories():
-    tasks = [gatherSongs(os.path.join(config.dataFolder, dirname)) for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
+async def gatherAllCategories(sem):
+    tasks = [gatherSongs(os.path.join(config.dataFolder, dirname), sem) for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
     categories = await asyncio.gather(*tasks)
     return categories
 
-async def gatherSongs(dirpath):
-    tasks = [Song.load(os.path.join(dirpath, filename)) for filename in os.listdir(dirpath) if filename.endswith(".sng")]
+async def gatherSongs(dirpath, sem):
+    tasks = [semaphoredLoadSong(dirpath, filename, sem) for filename in os.listdir(dirpath) if filename.endswith(".sng")]
     songs = await asyncio.gather(*tasks)
     return songs
     
+async def semaphoredLoadSong(dirpath, filename, sem):
+    async with sem:
+        return await Song.load(os.path.join(dirpath, filename))
 
 class CategoryDict(dict):
     def __missing__(self, key):
@@ -175,7 +180,10 @@ async def _asyncMain():
 
     await copyHeader(os.path.join(config.dataFolder, config.latexHeaderFile), texOutFile)
     
-    gatheredSongs = await gatherAllCategories()
+
+    sem = asyncio.Semaphore(100)
+
+    gatheredSongs = await gatherAllCategories(sem)
 
     songbookDict = makeSongbookDict(gatheredSongs)
 
