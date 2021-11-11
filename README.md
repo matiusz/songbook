@@ -4,7 +4,15 @@
 
   Songbook is an easy to use tool for creating songbooks where each song is represented by a different file, allowing them to be easily shared or moved between different songbooks. It has it's own display module or it can generate LaTeX files and compile them to pdf.
 
+  ## Usage
+
+  ```
+  python3 songbook.pdf
+  ```
+
   ## Configuration
+
+  The configuration can be altered by modifying the `config.json` file.
 
   ### pdfSettings
 
