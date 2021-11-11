@@ -15,7 +15,7 @@ def packages(packs):
     return string
 
 def getPackageList():
-    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref"]
+    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref", "multicol"]
 
 def hyperSetup():
     return "\\hypersetup{\n    hidelinks,\n    linktoc=all\n}\n\n"
@@ -37,7 +37,8 @@ def font():
     return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n"
 
 def toc():
-    return "\\renewcommand{\\contentsname}{Spis treści}\n"
+    # hack avoiding insertion of the toc header, which doesn't play well with 2 columns
+    return "\\renewcommand{\\contentsname}{\\vspace*{-104pt}}\n"
 
 def titleSettings():
     onePercentHack = "\\vspace{0.40\\textheight} 1 \% podatku dla “Hawiarskiej Koliby”\\\\\n" + \
