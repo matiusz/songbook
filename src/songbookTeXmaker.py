@@ -181,7 +181,8 @@ async def _asyncMain():
     await copyHeader(os.path.join(config.dataFolder, config.latexHeaderFile), texOutFile)
     
 
-    sem = asyncio.Semaphore(100)
+    max_open_files = 100
+    sem = asyncio.Semaphore(max_open_files)
 
     gatheredSongs = await gatherAllCategories(sem)
 
