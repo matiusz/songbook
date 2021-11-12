@@ -6,9 +6,25 @@
 
   ## Usage
 
+  ### Without docker
+  _Make sure to have installed everything from the Requirements section_
+
+  To start the GUI:
   ```
   python3 songbook.py
   ```
+
+  To generate the songbook PDF:
+  ```
+  python3 songbook_pdf.py
+  ```
+
+  ### With docker
+  ```
+  docker build -t songbook .
+  docker run --rm -it songbook
+  ```
+  and you can run the commands as above. Note that any command involving GUI may require additional setup, depending on the OS.
 
   ## Configuration
 
