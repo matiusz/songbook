@@ -1,17 +1,21 @@
 from __future__ import annotations
 import json
 import os
+import itertools
+import re
 
 from src.obj.Config import config
 
+
 class Song:
-    def __init__(self, title : str, category : str):
+    def __init__(self, title: str, category: str):
         self.title = title
         self.category = category
-        self.author :str = None
-        self.capo : str = None
-        self.sections : SongSection = []
-    def addSection(self, section : dict) -> SongSection:
+        self.author: str = None
+        self.capo: str = None
+        self.sections: SongSection = []
+
+    def addSection(self, section: dict) -> SongSection:
         self.sections.append(section)
         return section
 
@@ -28,8 +32,49 @@ class Song:
             songCont += sec.lyrics + '\n'
         return songCont
 
+    def serialize(self) -> str:
+        result = \
+            f"#title {self.title}\n" + \
+            f"#author {self.author}\n" + \
+            f"#category {self.category}\n" + \
+            (f"#capo {self.capo}\n" if self.capo else '') + \
+            "\n"
+
+        for section in self.sections:
+            result += "#chorus\n" if section.chorus else "#verse\n"
+            for (lyrics, chords) in itertools.zip_longest(section.lyrics.split('\n'), section.chords.split('\n')):
+                result += (lyrics + ' ' if lyrics else '') + \
+                    ("~ " + chords if chords else '') + '\n'
+            result += "\n"
+
+        return result
+
+    def save(self) -> None:
+        with open(os.path.join(config.dataFolder, self.category, self.title + ".sng"), "w") as f:
+            return f.write(self.serialize())
+
     @staticmethod
-    def loadFromDict(songDict : dict) -> Song:
+    def parse(str) -> Song:
+        commands = "title|author|category|capo|chorus|verse"
+        dict = {'sections': []}
+        # finds all occurences of #command, followed by blank, until another #command or the end
+        for (cmd, val) in re.findall(f"^#({commands})\s((?:.|\n)+?(?=#(?:{commands})|\Z))", str, flags=re.MULTILINE):
+            if cmd in ["verse", "chorus"]:
+                split_lines = [line.split("~ ") + ['']
+                               for line in val.split('\n')]
+                (lyrics, chords) = zip(
+                    *[(line[0][:-1], line[1]) for line in split_lines])
+                dict['sections'].append({
+                    'lyrics': "\n".join(lyrics).strip(),
+                    'chords': "\n".join(chords).strip(),
+                    'chorus': cmd == 'chorus'
+                })
+            else:
+                dict[cmd] = val.strip()
+        return Song.loadFromDict(dict)
+
+    @staticmethod
+    def loadFromDict(songDict: dict) -> Song:
         newSong = Song(songDict['title'], songDict['category'])
         try:
             newSong.author = songDict['author']
@@ -44,31 +89,34 @@ class Song:
         return newSong
 
     @staticmethod
-    def loadFromFile(filePath : str) -> Song:
-        with open(filePath, "rb") as f:
-            return Song.loadFromDict(json.loads(f.read()))
+    def loadFromFile(filePath: str) -> Song:
+        with open(filePath, "r") as f:
+            return Song.parse(f.read())
 
     @staticmethod
     def loadFromCatAndTitle(category, title) -> Song:
-        with open(os.path.join(config.dataFolder, category, title + ".sng"), "rb") as f:
-            return Song.loadFromDict(json.loads(f.read()))
+        return Song.loadFromFile(os.path.join(
+            config.dataFolder, category, title + ".sng"))
+
 
 class SongSection:
-    def __init__(self, chorus = False):
+    def __init__(self, chorus=False):
         self.lyrics = None
         self.chords = None
         self.chorus = chorus
-    
+
     @staticmethod
-    def loadFromDict(sectionDict : dict) -> SongSection:
+    def loadFromDict(sectionDict: dict) -> SongSection:
         newSection = SongSection()
         newSection.lyrics = sectionDict['lyrics']
         newSection.chords = sectionDict['chords']
         newSection.chorus = sectionDict['chorus']
         return newSection
 
-if __name__=="__main__":
-    song = Song.loadFromFile(os.path.join(os.getcwd(), config.dataFolder, "SDM", "Majka" + ".sng"))
+
+if __name__ == "__main__":
+    song = Song.loadFromFile(os.path.join(
+        os.getcwd(), config.dataFolder, "SDM", "Majka" + ".sng"))
     print(song.title)
     print(song.author)
     print(song.category)

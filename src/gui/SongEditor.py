@@ -1,17 +1,19 @@
-from PySide6.QtWidgets import (QWidget, QLineEdit, 
-                                QHBoxLayout, QVBoxLayout, QPlainTextEdit, 
-                                QPushButton,QScrollArea, QLayout,  
-                                QComboBox, QApplication)
+from PySide6.QtWidgets import (QWidget, QLineEdit,
+                               QHBoxLayout, QVBoxLayout, QPlainTextEdit,
+                               QPushButton, QScrollArea, QLayout,
+                               QComboBox, QApplication)
 
 import json
 
 import os
 
 from functools import partial
+from src.obj.Song import Song
 
 from src.tools import dirTools
 
 from src.obj.Config import config
+
 
 class ScrollableSongEditor(QScrollArea):
     def __init__(self):
@@ -22,17 +24,15 @@ class ScrollableSongEditor(QScrollArea):
         self.setWidget(self.song)
         self.setWidgetResizable(True)
         self.show()
+
     def saveSong(self):
-        preJSON = self.song.toJSON()
-        if preJSON['title']:
-            path = os.path.join("data", preJSON['category'], preJSON['title'] + ".sng")
-            dirTools.ensureFileDir(path)
-            f = open(path, "w")
-            f.write(json.dumps(preJSON, indent = 4))
+        Song.loadFromDict(self.song.toJSON()).save()
         self.song.reloadSongs()
+
     def closeEvent(self, event):
-        #self.saveSong()
+        # self.saveSong()
         event.accept()
+
 
 class QSong(QWidget):
     def __init__(self, parent):
@@ -44,12 +44,12 @@ class QSong(QWidget):
 
         layout = QVBoxLayout()
         layout.setSizeConstraint(QLayout.SetMinimumSize)
-        
+
         self.changeCatBar = QComboBox()
         self.changeCatBar.addItem("Change Category")
         self.changeCatBar.addItems(dirTools.getCategoriesFromDirs())
         layout.addWidget(self.changeCatBar)
-        
+
         self.catBar = QComboBox()
         self.catBar.addItems(dirTools.getCategoriesFromDirs())
         self.catBar.currentTextChanged.connect(self.reloadSongs)
@@ -57,10 +57,11 @@ class QSong(QWidget):
 
         self.readySongsBar = QComboBox()
         self.readySongsBar.addItem("")
-        self.readySongsBar.addItems(dirTools.getSongsFromCatDir(self.catBar.currentText()))
+        self.readySongsBar.addItems(
+            dirTools.getSongsFromCatDir(self.catBar.currentText()))
         self.readySongsBar.currentTextChanged.connect(self.loadSong)
         layout.addWidget(self.readySongsBar)
-        
+
         self.titleBar = QLineEdit()
         self.titleBar.setPlaceholderText("Song Title")
         layout.addWidget(self.titleBar)
@@ -72,37 +73,38 @@ class QSong(QWidget):
         self.capoBar = QLineEdit()
         self.capoBar.setPlaceholderText("Capo")
         layout.addWidget(self.capoBar)
-        
+
         buttonBox = QHBoxLayout()
-        
+
         verseButton = QPushButton('New Verse', self)
         verseButton.clicked.connect(self.newSection)
         buttonBox.addWidget(verseButton)
-        
+
         chorusButton = QPushButton('New Chorus', self)
-        chorusButton.clicked.connect(partial(self.newSection, chorus = True))
+        chorusButton.clicked.connect(partial(self.newSection, chorus=True))
         buttonBox.addWidget(chorusButton)
-        
+
         layout.addLayout(buttonBox)
-        
+
         closeButton = QPushButton('Quit', self)
         closeButton.clicked.connect(lambda: self.parent.close())
         layout.addWidget(closeButton)
-        
+
         saveButton = QPushButton('Save', self)
         saveButton.clicked.connect(lambda: self.parent.saveSong())
         layout.addWidget(saveButton)
-        
+
         self.setLayout(layout)
         self.show()
 
-    def newSection(self, chorus = False):
-        newSection = QSongSection(chorus = chorus)
+    def newSection(self, chorus=False):
+        newSection = QSongSection(chorus=chorus)
         self.sections.append(newSection)
-        if len(self.sections)<5:
+        if len(self.sections) < 5:
             self.parent.setMinimumHeight(self.minimumSize().height()+110)
         self.layout().addLayout(newSection)
         return newSection
+
     def toJSON(self):
         jsonSong = {}
         jsonSong['title'] = self.titleBar.text()
@@ -112,35 +114,31 @@ class QSong(QWidget):
             jsonSong['capo'] = capo
         if (newCat := self.changeCatBar.currentText()) != "Change Category":
             jsonSong["category"] = newCat
-            os.remove(os.path.join(config.dataFolder, self.catBar.currentText(), self.titleBar.text() + ".sng"))
+            os.remove(os.path.join(config.dataFolder,
+                      self.catBar.currentText(), self.titleBar.text() + ".sng"))
         else:
             jsonSong['category'] = self.catBar.currentText()
-        jsonSong['sections'] = [section.toJSON() for section in self.sections if section]
+        jsonSong['sections'] = [section.toJSON()
+                                for section in self.sections if section]
         return jsonSong
+
     def loadSong(self, songFilename):
         if songFilename:
-            f = open(os.path.join(config.dataFolder, self.catBar.currentText(), songFilename), "rb")
-            jsonSong = json.loads(f.read().decode("utf-8"))
-            f.close()
-            self.titleBar.setText(jsonSong['title'])
-            try:
-                self.authorBar.setText(jsonSong['author'])
-            except KeyError:
-                self.authorBar.setText("")
-            try:
-                self.capoBar.setText(jsonSong['capo'])
-            except KeyError:
-                self.capoBar.setText("")
+            song = Song.loadFromFile(os.path.join(
+                config.dataFolder, self.catBar.currentText(), songFilename))
+            self.titleBar.setText(song.title)
+            self.authorBar.setText(song.author or '')
+            self.capoBar.setText(song.capo or '')
             for i, section in enumerate(self.sections):
                 section.setParent(None)
                 section.lyrics.deleteLater()
                 section.chords.deleteLater()
                 section.deleteLater()
             self.sections = []
-            for section in jsonSong['sections']:
-                sect = self.newSection(chorus=section['chorus'])
-                sect.lyrics.setPlainText(section['lyrics'])
-                sect.chords.setPlainText(section['chords'])
+            for section in song.sections:
+                sect = self.newSection(chorus=section.chorus)
+                sect.lyrics.setPlainText(section.lyrics)
+                sect.chords.setPlainText(section.chords)
         else:
             for i, section in enumerate(self.sections):
                 section.setParent(None)
@@ -149,6 +147,9 @@ class QSong(QWidget):
                 section.deleteLater()
             self.sections = []
             self.titleBar.setText("")
+            self.authorBar.setText("")
+            self.capoBar.setText("")
+
     def reloadSongs(self):
         self.changeCatBar.setCurrentText("Change Category")
         self.readySongsBar.clear()
@@ -156,8 +157,9 @@ class QSong(QWidget):
         self.readySongsBar.addItem("")
         self.readySongsBar.addItems(catSongs)
 
+
 class QSongSection(QHBoxLayout):
-    def __init__(self, chorus = False):
+    def __init__(self, chorus=False):
         super().__init__()
         self.addStrut(90)
         self.chorus = chorus
@@ -173,15 +175,16 @@ class QSongSection(QHBoxLayout):
             stretches = (75, 25)
         self.addWidget(self.lyrics, stretches[0])
         self.addWidget(self.chords, stretches[1])
+
     def __bool__(self):
         if self.chords.toPlainText() or self.lyrics.toPlainText():
             return True
         else:
             return False
+
     def toJSON(self):
         jsonSection = {}
         jsonSection['chords'] = self.chords.toPlainText()
         jsonSection['lyrics'] = self.lyrics.toPlainText()
         jsonSection['chorus'] = self.chorus
         return jsonSection
-
