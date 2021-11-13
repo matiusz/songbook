@@ -42,6 +42,16 @@
             "chords": "",
             "lyrics": "Id\u0119 do\u0142em a ty g\u00f3r\u0105...",
             "chorus": true
+        },
+        {
+            "chords": "C G a e\nF C G a G",
+            "lyrics": "I czas zako\u0144czy\u0107 rozwa\u017cania te\nPrzy wodospadzie, tam gdzie s\u0142ycha\u0107 \u015bpiew\nW \u017ar\u00f3dlanej wodzie czas zanurzy\u0107 d\u0142o\u0144\n\u017begnam Was, dzi\u015b odchodz\u0119 st\u0105d",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "Id\u0119 do\u0142em a ty g\u00f3r\u0105...",
+            "chorus": true
         }
     ]
 }
