@@ -13,6 +13,12 @@ from src.tools.codings import enUTF8, deUTF8
 
 from src.obj.Config import config
 
+def raw(string: str, replace: bool = False) -> str:
+        """Returns the raw representation of a string. If replace is true, replace a single backslash's repr \\ with \."""
+        r = repr(string)[1:-1]  # Strip the quotes from representation
+        if replace:
+            r = r.replace('\\\\', '\\')
+        return r
 
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
@@ -70,7 +76,7 @@ class Song:
         self.category = self.dict['category']
     @property
     def tex(self):
-        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.75,0.25}}\n\\rmfamily"
+        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.78,0.22}}\n\\rmfamily"
         try:
             author = self.dict['author']
             songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
@@ -99,37 +105,54 @@ class Song:
         chordShift = config.chordShift
         lyrics, l1 = self.convertLineBreaks(section['lyrics'])
         if section['chords']:
-            chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "))
+            chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "), chords=True)
         else:
             chords, l2 = "", 0
+        songStr = ""
         songStr = f"\n\\ensurevspace{{{max(l1, l2)+2}\\baselineskip}}\n"
-        songStr += "\\begin{leftcolumn*}\n"
+        songStr += "\\begin{leftcolumn*} "
+        songStr += "\\noindent"
         if section['chorus']:
-            lyrics = self.chorusWrapper(lyrics)
+            lyrics = self.chorusWrapper("\\mystrut " + lyrics)
+        #else:
         songStr += lyrics
+        songStr += "\\vspace{\\baselineskip}\n"
         songStr += "\\end{leftcolumn*}\n"
         if chords:
-            songStr += "\\begin{rightcolumn}\n"
-            songStr += "\\begin{bfseries}\n"
-            songStr += "\n\\ttfamily\n"
+            songStr += "\\begin{rightcolumn}"
+            songStr += "\\noindent"
+            songStr += "\\begin{bfseries}"
+            songStr += "\\ttfamily\n"
+            if section['chorus']:
+                songStr += "\\mystrut "
             songStr += self.superscriptSpecialChars(chords)
             songStr += "\\end{bfseries}\n"
+            songStr += "\\vspace{\\baselineskip}\n"
             songStr += "\\end{rightcolumn}\n"
-            songStr += "\n\\rmfamily\n"
+            songStr += "\n\\rmfamily\n"    
         return songStr
 
     def chorusWrapper(self, text):
-        wrapped_text = "\\begin{chorus}\n" + text + "\\end{chorus}\n"
+        wrapped_text = "\\begin{chorus}" + text + "\\end{chorus}"
         return wrapped_text
 
-    def convertLineBreaks(self, text):
+    
+    def convertLineBreaks(self, text, chords = False):
         converted_text = ""
         lines = text.splitlines()
-        for line in lines:
+        for i, line in enumerate(lines):
+            if len(line)<4 and not chords:
+                print(raw(line), bool(line))
             if line:
-                converted_text += line + "\\\\\n" 
+                if (not chords) and config.devSettings['drawLines']:
+                    converted_text += "\\tikz[overlay]\\draw[red](0,0)--++(20,0);"
+                else:
+                    converted_text += " "
+                converted_text += line
+                if i < len(lines)-1:
+                    converted_text += "\\\\\n"
             else:
-                converted_text += "\\vspace{\\baselineskip}\n"
+                converted_text += " \\\\\n"
         return converted_text, len(lines)
 
 async def copyHeader(headerFilename, songbookFilename):

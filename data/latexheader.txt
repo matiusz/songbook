@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{multicol}
+\usepackage{tikz}
 
 \hypersetup{
     hidelinks,
@@ -29,10 +30,11 @@
 
 \geometry{
  a4paper,
- total={180mm,257mm},
- inner=20mm,
- top=20mm,
- }
+ inner=30mm,
+ top=15mm,
+ outer=15mm, 
+  bottom=15mm, 
+}
 
 \title{Śpiewnik Hawiarskiej Koliby}
 \date{\vspace{0.40\textheight} 1 \% podatku dla “Hawiarskiej Koliby”\\
@@ -42,6 +44,7 @@ Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\
 Dziękujemy!}
 \author{}
 
+\newcommand\mystrut{\rule{0pt}{12pt}}
 \begin{document}
 
 \begin{titlepage}
