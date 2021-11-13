@@ -125,7 +125,7 @@ class TexSong:
         songStr = f"\n\\ensurevspace{{{max(l1, l2)+2}\\baselineskip}}\n"
         songStr += "\\begin{leftcolumn*} "
         songStr += "\\noindent"
-        if section['chorus']:
+        if section.chorus:
             lyrics = self.chorusWrapper("\\mystrut " + lyrics)
         # else:
         songStr += lyrics
@@ -136,7 +136,7 @@ class TexSong:
             songStr += "\\noindent"
             songStr += "\\begin{bfseries}"
             songStr += "\\ttfamily\n"
-            if section['chorus']:
+            if section.chorus:
                 songStr += "\\mystrut "
             songStr += self.superscriptSpecialChars(chords)
             songStr += "\\end{bfseries}\n"
