@@ -1,32 +1,27 @@
-{
-    "title": "Nie zabieraj mi strun",
-    "author": "s\u0142. Marek Pampuch, muz. Janusz Kotarba",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e\nG D\ne G D",
-            "lyrics": "Nie zabieraj mi strun, nie zabieraj strun,\nZostaw mi cho\u0107 gitar\u0119.\nSze\u015b\u0107 mych strun starczy mi za ca\u0142y \u015bwiat.",
-            "chorus": true
-        },
-        {
-            "chords": "e G D\ne G D\ne G D\ne G D",
-            "lyrics": "Mog\u0119 Panie Ci odda\u0107 je\u015bli o to poprosisz,\nWszystkie moje zmartwienia, smutki, troski i b\u00f3l.\nMog\u0119 nawet Ci odda\u0107, je\u015bli tego za\u017c\u0105dasz,\nCa\u0142\u0105 moj\u0105 fortun\u0119, ale nie bierz mi strun.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nie zabieraj mi strun, nie zabieraj strun...",
-            "chorus": true
-        },
-        {
-            "chords": "e G D\ne G D\ne G D\ne G D",
-            "lyrics": "A gdy kiedy\u015b poczuj\u0119, \u017ce porzuci\u0107 czas wszystko\nI z gitar\u0105 przystan\u0119 u raju bram.\n\"\u015awi\u0119ty Piotrze, tak powiem, wiele w \u017cyciu zgrzeszy\u0142em\nZabierz mi prawie wszystko, ale nie bierz mi strun!\"",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nie zabieraj mi strun, nie zabieraj strun...",
-            "chorus": true
-        }
-    ]
-}
+#title Nie zabieraj mi strun
+#author sł. Marek Pampuch, muz. Janusz Kotarba
+#category Piosenki różne
+
+#chorus
+Nie zabieraj mi strun, nie zabieraj strun, ~ e
+Zostaw mi choć gitarę. ~ G D
+Sześć mych strun starczy mi za cały świat. ~ e G D
+
+#verse
+Mogę Panie Ci oddać jeśli o to poprosisz, ~ e G D
+Wszystkie moje zmartwienia, smutki, troski i ból. ~ e G D
+Mogę nawet Ci oddać, jeśli tego zażądasz, ~ e G D
+Całą moją fortunę, ale nie bierz mi strun. ~ e G D
+
+#chorus
+Nie zabieraj mi strun, nie zabieraj strun... 
+
+#verse
+A gdy kiedyś poczuję, że porzucić czas wszystko ~ e G D
+I z gitarą przystanę u raju bram. ~ e G D
+"Święty Piotrze, tak powiem, wiele w życiu zgrzeszyłem ~ e G D
+Zabierz mi prawie wszystko, ale nie bierz mi strun!" ~ e G D
+
+#chorus
+Nie zabieraj mi strun, nie zabieraj strun... 
+

@@ -1,22 +1,20 @@
-{
-    "title": "Jele\u0144 (on mknie)",
-    "author": "ukradzione od Malucha, kt\u00f3ry ukrad\u0142 od Styk\u00f3w",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "a\na G\nG a",
-            "lyrics": "Na horyzoncie pojawi\u0142 si\u0119 jele\u0144 i mknie\nDok\u0105d on mknie\nTego nikt nie wie",
-            "chorus": false
-        },
-        {
-            "chords": "a\na G\nG a",
-            "lyrics": "Przez pola, lasy, po \u0142\u0105kach zielonych gna\nZaraz zrobi\nKilometry dwa",
-            "chorus": false
-        },
-        {
-            "chords": "a\nG\nF\na",
-            "lyrics": "Jele\u0144\nJele\u0144\nJele\u0144\nOn mknie!",
-            "chorus": true
-        }
-    ]
-}
+#title Jeleń (on mknie)
+#author ukradzione od Malucha, który ukradł od Styków
+#category Piosenki różne
+
+#verse
+Na horyzoncie pojawił się jeleń i mknie ~ a
+Dokąd on mknie ~ a G
+Tego nikt nie wie ~ G a
+
+#verse
+Przez pola, lasy, po łąkach zielonych gna ~ a
+Zaraz zrobi ~ a G
+Kilometry dwa ~ G a
+
+#chorus
+Jeleń ~ a
+Jeleń ~ G
+Jeleń ~ F
+On mknie! ~ a
+

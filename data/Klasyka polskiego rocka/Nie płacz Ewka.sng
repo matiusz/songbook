@@ -1,32 +1,39 @@
-{
-    "title": "Nie p\u0142acz Ewka",
-    "author": "Perfect",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "A fis\nE\nA fis\nE\nA fis\nE\nA fis\nE",
-            "lyrics": "Nie p\u0142acz Ewka, bo tu miejsca brak\nNa twe babskie \u0142zy\nPo ulicy mi\u0142o\u015b\u0107 hula wiatr\nW\u015br\u00f3d rozbitych szyb\nPatrz poeci \u015bliczny prawdy sens\nRoztrwonili w grach\nW p\u00f3\u0142litr\u00f3wkach pustych S.O.S\nWysy\u0142aj\u0105 w \u015bwiat",
-            "chorus": false
-        },
-        {
-            "chords": "h D\nA E fis\nE D\nA",
-            "lyrics": "\u017begnam was ju\u017c wiem\nNie za\u0142atwi\u0119 wszystkich pilnych spraw\nId\u0119 sam, w\u0142a\u015bnie tam\nGdzie czekaj\u0105 mnie",
-            "chorus": true
-        },
-        {
-            "chords": "h D\nA E fis\nE D\nA",
-            "lyrics": "Tam przyjaci\u00f3\u0142 kilku mam, od lat\nDla nich zawsze \u015bpiewam, dla nich gram\nJeszcze raz \u017cegnam was\nNie spotkamy si\u0119",
-            "chorus": true
-        },
-        {
-            "chords": "A fis\nE\nA fis\nE\nA fis\nE\nA fis\nE",
-            "lyrics": "Proza \u017cycia to przyja\u017ani kat\nP\u0119ka cienka ni\u0107\nTelewizor, meble, ma\u0142y fiat\nOto marze\u0144 szczyt\nHej prorocy moi z gniewnych lat\nObrastacie w t\u0142uszcz\nJu\u017c was w swoje szpony dopad\u0142 szmal\nZdrada p\u0142ynie z ust",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "\u017begnam was ju\u017c wiem...",
-            "chorus": false
-        }
-    ]
-}
+#title Nie płacz Ewka
+#author Perfect
+#category Klasyka polskiego rocka
+
+#verse
+Nie płacz Ewka, bo tu miejsca brak ~ A fis
+Na twe babskie łzy ~ E
+Po ulicy miłość hula wiatr ~ A fis
+Wśród rozbitych szyb ~ E
+Patrz poeci śliczny prawdy sens ~ A fis
+Roztrwonili w grach ~ E
+W półlitrówkach pustych S.O.S ~ A fis
+Wysyłają w świat ~ E
+
+#chorus
+Żegnam was już wiem ~ h D
+Nie załatwię wszystkich pilnych spraw ~ A E fis
+Idę sam, właśnie tam ~ E D
+Gdzie czekają mnie ~ A
+
+#chorus
+Tam przyjaciół kilku mam, od lat ~ h D
+Dla nich zawsze śpiewam, dla nich gram ~ A E fis
+Jeszcze raz żegnam was ~ E D
+Nie spotkamy się ~ A
+
+#verse
+Proza życia to przyjaźni kat ~ A fis
+Pęka cienka nić ~ E
+Telewizor, meble, mały fiat ~ A fis
+Oto marzeń szczyt ~ E
+Hej prorocy moi z gniewnych lat ~ A fis
+Obrastacie w tłuszcz ~ E
+Już was w swoje szpony dopadł szmal ~ A fis
+Zdrada płynie z ust ~ E
+
+#verse
+Żegnam was już wiem... 
+

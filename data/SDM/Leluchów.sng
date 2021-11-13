@@ -1,37 +1,37 @@
-{
-    "title": "Leluch\u00f3w",
-    "author": "s\u0142. Adam Ziemianin, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "a C G\na C G\na C G\na C D D7",
-            "lyrics": "Wyjed\u017a ze mn\u0105 dzi\u015b jeszcze\nPrzecie\u017c blisko jest dworzec\nWyjed\u017a ze mn\u0105 natychmiast\nTylko to nam pomo\u017ce",
-            "chorus": false
-        },
-        {
-            "chords": "G\nC G\nC\nG a D7",
-            "lyrics": "W Leluchowie mi\u0142a\nCzere\u015bnie dziko krwawi\u0105\nTam granicy pilnuje\nCa\u0142kiem weso\u0142y anio\u0142",
-            "chorus": true
-        },
-        {
-            "chords": "G\nC G\nC G\na C G",
-            "lyrics": "W Leluchowie mi\u0142a\nZaczyna si\u0119 koniec \u015bwiata\nTam anio\u0142 traci g\u0142ow\u0119\nZ brzozami si\u0119 brata",
-            "chorus": true
-        },
-        {
-            "chords": "a C G\na C G\na C G\na C D D7",
-            "lyrics": "Wyjed\u017a ze mn\u0105 do lata\nPrzecie\u017c jeszcze nie koniec\nSchowaj troch\u0119 u\u015bmiechu\nNa nasz\u0105 wsp\u00f3ln\u0105 drog\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "a C G\na C G\na C G\na C D D7",
-            "lyrics": "Kiedy b\u0119dziesz ju\u017c ze mn\u0105\nTo nikomu nie powiem\n\u017be szcz\u0119\u015bliwi byli\u015bmy\nKiedy\u015b w Leluchowie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "W Leluchowie...",
-            "chorus": true
-        }
-    ]
-}
+#title Leluchów
+#author sł. Adam Ziemianin, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Wyjedź ze mną dziś jeszcze ~ a C G
+Przecież blisko jest dworzec ~ a C G
+Wyjedź ze mną natychmiast ~ a C G
+Tylko to nam pomoże ~ a C D D7
+
+#chorus
+W Leluchowie miła ~ G
+Czereśnie dziko krwawią ~ C G
+Tam granicy pilnuje ~ C
+Całkiem wesoły anioł ~ G a D7
+
+#chorus
+W Leluchowie miła ~ G
+Zaczyna się koniec świata ~ C G
+Tam anioł traci głowę ~ C G
+Z brzozami się brata ~ a C G
+
+#verse
+Wyjedź ze mną do lata ~ a C G
+Przecież jeszcze nie koniec ~ a C G
+Schowaj trochę uśmiechu ~ a C G
+Na naszą wspólną drogę ~ a C D D7
+
+#verse
+Kiedy będziesz już ze mną ~ a C G
+To nikomu nie powiem ~ a C G
+Że szczęśliwi byliśmy ~ a C G
+Kiedyś w Leluchowie ~ a C D D7
+
+#chorus
+W Leluchowie... 
+

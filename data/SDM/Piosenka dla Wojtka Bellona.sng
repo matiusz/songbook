@@ -1,22 +1,28 @@
-{
-    "title": "Piosenka dla Wojtka Bellona",
-    "author": "s\u0142. Aleksandra Kie\u0142b-Szawu\u0142a, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "D G D\nD G D\nC G D\nC G D\ne G D\ne G D",
-            "lyrics": "Powiedz dok\u0105d zn\u00f3w w\u0119drujesz\nCzy daleko jest tw\u00f3j sad\nHen w krainy buczynowe\nZe mn\u0105 tam uk\u0142ada pie\u015bni wiatr\nHen w krainy buczynowe\nZe mn\u0105 tam nikogo tylko wiatr",
-            "chorus": false
-        },
-        {
-            "chords": "D G D\nD G D\nC G D\nC G D\ne G D\ne G D",
-            "lyrics": "Zmierzchy graj\u0105 a przestrzenie\nW\u0142asny mi podaj\u0105 d\u017awi\u0119k\nTakie \u015bpiewy z nimi lub milczenie\nW kt\u00f3rym znika ka\u017cdy dawny l\u0119k\nW takich \u015bpiewach lub milczeniu\nW szumie \u015bwi\u0119tych buk\u00f3w zgin\u0105\u0142 l\u0119k",
-            "chorus": false
-        },
-        {
-            "chords": "D G D\nD G D\nC G D\nC G D\ne G D\ne G D",
-            "lyrics": "Zaszumia\u0142y ci\u0119 powietrza\nI ruszy\u0142e\u015b sam na szlak\nTen ostatni ten najlepszy\nPrzyszed\u0142 czas Pan da\u0142 ci znak\nTen ostatni ten najlepszy\nPrzyszed\u0142 czas Pan da\u0142 ci znak",
-            "chorus": false
-        }
-    ]
-}
+#title Piosenka dla Wojtka Bellona
+#author sł. Aleksandra Kiełb-Szawuła, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Powiedz dokąd znów wędrujesz ~ D G D
+Czy daleko jest twój sad ~ D G D
+Hen w krainy buczynowe ~ C G D
+Ze mną tam układa pieśni wiatr ~ C G D
+Hen w krainy buczynowe ~ e G D
+Ze mną tam nikogo tylko wiatr ~ e G D
+
+#verse
+Zmierzchy grają a przestrzenie ~ D G D
+Własny mi podają dźwięk ~ D G D
+Takie śpiewy z nimi lub milczenie ~ C G D
+W którym znika każdy dawny lęk ~ C G D
+W takich śpiewach lub milczeniu ~ e G D
+W szumie świętych buków zginął lęk ~ e G D
+
+#verse
+Zaszumiały cię powietrza ~ D G D
+I ruszyłeś sam na szlak ~ D G D
+Ten ostatni ten najlepszy ~ C G D
+Przyszedł czas Pan dał ci znak ~ C G D
+Ten ostatni ten najlepszy ~ e G D
+Przyszedł czas Pan dał ci znak ~ e G D
+

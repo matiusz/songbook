@@ -1,42 +1,50 @@
-{
-    "title": "Bar w Beskidzie",
-    "author": "Wies\u0142aw Jarosz",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "G D\nC D\nG D\nC D G\nG D\nC D\nG D\nC D",
-            "lyrics": "Je\u015bli chcesz z gard\u0142a kurz wyp\u0142uka\u0107\nTu ka\u017cdy wska\u017ce ci drog\u0119\nW bok od przystanku pekaesu\nW prawo od szosy asfaltowej\nKusz\u0105 napisy o\u0142\u00f3wkiem kopiowym\nNa drzwiach \"od dziesi\u0105tej otwarte\"\n\"Dzi\u015b polecamy kotlet mielony\"\nI \"lokal kategorii czwartej\"",
-            "chorus": false
-        },
-        {
-            "chords": "G D\nC G\ne h\nC D",
-            "lyrics": "Lej si\u0119 chmielu\nNie\u015b muzyko po bukowym lesie\nPanna Zosia ma w oczach dwa nieba\nTroch\u0119 lata z nowej beczki przyniesie",
-            "chorus": true
-        },
-        {
-            "chords": "G D C D\nG D C D G",
-            "lyrics": "La, la, la..",
-            "chorus": true
-        },
-        {
-            "chords": "G D\nC D\nG D\nC D G\nG D\nC D\nG D\nC D",
-            "lyrics": "W \u015brodku ch\u0142opaki rzucaj\u0105 \u0142acin\u0105\nO sufit i cztery \u015bciany\nDym z Extra \u2013 mocnych strzela jak szampan\nBledn\u0105 obrusy lniane\nZa to wieczorem gdy lipiec duszny\nOkna otworzy na o\u015bcie\u017c\nGwiazdy wpadaj\u0105 do pe\u0142nych kufli\nPoogryzanych jak paznokcie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Lej si\u0119 chmielu\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "G D\nC D\nG D\nC D G\nG D\nC D\nG D\nC D",
-            "lyrics": "Kiedy ch\u0142opaki na nogach z waty\nWracaj\u0105 po mokrej kolacji\n\u015awiat si\u0119 jak okr\u0119t morski ko\u0142ysze\nGo\u015bciniec dziwnie \u015blimaczy\nA czasem kt\u00f3ry\u015b ze strachem na wr\u00f3ble\nPogada o polityce\nJedynie cerkiew marszczy zgorszona\nSzorstkie od gont\u00f3w lice",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Lej si\u0119 chmielu\u2026",
-            "chorus": true
-        }
-    ]
-}
+#title Bar w Beskidzie
+#author Wiesław Jarosz
+#category Turystyczne
+
+#verse
+Jeśli chcesz z gardła kurz wypłukać ~ G D
+Tu każdy wskaże ci drogę ~ C D
+W bok od przystanku pekaesu ~ G D
+W prawo od szosy asfaltowej ~ C D G
+Kuszą napisy ołówkiem kopiowym ~ G D
+Na drzwiach "od dziesiątej otwarte" ~ C D
+"Dziś polecamy kotlet mielony" ~ G D
+I "lokal kategorii czwartej" ~ C D
+
+#chorus
+Lej się chmielu ~ G D
+Nieś muzyko po bukowym lesie ~ C G
+Panna Zosia ma w oczach dwa nieba ~ e h
+Trochę lata z nowej beczki przyniesie ~ C D
+
+#chorus
+La, la, la.. ~ G D C D
+~ G D C D G
+
+#verse
+W środku chłopaki rzucają łaciną ~ G D
+O sufit i cztery ściany ~ C D
+Dym z Extra – mocnych strzela jak szampan ~ G D
+Bledną obrusy lniane ~ C D G
+Za to wieczorem gdy lipiec duszny ~ G D
+Okna otworzy na oścież ~ C D
+Gwiazdy wpadają do pełnych kufli ~ G D
+Poogryzanych jak paznokcie ~ C D
+
+#chorus
+Lej się chmielu… 
+
+#verse
+Kiedy chłopaki na nogach z waty ~ G D
+Wracają po mokrej kolacji ~ C D
+Świat się jak okręt morski kołysze ~ G D
+Gościniec dziwnie ślimaczy ~ C D G
+A czasem któryś ze strachem na wróble ~ G D
+Pogada o polityce ~ C D
+Jedynie cerkiew marszczy zgorszona ~ G D
+Szorstkie od gontów lice ~ C D
+
+#chorus
+Lej się chmielu… 
+

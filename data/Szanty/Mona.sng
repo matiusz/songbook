@@ -1,57 +1,55 @@
-{
-    "title": "Mona",
-    "author": "s\u0142. Anna Peszkowska",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "a G a\na e\na e a\nd e a",
-            "lyrics": "By\u0142 pi\u0119\u0107dziesi\u0105ty dziewi\u0105ty rok.\nPami\u0119tam ten grudniowy dzie\u0144\nGdy o\u015bmiu m\u0119\u017cczyzn zabra\u0142 sztorm\nGdzie\u015b w oceanu wieczny cie\u0144.",
-            "chorus": true
-        },
-        {
-            "chords": "a G a\na e\na G a\nd e a",
-            "lyrics": "W grudniowy p\u0142aszcz okryta \u015bmier\u0107\nSpod czarnych nieba zesz\u0142a chmur.\nPrzy brzegu kona\u0142 smuk\u0142y bryg\nNa pomoc \"Mona\"posz\u0142a mu.",
-            "chorus": false
-        },
-        {
-            "chords": "a G a\na e\na G a\nd e a",
-            "lyrics": "Gdy przyszed\u0142 sygna\u0142 ka\u017cdy z nich\nWp\u00f3\u0142 dojedzonej strawy dzban\nPorzuci\u0142, by na przysta\u0144 biec,\nWyruszy\u0107 w ten dziki z morzem tan!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "By\u0142 pi\u0119\u0107dziesi\u0105ty dziewi\u0105ty rok...",
-            "chorus": true
-        },
-        {
-            "chords": "a G a\na e\na G a\nd e a",
-            "lyrics": "A fale w\u015bciekle bi\u0142y w brzeg,\nRyk morza t\u0142umi\u0142 ch\u0142opc\u00f3w krzyk,\n\"Mona\"do brygu dzielnie sz\u0142a\nLecz brygu ju\u017c nie widzia\u0142 nikt.",
-            "chorus": false
-        },
-        {
-            "chords": "a G a\na e\na G a\nd e a",
-            "lyrics": "Na brzegu kobiet niemy szloch,\nW ramiona ich nie wr\u00f3c\u0105 ju\u017c.\nGdy oceanu twarda pi\u0119\u015b\u0107\nUderzy w ratownicz\u0105 \u0142\u00f3d\u017a!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "By\u0142 pi\u0119\u0107dziesi\u0105ty dziewi\u0105ty rok...",
-            "chorus": true
-        },
-        {
-            "chords": "a G a\na e\na G a\nd e a",
-            "lyrics": "I tylko krwawy s\u0142o\u0144ca dysk\nSchyli\u0142o ju\u017c po ci\u0119\u017ckim dniu,\nMrok okry\u0142 morze, niebo, brzeg\nWiecznego ca\u0142un \u015bciel\u0105c snu.",
-            "chorus": false
-        },
-        {
-            "chords": "a G a\na e\na G a\nd e a",
-            "lyrics": "Wiem dobrze, \u017ce synowie ich\nTe\u017c w morze p\u00f3jd\u0105, kiedy zn\u00f3w\nDo oczu komu\u015b zajrzy \u015bmier\u0107\nI wezwie ratownicz\u0105 \u0142\u00f3d\u017a.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "By\u0142 pi\u0119\u0107dziesi\u0105ty dziewi\u0105ty rok...",
-            "chorus": true
-        }
-    ]
-}
+#title Mona
+#author sł. Anna Peszkowska
+#category Szanty
+
+#chorus
+Był pięćdziesiąty dziewiąty rok. ~ a G a
+Pamiętam ten grudniowy dzień ~ a e
+Gdy ośmiu mężczyzn zabrał sztorm ~ a e a
+Gdzieś w oceanu wieczny cień. ~ d e a
+
+#verse
+W grudniowy płaszcz okryta śmierć ~ a G a
+Spod czarnych nieba zeszła chmur. ~ a e
+Przy brzegu konał smukły bryg ~ a G a
+Na pomoc "Mona"poszła mu. ~ d e a
+
+#verse
+Gdy przyszedł sygnał każdy z nich ~ a G a
+Wpół dojedzonej strawy dzban ~ a e
+Porzucił, by na przystań biec, ~ a G a
+Wyruszyć w ten dziki z morzem tan! ~ d e a
+
+#chorus
+Był pięćdziesiąty dziewiąty rok... 
+
+#verse
+A fale wściekle biły w brzeg, ~ a G a
+Ryk morza tłumił chłopców krzyk, ~ a e
+"Mona"do brygu dzielnie szła ~ a G a
+Lecz brygu już nie widział nikt. ~ d e a
+
+#verse
+Na brzegu kobiet niemy szloch, ~ a G a
+W ramiona ich nie wrócą już. ~ a e
+Gdy oceanu twarda pięść ~ a G a
+Uderzy w ratowniczą łódź! ~ d e a
+
+#chorus
+Był pięćdziesiąty dziewiąty rok... 
+
+#verse
+I tylko krwawy słońca dysk ~ a G a
+Schyliło już po ciężkim dniu, ~ a e
+Mrok okrył morze, niebo, brzeg ~ a G a
+Wiecznego całun ścieląc snu. ~ d e a
+
+#verse
+Wiem dobrze, że synowie ich ~ a G a
+Też w morze pójdą, kiedy znów ~ a e
+Do oczu komuś zajrzy śmierć ~ a G a
+I wezwie ratowniczą łódź. ~ d e a
+
+#chorus
+Był pięćdziesiąty dziewiąty rok... 
+

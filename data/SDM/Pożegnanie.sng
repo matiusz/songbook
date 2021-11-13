@@ -1,42 +1,40 @@
-{
-    "title": "Po\u017cegnanie",
-    "author": "s\u0142. Piotr Bakal, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "G D G D\nG D Fis7\nh G D\nFis7",
-            "lyrics": "la, la, la...",
-            "chorus": true
-        },
-        {
-            "chords": "h Fis7 Fis7 h\nG D Fis7\nG D Fis7 h\nG D Fis7",
-            "lyrics": "Mo\u017ce si\u0119 spotkamy zn\u00f3w po kilku latach\nMo\u017ce w\u0142a\u015bnie tutaj lub na ko\u0144cu \u015bwiata\nB\u0119dziesz wtedy inna - ja wci\u0105\u017c taki sam\nMo\u017ce nam si\u0119 uda zacz\u0105\u0107 jeszcze raz",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Dzisiaj musz\u0119 odej\u015b\u0107 - ju\u017c mnie nie zatrzymuj\nPrzez te wszystkie lata nic si\u0119 nie zmieni\u0142o\nRozstawi\u0142a\u015b stra\u017ce wok\u00f3\u0142 moich sn\u00f3w\nDaj mi wreszcie spok\u00f3j - dosy\u0107 mam ju\u017c s\u0142\u00f3w",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "la, la, la...",
-            "chorus": true
-        },
-        {
-            "chords": "",
-            "lyrics": "Wr\u00f3c\u0119 tu na pewno, gdy nadejdzie pora\nZapami\u0119taj tylko, co m\u00f3wi\u0142em wczoraj\nZapami\u0119taj tylko, \u017ce si\u0119 nie zmieni\u0142em\nMy\u015bl\u0119, co my\u015bla\u0142em, wierz\u0119 w co wierzy\u0142em",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wr\u00f3c\u0119, gdy zrozumiesz - ju\u017c po kilku latach\nMo\u017ce w\u0142a\u015bnie tutaj b\u0119dzie koniec \u015bwiata\nB\u0119dziesz wtedy inna - ja wci\u0105\u017c taki sam\nMo\u017ce nam si\u0119 uda zacz\u0105\u0107 jeszcze raz...",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "la, la, la...",
-            "chorus": true
-        }
-    ]
-}
+#title Pożegnanie
+#author sł. Piotr Bakal, muz. Krzysztof Myszkowski
+#category SDM
+
+#chorus
+la, la, la... ~ G D G D
+~ G D Fis7
+~ h G D
+~ Fis7
+
+#verse
+Może się spotkamy znów po kilku latach ~ h Fis7 Fis7 h
+Może właśnie tutaj lub na końcu świata ~ G D Fis7
+Będziesz wtedy inna - ja wciąż taki sam ~ G D Fis7 h
+Może nam się uda zacząć jeszcze raz ~ G D Fis7
+
+#verse
+Dzisiaj muszę odejść - już mnie nie zatrzymuj 
+Przez te wszystkie lata nic się nie zmieniło 
+Rozstawiłaś straże wokół moich snów 
+Daj mi wreszcie spokój - dosyć mam już słów 
+
+#chorus
+la, la, la... 
+
+#verse
+Wrócę tu na pewno, gdy nadejdzie pora 
+Zapamiętaj tylko, co mówiłem wczoraj 
+Zapamiętaj tylko, że się nie zmieniłem 
+Myślę, co myślałem, wierzę w co wierzyłem 
+
+#verse
+Wrócę, gdy zrozumiesz - już po kilku latach 
+Może właśnie tutaj będzie koniec świata 
+Będziesz wtedy inna - ja wciąż taki sam 
+Może nam się uda zacząć jeszcze raz... 
+
+#chorus
+la, la, la... 
+

@@ -1,38 +1,50 @@
-{
-    "title": "Autoportret Witkacego",
-    "author": "Jacek Kaczmarski, Przemys\u0142aw Gintrowski",
-    "capo": "Capo III",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "G D6\nG D6\na e G D6\nG D6\nG D6\na e G D6",
-            "lyrics": "Patrz\u0119 na \u015bwiat z nawyku\nWi\u0119c to nie od narkotyk\u00f3w\nMam czerwone oczy do\u015bwiadczalnych kr\u00f3lik\u00f3w\nWsta\u0142em w\u0142a\u015bnie od sto\u0142u\nWi\u0119c to nie z mozo\u0142u\nMam zaci\u015bni\u0119te wargi zg\u0142odnia\u0142ych Mongo\u0142\u00f3w",
-            "chorus": false
-        },
-        {
-            "chords": "G D6\nG D6\na e G D6\nG D6\nG D6\na e G D6",
-            "lyrics": "S\u0142ucham nie s\u0142\u00f3w lecz d\u017awi\u0119k\u00f3w\nWi\u0119c nie z my\u015bli fermentu\nMam odstaj\u0105ce uszy naiwnych konfident\u00f3w\nWsz\u0119dzie w\u0119sz\u0119 bandyt\u00f3w\nWi\u0119c nie dla kolorytu\nMam typowy cie\u0144 nosa skrzywdzonych Semit\u00f3w",
-            "chorus": false
-        },
-        {
-            "chords": "d a\nd a\ne a H7\ne H7",
-            "lyrics": "Widz\u0119 kszta\u0142t rzeczy w ich sensie istotnym\nI to mnie czyni wielkim oraz jednokrotnym\nW odr\u00f3\u017cnieniu od was, kt\u00f3rzy Pa\u0144stwo wybacz\u0105,\nJeste\u015bcie wierszem idioty odbitym na powielaczu",
-            "chorus": true
-        },
-        {
-            "chords": "G D6\nG D6\na e G D6\nG D6\nG D6\na e G D6",
-            "lyrics": "Dosy\u0107 sztywn\u0105 mam szyj\u0119\nI dlatego wci\u0105\u017c \u017cyj\u0119\n\u017be polityka dla mnie to w krysztale pomyje\nUmys\u0142 mam twardy jak \u0142okcie\nWi\u0119c mnie za to nie kopcie\n\u017be rewolucja dla mnie to czerwone paznokcie",
-            "chorus": false
-        },
-        {
-            "chords": "G D6\nG D6\na e G D6\nG D6\nG D6\na e G D6",
-            "lyrics": "Wra\u017cliwym jest jak membrana\nZatem w wiecz\u00f3r i z rana\nTrz\u0119s\u0119 si\u0119 jak \u015bledziona z w\u0119gorza wyrwana\nZag\u0142ady \u015bwiata si\u0119 boj\u0119\nWi\u0119c dla poprawy nastroju\nWrzeszcz\u0119 jak dziecko w ciemnym zamkni\u0119te pokoju",
-            "chorus": false
-        },
-        {
-            "chords": "d a\nd a\na G F e\nG F e\ne a H7",
-            "lyrics": "Ja bardziej ni\u017c wy jeszcze krztusz\u0119 si\u0119 i dusz\u0119\nJa cz\u0119\u015bciej ni\u017c wy jeszcze \u017cy\u0107 nie chc\u0119 a musz\u0119\nAle tkn\u0105\u0107 si\u0119 nikomu nie dam i dlatego\nGdy trzeba b\u0119dzie sam odbior\u0119 \u015bwiatu Witkacego",
-            "chorus": true
-        }
-    ]
-}
+#title Autoportret Witkacego
+#author Jacek Kaczmarski, Przemysław Gintrowski
+#category Jacek Kaczmarski
+#capo Capo III
+
+#verse
+Patrzę na świat z nawyku ~ G D6
+Więc to nie od narkotyków ~ G D6
+Mam czerwone oczy doświadczalnych królików ~ a e G D6
+Wstałem właśnie od stołu ~ G D6
+Więc to nie z mozołu ~ G D6
+Mam zaciśnięte wargi zgłodniałych Mongołów ~ a e G D6
+
+#verse
+Słucham nie słów lecz dźwięków ~ G D6
+Więc nie z myśli fermentu ~ G D6
+Mam odstające uszy naiwnych konfidentów ~ a e G D6
+Wszędzie węszę bandytów ~ G D6
+Więc nie dla kolorytu ~ G D6
+Mam typowy cień nosa skrzywdzonych Semitów ~ a e G D6
+
+#chorus
+Widzę kształt rzeczy w ich sensie istotnym ~ d a
+I to mnie czyni wielkim oraz jednokrotnym ~ d a
+W odróżnieniu od was, którzy Państwo wybaczą, ~ e a H7
+Jesteście wierszem idioty odbitym na powielaczu ~ e H7
+
+#verse
+Dosyć sztywną mam szyję ~ G D6
+I dlatego wciąż żyję ~ G D6
+Że polityka dla mnie to w krysztale pomyje ~ a e G D6
+Umysł mam twardy jak łokcie ~ G D6
+Więc mnie za to nie kopcie ~ G D6
+Że rewolucja dla mnie to czerwone paznokcie ~ a e G D6
+
+#verse
+Wrażliwym jest jak membrana ~ G D6
+Zatem w wieczór i z rana ~ G D6
+Trzęsę się jak śledziona z węgorza wyrwana ~ a e G D6
+Zagłady świata się boję ~ G D6
+Więc dla poprawy nastroju ~ G D6
+Wrzeszczę jak dziecko w ciemnym zamknięte pokoju ~ a e G D6
+
+#chorus
+Ja bardziej niż wy jeszcze krztuszę się i duszę ~ d a
+Ja częściej niż wy jeszcze żyć nie chcę a muszę ~ d a
+Ale tknąć się nikomu nie dam i dlatego ~ a G F e
+Gdy trzeba będzie sam odbiorę światu Witkacego ~ G F e
+~ e a H7
+

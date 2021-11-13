@@ -1,42 +1,38 @@
-{
-    "title": "Ain\u2019t no Sunshine",
-    "author": "Bill Withers\r",
-    "category": "Piosenki zagraniczne",
-    "sections": [
-        {
-            "chords": "a e G a\na e G a",
-            "lyrics": "Ain't no sunshine when she's gone.\nIt's not warm when she's away.",
-            "chorus": false
-        },
-        {
-            "chords": "a e Dis5 d\na e G a",
-            "lyrics": "Ain't no sunshine when she's gone, and she's always gone too long,\nanytime she goes away.",
-            "chorus": true
-        },
-        {
-            "chords": "a e G a\na e G a",
-            "lyrics": "Wonder this time where she's gone.\nWonder if she's gone to stay.",
-            "chorus": false
-        },
-        {
-            "chords": "a e Dis5 d\na e G a",
-            "lyrics": "Ain't no sunshine when she's gone, and this house just ain't no home,\nanytime she goes away",
-            "chorus": true
-        },
-        {
-            "chords": "a\na\na\na e Dis5 d\na e G a",
-            "lyrics": "And I know, I know, I know, I know,\nI know, I know, I know, I know, I know,\nI know, I know, I know, I know, I know,\nI know, I know... Hey, I oughta leave young thing alone,\nbut ain't no sunshine when she's gone.",
-            "chorus": true
-        },
-        {
-            "chords": "a e G a\na e G a",
-            "lyrics": "Ain't no sunshine when she's gone,\nOnly darkness everyday.",
-            "chorus": false
-        },
-        {
-            "chords": "a e Dis5 d\na e G a\na e G a\na e G a\na e G a",
-            "lyrics": "Ain't no sunshine when she's gone, and this house just ain't no home,\nanytime she goes away.\nanytime she goes away.\nanytime she goes away.\nanytime she goes away.",
-            "chorus": true
-        }
-    ]
-}
+#title Ain’t no Sunshine
+#author Bill Withers
+#category Piosenki zagraniczne
+
+#verse
+Ain't no sunshine when she's gone. ~ a e G a
+It's not warm when she's away. ~ a e G a
+
+#chorus
+Ain't no sunshine when she's gone, and she's always gone too long, ~ a e Dis5 d
+anytime she goes away. ~ a e G a
+
+#verse
+Wonder this time where she's gone. ~ a e G a
+Wonder if she's gone to stay. ~ a e G a
+
+#chorus
+Ain't no sunshine when she's gone, and this house just ain't no home, ~ a e Dis5 d
+anytime she goes away ~ a e G a
+
+#chorus
+And I know, I know, I know, I know, ~ a
+I know, I know, I know, I know, I know, ~ a
+I know, I know, I know, I know, I know, ~ a
+I know, I know... Hey, I oughta leave young thing alone, ~ a e Dis5 d
+but ain't no sunshine when she's gone. ~ a e G a
+
+#verse
+Ain't no sunshine when she's gone, ~ a e G a
+Only darkness everyday. ~ a e G a
+
+#chorus
+Ain't no sunshine when she's gone, and this house just ain't no home, ~ a e Dis5 d
+anytime she goes away. ~ a e G a
+anytime she goes away. ~ a e G a
+anytime she goes away. ~ a e G a
+anytime she goes away. ~ a e G a
+

@@ -1,37 +1,38 @@
-{
-    "title": "Walka Jakuba z Anio\u0142em",
-    "author": "Jacek Kaczmarski, Przemys\u0142aw Gintrowski",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "A\nE\nfis\ncis\nD E\nh E",
-            "lyrics": "A kiedy walczy\u0142 Jakub z anio\u0142em\nI kiedy poj\u0105\u0142, \u017ce walczy z Bogiem\nSkrzyd\u0142o \u015bwietliste b\u00f3d\u0142 spoconym czo\u0142em\nCia\u0142o nieziemskie kala\u0142 py\u0142em z drogi\nI wo\u0142a\u0142 \u2013 Daj mi Panie, bo nie puszcz\u0119\nB\u0142ogos\u0142awie\u0144stwo na teraz i na potem",
-            "chorus": false
-        },
-        {
-            "chords": "h E\nh E",
-            "lyrics": "A kaftan jego cuchn\u0105\u0142 kozim t\u0142uszczem\nA szaty Pana mieni\u0142y si\u0119 z\u0142otem",
-            "chorus": true
-        },
-        {
-            "chords": "A\nE\nfis cis\nD E",
-            "lyrics": "On sam za\u015b Pasterz lecz o r\u0119kach g\u0142adkich\nW zapasach wo\u0142a\u0142 \u2013 \u0142amiesz moje prawa\nI \u017c\u0105dasz jeszcze abym sam z nich zakpi\u0142\nCiebie co blu\u017anisz grozisz b\u0142ogos\u0142awi\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "h E\nh E",
-            "lyrics": "A szaty Pana mieni\u0142y si\u0119 z\u0142otem\nKaftan Jakuba cuchn\u0105\u0142 kozim t\u0142uszczem",
-            "chorus": true
-        },
-        {
-            "chords": "A\nE\nfis cis\nD cis fis D cis fis",
-            "lyrics": "\u2013 W niewoli praw twych i w ludzkiej niewoli\n\u017by\u0142em w\u015br\u00f3d zwierz\u0105t obce karmi\u0105c plemi\u0119\nJe\u015bli na drodze do wolno\u015bci stoisz\nPrawa odrzuc\u0119 precz a Boga zmieni\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "A E\nfis cis\nD E\nh E",
-            "lyrics": "I w tym spotkaniu na bydl\u0119cej drodze\nB\u00f3g uleg\u0142 i Jakuba b\u0142ogos\u0142awi\u0142\nWprz\u00f3d mu odj\u0105wszy w\u0142adz\u0119 w jednej nodze\nBy wolnych pozna\u0107 po tym \u017ce kulawi",
-            "chorus": true
-        }
-    ]
-}
+#title Walka Jakuba z Aniołem
+#author Jacek Kaczmarski, Przemysław Gintrowski
+#category Jacek Kaczmarski
+
+#verse
+A kiedy walczył Jakub z aniołem ~ A
+I kiedy pojął, że walczy z Bogiem ~ E
+Skrzydło świetliste bódł spoconym czołem ~ fis
+Ciało nieziemskie kalał pyłem z drogi ~ cis
+I wołał – Daj mi Panie, bo nie puszczę ~ D E
+Błogosławieństwo na teraz i na potem ~ h E
+
+#chorus
+A kaftan jego cuchnął kozim tłuszczem ~ h E
+A szaty Pana mieniły się złotem ~ h E
+
+#verse
+On sam zaś Pasterz lecz o rękach gładkich ~ A
+W zapasach wołał – łamiesz moje prawa ~ E
+I żądasz jeszcze abym sam z nich zakpił ~ fis cis
+Ciebie co bluźnisz grozisz błogosławił ~ D E
+
+#chorus
+A szaty Pana mieniły się złotem ~ h E
+Kaftan Jakuba cuchnął kozim tłuszczem ~ h E
+
+#verse
+– W niewoli praw twych i w ludzkiej niewoli ~ A
+Żyłem wśród zwierząt obce karmiąc plemię ~ E
+Jeśli na drodze do wolności stoisz ~ fis cis
+Prawa odrzucę precz a Boga zmienię ~ D cis fis D cis fis
+
+#chorus
+I w tym spotkaniu na bydlęcej drodze ~ A E
+Bóg uległ i Jakuba błogosławił ~ fis cis
+Wprzód mu odjąwszy władzę w jednej nodze ~ D E
+By wolnych poznać po tym że kulawi ~ h E
+

@@ -1,52 +1,45 @@
-{
-    "title": "Wytr\u0105ci\u0142a\u015b",
-    "author": "Elektryczne Gitary\r",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "C G a F\nC G C",
-            "lyrics": "Ta-ta-tam, ta-ta-tam, ta, ta-ta-ta-ta-tam\nTa-ra-ra-ra-ram, ta-ra-ram",
-            "chorus": true
-        },
-        {
-            "chords": "C G C G\nC G C G\nC G a F\nC G C",
-            "lyrics": "By\u0142em jeden, okr\u0105g\u0142y, mia\u0142em wszystko na twarzy\nBy\u0142em ch\u0119tny i czu\u0142y, mia\u0142em o czym pomarzy\u0107\nBy\u0142em pe\u0142en r\u00f3wno\u015bci, by\u0142em g\u00f3r\u0105 powagi\nWytr\u0105ci\u0142a\u015b mnie z r\u00f3wnowagi",
-            "chorus": false
-        },
-        {
-            "chords": "C G a F\nC G C",
-            "lyrics": "Ra-ta-tam. ta-ta-tam, ta, ta-ta-ta-ta-tam\nWytr\u0105ci\u0142a\u015b mnie z r\u00f3wnowagi",
-            "chorus": true
-        },
-        {
-            "chords": "C G C G\nC G C G\nC G a F\nC G C",
-            "lyrics": "\u015awiat by\u0142 pi\u0119kny i pusty a ja w por\u00f3wnaniu\nBy\u0142em prosty, gotowy na ka\u017cde spotkanie\n\u015awiat by\u0142 drzwiami s\u0142abo\u015bci i \u015bcian\u0105 odwagi\nWytr\u0105ci\u0142a\u015b mnie z r\u00f3wnowagi",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ra-ta-tam...",
-            "chorus": true
-        },
-        {
-            "chords": "C G C G\nC G C G\nC G a F\nC G C",
-            "lyrics": "Lampa sta\u0142a na stole, w\u0142osy ros\u0142y na g\u0142owie\nButy sta\u0142y na szafie, m\u0142odzi pili na zdrowie\nJedni mieli pretensje, drudzy mieli uwagi\nWytr\u0105ci\u0142a\u015b mnie z r\u00f3wnowagi",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ra-ta-tam...",
-            "chorus": true
-        },
-        {
-            "chords": "C G C G\nC G C G\nC G a F\nC G C",
-            "lyrics": "Jedno \u017cycie w pami\u0119ci, drugie \u017cycie na zdj\u0119ciach\nCzasem kropla na g\u0142ow\u0119, byle nigdy nie ceg\u0142a\nZ jednej strony co\u015b g\u0142aszcze, z drugiej strony co\u015b wali\nA Ty mnie wytr\u0105ci\u0142a\u015b z r\u00f3wnowagi",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ra-ta-tam...",
-            "chorus": true
-        }
-    ]
-}
+#title Wytrąciłaś
+#author Elektryczne Gitary
+#category Piosenki różne
+
+#chorus
+Ta-ta-tam, ta-ta-tam, ta, ta-ta-ta-ta-tam ~ C G a F
+Ta-ra-ra-ra-ram, ta-ra-ram ~ C G C
+
+#verse
+Byłem jeden, okrągły, miałem wszystko na twarzy ~ C G C G
+Byłem chętny i czuły, miałem o czym pomarzyć ~ C G C G
+Byłem pełen równości, byłem górą powagi ~ C G a F
+Wytrąciłaś mnie z równowagi ~ C G C
+
+#chorus
+Ra-ta-tam. ta-ta-tam, ta, ta-ta-ta-ta-tam ~ C G a F
+Wytrąciłaś mnie z równowagi ~ C G C
+
+#verse
+Świat był piękny i pusty a ja w porównaniu ~ C G C G
+Byłem prosty, gotowy na każde spotkanie ~ C G C G
+Świat był drzwiami słabości i ścianą odwagi ~ C G a F
+Wytrąciłaś mnie z równowagi ~ C G C
+
+#chorus
+Ra-ta-tam... 
+
+#verse
+Lampa stała na stole, włosy rosły na głowie ~ C G C G
+Buty stały na szafie, młodzi pili na zdrowie ~ C G C G
+Jedni mieli pretensje, drudzy mieli uwagi ~ C G a F
+Wytrąciłaś mnie z równowagi ~ C G C
+
+#chorus
+Ra-ta-tam... 
+
+#verse
+Jedno życie w pamięci, drugie życie na zdjęciach ~ C G C G
+Czasem kropla na głowę, byle nigdy nie cegła ~ C G C G
+Z jednej strony coś głaszcze, z drugiej strony coś wali ~ C G a F
+A Ty mnie wytrąciłaś z równowagi ~ C G C
+
+#chorus
+Ra-ta-tam... 
+

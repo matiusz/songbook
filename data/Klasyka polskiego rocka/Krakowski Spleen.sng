@@ -1,33 +1,32 @@
-{
-    "title": "Krakowski Spleen",
-    "author": "Maanam",
-    "capo": "Capo II",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a\na\nd\na",
-            "lyrics": "Chmury wisz\u0105 nad miastem, ciemno i wsta\u0107 nie mog\u0119 \nNaci\u0105gam g\u0142\u0119biej ko\u0142dr\u0119, znikam, kul\u0119 si\u0119 w sobie \nPowietrze lepkie i g\u0119ste, wilgo\u0107 osiada na twarzach \nPtak sm\u0119tnie siedzi na drzewie, leniwie pi\u00f3ra wyg\u0142adza",
-            "chorus": false
-        },
-        {
-            "chords": "a\na\nd\na",
-            "lyrics": "Poranek przechodzi w po\u0142udnie, bezw\u0142adnie mijaj\u0105 godziny \nCzasem zabrz\u0119czy mucha w sid\u0142ach paj\u0119czyny \nA s\u0142o\u0144ce wysoko, wysoko \u015bwieci pilotom w oczy \nOgrzewa niestrudzenie zimne niebieskie przestrzenie",
-            "chorus": false
-        },
-        {
-            "chords": "a C\nC G\nG d\nd (a G)",
-            "lyrics": "Czekam na wiatr, co rozgoni \nCiemne sk\u0142\u0119bione zas\u0142ony \nStan\u0119 wtedy na \"RAZ!\" \nZe s\u0142o\u0144cem twarz\u0105 w twarz ",
-            "chorus": true
-        },
-        {
-            "chords": "a\na\nd\na",
-            "lyrics": "Ulice mg\u0142ami spowite, ton\u0105 w \u015blepych ka\u0142u\u017cach \nPrzez okno patrz\u0119 znu\u017cona, z t\u0119sknot\u0105 my\u015bl\u0119 o burzy \nA s\u0142o\u0144ce wysoko, wysoko \u015bwieci pilotom w oczy \nOgrzewa niestrudzenie zimne niebieskie przestrzenie ",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Czekam na wiatr...",
-            "chorus": true
-        }
-    ]
-}
+#title Krakowski Spleen
+#author Maanam
+#category Klasyka polskiego rocka
+#capo Capo II
+
+#verse
+Chmury wiszą nad miastem, ciemno i wstać nie mogę  ~ a
+Naciągam głębiej kołdrę, znikam, kulę się w sobie  ~ a
+Powietrze lepkie i gęste, wilgoć osiada na twarzach  ~ d
+Ptak smętnie siedzi na drzewie, leniwie pióra wygładza ~ a
+
+#verse
+Poranek przechodzi w południe, bezwładnie mijają godziny  ~ a
+Czasem zabrzęczy mucha w sidłach pajęczyny  ~ a
+A słońce wysoko, wysoko świeci pilotom w oczy  ~ d
+Ogrzewa niestrudzenie zimne niebieskie przestrzenie ~ a
+
+#chorus
+Czekam na wiatr, co rozgoni  ~ a C
+Ciemne skłębione zasłony  ~ C G
+Stanę wtedy na "RAZ!"  ~ G d
+Ze słońcem twarzą w twarz  ~ d (a G)
+
+#verse
+Ulice mgłami spowite, toną w ślepych kałużach  ~ a
+Przez okno patrzę znużona, z tęsknotą myślę o burzy  ~ a
+A słońce wysoko, wysoko świeci pilotom w oczy  ~ d
+Ogrzewa niestrudzenie zimne niebieskie przestrzenie  ~ a
+
+#chorus
+Czekam na wiatr... 
+

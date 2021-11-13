@@ -1,47 +1,46 @@
-{
-    "title": "Orki z Majorki",
-    "author": "G.F. Darwin",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "D e D G D e D A",
-            "lyrics": "(Intro) | x2",
-            "chorus": false
-        },
-        {
-            "chords": "D e D\nG D e D A\nD e D\nG D e D A",
-            "lyrics": "Orki, Orki z Majorki\nOrki z Poznania i ze Stalowej Woli\nPan B\u00f3g, stworzy\u0142 walenie\nI bawi si\u0119 z nimi, kiedy si\u0119 goli",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "(Intro)",
-            "chorus": false
-        },
-        {
-            "chords": "D e D\nG D e D A\nD e D\nG D e D A",
-            "lyrics": "Orki to takie pandy\nTylko, \u017ce w wodzie i maj\u0105 p\u0142etwy\nPan B\u00f3g te\u017c chcia\u0142 mie\u0107 p\u0142etw\u0119\nAle nie mo\u017ce, wi\u0119c pojecha\u0142 do Zabrza",
-            "chorus": false
-        },
-        {
-            "chords": "F Dis D\nF Dis D\nF Dis D\nC A",
-            "lyrics": "Pan B\u00f3g od zawsze chcia\u0142 ork\u0105 by\u0107\nO niczym pi\u0119kniejszym nie m\u00f3g\u0142 \u015bni\u0107\nCo dzie\u0144, gdy wchodzi do wanny swej\nWidzi delfina; delfiny s\u0105 z\u0142o\u015bliwe",
-            "chorus": true
-        },
-        {
-            "chords": "E fis E\nA E fis E B\nE fis E\nA E fis E B",
-            "lyrics": "Orki, orki z Majorki\nOrki z Poznania i ze Stalowej Woli\nPan B\u00f3g, stworzy\u0142 walenie\nI bawi si\u0119 z nimi, kiedy si\u0119 goli",
-            "chorus": false
-        },
-        {
-            "chords": "Fis gis Fis\nB Fis gis Fis Cis\nFis gis Fis\nB Fis gis Fis Cis",
-            "lyrics": "Orki, s\u0105 takie pi\u0119kne\nTak pi\u0119knie skacz\u0105, gdy poluj\u0105 na s\u0142onie\nPan B\u00f3g zawsze si\u0119 \u015bmieje i macha im r\u0119k\u0105\nBo nog\u0105 mu ci\u0119\u017cko",
-            "chorus": false
-        },
-        {
-            "chords": "Gis b Gis\nCis Gis b Gis Dis",
-            "lyrics": "Orki to takie pandy\nTylko, \u017ce w wodzie i maj\u0105 p\u0142etwy\nPan B\u00f3g te\u017c chcia\u0142 mie\u0107 p\u0142etw\u0119\nAle nie mo\u017ce, wi\u0119c pojecha\u0142 do Zabrza",
-            "chorus": false
-        }
-    ]
-}
+#title Orki z Majorki
+#author G.F. Darwin
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+(Intro) | x2 ~ D e D G D e D A
+
+#verse
+Orki, Orki z Majorki ~ D e D
+Orki z Poznania i ze Stalowej Woli ~ G D e D A
+Pan Bóg, stworzył walenie ~ D e D
+I bawi się z nimi, kiedy się goli ~ G D e D A
+
+#verse
+(Intro) 
+
+#verse
+Orki to takie pandy ~ D e D
+Tylko, że w wodzie i mają płetwy ~ G D e D A
+Pan Bóg też chciał mieć płetwę ~ D e D
+Ale nie może, więc pojechał do Zabrza ~ G D e D A
+
+#chorus
+Pan Bóg od zawsze chciał orką być ~ F Dis D
+O niczym piękniejszym nie mógł śnić ~ F Dis D
+Co dzień, gdy wchodzi do wanny swej ~ F Dis D
+Widzi delfina; delfiny są złośliwe ~ C A
+
+#verse
+Orki, orki z Majorki ~ E fis E
+Orki z Poznania i ze Stalowej Woli ~ A E fis E B
+Pan Bóg, stworzył walenie ~ E fis E
+I bawi się z nimi, kiedy się goli ~ A E fis E B
+
+#verse
+Orki, są takie piękne ~ Fis gis Fis
+Tak pięknie skaczą, gdy polują na słonie ~ B Fis gis Fis Cis
+Pan Bóg zawsze się śmieje i macha im ręką ~ Fis gis Fis
+Bo nogą mu ciężko ~ B Fis gis Fis Cis
+
+#verse
+Orki to takie pandy ~ Gis b Gis
+Tylko, że w wodzie i mają płetwy ~ Cis Gis b Gis Dis
+Pan Bóg też chciał mieć płetwę 
+Ale nie może, więc pojechał do Zabrza 
+

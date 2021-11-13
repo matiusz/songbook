@@ -1,43 +1,81 @@
-{
-    "title": "1788",
-    "author": "Jacek Kaczmarski",
-    "capo": "Capo III",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "D G\nD A\nD G\nD A\nh e\nh fis\nG A D\nG A h\nG D A",
-            "lyrics": "Ta pierwsza morska podr\u00f3\u017c do Australii!\n\u0141otry przy burtach, prostytutki w kojach -\nWszyscy si\u0119 bali, \u0142kali i rzygali\nW drodze do raju. Przewrotno\u015bci Twoja\nPanie, co\u015b w jeszcze nam nieznanych planach\nMia\u0142 czarne diab\u0142y strzeg\u0105ce wybrze\u017cy\nEdenu, kt\u00f3ry przeznaczy\u0142e\u015b dla nas,\nA w kt\u00f3ry nikt, prawd\u0119 m\u00f3wi\u0105c, nie wierzy\u0142!",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD A\nD G\nD A\nh e\nh fis\nG A D\nG A h\nG D A",
-            "lyrics": "Czym \u017ce\u015bmy, marni, zas\u0142u\u017cyli na to?\nTen, co zawisn\u0105\u0107 mia\u0142 za kradzie\u017c p\u0142aszcza -\nP\u0142aka\u0142 nad swoj\u0105 niechybn\u0105 zatrat\u0105;\nNie widzia\u0142 Ciebie w robaczywych masztach\nStatku, co tylko by\u0142 wi\u0119zieniem nowym;\nTej, co kupczy\u0142a cia\u0142ami swych dziatek -\nAni przez mgnienie nie przysz\u0142o do g\u0142owy,\n\u017be to nadziei - nie rozpaczy statek.",
-            "chorus": true
-        },
-        {
-            "chords": "D G\nD A\nD G\nD A\nh e\nh fis\nG A D\nG A h\nG D A",
-            "lyrics": "Niejeden \u017co\u0142nierz z ponurej eskorty\n(Bo czym si\u0119 los ich od naszego r\u00f3\u017cni\u0142?)\nWiedzia\u0142, \u017ce nigdy ju\u017c nie ujrzy portu,\nGdzie go podejm\u0105 karczmarze us\u0142u\u017cni\nI p\u0142atne dziewki; \u017ce zabraknie rumu\nZanim do celu przygnasz okr\u0119t szparki.\nZ marynarzami pili wi\u0119c na um\u00f3r\nI - wbrew zakazom - grali o wi\u0119\u017aniarki.",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD A\nD G\nD A\nh e\nh fis\nG A D\nG A h\nG D A",
-            "lyrics": "Prawda, nie wszyscy pr\u00f3by Twe przetrwali,\nAle te\u017c ci\u0119\u017cko\u015b nas do\u015bwiadcza\u0142, Panie:\nNie oszcz\u0119dza\u0142e\u015b nam wysokiej fali,\nZa kt\u00f3r\u0105 mnogim przysz\u0142o w oceanie\nZako\u0144czy\u0107 \u017cywot; innym dzi\u0105s\u0142a zgni\u0142y,\nWypad\u0142y z\u0119by, rozgorza\u0142y wrzody...\nWi\u0119c znacz\u0105 nasz zielony szlak mogi\u0142y\nSzkorbutu, sza\u0142u, francuskiej choroby.",
-            "chorus": true
-        },
-        {
-            "chords": "D G\nD A\nD G\nD A\nh e\nh fis\nG A D\nG A h\nG D A",
-            "lyrics": "Nikt nie odnajdzie w ruchomych otch\u0142aniach\nCia\u0142 nieszcz\u0119\u015bnik\u00f3w - opr\u00f3cz Ciebie, Bo\u017ce.\nIch \u017cywot grzeszny epitafi\u00f3w wzbrania,\nLecz - ukarani. Wi\u0119c wystarczy mo\u017ce,\n\u017be\u015b si\u0119 pos\u0142u\u017cy\u0142 straszliwym przyk\u0142adem:\nOni naprawd\u0119 dotarli do piekie\u0142,\nA umieraj\u0105c nie wierzy\u0142 z nich \u017caden,\n\u017be w swym cierpieniu umiera - cz\u0142owiekiem.",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD A\nD G\nD A\nh e\nh fis\nG A D\nG A h\nG D A",
-            "lyrics": "L\u0105d nam si\u0119 wyda\u0142 niego\u015bcinny, dziki;\n\u0141otr bez honoru, kobieta sprzedajna\nZ dnia na dzie\u0144 - jak si\u0119 ma sta\u0107 osadnikiem\nNieznanych \u015bwiat\u00f3w? Bo rozpozna\u0107 Raj nam\nNie by\u0142o \u0142atwo; znale\u017a\u0107 w sobie si\u0142\u0119,\nWbrew przeciwno\u015bciom, bez s\u0142owa zach\u0119ty\nBy mimo wszystko \u017cy\u0107 - nim nam odkry\u0142e\u015b\nKraj szczodry w zbo\u017ce, z\u0142oto i diamenty.",
-            "chorus": true
-        },
-        {
-            "chords": "D G\nD A\nD G D\nh G D A\nh G D A\nh G D A\nh G D A h\nG D A D",
-            "lyrics": "\u0141ajdacki pomiot, \u0142otrowskie nasienie\nCzerpi\u0105c ze spichrza Twoich d\u00f3br wszelakich -\nCho\u0107 tyle wiemy w\u0142asnym do\u015bwiadczeniem:\nW nas jest Raj, Piek\u0142o \u2013 i do obu \u2013 szlaki.\nW nas jest Raj, Piek\u0142o \u2013 i do obu \u2013 szlaki.\nW nas jest Raj, Piek\u0142o \u2013 i do obu \u2013 szlaki.\nW nas jest Raj, Piek\u0142o \u2013 i do obu \u2013 szlaki.",
-            "chorus": false
-        }
-    ]
-}
+#title 1788
+#author Jacek Kaczmarski
+#category Jacek Kaczmarski
+#capo Capo III
+
+#verse
+Ta pierwsza morska podróż do Australii! ~ D G
+Łotry przy burtach, prostytutki w kojach - ~ D A
+Wszyscy się bali, łkali i rzygali ~ D G
+W drodze do raju. Przewrotności Twoja ~ D A
+Panie, coś w jeszcze nam nieznanych planach ~ h e
+Miał czarne diabły strzegące wybrzeży ~ h fis
+Edenu, który przeznaczyłeś dla nas, ~ G A D
+A w który nikt, prawdę mówiąc, nie wierzył! ~ G A h
+~ G D A
+
+#chorus
+Czym żeśmy, marni, zasłużyli na to? ~ D G
+Ten, co zawisnąć miał za kradzież płaszcza - ~ D A
+Płakał nad swoją niechybną zatratą; ~ D G
+Nie widział Ciebie w robaczywych masztach ~ D A
+Statku, co tylko był więzieniem nowym; ~ h e
+Tej, co kupczyła ciałami swych dziatek - ~ h fis
+Ani przez mgnienie nie przyszło do głowy, ~ G A D
+Że to nadziei - nie rozpaczy statek. ~ G A h
+~ G D A
+
+#verse
+Niejeden żołnierz z ponurej eskorty ~ D G
+(Bo czym się los ich od naszego różnił?) ~ D A
+Wiedział, że nigdy już nie ujrzy portu, ~ D G
+Gdzie go podejmą karczmarze usłużni ~ D A
+I płatne dziewki; że zabraknie rumu ~ h e
+Zanim do celu przygnasz okręt szparki. ~ h fis
+Z marynarzami pili więc na umór ~ G A D
+I - wbrew zakazom - grali o więźniarki. ~ G A h
+~ G D A
+
+#chorus
+Prawda, nie wszyscy próby Twe przetrwali, ~ D G
+Ale też ciężkoś nas doświadczał, Panie: ~ D A
+Nie oszczędzałeś nam wysokiej fali, ~ D G
+Za którą mnogim przyszło w oceanie ~ D A
+Zakończyć żywot; innym dziąsła zgniły, ~ h e
+Wypadły zęby, rozgorzały wrzody... ~ h fis
+Więc znaczą nasz zielony szlak mogiły ~ G A D
+Szkorbutu, szału, francuskiej choroby. ~ G A h
+~ G D A
+
+#verse
+Nikt nie odnajdzie w ruchomych otchłaniach ~ D G
+Ciał nieszczęśników - oprócz Ciebie, Boże. ~ D A
+Ich żywot grzeszny epitafiów wzbrania, ~ D G
+Lecz - ukarani. Więc wystarczy może, ~ D A
+Żeś się posłużył straszliwym przykładem: ~ h e
+Oni naprawdę dotarli do piekieł, ~ h fis
+A umierając nie wierzył z nich żaden, ~ G A D
+Że w swym cierpieniu umiera - człowiekiem. ~ G A h
+~ G D A
+
+#chorus
+Ląd nam się wydał niegościnny, dziki; ~ D G
+Łotr bez honoru, kobieta sprzedajna ~ D A
+Z dnia na dzień - jak się ma stać osadnikiem ~ D G
+Nieznanych światów? Bo rozpoznać Raj nam ~ D A
+Nie było łatwo; znaleźć w sobie siłę, ~ h e
+Wbrew przeciwnościom, bez słowa zachęty ~ h fis
+By mimo wszystko żyć - nim nam odkryłeś ~ G A D
+Kraj szczodry w zboże, złoto i diamenty. ~ G A h
+~ G D A
+
+#verse
+Łajdacki pomiot, łotrowskie nasienie ~ D G
+Czerpiąc ze spichrza Twoich dóbr wszelakich - ~ D A
+Choć tyle wiemy własnym doświadczeniem: ~ D G D
+W nas jest Raj, Piekło – i do obu – szlaki. ~ h G D A
+W nas jest Raj, Piekło – i do obu – szlaki. ~ h G D A
+W nas jest Raj, Piekło – i do obu – szlaki. ~ h G D A
+W nas jest Raj, Piekło – i do obu – szlaki. ~ h G D A h
+~ G D A D
+

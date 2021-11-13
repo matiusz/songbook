@@ -1,47 +1,43 @@
-{
-    "title": "Zapach r\u00f3\u017cy",
-    "author": "\u0141ukasz Cie\u015blak",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "a F C G\na F d G",
-            "lyrics": "Wiem dobrze, co czujesz, te moje nastroje\nSzybka zmiana zdania, zamkni\u0119te pokoje\nMo\u017ce to zabawne, ale ja nie \u017cartuj\u0119\nChc\u0119 by\u0107 sprawiedliwym, przecie\u017c ja te\u017c czuj\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "a F C G\na F d G",
-            "lyrics": "Te\u017c jestem cz\u0142owiekiem, te\u017c serce posiadam\nTak\u017ce innych kocham, tak\u017ce innych zdradzam\nTe\u017c mnie nienawidz\u0105, kochaj\u0105 niekt\u00f3rzy\nTe\u017c prawie jak wszyscy, lubi\u0119 zapach r\u00f3\u017cy",
-            "chorus": true
-        },
-        {
-            "chords": "a F C G\na F d G",
-            "lyrics": "Te\u017c jestem samotny, czuj\u0119 zapomnienie\nDobrze wiesz, \u017ce mi\u0142o\u015b\u0107 to moje zbawienie\nNiszczy mnie samotno\u015b\u0107, tak bardzo powoli\nCho\u0107 ju\u017c zrozumia\u0142em, \u017ce nienawi\u015b\u0107 boli",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Te\u017c jestem cz\u0142owiekiem, te\u017c serce posiadam...",
-            "chorus": true
-        },
-        {
-            "chords": "a F C G\na F d G",
-            "lyrics": "Chocia\u017c nie znalaz\u0142em duszy sobie bratniej\nChc\u0119 tu jeszcze zosta\u0107 do chwili ostatniej\nSmutno troch\u0119 by\u0142o, troch\u0119 si\u0119 zawiod\u0142em\nWtedy ju\u017c wiedzia\u0142em, zosta\u0107 tu nie mog\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Te\u017c jestem cz\u0142owiekiem, te\u017c serce posiadam...",
-            "chorus": true
-        },
-        {
-            "chords": "a F C G\na F d G",
-            "lyrics": "Teraz, gdy odszed\u0142em kwiatom si\u0119 spowiadam\nZ tego, \u017ce Ci\u0119 kocham, \u017ce serce posiadam\nZ tego, \u017ce \u017ca\u0142uj\u0119, nie brak mi sumienia\nKt\u00f3re mi wskazuje drog\u0119 do zbawienia",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Te\u017c jestem cz\u0142owiekiem, te\u017c serce posiadam...",
-            "chorus": true
-        }
-    ]
-}
+#title Zapach róży
+#author Łukasz Cieślak
+#category Piosenki różne
+
+#verse
+Wiem dobrze, co czujesz, te moje nastroje ~ a F C G
+Szybka zmiana zdania, zamknięte pokoje ~ a F d G
+Może to zabawne, ale ja nie żartuję 
+Chcę być sprawiedliwym, przecież ja też czuję 
+
+#chorus
+Też jestem człowiekiem, też serce posiadam ~ a F C G
+Także innych kocham, także innych zdradzam ~ a F d G
+Też mnie nienawidzą, kochają niektórzy 
+Też prawie jak wszyscy, lubię zapach róży 
+
+#verse
+Też jestem samotny, czuję zapomnienie ~ a F C G
+Dobrze wiesz, że miłość to moje zbawienie ~ a F d G
+Niszczy mnie samotność, tak bardzo powoli 
+Choć już zrozumiałem, że nienawiść boli 
+
+#chorus
+Też jestem człowiekiem, też serce posiadam... 
+
+#verse
+Chociaż nie znalazłem duszy sobie bratniej ~ a F C G
+Chcę tu jeszcze zostać do chwili ostatniej ~ a F d G
+Smutno trochę było, trochę się zawiodłem 
+Wtedy już wiedziałem, zostać tu nie mogę 
+
+#chorus
+Też jestem człowiekiem, też serce posiadam... 
+
+#verse
+Teraz, gdy odszedłem kwiatom się spowiadam ~ a F C G
+Z tego, że Cię kocham, że serce posiadam ~ a F d G
+Z tego, że żałuję, nie brak mi sumienia 
+Które mi wskazuje drogę do zbawienia 
+
+#chorus
+Też jestem człowiekiem, też serce posiadam... 
+

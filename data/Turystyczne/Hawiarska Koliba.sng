@@ -1,27 +1,28 @@
-{
-    "title": "Hawiarska Koliba",
-    "author": "Wies\u0142aw Witek",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "C G C C7\nF G C C7\nF G C a\nd G C C7",
-            "lyrics": "Ju\u017c ksi\u0119\u017cyc na niebo wychodzi\nZap\u0142on\u0105 doko\u0142a ogniska\nI wkr\u00f3tce pop\u0142ynie z Hawiarskiej Koliby\nMelodia nam wszystkim tak bliska",
-            "chorus": false
-        },
-        {
-            "chords": "C G C C7\nF G C C7\nF G C a\nd G C C7",
-            "lyrics": "Usiad\u0142a ju\u017c bra\u0107 roz\u015bpiewana\nDoko\u0142a z\u0142otego ogniska\nWiatr niesie melodi\u0119 z Hawiarskiej Koliby\nNad pola, nad lasy, nad urwiska",
-            "chorus": false
-        },
-        {
-            "chords": "C G C C7\nF G C C7\nF G C a\nd G C C7",
-            "lyrics": "Zaniesie wiatr nasz\u0105 melodi\u0119\nDo dom\u00f3w Wo\u0142och\u00f3w i \u0141emk\u00f3w\nPiosenk\u0119 rajdow\u0105 Hawiarskiej Koliby\nPiosenk\u0119 krakowskich student\u00f3w",
-            "chorus": false
-        },
-        {
-            "chords": "C G C C7\nF G C C7\nF G C a\nd G C C7",
-            "lyrics": "Ju\u017c ksi\u0119\u017cyc blednie na niebie\nI promie\u0144 s\u0142o\u0144ca ju\u017c b\u0142yska\nPogas\u0142y ogniska w Hawiarskiej Kolibie\nDo snu k\u0142adzie si\u0119 ca\u0142a izba",
-            "chorus": false
-        }
-    ]
-}
+#title Hawiarska Koliba
+#author Wiesław Witek
+#category Turystyczne
+
+#verse
+Już księżyc na niebo wychodzi ~ C G C C7
+Zapłoną dokoła ogniska ~ F G C C7
+I wkrótce popłynie z Hawiarskiej Koliby ~ F G C a
+Melodia nam wszystkim tak bliska ~ d G C C7
+
+#verse
+Usiadła już brać rozśpiewana ~ C G C C7
+Dokoła złotego ogniska ~ F G C C7
+Wiatr niesie melodię z Hawiarskiej Koliby ~ F G C a
+Nad pola, nad lasy, nad urwiska ~ d G C C7
+
+#verse
+Zaniesie wiatr naszą melodię ~ C G C C7
+Do domów Wołochów i Łemków ~ F G C C7
+Piosenkę rajdową Hawiarskiej Koliby ~ F G C a
+Piosenkę krakowskich studentów ~ d G C C7
+
+#verse
+Już księżyc blednie na niebie ~ C G C C7
+I promień słońca już błyska ~ F G C C7
+Pogasły ogniska w Hawiarskiej Kolibie ~ F G C a
+Do snu kładzie się cała izba ~ d G C C7
+

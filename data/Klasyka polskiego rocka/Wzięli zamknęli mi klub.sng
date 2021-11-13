@@ -1,32 +1,36 @@
-{
-    "title": "Wzi\u0119li zamkn\u0119li mi klub",
-    "author": "Kwiat Jab\u0142oni",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "d \nC G\nd \nC G",
-            "lyrics": "Chc\u0119 dzi\u015b zwojowa\u0107 ca\u0142y \u015bwiat\nW\u0142a\u015bnie dzisiaj udowodni\u0119 - jestem czego\u015b wart \nId\u0119 ju\u017c Krakowskim zbli\u017cam si\u0119\nJu\u017c nied\u0142ugo, ju\u017c za chwil\u0119, za minuty dwie",
-            "chorus": false
-        },
-        {
-            "chords": "d \nd A (A C Cis)\nd \nC G\nd \nC G",
-            "lyrics": "I nagle serce staje i a\u017c zapiera dech\n\u015awiat szybko wiruje, a ja pewna jestem, \u017ce\nWzi\u0119li zamkn\u0119li dzi\u015b m\u00f3j ulubiony klub\nPod drzwiami ludzi t\u0142um ju\u017c nie zabaluj\u0119 tu\nOkna zabite, techno nie poleci ju\u017c\nNa blacie gruby kurz, a my nie zata\u0144czymy tu\n",
-            "chorus": true
-        },
-        {
-            "chords": "d \nC G\nd \nC G",
-            "lyrics": "\u015awiat\u0142a ulic wyznaczaj\u0105 szlak\nWyobra\u017cam sobie w g\u0142owie jak za dawnych lat\nPo zaj\u0119ciach p\u00f3jd\u0119 w\u0142a\u015bnie tam\nMiesi\u0105c ko\u0144czy si\u0119, no ale na jedno mnie sta\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "I nagle serce staje...\n",
-            "chorus": true
-        },
-        {
-            "chords": "d \nC G\nd \nC G",
-            "lyrics": "Wzi\u0119li zamkn\u0119li dzi\u015b m\u00f3j ulubiony klub\nPod drzwiami ludzi t\u0142um ju\u017c si\u0119 nie napije tu\nOkno otwarte, fleta nie us\u0142yszysz ju\u017c\nNa blacie gruby kurz, do Rio nie p\u0142yniemy tu\n",
-            "chorus": true
-        }
-    ]
-}
+#title Wzięli zamknęli mi klub
+#author Kwiat Jabłoni
+#category Klasyka polskiego rocka
+
+#verse
+Chcę dziś zwojować cały świat ~ d 
+Właśnie dzisiaj udowodnię - jestem czegoś wart  ~ C G
+Idę już Krakowskim zbliżam się ~ d 
+Już niedługo, już za chwilę, za minuty dwie ~ C G
+
+#chorus
+I nagle serce staje i aż zapiera dech ~ d 
+Świat szybko wiruje, a ja pewna jestem, że ~ d A (A C Cis)
+Wzięli zamknęli dziś mój ulubiony klub ~ d 
+Pod drzwiami ludzi tłum już nie zabaluję tu ~ C G
+Okna zabite, techno nie poleci już ~ d 
+Na blacie gruby kurz, a my nie zatańczymy tu ~ C G
+
+
+#verse
+Światła ulic wyznaczają szlak ~ d 
+Wyobrażam sobie w głowie jak za dawnych lat ~ C G
+Po zajęciach pójdę właśnie tam ~ d 
+Miesiąc kończy się, no ale na jedno mnie stać ~ C G
+
+#chorus
+I nagle serce staje... 
+
+
+#chorus
+Wzięli zamknęli dziś mój ulubiony klub ~ d 
+Pod drzwiami ludzi tłum już się nie napije tu ~ C G
+Okno otwarte, fleta nie usłyszysz już ~ d 
+Na blacie gruby kurz, do Rio nie płyniemy tu ~ C G
+
+

@@ -1,32 +1,44 @@
-{
-    "title": "Majster Bieda",
-    "author": "Wolna Grupa Bukowina",
-    "category": "WGB",
-    "sections": [
-        {
-            "chords": "D G fis e A D",
-            "lyrics": "",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD G A\nD A\nfis h\nA G fis e\nA D G fis e A D",
-            "lyrics": "Sk\u0105d przychodzi\u0142 kto go zna\u0142\nkto mu r\u0119k\u0119 poda\u0142 kiedy\nnad rowem siada\u0142 wyjmowa\u0142 chleb\nserem przek\u0142ada\u0142 i dzieli\u0142 si\u0119 z psem\ntyle wszystkiego co z sob\u0105 mia\u0142\nMajster Bieda",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD G A\nD A\nfis h\nA G fis e\nA D G fis e A D",
-            "lyrics": "Czapk\u0119 z g\u0142owy \u015bci\u0105ga\u0142 gdy\nwiatr ga\u0142\u0119zie chyli\u0142 drzewom\n\u015amia\u0142 si\u0119 do s\u0142o\u0144ca i \u015bpiewa\u0142 do gwiazd\ndrog\u0119 bez ko\u0144ca co przed nim sz\u0142a\nzna\u0142 jak pi\u0119\u0107 palc\u00f3w jak szel\u0105g z\u0142y\nMajster Bieda",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD G A\nD A\nfis h\nA G fis e\nA D G fis e A D",
-            "lyrics": "Nikt nie pyta\u0142 sk\u0105d si\u0119 wzi\u0105\u0142\ngdy do ognia si\u0119 przysiada\u0142\nwtula\u0142 si\u0119 w kr\u0105g ciep\u0142a jak w ko\u017cuch\nznu\u017cony drog\u0105 w\u0119drowiec bo\u017cy\nzasypia\u0142 d\u0142ugo gapi\u0105c si\u0119 w noc\nMajster Bieda",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD D7 G A\nD A\nfis h\nA G\nA G\nA G\nA G\nA G\nA G A\nD G fis e A D",
-            "lyrics": "A\u017c nast\u0105pi\u0142 taki rok\nsmutny rok tak wida\u0107 trzeba\nNie przyszed\u0142 Bieda zielon\u0105 wiosn\u0105\nmiejsce gdzie siada\u0142 zielskiem zaros\u0142o\nI cho\u0107 niejeden wyt\u0119\u017ca\u0142 wzrok\ncho\u0107 lato pustym go\u015bci\u0144cem przesz\u0142o\nz rudymi li\u015b\u0107mi jesieni sched\u0105\nWiatrem niesiony pop\u0142yn\u0105\u0142 w przesz\u0142o\u015b\u0107\nwiatrem niesiony pop\u0142yn\u0105\u0142 w przesz\u0142o\u015b\u0107\nwiatrem niesiony pop\u0142yn\u0105\u0142 w przesz\u0142o\u015b\u0107\nMajster Bieda",
-            "chorus": false
-        }
-    ]
-}
+#title Majster Bieda
+#author Wolna Grupa Bukowina
+#category WGB
+
+#verse
+~ D G fis e A D
+
+#verse
+Skąd przychodził kto go znał ~ D G
+kto mu rękę podał kiedy ~ D G A
+nad rowem siadał wyjmował chleb ~ D A
+serem przekładał i dzielił się z psem ~ fis h
+tyle wszystkiego co z sobą miał ~ A G fis e
+Majster Bieda ~ A D G fis e A D
+
+#verse
+Czapkę z głowy ściągał gdy ~ D G
+wiatr gałęzie chylił drzewom ~ D G A
+Śmiał się do słońca i śpiewał do gwiazd ~ D A
+drogę bez końca co przed nim szła ~ fis h
+znał jak pięć palców jak szeląg zły ~ A G fis e
+Majster Bieda ~ A D G fis e A D
+
+#verse
+Nikt nie pytał skąd się wziął ~ D G
+gdy do ognia się przysiadał ~ D G A
+wtulał się w krąg ciepła jak w kożuch ~ D A
+znużony drogą wędrowiec boży ~ fis h
+zasypiał długo gapiąc się w noc ~ A G fis e
+Majster Bieda ~ A D G fis e A D
+
+#verse
+Aż nastąpił taki rok ~ D G
+smutny rok tak widać trzeba ~ D D7 G A
+Nie przyszedł Bieda zieloną wiosną ~ D A
+miejsce gdzie siadał zielskiem zarosło ~ fis h
+I choć niejeden wytężał wzrok ~ A G
+choć lato pustym gościńcem przeszło ~ A G
+z rudymi liśćmi jesieni schedą ~ A G
+Wiatrem niesiony popłynął w przeszłość ~ A G
+wiatrem niesiony popłynął w przeszłość ~ A G
+wiatrem niesiony popłynął w przeszłość ~ A G A
+Majster Bieda ~ D G fis e A D
+

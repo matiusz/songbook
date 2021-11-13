@@ -1,27 +1,28 @@
-{
-    "title": "Knockin\u2019 on Heavens\u2019 Doors",
-    "author": "Bob Dylan",
-    "category": "Piosenki zagraniczne",
-    "sections": [
-        {
-            "chords": "G D a\nG D C",
-            "lyrics": "Mama, take this badge off of me\nI can't use it anymore\nIt's gettin' dark, too dark to see\nI feel I'm knockin' on heaven's door",
-            "chorus": false
-        },
-        {
-            "chords": "G D C",
-            "lyrics": "Knock, knock, knockin' on heaven's door\nKnock, knock, knockin' on heaven's door\nKnock, knock, knockin' on heaven's door\nKnock, knock, knockin' on heaven's door",
-            "chorus": true
-        },
-        {
-            "chords": "G D a\nG D C",
-            "lyrics": "Mama, put my guns in the ground\nI can't shoot them anymore\nThat long black cloud is comin' down\nI feel I'm knockin' on heaven's door",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Knock, knock, knockin' on heaven's door\nKnock, knock, knockin' on heaven's door\nKnock, knock, knockin' on heaven's door\nKnock, knock, knockin' on heaven's door",
-            "chorus": true
-        }
-    ]
-}
+#title Knockin’ on Heavens’ Doors
+#author Bob Dylan
+#category Piosenki zagraniczne
+
+#verse
+Mama, take this badge off of me ~ G D a
+I can't use it anymore ~ G D C
+It's gettin' dark, too dark to see 
+I feel I'm knockin' on heaven's door 
+
+#chorus
+Knock, knock, knockin' on heaven's door ~ G D C
+Knock, knock, knockin' on heaven's door 
+Knock, knock, knockin' on heaven's door 
+Knock, knock, knockin' on heaven's door 
+
+#verse
+Mama, put my guns in the ground ~ G D a
+I can't shoot them anymore ~ G D C
+That long black cloud is comin' down 
+I feel I'm knockin' on heaven's door 
+
+#chorus
+Knock, knock, knockin' on heaven's door 
+Knock, knock, knockin' on heaven's door 
+Knock, knock, knockin' on heaven's door 
+Knock, knock, knockin' on heaven's door 
+

@@ -1,42 +1,46 @@
-{
-    "title": "Preludium dla Leonarda",
-    "author": "Leonard Luther",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "D\nG D\nC G D\nC G\nD A\nC G D",
-            "lyrics": "Na parterze w mojej chacie\nMieszka\u0142 kiedy\u015b taki facet\nKt\u00f3ry dnia pewnego cicho do mnie rzek\u0142\nGdy zachwycisz si\u0119 dziewczyn\u0105\nNie podrywaj jej na kino\nAle patrz\u0105c prosto w oczy szepnij s\u0142owa te",
-            "chorus": false
-        },
-        {
-            "chords": "h G D A\nC G D A D\nh G D A\nC G D",
-            "lyrics": "Jestem taki samotny jak palec albo pies\nKocham wiersze Stachury i stary dobry jazz\nSzcz\u0119\u015bcia w \u017cyciu nie mia\u0142em rzuca\u0142y mnie dziewczyny\nSzukam cichego portu gdzie okr\u0119t m\u00f3j zawinie",
-            "chorus": true
-        },
-        {
-            "chords": "D\nG D\nC G D\nC G\nD A\nC G D",
-            "lyrics": "Po tych s\u0142owach z mi\u0142osierdzia\nPad\u0142a ju\u017c nie jedna twierdza\nI nie jedna cnota chy\u017co posz\u0142a w las\nRyba bierze na robaki\nA panienka na tekst taki\nKt\u00f3ry zawsze m\u00f3wi\u0119 patrz\u0105c prosto w twarz",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Jestem taki samotny\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "D\nG D\nC G D\nC G\nD A\nC G D",
-            "lyrics": "Kiedy sza\u0142 pierwszych zryw\u00f3w min\u0105\u0142\nZakocha\u0142em si\u0119 w dziewczynie\nZ kt\u00f3r\u0105 si\u0119 na ca\u0142e \u017cycie zosta\u0107 chce\nChcia\u0142em rzec - b\u0119dziemy razem\nZrozumia\u0142a mnie od razu\nI jak echo wyszepta\u0142a s\u0142owa te.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Jestem taka samotna\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "h G D A\nC G D A D\nh G D A\nC G D",
-            "lyrics": "Jestem taka samotna jak szmata albo miot\u0142a\nKocham wiersze Le\u015bmiana i szale\u0107 a\u017c do rana\nSzcz\u0119\u015bcia w \u017cyciu nie mia\u0142am, omija\u0142y mnie przygody\nSzukam cichego portu, tej spokojnej cichej wody.",
-            "chorus": true
-        }
-    ]
-}
+#title Preludium dla Leonarda
+#author Leonard Luther
+#category Piosenki różne
+
+#verse
+Na parterze w mojej chacie ~ D
+Mieszkał kiedyś taki facet ~ G D
+Który dnia pewnego cicho do mnie rzekł ~ C G D
+Gdy zachwycisz się dziewczyną ~ C G
+Nie podrywaj jej na kino ~ D A
+Ale patrząc prosto w oczy szepnij słowa te ~ C G D
+
+#chorus
+Jestem taki samotny jak palec albo pies ~ h G D A
+Kocham wiersze Stachury i stary dobry jazz ~ C G D A D
+Szczęścia w życiu nie miałem rzucały mnie dziewczyny ~ h G D A
+Szukam cichego portu gdzie okręt mój zawinie ~ C G D
+
+#verse
+Po tych słowach z miłosierdzia ~ D
+Padła już nie jedna twierdza ~ G D
+I nie jedna cnota chyżo poszła w las ~ C G D
+Ryba bierze na robaki ~ C G
+A panienka na tekst taki ~ D A
+Który zawsze mówię patrząc prosto w twarz ~ C G D
+
+#chorus
+Jestem taki samotny… 
+
+#verse
+Kiedy szał pierwszych zrywów minął ~ D
+Zakochałem się w dziewczynie ~ G D
+Z którą się na całe życie zostać chce ~ C G D
+Chciałem rzec - będziemy razem ~ C G
+Zrozumiała mnie od razu ~ D A
+I jak echo wyszeptała słowa te. ~ C G D
+
+#chorus
+Jestem taka samotna… 
+
+#chorus
+Jestem taka samotna jak szmata albo miotła ~ h G D A
+Kocham wiersze Leśmiana i szaleć aż do rana ~ C G D A D
+Szczęścia w życiu nie miałam, omijały mnie przygody ~ h G D A
+Szukam cichego portu, tej spokojnej cichej wody. ~ C G D
+

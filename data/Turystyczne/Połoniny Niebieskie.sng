@@ -1,32 +1,34 @@
-{
-    "title": "Po\u0142oniny niebieskie",
-    "author": "Adam Dr\u0105g",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "C F7+ C F7+\nC F7+ C G\ne F C G\nC F7+ C F7+",
-            "lyrics": "Gdy nie zostanie po mnie nic\nOpr\u00f3cz po\u017c\u00f3\u0142k\u0142ych fotografii\nB\u0142\u0119kitny mnie przywita \u015bwit\nW miejscu, co nie ma go na mapie",
-            "chorus": false
-        },
-        {
-            "chords": "C F7+ C F7+\nC F7+ C G\ne F C G\nC F7+ C F7+",
-            "lyrics": "A kiedy sypn\u0105 na mnie piach\nGdy mnie okryj\u0105 cztery deski\nTo p\u00f3jd\u0119 tam gdzie wiedzie szlak\nNa po\u0142oniny na niebieskie",
-            "chorus": false
-        },
-        {
-            "chords": "C F7+ C F7+\nC F7+ C G\ne F C G\nC F7+ C F7+",
-            "lyrics": "Podwiezie mnie b\u0142\u0119kitny w\u00f3z\nCi\u0105gni\u0119ty przez b\u0142\u0119kitne konie\nPrzez \u015bwiat b\u0142\u0119kitny b\u0119dzie wi\u00f3z\u0142\nA\u017c zaniebieszczy w dali b\u0142onie",
-            "chorus": false
-        },
-        {
-            "chords": "C F7+ C F7+\nC F7+ C G\ne F C G\nC F7+ C F7+",
-            "lyrics": "Od zmartwie\u0144 wolny i od trosk\nP\u00f3jd\u0119 wygrzewa\u0107 si\u0119 na trawie\nA czasem gdy mi przyjdzie ch\u0119\u0107\nZ g\u00f3ry na ziemi\u0119 si\u0119 pogapi\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "C F7+ C F7+\nC F7+ C G\ne F C G\nC F7+ C F7+",
-            "lyrics": "Popatrz\u0119 jak w\u015br\u00f3d smuk\u0142ych malw\nWiatr w podwieczornej ciszy kona\nTroch\u0119 mi tylko b\u0119dzie \u017cal\n\u017be trawa u was tak zielona",
-            "chorus": false
-        }
-    ]
-}
+#title Połoniny niebieskie
+#author Adam Drąg
+#category Turystyczne
+
+#verse
+Gdy nie zostanie po mnie nic ~ C F7+ C F7+
+Oprócz pożółkłych fotografii ~ C F7+ C G
+Błękitny mnie przywita świt ~ e F C G
+W miejscu, co nie ma go na mapie ~ C F7+ C F7+
+
+#verse
+A kiedy sypną na mnie piach ~ C F7+ C F7+
+Gdy mnie okryją cztery deski ~ C F7+ C G
+To pójdę tam gdzie wiedzie szlak ~ e F C G
+Na połoniny na niebieskie ~ C F7+ C F7+
+
+#verse
+Podwiezie mnie błękitny wóz ~ C F7+ C F7+
+Ciągnięty przez błękitne konie ~ C F7+ C G
+Przez świat błękitny będzie wiózł ~ e F C G
+Aż zaniebieszczy w dali błonie ~ C F7+ C F7+
+
+#verse
+Od zmartwień wolny i od trosk ~ C F7+ C F7+
+Pójdę wygrzewać się na trawie ~ C F7+ C G
+A czasem gdy mi przyjdzie chęć ~ e F C G
+Z góry na ziemię się pogapię ~ C F7+ C F7+
+
+#verse
+Popatrzę jak wśród smukłych malw ~ C F7+ C F7+
+Wiatr w podwieczornej ciszy kona ~ C F7+ C G
+Trochę mi tylko będzie żal ~ e F C G
+Że trawa u was tak zielona ~ C F7+ C F7+
+

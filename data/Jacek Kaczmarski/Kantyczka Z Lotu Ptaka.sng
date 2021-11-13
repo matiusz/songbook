@@ -1,58 +1,54 @@
-{
-    "title": "Kantyczka z lotu ptaka",
-    "author": "Jacek Kaczmarski, Przemys\u0142aw Gintrowski",
-    "capo": "Capo I",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "a C\nG E7\na C\nG E7",
-            "lyrics": "Patrz m\u00f3j dobrotliwy Bo\u017ce na sw\u00f3j ulubiony ludek,\nJak wychodzi rano w zbo\u017ce zgina\u0107 harde karki z trudem.\nPatrz, jak schyla si\u0119 nad prac\u0105, jak pokornie kl\u0119ski znosi\nI nie pyta - Po co? Za co? Czasem o co\u015b Ci\u0119 poprosi:",
-            "chorus": false
-        },
-        {
-            "chords": "a E7 a C G\nE7 a F a E7",
-            "lyrics": "Ujmij troch\u0119 \u0142aski nieba! Daj spokoju w zamian, chleba!\nInnym udziel swej mi\u0142o\u015bci! Nam \u2013 sprawiedliwo\u015bci!",
-            "chorus": true
-        },
-        {
-            "chords": "a C\nG E7\na C\nG E7",
-            "lyrics": "Smu\u0107 si\u0119, Chryste Panie w chmurze widz\u0105c, jak si\u0119 nar\u00f3d bawi,\nZnowu chcia\u0142by by\u0107 przedmurzem i w poga\u0144skiej krwi si\u0119 p\u0142awi\u0107.\nDymi\u0105 ku\u017anie i warsztaty, lecz nie prac\u0105 a - skargami,\n\u017be nie taka, jak przed laty \u0142aska Twoja nad hufcami:",
-            "chorus": false
-        },
-        {
-            "chords": "a E7 a C G\nE7 a F a E7",
-            "lyrics": "Si\u0142y gro\u017c\u0105 Ci nieczyste daj nam ws\u0142awi\u0107 si\u0119, o Chryste!\nKalwin, Litwin nam ubli\u017ca! D\u017awigniem ci\u0119\u017car Krzy\u017ca!",
-            "chorus": true
-        },
-        {
-            "chords": "a C\nG E7\na C\nG E7",
-            "lyrics": "Za\u0142am r\u0119ce Matko Boska, upadaj\u0105 obyczaje,\nNie pomog\u0142a mod\u0142om ch\u0142osta - m\u0142odzie\u017c w szranki cia\u0142a staje.\nW n\u0119dzy gzi si\u0119 krew gor\u0105ca bez sumienia, bez oddechu,\nPo czym z w\u0142asnych trzewi strz\u0105sa niedojrza\u0142y owoc grzechu.",
-            "chorus": false
-        },
-        {
-            "chords": "a E7 a C G\nE7 a F a E7",
-            "lyrics": "Co zbawienie nam, czy piek\u0142o! Byle \u017cycie nie uciek\u0142o!\nJeszcze b\u0119dzie czas umiera\u0107! \u017byjmy tu i teraz!",
-            "chorus": true
-        },
-        {
-            "chords": "fis A\nE Cis7\nfis A\nE Cis7",
-            "lyrics": "Grzmijcie gniewem Wszyscy \u015bwi\u0119ci, handel lud zalewa bo\u017cy\nObce kupce i klienci w z\u0142ote wabi\u0105 go obro\u017ce.\nLiczy chciwy \u017byd i Niemiec dzi\u015b po ile polska czysto\u015b\u0107;\nKupi dusze, kupi ziemie i zostawi po\u015bmiewisko...",
-            "chorus": false
-        },
-        {
-            "chords": "fis Cis7 fis\nA E\nCis7 fis\nD fis Cis7",
-            "lyrics": "Co nam ha\u0144ba, gdy talary\nMaj\u0105 lepszy kurs od wiary!\nWymienimy na walut\u0119\nHonor i pokut\u0119!",
-            "chorus": true
-        },
-        {
-            "chords": "fis A\nE Cis7",
-            "lyrics": "Jeden nar\u00f3d, tyle kwestii! Wszystkich naraz - nie wys\u0142uchasz! -\nZadumali si\u0119 Niebiescy w imi\u0119 Ojca, Syna, Ducha...",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Co nam ha\u0144ba, gdy talary...",
-            "chorus": true
-        }
-    ]
-}
+#title Kantyczka z lotu ptaka
+#author Jacek Kaczmarski, Przemysław Gintrowski
+#category Jacek Kaczmarski
+#capo Capo I
+
+#verse
+Patrz mój dobrotliwy Boże na swój ulubiony ludek, ~ a C
+Jak wychodzi rano w zboże zginać harde karki z trudem. ~ G E7
+Patrz, jak schyla się nad pracą, jak pokornie klęski znosi ~ a C
+I nie pyta - Po co? Za co? Czasem o coś Cię poprosi: ~ G E7
+
+#chorus
+Ujmij trochę łaski nieba! Daj spokoju w zamian, chleba! ~ a E7 a C G
+Innym udziel swej miłości! Nam – sprawiedliwości! ~ E7 a F a E7
+
+#verse
+Smuć się, Chryste Panie w chmurze widząc, jak się naród bawi, ~ a C
+Znowu chciałby być przedmurzem i w pogańskiej krwi się pławić. ~ G E7
+Dymią kuźnie i warsztaty, lecz nie pracą a - skargami, ~ a C
+Że nie taka, jak przed laty łaska Twoja nad hufcami: ~ G E7
+
+#chorus
+Siły grożą Ci nieczyste daj nam wsławić się, o Chryste! ~ a E7 a C G
+Kalwin, Litwin nam ubliża! Dźwigniem ciężar Krzyża! ~ E7 a F a E7
+
+#verse
+Załam ręce Matko Boska, upadają obyczaje, ~ a C
+Nie pomogła modłom chłosta - młodzież w szranki ciała staje. ~ G E7
+W nędzy gzi się krew gorąca bez sumienia, bez oddechu, ~ a C
+Po czym z własnych trzewi strząsa niedojrzały owoc grzechu. ~ G E7
+
+#chorus
+Co zbawienie nam, czy piekło! Byle życie nie uciekło! ~ a E7 a C G
+Jeszcze będzie czas umierać! Żyjmy tu i teraz! ~ E7 a F a E7
+
+#verse
+Grzmijcie gniewem Wszyscy święci, handel lud zalewa boży ~ fis A
+Obce kupce i klienci w złote wabią go obroże. ~ E Cis7
+Liczy chciwy Żyd i Niemiec dziś po ile polska czystość; ~ fis A
+Kupi dusze, kupi ziemie i zostawi pośmiewisko... ~ E Cis7
+
+#chorus
+Co nam hańba, gdy talary ~ fis Cis7 fis
+Mają lepszy kurs od wiary! ~ A E
+Wymienimy na walutę ~ Cis7 fis
+Honor i pokutę! ~ D fis Cis7
+
+#verse
+Jeden naród, tyle kwestii! Wszystkich naraz - nie wysłuchasz! - ~ fis A
+Zadumali się Niebiescy w imię Ojca, Syna, Ducha... ~ E Cis7
+
+#chorus
+Co nam hańba, gdy talary... 
+

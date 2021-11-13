@@ -1,37 +1,34 @@
-{
-    "title": "Bieszczadzki trakt",
-    "author": "Bogus\u0142aw Adamek",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "G D C G\nD C G\nG D C G\nD C G",
-            "lyrics": "Kiedy nadejdzie czas, wabi nas ognia blask\nNa polanie, gdzie kr\u00f3luje z\u0142y\nGwiezdny py\u0142 w ogniu tym, \u0142zy wyci\u015bnie nam dym\nTa\u0144cz\u0105 iskry z gwiazdami, a my: ",
-            "chorus": false
-        },
-        {
-            "chords": "C D G\nC D e\nC D G e\nC D G",
-            "lyrics": "\u015apiewajmy wszyscy w ten radosny czas\n\u015apiewajmy razem, ilu jest tu nas\nCho\u0107 lata m\u0142ode szybko p\u0142yn\u0105, wiemy \u017ce\nNie starzejemy si\u0119!",
-            "chorus": true
-        },
-        {
-            "chords": "G D C G\nD C G\nG D C G\nD C G",
-            "lyrics": "W lesie, gdzie licho \u015bpi, ma przygoda swe drzwi\nP\u00f3jd\u017amy tam, gdzie na \u015bcianie lasu l\u015bni\u0105\nOczy s\u00f3w, wilcze k\u0142y, rykiem powietrze dr\u017cy,\nNawet gwiazdy przyjazne dzi\u015b s\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "\u015apiewajmy wszyscy ...",
-            "chorus": true
-        },
-        {
-            "chords": "G D C G\nD C G\nG D C G\nD C G",
-            "lyrics": "Dorzu\u0107 do ognia drew, w g\u00f3r\u0119 niech p\u0142ynie \u015bpiew\nWiatr poniesie go w wilgotny czas\nKa\u017cdy z nas o tym wie - znowu spotkamy si\u0119,\nA po\u0142\u0105czy nas bieszczadzki trakt!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "\u015apiewajmy wszyscy ...",
-            "chorus": true
-        }
-    ]
-}
+#title Bieszczadzki trakt
+#author Bogusław Adamek
+#category Turystyczne
+
+#verse
+Kiedy nadejdzie czas, wabi nas ognia blask ~ G D C G
+Na polanie, gdzie króluje zły ~ D C G
+Gwiezdny pył w ogniu tym, łzy wyciśnie nam dym ~ G D C G
+Tańczą iskry z gwiazdami, a my:  ~ D C G
+
+#chorus
+Śpiewajmy wszyscy w ten radosny czas ~ C D G
+Śpiewajmy razem, ilu jest tu nas ~ C D e
+Choć lata młode szybko płyną, wiemy że ~ C D G e
+Nie starzejemy się! ~ C D G
+
+#verse
+W lesie, gdzie licho śpi, ma przygoda swe drzwi ~ G D C G
+Pójdźmy tam, gdzie na ścianie lasu lśnią ~ D C G
+Oczy sów, wilcze kły, rykiem powietrze drży, ~ G D C G
+Nawet gwiazdy przyjazne dziś są ~ D C G
+
+#chorus
+Śpiewajmy wszyscy ... 
+
+#verse
+Dorzuć do ognia drew, w górę niech płynie śpiew ~ G D C G
+Wiatr poniesie go w wilgotny czas ~ D C G
+Każdy z nas o tym wie - znowu spotkamy się, ~ G D C G
+A połączy nas bieszczadzki trakt! ~ D C G
+
+#chorus
+Śpiewajmy wszyscy ... 
+

@@ -1,27 +1,32 @@
-{
-    "title": "Prze\u017cyj to sam",
-    "author": "Lombard",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "C E a\nd G G7\nC E a\nd G G7\nC E a\nd G G7\nC E a\nd G G7",
-            "lyrics": "Na \u017cycie patrzysz bez emocji\nNa przek\u00f3r czasom i ludziom wbrew\nGdziekolwiek jeste\u015b, w dzie\u0144 czy w nocy\nOczyma widza ogl\u0105dasz gr\u0119\nKto\u015b inny zmienia \u015bwiat za ciebie\nNadstawia g\u0142ow\u0119, podnosi krzyk\nA ty z daleka, bo tak lepiej\nI w razie czego nie tracisz nic",
-            "chorus": false
-        },
-        {
-            "chords": "C E a d G\nC E a\nd G G7",
-            "lyrics": "Prze\u017cyj to sam, prze\u017cyj to sam\nNie zamieniaj serca w twardy g\u0142az\nP\u00f3ki jeszcze serce masz",
-            "chorus": true
-        },
-        {
-            "chords": "C E a\nd G G7\nC E a\nd G G7\nC E a\nd G G7\nC E a\nd G G7",
-            "lyrics": "Widzia\u0142e\u015b wczoraj zn\u00f3w w dzienniku\nZm\u0119czonych ludzi wzburzony t\u0142um\nI jeden szczeg\u00f3\u0142 wzrok tw\u00f3j przyku\u0142\nOgromne morze ludzkich g\u0142\u00f3w\nA spiker cedzi\u0142 ostre s\u0142owa\nOd kt\u00f3rych nag\u0142a wzbiera\u0142a z\u0142o\u015b\u0107\nI pocz\u0105\u0142 w tobie gniew kie\u0142kowa\u0107\nA\u017c pomy\u015bla\u0142e\u015b milczenia do\u015b\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Prze\u017cyj to sam...",
-            "chorus": true
-        }
-    ]
-}
+#title Przeżyj to sam
+#author Lombard
+#category Piosenki różne
+
+#verse
+Na życie patrzysz bez emocji ~ C E a
+Na przekór czasom i ludziom wbrew ~ d G G7
+Gdziekolwiek jesteś, w dzień czy w nocy ~ C E a
+Oczyma widza oglądasz grę ~ d G G7
+Ktoś inny zmienia świat za ciebie ~ C E a
+Nadstawia głowę, podnosi krzyk ~ d G G7
+A ty z daleka, bo tak lepiej ~ C E a
+I w razie czego nie tracisz nic ~ d G G7
+
+#chorus
+Przeżyj to sam, przeżyj to sam ~ C E a d G
+Nie zamieniaj serca w twardy głaz ~ C E a
+Póki jeszcze serce masz ~ d G G7
+
+#verse
+Widziałeś wczoraj znów w dzienniku ~ C E a
+Zmęczonych ludzi wzburzony tłum ~ d G G7
+I jeden szczegół wzrok twój przykuł ~ C E a
+Ogromne morze ludzkich głów ~ d G G7
+A spiker cedził ostre słowa ~ C E a
+Od których nagła wzbierała złość ~ d G G7
+I począł w tobie gniew kiełkować ~ C E a
+Aż pomyślałeś milczenia dość ~ d G G7
+
+#chorus
+Przeżyj to sam... 
+

@@ -1,27 +1,32 @@
-{
-    "title": "Makatka z anio\u0142em",
-    "author": "s\u0142. Adam Ziemianin, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "A D\nE A\nD\nA E E7\nfis D A E\nD E A A4",
-            "lyrics": "Na twarzy twej rumie\u0144ce\njakby\u015b by\u0142 uduchowiony\nprzez gru\u017alic\u0119 p\u0142uc\na dobro\u0107 tw\u0105 nieziemsk\u0105\nzamykasz na niebieski klucz\nzamykasz na niebieski klucz",
-            "chorus": false
-        },
-        {
-            "chords": "D E\nfis D\nA D\nC h7 A A4",
-            "lyrics": "Najcz\u0119\u015bciej mo\u017cna spotka\u0107 ci\u0119\nnad przepa\u015bci\u0105 lukrowan\u0105\ngdy przez dziuraw\u0105 k\u0142adk\u0119\nprzeprowadzasz dwoje dzieci",
-            "chorus": true
-        },
-        {
-            "chords": "A D\nE A\nD\nA E E7\nfis D A E\nD E A A4",
-            "lyrics": "Noc\u0105 mo\u017ce chcia\u0142by\u015b\noderwa\u0107 si\u0119 od \u015bciany\nale jedno skrzyd\u0142o\ngw\u00f3\u017ad\u017a ci przedziurawi\u0142\nwi\u0119c zostajesz z nami\nna wieki wiek\u00f3w amen",
-            "chorus": false
-        },
-        {
-            "chords": "D E\nfis D\nA D\nC h7 A A4",
-            "lyrics": "Najcz\u0119\u015bciej mo\u017cna spotka\u0107 ci\u0119\nnad przepa\u015bci\u0105 lukrowan\u0105\ngdy przez dziuraw\u0105 k\u0142adk\u0119\nprzeprowadzasz dwoje dzieci",
-            "chorus": true
-        }
-    ]
-}
+#title Makatka z aniołem
+#author sł. Adam Ziemianin, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Na twarzy twej rumieńce ~ A D
+jakbyś był uduchowiony ~ E A
+przez gruźlicę płuc ~ D
+a dobroć twą nieziemską ~ A E E7
+zamykasz na niebieski klucz ~ fis D A E
+zamykasz na niebieski klucz ~ D E A A4
+
+#chorus
+Najczęściej można spotkać cię ~ D E
+nad przepaścią lukrowaną ~ fis D
+gdy przez dziurawą kładkę ~ A D
+przeprowadzasz dwoje dzieci ~ C h7 A A4
+
+#verse
+Nocą może chciałbyś ~ A D
+oderwać się od ściany ~ E A
+ale jedno skrzydło ~ D
+gwóźdź ci przedziurawił ~ A E E7
+więc zostajesz z nami ~ fis D A E
+na wieki wieków amen ~ D E A A4
+
+#chorus
+Najczęściej można spotkać cię ~ D E
+nad przepaścią lukrowaną ~ fis D
+gdy przez dziurawą kładkę ~ A D
+przeprowadzasz dwoje dzieci ~ C h7 A A4
+

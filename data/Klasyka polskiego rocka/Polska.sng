@@ -1,37 +1,46 @@
-{
-    "title": "Polska",
-    "author": "Kult",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a\na\nG\na\na\na\nG\na",
-            "lyrics": "Poranne zorze, poranne zorze\nGdy id\u0119 w Sopocie nad morzem\nPo pla\u017cy brudno - piaskowej\nBa\u0142tyk \u015bmierdzi rop\u0105 naftow\u0105\nPoranne chodniki\nGdy id\u0119, nie rozmawiam z nikim\nJak jest w niedziel\u0119 nad ranem\nPo sobotnich balach chodniki zarzygane",
-            "chorus": false
-        },
-        {
-            "chords": "a\na\na\na G",
-            "lyrics": "Polska\nMieszkam w Polsce\nMieszkam w Polsce\nMieszkam tu, tu, tu, tu",
-            "chorus": true
-        },
-        {
-            "chords": "a\na\nG\na\na\na\nG\na",
-            "lyrics": "Koncerty popo\u0142udniowe\nPe\u0142ne bezm\u00f3zg\u00f3w w s\u0142u\u017cbie porz\u0105dkowej\nPatrz\u0105 woko\u0142o, bo sw\u0119dz\u0105 ich r\u0119ce\nKochaj\u0105 bi\u0107 coraz wi\u0119cej i wi\u0119cej\nZnowu wieczorne przygody\nGdy wchodz\u0119 na kamienne schody\nZaczepia mnie pijanych meneli wielu\nJutro spotkaj\u0105 si\u0119 w ko\u015bciele",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Polska...",
-            "chorus": true
-        },
-        {
-            "chords": "a\na\nG\na\na\na\nG\na",
-            "lyrics": "Nocne sklepy z mlekiem\nI patrz\u0119, co si\u0119 dzieje pod sklepem\nT\u0142um przystawia komu\u015b do twarzy pi\u0119\u015bci\n\u017b\u0105daj\u0105 dla niego kary \u015bmierci\nZnowu poranne poci\u0105gi\nJa stoj\u0119 i patrz\u0119 na mundurowe dziwol\u0105gi\nCzy by\u0142e\u015b kiedy\u015b u nas na dworcu w nocy\nJest tak brudno i brzydko, \u017ce p\u0119kaj\u0105 oczy",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Polska...",
-            "chorus": true
-        }
-    ]
-}
+#title Polska
+#author Kult
+#category Klasyka polskiego rocka
+
+#verse
+Poranne zorze, poranne zorze ~ a
+Gdy idę w Sopocie nad morzem ~ a
+Po plaży brudno - piaskowej ~ G
+Bałtyk śmierdzi ropą naftową ~ a
+Poranne chodniki ~ a
+Gdy idę, nie rozmawiam z nikim ~ a
+Jak jest w niedzielę nad ranem ~ G
+Po sobotnich balach chodniki zarzygane ~ a
+
+#chorus
+Polska ~ a
+Mieszkam w Polsce ~ a
+Mieszkam w Polsce ~ a
+Mieszkam tu, tu, tu, tu ~ a G
+
+#verse
+Koncerty popołudniowe ~ a
+Pełne bezmózgów w służbie porządkowej ~ a
+Patrzą wokoło, bo swędzą ich ręce ~ G
+Kochają bić coraz więcej i więcej ~ a
+Znowu wieczorne przygody ~ a
+Gdy wchodzę na kamienne schody ~ a
+Zaczepia mnie pijanych meneli wielu ~ G
+Jutro spotkają się w kościele ~ a
+
+#chorus
+Polska... 
+
+#verse
+Nocne sklepy z mlekiem ~ a
+I patrzę, co się dzieje pod sklepem ~ a
+Tłum przystawia komuś do twarzy pięści ~ G
+Żądają dla niego kary śmierci ~ a
+Znowu poranne pociągi ~ a
+Ja stoję i patrzę na mundurowe dziwolągi ~ a
+Czy byłeś kiedyś u nas na dworcu w nocy ~ G
+Jest tak brudno i brzydko, że pękają oczy ~ a
+
+#chorus
+Polska... 
+

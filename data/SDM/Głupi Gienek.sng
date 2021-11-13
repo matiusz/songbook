@@ -1,27 +1,28 @@
-{
-    "title": "G\u0142upi Gienek",
-    "author": "s\u0142. Adam Ziemianin, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "D A\nG D\nh e h\nG A7",
-            "lyrics": "Gienek gra na gitarze\nMia\u0142 by\u0107 szewcem lecz mu nie wysz\u0142o\nZa oknem jesie\u0144 przybija podk\u00f3wki\nChyba na przysz\u0142o\u015b\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nD A\nG D e h\nG A7",
-            "lyrics": "Gitara Gienka jest taka cienka\nPo prostu ma\u0142o ma strun\nLecz Gienek jej wierzy wie \u017ce struna p\u0119ka\nZw\u0142aszcza gdy cienka i ju\u017c",
-            "chorus": true
-        },
-        {
-            "chords": "D A\nG D\nh e h\nG A7",
-            "lyrics": "Gienek nie b\u0119dzie ju\u017c szewcem\nBo wbi\u0142 sobie w g\u0142ow\u0119 gw\u00f3\u017ad\u017a\nWoli gitar\u0119 mie\u0107 za \u017con\u0119\nZ gitar\u0105 bierze \u015blub",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nD A\nG D e h\nG A7",
-            "lyrics": "Gitara Gienka jest taka cienka\nPo prostu ma\u0142o ma strun\nLecz Gienek jej wierzy wie \u017ce struna p\u0119ka\nZw\u0142aszcza gdy cienka i ju\u017c",
-            "chorus": true
-        }
-    ]
-}
+#title Głupi Gienek
+#author sł. Adam Ziemianin, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Gienek gra na gitarze ~ D A
+Miał być szewcem lecz mu nie wyszło ~ G D
+Za oknem jesień przybija podkówki ~ h e h
+Chyba na przyszłość ~ G A7
+
+#chorus
+Gitara Gienka jest taka cienka ~ D A
+Po prostu mało ma strun ~ D A
+Lecz Gienek jej wierzy wie że struna pęka ~ G D e h
+Zwłaszcza gdy cienka i już ~ G A7
+
+#verse
+Gienek nie będzie już szewcem ~ D A
+Bo wbił sobie w głowę gwóźdź ~ G D
+Woli gitarę mieć za żonę ~ h e h
+Z gitarą bierze ślub ~ G A7
+
+#chorus
+Gitara Gienka jest taka cienka ~ D A
+Po prostu mało ma strun ~ D A
+Lecz Gienek jej wierzy wie że struna pęka ~ G D e h
+Zwłaszcza gdy cienka i już ~ G A7
+

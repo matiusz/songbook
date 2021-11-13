@@ -1,37 +1,36 @@
-{
-    "title": "Jest ju\u017c za p\u00f3\u017ano",
-    "author": "s\u0142. Edward Stachura, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "G a G C\na G a D7\nG a G C\na G a D7",
-            "lyrics": "Jeszcze zd\u0105\u017cymy w d\u017cungli ludzko\u015bci siebie odnale\u017a\u0107,\nT\u0119skno\u015b\u0107 zawrotna przybli\u017ca nas.\nZbiegn\u0105 si\u0119 wreszcie tory sieroce naszych dwu planet,\nCudnie spokrewni\u0105 si\u0119 cia\u0142a nam.",
-            "chorus": false
-        },
-        {
-            "chords": "h\nC\nh\nC\nh\nC a D",
-            "lyrics": "Jest ju\u017c za p\u00f3\u017ano!\nNie jest za p\u00f3\u017ano!\nJest ju\u017c za p\u00f3\u017ano!\nNie jest za p\u00f3\u017ano!\nJest ju\u017c za p\u00f3\u017ano!\nNie jest za p\u00f3\u017ano!",
-            "chorus": true
-        },
-        {
-            "chords": "G a G C\na G a D7\nG a G C\na G a D7",
-            "lyrics": "Jeszcze zd\u0105\u017cymy tanio wynaj\u0105\u0107 ma\u0142\u0105 mansard\u0119\nZ oknem na rzek\u0119 lub te\u017c na park,\nZ \u0142o\u017cem szerokim, piecem wysokim, \u015bciennym zegarem;\nSchodzi\u0107 b\u0119dziemy codziennie w \u015bwiat.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Jest ju\u017c za p\u00f3\u017ano...",
-            "chorus": true
-        },
-        {
-            "chords": "G a G C\na G a D7\nG a G C\na G a D7",
-            "lyrics": "Jeszcze zd\u0105\u017cymy nasz\u0105 mi\u0142o\u015bci\u0105 siebie zachwyci\u0107,\nSiebie zachwyci\u0107 i wszystko w kr\u0105g.\nWojna to b\u0119dzie straszna, bo czas nas b\u0119dzie chcia\u0142 zniszczy\u0107,\nLecz nam si\u0119 uda zachwyci\u0107 go.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ju\u017c jest za p\u00f3\u017ano...",
-            "chorus": true
-        }
-    ]
-}
+#title Jest już za późno
+#author sł. Edward Stachura, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Jeszcze zdążymy w dżungli ludzkości siebie odnaleźć, ~ G a G C
+Tęskność zawrotna przybliża nas. ~ a G a D7
+Zbiegną się wreszcie tory sieroce naszych dwu planet, ~ G a G C
+Cudnie spokrewnią się ciała nam. ~ a G a D7
+
+#chorus
+Jest już za późno! ~ h
+Nie jest za późno! ~ C
+Jest już za późno! ~ h
+Nie jest za późno! ~ C
+Jest już za późno! ~ h
+Nie jest za późno! ~ C a D
+
+#verse
+Jeszcze zdążymy tanio wynająć małą mansardę ~ G a G C
+Z oknem na rzekę lub też na park, ~ a G a D7
+Z łożem szerokim, piecem wysokim, ściennym zegarem; ~ G a G C
+Schodzić będziemy codziennie w świat. ~ a G a D7
+
+#chorus
+Jest już za późno... 
+
+#verse
+Jeszcze zdążymy naszą miłością siebie zachwycić, ~ G a G C
+Siebie zachwycić i wszystko w krąg. ~ a G a D7
+Wojna to będzie straszna, bo czas nas będzie chciał zniszczyć, ~ G a G C
+Lecz nam się uda zachwycić go. ~ a G a D7
+
+#chorus
+Już jest za późno... 
+

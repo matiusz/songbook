@@ -1,37 +1,53 @@
-{
-    "title": "Zombie",
-    "author": "Cranberries",
-    "category": "Piosenki zagraniczne",
-    "sections": [
-        {
-            "chords": "e C\nG D",
-            "lyrics": "Another head hangs lowly\nChild is slowly taken\nAnd the violence causes silence\nWho are we mistaken?",
-            "chorus": false
-        },
-        {
-            "chords": "e C\nG D",
-            "lyrics": "But you see, it's not me\nIt's not my family\nIn your head, in your head, they are fighting\nWith their tanks, and their bombs,\nand their bombs, and their guns\nIn your head, in your head, they are crying",
-            "chorus": false
-        },
-        {
-            "chords": "e C\nG D",
-            "lyrics": "What's in your head, in your head?\nZombie, zombie, zombie-ie-ie\nWhat's in your head, in your head?\nZombie, zombie, zombie-ie-ie, oh",
-            "chorus": true
-        },
-        {
-            "chords": "e C\nG D",
-            "lyrics": "Another mother's breakin'\nHeart is takin' over\nWhen the violence causes silence\nWe must be mistaken",
-            "chorus": false
-        },
-        {
-            "chords": "e C\nG D",
-            "lyrics": "It's the same old theme\nIn two thousand eighteen\nIn your head, in your head, they're still fightin'\nWith their tanks, and their bombs\nAnd their guns, and their drones\nIn your head, in your head, they are dyin'",
-            "chorus": false
-        },
-        {
-            "chords": "e C\nG D",
-            "lyrics": "What's in your head, in your head?\nZombie, zombie, zombie-ie-ie\nWhat's in your head, in your head?\nZombie, zombie, zombie-ie-ie, oh\nIt's the same old theme\nIn two thousand eight-teen\nIn your head, in your head, they're dyin'\nWhat's in your head, in your head?\nZombie, zombie, zombie-ie-ie\nWhat's in your head, in your head?\nZombie, zombie, zombie-ie-ie\nOh oh oh oh\nIe-ie, oh",
-            "chorus": true
-        }
-    ]
-}
+#title Zombie
+#author Cranberries
+#category Piosenki zagraniczne
+
+#verse
+Another head hangs lowly ~ e C
+Child is slowly taken ~ G D
+And the violence causes silence 
+Who are we mistaken? 
+
+#verse
+But you see, it's not me ~ e C
+It's not my family ~ G D
+In your head, in your head, they are fighting 
+With their tanks, and their bombs, 
+and their bombs, and their guns 
+In your head, in your head, they are crying 
+
+#chorus
+What's in your head, in your head? ~ e C
+Zombie, zombie, zombie-ie-ie ~ G D
+What's in your head, in your head? 
+Zombie, zombie, zombie-ie-ie, oh 
+
+#verse
+Another mother's breakin' ~ e C
+Heart is takin' over ~ G D
+When the violence causes silence 
+We must be mistaken 
+
+#verse
+It's the same old theme ~ e C
+In two thousand eighteen ~ G D
+In your head, in your head, they're still fightin' 
+With their tanks, and their bombs 
+And their guns, and their drones 
+In your head, in your head, they are dyin' 
+
+#chorus
+What's in your head, in your head? ~ e C
+Zombie, zombie, zombie-ie-ie ~ G D
+What's in your head, in your head? 
+Zombie, zombie, zombie-ie-ie, oh 
+It's the same old theme 
+In two thousand eight-teen 
+In your head, in your head, they're dyin' 
+What's in your head, in your head? 
+Zombie, zombie, zombie-ie-ie 
+What's in your head, in your head? 
+Zombie, zombie, zombie-ie-ie 
+Oh oh oh oh 
+Ie-ie, oh 
+

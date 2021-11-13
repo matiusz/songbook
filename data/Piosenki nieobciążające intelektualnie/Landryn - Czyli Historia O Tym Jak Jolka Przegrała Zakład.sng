@@ -1,47 +1,48 @@
-{
-    "title": "Landryn - czyli historia o tym jak Jolka przegra\u0142a zak\u0142ad",
-    "author": "Brudne Dzieci Sida",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "A G\nE A\nA G\nE A",
-            "lyrics": "Je\u017celi chcecie to pos\u0142uchajcie historii prosto z Krakowa\nO jednym panku, co s\u0142yn\u0105\u0142 z tego, \u017ce glan\u00f3w swych nie zdejmowa\u0142\nI z wod\u0105 rzadko mia\u0142 do czynienia, co to jest myd\u0142o - nie wiedzia\u0142\nZ brudu si\u0119 lepi\u0142, st\u0105d ksywa; \"Landryn\", no i potwornie jeba\u0142!",
-            "chorus": false
-        },
-        {
-            "chords": "E\nA\nG E A",
-            "lyrics": "Landryn! - lepkie twe cia\u0142o\nLandryn! - s\u0142odki tw\u00f3j zapach\nOto pocz\u0105tek historii o tym jak Jolka przegra\u0142a zak\u0142ad",
-            "chorus": true
-        },
-        {
-            "chords": "A G\nE A\nA G\nE A",
-            "lyrics": "Raz za\u0142o\u017cy\u0142y si\u0119 dwie pank\u00f3wy o jab\u0142ko na imprezie,\n\u017be jedna dzisiaj dokona cudu i Landryn z but\u00f3w wylezie.\nJolka to by\u0142a ostra pank\u00f3wa wi\u0119c obmy\u015bli\u0142a plany,\n\u017be si\u0119 najebi\u0105, p\u00f3jd\u0105 do \u0142\u00f3\u017cka i wtedy \u015bci\u0105gnie mu glany.",
-            "chorus": false
-        },
-        {
-            "chords": "E\nA\nG E A",
-            "lyrics": "Landryn! - lepkie twe cia\u0142o\nLandryn! - s\u0142odki tw\u00f3j zapach\nOto ci\u0105g dalszy historii o tym jak Jolka przegra\u0142a zak\u0142ad",
-            "chorus": true
-        },
-        {
-            "chords": "A G\nE A\nA G\nE A",
-            "lyrics": "O drugiej w nocy ju\u017c byli w \u0142\u00f3\u017cku, Landryn doko\u0144czy\u0142 jabola\nJolk\u0119 rozebra\u0142, a sam jedynie opu\u015bci\u0142 spodnie do kolan.\nPrzelecia\u0142 Jolk\u0119, obrzyga\u0142 po\u015bciel, starannie si\u0119 odklei\u0142\nPierdoln\u0105\u0142 drzwiami, zostawi\u0142 od\u00f3r i syf na Jolki po\u015bcieli",
-            "chorus": false
-        },
-        {
-            "chords": "E\nA\nG E A",
-            "lyrics": "Landryn! - lepkie twe cia\u0142o\nLandryn! - s\u0142odki tw\u00f3j zapach\nI tak si\u0119 ko\u0144czy historia o tym jak Jolka przegra\u0142a zak\u0142ad",
-            "chorus": true
-        },
-        {
-            "chords": "A G\nE A\nA G\nE A",
-            "lyrics": "Mora\u0142 z historii jest oto taki: \u017ceby\u015b zak\u0142ad\u00f3w unika\u0142\nBo \u0142acno mo\u017cesz przegra\u0107 jabola - chyba \u017ce jeste\u015b radyka\u0142.\nLecz je\u015bli musisz ju\u017c si\u0119 zak\u0142ada\u0107 gdy si\u0119 okazja nawinie,\nPomy\u015bl, czy jeste\u015b takim twardzielem, \u017ceby si\u0119 r\u00f3wna\u0107 z Landrynem!",
-            "chorus": false
-        },
-        {
-            "chords": "E\nA\nG E A",
-            "lyrics": "Landryn! - lepkie twe cia\u0142o\nLandryn! - s\u0142odki tw\u00f3j zapach\nOto jest mora\u0142 z historii o tym jak Jolka przegra\u0142a zak\u0142ad.",
-            "chorus": true
-        }
-    ]
-}
+#title Landryn - czyli historia o tym jak Jolka przegrała zakład
+#author Brudne Dzieci Sida
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+Jeżeli chcecie to posłuchajcie historii prosto z Krakowa ~ A G
+O jednym panku, co słynął z tego, że glanów swych nie zdejmował ~ E A
+I z wodą rzadko miał do czynienia, co to jest mydło - nie wiedział ~ A G
+Z brudu się lepił, stąd ksywa; "Landryn", no i potwornie jebał! ~ E A
+
+#chorus
+Landryn! - lepkie twe ciało ~ E
+Landryn! - słodki twój zapach ~ A
+Oto początek historii o tym jak Jolka przegrała zakład ~ G E A
+
+#verse
+Raz założyły się dwie pankówy o jabłko na imprezie, ~ A G
+Że jedna dzisiaj dokona cudu i Landryn z butów wylezie. ~ E A
+Jolka to była ostra pankówa więc obmyśliła plany, ~ A G
+Że się najebią, pójdą do łóżka i wtedy ściągnie mu glany. ~ E A
+
+#chorus
+Landryn! - lepkie twe ciało ~ E
+Landryn! - słodki twój zapach ~ A
+Oto ciąg dalszy historii o tym jak Jolka przegrała zakład ~ G E A
+
+#verse
+O drugiej w nocy już byli w łóżku, Landryn dokończył jabola ~ A G
+Jolkę rozebrał, a sam jedynie opuścił spodnie do kolan. ~ E A
+Przeleciał Jolkę, obrzygał pościel, starannie się odkleił ~ A G
+Pierdolnął drzwiami, zostawił odór i syf na Jolki pościeli ~ E A
+
+#chorus
+Landryn! - lepkie twe ciało ~ E
+Landryn! - słodki twój zapach ~ A
+I tak się kończy historia o tym jak Jolka przegrała zakład ~ G E A
+
+#verse
+Morał z historii jest oto taki: żebyś zakładów unikał ~ A G
+Bo łacno możesz przegrać jabola - chyba że jesteś radykał. ~ E A
+Lecz jeśli musisz już się zakładać gdy się okazja nawinie, ~ A G
+Pomyśl, czy jesteś takim twardzielem, żeby się równać z Landrynem! ~ E A
+
+#chorus
+Landryn! - lepkie twe ciało ~ E
+Landryn! - słodki twój zapach ~ A
+Oto jest morał z historii o tym jak Jolka przegrała zakład. ~ G E A
+

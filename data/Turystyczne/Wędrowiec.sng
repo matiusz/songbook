@@ -1,27 +1,25 @@
-{
-    "title": "W\u0119drowiec",
-    "author": "s\u0142. Adam Szarek, muz. Skorpi\u00f3",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "e G\nD a e\ne G\nD a e",
-            "lyrics": "Nie ogl\u0105daj si\u0119 za siebie, kiedy wstaje brzask\nRuszaj dalej w \u015bwiat, nie zatrzymuj si\u0119\nSam wybierasz swoj\u0105 drog\u0119, z wiatrem czy pod wiatr\nZnasz tu ka\u017cdy szlak, przestrze\u0144 wo\u0142a ci\u0119.",
-            "chorus": false
-        },
-        {
-            "chords": "G D a e",
-            "lyrics": "Przecie\u017c wiesz, \u017ce dla ciebie ka\u017cdy nowy dzie\u0144\nPrzecie\u017c wiesz, \u017ce dla ciebie ch\u0142odny nocy cie\u0144\nPrzecie\u017c wiesz, jak upalna bywa letnia noc\nPrzecie\u017c wiesz, \u017ce w\u0119drowca los to jest tw\u00f3j los.",
-            "chorus": true
-        },
-        {
-            "chords": "e G\nD a e\ne G\nD a e",
-            "lyrics": "L\u015bni w oddali to\u0144 jeziora, s\u0142yszysz ptak\u00f3w krzyk\nTu odpoczniesz dzi\u015b i nabierzesz si\u0142\nAle jutro zn\u00f3w wyruszysz na sw\u00f3j stary szlak\nB\u0119dziesz dalej szed\u0142 tam, gdzie p\u0119dzi wiatr.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Przecie\u017c wiesz, \u017ce dla ciebie ka\u017cdy nowy dzie\u0144...",
-            "chorus": true
-        }
-    ]
-}
+#title Wędrowiec
+#author sł. Adam Szarek, muz. Skorpió
+#category Turystyczne
+
+#verse
+Nie oglądaj się za siebie, kiedy wstaje brzask ~ e G
+Ruszaj dalej w świat, nie zatrzymuj się ~ D a e
+Sam wybierasz swoją drogę, z wiatrem czy pod wiatr ~ e G
+Znasz tu każdy szlak, przestrzeń woła cię. ~ D a e
+
+#chorus
+Przecież wiesz, że dla ciebie każdy nowy dzień ~ G D a e
+Przecież wiesz, że dla ciebie chłodny nocy cień 
+Przecież wiesz, jak upalna bywa letnia noc 
+Przecież wiesz, że wędrowca los to jest twój los. 
+
+#verse
+Lśni w oddali toń jeziora, słyszysz ptaków krzyk ~ e G
+Tu odpoczniesz dziś i nabierzesz sił ~ D a e
+Ale jutro znów wyruszysz na swój stary szlak ~ e G
+Będziesz dalej szedł tam, gdzie pędzi wiatr. ~ D a e
+
+#chorus
+Przecież wiesz, że dla ciebie każdy nowy dzień... 
+

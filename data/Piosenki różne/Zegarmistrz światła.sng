@@ -1,17 +1,16 @@
-{
-    "title": "Zegarmistrz \u015bwiat\u0142a",
-    "author": "Tadeusz Wo\u017aniak",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "a G\nD a\nC G\nD a",
-            "lyrics": "A kiedy przyjdzie tak\u017ce po mnie\nZegarmistrz \u015bwiat\u0142a purpurowy\nBy mi zabe\u0142ta\u0107 b\u0142\u0119kit w g\u0142owie\nTo b\u0119d\u0119 jasny i gotowy",
-            "chorus": false
-        },
-        {
-            "chords": "a G\nD a\nC G\nD a",
-            "lyrics": "Sp\u0142yn\u0105 przeze mnie dni na przestrza\u0142\nZgasn\u0105 pod\u0142ogi i powietrza\nNa wszystko jeszcze raz popatrz\u0119\nI p\u00f3jd\u0119 nie wiem gdzie na zawsze",
-            "chorus": false
-        }
-    ]
-}
+#title Zegarmistrz światła
+#author Tadeusz Woźniak
+#category Piosenki różne
+
+#verse
+A kiedy przyjdzie także po mnie ~ a G
+Zegarmistrz światła purpurowy ~ D a
+By mi zabełtać błękit w głowie ~ C G
+To będę jasny i gotowy ~ D a
+
+#verse
+Spłyną przeze mnie dni na przestrzał ~ a G
+Zgasną podłogi i powietrza ~ D a
+Na wszystko jeszcze raz popatrzę ~ C G
+I pójdę nie wiem gdzie na zawsze ~ D a
+

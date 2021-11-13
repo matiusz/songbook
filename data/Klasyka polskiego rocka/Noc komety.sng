@@ -1,37 +1,49 @@
-{
-    "title": "Noc komety",
-    "author": "Budka Suflera",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "d\nd\nC\nd\nd\nd\nC\nd",
-            "lyrics": "Wizje chod\u017acie do mnie\nBlisko najbli\u017cej\nZosta\u0144cie w mojej g\u0142owie\nNajdziksze sny\nOto jest wasza scena\nReflektor ni\u017cej\nKorow\u00f3d moich marze\u0144\nWiruje ci",
-            "chorus": false
-        },
-        {
-            "chords": "d\nd\nC\nd\nd\nd\nC\nd (C)",
-            "lyrics": "Sk\u0105d wzi\u0105\u0142 si\u0119 ten \u015bnieg\nPo\u015brodku lata\nSk\u0105d ten saksofon\nPod czaszk\u0105 gra\nJu\u017c eksploduj\u0105 lustra\nCa\u0142ego \u015bwiat\nI niesko\u0144czenie wolno\nPulsuje czas",
-            "chorus": false
-        },
-        {
-            "chords": "B\nd (C)\nB\nd (C)",
-            "lyrics": "Nadci\u0105ga noc komety\nOgnistych meteor\u00f3w deszcz\nNie dowiesz si\u0119 z gazety\nKto prze\u017cyje swoj\u0105 \u015bmier\u0107",
-            "chorus": true
-        },
-        {
-            "chords": "d\nd\nC\nd\nd\nd\nC\nd (C)",
-            "lyrics": "Blaski odblaski pow\u00f3d\u017a poz\u0142oty\nKrzy\u017ce po\u0142udnia\nI gwiezdny py\u0142\nStosy diament\u00f3w\nCo zimnym \u015bwiat\u0142em\nB\u0119d\u0105 si\u0119 pali\u0107\nDo kresu dni",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nadci\u0105ga noc ...",
-            "chorus": true
-        },
-        {
-            "chords": "e\ne\nC\nA",
-            "lyrics": "Blad\u0105 d\u0142oni\u0105 \u015bwit\nOtrze pot i \u0142zy\nKoszmar minie\nZnikn\u0105 duszne sny ",
-            "chorus": false
-        }
-    ]
-}
+#title Noc komety
+#author Budka Suflera
+#category Klasyka polskiego rocka
+
+#verse
+Wizje chodźcie do mnie ~ d
+Blisko najbliżej ~ d
+Zostańcie w mojej głowie ~ C
+Najdziksze sny ~ d
+Oto jest wasza scena ~ d
+Reflektor niżej ~ d
+Korowód moich marzeń ~ C
+Wiruje ci ~ d
+
+#verse
+Skąd wziął się ten śnieg ~ d
+Pośrodku lata ~ d
+Skąd ten saksofon ~ C
+Pod czaszką gra ~ d
+Już eksplodują lustra ~ d
+Całego świat ~ d
+I nieskończenie wolno ~ C
+Pulsuje czas ~ d (C)
+
+#chorus
+Nadciąga noc komety ~ B
+Ognistych meteorów deszcz ~ d (C)
+Nie dowiesz się z gazety ~ B
+Kto przeżyje swoją śmierć ~ d (C)
+
+#verse
+Blaski odblaski powódź pozłoty ~ d
+Krzyże południa ~ d
+I gwiezdny pył ~ C
+Stosy diamentów ~ d
+Co zimnym światłem ~ d
+Będą się palić ~ d
+Do kresu dni ~ C
+~ d (C)
+
+#chorus
+Nadciąga noc ... 
+
+#verse
+Bladą dłonią świt ~ e
+Otrze pot i łzy ~ e
+Koszmar minie ~ C
+Znikną duszne sny  ~ A
+

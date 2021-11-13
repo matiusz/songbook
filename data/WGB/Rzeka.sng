@@ -1,37 +1,34 @@
-{
-    "title": "Rzeka",
-    "author": "Wolna Grupa Bukowina",
-    "category": "WGB",
-    "sections": [
-        {
-            "chords": "E A2 E A2\nE A2 gis gis7\nA gis7 cis\nA gis fis7 H7",
-            "lyrics": "Ws\u0142uchany w tw\u0105 cich\u0105 piosenk\u0119\nWyszed\u0142em nad brzeg pierwszy raz\nWiedzia\u0142em ju\u017c rzeko \u017ce kocham ci\u0119 rzeko\n\u017be odt\u0105d p\u00f3jd\u0119 z tob\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "E A E A E gis cis E7\nA gis cis\nA gis fis7 H7\nE A2 E A2 E A2 E A",
-            "lyrics": "O dobra rzeko o m\u0105dra wodo\nWiedzia\u0142a\u015b gdzie stopy znu\u017cone prowadzi\u0107\nGdy si\u0142 ju\u017c by\u0142o brak\nBrak",
-            "chorus": true
-        },
-        {
-            "chords": "E A2 E A2\nE A2 gis gis7\nA gis7 cis\nA gis fis7 H7\t",
-            "lyrics": "Wie\u017ce miast \u0142uny \u015bwiate\u0142\nIch oczy zszarza\u0142e nie raz\nWita\u0142y mnie pustk\u0105 \u017cegna\u0142y milczeniem\nGdym sta\u0142 si\u0119 twoim nurtem",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O dobra rzeko...",
-            "chorus": true
-        },
-        {
-            "chords": "E A2 E A2\nE A2 gis gis7\nA gis7 cis\nA gis fis7 H7\t",
-            "lyrics": "Po dzi\u015b dzie\u0144 z tob\u0105 rzeko\nGdzie\u017c pocz\u0105\u0142 gdzie kres da\u0142 ci B\u00f3g\nAch \u017cycia mi braknie by szlak tw\u00f3j przemierzy\u0107\nBy pozna\u0107 tw\u0105 melodi\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O dobra rzeko...",
-            "chorus": true
-        }
-    ]
-}
+#title Rzeka
+#author Wolna Grupa Bukowina
+#category WGB
+
+#verse
+Wsłuchany w twą cichą piosenkę ~ E A2 E A2
+Wyszedłem nad brzeg pierwszy raz ~ E A2 gis gis7
+Wiedziałem już rzeko że kocham cię rzeko ~ A gis7 cis
+Że odtąd pójdę z tobą ~ A gis fis7 H7
+
+#chorus
+O dobra rzeko o mądra wodo ~ E A E A E gis cis E7
+Wiedziałaś gdzie stopy znużone prowadzić ~ A gis cis
+Gdy sił już było brak ~ A gis fis7 H7
+Brak ~ E A2 E A2 E A2 E A
+
+#verse
+Wieże miast łuny świateł ~ E A2 E A2
+Ich oczy zszarzałe nie raz ~ E A2 gis gis7
+Witały mnie pustką żegnały milczeniem ~ A gis7 cis
+Gdym stał się twoim nurtem ~ A gis fis7 H7	
+
+#chorus
+O dobra rzeko... 
+
+#verse
+Po dziś dzień z tobą rzeko ~ E A2 E A2
+Gdzież począł gdzie kres dał ci Bóg ~ E A2 gis gis7
+Ach życia mi braknie by szlak twój przemierzyć ~ A gis7 cis
+By poznać twą melodię ~ A gis fis7 H7	
+
+#chorus
+O dobra rzeko... 
+

@@ -1,42 +1,37 @@
-{
-    "title": "Lekcja historii klasycznej",
-    "author": "Jacek Kaczmarski",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "E H\nfis Gis\ncis A\nE H E (A E H)",
-            "lyrics": "Galia est omnis divisa in partes tres\nQuorum unam incolunt Belgae aliam Aquitani\nTertiam qui ipsorum lingua Celtae nostra Galli appellantur\nAve Caesar morituri te salutant",
-            "chorus": true
-        },
-        {
-            "chords": "E H\nfis Gis\ncis A\nE H E (A E H)",
-            "lyrics": "Nad Europ\u0105 twardy krok legion\u00f3w grzmi\nNieunikniony wr\u00f3\u017cy koniec republiki\nGnij\u0105 wzg\u00f3rza galijskie w pomieszanej krwi\nA Juliusz Cezar pisze swoje pami\u0119tniki",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Galia est omnis...",
-            "chorus": true
-        },
-        {
-            "chords": "E H\nfis Gis\ncis A\nE H E (A E H)",
-            "lyrics": "Pozw\u00f3l Cezarze gdy zdob\u0119dziemy ca\u0142y \u015bwiat\nGwa\u0142ci\u0107 rabowa\u0107 syci\u0107 wszelkie po\u017c\u0105dania\nProste pro\u015bby \u017co\u0142nierzy te same s\u0105 od lat\nA Juliusz Cezar milcz\u0105c zabaw nie zabrania",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Galia est omnis...",
-            "chorus": true
-        },
-        {
-            "chords": "E H\nfis Gis\ncis A\nE H E (A E H)",
-            "lyrics": "Cywilizuje podbite narody nowy \u0142ad\nRosn\u0105 krzy\u017ce przy drogach od Renu do Nilu\nSkarg\u0105, krzykiem i p\u0142aczem rozbrzmiewa ca\u0142y \u015bwiat\nA Juliusz Cezar \u0107wiczy lapidarno\u015b\u0107 stylu",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Galia est omnis...",
-            "chorus": true
-        }
-    ]
-}
+#title Lekcja historii klasycznej
+#author Jacek Kaczmarski
+#category Jacek Kaczmarski
+
+#chorus
+Galia est omnis divisa in partes tres ~ E H
+Quorum unam incolunt Belgae aliam Aquitani ~ fis Gis
+Tertiam qui ipsorum lingua Celtae nostra Galli appellantur ~ cis A
+Ave Caesar morituri te salutant ~ E H E (A E H)
+
+#verse
+Nad Europą twardy krok legionów grzmi ~ E H
+Nieunikniony wróży koniec republiki ~ fis Gis
+Gniją wzgórza galijskie w pomieszanej krwi ~ cis A
+A Juliusz Cezar pisze swoje pamiętniki ~ E H E (A E H)
+
+#chorus
+Galia est omnis... 
+
+#verse
+Pozwól Cezarze gdy zdobędziemy cały świat ~ E H
+Gwałcić rabować sycić wszelkie pożądania ~ fis Gis
+Proste prośby żołnierzy te same są od lat ~ cis A
+A Juliusz Cezar milcząc zabaw nie zabrania ~ E H E (A E H)
+
+#chorus
+Galia est omnis... 
+
+#verse
+Cywilizuje podbite narody nowy ład ~ E H
+Rosną krzyże przy drogach od Renu do Nilu ~ fis Gis
+Skargą, krzykiem i płaczem rozbrzmiewa cały świat ~ cis A
+A Juliusz Cezar ćwiczy lapidarność stylu ~ E H E (A E H)
+
+#chorus
+Galia est omnis... 
+

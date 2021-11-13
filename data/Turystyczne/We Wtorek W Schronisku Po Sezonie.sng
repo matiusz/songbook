@@ -1,37 +1,34 @@
-{
-    "title": "We wtorek w schronisku po sezonie",
-    "author": "Wo\u0142osatki",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "C F C\ne F d G\nC F E a\nF G C G",
-            "lyrics": "Z\u0142otym kobiercem wymoszczone g\u00f3ry\nJesie\u0144 w doliny zesz\u0142a dzi\u015b nad ranem\nBuki czerwieni\u0105 zabarwi\u0142y chmury\nZ latem si\u0119 z\u0142otym w\u0142a\u015bnie po\u017cegna\u0142em",
-            "chorus": false
-        },
-        {
-            "chords": "C F G C\na D G G7\nC F E a\nF G C G",
-            "lyrics": "We wtorek w schronisku po sezonie\nW doliny wczoraj zszed\u0142 ostatni go\u015b\u0107\nZa oknem plucha kubek parzy w d\u0142onie\nI tej herbaty i tych g\u00f3r mam do\u015b\u0107",
-            "chorus": true
-        },
-        {
-            "chords": "C F C\ne F d G\nC F E a\nF G C G",
-            "lyrics": "Szaruga niebo powoli zasnuwa\nWiatr ju\u017c ga\u0142\u0119zie pootrz\u0105sa\u0142 z li\u015bci\nPod wiatr pod g\u00f3r\u0119 znowu sam zasuwam\nmo\u017ce w schronisku spotkam kogo\u015b z bliskich",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "We wtorek w schronisku...",
-            "chorus": true
-        },
-        {
-            "chords": "C F C\ne F d G\nC F E a\nF G C G",
-            "lyrics": "Ludzie tak wiele spraw musz\u0105 za\u0142atwi\u0107\nA czas p\u0142ynie wolno panta rei\nDo siebie tylko ju\u017c nie umiem trafi\u0107\nKocha\u0107 to wi\u0119cej z siebie da\u0107 czy mniej",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "We wtorek w schronisku...",
-            "chorus": true
-        }
-    ]
-}
+#title We wtorek w schronisku po sezonie
+#author Wołosatki
+#category Turystyczne
+
+#verse
+Złotym kobiercem wymoszczone góry ~ C F C
+Jesień w doliny zeszła dziś nad ranem ~ e F d G
+Buki czerwienią zabarwiły chmury ~ C F E a
+Z latem się złotym właśnie pożegnałem ~ F G C G
+
+#chorus
+We wtorek w schronisku po sezonie ~ C F G C
+W doliny wczoraj zszedł ostatni gość ~ a D G G7
+Za oknem plucha kubek parzy w dłonie ~ C F E a
+I tej herbaty i tych gór mam dość ~ F G C G
+
+#verse
+Szaruga niebo powoli zasnuwa ~ C F C
+Wiatr już gałęzie pootrząsał z liści ~ e F d G
+Pod wiatr pod górę znowu sam zasuwam ~ C F E a
+może w schronisku spotkam kogoś z bliskich ~ F G C G
+
+#chorus
+We wtorek w schronisku... 
+
+#verse
+Ludzie tak wiele spraw muszą załatwić ~ C F C
+A czas płynie wolno panta rei ~ e F d G
+Do siebie tylko już nie umiem trafić ~ C F E a
+Kochać to więcej z siebie dać czy mniej ~ F G C G
+
+#chorus
+We wtorek w schronisku... 
+

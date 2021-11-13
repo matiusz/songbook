@@ -1,32 +1,34 @@
-{
-    "title": "Orawa",
-    "author": "Andrzej Wierzbicki",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "a C d E\na C d E\nF C d E\na C d E",
-            "lyrics": "Z mego okna wida\u0107 chmury na skalistych grz\u0119dach\nPrzetr\u0119 szyb\u0119 ciep\u0142\u0105 d\u0142oni\u0105 razem z nimi si\u0119d\u0119\nI b\u0119d\u0105 mi gra\u0142y wiatry na organach turni\nKiedy p\u00f3jd\u0119 zb\u00f3jnikowa\u0107 nad dachami r\u00f3wnin",
-            "chorus": false
-        },
-        {
-            "chords": "a C d E\na C d E\nF C d E\na C d E",
-            "lyrics": "Z mego okna wida\u0107 potok dolin\u0105 dolin\u0105\nDumnych smrek\u00f3w las szeroki mg\u0142\u0119 w kosodrzewinach\nI b\u0119d\u0105 mi gra\u0142y wiatry w zakl\u0119tych kolebach\nNoc krzesanym si\u0119 rozta\u0144czy po niebach po niebach",
-            "chorus": false
-        },
-        {
-            "chords": "F C d E\nC G H7 E\nF C d E\nF E",
-            "lyrics": "Orawo wiatrem malowany dach\nCiupagami wysrebrzony na smrekowych pniach\nOrawo wiatrem malowany dom\nGdzie zb\u00f3jnickie \u015bpiewogrania po kolebach \u015bpi\u0105",
-            "chorus": true
-        },
-        {
-            "chords": "a C d E\na C d E\nF C d E\na C d E",
-            "lyrics": "Z mego okna wida\u0107 chmury na skalistych grz\u0119dach\nPrzetr\u0119 szyb\u0119 ciep\u0142\u0105 d\u0142oni\u0105 razem z nimi si\u0119d\u0119\nI b\u0119d\u0105 mi gra\u0142y wiatry na organach turni\nMoje \u017cycie tylko w g\u00f3rach nad dachami r\u00f3wnin",
-            "chorus": false
-        },
-        {
-            "chords": "F C d E\nC G H7 E\nF C d E\nF E",
-            "lyrics": "Orawo wiatrem malowany dach\nCiupagami wysrebrzony na smrekowych pniach\nOrawo wiatrem malowany dom\nGdzie zb\u00f3jnickie \u015bpiewogrania po kolebach \u015bpi\u0105",
-            "chorus": true
-        }
-    ]
-}
+#title Orawa
+#author Andrzej Wierzbicki
+#category Turystyczne
+
+#verse
+Z mego okna widać chmury na skalistych grzędach ~ a C d E
+Przetrę szybę ciepłą dłonią razem z nimi siędę ~ a C d E
+I będą mi grały wiatry na organach turni ~ F C d E
+Kiedy pójdę zbójnikować nad dachami równin ~ a C d E
+
+#verse
+Z mego okna widać potok doliną doliną ~ a C d E
+Dumnych smreków las szeroki mgłę w kosodrzewinach ~ a C d E
+I będą mi grały wiatry w zaklętych kolebach ~ F C d E
+Noc krzesanym się roztańczy po niebach po niebach ~ a C d E
+
+#chorus
+Orawo wiatrem malowany dach ~ F C d E
+Ciupagami wysrebrzony na smrekowych pniach ~ C G H7 E
+Orawo wiatrem malowany dom ~ F C d E
+Gdzie zbójnickie śpiewogrania po kolebach śpią ~ F E
+
+#verse
+Z mego okna widać chmury na skalistych grzędach ~ a C d E
+Przetrę szybę ciepłą dłonią razem z nimi siędę ~ a C d E
+I będą mi grały wiatry na organach turni ~ F C d E
+Moje życie tylko w górach nad dachami równin ~ a C d E
+
+#chorus
+Orawo wiatrem malowany dach ~ F C d E
+Ciupagami wysrebrzony na smrekowych pniach ~ C G H7 E
+Orawo wiatrem malowany dom ~ F C d E
+Gdzie zbójnickie śpiewogrania po kolebach śpią ~ F E
+

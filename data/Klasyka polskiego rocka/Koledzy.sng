@@ -1,37 +1,40 @@
-{
-    "title": "Koledzy",
-    "author": "Maciek Male\u0144czuk",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "h e h e\nh e h Fis\nh e h e\nh e h Fis",
-            "lyrics": "Spotka\u0142em si\u0119 z koleg\u0105, bo kolega jest od tego\nI wypada czasem spotka\u0107 si\u0119 z nim\nSiedzieli\u015bmy do rana a jego ukochana\nDonosi\u0142a ci\u0105gle nowy zestaw win",
-            "chorus": false
-        },
-        {
-            "chords": "e a e a\ne a G Fis\nh e h e\nh e h Fis",
-            "lyrics": "Przegadali\u015bmy nock\u0119 obrobili\u015bmy troch\u0119\nInnym ty\u0142y tak by sp\u0142aci\u0107 d\u0142ug\nI nie by\u0142o mi przykro i by\u0142o mi mi\u0142o\nI d\u0142u\u017cej tak bym siedzie\u0107 m\u00f3g\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "h e h e\nh e h Fis\nh e h e\nG Fis h e h e",
-            "lyrics": "I wi\u0119cej kr\u0119c\u0119 teraz g\u0142ow\u0105\nMniej wi\u0119cej o po\u0142ow\u0119\nI mniej si\u0119 t\u0142ucze w mojej duszy\ni dusza mniej si\u0119 dusi",
-            "chorus": true
-        },
-        {
-            "chords": "h e h e\nh e h Fis\nh e h e\nh e h Fis",
-            "lyrics": "Spotka\u0142em si\u0119 z koleg\u0105, bo kolega jest od tego\nI wypada czasem spotka\u0107 si\u0119 z nim\nSiedzieli\u015bmy do rana a moja ukochana\nDonosi\u0142a ci\u0105gle nowy zestaw win",
-            "chorus": false
-        },
-        {
-            "chords": "e a e a\ne a G Fis\nh e h e\nh e h Fis",
-            "lyrics": "Kiedy\u015b wina brakowa\u0142o i ci\u0105gle by\u0142o ma\u0142o\nA i ch\u0119tny do s\u0105dzenia ka\u017cdy by\u0142\nBy\u0142o nie by\u0142o lecz si\u0119 wykruszy\u0142o\nPewnie te\u017c gdzie\u015b obrabiaj\u0105 nam ty\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "h e h e\nh e h Fis\nh e h e\nG Fis h e h e",
-            "lyrics": "I wi\u0119cej kr\u0119c\u0119 teraz g\u0142ow\u0105\nMniej wi\u0119cej o po\u0142ow\u0119\nI mniej si\u0119 t\u0142ucze w mojej duszy\ni dusza dusi si\u0119 mniej",
-            "chorus": true
-        }
-    ]
-}
+#title Koledzy
+#author Maciek Maleńczuk
+#category Klasyka polskiego rocka
+
+#verse
+Spotkałem się z kolegą, bo kolega jest od tego ~ h e h e
+I wypada czasem spotkać się z nim ~ h e h Fis
+Siedzieliśmy do rana a jego ukochana ~ h e h e
+Donosiła ciągle nowy zestaw win ~ h e h Fis
+
+#verse
+Przegadaliśmy nockę obrobiliśmy trochę ~ e a e a
+Innym tyły tak by spłacić dług ~ e a G Fis
+I nie było mi przykro i było mi miło ~ h e h e
+I dłużej tak bym siedzieć mógł ~ h e h Fis
+
+#chorus
+I więcej kręcę teraz głową ~ h e h e
+Mniej więcej o połowę ~ h e h Fis
+I mniej się tłucze w mojej duszy ~ h e h e
+i dusza mniej się dusi ~ G Fis h e h e
+
+#verse
+Spotkałem się z kolegą, bo kolega jest od tego ~ h e h e
+I wypada czasem spotkać się z nim ~ h e h Fis
+Siedzieliśmy do rana a moja ukochana ~ h e h e
+Donosiła ciągle nowy zestaw win ~ h e h Fis
+
+#verse
+Kiedyś wina brakowało i ciągle było mało ~ e a e a
+A i chętny do sądzenia każdy był ~ e a G Fis
+Było nie było lecz się wykruszyło ~ h e h e
+Pewnie też gdzieś obrabiają nam tył ~ h e h Fis
+
+#chorus
+I więcej kręcę teraz głową ~ h e h e
+Mniej więcej o połowę ~ h e h Fis
+I mniej się tłucze w mojej duszy ~ h e h e
+i dusza dusi się mniej ~ G Fis h e h e
+

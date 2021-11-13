@@ -1,37 +1,48 @@
-{
-    "title": "Sen Katarzyny II",
-    "author": "Jacek Kaczmarski",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "G D G\nG D e\nC D e\nC D G\nFis h\nFis G D\nC D e\nC D G",
-            "lyrics": "Na smyczy trzymam filozof\u00f3w Europy\nPodpar\u0142am armi\u0105 marmurowe Piotra stropy\nMam psy, soko\u0142y, konie - kocham \u0142\u00f3w szalenie\nA wok\u00f3\u0142 same zaj\u0105ce i jelenie\nPa\u0142ace stawiam, g\u0142owy \u015bcinam\nKiedy mi przyjdzie na to ch\u0119\u0107\nMam biograf\u00f3w, portrecist\u00f3w\nI jeszcze jedno pragn\u0119 mie\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "e a e a\ne a C D G",
-            "lyrics": "St\u00f3j Katarzyno! Koron\u0119 Car\u00f3w\nSen taki jak ten mo\u017ce Ci z g\u0142owy zdj\u0105\u0107!",
-            "chorus": true
-        },
-        {
-            "chords": "G D G\nG D e\nC D e\nC D G\nFis h\nFis G D\nC D e\nC D G",
-            "lyrics": "Kobiet\u0105 jestem ponad miar\u0119 swoich czas\u00f3w\nNie bawi\u0105 mnie umizgi bladych lowelas\u00f3w\nIch mi\u0119kkich palc\u00f3w dotyk budzi obrzydzenie\nJu\u017c wol\u0119 \u0142owi\u0107 zaj\u0105ce i jelenie\nZe wstydu potem ten i \u00f3w\nRzek\u0142 o mnie - Niewy\u017cyta Niemra!\nI pod batogiem nago bieg\u0142\nPo \u015bniegu dooko\u0142a Kremla!",
-            "chorus": false
-        },
-        {
-            "chords": "e a e a\ne a C D G",
-            "lyrics": "St\u00f3j Katarzyno! Koron\u0119 Car\u00f3w\nSen taki jak ten mo\u017ce Ci z g\u0142owy zdj\u0105\u0107!",
-            "chorus": true
-        },
-        {
-            "chords": "G D G\nG D e\nC D e\nC D G\nFis h\nFis G D\nC D e\nC D G",
-            "lyrics": "Kochanka trzeba mi takiego jak imperium\nCo by mnie bra\u0142 tak jak ja daj\u0119 - ca\u0142\u0105 pe\u0142ni\u0105\nCo by i w\u0142adcy i podda\u0144ca by\u0142 wcieleniem\nI mi zast\u0105pi\u0142 zaj\u0105ce i jelenie\nCo by rozumia\u0142 tak jak ja\nTen g\u0142upi dw\u00f3r rozdanych r\u00f3l\nI po\u015br\u00f3d pochylonych g\u0142\u00f3w\nDawa\u0142 mi rozkosz albo b\u00f3l!",
-            "chorus": false
-        },
-        {
-            "chords": "e a e a\ne a C D e\ne a e a\ne a C D G",
-            "lyrics": "St\u00f3j Katarzyno! Koron\u0119 Car\u00f3w\nSen taki jak ten mo\u017ce Ci z g\u0142owy zdj\u0105\u0107!\nGdyby si\u0119 taki kochanek kiedy\u015b znalaz\u0142\nWiem! Sama wiem! Kaza\u0142abym go \u015bci\u0105\u0107!",
-            "chorus": true
-        }
-    ]
-}
+#title Sen Katarzyny II
+#author Jacek Kaczmarski
+#category Jacek Kaczmarski
+
+#verse
+Na smyczy trzymam filozofów Europy ~ G D G
+Podparłam armią marmurowe Piotra stropy ~ G D e
+Mam psy, sokoły, konie - kocham łów szalenie ~ C D e
+A wokół same zające i jelenie ~ C D G
+Pałace stawiam, głowy ścinam ~ Fis h
+Kiedy mi przyjdzie na to chęć ~ Fis G D
+Mam biografów, portrecistów ~ C D e
+I jeszcze jedno pragnę mieć ~ C D G
+
+#chorus
+Stój Katarzyno! Koronę Carów ~ e a e a
+Sen taki jak ten może Ci z głowy zdjąć! ~ e a C D G
+
+#verse
+Kobietą jestem ponad miarę swoich czasów ~ G D G
+Nie bawią mnie umizgi bladych lowelasów ~ G D e
+Ich miękkich palców dotyk budzi obrzydzenie ~ C D e
+Już wolę łowić zające i jelenie ~ C D G
+Ze wstydu potem ten i ów ~ Fis h
+Rzekł o mnie - Niewyżyta Niemra! ~ Fis G D
+I pod batogiem nago biegł ~ C D e
+Po śniegu dookoła Kremla! ~ C D G
+
+#chorus
+Stój Katarzyno! Koronę Carów ~ e a e a
+Sen taki jak ten może Ci z głowy zdjąć! ~ e a C D G
+
+#verse
+Kochanka trzeba mi takiego jak imperium ~ G D G
+Co by mnie brał tak jak ja daję - całą pełnią ~ G D e
+Co by i władcy i poddańca był wcieleniem ~ C D e
+I mi zastąpił zające i jelenie ~ C D G
+Co by rozumiał tak jak ja ~ Fis h
+Ten głupi dwór rozdanych ról ~ Fis G D
+I pośród pochylonych głów ~ C D e
+Dawał mi rozkosz albo ból! ~ C D G
+
+#chorus
+Stój Katarzyno! Koronę Carów ~ e a e a
+Sen taki jak ten może Ci z głowy zdjąć! ~ e a C D e
+Gdyby się taki kochanek kiedyś znalazł ~ e a e a
+Wiem! Sama wiem! Kazałabym go ściąć! ~ e a C D G
+

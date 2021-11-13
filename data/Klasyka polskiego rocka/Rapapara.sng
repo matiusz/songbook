@@ -1,47 +1,55 @@
-{
-    "title": "Rapapara",
-    "author": "\u0141ydka Grubasa",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a F\nC G",
-            "lyrics": "On by\u0142 samotny, jej by\u0142o \u017ale\nGdzie\u015b w internecie poznali si\u0119\nOn si\u0119 zakocha\u0142 ze samych zdj\u0119\u0107\nBo tam rusa\u0142ka, dziewcz\u0119 na pi\u0119\u0107\nSzcz\u0119ka mu spad\u0142a a\u017c pod sam st\u00f3\u0142\nDa\u0142 jej komentarz dziesi\u0119\u0107 i p\u00f3\u0142\nA kiedy w ko\u0144cu spotkali si\u0119\nOn jej nie pozna\u0142 dlatego, \u017ce...",
-            "chorus": false
-        },
-        {
-            "chords": "a F C G",
-            "lyrics": "Rapapara, rapapara mia\u0142a ryja jak kopara,\nrapapara, rapapara mia\u0142a ryja jak kopara",
-            "chorus": true
-        },
-        {
-            "chords": "a F\nC G",
-            "lyrics": "On chcia\u0142 zakocha\u0107 si\u0119 z ca\u0142ych si\u0142\nLecz ci\u0105gle widzia\u0142 ten wielki ryj\nW \u0142\u00f3\u017cku i w pracy, noce i dnie\nZ hipopotamem kojarzy\u0142 si\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Rapapara...",
-            "chorus": true
-        },
-        {
-            "chords": "a F\nC G",
-            "lyrics": "A w ko\u0144cu przyszed\u0142 zimowy czas\n\u015aniegu nasypa\u0142o/najeba\u0142o a\u017c po pas\nGdy on do pracy wyruszy\u0107 chcia\u0142\nUjrza\u0142, \u017ce w \u015bniegu ugrz\u0105z\u0142 mu star\nP\u0142acz\u0105c przeklina\u0142 parszywy los\nWtedy \"pomog\u0119\"us\u0142ysza\u0142 g\u0142os\nI kiedy w starze zarzuca\u0142 bieg\nTo ona ryjem spycha\u0142a \u015bnieg",
-            "chorus": false
-        },
-        {
-            "chords": "a F C G",
-            "lyrics": "Rapapara, rapapara i tym ryjem jak kopara,\nrapapara, rapapara  odkopa\u0142a ch\u0142opu stara",
-            "chorus": true
-        },
-        {
-            "chords": "a F\nC G",
-            "lyrics": "Ty przyznaj si\u0119 teraz, przyznaj si\u0119 sam\n\u015amia\u0142e\u015b si\u0119 z ryja, \u015bmia\u0142e\u015b jak cham\nI bra\u0142e\u015b do r\u0119ki s\u0119katy kij\nI plu\u0142e\u015b, i szczu\u0142e\u015b ten wielki ryj\nLecz karty rozdaje parszywy los\nI mniej bywa cenny jak z\u0142ota stos\nA wi\u0119c nie \u015bmiejcie si\u0119 z cudzych wad\nBo one mog\u0105 zbawi\u0107 wasz \u015bwiat",
-            "chorus": false
-        },
-        {
-            "chords": "a F C G",
-            "lyrics": "Rapapara, rapapara nawet morda jak kopara\nRapapara, rapapara zas\u0142uguje na browara!",
-            "chorus": true
-        }
-    ]
-}
+#title Rapapara
+#author Łydka Grubasa
+#category Klasyka polskiego rocka
+
+#verse
+On był samotny, jej było źle ~ a F
+Gdzieś w internecie poznali się ~ C G
+On się zakochał ze samych zdjęć 
+Bo tam rusałka, dziewczę na pięć 
+Szczęka mu spadła aż pod sam stół 
+Dał jej komentarz dziesięć i pół 
+A kiedy w końcu spotkali się 
+On jej nie poznał dlatego, że... 
+
+#chorus
+Rapapara, rapapara miała ryja jak kopara, ~ a F C G
+rapapara, rapapara miała ryja jak kopara 
+
+#verse
+On chciał zakochać się z całych sił ~ a F
+Lecz ciągle widział ten wielki ryj ~ C G
+W łóżku i w pracy, noce i dnie 
+Z hipopotamem kojarzył się 
+
+#chorus
+Rapapara... 
+
+#verse
+A w końcu przyszedł zimowy czas ~ a F
+Śniegu nasypało/najebało aż po pas ~ C G
+Gdy on do pracy wyruszyć chciał 
+Ujrzał, że w śniegu ugrzązł mu star 
+Płacząc przeklinał parszywy los 
+Wtedy "pomogę"usłyszał głos 
+I kiedy w starze zarzucał bieg 
+To ona ryjem spychała śnieg 
+
+#chorus
+Rapapara, rapapara i tym ryjem jak kopara, ~ a F C G
+rapapara, rapapara  odkopała chłopu stara 
+
+#verse
+Ty przyznaj się teraz, przyznaj się sam ~ a F
+Śmiałeś się z ryja, śmiałeś jak cham ~ C G
+I brałeś do ręki sękaty kij 
+I plułeś, i szczułeś ten wielki ryj 
+Lecz karty rozdaje parszywy los 
+I mniej bywa cenny jak złota stos 
+A więc nie śmiejcie się z cudzych wad 
+Bo one mogą zbawić wasz świat 
+
+#chorus
+Rapapara, rapapara nawet morda jak kopara ~ a F C G
+Rapapara, rapapara zasługuje na browara! 
+

@@ -1,42 +1,48 @@
-{
-    "title": "Society",
-    "author": "Eddie Vedder",
-    "category": "Piosenki zagraniczne",
-    "sections": [
-        {
-            "chords": "C G a\nC F G\nF G a\nF G a",
-            "lyrics": "Oh it's a mystery to me.\nWe have a greed, with which we have agreed...\nand you think you have to want more than you need...\nuntil you have it all, you won't be free. ",
-            "chorus": false
-        },
-        {
-            "chords": "F C\nG a",
-            "lyrics": "Society, you're a crazy breed.\nI hope you're not lonely, without me. ",
-            "chorus": true
-        },
-        {
-            "chords": "C G a\nC F G\nF G a\nF G a",
-            "lyrics": "When you want more than you have, you think you need...\nand when you think more then you want, your thoughts begin to bleed.\nI think I need to find a bigger place...\ncause when you have more than you think, you need more space.\n",
-            "chorus": false
-        },
-        {
-            "chords": "F C\nG a\nF C\nG a",
-            "lyrics": "Society, you're a crazy breed.\nI hope you're not lonely, without me.\nSociety, crazy indeed...\nI hope you're not lonely, without me.",
-            "chorus": true
-        },
-        {
-            "chords": "C G a\nC F G\nF G a\nF G a\na",
-            "lyrics": "There's those thinkin' more or less, less is more,\nbut if less is more, how you keepin' score?\nIt means for every point you make, your level drops.\nKinda like you're startin' from the top...\nand you can't do that.",
-            "chorus": false
-        },
-        {
-            "chords": "F C\nG a\nF C\nG a",
-            "lyrics": "Society, you're a crazy breed.\nI hope you're not lonely, without me.\nSociety, crazy indeed...\nI hope you're not lonely, without me",
-            "chorus": true
-        },
-        {
-            "chords": "F C\nG a\nF C\nG a",
-            "lyrics": "Society, have mercy on me.\nI hope you're not angry, if I disagree.\nSociety, crazy indeed.\nI hope you're not lonely...\nwithout me.\n",
-            "chorus": true
-        }
-    ]
-}
+#title Society
+#author Eddie Vedder
+#category Piosenki zagraniczne
+
+#verse
+Oh it's a mystery to me. ~ C G a
+We have a greed, with which we have agreed... ~ C F G
+and you think you have to want more than you need... ~ F G a
+until you have it all, you won't be free.  ~ F G a
+
+#chorus
+Society, you're a crazy breed. ~ F C
+I hope you're not lonely, without me.  ~ G a
+
+#verse
+When you want more than you have, you think you need... ~ C G a
+and when you think more then you want, your thoughts begin to bleed. ~ C F G
+I think I need to find a bigger place... ~ F G a
+cause when you have more than you think, you need more space. ~ F G a
+
+
+#chorus
+Society, you're a crazy breed. ~ F C
+I hope you're not lonely, without me. ~ G a
+Society, crazy indeed... ~ F C
+I hope you're not lonely, without me. ~ G a
+
+#verse
+There's those thinkin' more or less, less is more, ~ C G a
+but if less is more, how you keepin' score? ~ C F G
+It means for every point you make, your level drops. ~ F G a
+Kinda like you're startin' from the top... ~ F G a
+and you can't do that. ~ a
+
+#chorus
+Society, you're a crazy breed. ~ F C
+I hope you're not lonely, without me. ~ G a
+Society, crazy indeed... ~ F C
+I hope you're not lonely, without me ~ G a
+
+#chorus
+Society, have mercy on me. ~ F C
+I hope you're not angry, if I disagree. ~ G a
+Society, crazy indeed. ~ F C
+I hope you're not lonely... ~ G a
+without me. 
+
+

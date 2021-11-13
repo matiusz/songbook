@@ -1,47 +1,59 @@
-{
-    "title": "Nazywali go marynarz \u2013 szanta narciarska",
-    "author": "Artur Andrus\r",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "d C d\nF G A\nB F\nF E d\nd C d\nF G A\nB F\nF E d",
-            "lyrics": "Nazywaj\u0105 go marynarz,\nBo opask\u0119 ma na oku.\nNa ka\u017cdym stoku dziewczyna,\nDziewczyna na ka\u017cdym stoku.\nPochodzi spod Poznania,\nPodobno umie wr\u00f3\u017cy\u0107 z kart.\nPanny rwie na wi\u0105zania,\nM\u0119\u017catki - na d\u0142ugo\u015b\u0107 nart.",
-            "chorus": false
-        },
-        {
-            "chords": "A d\nA B\nB F\nF E d",
-            "lyrics": "Caryco mokrego \u015bniegu,\nRatrakiem p\u0142yn\u0119 do Ciebie pod pr\u0105d. Hej!\nDobrze, \u017ce stoisz na brzegu,\nBo ja w\u0142a\u015bnie schodz\u0119 na l\u0105d.",
-            "chorus": true
-        },
-        {
-            "chords": "d C d\nF G A\nB F\nF E d\nd C d\nF G A\nB F\nF E d",
-            "lyrics": "Nigdy si\u0119 nie l\u0119ka\u0142 biedy,\nI si\u0119 nie przejmowa\u0142 jutrem.\nA jego ratrak by\u0142 kiedy\u015b,\nZwyczajnym rybackim kutrem.\nI wozi\u0142 dorsze i \u015bledzie,\nZim\u0105 i latem, okr\u0105g\u0142y rok.\nTeraz jak nieraz przejedzie,\nRybami czu\u0107 ca\u0142y stok.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Caryco mokrego \u015bniegu...",
-            "chorus": true
-        },
-        {
-            "chords": "d C d\nF G A\nB F\nF E d\nd C d\nF G A\nB F\nF E d",
-            "lyrics": "Wszyscy w porcie odetchn\u0119li,\nZwia\u0142, nim si\u0119 zako\u0144czy\u0142 sezon.\nJeszcze nam si\u0119 jak \u017cagiel bieli,\nJego czarny kombinezon.\nOdjecha\u0142 za Ustrzyki,\nPrzez baby straszne mia\u0142 k\u0142opoty.\nFors\u0119 z polowa\u0144 na orczyki,\nPrzehula\u0142 na antybiotyk.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Caryco mokrego \u015bniegu...",
-            "chorus": true
-        },
-        {
-            "chords": "d C d\nF G A\nB F\nF E d\nd C d\nF G A\nB F\nF E d",
-            "lyrics": "Je\u015bli kiedy\u015b go zobaczysz,\nNa ratraku w pod\u0142ym \u015bwiecie,\nTo powiedz mu, \u017ce w Karpaczu,\nCzekaj\u0105 na niego dzieci.\nI kiedy opuszcza statek,\n\u017beby si\u0119 znowu odda\u0107 z\u0142u,\nKa\u017cda z dwudziestu siedmiu matek,\nDzieci\u0105tku \u015bpiewa do snu.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Caryco mokrego \u015bniegu... /x2",
-            "chorus": true
-        }
-    ]
-}
+#title Nazywali go marynarz – szanta narciarska
+#author Artur Andrus
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+Nazywają go marynarz, ~ d C d
+Bo opaskę ma na oku. ~ F G A
+Na każdym stoku dziewczyna, ~ B F
+Dziewczyna na każdym stoku. ~ F E d
+Pochodzi spod Poznania, ~ d C d
+Podobno umie wróżyć z kart. ~ F G A
+Panny rwie na wiązania, ~ B F
+Mężatki - na długość nart. ~ F E d
+
+#chorus
+Caryco mokrego śniegu, ~ A d
+Ratrakiem płynę do Ciebie pod prąd. Hej! ~ A B
+Dobrze, że stoisz na brzegu, ~ B F
+Bo ja właśnie schodzę na ląd. ~ F E d
+
+#verse
+Nigdy się nie lękał biedy, ~ d C d
+I się nie przejmował jutrem. ~ F G A
+A jego ratrak był kiedyś, ~ B F
+Zwyczajnym rybackim kutrem. ~ F E d
+I woził dorsze i śledzie, ~ d C d
+Zimą i latem, okrągły rok. ~ F G A
+Teraz jak nieraz przejedzie, ~ B F
+Rybami czuć cały stok. ~ F E d
+
+#chorus
+Caryco mokrego śniegu... 
+
+#verse
+Wszyscy w porcie odetchnęli, ~ d C d
+Zwiał, nim się zakończył sezon. ~ F G A
+Jeszcze nam się jak żagiel bieli, ~ B F
+Jego czarny kombinezon. ~ F E d
+Odjechał za Ustrzyki, ~ d C d
+Przez baby straszne miał kłopoty. ~ F G A
+Forsę z polowań na orczyki, ~ B F
+Przehulał na antybiotyk. ~ F E d
+
+#chorus
+Caryco mokrego śniegu... 
+
+#verse
+Jeśli kiedyś go zobaczysz, ~ d C d
+Na ratraku w podłym świecie, ~ F G A
+To powiedz mu, że w Karpaczu, ~ B F
+Czekają na niego dzieci. ~ F E d
+I kiedy opuszcza statek, ~ d C d
+Żeby się znowu oddać złu, ~ F G A
+Każda z dwudziestu siedmiu matek, ~ B F
+Dzieciątku śpiewa do snu. ~ F E d
+
+#chorus
+Caryco mokrego śniegu... /x2 
+

@@ -1,37 +1,34 @@
-{
-    "title": "Zbyszek",
-    "author": "Domowe Melodie",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "A h A\ncis h\nD cis\nA E A",
-            "lyrics": "Zbyszek nie by\u0142 faworytem na d\u0142ugim dystansie \nSzuka\u0142 zwady i podkrada\u0142 rent\u0119 matce \nJak jad\u0142 chleb z pasztetem ukruszy\u0142 si\u0119 ca\u0142y \nJego wie\u015b milcza\u0142a a on kotki w rzece topi\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "E\nA\nE\nA E A",
-            "lyrics": "A ja lubi\u0142am Zbyszka takim jak by\u0142 \nGranatowe oczy kiedy by\u0142 z\u0142y \nOran\u017cowe stopy, w nich p\u0142ynie czas\nKt\u00f3ry poszed\u0142 ze Zbyszkiem w las",
-            "chorus": true
-        },
-        {
-            "chords": "",
-            "lyrics": "Tu nie by\u0142o takiej co nie zna\u0142a Zbyszka\nCi\u0105gn\u0105\u0142 w krzaki i ca\u0142owa\u0142 je z opryszczk\u0105\nPod paznokciem trzyma\u0142 serce i sw\u00f3j \u015bwiat\nKt\u00f3re zjada\u0142 jak mu w\u00f3dki by\u0142o brak",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "A ja lubi\u0142am Zbyszka...",
-            "chorus": true
-        },
-        {
-            "chords": "",
-            "lyrics": "Zbyszek mia\u0142 trzydzie\u015bci osiem lat i przepad\u0142\nZmy\u0142a woda kroki jego co wydepta\u0142\nLudzie m\u00f3wi\u0105, \u017ce go diabli mo\u017ce wzi\u0119li\n\u017ce takiego tylko diab\u0142y mog\u0105 bra\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "A ja lubi\u0142am Zbyszka...",
-            "chorus": true
-        }
-    ]
-}
+#title Zbyszek
+#author Domowe Melodie
+#category Piosenki różne
+
+#verse
+Zbyszek nie był faworytem na długim dystansie  ~ A h A
+Szukał zwady i podkradał rentę matce  ~ cis h
+Jak jadł chleb z pasztetem ukruszył się cały  ~ D cis
+Jego wieś milczała a on kotki w rzece topił ~ A E A
+
+#chorus
+A ja lubiłam Zbyszka takim jak był  ~ E
+Granatowe oczy kiedy był zły  ~ A
+Oranżowe stopy, w nich płynie czas ~ E
+Który poszedł ze Zbyszkiem w las ~ A E A
+
+#verse
+Tu nie było takiej co nie znała Zbyszka 
+Ciągnął w krzaki i całował je z opryszczką 
+Pod paznokciem trzymał serce i swój świat 
+Które zjadał jak mu wódki było brak 
+
+#chorus
+A ja lubiłam Zbyszka... 
+
+#verse
+Zbyszek miał trzydzieści osiem lat i przepadł 
+Zmyła woda kroki jego co wydeptał 
+Ludzie mówią, że go diabli może wzięli 
+że takiego tylko diabły mogą brać 
+
+#chorus
+A ja lubiłam Zbyszka... 
+

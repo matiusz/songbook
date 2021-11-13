@@ -1,67 +1,65 @@
-{
-    "title": "Wodymidaj",
-    "author": "Kwiat Jab\u0142oni",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "Wrzuceni s\u0105 w \u015bwiat \nI wrzuceni s\u0105 w siebie\nOooo wszyscy pod niebem \n",
-            "chorus": false
-        },
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "Czy b\u0119dziesz \u017cy\u0142 tak jak pan\nLub gdzie\u015b pod p\u0142otem i sam\nOooo tego nie wiesz",
-            "chorus": false
-        },
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "Czy b\u0119dziesz \u017cy\u0142 po\u015br\u00f3d g\u00f3r\nCzy mo\u017ce miast wielkich mur zas\u0142oni\nJeee wrzuceni w siebie",
-            "chorus": false
-        },
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "Jak wielki po\u017car jest \u015bwiat\nCo wiecznie trawi\u0107 si\u0119 ma\nOd nieba a\u017c a\u017c po ziemi\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "B C d\nB C d\nB C d\nB C d",
-            "lyrics": "Wi\u0119c przez p\u0142on\u0105cy las przeprowad\u017a mnie \nNiech z nieba spadnie na mnie wielki deszcz\nI przez p\u0142on\u0105cy las przeprowad\u017a mnie\nJak wielka rzeka wp\u0142y\u0144, uratuj mnie",
-            "chorus": true
-        },
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "I wci\u0105\u017c poznaj\u0105 ten \u015bwiat\nPoznaj\u0105 gwiazdy i ziemi\u0119\nOooo wszyscy pod niebem",
-            "chorus": false
-        },
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "Czy poznasz \u015bwiat lej\u0105c \u0142zy\nLub w zgodzie z nim b\u0119dziesz \u017cy\u0107\nZale\u017cy tylko od ciebie",
-            "chorus": false
-        },
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "Czy b\u0119dziesz st\u0105pa\u0107 po dnie\nLub z g\u0142ow\u0105 w chmurach we \u015bnie\nAaaaa Wrzuceni w siebie",
-            "chorus": false
-        },
-        {
-            "chords": "d \nd\nF C d",
-            "lyrics": "Cho\u0107 wiecznie p\u0142onie ten \u015bwiat\nTo w sercu wierz\u0119, \u017ce ja\nAaaaa Ju\u017c si\u0119 nie zmieni\u0119\n",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wi\u0119c przez p\u0142on\u0105cy...",
-            "chorus": true
-        },
-        {
-            "chords": "d\nd\nF\ng",
-            "lyrics": "Wody mi daj, wody mi daj\nWody mi daj, wody mi daj\nWody mi daj, wody mi daj\nWody mi daj, wody mi daj\n",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wi\u0119c przez p\u0142on\u0105cy...",
-            "chorus": true
-        }
-    ]
-}
+#title Wodymidaj
+#author Kwiat Jabłoni
+#category Klasyka polskiego rocka
+
+#verse
+Wrzuceni są w świat  ~ d 
+I wrzuceni są w siebie ~ d
+Oooo wszyscy pod niebem  ~ F C d
+
+
+#verse
+Czy będziesz żył tak jak pan ~ d 
+Lub gdzieś pod płotem i sam ~ d
+Oooo tego nie wiesz ~ F C d
+
+#verse
+Czy będziesz żył pośród gór ~ d 
+Czy może miast wielkich mur zasłoni ~ d
+Jeee wrzuceni w siebie ~ F C d
+
+#verse
+Jak wielki pożar jest świat ~ d 
+Co wiecznie trawić się ma ~ d
+Od nieba aż aż po ziemię ~ F C d
+
+#chorus
+Więc przez płonący las przeprowadź mnie  ~ B C d
+Niech z nieba spadnie na mnie wielki deszcz ~ B C d
+I przez płonący las przeprowadź mnie ~ B C d
+Jak wielka rzeka wpłyń, uratuj mnie ~ B C d
+
+#verse
+I wciąż poznają ten świat ~ d 
+Poznają gwiazdy i ziemię ~ d
+Oooo wszyscy pod niebem ~ F C d
+
+#verse
+Czy poznasz świat lejąc łzy ~ d 
+Lub w zgodzie z nim będziesz żyć ~ d
+Zależy tylko od ciebie ~ F C d
+
+#verse
+Czy będziesz stąpać po dnie ~ d 
+Lub z głową w chmurach we śnie ~ d
+Aaaaa Wrzuceni w siebie ~ F C d
+
+#verse
+Choć wiecznie płonie ten świat ~ d 
+To w sercu wierzę, że ja ~ d
+Aaaaa Już się nie zmienię ~ F C d
+
+
+#chorus
+Więc przez płonący... 
+
+#verse
+Wody mi daj, wody mi daj ~ d
+Wody mi daj, wody mi daj ~ d
+Wody mi daj, wody mi daj ~ F
+Wody mi daj, wody mi daj ~ g
+
+
+#chorus
+Więc przez płonący... 
+

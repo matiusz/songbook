@@ -1,31 +1,34 @@
-{
-    "title": "Komar",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "D\nD\nG\nD A D",
-            "lyrics": "Komar to jest zwierz\u0119, kurwa jego ma\u0107,\nJak ci\u0119 nie ujebie to nie mo\u017ce spa\u0107,\nHej czy widzisz komara jak mu dupa \u015bwieci\nPrzypierdol mu gazet\u0105, on wy\u017cej nie poleci. ",
-            "chorus": false
-        },
-        {
-            "chords": "D\nD\nG\nD A D",
-            "lyrics": "M\u00f3wi do mnie ojciec, synu nie masz racji \nKomar szuka dupy do-o kopulacji. \nHej czy widzisz komara jak mu dupa \u015bwieci \nPrzypierdol mu gazet\u0105, on wy\u017cej nie poleci. ",
-            "chorus": false
-        },
-        {
-            "chords": "D\nD\nG\nD A D",
-            "lyrics": "Lata komar w nocy, lata komar w dzie\u0144 \nCi\u0105gle widz\u0119 jego pierdolony cie\u0144, \nHej czy widzisz komara jak mu dupa \u015bwieci \nPrzypierdol mu gazet\u0105, on wy\u017cej nie poleci. ",
-            "chorus": false
-        },
-        {
-            "chords": "D\nD\nG\nD A D",
-            "lyrics": "Lata komar lata i szuka kobiety \nPatrzy, czy jaka\u015b dupa nie wystaje zza tapety \nHej czy widzisz komara jak mu dupa \u015bwieci \nPrzypierdol mu gazet\u0105, on wy\u017cej nie poleci",
-            "chorus": false
-        },
-        {
-            "chords": "D\nD\nG\nD A D",
-            "lyrics": "Przylecia\u0142a mucha komara dziewucha, \nLata ko\u0142o brzucha, a komar j\u0105 rucha \nHej czy widzisz komara jak mu dupa \u015bwieci \nPrzypierdol mu gazet\u0105, on wy\u017cej nie poleci. ",
-            "chorus": false
-        }
-    ]
-}
+#title Komar
+#author 
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+Komar to jest zwierzę, kurwa jego mać, ~ D
+Jak cię nie ujebie to nie może spać, ~ D
+Hej czy widzisz komara jak mu dupa świeci ~ G
+Przypierdol mu gazetą, on wyżej nie poleci.  ~ D A D
+
+#verse
+Mówi do mnie ojciec, synu nie masz racji  ~ D
+Komar szuka dupy do-o kopulacji.  ~ D
+Hej czy widzisz komara jak mu dupa świeci  ~ G
+Przypierdol mu gazetą, on wyżej nie poleci.  ~ D A D
+
+#verse
+Lata komar w nocy, lata komar w dzień  ~ D
+Ciągle widzę jego pierdolony cień,  ~ D
+Hej czy widzisz komara jak mu dupa świeci  ~ G
+Przypierdol mu gazetą, on wyżej nie poleci.  ~ D A D
+
+#verse
+Lata komar lata i szuka kobiety  ~ D
+Patrzy, czy jakaś dupa nie wystaje zza tapety  ~ D
+Hej czy widzisz komara jak mu dupa świeci  ~ G
+Przypierdol mu gazetą, on wyżej nie poleci ~ D A D
+
+#verse
+Przyleciała mucha komara dziewucha,  ~ D
+Lata koło brzucha, a komar ją rucha  ~ D
+Hej czy widzisz komara jak mu dupa świeci  ~ G
+Przypierdol mu gazetą, on wyżej nie poleci.  ~ D A D
+

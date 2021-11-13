@@ -1,67 +1,70 @@
-{
-    "title": "Awionetka",
-    "author": "Czy\u015bci Jak \u0141za",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "Silnik wydusi\u0142 dziwny ton, \n\u015amig\u0142o jakby nagle zastyg\u0142o\nPan Benek strasznie, strasznie zblad\u0142, \na potem nagle zawirowa\u0142 \u015bwiat",
-            "chorus": false
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "Znajomy z Niemiec bardzo, bardzo chcia\u0142,\nZobaczy\u0107 z g\u00f3ry Warmi\u0119 i Mazury\nPan Benek si\u0119 nam\u00f3wi\u0107 da\u0142\nA do\u015bwiadczenie mia\u0142 jak ma\u0142o kt\u00f3ry",
-            "chorus": false
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "We\u017amiemy jeszcze moj\u0105 ciotk\u0119 i dzieciaki \nBrata z przodu si\u0119 posadzi\nTrzeba si\u0119 upchn\u0105\u0107 \u017ceby zamkn\u0105\u0107 drzwi\nP\u00f3jdziemy w g\u00f3r\u0119, tam poprowadzi",
-            "chorus": false
-        },
-        {
-            "chords": "A\nH E",
-            "lyrics": "Awionetka, Awionetka, jaka zwinna, jaka lekka\nJa kaleka, ty kaleka, bo nas wioz\u0142a Awionetka",
-            "chorus": true
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "Stalowy ptak wolno wyni\u00f3s\u0142 nas\nPonad kominy fabryki opon\nI wtedy ciotka podnios\u0142a wrzask\nNo w \u017cyciu nie by\u0142am jeszcze tak wysoko",
-            "chorus": false
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "Znajomy z Niemiec nad jezioro chcia\u0142\nPolecie\u0107 w g\u00f3r\u0119, skr\u0119ci\u0107 kilka uj\u0119\u0107\nPan Benek Karolkowi da\u0142 dr\u0105\u017cek\nNiech ch\u0142opak popilotuje",
-            "chorus": false
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "Co by\u0142o dalej, chyba ka\u017cdy wie,\nBiegu wydarze\u0144 domy\u015blacie si\u0119 sami\nW jednej chwili, jak w koszmarnym \u015bnie\nNiebo si\u0119 z ziemi\u0105 zamieni\u0142o miejscami",
-            "chorus": false
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "Znajomy z Niemiec krzykn\u0105\u0142: \"O mein Got\"\nCiotka ugryz\u0142a w ucho Pana Benka\nPami\u0119tam tylko kosz\u0105cy lot \nA potem r\u0119ka, noga, g\u0142owa, r\u0119ka, noga, g\u0142owa, r\u0119ka",
-            "chorus": false
-        },
-        {
-            "chords": "A\nH E",
-            "lyrics": "Awionetka, Awionetka tu p\u00f3\u0142bucik, tu saszetka\nOkulary, bransoletka - rozrzut na p\u00f3\u0142 kilometra",
-            "chorus": true
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "W finale na sygnale przez ulic g\u0105szcz\nPowioz\u0142a nas karetka pogotowia\nKierowca jak rajdowiec przyspiesza\u0142\nWci\u0105\u017c kopyta z gazu nie zdejmowa\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "A\n\nH\nE",
-            "lyrics": "Par\u0119 skrzy\u017cowa\u0144, potem zakr\u0119t oooo...\nOdrobin\u0119 chyba za ostry\nPisk opon i t\u0142uczone szk\u0142o \nI patrz\u0119 pod sufitem - nogi siostry",
-            "chorus": false
-        },
-        {
-            "chords": "A\nH E",
-            "lyrics": "Ta karetka, ta karetka, jaka zwinna, jaka lekka\nJa kaleka, ty kaleka, bo nas wioz\u0142a dzi\u015b karetka",
-            "chorus": true
-        }
-    ]
-}
+#title Awionetka
+#author Czyści Jak Łza
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+Silnik wydusił dziwny ton,  ~ A
+Śmigło jakby nagle zastygło 
+Pan Benek strasznie, strasznie zbladł,  ~ H
+a potem nagle zawirował świat ~ E
+
+#verse
+Znajomy z Niemiec bardzo, bardzo chciał, ~ A
+Zobaczyć z góry Warmię i Mazury 
+Pan Benek się namówić dał ~ H
+A doświadczenie miał jak mało który ~ E
+
+#verse
+Weźmiemy jeszcze moją ciotkę i dzieciaki  ~ A
+Brata z przodu się posadzi 
+Trzeba się upchnąć żeby zamknąć drzwi ~ H
+Pójdziemy w górę, tam poprowadzi ~ E
+
+#chorus
+Awionetka, Awionetka, jaka zwinna, jaka lekka ~ A
+Ja kaleka, ty kaleka, bo nas wiozła Awionetka ~ H E
+
+#verse
+Stalowy ptak wolno wyniósł nas ~ A
+Ponad kominy fabryki opon 
+I wtedy ciotka podniosła wrzask ~ H
+No w życiu nie byłam jeszcze tak wysoko ~ E
+
+#verse
+Znajomy z Niemiec nad jezioro chciał ~ A
+Polecieć w górę, skręcić kilka ujęć 
+Pan Benek Karolkowi dał drążek ~ H
+Niech chłopak popilotuje ~ E
+
+#verse
+Co było dalej, chyba każdy wie, ~ A
+Biegu wydarzeń domyślacie się sami 
+W jednej chwili, jak w koszmarnym śnie ~ H
+Niebo się z ziemią zamieniło miejscami ~ E
+
+#verse
+Znajomy z Niemiec krzyknął: "O mein Got" ~ A
+Ciotka ugryzła w ucho Pana Benka 
+Pamiętam tylko koszący lot  ~ H
+A potem ręka, noga, głowa, ręka, noga, głowa, ręka ~ E
+
+#chorus
+Awionetka, Awionetka tu półbucik, tu saszetka ~ A
+Okulary, bransoletka - rozrzut na pół kilometra ~ H E
+
+#verse
+W finale na sygnale przez ulic gąszcz ~ A
+Powiozła nas karetka pogotowia 
+Kierowca jak rajdowiec przyspieszał ~ H
+Wciąż kopyta z gazu nie zdejmował ~ E
+
+#verse
+Parę skrzyżowań, potem zakręt oooo... ~ A
+Odrobinę chyba za ostry 
+Pisk opon i tłuczone szkło  ~ H
+I patrzę pod sufitem - nogi siostry ~ E
+
+#chorus
+Ta karetka, ta karetka, jaka zwinna, jaka lekka ~ A
+Ja kaleka, ty kaleka, bo nas wiozła dziś karetka ~ H E
+

@@ -1,47 +1,43 @@
-{
-    "title": "\u0141emata",
-    "author": "Wojtek \"Neron\"Warcho\u0142",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "C G a e\nF C G a G",
-            "lyrics": "Pami\u0119tam tylko tabun chmur si\u0119 rozwin\u0105\u0142\nI cichy wiatr wiej\u0105cy ku po\u0142oninom\nI twardy jak kamie\u0144 plecak pod moj\u0105 g\u0142ow\u0105\nI czyja\u015b posta\u0107 co okaza\u0142a si\u0119 tob\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Id\u0119 do\u0142em a ty g\u00f3r\u0105\nJestem s\u0142o\u0144cem ty wichur\u0105\nOgniem ja wod\u0105 ty\n\u015amiechem ja ty ronisz \u0142zy",
-            "chorus": true
-        },
-        {
-            "chords": "C G a e\nF C G a G",
-            "lyrics": "By\u0142a\u015b jak wielkie \u015bwiat\u0142o w t\u0119 smutn\u0105 noc\nJak wielkie szcz\u0119\u015bcie co zes\u0142a\u0142 mi los\nLecz nie na d\u0142ugo by\u0142o cieszy\u0107 si\u0119 nam\nTe k\u0142\u00f3tnie bez sensu sk\u0105d ja to znam",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Id\u0119 do\u0142em a ty g\u00f3r\u0105...",
-            "chorus": true
-        },
-        {
-            "chords": "C G a e\nF C G a G",
-            "lyrics": "I t\u0142umaczy\u0142em jej jak naprawd\u0119 to jest\n\u017be mam sw\u00f3j \u015bwiat w nim setki tych swoich spraw\nA moje gwiazdy to z daleka do mnie l\u015bni\u0105\nI \u015bmiechem i \u0142zami witaj\u0105 m\u00f3j bukowy dom",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Id\u0119 do\u0142em a ty g\u00f3r\u0105...",
-            "chorus": true
-        },
-        {
-            "chords": "C G a e\nF C G a G",
-            "lyrics": "I czas zako\u0144czy\u0107 rozwa\u017cania te\nPrzy wodospadzie, tam gdzie s\u0142ycha\u0107 \u015bpiew\nW \u017ar\u00f3dlanej wodzie czas zanurzy\u0107 d\u0142o\u0144\n\u017begnam Was, dzi\u015b odchodz\u0119 st\u0105d",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Id\u0119 do\u0142em a ty g\u00f3r\u0105...",
-            "chorus": true
-        }
-    ]
-}
+#title Łemata
+#author Wojtek "Neron"Warchoł
+#category Turystyczne
+
+#verse
+Pamiętam tylko tabun chmur się rozwinął ~ C G a e
+I cichy wiatr wiejący ku połoninom ~ F C G a G
+I twardy jak kamień plecak pod moją głową 
+I czyjaś postać co okazała się tobą 
+
+#chorus
+Idę dołem a ty górą 
+Jestem słońcem ty wichurą 
+Ogniem ja wodą ty 
+Śmiechem ja ty ronisz łzy 
+
+#verse
+Byłaś jak wielkie światło w tę smutną noc ~ C G a e
+Jak wielkie szczęście co zesłał mi los ~ F C G a G
+Lecz nie na długo było cieszyć się nam 
+Te kłótnie bez sensu skąd ja to znam 
+
+#chorus
+Idę dołem a ty górą... 
+
+#verse
+I tłumaczyłem jej jak naprawdę to jest ~ C G a e
+Że mam swój świat w nim setki tych swoich spraw ~ F C G a G
+A moje gwiazdy to z daleka do mnie lśnią 
+I śmiechem i łzami witają mój bukowy dom 
+
+#chorus
+Idę dołem a ty górą... 
+
+#verse
+I czas zakończyć rozważania te ~ C G a e
+Przy wodospadzie, tam gdzie słychać śpiew ~ F C G a G
+W źródlanej wodzie czas zanurzyć dłoń 
+Żegnam Was, dziś odchodzę stąd 
+
+#chorus
+Idę dołem a ty górą... 
+

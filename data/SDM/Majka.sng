@@ -1,37 +1,28 @@
-{
-    "title": "Majka",
-    "author": "muz. tradycyjna",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "G e C D",
-            "lyrics": "Gdy jestem sam my\u015blami biegn\u0119\nDo mej najdro\u017cszej jak rzeka wiernej",
-            "chorus": false
-        },
-        {
-            "chords": "G e C D",
-            "lyrics": "Majka, nie jestem Ciebie wart\nMajka, zmieni\u0142bym dla Ciebie ca\u0142y \u015bwiat",
-            "chorus": true
-        },
-        {
-            "chords": "G e C D",
-            "lyrics": "Cho\u0107 dni mijaj\u0105 i czas ucieka\nTy jeste\u015b wierna, wierna jak rzeka",
-            "chorus": false
-        },
-        {
-            "chords": "G e C D",
-            "lyrics": "By\u0142a\u015b m\u0105 gwiazd\u0105, by\u0142a\u015b m\u0105 wiosn\u0105\nSennym marzeniem, my\u015bl\u0105 radosn\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "G e C D",
-            "lyrics": "Odda\u0142bym wszystko bo jeste\u015b inna\nZa jeden u\u015bmiech, jedno spojrzenie",
-            "chorus": false
-        },
-        {
-            "chords": "G e C D",
-            "lyrics": "Mi\u0142o\u015b\u0107 tak wierna ju\u017c si\u0119 sko\u0144czy\u0142a\nBo przecie\u017c Majka mnie zostawi\u0142a",
-            "chorus": false
-        }
-    ]
-}
+#title Majka
+#author muz. tradycyjna
+#category SDM
+
+#verse
+Gdy jestem sam myślami biegnę ~ G e C D
+Do mej najdroższej jak rzeka wiernej 
+
+#chorus
+Majka, nie jestem Ciebie wart ~ G e C D
+Majka, zmieniłbym dla Ciebie cały świat 
+
+#verse
+Choć dni mijają i czas ucieka ~ G e C D
+Ty jesteś wierna, wierna jak rzeka 
+
+#verse
+Byłaś mą gwiazdą, byłaś mą wiosną ~ G e C D
+Sennym marzeniem, myślą radosną 
+
+#verse
+Oddałbym wszystko bo jesteś inna ~ G e C D
+Za jeden uśmiech, jedno spojrzenie 
+
+#verse
+Miłość tak wierna już się skończyła ~ G e C D
+Bo przecież Majka mnie zostawiła 
+

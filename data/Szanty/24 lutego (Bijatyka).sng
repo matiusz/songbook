@@ -1,47 +1,44 @@
-{
-    "title": "24 lutego (Bijatyka)",
-    "author": "s\u0142. J. Sikorski, muz. tradycyjna",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "G C\nG D\ne G\nC D e",
-            "lyrics": "To 24 by\u0142 lutego,\nporanna zrzed\u0142a mg\u0142a.\nWysz\u0142o z niej siedem uzbrojonych kryp,\nTurecki nios\u0142y znak.",
-            "chorus": false
-        },
-        {
-            "chords": "G\nG\nG D\ne G\nC D e",
-            "lyrics": "No i zn\u00f3w bijatyka, no\nzn\u00f3w bijatyka, no\nbijatyka ca\u0142y dzie\u0144.\nI por\u0105bany dzie\u0144 i por\u0105bany \u0142eb,\nrazem, bracia, a\u017c po zmierzch!",
-            "chorus": true
-        },
-        {
-            "chords": "G C\nG D\ne G\nC D e",
-            "lyrics": "Ju\u017c pierwszy skrada si\u0119 do burt,\na zwie si\u0119 'Go\u017adzik Lee'\nz Algieru Pasza wys\u0142a\u0142 go,\naby nam upu\u015bci\u0142 krwi.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "No i zn\u00f3w bijatyka...",
-            "chorus": true
-        },
-        {
-            "chords": "G C\nG D\ne G\nC D e",
-            "lyrics": "To ju\u017c drugi skrada si\u0119 do burt,\na zwie si\u0119 'R\u00f3\u017cy P\u0105k'.\nPlun\u0119li\u015bmy ze wszystkich rur,\nbardzo szybko szed\u0142 na dno.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "No i zn\u00f3w bijatyka...",
-            "chorus": true
-        },
-        {
-            "chords": "G C\nG D\ne G\nC D e",
-            "lyrics": "W naszych r\u0119kach dwa i dwa na dnie,\nca\u0142a reszta zwia\u0142a gdzie\u015b.\nA jeden z nich zabrali\u015bmy\nna starej Anglii brzeg.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "No i zn\u00f3w bijatyka...",
-            "chorus": true
-        }
-    ]
-}
+#title 24 lutego (Bijatyka)
+#author sł. J. Sikorski, muz. tradycyjna
+#category Szanty
+
+#verse
+To 24 był lutego, ~ G C
+poranna zrzedła mgła. ~ G D
+Wyszło z niej siedem uzbrojonych kryp, ~ e G
+Turecki niosły znak. ~ C D e
+
+#chorus
+No i znów bijatyka, no ~ G
+znów bijatyka, no ~ G
+bijatyka cały dzień. ~ G D
+I porąbany dzień i porąbany łeb, ~ e G
+razem, bracia, aż po zmierzch! ~ C D e
+
+#verse
+Już pierwszy skrada się do burt, ~ G C
+a zwie się 'Goździk Lee' ~ G D
+z Algieru Pasza wysłał go, ~ e G
+aby nam upuścił krwi. ~ C D e
+
+#chorus
+No i znów bijatyka... 
+
+#verse
+To już drugi skrada się do burt, ~ G C
+a zwie się 'Róży Pąk'. ~ G D
+Plunęliśmy ze wszystkich rur, ~ e G
+bardzo szybko szedł na dno. ~ C D e
+
+#chorus
+No i znów bijatyka... 
+
+#verse
+W naszych rękach dwa i dwa na dnie, ~ G C
+cała reszta zwiała gdzieś. ~ G D
+A jeden z nich zabraliśmy ~ e G
+na starej Anglii brzeg. ~ C D e
+
+#chorus
+No i znów bijatyka... 
+

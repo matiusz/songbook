@@ -1,17 +1,16 @@
-{
-    "title": "Poezja",
-    "author": "s\u0142. W\u0142adys\u0142aw Broniewski, muz. Na Bani",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "cis gis\nA H",
-            "lyrics": "Ty przychodzisz jak noc majowa,\nBia\u0142a noc, u\u015bpiona w ja\u015bminie,\nI ja\u015bminem pachn\u0105 twoje s\u0142owa,\nI ksi\u0119\u017cycem sen srebrny p\u0142ynie,",
-            "chorus": false
-        },
-        {
-            "chords": "cis gis\nA H",
-            "lyrics": "P\u0142yniesz cicha przez noce bezsenne\nCich\u0105 noc\u0105 tak li\u015bcie szeleszcz\u0105\nSzepcesz sny, szepcesz s\u0142owa tajemne,\nW s\u0142owach cichych sk\u0105pana jak w deszczu",
-            "chorus": false
-        }
-    ]
-}
+#title Poezja
+#author sł. Władysław Broniewski, muz. Na Bani
+#category Turystyczne
+
+#verse
+Ty przychodzisz jak noc majowa, ~ cis gis
+Biała noc, uśpiona w jaśminie, ~ A H
+I jaśminem pachną twoje słowa, 
+I księżycem sen srebrny płynie, 
+
+#verse
+Płyniesz cicha przez noce bezsenne ~ cis gis
+Cichą nocą tak liście szeleszczą ~ A H
+Szepcesz sny, szepcesz słowa tajemne, 
+W słowach cichych skąpana jak w deszczu 
+

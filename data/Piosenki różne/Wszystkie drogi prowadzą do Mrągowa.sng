@@ -1,52 +1,53 @@
-{
-    "title": "Wszystkie drogi prowadz\u0105 do Mr\u0105gowa",
-    "author": "Cezary Makiewicz",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "cis H E\ncis H E\nA H cis\nfis H",
-            "lyrics": "Do Mr\u0105gowa droga ci\u0119 prowadzi\nCzujesz jakby\u015b z\u0142apa\u0142 w \u017cagle wiatr\nDawno temu kto\u015b mi tak poradzi\u0142\nJed\u017a t\u0105 drog\u0105 poznasz inny \u015bwiat",
-            "chorus": false
-        },
-        {
-            "chords": "cis H E\ncis H E\nA H cis\nA H E",
-            "lyrics": "Gdy kto\u015b powie ta muzyka nie jest twoja\nTaki s\u0142odki hamburgera smak\nPowiedz, \u017ce tu nikt nie \u015bpiewa o kowbojach\nTylko o kim\u015b takim jak ty i ja.",
-            "chorus": false
-        },
-        {
-            "chords": "E A E\ncis H E\nA H cis\nA H E",
-            "lyrics": "Wszystkie drogi prowadz\u0105 do Mr\u0105gowa\nDo Mr\u0105gowa nad jezioro Czos\nKto tu raz przyjecha\u0142, nigdy nie \u017ca\u0142owa\u0142\nI na pewno wr\u00f3ci tu za rok.",
-            "chorus": true
-        },
-        {
-            "chords": "cis H E\ncis H E\nA H cis\nfis H",
-            "lyrics": "Wiejska droga to \u015bwie\u017cy wiatru powiew\nZapach z\u0142otych faluj\u0105cych zb\u00f3\u017c\nJe\u015bli tylko zechcesz zawsze dotrzesz do niej\nNawet gdyby drogowskazy pokry\u0142 kurz",
-            "chorus": false
-        },
-        {
-            "chords": "cis H E\ncis H E\nA H cis\nA H E",
-            "lyrics": "Gdy dopadn\u0105 Ci\u0119 nieszcz\u0119\u015bcia i z\u0142ami\u0105\nPozostanie tylko modli\u0107 si\u0119 do Boga\nTy po\u017cegluj ku jedynej swej przystani\nWszystkie drogi poprowadz\u0105 do Mr\u0105gowa.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wszystkie drogi prowadz\u0105 do Mr\u0105gowa ...",
-            "chorus": true
-        },
-        {
-            "chords": "E A E\ncis H E\nA H cis\nA H E",
-            "lyrics": "Wszystkie drogi prowadz\u0105 do Mr\u0105gowa\nA tych dr\u00f3g chyba jest ze sto\nGdyby\u015b tylko kiedy\u015b chcia\u0142 spr\u00f3bowa\u0107\nTutaj mo\u017cesz sw\u00f3j odmieni\u0107 los",
-            "chorus": true
-        },
-        {
-            "chords": "cis H E\ncis H E\nA H cis\nA H E",
-            "lyrics": "Gdy pozna\u0142e\u015b czar tych kilku dni\nWiesz ju\u017c jak smakuje w Czosie woda\nWi\u0119c nie musz\u0119 chyba m\u00f3wi\u0107 Ci\nDok\u0105d teraz nas prowadzi droga.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wszystkie drogi prowadz\u0105 do Mr\u0105gowa \u2026\nWszystkie drogi prowadz\u0105 do Mr\u0105gowa \u2026",
-            "chorus": true
-        }
-    ]
-}
+#title Wszystkie drogi prowadzą do Mrągowa
+#author Cezary Makiewicz
+#category Piosenki różne
+
+#verse
+Do Mrągowa droga cię prowadzi ~ cis H E
+Czujesz jakbyś złapał w żagle wiatr ~ cis H E
+Dawno temu ktoś mi tak poradził ~ A H cis
+Jedź tą drogą poznasz inny świat ~ fis H
+
+#verse
+Gdy ktoś powie ta muzyka nie jest twoja ~ cis H E
+Taki słodki hamburgera smak ~ cis H E
+Powiedz, że tu nikt nie śpiewa o kowbojach ~ A H cis
+Tylko o kimś takim jak ty i ja. ~ A H E
+
+#chorus
+Wszystkie drogi prowadzą do Mrągowa ~ E A E
+Do Mrągowa nad jezioro Czos ~ cis H E
+Kto tu raz przyjechał, nigdy nie żałował ~ A H cis
+I na pewno wróci tu za rok. ~ A H E
+
+#verse
+Wiejska droga to świeży wiatru powiew ~ cis H E
+Zapach złotych falujących zbóż ~ cis H E
+Jeśli tylko zechcesz zawsze dotrzesz do niej ~ A H cis
+Nawet gdyby drogowskazy pokrył kurz ~ fis H
+
+#verse
+Gdy dopadną Cię nieszczęścia i złamią ~ cis H E
+Pozostanie tylko modlić się do Boga ~ cis H E
+Ty pożegluj ku jedynej swej przystani ~ A H cis
+Wszystkie drogi poprowadzą do Mrągowa. ~ A H E
+
+#chorus
+Wszystkie drogi prowadzą do Mrągowa ... 
+
+#chorus
+Wszystkie drogi prowadzą do Mrągowa ~ E A E
+A tych dróg chyba jest ze sto ~ cis H E
+Gdybyś tylko kiedyś chciał spróbować ~ A H cis
+Tutaj możesz swój odmienić los ~ A H E
+
+#verse
+Gdy poznałeś czar tych kilku dni ~ cis H E
+Wiesz już jak smakuje w Czosie woda ~ cis H E
+Więc nie muszę chyba mówić Ci ~ A H cis
+Dokąd teraz nas prowadzi droga. ~ A H E
+
+#chorus
+Wszystkie drogi prowadzą do Mrągowa … 
+Wszystkie drogi prowadzą do Mrągowa … 
+

@@ -1,37 +1,49 @@
-{
-    "title": "Listy mi\u0142osne",
-    "author": "Grupa na Swoim",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "A E\nfis D",
-            "lyrics": "Dziadek m\u00f3j by\u0142 dziwakiem z zasadami wi\u0105\u017c na bakier\nczyta\u0142 ksi\u0105\u017cki kt\u00f3rych nie zna\u0142 nikt\nW blasku ognia przy kominku przy koniaku albo winku\nZe Stonesami g\u0142o\u015bno wy\u0142\nKiedy\u015b kapitanem, z brod\u0105 Bogiem Panem\ndzi\u015b zosta\u0142y gro\u017ane brwi.\nZawsze pla\u017c\u0105 szed\u0142 z butelk\u0105, rzuca\u0142 w morze j\u0105 daleko\nA w butelk\u0119 wk\u0142ada\u0142 list:",
-            "chorus": false
-        },
-        {
-            "chords": "A E\nfis D",
-            "lyrics": "Listy, listy mi\u0142osne, latem zim\u0105 wiosn\u0105\nS\u0142a\u0142 poczt\u0105 morsk\u0105 gdzie\u015b\nPe\u0142ne westchnie\u0144 t\u0119sknoty, do przytule\u0144 ochoty\nProsz\u0119 \u2013 pisa\u0142 \u2013 odpisz mi\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "A E\nfis D",
-            "lyrics": "Dziadek m\u00f3j by\u0142 bohaterem, lecz nie m\u00f3wi\u0142 o tym wiele\nten nie wierzy\u0142, tamten \u015bmia\u0142.\nPotem kto\u015b im wybi\u0142 szyb\u0119, pranie b\u0142oci\u0142 niemo\u017cliwie\nDziadek wiedzia\u0142 \u017ce to ja.\nBra\u0142 mnie na kolana potem opowiada\u0142\nCzu\u0142em jakbym p\u0142ywa\u0142 z nim.\nGdy zasn\u0105\u0142em szed\u0142 nad morze chocia\u017c czu\u0142 si\u0119 coraz gorzej\nRzuca\u0142 butle no a w nich:",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Listy, listy mi\u0142osne...",
-            "chorus": true
-        },
-        {
-            "chords": "A E\nfis D",
-            "lyrics": "Kiedy\u015b w domu w \u015brodku nocy tata dzwoni\u0142 chc\u0105c pomocy\ndr\u017ca\u0142 mu g\u0142os mia\u0142 w oczach \u0142zy.\nPotem wzi\u0105\u0142 mnie na kolana dziadka pie\u015bni snu\u0142 do rana.\na\u017c nas w ko\u0144cu zasta\u0142 \u015bwit.\nCzemu nikt nie chrapie? Nic nie pachnie\nmorzem i nie skrzypi\u0105 dziadka drzwi?\nWtedy sta\u0142em si\u0119 doros\u0142y s\u0142ysz\u0105c taty g\u0142os donios\u0142y:\nDziadek dosta\u0142 Babci list... a w li\u015bcie:",
-            "chorus": false
-        },
-        {
-            "chords": "A E\nfis D",
-            "lyrics": "Czekam, czekam mi\u0142y, ju\u017c nie znios\u0119 chwili\nD\u0142u\u017cej braku twoich r\u0105k.\nPrzyb\u0105d\u017a jak najszybciej, do swej dziewczyny\nCzekam mi\u0142y \u2013 Twoja O.",
-            "chorus": true
-        }
-    ]
-}
+#title Listy miłosne
+#author Grupa na Swoim
+#category Turystyczne
+
+#verse
+Dziadek mój był dziwakiem z zasadami wiąż na bakier ~ A E
+czytał książki których nie znał nikt ~ fis D
+W blasku ognia przy kominku przy koniaku albo winku 
+Ze Stonesami głośno wył 
+Kiedyś kapitanem, z brodą Bogiem Panem 
+dziś zostały groźne brwi. 
+Zawsze plażą szedł z butelką, rzucał w morze ją daleko 
+A w butelkę wkładał list: 
+
+#chorus
+Listy, listy miłosne, latem zimą wiosną ~ A E
+Słał pocztą morską gdzieś ~ fis D
+Pełne westchnień tęsknoty, do przytuleń ochoty 
+Proszę – pisał – odpisz mi… 
+
+#verse
+Dziadek mój był bohaterem, lecz nie mówił o tym wiele ~ A E
+ten nie wierzył, tamten śmiał. ~ fis D
+Potem ktoś im wybił szybę, pranie błocił niemożliwie 
+Dziadek wiedział że to ja. 
+Brał mnie na kolana potem opowiadał 
+Czułem jakbym pływał z nim. 
+Gdy zasnąłem szedł nad morze chociaż czuł się coraz gorzej 
+Rzucał butle no a w nich: 
+
+#chorus
+Listy, listy miłosne... 
+
+#verse
+Kiedyś w domu w środku nocy tata dzwonił chcąc pomocy ~ A E
+drżał mu głos miał w oczach łzy. ~ fis D
+Potem wziął mnie na kolana dziadka pieśni snuł do rana. 
+aż nas w końcu zastał świt. 
+Czemu nikt nie chrapie? Nic nie pachnie 
+morzem i nie skrzypią dziadka drzwi? 
+Wtedy stałem się dorosły słysząc taty głos doniosły: 
+Dziadek dostał Babci list... a w liście: 
+
+#chorus
+Czekam, czekam miły, już nie zniosę chwili ~ A E
+Dłużej braku twoich rąk. ~ fis D
+Przybądź jak najszybciej, do swej dziewczyny 
+Czekam miły – Twoja O. 
+

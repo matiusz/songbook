@@ -1,42 +1,48 @@
-{
-    "title": "Sprzysi\u0119\u017ceni",
-    "author": "Wolna Grupa Bukowina",
-    "category": "WGB",
-    "sections": [
-        {
-            "chords": "h4/7 h7 h2/7 h7",
-            "lyrics": "",
-            "chorus": false
-        },
-        {
-            "chords": "h A E\nG D Fis\nh A E\nD Fis A\nD E\nD E\ncis H\nD Fis7 h",
-            "lyrics": "Sprzysi\u0119\u017ceni budz\u0105c si\u0119 \u015bwitem\nPrzykrywaj\u0105 palcami oczy\nBy zatrzyma\u0107 chocia\u017c przez chwil\u0119\nNi\u0107 wysnut\u0105 z osnowy nocy\nNi\u0107, co nieba barw\u0105 si\u0119 mieni\u0105c\nDiretissim\u0119 w \u015bcianie kre\u015bli\nPotem dnia zak\u0142adaj\u0105 brzemi\u0119\nI ruszaj\u0105 w drog\u0119 ku szcz\u0119\u015bciu",
-            "chorus": false
-        },
-        {
-            "chords": "h D A Fis\nh E G\nh A Fis\nh D E G\nD Fis h",
-            "lyrics": "Mija dzie\u0144, ko\u0142o si\u0119 toczy\nMarzeniami k\u0142ad\u0105 si\u0119 cienie\nI odradza si\u0119 ka\u017cdej nocy\nI odradza si\u0119 ka\u017cdej nocy\n Sprzysi\u0119\u017cenie g\u00f3rskiego kamienia",
-            "chorus": true
-        },
-        {
-            "chords": "",
-            "lyrics": "Sprzysi\u0119\u017ceni - przyjazne d\u0142onie\t\t\nPlot\u0105 w w\u0119ze\u0142 nad ogniem watry\nI wpatrzeni w gasn\u0105cy p\u0142omie\u0144\nNuc\u0105 pie\u015bni pachn\u0105ce wiatrem\nNie rozplot\u0105 ni burze, ni wa\u015bnie\nTego, co z\u0142\u0105czone przez ognie\u0144\nS\u0142o\u0144ce wok\u00f3\u0142 - wci\u0105\u017c ja\u015bniej i ja\u015bniej\nZakwit\u0142 kamie\u0144 dzi\u015b g\u00f3rskim g\u0142ogiem",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Mija dzie\u0144, ko\u0142o si\u0119 toczy...",
-            "chorus": true
-        },
-        {
-            "chords": "h D A h\nh D A h\ne h\ne h Fis\nh D A\nh Fis h",
-            "lyrics": "A gdy wiatrem sprzysi\u0119\u017conym w oczy zawieje\nBliski u\u015bmiech w cie\u0144 nocy odejdzie\nBukowina opuszcza ramiona\nBukowina \u0142eb pochyla siwy\nCzas odp\u0142ywa, z czasem smutek kona\nLecz wspomnienia pozostaj\u0105 \u017cywe",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Mija dzie\u0144, ko\u0142o si\u0119 toczy...",
-            "chorus": true
-        }
-    ]
-}
+#title Sprzysiężeni
+#author Wolna Grupa Bukowina
+#category WGB
+
+#verse
+~ h4/7 h7 h2/7 h7
+
+#verse
+Sprzysiężeni budząc się świtem ~ h A E
+Przykrywają palcami oczy ~ G D Fis
+By zatrzymać chociaż przez chwilę ~ h A E
+Nić wysnutą z osnowy nocy ~ D Fis A
+Nić, co nieba barwą się mieniąc ~ D E
+Diretissimę w ścianie kreśli ~ D E
+Potem dnia zakładają brzemię ~ cis H
+I ruszają w drogę ku szczęściu ~ D Fis7 h
+
+#chorus
+Mija dzień, koło się toczy ~ h D A Fis
+Marzeniami kładą się cienie ~ h E G
+I odradza się każdej nocy ~ h A Fis
+I odradza się każdej nocy ~ h D E G
+ Sprzysiężenie górskiego kamienia ~ D Fis h
+
+#verse
+Sprzysiężeni - przyjazne dłonie		 
+Plotą w węzeł nad ogniem watry 
+I wpatrzeni w gasnący płomień 
+Nucą pieśni pachnące wiatrem 
+Nie rozplotą ni burze, ni waśnie 
+Tego, co złączone przez ognień 
+Słońce wokół - wciąż jaśniej i jaśniej 
+Zakwitł kamień dziś górskim głogiem 
+
+#chorus
+Mija dzień, koło się toczy... 
+
+#verse
+A gdy wiatrem sprzysiężonym w oczy zawieje ~ h D A h
+Bliski uśmiech w cień nocy odejdzie ~ h D A h
+Bukowina opuszcza ramiona ~ e h
+Bukowina łeb pochyla siwy ~ e h Fis
+Czas odpływa, z czasem smutek kona ~ h D A
+Lecz wspomnienia pozostają żywe ~ h Fis h
+
+#chorus
+Mija dzień, koło się toczy... 
+
