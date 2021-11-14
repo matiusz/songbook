@@ -76,7 +76,7 @@ class Song:
         self.category = self.dict['category']
     @property
     def tex(self):
-        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.78,0.22}}\n\\rmfamily"
+        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.78,0.22}}\n\\rmfamily\n\\raggedbottom"
         try:
             author = self.dict['author']
             songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
@@ -88,8 +88,12 @@ class Song:
         except KeyError:
             pass
         songStr += "\\begin{paracol}{2}\n"
-        for section in self.dict['sections']:
-            songStr += self.convertSection(section)
+        sections = [self.convertSection(section) for section in self.dict['sections']]
+        if len(sections)>2:
+            sections[-2] = self.convertSection(self.dict['sections'][-2], additionalVspace=sections[-1][1]+1)
+            sections[-1] = self.convertSection(self.dict['sections'][-1], additionalVspace=0)
+        for section in sections:
+            songStr += section[0]
         songStr += "\\end{paracol}\n"
         songStr += "\\newpage\n"
         return songStr
@@ -101,15 +105,15 @@ class Song:
         result = pattern.sub(lambda x: chDict[x.group()], text)
         return result
         
-    def convertSection(self, section):
+    def convertSection(self, section, additionalVspace = 2):
         chordShift = config.chordShift
         lyrics, l1 = self.convertLineBreaks(section['lyrics'])
         if section['chords']:
             chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "), chords=True)
         else:
             chords, l2 = "", 0
-        songStr = ""
-        songStr = f"\n\\ensurevspace{{{max(l1, l2)+2}\\baselineskip}}\n"
+        vspace = max(l1, l2)
+        songStr = f"\n\\ensurevspace{{{vspace+additionalVspace}\\baselineskip}}\n"
         songStr += "\\begin{leftcolumn*} "
         songStr += "\\noindent"
         if section['chorus']:
@@ -130,7 +134,7 @@ class Song:
             songStr += "\\vspace{\\baselineskip}\n"
             songStr += "\\end{rightcolumn}\n"
             songStr += "\n\\rmfamily\n"    
-        return songStr
+        return songStr, vspace
 
     def chorusWrapper(self, text):
         wrapped_text = "\\begin{chorus}" + text + "\\end{chorus}"
