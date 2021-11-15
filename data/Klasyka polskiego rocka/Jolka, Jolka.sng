@@ -24,12 +24,12 @@
             "chorus": true
         },
         {
-            "chords": "D A\nh\nD A h\nD A\ne h\nD A G",
+            "chords": "D A h\nD A h\nD A e h\nD A G",
             "lyrics": "Pla\u017c\u0105 sz\u0142y zakonnice, a s\u0142o\u0144ce w d\u00f3\u0142\nWci\u0105\u017c spada\u0142o nie mog\u0142o spa\u015b\u0107\nM\u0105\u017c tam w \u015bwiecie za funtem, odk\u0142ada\u0142 funt\nNa Toyot\u0119 przepi\u0119kn\u0105, a\u017c strach.",
             "chorus": false
         },
         {
-            "chords": "D A\nh\nD A h\nD A\ne h\nD A G",
+            "chords": "D A h\nD A h\nD A e h\nD A G",
             "lyrics": "M\u0105\u017c Tw\u00f3j wielbi\u0142 porz\u0105dek i pe\u0142ne szk\u0142o\nNarzeczon\u0105 mia\u0142 kiedy\u015b, jak sen\nZ autobusem Arab\u00f3w zdradzi\u0142a go\nNigdy nie by\u0142 ju\u017c sob\u0105, o nie",
             "chorus": false
         },
@@ -39,12 +39,12 @@
             "chorus": true
         },
         {
-            "chords": "h\nD A h\nD A\ne h\nD A G",
+            "chords": "D A h\nD A h\nD A e h\nD A G",
             "lyrics": "W wielkiej \u017cyli\u015bmy farmie i rzadko tak\nWype\u0142zali\u015bmy na suchy l\u0105d\nCzarodziejka gorza\u0142ka ta\u0144czy\u0142a w nas\nMeta by\u0142a o dwa kroki st\u0105d.",
             "chorus": false
         },
         {
-            "chords": "h\nD A h\nD A\ne h\nD A G",
+            "chords": "D A h\nD A h\nD A e h\nD A G",
             "lyrics": "Nie wiem ci\u0105gle dlaczego zacz\u0119\u0142o si\u0119 tak\nCzemu zgas\u0142o te\u017c nie wie nikt\nS\u0105 wci\u0105\u017c r\u00f3\u017cne ko\u0142o mnie, nie budz\u0119 si\u0119 sam\nAle nic nie jest proste w te dni.",
             "chorus": false
         },

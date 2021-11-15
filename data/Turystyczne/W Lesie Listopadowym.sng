@@ -1,6 +1,6 @@
 {
     "title": "W lesie listopadowym",
-    "author": "Andrzej Koczewski, Zbigniew Bogda\u0144ski",
+    "author": "s\u0142. Jerzy Harasymowicz, muz. Zbigniew Bogda\u0144ski",
     "capo": "Capo II",
     "category": "Turystyczne",
     "sections": [
@@ -10,12 +10,12 @@
             "chorus": false
         },
         {
-            "chords": "E7 a\nE7 a\nC G\nE7",
+            "chords": "E7 a\nE7 a\nC G\nE7 a",
             "lyrics": "Wok\u00f3\u0142 g\u00f3ry, g\u00f3ry i g\u00f3ry\nI ca\u0142e moje \u017cycie jest w g\u00f3rach\nIle\u017c pi\u0119kniej drozdy le\u015bne \u015bpiewaj\u0105\nNi\u017c \u015bpiewak p\u0142atny na ch\u00f3rach",
             "chorus": true
         },
         {
-            "chords": "E7 a\nE7 a\nC G\nE7",
+            "chords": "E7 a\nE7 a\nC G\nE7 a",
             "lyrics": "Wok\u00f3\u0142 lasy, lasy i wiatr\nI ca\u0142e \u017cycie w wiatru \u015bwistach\nWszyscy kt\u00f3rych kocham wita was\nModrzewia ikona z\u0142ocista",
             "chorus": true
         },
