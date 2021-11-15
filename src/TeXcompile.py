@@ -12,23 +12,22 @@ def main():
     if os.system(texcompile) != 0:
         raise ModuleNotFoundError(texcompile)
 
-    ToCedit.main()
+    if not config.devSettings['singleCompile']:
+        ToCedit.main()
+        os.system(texcompile)
+        ToCedit.main()
+        os.system(texcompile)
 
-    os.system(texcompile)
-
-    ToCedit.main()
-    
-    os.system(texcompile)
-    #auxFiles = []
-    auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk", 
-                f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls", 
-                f"{songbookTitle}_list.toc", f"{songbookTitle}.out"]
-
-    for auxFil in auxFiles:
-        try:
-            os.remove(auxFil)
-        except FileNotFoundError:
-            pass
+    if not config.devSettings['keepAuxOut']:
+        auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk", 
+                    f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls", 
+                    f"{songbookTitle}_list.toc", f"{songbookTitle}.out"]
+        for auxFil in auxFiles:
+            try:
+                pass
+                os.remove(auxFil)
+            except FileNotFoundError:
+                pass
     return outFile
 
 if __name__=="__main__":

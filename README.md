@@ -4,7 +4,31 @@
 
   Songbook is an easy to use tool for creating songbooks where each song is represented by a different file, allowing them to be easily shared or moved between different songbooks. It has it's own display module or it can generate LaTeX files and compile them to pdf.
 
+  ## Usage
+
+  ### Without docker
+  _Make sure to have installed everything from the Requirements section_
+
+  To start the GUI:
+  ```
+  python3 songbook.py
+  ```
+
+  To generate the songbook PDF:
+  ```
+  python3 songbook_pdf.py
+  ```
+
+  ### With docker
+  ```
+  docker build -t songbook .
+  docker run --rm -it songbook
+  ```
+  and you can run the commands as above. Note that any command involving GUI may require additional setup, depending on the OS.
+
   ## Configuration
+
+  The configuration can be altered by modifying the `config.json` file.
 
   ### pdfSettings
 

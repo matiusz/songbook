@@ -1,4 +1,6 @@
 import json
+from collections import defaultdict
+
 
 def enUTF8(st):
     return st.encode('utf-8')
@@ -55,6 +57,11 @@ class Configuration:
         #self.date = titlePageSettings['date']
 
         self.author = titlePageSettings['author']
+
+        try:
+            self.devSettings = config['devSettings']
+        except KeyError:
+            self.devSettings = defaultdict(lambda: False)
 
 
 config = Configuration("config.json")

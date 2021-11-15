@@ -16,12 +16,12 @@
         "textFieldSize": 
         {
             "width":180,
-            "height":257
+            "height":247
         },
         "margins":
         {
-            "horizontal": 20,
-            "vertical": 20
+            "horizontal": 30,
+            "vertical": 15
         },
         "fontSize" : 12,
         "lyricsFont" : "ptm",
@@ -30,5 +30,11 @@
             "title" : "Śpiewnik Hawiarskiej Koliby",
             "author" : ""
         }
+    },
+    "devSettings":
+    {
+        "drawLines" : false,
+        "singleCompile" : false,
+        "keepAuxOut" : false
     }
 }

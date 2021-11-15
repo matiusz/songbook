@@ -1,10 +1,11 @@
 import os
 import json
 import re
+
 from src.tools.plAlphabetSort import plSortKey
 import asyncio
 import aiofiles
-
+    
 from src import headerconfig as headerconfig
 
 from src.tools.chordShift import shiftChords
@@ -12,19 +13,29 @@ from src.tools.codings import enUTF8, deUTF8
 
 from src.obj.Config import config
 
+def raw(string: str, replace: bool = False) -> str:
+        """Returns the raw representation of a string. If replace is true, replace a single backslash's repr \\ with \."""
+        r = repr(string)[1:-1]  # Strip the quotes from representation
+        if replace:
+            r = r.replace('\\\\', '\\')
+        return r
+
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
 
-async def gatherAllCategories():
-    tasks = [gatherSongs(os.path.join(config.dataFolder, dirname)) for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
+async def gatherAllCategories(sem):
+    tasks = [gatherSongs(os.path.join(config.dataFolder, dirname), sem) for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
     categories = await asyncio.gather(*tasks)
     return categories
 
-async def gatherSongs(dirpath):
-    tasks = [Song.load(os.path.join(dirpath, filename)) for filename in os.listdir(dirpath) if filename.endswith(".sng")]
+async def gatherSongs(dirpath, sem):
+    tasks = [semaphoredLoadSong(dirpath, filename, sem) for filename in os.listdir(dirpath) if filename.endswith(".sng")]
     songs = await asyncio.gather(*tasks)
     return songs
     
+async def semaphoredLoadSong(dirpath, filename, sem):
+    async with sem:
+        return await Song.load(os.path.join(dirpath, filename))
 
 class CategoryDict(dict):
     def __missing__(self, key):
@@ -65,7 +76,7 @@ class Song:
         self.category = self.dict['category']
     @property
     def tex(self):
-        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.75,0.25}}\n\\rmfamily"
+        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.78,0.22}}\n\\rmfamily\n\\raggedbottom"
         try:
             author = self.dict['author']
             songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
@@ -77,8 +88,12 @@ class Song:
         except KeyError:
             pass
         songStr += "\\begin{paracol}{2}\n"
-        for section in self.dict['sections']:
-            songStr += self.convertSection(section)
+        sections = [self.convertSection(section) for section in self.dict['sections']]
+        if len(sections)>2:
+            sections[-2] = self.convertSection(self.dict['sections'][-2], additionalVspace=sections[-1][1]+1)
+            sections[-1] = self.convertSection(self.dict['sections'][-1], additionalVspace=0)
+        for section in sections:
+            songStr += section[0]
         songStr += "\\end{paracol}\n"
         songStr += "\\newpage\n"
         return songStr
@@ -90,41 +105,58 @@ class Song:
         result = pattern.sub(lambda x: chDict[x.group()], text)
         return result
         
-    def convertSection(self, section):
+    def convertSection(self, section, additionalVspace = 2):
         chordShift = config.chordShift
         lyrics, l1 = self.convertLineBreaks(section['lyrics'])
         if section['chords']:
-            chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "))
+            chords, l2 = self.convertLineBreaks(shiftChords(section['chords'], chordShift).replace("\\", "\\textbackslash "), chords=True)
         else:
             chords, l2 = "", 0
-        songStr = f"\n\\ensurevspace{{{max(l1, l2)+2}\\baselineskip}}\n"
-        songStr += "\\begin{leftcolumn*}\n"
+        vspace = max(l1, l2)
+        songStr = f"\n\\ensurevspace{{{vspace+additionalVspace}\\baselineskip}}\n"
+        songStr += "\\begin{leftcolumn*} "
+        songStr += "\\noindent"
         if section['chorus']:
-            lyrics = self.chorusWrapper(lyrics)
+            lyrics = self.chorusWrapper("\\mystrut " + lyrics)
+        #else:
         songStr += lyrics
+        songStr += "\\vspace{\\baselineskip}\n"
         songStr += "\\end{leftcolumn*}\n"
         if chords:
-            songStr += "\\begin{rightcolumn}\n"
-            songStr += "\\begin{bfseries}\n"
-            songStr += "\n\\ttfamily\n"
+            songStr += "\\begin{rightcolumn}"
+            songStr += "\\noindent"
+            songStr += "\\begin{bfseries}"
+            songStr += "\\ttfamily\n"
+            if section['chorus']:
+                songStr += "\\mystrut "
             songStr += self.superscriptSpecialChars(chords)
             songStr += "\\end{bfseries}\n"
+            songStr += "\\vspace{\\baselineskip}\n"
             songStr += "\\end{rightcolumn}\n"
-            songStr += "\n\\rmfamily\n"
-        return songStr
+            songStr += "\n\\rmfamily\n"    
+        return songStr, vspace
 
     def chorusWrapper(self, text):
-        wrapped_text = "\\begin{chorus}\n" + text + "\\end{chorus}\n"
+        wrapped_text = "\\begin{chorus}" + text + "\\end{chorus}"
         return wrapped_text
 
-    def convertLineBreaks(self, text):
+    
+    def convertLineBreaks(self, text, chords = False):
         converted_text = ""
         lines = text.splitlines()
-        for line in lines:
+        for i, line in enumerate(lines):
+            if len(line)<4 and not chords:
+                print(raw(line), bool(line))
             if line:
-                converted_text += line + "\\\\\n" 
+                if (not chords) and config.devSettings['drawLines']:
+                    converted_text += "\\tikz[overlay]\\draw[red](0,0)--++(20,0);"
+                else:
+                    converted_text += " "
+                converted_text += line
+                if i < len(lines)-1:
+                    converted_text += "\\\\\n"
             else:
-                converted_text += "\\vspace{\\baselineskip}\n"
+                converted_text += " \\\\\n"
         return converted_text, len(lines)
 
 async def copyHeader(headerFilename, songbookFilename):
@@ -175,7 +207,11 @@ async def _asyncMain():
 
     await copyHeader(os.path.join(config.dataFolder, config.latexHeaderFile), texOutFile)
     
-    gatheredSongs = await gatherAllCategories()
+
+    max_open_files = 100
+    sem = asyncio.Semaphore(max_open_files)
+
+    gatheredSongs = await gatherAllCategories(sem)
 
     songbookDict = makeSongbookDict(gatheredSongs)
 
@@ -194,7 +230,7 @@ async def _asyncMain():
         for titleSong in titleSongs:
             songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)
         
-        await songbookFile.write(enUTF8("\\tableofcontents\n"))
+        await songbookFile.write(enUTF8("\n\t\\chapter*{Spis treści}\n\\begin{multicols}{2}\n\\tableofcontents\n\\end{multicols}\n"))
 
         for cat in cats.keys():
             if cat != "Title":
@@ -202,7 +238,7 @@ async def _asyncMain():
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
                 songCount += await processCategory(songbookDict[cat], songbookFile, titleSongs)
 
-        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\t\\input{{{config.outputFile}_list.toc}}\n}}{{}}\n"))
+        await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\\begin{{multicols}}{{2}}\n\t\\input{{{config.outputFile}_list.toc}}\n\\end{{multicols}}\n}}{{}}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
     print(f"Total number of songs: {songCount}")
     return texOutFile

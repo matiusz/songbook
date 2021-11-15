@@ -15,7 +15,7 @@ def packages(packs):
     return string
 
 def getPackageList():
-    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref"]
+    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref", "multicol", "tikz"]
 
 def hyperSetup():
     return "\\hypersetup{\n    hidelinks,\n    linktoc=all\n}\n\n"
@@ -25,10 +25,13 @@ def minorSettings():
     "\n\\vfuzz = 15pt\n\n% HACKING \\adjustwidth\n\\usepackage{etoolbox}\n\\makeatletter\n\\apptocmd\\adjustwidth{\@inlabelfalse\@newlistfalse}\n\\makeatother\n\n"
 
 def geometry(form, width, height, horizontal, vertical, sides):
-    return f"\\geometry{{\n {form},\n total={{{width}mm,{height}mm}},\n {'inner' if sides == 'twoside' else 'left'}={horizontal}mm,\n top={vertical}mm,\n }}\n\n"
+    return f"\\geometry{{\n {form},\n {'inner' if sides == 'twoside' else 'left'}={horizontal}mm,\n top={vertical}mm,\n {'outer' if sides == 'twoside' else 'right'}=15mm, \n  bottom={vertical}mm, \n}}\n\n"
 
 def beginDoc():
-    return "\\begin{document}\n\n"
+    string = f"\\newcommand\\mystrut{{\\rule{{0pt}}{{{config.fontSize}pt}}}}\n"
+    #string = ""
+    string += "\\begin{document}\n\n"
+    return string
 
 def minorSettings2():
     return "\\newenvironment{chorus}{\\begin{adjustwidth}{2cm}{}}{\\end{adjustwidth}}\n\n"
@@ -37,7 +40,8 @@ def font():
     return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n"
 
 def toc():
-    return "\\renewcommand{\\contentsname}{Spis treści}\n"
+    # hack avoiding insertion of the toc header, which doesn't play well with 2 columns
+    return "\\renewcommand{\\contentsname}{\\vspace*{-104pt}}\n"
 
 def titleSettings():
     onePercentHack = "\\vspace{0.40\\textheight} 1 \% podatku dla “Hawiarskiej Koliby”\\\\\n" + \
