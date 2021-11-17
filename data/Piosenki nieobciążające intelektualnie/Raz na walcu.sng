@@ -5,12 +5,12 @@
     "sections": [
         {
             "chords": "A\nE\nD A\nE A",
-            "lyrics": "Raz na walcu, raz pod walcem\n\u017cycie polega na walce\nNa walce lub na wy\u015bcigu\nraz pod d\u017awigiem, raz na d\u017awigu",
+            "lyrics": "Raz na walcu, raz pod walcem\n\u017bycie polega na walce\nNa walce lub na wy\u015bcigu\nRaz pod d\u017awigiem, raz na d\u017awigu",
             "chorus": true
         },
         {
             "chords": "E\nA E A\nA\nA E D A",
-            "lyrics": "\u017beby p\u0142aszczy\u0107 i rozgniata\u0107\nwalec \u015bwietnie si\u0119 nadaje\nKto na walec si\u0119 nie wdrapa\u0142\nten ju\u017c nijak nie odstaje",
+            "lyrics": "\u017beby p\u0142aszczy\u0107 i rozgniata\u0107\nWalec \u015bwietnie si\u0119 nadaje\nKto na walec si\u0119 nie wdrapa\u0142\nTen ju\u017c nijak nie odstaje",
             "chorus": false
         },
         {
@@ -20,7 +20,7 @@
         },
         {
             "chords": "E\nA E A\nA\nA E D A",
-            "lyrics": "Kto pod walcem ten przeminie\nw mie\u015bcie, w cie\u015bcie, w jednym placku\nCiasno wi\u0119c jest przy drabinie\ni miejsc nie ma ju\u017c w kabinie",
+            "lyrics": "Kto pod walcem ten przeminie\nW mie\u015bcie, w cie\u015bcie, w jednym placku\nCiasno wi\u0119c jest przy drabinie\nI miejsc nie ma ju\u017c w kabinie",
             "chorus": false
         },
         {
@@ -30,7 +30,7 @@
         },
         {
             "chords": "A\nE\nD A\nE A",
-            "lyrics": "Raz pod walcem, raz na walcu\n\u017cycie polega na szmalcu\nna szmalcu lub na etacie\nraz na stracie raz w senacie",
+            "lyrics": "Raz pod walcem, raz na walcu\n\u017bycie polega na szmalcu\nNa szmalcu lub na etacie\nRaz na stracie raz w senacie",
             "chorus": true
         }
     ]
