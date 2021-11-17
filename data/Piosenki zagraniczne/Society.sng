@@ -5,7 +5,7 @@
     "sections": [
         {
             "chords": "C G a\nC F G\nF G a\nF G a",
-            "lyrics": "Oh it's a mystery to me.\nWe have a greed, with which we have agreed...\nand you think you have to want more than you need...\nuntil you have it all, you won't be free. ",
+            "lyrics": "Oh it's a mystery to me.\nWe have a greed, with which we have agreed...\nAnd you think you have to want more than you need...\nUntil you have it all, you won't be free. ",
             "chorus": false
         },
         {
@@ -15,7 +15,7 @@
         },
         {
             "chords": "C G a\nC F G\nF G a\nF G a",
-            "lyrics": "When you want more than you have, you think you need...\nand when you think more then you want, your thoughts begin to bleed.\nI think I need to find a bigger place...\ncause when you have more than you think, you need more space.\n",
+            "lyrics": "When you want more than you have, you think you need...\nAnd when you think more then you want, your thoughts begin to bleed.\nI think I need to find a bigger place...\nCause when you have more than you think, you need more space.\n",
             "chorus": false
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "chords": "C G a\nC F G\nF G a\nF G a\na",
-            "lyrics": "There's those thinkin' more or less, less is more,\nbut if less is more, how you keepin' score?\nIt means for every point you make, your level drops.\nKinda like you're startin' from the top...\nand you can't do that.",
+            "lyrics": "There's those thinkin' more or less, less is more,\nBut if less is more, how you keepin' score?\nIt means for every point you make, your level drops.\nKinda like you're startin' from the top...\nAnd you can't do that.",
             "chorus": false
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "chords": "F C\nG a\nF C\nG a",
-            "lyrics": "Society, have mercy on me.\nI hope you're not angry, if I disagree.\nSociety, crazy indeed.\nI hope you're not lonely...\nwithout me.\n",
+            "lyrics": "Society, have mercy on me.\nI hope you're not angry, if I disagree.\nSociety, crazy indeed.\nI hope you're not lonely...\nWithout me.\n",
             "chorus": true
         }
     ]

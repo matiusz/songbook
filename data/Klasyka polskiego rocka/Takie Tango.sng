@@ -19,8 +19,13 @@
             "chorus": false
         },
         {
-            "chords": "d C d C\nd C d C\nd C d C\nd C d C\nd C\nB A d",
+            "chords": "d C d C\nd C d C\nd C d C\nd C d C\n",
             "lyrics": "Bo do tanga trzeba dwojga\nZgodnych cia\u0142 i ch\u0119tnych serc\nBo do tanga trzeba dwojga\nTak ten \u015bwiat z\u0142o\u017cony jest",
+            "chorus": true
+        },
+        {
+            "chords": "d C\nB A d",
+            "lyrics": "Tadadada, tadadada,\nTatadadadada",
             "chorus": true
         },
         {

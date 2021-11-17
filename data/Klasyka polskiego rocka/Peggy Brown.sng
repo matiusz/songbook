@@ -5,12 +5,12 @@
     "sections": [
         {
             "chords": "a G\nC F",
-            "lyrics": "O Peggy Brown, o Peggy Brown\nkto Ciebie ukocha\u0107 b\u0119dzie umia\u0142",
+            "lyrics": "O Peggy Brown, o Peggy Brown\nKto Ciebie ukocha\u0107 b\u0119dzie umia\u0142",
             "chorus": true
         },
         {
             "chords": "a G\nC F",
-            "lyrics": "Jedyne o czym wci\u0105\u017c my\u015bl\u0119\nto ciemnow\u0142osa dziewczyna\ncho\u0107 nie chce da\u0107 czego prosz\u0119\nw oddali od siebie mnie trzyma\nCho\u0107 nie chce moich przysi\u0105g\nnie s\u0142yszy nawet swej dumy, o nie",
+            "lyrics": "Jedyne o czym wci\u0105\u017c my\u015bl\u0119\nTo ciemnow\u0142osa dziewczyna\nCho\u0107 nie chce da\u0107 czego prosz\u0119\nW oddali od siebie mnie trzyma\nCho\u0107 nie chce moich przysi\u0105g\nNie s\u0142yszy nawet swej dumy, o nie",
             "chorus": false
         },
         {
@@ -20,7 +20,7 @@
         },
         {
             "chords": "a G\nC F",
-            "lyrics": "Jej g\u0142os jest dla mnie muzyk\u0105\npulsuje jak ciche echo\nJej twarde bia\u0142e piersi\nmleczniejsze s\u0105 ni\u017c jej mleko\nJej suknia z mi\u0119kkiej tafty\ndzi\u015b skromnie opuszczona",
+            "lyrics": "Jej g\u0142os jest dla mnie muzyk\u0105\nPulsuje jak ciche echo\nJej twarde bia\u0142e piersi\nMleczniejsze s\u0105 ni\u017c jej mleko\nJej suknia z mi\u0119kkiej tafty\nDzi\u015b skromnie opuszczona",
             "chorus": false
         },
         {

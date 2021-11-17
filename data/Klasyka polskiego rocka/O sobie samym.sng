@@ -14,6 +14,11 @@
             "chorus": false
         },
         {
+            "chords": "D G h A",
+            "lyrics": "Uuu...",
+            "chorus": true
+        },
+        {
             "chords": "D G\nh A\nD G\nh A",
             "lyrics": "Lecz prosz\u0119 ci\u0119 teraz uwierz mi\nNie wa\u017cne w \u017cyciu s\u0105 przysz\u0142e dni\nJa wierz\u0119 \u017ce mi\u0142o\u015b\u0107 zawsze trwa\ncho\u0107by z\u0142o mia\u0142o najlepszy czas",
             "chorus": true

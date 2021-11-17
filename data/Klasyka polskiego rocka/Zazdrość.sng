@@ -4,22 +4,22 @@
     "category": "Klasyka polskiego rocka",
     "sections": [
         {
-            "chords": "h G A fis\nh G A fis\nh G A fis\nh G A fis",
+            "chords": "h G A fis\n",
             "lyrics": "S\u0105 chwile\nGdy wola\u0142abym martwym widzie\u0107 Ci\u0119\nNie musia\u0142abym\nSi\u0119 Tob\u0105 dzieli\u0107 nie, nie",
             "chorus": false
         },
         {
-            "chords": "h G A fis\nh G A fis\nh G A fis\nh G A fis",
+            "chords": "h G A fis\n",
             "lyrics": "Gdybym mog\u0142a, schowa\u0142abym\nTwoje oczy w mojej kieszeni\n\u017beby\u015b nie m\u00f3g\u0142 ogl\u0105da\u0107 tych\nKt\u00f3re s\u0105 dla nas zagro\u017ceniem",
             "chorus": true
         },
         {
-            "chords": "h G A fis\nh G A fis\nh G A fis\nh G A fis",
+            "chords": "h G A fis\n",
             "lyrics": "Do pracy\nNie mog\u0119 pu\u015bci\u0107 Ci\u0119 nie, nie\nTam tyle kobiet\nI ka\u017cda w my\u015blach gwa\u0142ci Ci\u0119",
             "chorus": false
         },
         {
-            "chords": "h G A fis\nh G A fis\nh G A fis\nh G A fis",
+            "chords": "h G A fis\n",
             "lyrics": "Z\u0142ot\u0105 klatk\u0119 sprawi\u0119 Ci\nB\u0119d\u0119 karmi\u0107 owocami\nA do nogi przymocuj\u0119\nZ\u0142ot\u0105 kul\u0119 z diamentami",
             "chorus": true
         }

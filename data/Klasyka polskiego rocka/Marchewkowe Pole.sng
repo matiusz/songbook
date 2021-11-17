@@ -17,6 +17,11 @@
             "chords": "D2 A\nF G\nD2 A\nF G\nD2 A\nF G\nD2 A\nF G",
             "lyrics": "Marchewkowe\nO ogrodzie miewam sny\nW marchewkowym\nStanie jest najlepiej mi\nRosn\u0119 sobie\nDo\u0142em g\u0142owa g\u00f3r\u0105 na\u0107\nKto mi powie\nCo si\u0119 jeszcze mo\u017ce sta\u0107",
             "chorus": false
+        },
+        {
+            "chords": "D A e B",
+            "lyrics": "Wszystko si\u0119 mo\u017ce zdarzy\u0107",
+            "chorus": true
         }
     ]
 }
