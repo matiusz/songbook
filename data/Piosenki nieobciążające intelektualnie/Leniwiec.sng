@@ -1,0 +1,37 @@
+{
+    "title": "Leniwiec",
+    "author": "J. Bujko",
+    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "sections": [
+        {
+            "chords": "G C D",
+            "lyrics": "Przychodzi czasem taki dzie\u0144\n\u017be chcia\u0142oby si\u0119 kogo\u015b zabi\u0107 (kapciem)\nA mo\u017ce z mostu rzuci\u0107 si\u0119\nAlbo po prostu dobrze napi\u0107\nJa bardzo chcia\u0142bym wtedy by\u0107\nJak kwiat lotosu na jeziorze\nLecz czuj\u0119 si\u0119 jak jaki\u015b kaktus\nCo chcia\u0142by uk\u0142u\u0107, albo nawet jeszcze gorzej",
+            "chorus": false
+        },
+        {
+            "chords": "G C D",
+            "lyrics": "O, jak bym chcia\u0142 \nBy\u0107 jak leniwiec\nZwisa\u0107 i spa\u0107\nA\u017c wszystko minie\n",
+            "chorus": true
+        },
+        {
+            "chords": "G C D",
+            "lyrics": "Leniwiec mo\u017ce d\u0142ugo spa\u0107\nI do roboty i\u015b\u0107 nie musi\nNa drzewie swe mieszkanko ma\nI \u017caden kredyt go nie dusi\nNa obiad listek albo dwa\nKropelk\u0105 rosy popi\u0107 mo\u017ce\nCiekawe sk\u0105d te li\u015bcie ma\nBo patrz\u0105c z pyska, zawsze jest w dobrym humorze",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "O, jak bym chcia\u0142\u2026",
+            "chorus": true
+        },
+        {
+            "chords": "e D\ne D\nG C D\nG C D",
+            "lyrics": "Czasem leniwiec m\u00f3wi do swej pani \n\u201cKochanie, dzi\u015b wygl\u0105dasz cudnie\u201d \nLeniwie razem b\u0119d\u0105 si\u0119 kochali \nOkr\u0105g\u0142\u0105 dob\u0119, a potem jeszcze popo\u0142udnie ",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "O, jak bym chcia\u0142\u2026",
+            "chorus": true
+        }
+    ]
+}
