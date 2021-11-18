@@ -39,8 +39,6 @@ jobs:
       - run:
           name: Run Docker
           command: docker run --rm -it songbook python3 songbook_pdf.py
-      - run:
-          name: 
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
