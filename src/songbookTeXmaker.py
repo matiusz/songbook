@@ -145,8 +145,6 @@ class Song:
         converted_text = ""
         lines = text.splitlines()
         for i, line in enumerate(lines):
-            if len(line)<4 and not chords:
-                print(raw(line), bool(line))
             if line:
                 if (not chords) and config.devSettings['drawLines']:
                     converted_text += "\\tikz[overlay]\\draw[red](0,0)--++(20,0);"

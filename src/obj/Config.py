@@ -7,21 +7,15 @@ def enUTF8(st):
 def deUTF8(st):
     return st.decode('utf-8')
 
-class TextField:
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-
 class Margins:
     def __init__(self, vertical, horizontal):
         self.vertical = vertical
         self.horizontal = horizontal
 
 class Canvas:
-    def __init__(self, format, sides, textFieldSize, margins):
+    def __init__(self, format, sides, margins):
         self.format = format
         self.sides = sides
-        self.textFieldSize = TextField(textFieldSize['width'], textFieldSize['height'])
         self.margins = Margins(margins['vertical'], margins['horizontal'])
 
 class Configuration:
@@ -42,7 +36,7 @@ class Configuration:
 
         self.chordShift = pdfSettings['chordShift']
 
-        self.canvas = Canvas(pdfSettings['format'], pdfSettings['sides'], pdfSettings['textFieldSize'], pdfSettings['margins'])
+        self.canvas = Canvas(pdfSettings['format'], pdfSettings['sides'], pdfSettings['margins'])
 
         self.fontSize = pdfSettings['fontSize']
         
