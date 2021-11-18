@@ -15,8 +15,13 @@
         },
         {
             "chords": "G\nC D G\nG C\nD G\nC D\nD G\nG C\nD G",
-            "lyrics": "By os\u0142odzi\u0107 sobie \u017cycie ma\u0142y z\u0142odziej\nTu\u017c przed kas\u0105 kradnie kokosowy baton\nZanim zd\u0105\u017c\u0105 go przy\u0142apa\u0107 zje go i\nPrzestanie p\u0142aka\u0107, bo ju\u017c za plecami\nTo policjant jak sam anio\u0142 w sam\u0105\nPor\u0119 b\u0119dzie m\u00f3g\u0142 si\u0119 teraz wstawi\u0107 za nim\nI przebaczy to, co mo\u017ce i zapomni\nPrzecie\u017c inni robi\u0105 jeszcze gorzeJ",
+            "lyrics": "By os\u0142odzi\u0107 sobie \u017cycie ma\u0142y z\u0142odziej\nTu\u017c przed kas\u0105 kradnie kokosowy baton\nZanim zd\u0105\u017c\u0105 go przy\u0142apa\u0107 zje go i\nPrzestanie p\u0142aka\u0107, bo ju\u017c za plecami\nTo policjant jak sam anio\u0142 w sam\u0105\nPor\u0119 b\u0119dzie m\u00f3g\u0142 si\u0119 teraz wstawi\u0107 za nim\nI przebaczy to, co mo\u017ce i zapomni\nPrzecie\u017c inni robi\u0105 jeszcze gorzej",
             "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I ja doczekam kiedy\u015b takiej chwili...",
+            "chorus": true
         },
         {
             "chords": "G\nC D G\nG C\nD G\nC D\nD G\nG C\nD G",
@@ -24,9 +29,19 @@
             "chorus": false
         },
         {
+            "chords": "",
+            "lyrics": "I ja doczekam kiedy\u015b takiej chwili...",
+            "chorus": true
+        },
+        {
             "chords": "G\nC D G\nG C\nD G\nC D\nD G\nG C\nD G",
             "lyrics": "W wielkim mie\u015bcie gasn\u0105 \u015bwiat\u0142a\nI wiadomo \u017cy\u0107 nie \u0142atwo w wielkim mie\u015bcie\nOto wida\u0107 nikn\u0105 ludzie\nJeszcze kto\u015b przez popo\u0142udnie przejdzie i nareszcie\nNad g\u0142owami leci anio\u0142, co szcz\u0119\u015bliwsze\nDzieci z gwiazdorami rozmawiaj\u0105\nKto nie pozna\u0142 tych rado\u015bci niech spr\u00f3buje\nZn\u00f3w pokocha\u0107 kogo\u015b jeszcze pro\u015bciej",
             "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "I ja doczekam kiedy\u015b takiej chwili...",
+            "chorus": true
         }
     ]
 }

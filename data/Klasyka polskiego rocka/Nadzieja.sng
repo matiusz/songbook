@@ -40,6 +40,11 @@
         },
         {
             "chords": "",
+            "lyrics": " ",
+            "chorus": false
+        },
+        {
+            "chords": "",
             "lyrics": "a* = 007500\nG*= 005400\nF*= 003230",
             "chorus": false
         }

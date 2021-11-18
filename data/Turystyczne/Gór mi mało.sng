@@ -42,6 +42,16 @@
             "chords": "",
             "lyrics": "G\u00f3r mi ma\u0142o i trzeba mi wi\u0119cej...",
             "chorus": true
+        },
+        {
+            "chords": "",
+            "lyrics": " ",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A* - 540055",
+            "chorus": false
         }
     ]
 }

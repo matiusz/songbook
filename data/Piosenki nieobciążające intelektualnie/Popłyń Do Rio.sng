@@ -15,7 +15,7 @@
         },
         {
             "chords": "C G C G\nC G7\nG7 C",
-            "lyrics": "Daleka jest droga do Rio - olaboga!\nLecz Ciebie niech to nie zra\u017ca. Ty p\u0142y\u0144 pod \u017caglami\nNocami i dniami, I na zakr\u0119tach uwa\u017caj.",
+            "lyrics": "Daleka jest droga do Rio - laboga!\nLecz Ciebie niech to nie zra\u017ca. Ty p\u0142y\u0144 pod \u017caglami\nNocami i dniami, I na zakr\u0119tach uwa\u017caj.",
             "chorus": false
         },
         {
@@ -34,8 +34,13 @@
             "chorus": false
         },
         {
-            "chords": "C G C G\nC G7\nG7 C\nC G C G\nC G7\nG7 C",
-            "lyrics": "Wieczorem wzd\u0142u\u017c pla\u017cy sto bar\u00f3w si\u0119 jarzy\nI kusi, i wabi, i n\u0119ci. Ty sprawdzasz w kieszeni,\nLecz nic to nie zmieni, Bo mniej masz cruzeiros ni\u017c ch\u0119ci.\nKto wie - w takim barze, Co mo\u017ce si\u0119 zdarzy\u0107\nI wyda\u0107 przypadkiem nad ranem: Pozna\u0142e\u015b Mulatk\u0119,\nprzytulasz j\u0105 kapk\u0119 i czujesz, \u017ce ta\u0144czysz z... panem.",
+            "chords": "C G C G\nC G7\nG7 C",
+            "lyrics": "Wieczorem wzd\u0142u\u017c pla\u017cy sto bar\u00f3w si\u0119 jarzy\nI kusi, i wabi, i n\u0119ci. Ty sprawdzasz w kieszeni,\nLecz nic to nie zmieni, Bo mniej masz cruzeiros ni\u017c ch\u0119ci.",
+            "chorus": false
+        },
+        {
+            "chords": "C G C G\nC G7\nG7 C",
+            "lyrics": "Kto wie - w takim barze, Co mo\u017ce si\u0119 zdarzy\u0107\nI wyda\u0107 przypadkiem nad ranem: Pozna\u0142e\u015b Mulatk\u0119,\nprzytulasz j\u0105 kapk\u0119 i czujesz, \u017ce ta\u0144czysz z... panem.",
             "chorus": false
         },
         {

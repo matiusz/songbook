@@ -10,7 +10,7 @@
         },
         {
             "chords": "e A D h\ne A D h\ne A D h\ne A D h",
-            "lyrics": "A! a! ... ju\u017c jest wiosna\nA! a! ... d\u0142u\u017csze dnie\nA! a! ... kwiaty rosn\u0105\nA! a! ... g\u0142upie \u2013 nie?",
+            "lyrics": "A, a... ju\u017c jest wiosna\nA, a... d\u0142u\u017csze dnie\nA, a... kwiaty rosn\u0105\nA, a... g\u0142upie \u2013 nie?",
             "chorus": true
         },
         {
@@ -20,7 +20,7 @@
         },
         {
             "chords": "",
-            "lyrics": "A! a! ... ju\u017c jest wiosna",
+            "lyrics": "A, a... ju\u017c jest wiosna...",
             "chorus": true
         },
         {
@@ -30,7 +30,7 @@
         },
         {
             "chords": "",
-            "lyrics": "A! a! ... ju\u017c jest wiosna",
+            "lyrics": "A, a... ju\u017c jest wiosna...",
             "chorus": true
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "chords": "",
-            "lyrics": "A! a! ... ju\u017c jest wiosna",
+            "lyrics": "A, a... ju\u017c jest wiosna...",
             "chorus": true
         }
     ]

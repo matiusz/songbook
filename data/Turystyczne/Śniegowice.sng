@@ -42,6 +42,16 @@
             "chords": "E cis\nH\nE cis\nH A* H*",
             "lyrics": "Co mnie tu trzyma co mnie tu trzyma\nTylko zima i \u015bwi\u0119ta tylko \u015bwi\u0119ta i zima",
             "chorus": true
+        },
+        {
+            "chords": "",
+            "lyrics": " ",
+            "chorus": false
+        },
+        {
+            "chords": "",
+            "lyrics": "A* - xx7605\nH* - xx9807",
+            "chorus": false
         }
     ]
 }

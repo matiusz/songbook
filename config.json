@@ -33,7 +33,7 @@
     },
     "devSettings":
     {
-        "drawLines" : true,
+        "drawLines" : false,
         "singleCompile" : false,
         "keepAuxOut" : false
     }
