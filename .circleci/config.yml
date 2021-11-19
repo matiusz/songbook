@@ -41,7 +41,12 @@ jobs:
           command: docker build -t songbook .
       - run:
           name: Run Docker
-          command: docker run --rm -it songbook python3 songbook_pdf.py
+          command: docker run --rm -it --name songbook songbook python3 songbook_pdf.py
+      - run:
+          name: Copy Output
+          command: docker cp songbook:/app/songbook.pdf /output/songbook.pdf
+      - store_artifacts:
+          path: /output/songbook.pdf
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
