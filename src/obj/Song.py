@@ -62,12 +62,12 @@ class Song:
         for (cmd, val) in re.findall(f"^#({commands})(?:\n|\s)((?:.|\n)*?(?=#(?:{commands})|\Z))", str, flags=re.MULTILINE):
             if cmd in ["verse", "chorus"]:
                 split_lines = [line.split("~ ") + ['']
-                               for line in val.split('\n')]
+                               for line in val.strip().split('\n')]
                 (lyrics, chords) = zip(
-                    *[(line[0], line[1]) for line in split_lines])
+                    *[(line[0].rstrip(), line[1]) for line in split_lines])
                 dict['sections'].append({
-                    'lyrics': "\n".join(lyrics).strip(),
-                    'chords': "\n".join(chords).strip(),
+                    'lyrics': "\n".join(lyrics),
+                    'chords': "\n".join(chords),
                     'chorus': cmd == 'chorus'
                 })
             else:
