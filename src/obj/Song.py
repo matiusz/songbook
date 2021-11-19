@@ -43,7 +43,8 @@ class Song:
         for section in self.sections:
             result += "#chorus\n" if section.chorus else "#verse\n"
             for (lyrics, chords) in itertools.zip_longest(section.lyrics.split('\n'), section.chords.split('\n')):
-                result += (lyrics + ' ' if lyrics else '') + \
+                result += (lyrics if lyrics else '') + \
+                    (' ' if lyrics and chords else '') + \
                     ("~ " + chords if chords else '') + '\n'
             result += "\n"
 
@@ -58,12 +59,12 @@ class Song:
         commands = "title|author|category|capo|chorus|verse"
         dict = {'sections': []}
         # finds all occurences of #command, followed by blank, until another #command or the end
-        for (cmd, val) in re.findall(f"^#({commands})\s((?:.|\n)+?(?=#(?:{commands})|\Z))", str, flags=re.MULTILINE):
+        for (cmd, val) in re.findall(f"^#({commands})(?:\n|\s)((?:.|\n)*?(?=#(?:{commands})|\Z))", str, flags=re.MULTILINE):
             if cmd in ["verse", "chorus"]:
                 split_lines = [line.split("~ ") + ['']
                                for line in val.split('\n')]
                 (lyrics, chords) = zip(
-                    *[(line[0][:-1], line[1]) for line in split_lines])
+                    *[(line[0], line[1]) for line in split_lines])
                 dict['sections'].append({
                     'lyrics': "\n".join(lyrics).strip(),
                     'chords': "\n".join(chords).strip(),
