@@ -79,7 +79,7 @@ class TexCategory:
 class TexSong:
     @staticmethod
     async def load(filepath):
-        async with aiofiles.open(filepath, "r") as songFile:
+        async with aiofiles.open(filepath, "r", encoding='utf-8') as songFile:
             texSong = TexSong(await songFile.read())
         return texSong
 

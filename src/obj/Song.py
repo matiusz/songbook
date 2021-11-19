@@ -50,7 +50,7 @@ class Song:
         return result
 
     def save(self) -> None:
-        with open(os.path.join(config.dataFolder, self.category, self.title + ".sng"), "w") as f:
+        with open(os.path.join(config.dataFolder, self.category, self.title + ".sng"), "w", encoding='utf-8') as f:
             return f.write(self.serialize())
 
     @staticmethod
@@ -90,7 +90,7 @@ class Song:
 
     @staticmethod
     def loadFromFile(filePath: str) -> Song:
-        with open(filePath, "r") as f:
+        with open(filePath, "r", encoding='utf-8') as f:
             return Song.parse(f.read())
 
     @staticmethod
