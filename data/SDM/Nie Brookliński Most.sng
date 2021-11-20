@@ -1,37 +1,42 @@
-{
-    "title": "Nie brookli\u0144ski most",
-    "author": "s\u0142. Edward Stachura, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "d\nC\nd\nC d",
-            "lyrics": "Rozdzieraj\u0105cy\nJak tygrysa pazur\nAntylopy plecy\nJest smutek cz\u0142owieczy.",
-            "chorus": false
-        },
-        {
-            "chords": "C d\nC d\nC d\nC d",
-            "lyrics": "Nie brookli\u0144ski most\nAle przemieni\u0107 w jasny, nowy dzie\u0144\nNajsmutniejsz\u0105 noc\nTo jest dopiero co\u015b!",
-            "chorus": true
-        },
-        {
-            "chords": "d\nC\nd\nC d",
-            "lyrics": "Przera\u017caj\u0105cy\nJak ozdoba \u015bwiata\nCo w malignie bredzi\nJest ob\u0142\u0119d cz\u0142owieczy.",
-            "chorus": false
-        },
-        {
-            "chords": "C d\nC d\nC d\nC d",
-            "lyrics": "Nie brookli\u0144ski most\nLecz na drug\u0105 stron\u0119\nG\u0142ow\u0105 przebi\u0107 si\u0119\nPrzez ob\u0142\u0119du los -\nTo jest dopiero co\u015b!",
-            "chorus": true
-        },
-        {
-            "chords": "C d\nC d\nC d\nC d",
-            "lyrics": "B\u0119dziemy smuci\u0107 si\u0119 starannie!\nB\u0119dziemy szale\u0107 nienagannie!\nB\u0119dziemy naprz\u00f3d nies\u0142ychanie!\nKu polanie",
-            "chorus": false
-        },
-        {
-            "chords": "C d\nC d\nC d\nC d",
-            "lyrics": "Nie brookli\u0144ski most\nLecz na drug\u0105 stron\u0119\nG\u0142ow\u0105 przebi\u0107 si\u0119\nPrzez ob\u0142\u0119du los -\nTo jest dopiero co\u015b!",
-            "chorus": true
-        }
-    ]
-}
+#title Nie brookliński most
+#author sł. Edward Stachura, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Rozdzierający ~ d
+Jak tygrysa pazur ~ C
+Antylopy plecy ~ d
+Jest smutek człowieczy. ~ C d
+
+#chorus
+Nie brookliński most ~ C d
+Ale przemienić w jasny, nowy dzień ~ C d
+Najsmutniejszą noc ~ C d
+To jest dopiero coś! ~ C d
+
+#verse
+Przerażający ~ d
+Jak ozdoba świata ~ C
+Co w malignie bredzi ~ d
+Jest obłęd człowieczy. ~ C d
+
+#chorus
+Nie brookliński most ~ C d
+Lecz na drugą stronę ~ C d
+Głową przebić się ~ C d
+Przez obłędu los - ~ C d
+To jest dopiero coś!
+
+#verse
+Będziemy smucić się starannie! ~ C d
+Będziemy szaleć nienagannie! ~ C d
+Będziemy naprzód niesłychanie! ~ C d
+Ku polanie ~ C d
+
+#chorus
+Nie brookliński most ~ C d
+Lecz na drugą stronę ~ C d
+Głową przebić się ~ C d
+Przez obłędu los - ~ C d
+To jest dopiero coś!
+

@@ -1,47 +1,43 @@
-{
-    "title": "Emeryt",
-    "author": "s\u0142. Tomasz Pi\u00f3rski, muz. Ryszard Muzaj",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "d a\nF A\nd C\nF A",
-            "lyrics": "Le\u017cysz wtulona w po\u015bciel, co\u015b cichutko mruczysz przez sen\n\u0141\u00f3\u017cko szerokie a po\u015bciel \u015bwie\u017ca - za oknem nowy dzie\u0144\u2026\nA jeszcze niedawno koja, w niej pachn\u0105cy ryb\u0105 koc\nFale bij\u0105ce o pok\u0142ad i bosmana zdarty g\u0142os",
-            "chorus": false
-        },
-        {
-            "chords": "d C G d",
-            "lyrics": "To wszystko by\u0142o, min\u0119\u0142o - zosta\u0142o tylko wspomnienie...\nJu\u017c nie poczuj\u0119 wibracji pok\u0142adu, gdy kable graj\u0105\u2026\nJu\u017c tylko dom i ogr\u00f3dek i tak a\u017c do \u015bmierci.\nA przecie\u017c stare \u017caglowce po morzach jeszcze p\u0142ywaj\u0105...",
-            "chorus": true
-        },
-        {
-            "chords": "d a\nF A\nd C\nF A",
-            "lyrics": "Nie gniewaj si\u0119 kochanie, \u017ce trudno ze mn\u0105 \u017cy\u0107\n\u017be zapomnia\u0142em kupi\u0107 mleko i gary zmy\u0107...\nLecz jeszcze niedawno okr\u0119t mym drugim domem by\u0142\nTam nie sta\u0142o si\u0119 w kolejkach, tam nie by\u0142o miejsca dla z\u0142ych",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "To wszystko...",
-            "chorus": true
-        },
-        {
-            "chords": "d a\nF A\nd C\nF A",
-            "lyrics": "Up\u0142ynie sporo czasu nim przyzwyczaj\u0119 si\u0119\nCzterdzie\u015bci lat na morzu, zamkni\u0119tych w jeden dzie\u0144\nSk\u0105d lekarz mo\u017ce wiedzie\u0107, \u017ce za morzem t\u0119skno mi?\n\u017be dusz\u0119 si\u0119 na l\u0105dzie, \u017ce \u015bni mi si\u0119 pok\u0142ad pe\u0142en ryb?",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "To wszystko...",
-            "chorus": true
-        },
-        {
-            "chords": "d a\nF A\nd C\nF A",
-            "lyrics": "Wiem, \u017ce masz do mnie \u017cal, mieli\u015bmy do przyjaci\u00f3\u0142 i\u015b\u0107\nSpotka\u0142em koleg\u0119 z rejsu, on w morze idzie dzi\u015b...\nSiedzia\u0142em potem na kei, ze \u0142zami patrzy\u0142em w port\nJeszcze przyjdzie dzie\u0144, \u017ce opuszcz\u0119 go.. A narazie...",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "To wszystko...",
-            "chorus": true
-        }
-    ]
-}
+#title Emeryt
+#author sł. Tomasz Piórski, muz. Ryszard Muzaj
+#category Szanty
+
+#verse
+Leżysz wtulona w pościel, coś cichutko mruczysz przez sen ~ d a
+Łóżko szerokie a pościel świeża - za oknem nowy dzień… ~ F A
+A jeszcze niedawno koja, w niej pachnący rybą koc ~ d C
+Fale bijące o pokład i bosmana zdarty głos ~ F A
+
+#chorus
+To wszystko było, minęło - zostało tylko wspomnienie... ~ d C G d
+Już nie poczuję wibracji pokładu, gdy kable grają…
+Już tylko dom i ogródek i tak aż do śmierci.
+A przecież stare żaglowce po morzach jeszcze pływają...
+
+#verse
+Nie gniewaj się kochanie, że trudno ze mną żyć ~ d a
+Że zapomniałem kupić mleko i gary zmyć... ~ F A
+Lecz jeszcze niedawno okręt mym drugim domem był ~ d C
+Tam nie stało się w kolejkach, tam nie było miejsca dla złych ~ F A
+
+#chorus
+To wszystko...
+
+#verse
+Upłynie sporo czasu nim przyzwyczaję się ~ d a
+Czterdzieści lat na morzu, zamkniętych w jeden dzień ~ F A
+Skąd lekarz może wiedzieć, że za morzem tęskno mi? ~ d C
+Że duszę się na lądzie, że śni mi się pokład pełen ryb? ~ F A
+
+#chorus
+To wszystko...
+
+#verse
+Wiem, że masz do mnie żal, mieliśmy do przyjaciół iść ~ d a
+Spotkałem kolegę z rejsu, on w morze idzie dziś... ~ F A
+Siedziałem potem na kei, ze łzami patrzyłem w port ~ d C
+Jeszcze przyjdzie dzień, że opuszczę go.. A narazie... ~ F A
+
+#chorus
+To wszystko...
+

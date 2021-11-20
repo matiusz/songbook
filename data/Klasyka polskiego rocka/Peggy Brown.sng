@@ -1,42 +1,44 @@
-{
-    "title": "Peggy Brown",
-    "author": "Myslovitz",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a G\nC F",
-            "lyrics": "O Peggy Brown, o Peggy Brown\nKto Ciebie ukocha\u0107 b\u0119dzie umia\u0142",
-            "chorus": true
-        },
-        {
-            "chords": "a G\nC F",
-            "lyrics": "Jedyne o czym wci\u0105\u017c my\u015bl\u0119\nTo ciemnow\u0142osa dziewczyna\nCho\u0107 nie chce da\u0107 czego prosz\u0119\nW oddali od siebie mnie trzyma\nCho\u0107 nie chce moich przysi\u0105g\nNie s\u0142yszy nawet swej dumy, o nie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O Peggy Brown, o Peggy Brown\nKto Ciebie ukocha\u0107 b\u0119dzie umia\u0142",
-            "chorus": true
-        },
-        {
-            "chords": "a G\nC F",
-            "lyrics": "Jej g\u0142os jest dla mnie muzyk\u0105\nPulsuje jak ciche echo\nJej twarde bia\u0142e piersi\nMleczniejsze s\u0105 ni\u017c jej mleko\nJej suknia z mi\u0119kkiej tafty\nDzi\u015b skromnie opuszczona",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O Peggy Brown, o Peggy Brown\nKto Ciebie ukocha\u0107 b\u0119dzie umia\u0142",
-            "chorus": true
-        },
-        {
-            "chords": "a G\nC F",
-            "lyrics": "Nocami w samotno\u015bci\nRozpustny sen widzia\u0142em\n\u017be\u015bmy w jednym \u0142\u00f3\u017cku\nSpojeni cia\u0142o z cia\u0142em\nAle tym snem naj\u015bmielszym\nTwej dumy nie ura\u017c\u0119, o nie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O Peggy Brown, o Peggy Brown\nKto Ciebie ukocha\u0107 b\u0119dzie umia\u0142",
-            "chorus": true
-        }
-    ]
-}
+#title Peggy Brown
+#author Myslovitz
+#category Klasyka polskiego rocka
+
+#chorus
+O Peggy Brown, o Peggy Brown ~ a G
+Kto Ciebie ukochać będzie umiał ~ C F
+
+#verse
+Jedyne o czym wciąż myślę ~ a G
+To ciemnowłosa dziewczyna ~ C F
+Choć nie chce dać czego proszę
+W oddali od siebie mnie trzyma
+Choć nie chce moich przysiąg
+Nie słyszy nawet swej dumy, o nie
+
+#chorus
+O Peggy Brown, o Peggy Brown
+Kto Ciebie ukochać będzie umiał
+
+#verse
+Jej głos jest dla mnie muzyką ~ a G
+Pulsuje jak ciche echo ~ C F
+Jej twarde białe piersi
+Mleczniejsze są niż jej mleko
+Jej suknia z miękkiej tafty
+Dziś skromnie opuszczona
+
+#chorus
+O Peggy Brown, o Peggy Brown
+Kto Ciebie ukochać będzie umiał
+
+#verse
+Nocami w samotności ~ a G
+Rozpustny sen widziałem ~ C F
+Żeśmy w jednym łóżku
+Spojeni ciało z ciałem
+Ale tym snem najśmielszym
+Twej dumy nie urażę, o nie
+
+#chorus
+O Peggy Brown, o Peggy Brown
+Kto Ciebie ukochać będzie umiał
+

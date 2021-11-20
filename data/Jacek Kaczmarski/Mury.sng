@@ -1,37 +1,49 @@
-{
-    "title": "Mury",
-    "author": "s\u0142. Jacek Kaczmarski, muz. Lluis Llach",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "e H7 e\ne H7\nC H7 C\nC H7 e\ne H7 e\ne H7\nC H7 C\nC H7 e",
-            "lyrics": "On natchniony i m\u0142ody by\u0142,\nIch nie policzy\u0142by nikt.\nOn im dodawa\u0142 pie\u015bni\u0105 si\u0142,\n\u015apiewa\u0142, \u017ce blisko ju\u017c \u015bwit.\n\u015awiec tysi\u0105ce palili mu,\nZ nad g\u0142\u00f3w podnosi\u0142 si\u0119 dym,\n\u015apiewa\u0142, \u017ce czas, by run\u0105\u0142 mur\u2026\nOni \u015bpiewali wraz z nim:",
-            "chorus": false
-        },
-        {
-            "chords": "H7 e\nH7 e\ne a\nH7 e",
-            "lyrics": "Wyrwij murom z\u0119by krat!\nZerwij kajdany, po\u0142am bat!\nA mury run\u0105, run\u0105, run\u0105\nI pogrzebi\u0105 stary \u015bwiat!",
-            "chorus": true
-        },
-        {
-            "chords": "e H7 e\ne H7\nC H7 C\nC H7 e\ne H7 e\ne H7\nC H7 C\nC H7 e",
-            "lyrics": "Wkr\u00f3tce na pami\u0119\u0107 znali pie\u015b\u0144\nI sama melodia bez s\u0142\u00f3w\nNios\u0142a ze sob\u0105 star\u0105 tre\u015b\u0107,\nDreszcze na wskro\u015b serc i g\u0142\u00f3w.\n\u015apiewali wi\u0119c, klaskali w rytm,\nJak wystrza\u0142 poklask ich brzmia\u0142.\nI ci\u0105\u017cy\u0142 \u0142a\u0144cuch, zwleka\u0142 \u015bwit\u2026\nOn wci\u0105\u017c \u015bpiewa\u0142 i gra\u0142:",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wyrwij murom z\u0119by krat\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "e H7 e\ne H7\nC H7 C\nC H7 e\ne H7 e\ne H7\nC H7 C\nC H7 e",
-            "lyrics": "A\u017c zobaczyli ilu ich,\nPoczuli si\u0142\u0119 i czas\nI z pie\u015bni\u0105, \u017ce ju\u017c blisko \u015bwit\nSzli ulicami miast.\nZwalali pomniki i rwali bruk:\n\u2013 Ten z nami! Ten przeciw nam!\nKto sam, ten najgorszy wr\u00f3g!\nA \u015bpiewak tak\u017ce by\u0142 sam\u2026",
-            "chorus": false
-        },
-        {
-            "chords": "H7 e\nH7 e\ne a\nH7 e",
-            "lyrics": "Patrzy\u0142 na r\u00f3wny t\u0142um\u00f3w marsz,\nMilcza\u0142, ws\u0142uchany w krok\u00f3w huk,\nA mury ros\u0142y, ros\u0142y, ros\u0142y,\n\u0141a\u0144cuch ko\u0142ysa\u0142 si\u0119 u n\u00f3g.",
-            "chorus": true
-        }
-    ]
-}
+#title Mury
+#author sł. Jacek Kaczmarski, muz. Lluis Llach
+#category Jacek Kaczmarski
+
+#verse
+On natchniony i młody był, ~ e H7 e
+Ich nie policzyłby nikt. ~ e H7
+On im dodawał pieśnią sił, ~ C H7 C
+Śpiewał, że blisko już świt. ~ C H7 e
+Świec tysiące palili mu, ~ e H7 e
+Z nad głów podnosił się dym, ~ e H7
+Śpiewał, że czas, by runął mur… ~ C H7 C
+Oni śpiewali wraz z nim: ~ C H7 e
+
+#chorus
+Wyrwij murom zęby krat! ~ H7 e
+Zerwij kajdany, połam bat! ~ H7 e
+A mury runą, runą, runą ~ e a
+I pogrzebią stary świat! ~ H7 e
+
+#verse
+Wkrótce na pamięć znali pieśń ~ e H7 e
+I sama melodia bez słów ~ e H7
+Niosła ze sobą starą treść, ~ C H7 C
+Dreszcze na wskroś serc i głów. ~ C H7 e
+Śpiewali więc, klaskali w rytm, ~ e H7 e
+Jak wystrzał poklask ich brzmiał. ~ e H7
+I ciążył łańcuch, zwlekał świt… ~ C H7 C
+On wciąż śpiewał i grał: ~ C H7 e
+
+#chorus
+Wyrwij murom zęby krat…
+
+#verse
+Aż zobaczyli ilu ich, ~ e H7 e
+Poczuli siłę i czas ~ e H7
+I z pieśnią, że już blisko świt ~ C H7 C
+Szli ulicami miast. ~ C H7 e
+Zwalali pomniki i rwali bruk: ~ e H7 e
+– Ten z nami! Ten przeciw nam! ~ e H7
+Kto sam, ten najgorszy wróg! ~ C H7 C
+A śpiewak także był sam… ~ C H7 e
+
+#chorus
+Patrzył na równy tłumów marsz, ~ H7 e
+Milczał, wsłuchany w kroków huk, ~ H7 e
+A mury rosły, rosły, rosły, ~ e a
+Łańcuch kołysał się u nóg. ~ H7 e
+

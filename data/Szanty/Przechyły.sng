@@ -1,47 +1,43 @@
-{
-    "title": "Przechy\u0142y",
-    "author": "Pawe\u0142 Orkisz",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "e D e\ne D e\na H7 e\na H7 e",
-            "lyrics": "Pierwszy raz przy pe\u0142nym takielunku\nBior\u0119 ster i trzymam kurs na wiatr\nI jest jak przy pierwszym poca\u0142unku\nW ustach s\u00f3l, gor\u0105cej wody smak",
-            "chorus": false
-        },
-        {
-            "chords": "a H7 e\na H7 e\na H7 e\na H7 e",
-            "lyrics": "O-ho-ho, przechy\u0142y i przechy\u0142y\nO-ho-ho, za fal\u0105 fala mknie\nO-ho-ho, trzymajcie si\u0119 dziewczyny - za liny!\nAle wiatr, \u00f3semka chyba dmie!",
-            "chorus": true
-        },
-        {
-            "chords": "e D e\ne D e\na H7 e\na H7 e",
-            "lyrics": "Zwrot przez sztag - OK, zaraz zrobi\u0119,\nS\u0142ysz\u0119 jak kapitan cicho klnie.\nGubi\u0119 wiatr i zamiast w niego dziobem,\nTo on mnie od ty\u0142u - kumple w \u015bmiech.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O-ho-ho, przechy\u0142y i przechy\u0142y...",
-            "chorus": true
-        },
-        {
-            "chords": "e D e\ne D e\na H7 e\na H7 e",
-            "lyrics": "Hej, Ty tam, za burt\u0119 wychylony,\nTu naprawd\u0119 si\u0119 nie ma z czego \u015bmia\u0107.\nCicho sied\u017a i lepiej pro\u015b Neptuna,\n\u017beby co\u015b nie spad\u0142o Ci na kark.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O-ho-ho, przechy\u0142y i przechy\u0142y...",
-            "chorus": true
-        },
-        {
-            "chords": "e D e\ne D e\na H7 e\na H7 e",
-            "lyrics": "Krople mg\u0142y, w t\u0119czowych kropel pyle\nTa\u0144czy jacht, po deskach sp\u0142ywa dzie\u0144.\nJutro zn\u00f3w wyp\u0142yn\u0119, bo odkry\u0142em,\n\u017be wci\u0105\u017c brzmi \u017ceglarska stara",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "O-ho-ho, przechy\u0142y i przechy\u0142y...",
-            "chorus": true
-        }
-    ]
-}
+#title Przechyły
+#author Paweł Orkisz
+#category Szanty
+
+#verse
+Pierwszy raz przy pełnym takielunku ~ e D e
+Biorę ster i trzymam kurs na wiatr ~ e D e
+I jest jak przy pierwszym pocałunku ~ a H7 e
+W ustach sól, gorącej wody smak ~ a H7 e
+
+#chorus
+O-ho-ho, przechyły i przechyły ~ a H7 e
+O-ho-ho, za falą fala mknie ~ a H7 e
+O-ho-ho, trzymajcie się dziewczyny - za liny! ~ a H7 e
+Ale wiatr, ósemka chyba dmie! ~ a H7 e
+
+#verse
+Zwrot przez sztag - OK, zaraz zrobię, ~ e D e
+Słyszę jak kapitan cicho klnie. ~ e D e
+Gubię wiatr i zamiast w niego dziobem, ~ a H7 e
+To on mnie od tyłu - kumple w śmiech. ~ a H7 e
+
+#chorus
+O-ho-ho, przechyły i przechyły...
+
+#verse
+Hej, Ty tam, za burtę wychylony, ~ e D e
+Tu naprawdę się nie ma z czego śmiać. ~ e D e
+Cicho siedź i lepiej proś Neptuna, ~ a H7 e
+Żeby coś nie spadło Ci na kark. ~ a H7 e
+
+#chorus
+O-ho-ho, przechyły i przechyły...
+
+#verse
+Krople mgły, w tęczowych kropel pyle ~ e D e
+Tańczy jacht, po deskach spływa dzień. ~ e D e
+Jutro znów wypłynę, bo odkryłem, ~ a H7 e
+Że wciąż brzmi żeglarska stara ~ a H7 e
+
+#chorus
+O-ho-ho, przechyły i przechyły...
+

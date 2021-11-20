@@ -1,47 +1,47 @@
-{
-    "title": "Czarny blues o czwartej nad ranem",
-    "author": "s\u0142. Adam Ziemianin, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "A cis\nD A\nE fis\nD E A",
-            "lyrics": "Czwarta nad ranem \u2013 mo\u017ce sen przyjdzie,\nMo\u017ce mnie odwiedzisz.\nCzwarta nad ranem \u2013 mo\u017ce sen przyjdzie,\nMo\u017ce mnie odwiedzisz.",
-            "chorus": true
-        },
-        {
-            "chords": "A E\nfis cis\nD A\nD E",
-            "lyrics": "Czemu ci\u0119 nie ma na odleg\u0142o\u015b\u0107 r\u0119ki,\nCzemu m\u00f3wimy do siebie listami?\nGdy ci to \u015bpiewam u mnie pe\u0142nia lata,\nGdy to us\u0142yszysz b\u0119dzie \u015brodek zimy.",
-            "chorus": false
-        },
-        {
-            "chords": "A E\nfis cis\nD A\nD E\nfis",
-            "lyrics": "Czemu si\u0119 budz\u0119 o czwartej nad ranem\nI w\u0142osy twoje pr\u00f3buj\u0119 ug\u0142aska\u0107,\nLecz nigdzie nie ma twoich w\u0142os\u00f3w,\nJest tylko blada nocna lampka\n\u0141ysa \u015bpiewaczka.",
-            "chorus": false
-        },
-        {
-            "chords": "A E\nfis cis\nD A\nD E",
-            "lyrics": "\u015apiewamy bluesa o czwartej nad ranem.\nTak cicho, \u017ceby nie zbudzi\u0107 s\u0105siad\u00f3w.\nCzajnik z gwizdkiem \u015bwiruje na gazie,\nMy\u015bla\u0142by kto, \u017ce rodem z Manhattanu",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Czwarta nad ranem\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "A E\nfis cis\nD A\nD E",
-            "lyrics": "Herbata czarna my\u015bli rozja\u015bnia,\nA list tw\u00f3j sam si\u0119 czyta,\n\u017be mo\u017cna go \u015bpiewa\u0107 \u2013 za oknem mrucz\u0105 bluesa\nTopole z Krupniczej.",
-            "chorus": false
-        },
-        {
-            "chords": "A E\nfis cis\nD A\nD E",
-            "lyrics": "I jeszcze stra\u017cak wszed\u0142 na solo\nTen, z Mariackiej Wie\u017cy.\nJego tr\u0105bka jak ksi\u0119\u017cyc b\u0142yszczy nad topol\u0105,\nNigdzie si\u0119 jej nie spieszy.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ju\u017c pi\u0105ta\u2026",
-            "chorus": true
-        }
-    ]
-}
+#title Czarny blues o czwartej nad ranem
+#author sł. Adam Ziemianin, muz. Krzysztof Myszkowski
+#category SDM
+
+#chorus
+Czwarta nad ranem – może sen przyjdzie, ~ A cis
+Może mnie odwiedzisz. ~ D A
+Czwarta nad ranem – może sen przyjdzie, ~ E fis
+Może mnie odwiedzisz. ~ D E A
+
+#verse
+Czemu cię nie ma na odległość ręki, ~ A E
+Czemu mówimy do siebie listami? ~ fis cis
+Gdy ci to śpiewam u mnie pełnia lata, ~ D A
+Gdy to usłyszysz będzie środek zimy. ~ D E
+
+#verse
+Czemu się budzę o czwartej nad ranem ~ A E
+I włosy twoje próbuję ugłaskać, ~ fis cis
+Lecz nigdzie nie ma twoich włosów, ~ D A
+Jest tylko blada nocna lampka ~ D E
+Łysa śpiewaczka. ~ fis
+
+#verse
+Śpiewamy bluesa o czwartej nad ranem. ~ A E
+Tak cicho, żeby nie zbudzić sąsiadów. ~ fis cis
+Czajnik z gwizdkiem świruje na gazie, ~ D A
+Myślałby kto, że rodem z Manhattanu ~ D E
+
+#chorus
+Czwarta nad ranem…
+
+#verse
+Herbata czarna myśli rozjaśnia, ~ A E
+A list twój sam się czyta, ~ fis cis
+Że można go śpiewać – za oknem mruczą bluesa ~ D A
+Topole z Krupniczej. ~ D E
+
+#verse
+I jeszcze strażak wszedł na solo ~ A E
+Ten, z Mariackiej Wieży. ~ fis cis
+Jego trąbka jak księżyc błyszczy nad topolą, ~ D A
+Nigdzie się jej nie spieszy. ~ D E
+
+#chorus
+Już piąta…
+

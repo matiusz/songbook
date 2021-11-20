@@ -1,23 +1,18 @@
-{
-    "title": "Co lubi\u0119 najbardziej",
-    "author": "Artur Wyrwol",
-    "capo": "Capo III",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "C F G\nC F\nC G\nC",
-            "lyrics": "Hej, \u015bpiewanie piosenek i picie alkoholu,\nTo jest to co lubi\u0119 najbardziej,\nTo jest to co lubi\u0119 najbardziej,\nPi\u0107 alkohol",
-            "chorus": false
-        },
-        {
-            "chords": "b",
-            "lyrics": "I do tego chodzi\u0107 po g\u00f3rach",
-            "chorus": true
-        },
-        {
-            "chords": "C F G\nC",
-            "lyrics": "To Koliiiba,\nHawiarska Koliba",
-            "chorus": false
-        }
-    ]
-}
+#title Co lubię najbardziej
+#author Artur Wyrwol
+#category Piosenki nieobciążające intelektualnie
+#capo Capo III
+
+#verse
+Hej, śpiewanie piosenek i picie alkoholu, ~ C F G
+To jest to co lubię najbardziej, ~ C F
+To jest to co lubię najbardziej, ~ C G
+Pić alkohol ~ C
+
+#chorus
+I do tego chodzić po górach ~ b
+
+#verse
+To Koliiiba, ~ C F G
+Hawiarska Koliba ~ C
+

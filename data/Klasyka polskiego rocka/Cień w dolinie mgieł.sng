@@ -1,32 +1,28 @@
-{
-    "title": "Cie\u0144 w dolinie mgie\u0142",
-    "author": "Wilki",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "fis E A",
-            "lyrics": "Mamy armie dwie co strzeg\u0105 naszych sn\u00f3w\nMamy siebie i budzi nas ci\u0105gle strach\nNie umiemy ju\u017c budowa\u0107 swego domu\nNie czekamy ju\u017c na nic",
-            "chorus": false
-        },
-        {
-            "chords": "fis E A",
-            "lyrics": "Jak jeden cie\u0144 w dolinie mgie\u0142\nJeden cie\u0144 w dolinie mgie\u0142",
-            "chorus": true
-        },
-        {
-            "chords": "fis E A",
-            "lyrics": "Kiedy przyjdzie dzie\u0144, zbudzi nasze r\u0119ce\nKiedy\u015b mo\u017ce wszystko zmieni si\u0119\nW\u0119drujemy tak przez puste korytarze\nW\u0119drujemy tak dzisiaj wszyscy",
-            "chorus": false
-        },
-        {
-            "chords": "fis E A",
-            "lyrics": "Jak jeden cie\u0144 w dolinie mgie\u0142\nJeden cie\u0144 w dolinie mgie\u0142",
-            "chorus": true
-        },
-        {
-            "chords": "fis E A",
-            "lyrics": "Jeden cie\u0144 w dolinie mgie\u0142\nJeden cie\u0144 w dolinie mgie\u0142",
-            "chorus": true
-        }
-    ]
-}
+#title Cień w dolinie mgieł
+#author Wilki
+#category Klasyka polskiego rocka
+
+#verse
+Mamy armie dwie co strzegą naszych snów ~ fis E A
+Mamy siebie i budzi nas ciągle strach
+Nie umiemy już budować swego domu
+Nie czekamy już na nic
+
+#chorus
+Jak jeden cień w dolinie mgieł ~ fis E A
+Jeden cień w dolinie mgieł
+
+#verse
+Kiedy przyjdzie dzień, zbudzi nasze ręce ~ fis E A
+Kiedyś może wszystko zmieni się
+Wędrujemy tak przez puste korytarze
+Wędrujemy tak dzisiaj wszyscy
+
+#chorus
+Jak jeden cień w dolinie mgieł ~ fis E A
+Jeden cień w dolinie mgieł
+
+#chorus
+Jeden cień w dolinie mgieł ~ fis E A
+Jeden cień w dolinie mgieł
+

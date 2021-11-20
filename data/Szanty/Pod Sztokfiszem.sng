@@ -1,27 +1,31 @@
-{
-    "title": "Pod sztokfiszem",
-    "author": "Andrzej Korycki",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "D fis\nG D\nD fis e A7\nD fis\nG D\nA7 D A",
-            "lyrics": "\u015awiat nabi\u0142 nas w butelk\u0119\nZa nasz\u0105 poniewierk\u0119\nZa pieski los i pieski pieski wikt\nDzi\u015b dymi\u0105 wszystkie czuby\nDzi\u015b \u015bpiewa ca\u0142y kubryk\npanieneczki otwierajcie drzwi",
-            "chorus": false
-        },
-        {
-            "chords": "D A7 D\nD A7 D\nD h E7 A7\nD fis\nG D\nA7 D G",
-            "lyrics": "Pod sztokfiszem par\u0119 chwil\nBrzuch jak beczka w beczce gin\nNim na morze wyp\u0142yniemy zn\u00f3w na morze\nTo jeszcze mi\u0142a nalej mi\nBo jutro bedzie gorzej\nJe\u015bli si\u0119 do jutra b\u0119dzie \u017cy\u0107",
-            "chorus": true
-        },
-        {
-            "chords": "D fis\nG D\nD fis e A7\nD fis\nG D\nA7 D A",
-            "lyrics": "Cho\u0107 stale porty zmieniasz\nJednaka wsz\u0119dzie cena\nGorza\u0142ki \u0142yk jest dro\u017cszy ni\u017c tw\u00f3j \u0142eb\nMasz d\u0142ugi w czarciej kasie\nWi\u0119c nalej p\u00f3ki da si\u0119\nZ pe\u0142n\u0105 kwart\u0105 dol\u0119 swoj\u0105 klej",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Pod sztokfiszem par\u0119 chwil...",
-            "chorus": true
-        }
-    ]
-}
+#title Pod sztokfiszem
+#author Andrzej Korycki
+#category Szanty
+
+#verse
+Świat nabił nas w butelkę ~ D fis
+Za naszą poniewierkę ~ G D
+Za pieski los i pieski pieski wikt ~ D fis e A7
+Dziś dymią wszystkie czuby ~ D fis
+Dziś śpiewa cały kubryk ~ G D
+panieneczki otwierajcie drzwi ~ A7 D A
+
+#chorus
+Pod sztokfiszem parę chwil ~ D A7 D
+Brzuch jak beczka w beczce gin ~ D A7 D
+Nim na morze wypłyniemy znów na morze ~ D h E7 A7
+To jeszcze miła nalej mi ~ D fis
+Bo jutro bedzie gorzej ~ G D
+Jeśli się do jutra będzie żyć ~ A7 D G
+
+#verse
+Choć stale porty zmieniasz ~ D fis
+Jednaka wszędzie cena ~ G D
+Gorzałki łyk jest droższy niż twój łeb ~ D fis e A7
+Masz długi w czarciej kasie ~ D fis
+Więc nalej póki da się ~ G D
+Z pełną kwartą dolę swoją klej ~ A7 D A
+
+#chorus
+Pod sztokfiszem parę chwil...
+

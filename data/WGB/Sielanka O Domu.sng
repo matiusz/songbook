@@ -1,42 +1,58 @@
-{
-    "title": "Sielanka o domu",
-    "author": "Wolna Grupa Bukowina",
-    "category": "WGB",
-    "sections": [
-        {
-            "chords": "A A4 A A4",
-            "lyrics": "",
-            "chorus": false
-        },
-        {
-            "chords": "A h7 cis7 A7\nD E9 A A7+\nh7 E9 cis7 A7/4\nD E4 E\nA (A7) D E\nA h7 cis7 a0\nh7 E7 cis7 A7/4\nD E7/4 E7\nA h7 cis7 a0\nh7 E7 cis7 a0\nh7 E7 A A4",
-            "lyrics": "A je\u015bli dom b\u0119d\u0119 mia\u0142 \nto b\u0119dzie bukowy koniecznie\nPachn\u0105cy i s\u0142oneczny \nwieczorem usi\u0105d\u0119 wiatr gra\nA zegar na \u015bcianie gwarzy\nDobrze si\u0119 idzie panie zegarze\nTik tak tik tak tik tak\n\u015awieca skwierczy i mruga przewrotnie\nWi\u0119c puszczam oko do niej\nDobry humor dzi\u015b pani ma\nDobry humor dzi\u015b pani ma",
-            "chorus": false
-        },
-        {
-            "chords": "A E\nG D A\nA E\nG D d A A4 A",
-            "lyrics": "Szukam szukania mi trzeba\nDomu gitar\u0105 i pi\u00f3rem\nA g\u00f3ry nade mn\u0105 jak niebo\nA niebo nade mn\u0105 jak g\u00f3ry",
-            "chorus": true
-        },
-        {
-            "chords": "A h7 cis7 A7\nD E9 A A7+\nh7 E9 cis7 A7/4\nD E4 E\nA (A7) D E\nA h7 cis7 a0\nh7 E7 cis7 A7/4\nD E7/4 E7\nA h7 cis7 a0\nh7 E7 cis7 a0\nh7 E7 A A4",
-            "lyrics": "Gdy g\u0142osy us\u0142ysz\u0119 u drzwi \nczyjekolwiek wejd\u017acie poprosz\u0119\nJestem zbieraczem g\u0142os\u00f3w \na dom m\u00f3j bardzo lubi gdy\n\u015amiech \u015bciany mu rozja\u015bnia\nI g\u0119d\u017aby lubi, pie\u015bni\nWpadnijcie na par\u0119 chwil\nKiedy los was zawiedzie w te strony\nBo dom m\u00f3j otworem stoi \nDla takich jak wy\nDla takich jak wy",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Szukam szukania mi trzeba...",
-            "chorus": true
-        },
-        {
-            "chords": "A h7 cis7 A7\nD E9 A A7+\nh7 E9 cis7 A7/4\nD E4 E\nA (A7) D E\nA h7 cis7 a0\nh7 E7 cis7 A7/4\nD E7/4 E7\nA h7 cis7 a0\nh7 E7 cis7 a0\nh7 E7 A A4",
-            "lyrics": "Zaprosz\u0119 dzie\u0144 i noc \nzaprosz\u0119 cztery wiatry\nDla wszystkich drzwi otwarte, \nkto\u015b poda pierwszy ton\nZagramy na g\u00f3ry koncert\nBuk\u00f3w por\u0105 pachn\u0105c\u0105\nNasi\u0105kn\u0105 \u015bciany gr\u0105\nA zm\u0119czonym w\u0119drownikom\nOdpocz\u0105\u0107 pozwol\u0105 muzyk\u0105 \nBo taki b\u0119dzie m\u00f3j dom\nBo taki b\u0119dzie m\u00f3j dom",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Szukam szukania mi trzeba...",
-            "chorus": true
-        }
-    ]
-}
+#title Sielanka o domu
+#author Wolna Grupa Bukowina
+#category WGB
+
+#verse
+~ A A4 A A4
+
+#verse
+A jeśli dom będę miał  ~ A h7 cis7 A7
+to będzie bukowy koniecznie ~ D E9 A A7+
+Pachnący i słoneczny  ~ h7 E9 cis7 A7/4
+wieczorem usiądę wiatr gra ~ D E4 E
+A zegar na ścianie gwarzy ~ A (A7) D E
+Dobrze się idzie panie zegarze ~ A h7 cis7 a0
+Tik tak tik tak tik tak ~ h7 E7 cis7 A7/4
+Świeca skwierczy i mruga przewrotnie ~ D E7/4 E7
+Więc puszczam oko do niej ~ A h7 cis7 a0
+Dobry humor dziś pani ma ~ h7 E7 cis7 a0
+Dobry humor dziś pani ma ~ h7 E7 A A4
+
+#chorus
+Szukam szukania mi trzeba ~ A E
+Domu gitarą i piórem ~ G D A
+A góry nade mną jak niebo ~ A E
+A niebo nade mną jak góry ~ G D d A A4 A
+
+#verse
+Gdy głosy usłyszę u drzwi  ~ A h7 cis7 A7
+czyjekolwiek wejdźcie poproszę ~ D E9 A A7+
+Jestem zbieraczem głosów  ~ h7 E9 cis7 A7/4
+a dom mój bardzo lubi gdy ~ D E4 E
+Śmiech ściany mu rozjaśnia ~ A (A7) D E
+I gędźby lubi, pieśni ~ A h7 cis7 a0
+Wpadnijcie na parę chwil ~ h7 E7 cis7 A7/4
+Kiedy los was zawiedzie w te strony ~ D E7/4 E7
+Bo dom mój otworem stoi  ~ A h7 cis7 a0
+Dla takich jak wy ~ h7 E7 cis7 a0
+Dla takich jak wy ~ h7 E7 A A4
+
+#chorus
+Szukam szukania mi trzeba...
+
+#verse
+Zaproszę dzień i noc  ~ A h7 cis7 A7
+zaproszę cztery wiatry ~ D E9 A A7+
+Dla wszystkich drzwi otwarte,  ~ h7 E9 cis7 A7/4
+ktoś poda pierwszy ton ~ D E4 E
+Zagramy na góry koncert ~ A (A7) D E
+Buków porą pachnącą ~ A h7 cis7 a0
+Nasiąkną ściany grą ~ h7 E7 cis7 A7/4
+A zmęczonym wędrownikom ~ D E7/4 E7
+Odpocząć pozwolą muzyką  ~ A h7 cis7 a0
+Bo taki będzie mój dom ~ h7 E7 cis7 a0
+Bo taki będzie mój dom ~ h7 E7 A A4
+
+#chorus
+Szukam szukania mi trzeba...
+

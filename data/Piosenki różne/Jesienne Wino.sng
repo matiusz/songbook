@@ -1,37 +1,38 @@
-{
-    "title": "Jesienne wino",
-    "author": "Andrzej Koczewski, Zbigniew Bogda\u0144ski",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e D e D\ne D G\na G D e\nD C a e",
-            "lyrics": "Z brz\u0119kiem ostr\u00f3g wjecha\u0142em do miasta\nPod jesie\u0144 by\u0142o czas z\u0142otych li\u015bci nasta\u0142\nW kieszeni worek srebra czas do domu\nWtem za plecami wo\u0142a g\u0142os",
-            "chorus": false
-        },
-        {
-            "chords": "e G D G\na G\nD C\ne G D G\na G\nD C D e",
-            "lyrics": "Usi\u0105d\u017a razem ze mn\u0105 spr\u00f3buj mego wina\nZ czere\u015bni, wi\u015bni resztek lata\nCho\u0107 jesie\u0144 si\u0119 zaczyna\nTyle tej jesieni jeszcze jest przed nami\nZd\u0105\u017cysz wr\u00f3ci\u0107 do domu\nNim noc zawita nad drogami, hej",
-            "chorus": true
-        },
-        {
-            "chords": "e D e D\ne D G\na G D e\nD C a e\nD e",
-            "lyrics": "S\u0142o\u0144ce sta\u0142o w zenicie, bi\u0142 po\u0142udniowy \u017car\nA w gardle kurz przebytych dr\u00f3g\nCo tam spoczn\u0119 chwil\u0119 przecie\u017c nie zaszkodzi\nDo przej\u015bcia niedalek\u0105 drog\u0119 jeszcze mam.\nA ona kusi",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Usi\u0105d\u017a razem ze mn\u0105 spr\u00f3buj mego wina...",
-            "chorus": true
-        },
-        {
-            "chords": "e D e D\ne D G\na G D e\nD C a e\nD e",
-            "lyrics": "Zbudzi\u0142em si\u0119 w czerwieniach zachodu\nPod star\u0105 karczm\u0105 co rynek zamyka\nZabra\u0142a moje srebro dusz\u0119 i ostrogi\nZosta\u0142o pragnienie i t\u0119py g\u0142owy b\u00f3l\nI pami\u0119\u0107 jej s\u0142\u00f3w",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Usi\u0105d\u017a razem ze mn\u0105 spr\u00f3buj mego wina...",
-            "chorus": true
-        }
-    ]
-}
+#title Jesienne wino
+#author Andrzej Koczewski, Zbigniew Bogdański
+#category Piosenki różne
+
+#verse
+Z brzękiem ostróg wjechałem do miasta ~ e D e D
+Pod jesień było czas złotych liści nastał ~ e D G
+W kieszeni worek srebra czas do domu ~ a G D e
+Wtem za plecami woła głos ~ D C a e
+
+#chorus
+Usiądź razem ze mną spróbuj mego wina ~ e G D G
+Z czereśni, wiśni resztek lata ~ a G
+Choć jesień się zaczyna ~ D C
+Tyle tej jesieni jeszcze jest przed nami ~ e G D G
+Zdążysz wrócić do domu ~ a G
+Nim noc zawita nad drogami, hej ~ D C D e
+
+#verse
+Słońce stało w zenicie, bił południowy żar ~ e D e D
+A w gardle kurz przebytych dróg ~ e D G
+Co tam spocznę chwilę przecież nie zaszkodzi ~ a G D e
+Do przejścia niedaleką drogę jeszcze mam. ~ D C a e
+A ona kusi ~ D e
+
+#chorus
+Usiądź razem ze mną spróbuj mego wina...
+
+#verse
+Zbudziłem się w czerwieniach zachodu ~ e D e D
+Pod starą karczmą co rynek zamyka ~ e D G
+Zabrała moje srebro duszę i ostrogi ~ a G D e
+Zostało pragnienie i tępy głowy ból ~ D C a e
+I pamięć jej słów ~ D e
+
+#chorus
+Usiądź razem ze mną spróbuj mego wina...
+

@@ -1,42 +1,40 @@
-{
-    "title": "Gdzie ta keja",
-    "author": "Jerzy Por\u0119bski",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "a G a\nC G7 C\nC C7 F d\na E7 a",
-            "lyrics": "Gdyby tak kto\u015b przyszed\u0142 i powiedzia\u0142: Stary, czy masz czas?\nPotrzebuj\u0119 do za\u0142ogi jak\u0105\u015b now\u0105 twarz,\nAmazonka, Wielka Rafa, oceany trzy,\nRejs na ca\u0142o\u015b\u0107, rok, dwa lata - to powiedzia\u0142bym:",
-            "chorus": false
-        },
-        {
-            "chords": "a G a\nC G C\ng A7 d A7 d\na E7 a",
-            "lyrics": "Gdzie ta keja, a przy niej ten jacht?\nGdzie ta koja wymarzona w snach?\nGdzie te wszystkie sznurki od tych szmat?\nGdzie ta brama na szeroki \u015bwiat?",
-            "chorus": true
-        },
-        {
-            "chords": "a G a\nC G C\ng A7 d A7 d\na E7 a",
-            "lyrics": "Gdzie ta keja, a przy niej ten jacht?\nGdzie ta koja wymarzona w snach?\nW ka\u017cdej chwili p\u0142yn\u0119 w taki rejs,\nTylko gdzie to jest? No gdzie to jest?",
-            "chorus": true
-        },
-        {
-            "chords": "a G a\nC G7 C\nC C7 F d\na E7 a",
-            "lyrics": "Gdzie\u015b na dnie wielkiej szafy le\u017cy ostry n\u00f3\u017c,\nStare d\u017cinsy wystrz\u0119pione impregnuje kurz,\nW kompasie ig\u0142a zardzewia\u0142a, lecz kierunek znam,\nBior\u0119 w\u00f3r na plecy i przed siebie gnam.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Gdzie ta keja, a przy niej ten jacht...",
-            "chorus": true
-        },
-        {
-            "chords": "a G a\nC G7 C\nC C7 F d\na E7 a",
-            "lyrics": "Przesz\u0142y lata zapyzia\u0142e, rz\u0119s\u0105 por\u00f3s\u0142 staw,\nA na przystani cz\u00f3\u0142no sta\u0142o - kolorowy paw.\nZaokr\u0105gli\u0142y si\u0119 marzenia, wyja\u0142owia\u0142 step,\nLecz ci\u0105gle marzy o za\u0142odze ten samotny \u0142eb.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Gdzie ta keja, a przy niej ten jacht...",
-            "chorus": true
-        }
-    ]
-}
+#title Gdzie ta keja
+#author Jerzy Porębski
+#category Szanty
+
+#verse
+Gdyby tak ktoś przyszedł i powiedział: Stary, czy masz czas? ~ a G a
+Potrzebuję do załogi jakąś nową twarz, ~ C G7 C
+Amazonka, Wielka Rafa, oceany trzy, ~ C C7 F d
+Rejs na całość, rok, dwa lata - to powiedziałbym: ~ a E7 a
+
+#chorus
+Gdzie ta keja, a przy niej ten jacht? ~ a G a
+Gdzie ta koja wymarzona w snach? ~ C G C
+Gdzie te wszystkie sznurki od tych szmat? ~ g A7 d A7 d
+Gdzie ta brama na szeroki świat? ~ a E7 a
+
+#chorus
+Gdzie ta keja, a przy niej ten jacht? ~ a G a
+Gdzie ta koja wymarzona w snach? ~ C G C
+W każdej chwili płynę w taki rejs, ~ g A7 d A7 d
+Tylko gdzie to jest? No gdzie to jest? ~ a E7 a
+
+#verse
+Gdzieś na dnie wielkiej szafy leży ostry nóż, ~ a G a
+Stare dżinsy wystrzępione impregnuje kurz, ~ C G7 C
+W kompasie igła zardzewiała, lecz kierunek znam, ~ C C7 F d
+Biorę wór na plecy i przed siebie gnam. ~ a E7 a
+
+#chorus
+Gdzie ta keja, a przy niej ten jacht...
+
+#verse
+Przeszły lata zapyziałe, rzęsą porósł staw, ~ a G a
+A na przystani czółno stało - kolorowy paw. ~ C G7 C
+Zaokrągliły się marzenia, wyjałowiał step, ~ C C7 F d
+Lecz ciągle marzy o załodze ten samotny łeb. ~ a E7 a
+
+#chorus
+Gdzie ta keja, a przy niej ten jacht...
+

@@ -1,32 +1,51 @@
-{
-    "title": "Ko\u0142ysanka dla nieznajomej",
-    "author": "Perfect",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "C a\nF\nC a\nF\nC a\ne\nF C F\nF G a\nF G",
-            "lyrics": "Gdy nie bawi ci\u0119 ju\u017c\n\u015awiat zabawek mechanicznych\nKiedy dr\u0119czy ci\u0119 b\u00f3l\nNiefizyczny\nZamiast s\u0142ucha\u0107 bzdur\nG\u0142upich telefonicznych wr\u00f3\u017cek\nZza siedmiu m\u00f3rz\nSpytaj siebie czego pragniesz\nDlaczego k\u0142amiesz, \u017ce mia\u0142a\u015b wszystko",
-            "chorus": false
-        },
-        {
-            "chords": "C a\nF\nC a\nF\nC a\ne\nF C F\nF G a\nF G",
-            "lyrics": "Gdy udaj\u0105c, \u017ce \u015bpisz\nW g\u0142owie tropisz bajki z gazet\nKiedy nie chcesz ju\u017c \u015bni\u0107\nCudzych marze\u0144\nBosa do mnie przyjd\u017a\nI od progu bezwstydnie powiedz mi\nCzego chcesz\nS\u0142uchaj jak dwa serca bij\u0105\nCo ludzie my\u015bl\u0105 - to nieistotne",
-            "chorus": false
-        },
-        {
-            "chords": "C G7 a7 G\nC G7 a7 G\nC G7 a7 G\ne\nF G\nF G a\nF G",
-            "lyrics": "Kochaj mnie\nKochaj mnie\nKochaj mnie nieprzytomnie\nJak zapalniczka p\u0142omie\u0144\nJak sucha studnia wod\u0119\nKochaj mnie nami\u0119tnie tak\nJakby \u015bwiat si\u0119 sko\u0144czy\u0107 mia\u0142",
-            "chorus": true
-        },
-        {
-            "chords": "C a\ne\nF C F\nF G a\nF G",
-            "lyrics": "Swoje miejsce znajd\u017a\nI nie pytaj czy taki uk\u0142ad ma jaki\u015b sens\nS\u0142uchaj co twe cia\u0142o m\u00f3wi\nW mi\u0142osnej studni ju\u017c nie utoniesz",
-            "chorus": false
-        },
-        {
-            "chords": "C G7 a7 G\nC G7 a7 G\nC G7 a7 G\ne\nF G\nF G a\nF G",
-            "lyrics": "Kochaj mnie\nKochaj mnie\nKochaj mnie nieprzytomnie\nJak ksi\u0119\u017cyc w oknie \u015bmiej si\u0119 i p\u0142acz\nNa linie nad przepa\u015bci\u0105 ta\u0144cz\nA\u017c w jedn\u0105 kr\u00f3tk\u0105 chwil\u0119\nPojmiesz po co \u017cyjesz",
-            "chorus": true
-        }
-    ]
-}
+#title Kołysanka dla nieznajomej
+#author Perfect
+#category Klasyka polskiego rocka
+
+#verse
+Gdy nie bawi cię już ~ C a
+Świat zabawek mechanicznych ~ F
+Kiedy dręczy cię ból ~ C a
+Niefizyczny ~ F
+Zamiast słuchać bzdur ~ C a
+Głupich telefonicznych wróżek ~ e
+Zza siedmiu mórz ~ F C F
+Spytaj siebie czego pragniesz ~ F G a
+Dlaczego kłamiesz, że miałaś wszystko ~ F G
+
+#verse
+Gdy udając, że śpisz ~ C a
+W głowie tropisz bajki z gazet ~ F
+Kiedy nie chcesz już śnić ~ C a
+Cudzych marzeń ~ F
+Bosa do mnie przyjdź ~ C a
+I od progu bezwstydnie powiedz mi ~ e
+Czego chcesz ~ F C F
+Słuchaj jak dwa serca biją ~ F G a
+Co ludzie myślą - to nieistotne ~ F G
+
+#chorus
+Kochaj mnie ~ C G7 a7 G
+Kochaj mnie ~ C G7 a7 G
+Kochaj mnie nieprzytomnie ~ C G7 a7 G
+Jak zapalniczka płomień ~ e
+Jak sucha studnia wodę ~ F G
+Kochaj mnie namiętnie tak ~ F G a
+Jakby świat się skończyć miał ~ F G
+
+#verse
+Swoje miejsce znajdź ~ C a
+I nie pytaj czy taki układ ma jakiś sens ~ e
+Słuchaj co twe ciało mówi ~ F C F
+W miłosnej studni już nie utoniesz ~ F G a
+~ F G
+
+#chorus
+Kochaj mnie ~ C G7 a7 G
+Kochaj mnie ~ C G7 a7 G
+Kochaj mnie nieprzytomnie ~ C G7 a7 G
+Jak księżyc w oknie śmiej się i płacz ~ e
+Na linie nad przepaścią tańcz ~ F G
+Aż w jedną krótką chwilę ~ F G a
+Pojmiesz po co żyjesz ~ F G
+

@@ -1,57 +1,52 @@
-{
-    "title": "Bitwa",
-    "author": "Mechanicy Szanty",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "e h C a\ne D G H",
-            "lyrics": "Okr\u0119t nasz wp\u0142yn\u0105\u0142 w mg\u0142\u0119 i fregaty dwie\nPop\u0142yn\u0119\u0142y naszym kursem by nie zgubi\u0107 si\u0119\nPotem szkwa\u0142 wypchn\u0105\u0142 nas poza mleczny pas\nI nikt wtedy nie przypuszcza\u0142 \u017ce fregaty \u015bmier\u0107 nam nios\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "G D e h\nC D e",
-            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami\nWygra ten kto utrzyma ship\nW huku dzia\u0142 kto\u015b przykryje si\u0119 falami\nJak da B\u00f3g ocalimy bryg",
-            "chorus": true
-        },
-        {
-            "chords": "e h C a\ne D G H",
-            "lyrics": "Nag\u0142y huk w uszach gra\u0142 i ju\u017c atak trwa\u0142\nTo fregaty uzbrojone rz\u0119dem w setk\u0119 dzia\u0142\nCzarny dym spowi\u0142 nas przyszed\u0142 \u015bmierci czas\nKrzyk i lament mych kamrat\u00f3w przerywany ogniem kat\u00f3w",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
-            "chorus": true
-        },
-        {
-            "chords": "e h C a\ne D G H",
-            "lyrics": "Pocisk nasz trafi\u0142 w maszt us\u0142ysza\u0142em trzask\nTo sterburt\u0119 rozwali\u0142a jedna z naszych salw\n\u017bagiel staw krzykn\u0105\u0142 kto\u015b zn\u00f3w pirat\u00f3w z\u0142o\u015b\u0107\nBo od rufy nam powia\u0142o a fregatom w mord\u0119 wia\u0142o",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
-            "chorus": true
-        },
-        {
-            "chords": "e h C a\ne D G H",
-            "lyrics": "Z fregat dw\u00f3ch tylko ta pierwsza w pogo\u0144 sz\u0142a\nWnet aborda\u017c rozpocz\u0119li gdy dopadli nas\nSzyper ich dziury dwie zrobi\u0142 w swoim dnie\nNie pomog\u0142o to psubratom reszta z rei zwisa za to",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
-            "chorus": true
-        },
-        {
-            "chords": "e h C a\ne D G H",
-            "lyrics": "Po dzi\u015b dzie\u0144 tamt\u0105 mg\u0142\u0119 i fregaty dwie\nKiedy noc zamyka oczy widz\u0119 w moim \u015bnie\nTamci co \u015bpi\u0105 na dnie u\u015bmiechaj\u0105 si\u0119\n\u017be ich straszn\u0105 \u015bmier\u0107 pom\u015bcili bracia kt\u00f3rzy zwyci\u0119\u017cyli",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ciep\u0142a krew poleje si\u0119 strugami...",
-            "chorus": true
-        }
-    ]
-}
+#title Bitwa
+#author Mechanicy Szanty
+#category Szanty
+
+#verse
+Okręt nasz wpłynął w mgłę i fregaty dwie ~ e h C a
+Popłynęły naszym kursem by nie zgubić się ~ e D G H
+Potem szkwał wypchnął nas poza mleczny pas
+I nikt wtedy nie przypuszczał że fregaty śmierć nam niosą
+
+#chorus
+Ciepła krew poleje się strugami ~ G D e h
+Wygra ten kto utrzyma ship ~ C D e
+W huku dział ktoś przykryje się falami
+Jak da Bóg ocalimy bryg
+
+#verse
+Nagły huk w uszach grał i już atak trwał ~ e h C a
+To fregaty uzbrojone rzędem w setkę dział ~ e D G H
+Czarny dym spowił nas przyszedł śmierci czas
+Krzyk i lament mych kamratów przerywany ogniem katów
+
+#chorus
+Ciepła krew poleje się strugami...
+
+#verse
+Pocisk nasz trafił w maszt usłyszałem trzask ~ e h C a
+To sterburtę rozwaliła jedna z naszych salw ~ e D G H
+Żagiel staw krzyknął ktoś znów piratów złość
+Bo od rufy nam powiało a fregatom w mordę wiało
+
+#chorus
+Ciepła krew poleje się strugami...
+
+#verse
+Z fregat dwóch tylko ta pierwsza w pogoń szła ~ e h C a
+Wnet abordaż rozpoczęli gdy dopadli nas ~ e D G H
+Szyper ich dziury dwie zrobił w swoim dnie
+Nie pomogło to psubratom reszta z rei zwisa za to
+
+#chorus
+Ciepła krew poleje się strugami...
+
+#verse
+Po dziś dzień tamtą mgłę i fregaty dwie ~ e h C a
+Kiedy noc zamyka oczy widzę w moim śnie ~ e D G H
+Tamci co śpią na dnie uśmiechają się
+Że ich straszną śmierć pomścili bracia którzy zwyciężyli
+
+#chorus
+Ciepła krew poleje się strugami...
+

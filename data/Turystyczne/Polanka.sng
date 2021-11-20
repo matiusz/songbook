@@ -1,37 +1,34 @@
-{
-    "title": "Polanka",
-    "author": "s\u0142. Zbigniew Stefa\u0144ski, muz. Zbigniew Stefa\u0144ski, Jaros\u0142aw \"Horacy\" Chrz\u0105stek",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "a d a\nF E\na d a\nF E",
-            "lyrics": "Li\u015bci zieleni\u0105 zagra nam wiatr\nA \u015bpiewno\u015b\u0107 ptak\u00f3w tylko prawd\u0119 powie\nCho\u0107 niepoj\u0119ty ten ca\u0142y \u015bwiat\nCho\u0107 nam nie wszystko chce zmie\u015bci\u0107 si\u0119 w g\u0142owie",
-            "chorus": false
-        },
-        {
-            "chords": "a d a\nG F E\na d a\nG F E a",
-            "lyrics": "To - zata\u0144cz ze mn\u0105 na polanie\nOt tak po prostu\nTo - zata\u0144cz ze mn\u0105 na polanie\nCho\u0107 raz prawdziwie zata\u0144cz ze mn\u0105 w sobie",
-            "chorus": true
-        },
-        {
-            "chords": "a d a\nF E\na d a\nF E",
-            "lyrics": "Sp\u00f3jrz drzewa takie s\u0105 u\u015bmiechni\u0119te\nA trawa o\u015bwiadcza si\u0119 kwiatom\nCho\u0107 nienazwane to pi\u0119kne przepi\u0119knie\nOddaj\u0105 si\u0119 wszystkim nie bior\u0105c nic za to",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "To zata\u0144cz ze mn\u0105 na polanie...",
-            "chorus": true
-        },
-        {
-            "chords": "a d a\nF E\na d a\nF E",
-            "lyrics": "Drzewa co\u015b szepc\u0105 co\u015b ci\u0105gle \u015bpiewaj\u0105\nI pe\u0142no w ich szumie jest twojej pi\u0119kno\u015bci\nCho\u0107 troszeczk\u0119 o jesieni baj\u0105\nTo i tak las pe\u0142en jest naszej mi\u0142o\u015bci",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "To zata\u0144cz ze mn\u0105 na polanie...",
-            "chorus": true
-        }
-    ]
-}
+#title Polanka
+#author sł. Zbigniew Stefański, muz. Zbigniew Stefański, Jarosław "Horacy" Chrząstek
+#category Turystyczne
+
+#verse
+Liści zielenią zagra nam wiatr ~ a d a
+A śpiewność ptaków tylko prawdę powie ~ F E
+Choć niepojęty ten cały świat ~ a d a
+Choć nam nie wszystko chce zmieścić się w głowie ~ F E
+
+#chorus
+To - zatańcz ze mną na polanie ~ a d a
+Ot tak po prostu ~ G F E
+To - zatańcz ze mną na polanie ~ a d a
+Choć raz prawdziwie zatańcz ze mną w sobie ~ G F E a
+
+#verse
+Spójrz drzewa takie są uśmiechnięte ~ a d a
+A trawa oświadcza się kwiatom ~ F E
+Choć nienazwane to piękne przepięknie ~ a d a
+Oddają się wszystkim nie biorąc nic za to ~ F E
+
+#chorus
+To zatańcz ze mną na polanie...
+
+#verse
+Drzewa coś szepcą coś ciągle śpiewają ~ a d a
+I pełno w ich szumie jest twojej piękności ~ F E
+Choć troszeczkę o jesieni bają ~ a d a
+To i tak las pełen jest naszej miłości ~ F E
+
+#chorus
+To zatańcz ze mną na polanie...
+

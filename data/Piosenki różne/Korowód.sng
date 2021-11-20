@@ -1,37 +1,39 @@
-{
-    "title": "Korow\u00f3d",
-    "author": "Marek Grechuta",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e C\nH e\nC D\nG D\nA e G D\ne C H e",
-            "lyrics": "Kto pierwszy szed\u0142 przed siebie?\nKto pierwszy cel wyznaczy\u0142?\nKto pierwszy w nas rozpozna\u0142?\nKto wrog\u00f3w? Kto przyjaci\u00f3\u0142?\nKto pierwszy s\u0142aw\u0119 wszelk\u0105 i w\u0142o\u015bci swe mia\u0142 za nic?\nA kto nie umia\u0142 zasn\u0105\u0107 nim nie wymysli\u0142 granic?",
-            "chorus": false
-        },
-        {
-            "chords": "e C H e\nC D G D\nA e G D\ne C H e",
-            "lyrics": "Kto pierwszy w noc bezsenn\u0105 wymy\u015bli\u0142 wielk\u0105 armi\u0119?\nKto zosta\u0142 bohaterem? Kto \u017cy\u0142 i umar\u0142 marnie?\nKto pierwszy zosta\u0142 panem? Kto pierwszy zosta\u0142 s\u0142ug\u0105?\nKto musia\u0142 wstawa\u0107 wcze\u015bnie, a kto m\u00f3g\u0142 spa\u0107 za d\u0142ugo?",
-            "chorus": false
-        },
-        {
-            "chords": "e A e A\nfis H fis H\ne A e A\nfis H G D",
-            "lyrics": "Zapatrzeni w ta\u0144cu, zapatrzeni w siebie\nZapatrzeni w s\u0142o\u0144cu , zapatrzeni w niebie\nWci\u0105\u017c niepewni siebie, siebie niewiadomi\nPyta\u0107 wci\u0105\u017c b\u0119dziemy, pyta\u0107 po kryjomu",
-            "chorus": true
-        },
-        {
-            "chords": "e C H e\nC D G D\nA e G D\ne C H e",
-            "lyrics": "Kto pierwszy szed\u0142 przed siebie? Kto pierwszy cel wyznaczy\u0142?\nKto pierwszy w nas rozpozna\u0142 - Kto wrog\u00f3w? Kto przyjaci\u00f3\u0142?\nKto pierwszy s\u0142aw\u0119 wszelk\u0105 i w\u0142o\u015bci swe mia\u0142 za nic?\nA kto nie umia\u0142 zasn\u0105\u0107 nim nie wymy\u015bli\u0142 granic?",
-            "chorus": false
-        },
-        {
-            "chords": "e C H e\nC D G D\nA e G D\ne C H e",
-            "lyrics": "Kto pierwszy by\u0142 fakirem? Kto pierwszy astrologiem?\nKto pierwszy zosta\u0142 kr\u00f3lem? A kto chcia\u0142 zosta\u0107 bogiem?\nKto z gwiazdozbioru Vega patrz\u0105c na ziemi\u0119 zgadnie\nKto pierwszy by\u0142 cz\u0142owiekiem? Kto b\u0119dzie nim ostatni?",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Zapatrzeni w ta\u0144cu...",
-            "chorus": true
-        }
-    ]
-}
+#title Korowód
+#author Marek Grechuta
+#category Piosenki różne
+
+#verse
+Kto pierwszy szedł przed siebie? ~ e C
+Kto pierwszy cel wyznaczył? ~ H e
+Kto pierwszy w nas rozpoznał? ~ C D
+Kto wrogów? Kto przyjaciół? ~ G D
+Kto pierwszy sławę wszelką i włości swe miał za nic? ~ A e G D
+A kto nie umiał zasnąć nim nie wymyslił granic? ~ e C H e
+
+#verse
+Kto pierwszy w noc bezsenną wymyślił wielką armię? ~ e C H e
+Kto został bohaterem? Kto żył i umarł marnie? ~ C D G D
+Kto pierwszy został panem? Kto pierwszy został sługą? ~ A e G D
+Kto musiał wstawać wcześnie, a kto mógł spać za długo? ~ e C H e
+
+#chorus
+Zapatrzeni w tańcu, zapatrzeni w siebie ~ e A e A
+Zapatrzeni w słońcu , zapatrzeni w niebie ~ fis H fis H
+Wciąż niepewni siebie, siebie niewiadomi ~ e A e A
+Pytać wciąż będziemy, pytać po kryjomu ~ fis H G D
+
+#verse
+Kto pierwszy szedł przed siebie? Kto pierwszy cel wyznaczył? ~ e C H e
+Kto pierwszy w nas rozpoznał - Kto wrogów? Kto przyjaciół? ~ C D G D
+Kto pierwszy sławę wszelką i włości swe miał za nic? ~ A e G D
+A kto nie umiał zasnąć nim nie wymyślił granic? ~ e C H e
+
+#verse
+Kto pierwszy był fakirem? Kto pierwszy astrologiem? ~ e C H e
+Kto pierwszy został królem? A kto chciał zostać bogiem? ~ C D G D
+Kto z gwiazdozbioru Vega patrząc na ziemię zgadnie ~ A e G D
+Kto pierwszy był człowiekiem? Kto będzie nim ostatni? ~ e C H e
+
+#chorus
+Zapatrzeni w tańcu...
+

@@ -1,62 +1,55 @@
-{
-    "title": "W\u0142osy",
-    "author": "Elektryczne Gitary",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Kiedy jeste\u015b pi\u0119kny i m\u0142ody\nNie, nie, nie, nie zapuszczaj w\u0105s\u00f3w ani brody,\nTylko no\u015b, no\u015b, no\u015b d\u0142ugie w\u0142osy Jak my.",
-            "chorus": false
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Kiedy jeste\u015b stary i brzydki\nNie, nie, nie, nie u\u017cywaj maszynki ani brzytwy,\nTylko no\u015b, no\u015b, no\u015b d\u0142ugie w\u0142osy, Jak my",
-            "chorus": false
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Bo najlepszy spos\u00f3b na dziewczyn\u0119\nZrobi\u0107 sobie z w\u0142os\u00f3w peleryn\u0119,\nA ty no\u015b, no\u015b, no\u015b d\u0142ugie w\u0142osy, Jak my.",
-            "chorus": false
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Ju\u017c ci\u0119 rodzina z domu wygania\nJu\u017c ci\u0119 fryzjer z no\u017cycami gania,\nA ty no\u015b, no\u015b, no\u015b d\u0142ugie w\u0142osy, Jak my.",
-            "chorus": true
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Idzie hippis z d\u0142ugimi w\u0142osami\nskr\u0119ci\u0142 z kruczej idzie alejami\na ty no\u015b no\u015b no\u015b d\u0142ugie w\u0142osy jak my",
-            "chorus": false
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Idzie \u017co\u0142nierz z d\u0142ugimi w\u0142osami\nWSW go goni alejami\na ty no\u015b no\u015b no\u015b d\u0142ugie w\u0142osy jak my",
-            "chorus": false
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Bo najlepszy spos\u00f3b na kobiet\u0119\nZrobi\u0107 sobie z w\u0142os\u00f3w bransolet\u0119,\nA ty no\u015b, no\u015b, no\u015b d\u0142ugie w\u0142osy, Jak my.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Zn\u00f3w ci\u0119 rodzina z domu wygania...",
-            "chorus": true
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Idzie ojciec niesie nowe szachy\nD\u0142ugie w\u0142osy wisz\u0105 mu spod pachy,\nA ty no\u015b, no\u015b, no\u015b d\u0142ugie w\u0142osy, Jak my.",
-            "chorus": false
-        },
-        {
-            "chords": "a C D E\na C D E\na C D E a G F E",
-            "lyrics": "Idzie ciotka, idzie ca\u0142kiem bosa\nD\u0142ugie w\u0142osy wisz\u0105 jej u nosa,\nA ty no\u015b, no\u015b, no\u015b d\u0142ugie w\u0142osy Jak my",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "I niech ci\u0119 rodzina z domu wygania...",
-            "chorus": true
-        }
-    ]
-}
+#title Włosy
+#author Elektryczne Gitary
+#category Klasyka polskiego rocka
+
+#verse
+Kiedy jesteś piękny i młody ~ a C D E
+Nie, nie, nie, nie zapuszczaj wąsów ani brody, ~ a C D E
+Tylko noś, noś, noś długie włosy Jak my. ~ a C D E a G F E
+
+#verse
+Kiedy jesteś stary i brzydki ~ a C D E
+Nie, nie, nie, nie używaj maszynki ani brzytwy, ~ a C D E
+Tylko noś, noś, noś długie włosy, Jak my ~ a C D E a G F E
+
+#verse
+Bo najlepszy sposób na dziewczynę ~ a C D E
+Zrobić sobie z włosów pelerynę, ~ a C D E
+A ty noś, noś, noś długie włosy, Jak my. ~ a C D E a G F E
+
+#chorus
+Już cię rodzina z domu wygania ~ a C D E
+Już cię fryzjer z nożycami gania, ~ a C D E
+A ty noś, noś, noś długie włosy, Jak my. ~ a C D E a G F E
+
+#verse
+Idzie hippis z długimi włosami ~ a C D E
+skręcił z kruczej idzie alejami ~ a C D E
+a ty noś noś noś długie włosy jak my ~ a C D E a G F E
+
+#verse
+Idzie żołnierz z długimi włosami ~ a C D E
+WSW go goni alejami ~ a C D E
+a ty noś noś noś długie włosy jak my ~ a C D E a G F E
+
+#verse
+Bo najlepszy sposób na kobietę ~ a C D E
+Zrobić sobie z włosów bransoletę, ~ a C D E
+A ty noś, noś, noś długie włosy, Jak my. ~ a C D E a G F E
+
+#chorus
+Znów cię rodzina z domu wygania...
+
+#verse
+Idzie ojciec niesie nowe szachy ~ a C D E
+Długie włosy wiszą mu spod pachy, ~ a C D E
+A ty noś, noś, noś długie włosy, Jak my. ~ a C D E a G F E
+
+#verse
+Idzie ciotka, idzie całkiem bosa ~ a C D E
+Długie włosy wiszą jej u nosa, ~ a C D E
+A ty noś, noś, noś długie włosy Jak my ~ a C D E a G F E
+
+#chorus
+I niech cię rodzina z domu wygania...
+

@@ -1,32 +1,54 @@
-{
-    "title": "Cieszy\u0144ska",
-    "author": "s\u0142. i muz. Jaromir Nohavica, t\u0142um. Artur Andrus",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "a d F7+\nFE a (adF7+ FEa)\na d F7+\nFE a (adF7+ FEa)\nC d\nF C\nC d\nFE a (adF7+ FEa)",
-            "lyrics": "Gdybym si\u0119 urodzi\u0142 przed stu laty\nW moim grodzie\nU Larisz\u00f3w dla mej lubej rwa\u0142bym kwiaty\nW ich ogrodzie.\nMoja \u017cona by\u0142aby starsza c\u00f3rk\u0105 szewca\nKami\u0144skiego, co wcze\u015bniej we Lwowie mieszka\u0142.\nKocha\u0142bym j\u0105 i pie\u015bci\u0142\nchyba lat dwie\u015bcie.",
-            "chorus": false
-        },
-        {
-            "chords": "a d F7+\nFE a (adF7+ FEa)\na d F7+\nFE a (adF7+ FEa)\nC d\nF C\nC d\nFE a (adF7+ FEa)",
-            "lyrics": "Mieszkaliby\u015bmy na Sachsenbergu,\nW kamienicy \u017byda Kohna,\nNajpi\u0119kniejsz\u0105 z wszystkich cieszy\u0144sk\u0105 per\u0142\u0105\nBy\u0142aby ona.\nM\u00f3wi\u0105c - miesza\u0142aby czeski i polski,\nszprecha\u0142aby czasem, a \u015bmiech by mia\u0142a boski.\nRaz na sto lat cud by si\u0119 dokona\u0142,\ncud si\u0119 dokona\u0142.",
-            "chorus": true
-        },
-        {
-            "chords": "a d F7+\nFE a (adF7+ FEa)\na d F7+\nFE a (adF7+ FEa)\nC d\nF C\nC d\nFE a (adF7+ FEa)",
-            "lyrics": "Gdybym sto lat temu si\u0119 narodzi\u0142\nBy\u0142by ze mnie introligator\nU Prochazki bym robi\u0142 po dwana\u015bcie godzin\nI siedem z\u0142otych bra\u0142 za to\nMia\u0142bym \u015bliczn\u0105 \u017con\u0119 i ju\u017c trzecie dzieci\u0119,\nW zdrowiu \u017cy\u0142 przez trzydzie\u015bci lat na tym \u015bwiecie\nI ca\u0142e d\u0142ugie \u017cycie przed sob\u0105,\nCa\u0142e pi\u0119kne dwudzieste stulecie",
-            "chorus": false
-        },
-        {
-            "chords": "a d F7+\nFE a (adF7+ FEa)\na d F7+\nFE a (adF7+ FEa)\nC d\nF C\nC d\nFE a (adF7+ FEa)",
-            "lyrics": "Gdybym si\u0119 urodzi\u0142 przed stu laty\nI z tob\u0105 spotka\u0142\nU Larisz\u00f3w w ich ogrodzie rwa\u0142bym kwiaty\nDla ciebie, s\u0142odka.\nTramwaj by je\u017adzi\u0142 pod g\u00f3r\u0119 za rzek\u0119,\nS\u0142o\u0144ce by wznosi\u0142o szlabanu powiek\u0119\nA z okien snu\u0142by si\u0119 zapach\n\u015awi\u0105tecznych potraw.",
-            "chorus": true
-        },
-        {
-            "chords": "a d F7+\nFE a (adF7+ FEa)\na d F7+\nFE a (adF7+ FEa)\nC d\nF C\nC d\nFE a (adF7+ FEa)",
-            "lyrics": "Wiatr wieczorami ni\u00f3s\u0142by po mie\u015bcie\nPie\u015bni grane w dawnych wiekach.\nBy\u0142oby lato tysi\u0105c dziewi\u0119\u0107set dziesi\u0119\u0107,\nZa domem by szumia\u0142a rzeka.\nWidz\u0119 tam dzisiaj nas - id\u0105cych brzegiem,\nMnie, \u017con\u0119, dzieci pod cieszy\u0144skim niebem.\nMo\u017ce i dobrze, \u017ce cz\u0142owiek nie wie,\nCo go czeka.",
-            "chorus": false
-        }
-    ]
-}
+#title Cieszyńska
+#author sł. i muz. Jaromir Nohavica, tłum. Artur Andrus
+#category Piosenki różne
+
+#verse
+Gdybym się urodził przed stu laty ~ a d F7+
+W moim grodzie ~ FE a (adF7+ FEa)
+U Lariszów dla mej lubej rwałbym kwiaty ~ a d F7+
+W ich ogrodzie. ~ FE a (adF7+ FEa)
+Moja żona byłaby starsza córką szewca ~ C d
+Kamińskiego, co wcześniej we Lwowie mieszkał. ~ F C
+Kochałbym ją i pieścił ~ C d
+chyba lat dwieście. ~ FE a (adF7+ FEa)
+
+#chorus
+Mieszkalibyśmy na Sachsenbergu, ~ a d F7+
+W kamienicy Żyda Kohna, ~ FE a (adF7+ FEa)
+Najpiękniejszą z wszystkich cieszyńską perłą ~ a d F7+
+Byłaby ona. ~ FE a (adF7+ FEa)
+Mówiąc - mieszałaby czeski i polski, ~ C d
+szprechałaby czasem, a śmiech by miała boski. ~ F C
+Raz na sto lat cud by się dokonał, ~ C d
+cud się dokonał. ~ FE a (adF7+ FEa)
+
+#verse
+Gdybym sto lat temu się narodził ~ a d F7+
+Byłby ze mnie introligator ~ FE a (adF7+ FEa)
+U Prochazki bym robił po dwanaście godzin ~ a d F7+
+I siedem złotych brał za to ~ FE a (adF7+ FEa)
+Miałbym śliczną żonę i już trzecie dziecię, ~ C d
+W zdrowiu żył przez trzydzieści lat na tym świecie ~ F C
+I całe długie życie przed sobą, ~ C d
+Całe piękne dwudzieste stulecie ~ FE a (adF7+ FEa)
+
+#chorus
+Gdybym się urodził przed stu laty ~ a d F7+
+I z tobą spotkał ~ FE a (adF7+ FEa)
+U Lariszów w ich ogrodzie rwałbym kwiaty ~ a d F7+
+Dla ciebie, słodka. ~ FE a (adF7+ FEa)
+Tramwaj by jeździł pod górę za rzekę, ~ C d
+Słońce by wznosiło szlabanu powiekę ~ F C
+A z okien snułby się zapach ~ C d
+Świątecznych potraw. ~ FE a (adF7+ FEa)
+
+#verse
+Wiatr wieczorami niósłby po mieście ~ a d F7+
+Pieśni grane w dawnych wiekach. ~ FE a (adF7+ FEa)
+Byłoby lato tysiąc dziewięćset dziesięć, ~ a d F7+
+Za domem by szumiała rzeka. ~ FE a (adF7+ FEa)
+Widzę tam dzisiaj nas - idących brzegiem, ~ C d
+Mnie, żonę, dzieci pod cieszyńskim niebem. ~ F C
+Może i dobrze, że człowiek nie wie, ~ C d
+Co go czeka. ~ FE a (adF7+ FEa)
+

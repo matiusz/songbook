@@ -1,37 +1,34 @@
-{
-    "title": "Nie rozdziobi\u0105 nas kruki",
-    "author": "s\u0142. Edward Stachura, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "D G0 h G\nfis e A A7/4\nD G0 h G\nD A G",
-            "lyrics": "Nie rozdziobi\u0105 nas kruki\nNi wrony, ani nic!\nNie rozszarpi\u0105 na sztuki\nPoezji w\u015bciek\u0142e k\u0142y!",
-            "chorus": false
-        },
-        {
-            "chords": "Fis h\nG D A A7/4\nFis h\nG D A D",
-            "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo;\nNiechybnie brakuje tam nas!\nOd stania w miejscu niejeden ju\u017c zgin\u0105\u0142,\nNiejeden zgin\u0105\u0142 ju\u017c kwiat!",
-            "chorus": true
-        },
-        {
-            "chords": "D G0 h G\nfis e A A7/4\nD G0 h G\nD A G",
-            "lyrics": "Nie omami nas forsa\nNi s\u0142awy pusty d\u017awi\u0119k!\nInn\u0105 \u015bcigamy posta\u0107:\nRealnej zjawy tren!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo...",
-            "chorus": true
-        },
-        {
-            "chords": "D G0 h G\nfis e A A7/4\nD G0 h G\nD A G",
-            "lyrics": "Nie zdechniemy tak szybko,\nJak sobie roi \u015bmier\u0107!\nZiemia dla nas za p\u0142ytka,\nFruniemy w g\u00f3r\u0119 gdzie\u015b!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ruszaj si\u0119, Bruno, idziemy na piwo...",
-            "chorus": true
-        }
-    ]
-}
+#title Nie rozdziobią nas kruki
+#author sł. Edward Stachura, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Nie rozdziobią nas kruki ~ D G0 h G
+Ni wrony, ani nic! ~ fis e A A7/4
+Nie rozszarpią na sztuki ~ D G0 h G
+Poezji wściekłe kły! ~ D A G
+
+#chorus
+Ruszaj się, Bruno, idziemy na piwo; ~ Fis h
+Niechybnie brakuje tam nas! ~ G D A A7/4
+Od stania w miejscu niejeden już zginął, ~ Fis h
+Niejeden zginął już kwiat! ~ G D A D
+
+#verse
+Nie omami nas forsa ~ D G0 h G
+Ni sławy pusty dźwięk! ~ fis e A A7/4
+Inną ścigamy postać: ~ D G0 h G
+Realnej zjawy tren! ~ D A G
+
+#chorus
+Ruszaj się, Bruno, idziemy na piwo...
+
+#verse
+Nie zdechniemy tak szybko, ~ D G0 h G
+Jak sobie roi śmierć! ~ fis e A A7/4
+Ziemia dla nas za płytka, ~ D G0 h G
+Fruniemy w górę gdzieś! ~ D A G
+
+#chorus
+Ruszaj się, Bruno, idziemy na piwo...
+

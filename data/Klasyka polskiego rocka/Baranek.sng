@@ -1,47 +1,59 @@
-{
-    "title": "Baranek",
-    "author": "Kult",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "A\nd\nA\nd\nD\ng\nA d\nA d",
-            "lyrics": "Ach ci ludzie, to brudne \u015bwinie,\nCo napletli o mojej dziewczynie\nJakie\u015b bzdury o jej na\u0142ogach\nTo\u017c to po prostu lito\u015b\u0107 i trwoga\nTak to bywa gdy kto\u015b zazdro\u015bci\nKiedy brak mu w\u0142asnej mi\u0142o\u015bci\nPlotki p\u0142odzi, mnie nie zaszkodzi \u017cadne obce z\u0142o\nNa m\u00f3j spos\u00f3b widzie\u0107 j\u0105.",
-            "chorus": false
-        },
-        {
-            "chords": "A d\nA d\ng d\nA d",
-            "lyrics": "Na g\u0142owie kwietny ma wianek\nW r\u0119ku zielony badylek\nA przed ni\u0105 bie\u017cy baranek\nA nad ni\u0105 lata motylek",
-            "chorus": true
-        },
-        {
-            "chords": "A\nd\nA\nd\nD\ng\nA d\nA d",
-            "lyrics": "Krzywd\u0119 robi\u0105 mojej panience\nOplu\u0107 chc\u0105 j\u0105 podli zbocze\u0144cy\nUtopi\u0107 chc\u0105 j\u0105 w morzu zawi\u015bci\nParanoicy, podli sady\u015bci\nUtaplani w pod\u0142ej rozpu\u015bcie\nA na g\u0119bach fa\u0142szywy u\u015bmiech\nByle zagna\u0107 do swego bagna, ale wara wam\nJa j\u0105 przecie\u017c lepiej znam.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Na g\u0142owie kwietny ma wianek...",
-            "chorus": true
-        },
-        {
-            "chords": "A\nd\nA\nd\nD\ng\nA d\nA d",
-            "lyrics": "Zn\u00f3w widzieli j\u0105 z jakim\u015b ch\u0142opcem\nZn\u00f3w wyjecha\u0142a do St. Tropez\nZn\u00f3w m\u0119czy\u0142a si\u0119, Bo\u017ce drogi,\nZn\u00f3w na jachtach my\u0142a pod\u0142ogi\nTylko czemu r\u0119ce ma bia\u0142e\nChcia\u0142em zapyta\u0107, zapomnia\u0142em\nCia\u0142o k\u0142oni\u0105c skin\u0119\u0142a d\u0142oni\u0105 wspar\u0142a skro\u0144 o skro\u0144\nZn\u00f3w zapad\u0142em w ni\u0105 jak w to\u0144.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Na g\u0142owie kwietny ma wianek...",
-            "chorus": true
-        },
-        {
-            "chords": "A\nd\nA\nd\nD\ng\nA d\nA d",
-            "lyrics": "Ech dziewczyna pi\u0119knie si\u0119 stara\nKosi pieni\u0105dz, ma Jaguara\nTrudno prac\u0119 z mi\u0142o\u015bci\u0105 zgodzi\u0107\nRzadziej mo\u017ce do mnie przychodzi\u0107\nTylko pyta kryj\u0105c rumieniec\nCzemu patrz\u0119 jak pot\u0119pieniec\nCzemu zgrzytam, kiedy si\u0119 pyta czy ma \u0142adny biust\nCzemu tocz\u0119 pian\u0119 z ust",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Na g\u0142owie kwietny ma wianek...",
-            "chorus": true
-        }
-    ]
-}
+#title Baranek
+#author Kult
+#category Klasyka polskiego rocka
+
+#verse
+Ach ci ludzie, to brudne świnie, ~ A
+Co napletli o mojej dziewczynie ~ d
+Jakieś bzdury o jej nałogach ~ A
+Toż to po prostu litość i trwoga ~ d
+Tak to bywa gdy ktoś zazdrości ~ D
+Kiedy brak mu własnej miłości ~ g
+Plotki płodzi, mnie nie zaszkodzi żadne obce zło ~ A d
+Na mój sposób widzieć ją. ~ A d
+
+#chorus
+Na głowie kwietny ma wianek ~ A d
+W ręku zielony badylek ~ A d
+A przed nią bieży baranek ~ g d
+A nad nią lata motylek ~ A d
+
+#verse
+Krzywdę robią mojej panience ~ A
+Opluć chcą ją podli zboczeńcy ~ d
+Utopić chcą ją w morzu zawiści ~ A
+Paranoicy, podli sadyści ~ d
+Utaplani w podłej rozpuście ~ D
+A na gębach fałszywy uśmiech ~ g
+Byle zagnać do swego bagna, ale wara wam ~ A d
+Ja ją przecież lepiej znam. ~ A d
+
+#chorus
+Na głowie kwietny ma wianek...
+
+#verse
+Znów widzieli ją z jakimś chłopcem ~ A
+Znów wyjechała do St. Tropez ~ d
+Znów męczyła się, Boże drogi, ~ A
+Znów na jachtach myła podłogi ~ d
+Tylko czemu ręce ma białe ~ D
+Chciałem zapytać, zapomniałem ~ g
+Ciało kłoniąc skinęła dłonią wsparła skroń o skroń ~ A d
+Znów zapadłem w nią jak w toń. ~ A d
+
+#chorus
+Na głowie kwietny ma wianek...
+
+#verse
+Ech dziewczyna pięknie się stara ~ A
+Kosi pieniądz, ma Jaguara ~ d
+Trudno pracę z miłością zgodzić ~ A
+Rzadziej może do mnie przychodzić ~ d
+Tylko pyta kryjąc rumieniec ~ D
+Czemu patrzę jak potępieniec ~ g
+Czemu zgrzytam, kiedy się pyta czy ma ładny biust ~ A d
+Czemu toczę pianę z ust ~ A d
+
+#chorus
+Na głowie kwietny ma wianek...
+

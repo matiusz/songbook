@@ -1,37 +1,41 @@
-{
-    "title": "Chod\u017a pomaluj m\u00f3j \u015bwiat",
-    "author": "Dwa Plus Jeden",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "a d\nG a\nC G\nd E a",
-            "lyrics": "Piszesz mi w li\u015bcie, \u017ce kiedy pada\nMoje nasturcje na deszczu mokn\u0105.\nSiadasz przy stole, wyjmujesz kredki\nI kolorowe otwierasz okno.",
-            "chorus": false
-        },
-        {
-            "chords": "a d\nG a\nC G\nd E a",
-            "lyrics": "Trawy i drzewa s\u0105 takie szare,\nBarw\u0119 popio\u0142u przybra\u0142y nieba.\nW ciszy tak smutno szepcze zegarek\nO czasie, co mi go nie potrzeba.",
-            "chorus": false
-        },
-        {
-            "chords": "C d\nF C\nC d\nF G\nC d\nF C\nC d\nF G",
-            "lyrics": "Wi\u0119c chod\u017a, pomaluj m\u00f3j \u015bwiat\nNa \u017c\u00f3\u0142to i na niebiesko.\nNiech na niebie stanie t\u0119cza\nMalowana twoj\u0105 kredk\u0105.\nWi\u0119c chod\u017a pomaluj mi \u017cycie,\nNiech \u015bwiat m\u00f3j si\u0119 zarumieni,\nNiech mi zal\u015bni w pe\u0142nym s\u0142o\u0144cu\nKolorami ca\u0142ej Ziemi.",
-            "chorus": true
-        },
-        {
-            "chords": "a d\nG a\nC G\nd E a",
-            "lyrics": "Za si\u00f3dm\u0105 g\u00f3r\u0105, za si\u00f3dm\u0105 rzek\u0105\nMoje sny zamieniasz na pejza\u017ce\nNiebem si\u0119 wlecze wyblak\u0142e s\u0142o\u0144ce\nO\u015bwietla ludzkie, wyblak\u0142e twarze.",
-            "chorus": false
-        },
-        {
-            "chords": "a d\nG a\nC G\nd E a",
-            "lyrics": "Trawy i drzewa s\u0105 takie szare,\nBarw\u0119 popio\u0142u przybra\u0142y nieba.\nW ciszy tak smutno szepcze zegarek\nO czasie, co mi go nie potrzeba.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wi\u0119c chod\u017a, pomaluj m\u00f3j \u015bwiat...",
-            "chorus": true
-        }
-    ]
-}
+#title Chodź pomaluj mój świat
+#author Dwa Plus Jeden
+#category Piosenki różne
+
+#verse
+Piszesz mi w liście, że kiedy pada ~ a d
+Moje nasturcje na deszczu mokną. ~ G a
+Siadasz przy stole, wyjmujesz kredki ~ C G
+I kolorowe otwierasz okno. ~ d E a
+
+#verse
+Trawy i drzewa są takie szare, ~ a d
+Barwę popiołu przybrały nieba. ~ G a
+W ciszy tak smutno szepcze zegarek ~ C G
+O czasie, co mi go nie potrzeba. ~ d E a
+
+#chorus
+Więc chodź, pomaluj mój świat ~ C d
+Na żółto i na niebiesko. ~ F C
+Niech na niebie stanie tęcza ~ C d
+Malowana twoją kredką. ~ F G
+Więc chodź pomaluj mi życie, ~ C d
+Niech świat mój się zarumieni, ~ F C
+Niech mi zalśni w pełnym słońcu ~ C d
+Kolorami całej Ziemi. ~ F G
+
+#verse
+Za siódmą górą, za siódmą rzeką ~ a d
+Moje sny zamieniasz na pejzaże ~ G a
+Niebem się wlecze wyblakłe słońce ~ C G
+Oświetla ludzkie, wyblakłe twarze. ~ d E a
+
+#verse
+Trawy i drzewa są takie szare, ~ a d
+Barwę popiołu przybrały nieba. ~ G a
+W ciszy tak smutno szepcze zegarek ~ C G
+O czasie, co mi go nie potrzeba. ~ d E a
+
+#chorus
+Więc chodź, pomaluj mój świat...
+

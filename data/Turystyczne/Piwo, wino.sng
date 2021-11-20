@@ -1,57 +1,53 @@
-{
-    "title": "Piwo, wino",
-    "author": "Grupa na Swoim",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "C F G\nC F G C",
-            "lyrics": "Do poci\u0105gu ju\u017c wsiadamy - raz, dwa, trzy, cztery\nJad\u0119 w g\u00f3ry z kolegami - na Mazury, hej\nKa\u017cdy z nas ma wielk\u0105 torb\u0119 - raz, dwa, trzy, cztery\nA w tej torbie le\u017cy sobie - wino, whisky, gin",
-            "chorus": false
-        },
-        {
-            "chords": "C F\nG C",
-            "lyrics": "Piwo, wino, whisky, gin\nwhisky, gin\nwhisky, gin\nPiwo, wino, whisky, gin\nwino, whisky, gin",
-            "chorus": true
-        },
-        {
-            "chords": "C F G\nC F G C",
-            "lyrics": "Arek ci\u0119\u017cko podr\u00f3\u017c znosi - raz, dwa, trzy, cztery\nI o pomoc bardzo prosi - bardzo prosi, hej\nJa wyci\u0105gam ze swej teczki - raz, dwa, trzy, cztery\nTak jak lekarz lek z apteczki - wino, whisky, gin",
-            "chorus": false
-        },
-        {
-            "chords": "C F G C",
-            "lyrics": "Piwo, wino, whisky, gin...",
-            "chorus": true
-        },
-        {
-            "chords": "C F G\nC F G C",
-            "lyrics": "Pan konduktor si\u0119 wy\u0142oni\u0142 - raz, dwa, trzy, cztery\nBileciki do kontroli - szybko dajcie hej\nZanim ka\u017cdy bilet wyjmie - raz, dwa, trzy, cztery\nJu\u017c konduktor z nami pije - wino, whisky, gin",
-            "chorus": false
-        },
-        {
-            "chords": "C F G C",
-            "lyrics": "Piwo, wino, whisky, gin...",
-            "chorus": true
-        },
-        {
-            "chords": "C F G\nC F G C",
-            "lyrics": "Tu\u017c za \u015bcian\u0105 jakie\u015b \u015bmiechy - raz, dwa, trzy, cztery\nPrzedzia\u0142 bardzo jest kobiecy - jest kobiecy, hej\nPan konduktor wsta\u0142 zalotnie - raz, dwa, trzy, cztery\nNie mo\u017cemy pi\u0107 samotnie - wino, whisky, gin",
-            "chorus": false
-        },
-        {
-            "chords": "C F G C",
-            "lyrics": "Piwo, wino, whisky, gin...",
-            "chorus": true
-        },
-        {
-            "chords": "C F G\nC F G C",
-            "lyrics": "Ka\u017cdy jako\u015b w g\u00f3ry zmierza - raz, dwa, trzy, cztery\nSamochodem, na rowerach - albo w rolkach, hej\nMy wolimy poci\u0105gami - raz, dwa, trzy, cztery\nZ dziewczynami popijamy - wino, whisky, gin",
-            "chorus": false
-        },
-        {
-            "chords": "C F G C",
-            "lyrics": "Piwo, wino, whisky, gin...",
-            "chorus": true
-        }
-    ]
-}
+#title Piwo, wino
+#author Grupa na Swoim
+#category Turystyczne
+
+#verse
+Do pociągu już wsiadamy - raz, dwa, trzy, cztery ~ C F G
+Jadę w góry z kolegami - na Mazury, hej ~ C F G C
+Każdy z nas ma wielką torbę - raz, dwa, trzy, cztery
+A w tej torbie leży sobie - wino, whisky, gin
+
+#chorus
+Piwo, wino, whisky, gin ~ C F
+whisky, gin ~ G C
+whisky, gin
+Piwo, wino, whisky, gin
+wino, whisky, gin
+
+#verse
+Arek ciężko podróż znosi - raz, dwa, trzy, cztery ~ C F G
+I o pomoc bardzo prosi - bardzo prosi, hej ~ C F G C
+Ja wyciągam ze swej teczki - raz, dwa, trzy, cztery
+Tak jak lekarz lek z apteczki - wino, whisky, gin
+
+#chorus
+Piwo, wino, whisky, gin... ~ C F G C
+
+#verse
+Pan konduktor się wyłonił - raz, dwa, trzy, cztery ~ C F G
+Bileciki do kontroli - szybko dajcie hej ~ C F G C
+Zanim każdy bilet wyjmie - raz, dwa, trzy, cztery
+Już konduktor z nami pije - wino, whisky, gin
+
+#chorus
+Piwo, wino, whisky, gin... ~ C F G C
+
+#verse
+Tuż za ścianą jakieś śmiechy - raz, dwa, trzy, cztery ~ C F G
+Przedział bardzo jest kobiecy - jest kobiecy, hej ~ C F G C
+Pan konduktor wstał zalotnie - raz, dwa, trzy, cztery
+Nie możemy pić samotnie - wino, whisky, gin
+
+#chorus
+Piwo, wino, whisky, gin... ~ C F G C
+
+#verse
+Każdy jakoś w góry zmierza - raz, dwa, trzy, cztery ~ C F G
+Samochodem, na rowerach - albo w rolkach, hej ~ C F G C
+My wolimy pociągami - raz, dwa, trzy, cztery
+Z dziewczynami popijamy - wino, whisky, gin
+
+#chorus
+Piwo, wino, whisky, gin... ~ C F G C
+

@@ -1,47 +1,52 @@
-{
-    "title": "Jak",
-    "author": "s\u0142. Edward Stachura, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak po nocnym niebie sun\u0105ce\nBia\u0142e ob\u0142oki nad lasem\nJak na szyi w\u0119drowca apaszka\nSzamotana wiatrem",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak wyci\u0105gni\u0119te tam powy\u017cej\nGwia\u017adziste ramiona wasze\nA tu s\u0105 nasze,\nA tu s\u0105 nasze",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak suchy szloch w t\u0119 d\u017cd\u017cyst\u0105 noc\nJak winny-li-niewinny sumienia wyrzut\n\u017be si\u0119 \u017cyje gdy umar\u0142o\nTylu tylu tylu",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak suchy szloch w t\u0119 d\u017cd\u017cyst\u0105 noc\nJak liza\u0107 rany celnie zadane\nJak lepi\u0107 serce w proch\nPotrzaskane",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak suchy szloch w t\u0119 d\u017cd\u017cyst\u0105 noc\nPudowy kamie\u0144, pudowy kamie\u0144\nJa na nim stan\u0119, on na mnie stanie,\nOn na mnie stanie, spod niego wstan\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak suchy szloch w t\u0119 d\u017cd\u017cyst\u0105 noc\nJak z\u0142ota kula nad wodami\nJak \u015bwit pod spuchni\u0119tymi\nPowiekami",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak zorze mi\u0142e, \u015bliczne polany\nJak s\u0142o\u0144ca pier\u015b, jak garb sw\u00f3j nie\u015b\u0107\nJak do was, siostry mg\u0142awicowe,\nTen zawodz\u0105cy \u015bpiew",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nG D\ne G\nD D4",
-            "lyrics": "Jak biec do ko\u0144ca potem odpoczniesz,\nPotem odpoczniesz, cudne manowce,\nCudne manowce, cudne,\nCudne manowce",
-            "chorus": false
-        }
-    ]
-}
+#title Jak
+#author sł. Edward Stachura, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Jak po nocnym niebie sunące ~ D A
+Białe obłoki nad lasem ~ G D
+Jak na szyi wędrowca apaszka ~ e G
+Szamotana wiatrem ~ D D4
+
+#verse
+Jak wyciągnięte tam powyżej ~ D A
+Gwiaździste ramiona wasze ~ G D
+A tu są nasze, ~ e G
+A tu są nasze ~ D D4
+
+#verse
+Jak suchy szloch w tę dżdżystą noc ~ D A
+Jak winny-li-niewinny sumienia wyrzut ~ G D
+Że się żyje gdy umarło ~ e G
+Tylu tylu tylu ~ D D4
+
+#verse
+Jak suchy szloch w tę dżdżystą noc ~ D A
+Jak lizać rany celnie zadane ~ G D
+Jak lepić serce w proch ~ e G
+Potrzaskane ~ D D4
+
+#verse
+Jak suchy szloch w tę dżdżystą noc ~ D A
+Pudowy kamień, pudowy kamień ~ G D
+Ja na nim stanę, on na mnie stanie, ~ e G
+On na mnie stanie, spod niego wstanę ~ D D4
+
+#verse
+Jak suchy szloch w tę dżdżystą noc ~ D A
+Jak złota kula nad wodami ~ G D
+Jak świt pod spuchniętymi ~ e G
+Powiekami ~ D D4
+
+#verse
+Jak zorze miłe, śliczne polany ~ D A
+Jak słońca pierś, jak garb swój nieść ~ G D
+Jak do was, siostry mgławicowe, ~ e G
+Ten zawodzący śpiew ~ D D4
+
+#verse
+Jak biec do końca potem odpoczniesz, ~ D A
+Potem odpoczniesz, cudne manowce, ~ G D
+Cudne manowce, cudne, ~ e G
+Cudne manowce ~ D D4
+

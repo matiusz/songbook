@@ -1,42 +1,50 @@
-{
-    "title": "Kim w\u0142a\u015bciwie by\u0142a ta pi\u0119kna pani",
-    "author": "s\u0142. Edward Stachura, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "a G\ne a\nd C G",
-            "lyrics": "La la la...",
-            "chorus": false
-        },
-        {
-            "chords": "a G\ne a\nd C G\na G\ne a\nd C G",
-            "lyrics": "Nikt nie zna \u015bcie\u017cek gwiazd,\nWybra\u0144cem kto w\u015br\u00f3d nas?\nZapuka\u0142 kto\u015b... to do mnie go\u015b\u0107?!\nW\u0142\u00f3czy\u0142em si\u0119 jak cie\u0144,\nCzeka\u0142em na ten dzie\u0144\nJu\u017c stoisz w drzwiach... jak dziwny ptak.",
-            "chorus": false
-        },
-        {
-            "chords": "F G\ne a\nF G\ne a\nG F C",
-            "lyrics": "Wi\u0119c bardzo prosz\u0119 wejd\u017a,\nTu siadaj, rozgo\u015b\u0107 si\u0119\nI zdrad\u017a mi, kim ty\u015b jest, Madame?\nAlbo nie zdradzaj mi,\nLepiej nie m\u00f3wmy nic.",
-            "chorus": true
-        },
-        {
-            "chords": "a G\ne a\nd C G\na G\ne a\nd C G",
-            "lyrics": "Nie\u015bmia\u0142o sunie brzask,\nZatrzyma\u0107 chcia\u0142bym czas;\nInaczej jest... czas musi biec.\nGdzie\u015b w dali zapia\u0142 kur,\nNiemodny wdziewasz str\u00f3j\nJu\u017c stoisz w drzwiach... jak dziwny ptak.",
-            "chorus": false
-        },
-        {
-            "chords": "F G\ne a\nF G\ne a\nG F C",
-            "lyrics": "Wi\u0119c jednak musisz p\u00f3j\u015b\u0107\nPosy\u0142asz mi przez pr\u00f3g\nUlotny u\u015bmiech tw\u00f3j, Madame.\nLecz b\u0119d\u0119 czeka\u0107, przyjd\u017a!\nGdy tylko zechcesz, przyjd\u017a!\nB\u0119dziemy razem \u017cy\u0107!",
-            "chorus": true
-        },
-        {
-            "chords": "e a\nG\nF C",
-            "lyrics": "Ja b\u0119d\u0119 czeka\u0107, przyjd\u017a!\nGdy tylko zechcesz, przyjd\u017a!\nB\u0119dziemy razem \u017cy\u0107!",
-            "chorus": true
-        },
-        {
-            "chords": "a G\ne a\nd C G",
-            "lyrics": "La la la...",
-            "chorus": false
-        }
-    ]
-}
+#title Kim właściwie była ta piękna pani
+#author sł. Edward Stachura, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+La la la... ~ a G
+~ e a
+~ d C G
+
+#verse
+Nikt nie zna ścieżek gwiazd, ~ a G
+Wybrańcem kto wśród nas? ~ e a
+Zapukał ktoś... to do mnie gość?! ~ d C G
+Włóczyłem się jak cień, ~ a G
+Czekałem na ten dzień ~ e a
+Już stoisz w drzwiach... jak dziwny ptak. ~ d C G
+
+#chorus
+Więc bardzo proszę wejdź, ~ F G
+Tu siadaj, rozgość się ~ e a
+I zdradź mi, kim tyś jest, Madame? ~ F G
+Albo nie zdradzaj mi, ~ e a
+Lepiej nie mówmy nic. ~ G F C
+
+#verse
+Nieśmiało sunie brzask, ~ a G
+Zatrzymać chciałbym czas; ~ e a
+Inaczej jest... czas musi biec. ~ d C G
+Gdzieś w dali zapiał kur, ~ a G
+Niemodny wdziewasz strój ~ e a
+Już stoisz w drzwiach... jak dziwny ptak. ~ d C G
+
+#chorus
+Więc jednak musisz pójść ~ F G
+Posyłasz mi przez próg ~ e a
+Ulotny uśmiech twój, Madame. ~ F G
+Lecz będę czekać, przyjdź! ~ e a
+Gdy tylko zechcesz, przyjdź! ~ G F C
+Będziemy razem żyć!
+
+#chorus
+Ja będę czekać, przyjdź! ~ e a
+Gdy tylko zechcesz, przyjdź! ~ G
+Będziemy razem żyć! ~ F C
+
+#verse
+La la la... ~ a G
+~ e a
+~ d C G
+

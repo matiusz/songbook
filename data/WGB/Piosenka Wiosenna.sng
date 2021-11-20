@@ -1,27 +1,29 @@
-{
-    "title": "Piosenka wiosenna",
-    "author": "Wolna Grupa Bukowina",
-    "category": "WGB",
-    "sections": [
-        {
-            "chords": "e h C D\ne h C D\nG D G C\nh7 C a7 D\nh7 a7 D7\nh7 C7+ a7 D",
-            "lyrics": "Zagram dla Ciebie na ka\u017cdej gitarze \u015bwiata\nNa ulic fletach na nitkach babiego lata\nWy\u015bpiewam jak potrafi\u0119 ksi\u0119\u017cyce na rozstajach\nI wrze\u015bnie i stycznie i maje\nI zagubione d\u017awi\u0119ki i barwy na p\u0142\u00f3tnach Vlamincka\nI s\u0142o\u0144ce w\u0119druj\u0105ce promienia \u015bcie\u017cynk\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "G D C G\nh C D4 D\nG C G h7 C\nG D4 C D G",
-            "lyrics": "Graj nam graj pie\u015bni skrzydlata\nWiosna taniec nasz niesie po \u0142\u0105kach\nZata\u0144czymy si\u0119 w sobie do lata\nZata\u0144czymy si\u0119 w siebie bez ko\u0144ca",
-            "chorus": true
-        },
-        {
-            "chords": "e h C D\ne h C D\nG D G C\nh7 C a7 D\nh7 a7 D7\nh7 C7+ a7 D",
-            "lyrics": "A blask co oswietla me r\u0119ce gdy pisz\u0119\nNabrzmia\u0142 potrzeb\u0105 rozerwania ciszy\nPrzez okno wyciek\u0142 pe\u0142na go teraz chmara wronia\nDzobi si\u0119 w dziob\u00f3w ko\u0144cach a w ogonach ogoni\nA pie\u015b\u0144 moja to niknie to wraca\nI nie wiem co bym zrobi\u0142 gdybym j\u0105 utraci\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Graj nam graj pie\u015bni skrzydlata ...",
-            "chorus": true
-        }
-    ]
-}
+#title Piosenka wiosenna
+#author Wolna Grupa Bukowina
+#category WGB
+
+#verse
+Zagram dla Ciebie na każdej gitarze świata ~ e h C D
+Na ulic fletach na nitkach babiego lata ~ e h C D
+Wyśpiewam jak potrafię księżyce na rozstajach ~ G D G C
+I wrześnie i stycznie i maje ~ h7 C a7 D
+I zagubione dźwięki i barwy na płótnach Vlamincka ~ h7 a7 D7
+I słońce wędrujące promienia ścieżynką ~ h7 C7+ a7 D
+
+#chorus
+Graj nam graj pieśni skrzydlata ~ G D C G
+Wiosna taniec nasz niesie po łąkach ~ h C D4 D
+Zatańczymy się w sobie do lata ~ G C G h7 C
+Zatańczymy się w siebie bez końca ~ G D4 C D G
+
+#verse
+A blask co oswietla me ręce gdy piszę ~ e h C D
+Nabrzmiał potrzebą rozerwania ciszy ~ e h C D
+Przez okno wyciekł pełna go teraz chmara wronia ~ G D G C
+Dzobi się w dziobów końcach a w ogonach ogoni ~ h7 C a7 D
+A pieśń moja to niknie to wraca ~ h7 a7 D7
+I nie wiem co bym zrobił gdybym ją utracił ~ h7 C7+ a7 D
+
+#chorus
+Graj nam graj pieśni skrzydlata ...
+

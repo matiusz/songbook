@@ -1,67 +1,69 @@
-{
-    "title": "Niemanie",
-    "author": "Aldaron",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "a e\nG D\na e\nG\nD",
-            "lyrics": "Kolejny przedmiot wyrzucam\nRozstaj\u0119 si\u0119 z kolejn\u0105 rzecz\u0105\nMnie takie rzeczy lecz\u0105\n\u017be rzeczy oknem lec\u0105\nA \u015bciany pustk\u0105 \u015bwiec\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "a e\nG D\na\ne\nG D",
-            "lyrics": "I sam z jedn\u0105 \u015bwiec\u0105 w pokoju\nCienie dr\u017c\u0105 p\u0142askie na ekranie \u015bciany\nA tylko m\u00f3j cie\u0144\nA tylko \u015bwiecy cie\u0144\nKiwam si\u0119 powoli \u015bpiewaj\u0105c ze \u015bwieczk\u0105 w pokoju",
-            "chorus": false
-        },
-        {
-            "chords": "a e G D\na e G D\na e G D\na e G D",
-            "lyrics": "Mniej mam i mniemam, \u017ce nie mam ja mienia\nMnie nie omamia mania mania mniemania\nJa mam imi\u0119 a nie... mienienie si\u0119 mianem\nJa manie mam na \"nie\" a me imi\u0119 - Niemanie",
-            "chorus": true
-        },
-        {
-            "chords": "a e G D",
-            "lyrics": "Wyrzucam ubranie ostatnie me manie\nA teraz mnie w ciele bardzo bardzo wiele\nTopnienia potrzeba materii poniewa\u017c\nP\u0142omieniem ogrzewam me ca\u0142e niemienie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Mniej mam i mniemam...",
-            "chorus": true
-        },
-        {
-            "chords": "a e G D",
-            "lyrics": "P\u0142omie\u0144, cztery \u015bciany\nWosk, knot i ja nieubrany\nTa chwila si\u0119 sta\u0142a\nJa wychodz\u0119 z cia\u0142a, a bo ja...",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Mniej mam i mniemam...",
-            "chorus": true
-        },
-        {
-            "chords": "a e G D",
-            "lyrics": "Patrz\u0119 w telewizor coraz bardziej si\u0119 boj\u0119\nTych co nienawidz\u0105 l\u0119ku swego nie ukoj\u0119\nPosiadanie bycie w stanie wiecznego nienasycenia\nA przedmioty to k\u0142opoty posiadanie stan wi\u0119zienia",
-            "chorus": false
-        },
-        {
-            "chords": "a e G D",
-            "lyrics": "Rzeczy tyle gromadzenia i potrzeba obronienia\nSwej w\u0142asno\u015bci od tych go\u015bci tych co biegn\u0105 od wolno\u015bci\nCoraz dalej a ja wcale nie odczuwam tego dreszczu\nKu wolno\u015bci biec chc\u0119 stale oto sens jest mego questu",
-            "chorus": false
-        },
-        {
-            "chords": "a e G D",
-            "lyrics": "Rzeczy posiadanie rodzi w ko\u0144cu pytanie\nJaki ma to sens, czy istnieje zatrzymanie?\nMy\u015bl\u0119 \u017ce nie, a nie tylko ja mam takie zdanie\nMaj\u0105 ludzie z kt\u00f3rymi mnie \u0142\u0105czy tej muzyki granie",
-            "chorus": false
-        },
-        {
-            "chords": "a e G D",
-            "lyrics": "Masz m\u0105 mi\u0142o\u015b\u0107 Bo\u017ce, Panie, dzieki Ci za d\u017awi\u0119ki grane\nZa muzyk\u0119 narkotykiem ona jest na posiadanie\nKocham Ciebie, \u015bpiewam siebie, jestem vege, \u015bpiewam reggae\nDusz\u0119 swoj\u0105 zbawiam, tusz\u0119 \u017ce przysparzam wam ja wzrusze\u0144",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Mniej mam i mniemam...",
-            "chorus": true
-        }
-    ]
-}
+#title Niemanie
+#author Aldaron
+#category Piosenki różne
+
+#verse
+Kolejny przedmiot wyrzucam ~ a e
+Rozstaję się z kolejną rzeczą ~ G D
+Mnie takie rzeczy leczą ~ a e
+Że rzeczy oknem lecą ~ G
+A ściany pustką świecą ~ D
+
+#verse
+I sam z jedną świecą w pokoju ~ a e
+Cienie drżą płaskie na ekranie ściany ~ G D
+A tylko mój cień ~ a
+A tylko świecy cień ~ e
+Kiwam się powoli śpiewając ze świeczką w pokoju ~ G D
+
+#chorus
+Mniej mam i mniemam, że nie mam ja mienia ~ a e G D
+Mnie nie omamia mania mania mniemania ~ a e G D
+Ja mam imię a nie... mienienie się mianem ~ a e G D
+Ja manie mam na "nie" a me imię - Niemanie ~ a e G D
+
+#verse
+Wyrzucam ubranie ostatnie me manie ~ a e G D
+A teraz mnie w ciele bardzo bardzo wiele
+Topnienia potrzeba materii ponieważ
+Płomieniem ogrzewam me całe niemienie
+
+#chorus
+Mniej mam i mniemam...
+
+#verse
+Płomień, cztery ściany ~ a e G D
+Wosk, knot i ja nieubrany
+Ta chwila się stała
+Ja wychodzę z ciała, a bo ja...
+
+#chorus
+Mniej mam i mniemam...
+
+#verse
+Patrzę w telewizor coraz bardziej się boję ~ a e G D
+Tych co nienawidzą lęku swego nie ukoję
+Posiadanie bycie w stanie wiecznego nienasycenia
+A przedmioty to kłopoty posiadanie stan więzienia
+
+#verse
+Rzeczy tyle gromadzenia i potrzeba obronienia ~ a e G D
+Swej własności od tych gości tych co biegną od wolności
+Coraz dalej a ja wcale nie odczuwam tego dreszczu
+Ku wolności biec chcę stale oto sens jest mego questu
+
+#verse
+Rzeczy posiadanie rodzi w końcu pytanie ~ a e G D
+Jaki ma to sens, czy istnieje zatrzymanie?
+Myślę że nie, a nie tylko ja mam takie zdanie
+Mają ludzie z którymi mnie łączy tej muzyki granie
+
+#verse
+Masz mą miłość Boże, Panie, dzieki Ci za dźwięki grane ~ a e G D
+Za muzykę narkotykiem ona jest na posiadanie
+Kocham Ciebie, śpiewam siebie, jestem vege, śpiewam reggae
+Duszę swoją zbawiam, tuszę że przysparzam wam ja wzruszeń
+
+#chorus
+Mniej mam i mniemam...
+

@@ -1,47 +1,47 @@
-{
-    "title": "Czarny chleb i czarna kawa",
-    "author": "Strachy na Lachy\r",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a\nC\nG\na",
-            "lyrics": "Jedzie poci\u0105g, z\u0142e wagony\nDo wi\u0119zienia wioz\u0105 mnie,\n\u015awiat ma tylko cztery strony,\nA w tym \u015bwiecie nie ma mnie.",
-            "chorus": false
-        },
-        {
-            "chords": "a\nC\nG\na",
-            "lyrics": "Gdy swe oczy otworzy\u0142em\nWielki \u017cal ogarn\u0105\u0142 mnie,\nPo policzkach \u0142zy sp\u0142yn\u0119\u0142y,\nZrozumia\u0142em wtedy, \u017ce...",
-            "chorus": false
-        },
-        {
-            "chords": "a\nC\nG\na",
-            "lyrics": "Czarny chleb i czarna kawa\nOp\u0119tani samotno\u015bci\u0105,\nMy\u015bl\u0105 sw\u0105 szukaj\u0105 szcz\u0119\u015bcia,\nKt\u00f3re zwie si\u0119 wolno\u015bci\u0105. | x2",
-            "chorus": true
-        },
-        {
-            "chords": "a\nC\nG\na",
-            "lyrics": "M\u0142odsza siostra zapyta\u0142a:\n\"Mamo, gdzie braciszek m\u00f3j?\"\nBrat tw\u00f3j w ciemnej celi siedzi,\nOdsiaduje wyrok sw\u00f3j.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Czarny chleb i czarna kawa...",
-            "chorus": true
-        },
-        {
-            "chords": "a\nC\nG\na",
-            "lyrics": "Wtem do celi klawisz wpada\nI zaczyna wi\u0119\u017ania bi\u0107\nM\u0142ody wi\u0119zie\u0144 na twarz pada\nSerce mu przestaje bi\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "a\nC\nG\na",
-            "lyrics": "I nadejdzie chwila b\u0142oga,\n\u015amier\u0107 zabierze oddech m\u00f3j,\nMoje cia\u0142o st\u0105d wynios\u0105,\nA pod cel\u0105 b\u0119d\u0105 zn\u00f3w...",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Inny czarny chleb i czarna kawa...",
-            "chorus": true
-        }
-    ]
-}
+#title Czarny chleb i czarna kawa
+#author Strachy na Lachy
+
+#category Klasyka polskiego rocka
+
+#verse
+Jedzie pociąg, złe wagony ~ a
+Do więzienia wiozą mnie, ~ C
+Świat ma tylko cztery strony, ~ G
+A w tym świecie nie ma mnie. ~ a
+
+#verse
+Gdy swe oczy otworzyłem ~ a
+Wielki żal ogarnął mnie, ~ C
+Po policzkach łzy spłynęły, ~ G
+Zrozumiałem wtedy, że... ~ a
+
+#chorus
+Czarny chleb i czarna kawa ~ a
+Opętani samotnością, ~ C
+Myślą swą szukają szczęścia, ~ G
+Które zwie się wolnością. | x2 ~ a
+
+#verse
+Młodsza siostra zapytała: ~ a
+"Mamo, gdzie braciszek mój?" ~ C
+Brat twój w ciemnej celi siedzi, ~ G
+Odsiaduje wyrok swój. ~ a
+
+#chorus
+Czarny chleb i czarna kawa...
+
+#verse
+Wtem do celi klawisz wpada ~ a
+I zaczyna więźnia bić ~ C
+Młody więzień na twarz pada ~ G
+Serce mu przestaje bić ~ a
+
+#verse
+I nadejdzie chwila błoga, ~ a
+Śmierć zabierze oddech mój, ~ C
+Moje ciało stąd wyniosą, ~ G
+A pod celą będą znów... ~ a
+
+#chorus
+Inny czarny chleb i czarna kawa...
+

@@ -1,38 +1,59 @@
-{
-    "title": "Do prostego cz\u0142owieka",
-    "author": "s\u0142. Julian Tuwim, muz. Akurat",
-    "capo": "(f grane na VIII progu)",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "c\nc\nf\nf\nc\nc\nf\nf",
-            "lyrics": "Gdy zn\u00f3w do mur\u00f3w klajstrem \u015bwie\u017cym\nPrzylepia\u0107 zaczn\u0105 obwieszczenia,\nGdy \"do ludno\u015bci\", \"do \u017co\u0142nierzy\"\nNa alarm czarny druk uderzy\nI byle drab, i byle szczeniak\nW odwieczne k\u0142amstwo ich uwierzy,\n\u017be trzeba i\u015b\u0107 i z armat wali\u0107,\nMordowa\u0107, grabi\u0107, tru\u0107 i pali\u0107;",
-            "chorus": false
-        },
-        {
-            "chords": "c\n\nf\n\nc\n\nf\n",
-            "lyrics": "Gdy zaczn\u0105 na tysi\u0119czn\u0105 mod\u0142\u0119\nOjczyzn\u0119 szarpa\u0107 deklinacj\u0105\nI \u0142udzi\u0107 kolorowym god\u0142em,\nI judzi\u0107 \"historyczn\u0105 racj\u0105\",\nO pi\u0119dzi, chwale i rubie\u017cy,\nO ojcach, dziadach i sztandarach,\nO bohaterach i ofiarach,\nO bohaterach i ofiarach,",
-            "chorus": false
-        },
-        {
-            "chords": "c\n\nf\n\nc\n\nf\n",
-            "lyrics": "Gdy wyjdzie biskup, pastor, rabin\nPob\u0142ogos\u0142awi\u0107 tw\u00f3j karabin,\nBo mu sam Pan B\u00f3g szepn\u0105\u0142 z nieba,\n\u017be za ojczyzn\u0119 - bi\u0107 si\u0119 trzeba,\nKiedy roz\u015bcierwi si\u0119, rozchami\nWrzask liter z pierwszych stron dziennik\u00f3w,\nA stado dzikich bab - kwiatami\nObrzuca\u0107 zacznie \"\u017co\u0142nierzyk\u00f3w\". -",
-            "chorus": false
-        },
-        {
-            "chords": "c\n\nf\n\nc\n\nf\n",
-            "lyrics": "- O, przyjacielu nieuczony,\nM\u00f3j bli\u017ani z tej czy innej ziemi!\nWiedz, \u017ce na trwog\u0119 bij\u0105 w dzwony\nKr\u00f3le z panami brzuchatemi,\nWiedz, \u017ce to bujda, granda zwyk\u0142a,\nGdy ci wo\u0142aj\u0105: \"Bro\u0144 na rami\u0119!\",\n\u017be im gdzie\u015b nafta z ziemi sik\u0142a\nI obrodzi\u0142a dolarami,",
-            "chorus": false
-        },
-        {
-            "chords": "c\n\nf\n\nc\n\nf\n",
-            "lyrics": "\u017be co\u015b im w bankach nie sztymuje,\n\u017be gdzie\u015b zw\u0119szyli kasy pe\u0142ne\nLub upatrzy\u0142y t\u0142uste szuje\nC\u0142o jakie\u015b grubsze na bawe\u0142n\u0119.\nR\u017cnij karabinem w bruk ulicy!\nTwoja jest krew, a ich jest nafta!\nI od stolicy do stolicy\nZawo\u0142aj broni\u0105c swej krwawicy:\n",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "\"Buja\u0107 - to my, panowie szlachta!\"",
-            "chorus": false
-        }
-    ]
-}
+#title Do prostego człowieka
+#author sł. Julian Tuwim, muz. Akurat
+#category Klasyka polskiego rocka
+#capo (f grane na VIII progu)
+
+#verse
+Gdy znów do murów klajstrem świeżym ~ c
+Przylepiać zaczną obwieszczenia, ~ c
+Gdy "do ludności", "do żołnierzy" ~ f
+Na alarm czarny druk uderzy ~ f
+I byle drab, i byle szczeniak ~ c
+W odwieczne kłamstwo ich uwierzy, ~ c
+Że trzeba iść i z armat walić, ~ f
+Mordować, grabić, truć i palić; ~ f
+
+#verse
+Gdy zaczną na tysięczną modłę ~ c
+Ojczyznę szarpać deklinacją
+I łudzić kolorowym godłem, ~ f
+I judzić "historyczną racją",
+O piędzi, chwale i rubieży, ~ c
+O ojcach, dziadach i sztandarach,
+O bohaterach i ofiarach, ~ f
+O bohaterach i ofiarach,
+
+#verse
+Gdy wyjdzie biskup, pastor, rabin ~ c
+Pobłogosławić twój karabin,
+Bo mu sam Pan Bóg szepnął z nieba, ~ f
+Że za ojczyznę - bić się trzeba,
+Kiedy rozścierwi się, rozchami ~ c
+Wrzask liter z pierwszych stron dzienników,
+A stado dzikich bab - kwiatami ~ f
+Obrzucać zacznie "żołnierzyków". -
+
+#verse
+- O, przyjacielu nieuczony, ~ c
+Mój bliźni z tej czy innej ziemi!
+Wiedz, że na trwogę biją w dzwony ~ f
+Króle z panami brzuchatemi,
+Wiedz, że to bujda, granda zwykła, ~ c
+Gdy ci wołają: "Broń na ramię!",
+Że im gdzieś nafta z ziemi sikła ~ f
+I obrodziła dolarami,
+
+#verse
+Że coś im w bankach nie sztymuje, ~ c
+Że gdzieś zwęszyli kasy pełne
+Lub upatrzyły tłuste szuje ~ f
+Cło jakieś grubsze na bawełnę.
+Rżnij karabinem w bruk ulicy! ~ c
+Twoja jest krew, a ich jest nafta!
+I od stolicy do stolicy ~ f
+Zawołaj broniąc swej krwawicy:
+
+
+#verse
+"Bujać - to my, panowie szlachta!"
+

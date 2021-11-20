@@ -1,52 +1,52 @@
-{
-    "title": "Pod niebem pe\u0142nym cud\u00f3w",
-    "author": "Raz Dwa Trzy\r",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "D G\nD G\nh e\nFis G A (A7)",
-            "lyrics": "Pod niebem pe\u0142nym cud\u00f3w\nNieruchomiej\u0119 z nud\u00f3w\nW\u0142a\u015bnie pod takim niebem\nWci\u0105\u017c nie wiem czego nie wiem",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD G\nh e\nFis G A (A7)",
-            "lyrics": "\u015awiat\u0142o z kolejnym \u015bwitem\nCi\u0105gle nazywam \u017cyciem\nKt\u00f3re spokojnie toczy\nSw\u0105 nieuchronno\u015b\u0107 nocy",
-            "chorus": false
-        },
-        {
-            "chords": "G D\nG D\nG D\nFis G A (A7)",
-            "lyrics": "Ten b\u0142\u0119kit sn\u00f3w i pragnie\u0144\nNiejeden z nas odnajdzie\nA niechby zaszed\u0142 za daleko\nPewnie zostanie tam",
-            "chorus": true
-        },
-        {
-            "chords": "D G\nD G\nh e\nFis G A (A7)",
-            "lyrics": "Pod cudnym niebem jeszcze\nKa\u017cdy cho\u0107 jedno miejsce\nBy\u0107 mo\u017ce ma i chwil\u0119\nGdy godnie j\u0105 prze\u017cyje",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD G\nh e\nFis G A (A7)",
-            "lyrics": "Bo nieba co w marzeniach\nSpe\u0142nia si\u0119 albo zmienia\nSk\u0142onni jeste\u015bmy szuka\u0107\nDo bram jego ci\u0119\u017ckich puka\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ten b\u0142\u0119kit sn\u00f3w i pragnie\u0144...",
-            "chorus": true
-        },
-        {
-            "chords": "D G\nD G\nh e\nFis G A (A7)",
-            "lyrics": "Sp\u00f3jrz gwiazdy matowiej\u0105\nI niczym si\u0119 nie mieni\u0105\nZwykli\u015bmy je zaklina\u0107\nI szcz\u0119\u015bcie swoje mija\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "D G\nD G\nh e\nFis G A (A7)",
-            "lyrics": "Bo w niebie z kt\u00f3rego dot\u0105d\nNie wr\u00f3ci\u0142 nikt bo po co\nWieczna s\u0105czy si\u0119 struga\nPrzyjemnej wiary w cuda",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ten b\u0142\u0119kit sn\u00f3w i pragnie\u0144...",
-            "chorus": true
-        }
-    ]
-}
+#title Pod niebem pełnym cudów
+#author Raz Dwa Trzy
+#category Piosenki różne
+
+#verse
+Pod niebem pełnym cudów ~ D G
+Nieruchomieję z nudów ~ D G
+Właśnie pod takim niebem ~ h e
+Wciąż nie wiem czego nie wiem ~ Fis G A (A7)
+
+#verse
+Światło z kolejnym świtem ~ D G
+Ciągle nazywam życiem ~ D G
+Które spokojnie toczy ~ h e
+Swą nieuchronność nocy ~ Fis G A (A7)
+
+#chorus
+Ten błękit snów i pragnień ~ G D
+Niejeden z nas odnajdzie ~ G D
+A niechby zaszedł za daleko ~ G D
+Pewnie zostanie tam ~ Fis G A (A7)
+
+#verse
+Pod cudnym niebem jeszcze ~ D G
+Każdy choć jedno miejsce ~ D G
+Być może ma i chwilę ~ h e
+Gdy godnie ją przeżyje ~ Fis G A (A7)
+
+#verse
+Bo nieba co w marzeniach ~ D G
+Spełnia się albo zmienia ~ D G
+Skłonni jesteśmy szukać ~ h e
+Do bram jego ciężkich pukać ~ Fis G A (A7)
+
+#chorus
+Ten błękit snów i pragnień...
+
+#verse
+Spójrz gwiazdy matowieją ~ D G
+I niczym się nie mienią ~ D G
+Zwykliśmy je zaklinać ~ h e
+I szczęście swoje mijać ~ Fis G A (A7)
+
+#verse
+Bo w niebie z którego dotąd ~ D G
+Nie wrócił nikt bo po co ~ D G
+Wieczna sączy się struga ~ h e
+Przyjemnej wiary w cuda ~ Fis G A (A7)
+
+#chorus
+Ten błękit snów i pragnień...
+

@@ -1,42 +1,40 @@
-{
-    "title": "\u015awiadomo\u015b\u0107",
-    "author": "Aldaron",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e D h A",
-            "lyrics": "\u015awiadomo\u015b\u0107, \u015bwiadomo\u015b\u0107. Za s\u0142owem sz\u0142o s\u0142owo.\nI dzie\u0144 w dzie\u0144 na nowo. My\u015bl\u0105, czynem, mow\u0105.\n\u015awiadomo\u015b\u0107, \u015bwiadomo\u015b\u0107, ogarnij to zdrowo.\nI dzie\u0144 w dzie\u0144 na nowo. My\u015bl\u0105, czynem, mow\u0105.",
-            "chorus": true
-        },
-        {
-            "chords": "h A\ne h",
-            "lyrics": "Jak zapali\u0107 lamp\u0119, kt\u00f3ra nie zga\u015bnie,\nJak ta na horyzoncie, kt\u00f3ra celem, ty blaskiem.\nJa ci tu nie wyja\u015bni\u0119, to twa flaga na maszcie,\nZ tego \u015bwiat\u0142a we\u017a p\u0142omie\u0144, rozpal ognisko w\u0142asne.",
-            "chorus": false
-        },
-        {
-            "chords": "h A\ne h",
-            "lyrics": "Tego poranka widz\u0119 s\u0142o\u0144ce nad nami,\nWe \u0142bie kolejne zmiany, ich tor dawno wybrany.\nWiary chcesz wi\u0119cej, zobacz ile za tob\u0105,\nLecz id\u017a tylko przed siebie, miej swej drogi \u015bwiadomo\u015b\u0107.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "\u015awiadomo\u015b\u0107, \u015bwiadomo\u015b\u0107. Za s\u0142owem sz\u0142o s\u0142owo...",
-            "chorus": true
-        },
-        {
-            "chords": "h A\ne h",
-            "lyrics": "Jak rozpali\u0107 serce, \u017ceby nie zgas\u0142o? Wci\u0105\u017c mie\u0107\nOgie\u0144 do walki, prosto, czysto i jasno. Wiara,\nTo nie jest co\u015b, co jest nam dane na w\u0142asno\u015b\u0107.\nBuduj j\u0105 ka\u017cdym czynem, bez nich to puste has\u0142o.",
-            "chorus": false
-        },
-        {
-            "chords": "h A\ne h",
-            "lyrics": "Tego poranka widz\u0119 gwiazdy nade mn\u0105.\nJak by\u0107 samemu z sob\u0105, gdy nie z tob\u0105 jest ciemno?\nZamykam oczy, wtedy nie ufam s\u0142owom.\nPatrz\u0119 do \u015brodka i czuj\u0119 \u015awiadomo\u015b\u0107.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "\u015awiadomo\u015b\u0107, \u015bwiadomo\u015b\u0107. Za s\u0142owem sz\u0142o s\u0142owo...",
-            "chorus": true
-        }
-    ]
-}
+#title Świadomość
+#author Aldaron
+#category Piosenki różne
+
+#chorus
+Świadomość, świadomość. Za słowem szło słowo. ~ e D h A
+I dzień w dzień na nowo. Myślą, czynem, mową.
+Świadomość, świadomość, ogarnij to zdrowo.
+I dzień w dzień na nowo. Myślą, czynem, mową.
+
+#verse
+Jak zapalić lampę, która nie zgaśnie, ~ h A
+Jak ta na horyzoncie, która celem, ty blaskiem. ~ e h
+Ja ci tu nie wyjaśnię, to twa flaga na maszcie,
+Z tego światła weź płomień, rozpal ognisko własne.
+
+#verse
+Tego poranka widzę słońce nad nami, ~ h A
+We łbie kolejne zmiany, ich tor dawno wybrany. ~ e h
+Wiary chcesz więcej, zobacz ile za tobą,
+Lecz idź tylko przed siebie, miej swej drogi świadomość.
+
+#chorus
+Świadomość, świadomość. Za słowem szło słowo...
+
+#verse
+Jak rozpalić serce, żeby nie zgasło? Wciąż mieć ~ h A
+Ogień do walki, prosto, czysto i jasno. Wiara, ~ e h
+To nie jest coś, co jest nam dane na własność.
+Buduj ją każdym czynem, bez nich to puste hasło.
+
+#verse
+Tego poranka widzę gwiazdy nade mną. ~ h A
+Jak być samemu z sobą, gdy nie z tobą jest ciemno? ~ e h
+Zamykam oczy, wtedy nie ufam słowom.
+Patrzę do środka i czuję Świadomość.
+
+#chorus
+Świadomość, świadomość. Za słowem szło słowo...
+

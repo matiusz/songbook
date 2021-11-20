@@ -1,42 +1,54 @@
-{
-    "title": "Syn marnotrawny",
-    "author": "Jacek Kaczmarski, Przemys\u0142aw Gintrowski",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "a\ne\nF\nG\na F G a F G",
-            "lyrics": "Jestem m\u0142ody, nie mam nic i mie\u0107 nie b\u0119d\u0119\nWok\u00f3\u0142 wszyscy na wy\u015bcigi si\u0119 bogac\u0105\nS\u0105 i tacy, kt\u00f3rym p\u0142ac\u0105 nie wiem za co\nAle ciesz\u0105 si\u0119 szacunkiem i urz\u0119dem\nBo czas mo\u017cliwo\u015bci wszelakich ostatnio nam nasta\u0142...",
-            "chorus": false
-        },
-        {
-            "chords": "a\ne\nF\nG\na F G a F G",
-            "lyrics": "Mog\u0119 w\u0142\u00f3czy\u0107 si\u0119 i \u017cy\u0107 z czego popadnie,\nMog\u0119 okra\u015b\u0107 kantor, ko\u015bci\u00f3\u0142 czy przekupk\u0119,\n\u017by\u0107 z nierz\u0105du albo doi\u0107 ch\u0119tn\u0105 wd\u00f3wk\u0119,\nParadowa\u0107 syty i ubrany \u0142adnie -\nA chy\u0142kiem, jak z\u0142odziej o zmroku wymykam si\u0119 z miasta...",
-            "chorus": false
-        },
-        {
-            "chords": "a\ne\nF\nG\na F G a F G",
-            "lyrics": "Mog\u0142em uczy\u0107 si\u0119 na ksi\u0119dza lub piekarza\n(Duch i cia\u0142o zawsze potrzebuj\u0105 strawy),\nNa wojaka mog\u0142em i\u015b\u0107 i za\u017cy\u0107 s\u0142awy,\nCo wynosi i przyci\u0105ga - bo przera\u017ca,\nA m\u0142odo\u015b\u0107 to pono\u0107 przygoda, a wojsko to szko\u0142a...",
-            "chorus": false
-        },
-        {
-            "chords": "a\ne\nF\nG\na F G a F G",
-            "lyrics": "Mog\u0142em w\u0142\u0105czy\u0107 si\u0119 do bandy rzezimieszk\u00f3w,\nNiepodzielnie rz\u0105dzi\u0107 lasem lub rozstajem,\nZosta\u0107 mnichem i dalekie zwiedza\u0107 kraje\nRozgrzeszaj\u0105c niespokojne dusze z grzeszk\u00f3w,\nA chy\u0142kiem przez \u017cycie przemykam i dr\u017c\u0119, gdy kto\u015b wo\u0142a...",
-            "chorus": false
-        },
-        {
-            "chords": "a\ne\nF\nG\na F G a F G",
-            "lyrics": "Jestem m\u0142ody, jestem nikim - b\u0119d\u0119 nikim.\nNa go\u015bci\u0144cach zdar\u0142em buty i kapot\u0119.\nNie obchodzi mnie co b\u0119dzie ze mn\u0105 potem,\nTylko chcia\u0142bym gdzie\u015b odpocz\u0105\u0107 od paniki,\nCo goni mnie z miejsca na miejsce o g\u0142odzie i ch\u0142odzie...",
-            "chorus": false
-        },
-        {
-            "chords": "a\ne\nF\nG\na F G a F G",
-            "lyrics": "Ludzie, kt\u00f3rych widz\u0119 - stoj\u0105 do mnie ty\u0142em:\nTen pod bram\u0105 leje, \u00f3w na pann\u0119 czeka.\nNawet pies znajomy na m\u00f3j widok szczeka...\nSam si\u0119 z \u017cycia nader sprawnie obrobi\u0142em,\nWi\u0119c chy\u0142kiem powracam do domu o zmroku - jak z\u0142odziej...",
-            "chorus": false
-        },
-        {
-            "chords": "a\ne\nF\nG\na F G a F G\na G F e a",
-            "lyrics": "Jaka\u015b ciep\u0142a mnie otacza cisza wok\u00f3\u0142,\nPadam z n\u00f3g i czuj\u0119 r\u0119ce na ramionach,\nDo n\u00f3g czyich\u015b schylam g\u0142ow\u0119, jak pod top\u00f3r.\nMoje stopy poranione \u015bwiec\u0105 w mroku,\nLecz panika - nie wiem sk\u0105d wiem - jest ju\u017c dla mnie sko\u0144czona\nLecz panika - nie wiem sk\u0105d wiem - jest ju\u017c dla mnie sko\u0144czona",
-            "chorus": false
-        }
-    ]
-}
+#title Syn marnotrawny
+#author Jacek Kaczmarski, Przemysław Gintrowski
+#category Jacek Kaczmarski
+
+#verse
+Jestem młody, nie mam nic i mieć nie będę ~ a
+Wokół wszyscy na wyścigi się bogacą ~ e
+Są i tacy, którym płacą nie wiem za co ~ F
+Ale cieszą się szacunkiem i urzędem ~ G
+Bo czas możliwości wszelakich ostatnio nam nastał... ~ a F G a F G
+
+#verse
+Mogę włóczyć się i żyć z czego popadnie, ~ a
+Mogę okraść kantor, kościół czy przekupkę, ~ e
+Żyć z nierządu albo doić chętną wdówkę, ~ F
+Paradować syty i ubrany ładnie - ~ G
+A chyłkiem, jak złodziej o zmroku wymykam się z miasta... ~ a F G a F G
+
+#verse
+Mogłem uczyć się na księdza lub piekarza ~ a
+(Duch i ciało zawsze potrzebują strawy), ~ e
+Na wojaka mogłem iść i zażyć sławy, ~ F
+Co wynosi i przyciąga - bo przeraża, ~ G
+A młodość to ponoć przygoda, a wojsko to szkoła... ~ a F G a F G
+
+#verse
+Mogłem włączyć się do bandy rzezimieszków, ~ a
+Niepodzielnie rządzić lasem lub rozstajem, ~ e
+Zostać mnichem i dalekie zwiedzać kraje ~ F
+Rozgrzeszając niespokojne dusze z grzeszków, ~ G
+A chyłkiem przez życie przemykam i drżę, gdy ktoś woła... ~ a F G a F G
+
+#verse
+Jestem młody, jestem nikim - będę nikim. ~ a
+Na gościńcach zdarłem buty i kapotę. ~ e
+Nie obchodzi mnie co będzie ze mną potem, ~ F
+Tylko chciałbym gdzieś odpocząć od paniki, ~ G
+Co goni mnie z miejsca na miejsce o głodzie i chłodzie... ~ a F G a F G
+
+#verse
+Ludzie, których widzę - stoją do mnie tyłem: ~ a
+Ten pod bramą leje, ów na pannę czeka. ~ e
+Nawet pies znajomy na mój widok szczeka... ~ F
+Sam się z życia nader sprawnie obrobiłem, ~ G
+Więc chyłkiem powracam do domu o zmroku - jak złodziej... ~ a F G a F G
+
+#verse
+Jakaś ciepła mnie otacza cisza wokół, ~ a
+Padam z nóg i czuję ręce na ramionach, ~ e
+Do nóg czyichś schylam głowę, jak pod topór. ~ F
+Moje stopy poranione świecą w mroku, ~ G
+Lecz panika - nie wiem skąd wiem - jest już dla mnie skończona ~ a F G a F G
+Lecz panika - nie wiem skąd wiem - jest już dla mnie skończona ~ a G F e a
+

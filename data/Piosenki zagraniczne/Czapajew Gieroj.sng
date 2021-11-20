@@ -1,56 +1,58 @@
-{
-    "title": "Czapajew Gieroj",
-    "category": "Piosenki zagraniczne",
-    "sections": [
-        {
-            "chords": "a\nd\nE\nE E7\na\nd\nE\na",
-            "lyrics": "Ura ura ura\nCzapajew gieroj\nZa stalinu za rodinu\nNa boj na boj na boj\nZa mir, za mir, za mir \nMy pajdiom na wraga \nZa matuszku Rasiju \nZa bialego cara",
-            "chorus": true
-        },
-        {
-            "chords": "E a\nd\nE\nE E7\na d\nE a",
-            "lyrics": "I job twoju mat'\nMy kulturnyj narod\nMy giermancow nie boimsia\nI wsiegda idiom wpieriod!\nRassija, Rassija, Rassija maja\nTaka malie\u0144ka Polsza pobiedi\u0142a tiebia.",
-            "chorus": true
-        },
-        {
-            "chords": "a\nd a\nd a\nE a A7 (Ea)",
-            "lyrics": "Kagda ja byl mal`cziszkoj, \nNosil ja briuki-kliosz\nSalamiennuju szliapu /\nW karmanie finskij nozh / x2",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ura ura ura...",
-            "chorus": true
-        },
-        {
-            "chords": "a\nd a\nd a\nE a A7 (Ea)",
-            "lyrics": "Da mat` byla artistkoj\nOtiec byl kapitan,\nSiestrica gimnazistkoj /\nA ja byl huligan / x2",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ura ura ura...",
-            "chorus": true
-        },
-        {
-            "chords": "a\nd a\nd a\nE a A7 (Ea)",
-            "lyrics": "Ja mat` swoju zariezal,\nOtca ja zastrielil,\nSiestricu gimnazistku /\nW ubornoj utopil / x2",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ura ura ura...",
-            "chorus": true
-        },
-        {
-            "chords": "a\nd a\nd a\nE a A7 (Ea)",
-            "lyrics": "Da mat` liezhit w bol`nice,\nOtiec w syroj ziemlie\nSiestrica gimnazistka, /\nKaczajetsa w gownie / x2",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Ura ura ura...",
-            "chorus": true
-        }
-    ]
-}
+#title Czapajew Gieroj
+#author 
+#category Piosenki zagraniczne
+
+#chorus
+Ura ura ura ~ a
+Czapajew gieroj ~ d
+Za stalinu za rodinu ~ E
+Na boj na boj na boj ~ E E7
+Za mir, za mir, za mir  ~ a
+My pajdiom na wraga  ~ d
+Za matuszku Rasiju  ~ E
+Za bialego cara ~ a
+
+#chorus
+I job twoju mat' ~ E a
+My kulturnyj narod ~ d
+My giermancow nie boimsia ~ E
+I wsiegda idiom wpieriod! ~ E E7
+Rassija, Rassija, Rassija maja ~ a d
+Taka malieńka Polsza pobiediła tiebia. ~ E a
+
+#verse
+Kagda ja byl mal`cziszkoj,  ~ a
+Nosil ja briuki-kliosz ~ d a
+Salamiennuju szliapu / ~ d a
+W karmanie finskij nozh / x2 ~ E a A7 (Ea)
+
+#chorus
+Ura ura ura...
+
+#verse
+Da mat` byla artistkoj ~ a
+Otiec byl kapitan, ~ d a
+Siestrica gimnazistkoj / ~ d a
+A ja byl huligan / x2 ~ E a A7 (Ea)
+
+#chorus
+Ura ura ura...
+
+#verse
+Ja mat` swoju zariezal, ~ a
+Otca ja zastrielil, ~ d a
+Siestricu gimnazistku / ~ d a
+W ubornoj utopil / x2 ~ E a A7 (Ea)
+
+#chorus
+Ura ura ura...
+
+#verse
+Da mat` liezhit w bol`nice, ~ a
+Otiec w syroj ziemlie ~ d a
+Siestrica gimnazistka, / ~ d a
+Kaczajetsa w gownie / x2 ~ E a A7 (Ea)
+
+#chorus
+Ura ura ura...
+

@@ -1,47 +1,52 @@
-{
-    "title": "Mi\u0142o\u015b\u0107 ro\u015bnie wok\u00f3\u0142 nas",
-    "author": "muz. Elton John\r",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "F C\nF C\nF a\nF G",
-            "lyrics": "Czuj\u0119 co si\u0119 \u015bwi\u0119ci\nOp\u0119ta\u0142 ich z\u0142y duch\nDam g\u0142ow\u0119, \u017ce w tym naszym trio\nzostanie tylko dw\u00f3ch",
-            "chorus": false
-        },
-        {
-            "chords": "F C\nF C\nF a\nF G",
-            "lyrics": "Ta noc karesom sprzyja\nMi\u0142osny tchn\u0119\u0142a czar\nW tej sytuacji romantycznej\nCo b\u0119dzie strach si\u0119 ba\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "C G a F\nC F G\nF C a G F\nF d G",
-            "lyrics": "Mi\u0142o\u015b\u0107 ro\u015bnie wok\u00f3\u0142 nas\nW spokojn\u0105 jasn\u0105 noc\nNareszcie \u015bwiat zaczyna w zgodzie \u017cy\u0107\nMagiczn\u0105 czuj\u0105c moc",
-            "chorus": true
-        },
-        {
-            "chords": "F C\nF C\nF a\nF G",
-            "lyrics": "Jak mam jej wyzna\u0107 mi\u0142o\u015b\u0107?\nJak wyt\u0142umaczy\u0107 mam\nKim jestem, co si\u0119 sta\u0142o? Nie wiem,\nCo robi\u0107 nie wiem sam",
-            "chorus": false
-        },
-        {
-            "chords": "F C\nF C\nF a\nF G",
-            "lyrics": "Jest tak zamkni\u0119ty w sobie\nLecz nie uwierz\u0119, \u017ce\nNie b\u0119dzie kr\u00f3lem skoro ma\nKr\u00f3lewski ton i gest",
-            "chorus": false
-        },
-        {
-            "chords": "C G a F\nC F G\nF C a G F\nF d G",
-            "lyrics": "Mi\u0142o\u015b\u0107 ro\u015bnie wok\u00f3\u0142 nas\nW spokojn\u0105 jasn\u0105 noc\nNareszcie \u015bwiat zaczyna w zgodzie \u017cy\u0107\nMagiczn\u0105 czuj\u0105c moc",
-            "chorus": true
-        },
-        {
-            "chords": "D A h G\nD G A\nG D h A G\nG D A",
-            "lyrics": "Mi\u0142o\u015b\u0107 ro\u015bnie wok\u00f3\u0142 nas\nJej zapach jest tu\u017c tu\u017c\nKocha\u0107 to pokona\u0107 troski swe\nPrzetrwa\u0107 po\u015br\u00f3d burz",
-            "chorus": true
-        },
-        {
-            "chords": "D A h G\nD G A\nG D h A G\nG A D",
-            "lyrics": "Je\u017celi on zakocha si\u0119\nNasze sielskie dni\nOdchodz\u0105 w dal i nie ma rady\nJu\u017c po nim, czas na \u0142zy",
-            "chorus": false
-        }
-    ]
-}
+#title Miłość rośnie wokół nas
+#author muz. Elton John
+#category Piosenki różne
+
+#verse
+Czuję co się święci ~ F C
+Opętał ich zły duch ~ F C
+Dam głowę, że w tym naszym trio ~ F a
+zostanie tylko dwóch ~ F G
+
+#verse
+Ta noc karesom sprzyja ~ F C
+Miłosny tchnęła czar ~ F C
+W tej sytuacji romantycznej ~ F a
+Co będzie strach się bać ~ F G
+
+#chorus
+Miłość rośnie wokół nas ~ C G a F
+W spokojną jasną noc ~ C F G
+Nareszcie świat zaczyna w zgodzie żyć ~ F C a G F
+Magiczną czując moc ~ F d G
+
+#verse
+Jak mam jej wyznać miłość? ~ F C
+Jak wytłumaczyć mam ~ F C
+Kim jestem, co się stało? Nie wiem, ~ F a
+Co robić nie wiem sam ~ F G
+
+#verse
+Jest tak zamknięty w sobie ~ F C
+Lecz nie uwierzę, że ~ F C
+Nie będzie królem skoro ma ~ F a
+Królewski ton i gest ~ F G
+
+#chorus
+Miłość rośnie wokół nas ~ C G a F
+W spokojną jasną noc ~ C F G
+Nareszcie świat zaczyna w zgodzie żyć ~ F C a G F
+Magiczną czując moc ~ F d G
+
+#chorus
+Miłość rośnie wokół nas ~ D A h G
+Jej zapach jest tuż tuż ~ D G A
+Kochać to pokonać troski swe ~ G D h A G
+Przetrwać pośród burz ~ G D A
+
+#verse
+Jeżeli on zakocha się ~ D A h G
+Nasze sielskie dni ~ D G A
+Odchodzą w dal i nie ma rady ~ G D h A G
+Już po nim, czas na łzy ~ G A D
+

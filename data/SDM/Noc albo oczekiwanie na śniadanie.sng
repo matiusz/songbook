@@ -1,32 +1,34 @@
-{
-    "title": "Noc albo oczekiwanie na \u015bniadanie",
-    "author": "s\u0142. Edward Stachura, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "a e\na e\nG a\nG a G a",
-            "lyrics": "Ty si\u0119 pochyl r\u00f3\u017ca - b\u00f3g\nTy si\u0119 do mnie pochyl i\nI na ucho jak kolczyk r\u00f3\u017ca - b\u00f3g",
-            "chorus": false
-        },
-        {
-            "chords": "a e\na e\nG a\nG a G a",
-            "lyrics": "Moje ucho ma dzban\nZ niego pi\u0107 tylko tobie nikomu\nA tw\u00f3j kolczyk jak ucho na dzban",
-            "chorus": false
-        },
-        {
-            "chords": "a e\na e\nG a\nG a G a",
-            "lyrics": "O modlitw\u0119 mnie wabisz\nO, wabisz \u017ce b\u0142ysk no\u017ca\nW najpi\u0119kniejsze serce kozy",
-            "chorus": false
-        },
-        {
-            "chords": "a e\na e\nG a\nG a G a",
-            "lyrics": "Z tob\u0105 czysto\u015b\u0107 zachowa\u0107 to gorzej\nKa\u017cdy lew by si\u0119 spali\u0142 ju\u017c dawno\nLas popio\u0142u z jego grzywy nic wi\u0119cej",
-            "chorus": false
-        },
-        {
-            "chords": "a e\na e\nG a\nG a G a",
-            "lyrics": "Ty si\u0119 pochyl r\u00f3\u017ca - b\u00f3g\nTy si\u0119 do mnie pochyl we mnie\nWytry\u015bniemy jak s\u0142o\u0144ce wytry\u015bnie",
-            "chorus": false
-        }
-    ]
-}
+#title Noc albo oczekiwanie na śniadanie
+#author sł. Edward Stachura, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Ty się pochyl róża - bóg ~ a e
+Ty się do mnie pochyl i ~ a e
+I na ucho jak kolczyk róża - bóg ~ G a
+~ G a G a
+
+#verse
+Moje ucho ma dzban ~ a e
+Z niego pić tylko tobie nikomu ~ a e
+A twój kolczyk jak ucho na dzban ~ G a
+~ G a G a
+
+#verse
+O modlitwę mnie wabisz ~ a e
+O, wabisz że błysk noża ~ a e
+W najpiękniejsze serce kozy ~ G a
+~ G a G a
+
+#verse
+Z tobą czystość zachować to gorzej ~ a e
+Każdy lew by się spalił już dawno ~ a e
+Las popiołu z jego grzywy nic więcej ~ G a
+~ G a G a
+
+#verse
+Ty się pochyl róża - bóg ~ a e
+Ty się do mnie pochyl we mnie ~ a e
+Wytryśniemy jak słońce wytryśnie ~ G a
+~ G a G a
+

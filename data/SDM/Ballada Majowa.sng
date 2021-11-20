@@ -1,42 +1,43 @@
-{
-    "title": "Ballada majowa",
-    "author": "s\u0142. J\u00f3zef Baran, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "D A\nA7 h\nG fis\nG A",
-            "lyrics": "Brn\u0105\u0142em do ciebie maju\nPrzez mrozy i biele\nPrzez \u015bnie\u017cyce i zaspy\nI lute zawieje",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nA7 h\nG fis\nG A D",
-            "lyrics": "Przez bezbarwne szpitalne\nKorytarze stycznia\nW tych korytarzach s\u0142o\u0144ce\nGas\u0142o ustawicznie",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nA7 h\nG D\nG A",
-            "lyrics": "A teraz maj doko\u0142a maj\nWy\u015bwi\u0119ca ogrody\nI ca\u0142y ja i ca\u0142y ja\nZanurzony w Jordanie pogody",
-            "chorus": true
-        },
-        {
-            "chords": "D A\nA7 h\nG D\nG A D",
-            "lyrics": "A teraz maj i maj i maj\nDoko\u0142a si\u0119 \u015bwi\u0119ci\nOd wonnych bz\u00f3w szalonych bz\u00f3w\nWprost w g\u0142owie si\u0119 kr\u0119ci",
-            "chorus": true
-        },
-        {
-            "chords": "D A\nA7 h\nG fis\nG A",
-            "lyrics": "I p\u0142yn\u0105 przeze mnie dmuchawce\nJak dzieci\u0144stwa echa\nI wielka jest majowa noc\nKiedy niebo si\u0119 do ziemi u\u015bmiecha",
-            "chorus": false
-        },
-        {
-            "chords": "D A\nA7 h\nG fis\nG A D",
-            "lyrics": "\u015api w twoim wn\u0119trzu ch\u0142opiec\nW ch\u0142opcu pierwszy zachwyt poznaj\u0119\nZ twoich ziaren wyrosn\u0105 sady\nStrudzonemu pielgrzymk\u0105 ul\u017cyj dodaj wiary",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "A teraz maj doko\u0142a maj...",
-            "chorus": true
-        }
-    ]
-}
+#title Ballada majowa
+#author sł. Józef Baran, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Brnąłem do ciebie maju ~ D A
+Przez mrozy i biele ~ A7 h
+Przez śnieżyce i zaspy ~ G fis
+I lute zawieje ~ G A
+
+#verse
+Przez bezbarwne szpitalne ~ D A
+Korytarze stycznia ~ A7 h
+W tych korytarzach słońce ~ G fis
+Gasło ustawicznie ~ G A D
+
+#chorus
+A teraz maj dokoła maj ~ D A
+Wyświęca ogrody ~ A7 h
+I cały ja i cały ja ~ G D
+Zanurzony w Jordanie pogody ~ G A
+
+#chorus
+A teraz maj i maj i maj ~ D A
+Dokoła się święci ~ A7 h
+Od wonnych bzów szalonych bzów ~ G D
+Wprost w głowie się kręci ~ G A D
+
+#verse
+I płyną przeze mnie dmuchawce ~ D A
+Jak dzieciństwa echa ~ A7 h
+I wielka jest majowa noc ~ G fis
+Kiedy niebo się do ziemi uśmiecha ~ G A
+
+#verse
+Śpi w twoim wnętrzu chłopiec ~ D A
+W chłopcu pierwszy zachwyt poznaję ~ A7 h
+Z twoich ziaren wyrosną sady ~ G fis
+Strudzonemu pielgrzymką ulżyj dodaj wiary ~ G A D
+
+#chorus
+A teraz maj dokoła maj...
+

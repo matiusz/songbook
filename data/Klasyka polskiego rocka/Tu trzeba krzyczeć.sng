@@ -1,47 +1,43 @@
-{
-    "title": "Tu trzeba krzycze\u0107",
-    "author": "Pid\u017cama Porno",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "gis Fis\nE gis\ngis Fis\nE gis",
-            "lyrics": "S\u0105 w tym rz\u0119dzie same wampirzyce i alfonsy\nSame niemodne kiecki i oplute w\u0105sy\nS\u0105 w tym kraju g\u0119by tylko by \u015bpiewa\u0142y amen\nChwa\u0142a najwy\u017cszemu, prowad\u017a wodzu na parlament",
-            "chorus": false
-        },
-        {
-            "chords": "gis Fis\nE gis\ngis Fis\nE gis",
-            "lyrics": "Tu trzeba krzycze\u0107, trzeba si\u0119 drze\u0107 \nTu trzeba krzycze\u0107, trzeba si\u0119 drze\u0107\nTu trzeba krzycze\u0107, trzeba si\u0119 drze\u0107\nTu trzeba krzycze\u0107...",
-            "chorus": true
-        },
-        {
-            "chords": "gis Fis\nE gis\ngis Fis\nE gis",
-            "lyrics": "Ci co jeszcze nie powstali ju\u017c si\u0119 pok\u0142\u00f3cili\nKto b\u0119dzie najwa\u017cniejszy przy stole na wigilii\nSprawa ta jest prosta, przekaz oczywisty\n\u015awiat nie umrze z przejedzenia, my umrzemy z nienawi\u015bci",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Tu trzeba krzycze\u0107...",
-            "chorus": true
-        },
-        {
-            "chords": "gis Fis\nE gis\ngis Fis\nE gis",
-            "lyrics": "\u017badnej zbrodni nie pope\u0142ni\u0142, a go utopili w grzechach\nBomba nie wybuch\u0142a, a Hitler nie dojecha\u0142\nTo tak jak na egzamin z\u0142e napisa\u0107 \u015bci\u0105gi\nWod\u0119 w morzu soli\u0107, gwizda\u0107 na poci\u0105gi",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Tu trzeba krzycze\u0107...",
-            "chorus": true
-        },
-        {
-            "chords": "gis Fis\nE gis\ngis Fis\nE gis",
-            "lyrics": "Na s\u0142abych i bezbronnych policyjne tr\u0105bi\u0105 surmy\nTen gn\u00f3j to prokurator, musi mie\u0107 co\u015b z kurwy\nGdzie by\u0142e\u015b? Co zrobi\u0142e\u015b? Na wi\u0119cej nie pozwol\u0119\nWe\u017a mnie teraz nie przepraszaj, teraz to ja Ci\u0119 pierdol\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Tu trzeba krzycze\u0107...",
-            "chorus": true
-        }
-    ]
-}
+#title Tu trzeba krzyczeć
+#author Pidżama Porno
+#category Klasyka polskiego rocka
+
+#verse
+Są w tym rzędzie same wampirzyce i alfonsy ~ gis Fis
+Same niemodne kiecki i oplute wąsy ~ E gis
+Są w tym kraju gęby tylko by śpiewały amen ~ gis Fis
+Chwała najwyższemu, prowadź wodzu na parlament ~ E gis
+
+#chorus
+Tu trzeba krzyczeć, trzeba się drzeć  ~ gis Fis
+Tu trzeba krzyczeć, trzeba się drzeć ~ E gis
+Tu trzeba krzyczeć, trzeba się drzeć ~ gis Fis
+Tu trzeba krzyczeć... ~ E gis
+
+#verse
+Ci co jeszcze nie powstali już się pokłócili ~ gis Fis
+Kto będzie najważniejszy przy stole na wigilii ~ E gis
+Sprawa ta jest prosta, przekaz oczywisty ~ gis Fis
+Świat nie umrze z przejedzenia, my umrzemy z nienawiści ~ E gis
+
+#chorus
+Tu trzeba krzyczeć...
+
+#verse
+Żadnej zbrodni nie popełnił, a go utopili w grzechach ~ gis Fis
+Bomba nie wybuchła, a Hitler nie dojechał ~ E gis
+To tak jak na egzamin złe napisać ściągi ~ gis Fis
+Wodę w morzu solić, gwizdać na pociągi ~ E gis
+
+#chorus
+Tu trzeba krzyczeć...
+
+#verse
+Na słabych i bezbronnych policyjne trąbią surmy ~ gis Fis
+Ten gnój to prokurator, musi mieć coś z kurwy ~ E gis
+Gdzie byłeś? Co zrobiłeś? Na więcej nie pozwolę ~ gis Fis
+Weź mnie teraz nie przepraszaj, teraz to ja Cię pierdolę ~ E gis
+
+#chorus
+Tu trzeba krzyczeć...
+

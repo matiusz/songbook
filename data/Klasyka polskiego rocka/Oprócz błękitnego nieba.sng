@@ -1,47 +1,40 @@
-{
-    "title": "Opr\u00f3cz b\u0142\u0119kitnego nieba",
-    "author": "Golden Life",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "e D\nH7 C D\nH7",
-            "lyrics": "Kiedy jestem sam\nPrzyjaciele s\u0105 daleko, ode mnie, ode mnie\nGdy mam wreszcie czas dla siebie",
-            "chorus": false
-        },
-        {
-            "chords": "e D\nH7 C D\nH7",
-            "lyrics": "Kiedy sobie wspominam\nDawne, dobre czasy,\nCzuje si\u0119 jako\u015b dziwnie, dzisiaj noc jest czarniejsza",
-            "chorus": false
-        },
-        {
-            "chords": "C D e",
-            "lyrics": "Opr\u00f3cz b\u0142\u0119kitnego nieba\nNic mi dzisiaj nie potrzeba",
-            "chorus": true
-        },
-        {
-            "chords": "e D\nH7 C D\nH7",
-            "lyrics": "Gdzie s\u0105 wszystkie dziewcz\u0119ta,\nKt\u00f3re kiedy\u015b tak bardzo kocha\u0142em, kocha\u0142em\nKto z przyjaci\u00f3\u0142 pami\u0119ta ile razy dla nich przegra\u0142em",
-            "chorus": false
-        },
-        {
-            "chords": "e D\nH7 C D\nH7",
-            "lyrics": "W gardle zasch\u0142o mi\nI butelka zupe\u0142nie, zupe\u0142nie, ju\u017c pusta, ju\u017c pusta\nNikt do drzwi ju\u017c dzisiaj nie zastuka",
-            "chorus": false
-        },
-        {
-            "chords": "C D e",
-            "lyrics": "Opr\u00f3cz b\u0142\u0119kitnego nieba\nNic mi dzisiaj nie potrzeba",
-            "chorus": true
-        },
-        {
-            "chords": "C D e",
-            "lyrics": "Opr\u00f3cz drogi szerokiej, opr\u00f3cz g\u00f3ry wysokiej\nOpr\u00f3cz kawa\u0142ka chleba, opr\u00f3cz b\u0142\u0119kitu nieba",
-            "chorus": true
-        },
-        {
-            "chords": "C D e",
-            "lyrics": "Opr\u00f3cz b\u0142\u0119kitnego nieba\nNic mi dzisiaj nie potrzeba",
-            "chorus": true
-        }
-    ]
-}
+#title Oprócz błękitnego nieba
+#author Golden Life
+#category Klasyka polskiego rocka
+
+#verse
+Kiedy jestem sam ~ e D
+Przyjaciele są daleko, ode mnie, ode mnie ~ H7 C D
+Gdy mam wreszcie czas dla siebie ~ H7
+
+#verse
+Kiedy sobie wspominam ~ e D
+Dawne, dobre czasy, ~ H7 C D
+Czuje się jakoś dziwnie, dzisiaj noc jest czarniejsza ~ H7
+
+#chorus
+Oprócz błękitnego nieba ~ C D e
+Nic mi dzisiaj nie potrzeba
+
+#verse
+Gdzie są wszystkie dziewczęta, ~ e D
+Które kiedyś tak bardzo kochałem, kochałem ~ H7 C D
+Kto z przyjaciół pamięta ile razy dla nich przegrałem ~ H7
+
+#verse
+W gardle zaschło mi ~ e D
+I butelka zupełnie, zupełnie, już pusta, już pusta ~ H7 C D
+Nikt do drzwi już dzisiaj nie zastuka ~ H7
+
+#chorus
+Oprócz błękitnego nieba ~ C D e
+Nic mi dzisiaj nie potrzeba
+
+#chorus
+Oprócz drogi szerokiej, oprócz góry wysokiej ~ C D e
+Oprócz kawałka chleba, oprócz błękitu nieba
+
+#chorus
+Oprócz błękitnego nieba ~ C D e
+Nic mi dzisiaj nie potrzeba
+

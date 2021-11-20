@@ -1,37 +1,37 @@
-{
-    "title": "Plasterek cytryny i ja",
-    "author": "Andrzej Korycki",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "e\ne a\na\na H7 e",
-            "lyrics": "Na koniec ci\u0119\u017ckiego dnia, na koniec ci\u0119\u017ckiego dnia\nGdy s\u0142o\u0144ce ju\u017c w lesie zaczyna si\u0119 chowa\u0107\nTo nie wiem jak wy, ale ja; to nie wiem jak wy, ale ja\nJa lubi\u0119 tak sobie ot ciut po\u017ceglowa\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "e\ne a\na\na H7 e",
-            "lyrics": "Szklaneczka cieszy si\u0119, bo; szklaneczka cieszy si\u0119, bo\nBo widzi, \u017ce coli butelk\u0119 wytaczam\nI przypomina mi o...; i przypomina mi o...\nO odrobinie rudego whiskacza,",
-            "chorus": false
-        },
-        {
-            "chords": "e a\nC H7 e H7\ne a\nC H7 e H7",
-            "lyrics": "Od brzegu szklanego, po szklany horyzont\nGdzie szronu rozpina si\u0119 mg\u0142a\nP\u0142yniemy spokojnie, po\u015bpiechem si\u0119 brzydz\u0105c,\nPlasterek cytryny i ja",
-            "chorus": true
-        },
-        {
-            "chords": "e\ne a\na\na H7 e",
-            "lyrics": "Nie raz s\u0142ysza\u0142em ju\u017c, \u017ce; nie raz s\u0142ysza\u0142em ju\u017c, \u017ce\n\u017be takie wieczorne p\u0142ywanie mnie zgubi\nA ja w\u0142a\u015bnie taki mam styl; a ja w\u0142a\u015bnie taki mam styl\nNiech ka\u017cdy tak sobie \u017cegluje \u2013 jak lubi",
-            "chorus": false
-        },
-        {
-            "chords": "e\ne a\na\na H7 e",
-            "lyrics": "Lecz je\u015bli martwi was fakt; lecz je\u015bli martwi was fakt,\n\u017be rejsy zaczyna\u0107 wieczorem najtrudniej\nW porz\u0105dku przyrzekam wam dzi\u015b; w porz\u0105dku przyrzekam wam dzi\u015b,\nOd jutra ju\u017c zaczn\u0119 wyp\u0142ywa\u0107 w po\u0142udnie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Od brzegu szklanego, po szklany horyzont...",
-            "chorus": true
-        }
-    ]
-}
+#title Plasterek cytryny i ja
+#author Andrzej Korycki
+#category Szanty
+
+#verse
+Na koniec ciężkiego dnia, na koniec ciężkiego dnia ~ e
+Gdy słońce już w lesie zaczyna się chować ~ e a
+To nie wiem jak wy, ale ja; to nie wiem jak wy, ale ja ~ a
+Ja lubię tak sobie ot ciut pożeglować ~ a H7 e
+
+#verse
+Szklaneczka cieszy się, bo; szklaneczka cieszy się, bo ~ e
+Bo widzi, że coli butelkę wytaczam ~ e a
+I przypomina mi o...; i przypomina mi o... ~ a
+O odrobinie rudego whiskacza, ~ a H7 e
+
+#chorus
+Od brzegu szklanego, po szklany horyzont ~ e a
+Gdzie szronu rozpina się mgła ~ C H7 e H7
+Płyniemy spokojnie, pośpiechem się brzydząc, ~ e a
+Plasterek cytryny i ja ~ C H7 e H7
+
+#verse
+Nie raz słyszałem już, że; nie raz słyszałem już, że ~ e
+Że takie wieczorne pływanie mnie zgubi ~ e a
+A ja właśnie taki mam styl; a ja właśnie taki mam styl ~ a
+Niech każdy tak sobie żegluje – jak lubi ~ a H7 e
+
+#verse
+Lecz jeśli martwi was fakt; lecz jeśli martwi was fakt, ~ e
+Że rejsy zaczynać wieczorem najtrudniej ~ e a
+W porządku przyrzekam wam dziś; w porządku przyrzekam wam dziś, ~ a
+Od jutra już zacznę wypływać w południe ~ a H7 e
+
+#chorus
+Od brzegu szklanego, po szklany horyzont...
+

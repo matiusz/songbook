@@ -1,37 +1,38 @@
-{
-    "title": "Wypi\u0107 wypijemy",
-    "author": "Babsztyl",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e\nD\nD7\nH7",
-            "lyrics": "Sp\u00f3jrz jak \u017cycie przed tob\u0105 ucieka\nJak godziny cichaczem ci kradnie\nJak szachruje pustymi losami\nDobrze wie na kogo wypadnie",
-            "chorus": false
-        },
-        {
-            "chords": "e\nD\nD7\nH7",
-            "lyrics": "A tyle jeszcze chcia\u0142by\u015b zobaczy\u0107\nTyle nocy mog\u0142oby wzruszy\u0107\nTyle dziewczyn by mo\u017cna rozkocha\u0107\nTyle dzban\u00f3w p\u0119katych osuszy\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "e D e G D G\nG D G D e\ne D e\nG D G\nG D G D e",
-            "lyrics": "Wypi\u0107 wypijemy jeszcze po\u017cyjemy\nZa zdrowie w po\u0142owie \u015bmierci na \u015bmier\u0107 wypij\nJeszcze nam kapela zagra\nJeszcze si\u0119 przydadz\u0105 gard\u0142a\nZapadniemy w rozta\u0144czone sny",
-            "chorus": true
-        },
-        {
-            "chords": "e\nD\nD7\nH7",
-            "lyrics": "Sp\u00f3jrz jak \u017cycie przed tob\u0105 ucieka\njak godziny cichaczem ci kradnie\nJak szachruje pustymi losami\ndobrze wie na kogo wypadnie",
-            "chorus": false
-        },
-        {
-            "chords": "e\nD\nD7\nH7",
-            "lyrics": "A tyle jeszcze chcia\u0142by\u015b zapomnie\u0107\ntyle list\u00f3w do kosza wyrzuci\u0107\nTyle razy z krzywym u\u015bmiechem\ndo faceta w lustrze zanuci\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wypi\u0107 wypijemy...",
-            "chorus": true
-        }
-    ]
-}
+#title Wypić wypijemy
+#author Babsztyl
+#category Piosenki różne
+
+#verse
+Spójrz jak życie przed tobą ucieka ~ e
+Jak godziny cichaczem ci kradnie ~ D
+Jak szachruje pustymi losami ~ D7
+Dobrze wie na kogo wypadnie ~ H7
+
+#verse
+A tyle jeszcze chciałbyś zobaczyć ~ e
+Tyle nocy mogłoby wzruszyć ~ D
+Tyle dziewczyn by można rozkochać ~ D7
+Tyle dzbanów pękatych osuszyć ~ H7
+
+#chorus
+Wypić wypijemy jeszcze pożyjemy ~ e D e G D G
+Za zdrowie w połowie śmierci na śmierć wypij ~ G D G D e
+Jeszcze nam kapela zagra ~ e D e
+Jeszcze się przydadzą gardła ~ G D G
+Zapadniemy w roztańczone sny ~ G D G D e
+
+#verse
+Spójrz jak życie przed tobą ucieka ~ e
+jak godziny cichaczem ci kradnie ~ D
+Jak szachruje pustymi losami ~ D7
+dobrze wie na kogo wypadnie ~ H7
+
+#verse
+A tyle jeszcze chciałbyś zapomnieć ~ e
+tyle listów do kosza wyrzucić ~ D
+Tyle razy z krzywym uśmiechem ~ D7
+do faceta w lustrze zanucić ~ H7
+
+#chorus
+Wypić wypijemy...
+

@@ -1,57 +1,49 @@
-{
-    "title": "Nasze przebudzenie",
-    "author": "Buzu Squat",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "C G d a\nC G d a\nC G d a\nC G d a",
-            "lyrics": "S\u0142ucha\u0107 w pe\u0142nym s\u0142o\u0144cu, jak pulsuje ziemia\nUspokoi\u0107 swoje serce, niczego ju\u017c nie zmienia\u0107\nI uwierzy\u0107 w siebie, porzucaj\u0105c sny\nA tw\u00f3j bunt przemija, a nie ty.",
-            "chorus": false
-        },
-        {
-            "chords": "C\nG\nd a",
-            "lyrics": "I... nie wiesz\nNie wiesz\nNie rozumiesz nic /x2",
-            "chorus": true
-        },
-        {
-            "chords": "C G d a\nC G d a\nC G d a\nC G d a",
-            "lyrics": "Widzie\u0107 par\u0119 bobr\u00f3w przytulonych nad potokiem\nNie zabija\u0107 ich wi\u0119cej, cieszy\u0107 si\u0119 widokiem\nNie wyjada\u0107 ich wn\u0119trzno\u015bci, nie wchodzi\u0107 w ich sk\u00f3r\u0119\nSt\u0119pi\u0107 w sobie instynkt \u0142owcy, wtopi\u0107 w natur\u0119.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nie wiesz...",
-            "chorus": true
-        },
-        {
-            "chords": "C G d a\nC G d a\nC G d a\nC G d a",
-            "lyrics": "Wybra\u0107 to co dobre, z m\u0105drych starych ksi\u0105g\nUszanowa\u0107 swoj\u0105 godno\u015b\u0107, doceniaj\u0105c j\u0105\nA gdy wreszcie uda si\u0119, w\u0142asne z\u0142o pokona\u0107\n\u017beby zawsze mie\u0107 przy sobie, czyje\u015b ramiona.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nie wiesz...",
-            "chorus": true
-        },
-        {
-            "chords": "C G d a\nC G d a\nC G d a\nC G d a",
-            "lyrics": "Wyczu\u0107 tak\u0105 chwil\u0119 w kt\u00f3rej kocha si\u0119 \u017cycie\nI m\u00f3c w niej by\u0107 stale na wieczno\u015b\u0107 w zachwycie\nW pe\u0142nym s\u0142o\u0144cu dumnie, na w\u0142asnych nogach\nMo\u017ce wtedy b\u0119dzie mo\u017cna ujrze\u0107 u\u015bmiech Boga.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nie wiesz...",
-            "chorus": true
-        },
-        {
-            "chords": "G B C C",
-            "lyrics": "",
-            "chorus": false
-        },
-        {
-            "chords": "F C\nd a",
-            "lyrics": "Przej\u015b\u0107 wielk\u0105 rzek\u0119\nBez b\u00f3lu i wyrzecze\u0144",
-            "chorus": false
-        }
-    ]
-}
+#title Nasze przebudzenie
+#author Buzu Squat
+#category Piosenki różne
+
+#verse
+Słuchać w pełnym słońcu, jak pulsuje ziemia ~ C G d a
+Uspokoić swoje serce, niczego już nie zmieniać ~ C G d a
+I uwierzyć w siebie, porzucając sny ~ C G d a
+A twój bunt przemija, a nie ty. ~ C G d a
+
+#chorus
+I... nie wiesz ~ C
+Nie wiesz ~ G
+Nie rozumiesz nic /x2 ~ d a
+
+#verse
+Widzieć parę bobrów przytulonych nad potokiem ~ C G d a
+Nie zabijać ich więcej, cieszyć się widokiem ~ C G d a
+Nie wyjadać ich wnętrzności, nie wchodzić w ich skórę ~ C G d a
+Stępić w sobie instynkt łowcy, wtopić w naturę. ~ C G d a
+
+#chorus
+Nie wiesz...
+
+#verse
+Wybrać to co dobre, z mądrych starych ksiąg ~ C G d a
+Uszanować swoją godność, doceniając ją ~ C G d a
+A gdy wreszcie uda się, własne zło pokonać ~ C G d a
+Żeby zawsze mieć przy sobie, czyjeś ramiona. ~ C G d a
+
+#chorus
+Nie wiesz...
+
+#verse
+Wyczuć taką chwilę w której kocha się życie ~ C G d a
+I móc w niej być stale na wieczność w zachwycie ~ C G d a
+W pełnym słońcu dumnie, na własnych nogach ~ C G d a
+Może wtedy będzie można ujrzeć uśmiech Boga. ~ C G d a
+
+#chorus
+Nie wiesz...
+
+#verse
+~ G B C C
+
+#verse
+Przejść wielką rzekę ~ F C
+Bez bólu i wyrzeczeń ~ d a
+

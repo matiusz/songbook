@@ -1,42 +1,38 @@
-{
-    "title": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w",
-    "author": "Bart\u0142omiej Zgorzelski\r",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "E\nA\nB\nA E",
-            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w\nAlternatyw\u0105 jest czyszczenie kana\u0142\u00f3w\nJak si\u0119 tego nie naucz\u0119\nTo ze studi\u00f3w si\u0119 sam wyrzuc\u0119",
-            "chorus": true
-        },
-        {
-            "chords": "E B\ncis B\nE B\ncis B",
-            "lyrics": "Pochodna si\u0142y normalnej wzgl\u0119dem odci\u0119tej\nW pr\u0119cie, w pr\u0119cie\nR\u00f3wna jest ujemnemu nat\u0119\u017ceniu obci\u0105\u017cenia ci\u0105g\u0142ego\nDzia\u0142aj\u0105cego, r\u00f3wnolegle do osi w pr\u0119cie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w...",
-            "chorus": true
-        },
-        {
-            "chords": "E B\ncis B\nE B\ncis B",
-            "lyrics": "Pochodna si\u0142y tn\u0105cej dzia\u0142aj\u0105cej\nW pr\u0119cie, w pr\u0119cie\nR\u00f3wna jest ujemnemu nat\u0119\u017ceniu obci\u0105\u017cenia ci\u0105g\u0142ego\nDzia\u0142aj\u0105cego, prostopadle do osi w pr\u0119cie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "E B\ncis B\nE B\ncis B",
-            "lyrics": "Pochodna momentu zginaj\u0105cego dzia\u0142aj\u0105cego\nW pr\u0119cie, w pr\u0119cie\nR\u00f3wna jest sile tn\u0105cej dzia\u0142aj\u0105cej\nW pr\u0119cie, w pr\u0119cie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wytrzyma\u0142o\u015b\u0107 materia\u0142\u00f3w\u2026",
-            "chorus": true
-        }
-    ]
-}
+#title Wytrzymałość materiałów
+#author Bartłomiej Zgorzelski
+
+#category Piosenki nieobciążające intelektualnie
+
+#chorus
+Wytrzymałość materiałów ~ E
+Alternatywą jest czyszczenie kanałów ~ A
+Jak się tego nie nauczę ~ B
+To ze studiów się sam wyrzucę ~ A E
+
+#verse
+Pochodna siły normalnej względem odciętej ~ E B
+W pręcie, w pręcie ~ cis B
+Równa jest ujemnemu natężeniu obciążenia ciągłego ~ E B
+Działającego, równolegle do osi w pręcie ~ cis B
+
+#chorus
+Wytrzymałość materiałów...
+
+#verse
+Pochodna siły tnącej działającej ~ E B
+W pręcie, w pręcie ~ cis B
+Równa jest ujemnemu natężeniu obciążenia ciągłego ~ E B
+Działającego, prostopadle do osi w pręcie ~ cis B
+
+#chorus
+Wytrzymałość materiałów…
+
+#verse
+Pochodna momentu zginającego działającego ~ E B
+W pręcie, w pręcie ~ cis B
+Równa jest sile tnącej działającej ~ E B
+W pręcie, w pręcie ~ cis B
+
+#chorus
+Wytrzymałość materiałów…
+

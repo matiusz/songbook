@@ -1,27 +1,26 @@
-{
-    "title": "Kryzysowa narzeczona",
-    "author": "Lady Pank",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a F G\na F G\na F G\na F G a\nC a C",
-            "lyrics": "Mog\u0142a\u015b moj\u0105 by\u0107 kryzysow\u0105 narzeczon\u0105\nRazem ze mn\u0105 pi\u0107 to co nam tu nawarzono\nMog\u0142a\u015b moj\u0105 by\u0107 przy zg\u0142uszonym odbiorniku  \nA\u017c po blady \u015bwit s\u0142ucha\u0107 nowin i uderza\u0107 w gaz\nNie jeden raz, nie jeden raz, nie jeden raz",
-            "chorus": false
-        },
-        {
-            "chords": "d B C\nd B C",
-            "lyrics": "Mog\u0142a\u015b by\u0107 ju\u017c na dnie, a nie by\u0142a\u015b\nNigdy nie dowiesz si\u0119, co straci\u0142a\u015b",
-            "chorus": true
-        },
-        {
-            "chords": "a F G\na F G\na F G\na F G a\nC a C",
-            "lyrics": "Mog\u0142a\u015b moj\u0105 by\u0107 kryzysow\u0105 narzeczon\u0105\nPomalutku \u017cy\u0107, tak jak nam tu naznaczono\nMog\u0142a\u015b moj\u0105 by\u0107 jako\u015b ze mn\u0105 przebiedowa\u0107\nZamiast \u017cyczy\u0107 mi na poczt\u00f3wce nie wiadomo sk\u0105d\nWeso\u0142ych \u015bwi\u0105t, weso\u0142ych \u015bwi\u0105t, weso\u0142ych \u015bwi\u0105t",
-            "chorus": false
-        },
-        {
-            "chords": "d B C\nd B C",
-            "lyrics": "Mog\u0142a\u015b by\u0107 ju\u017c na dnie, a nie by\u0142a\u015b\nNigdy nie dowiesz si\u0119, co straci\u0142a\u015b",
-            "chorus": true
-        }
-    ]
-}
+#title Kryzysowa narzeczona
+#author Lady Pank
+#category Klasyka polskiego rocka
+
+#verse
+Mogłaś moją być kryzysową narzeczoną ~ a F G
+Razem ze mną pić to co nam tu nawarzono ~ a F G
+Mogłaś moją być przy zgłuszonym odbiorniku   ~ a F G
+Aż po blady świt słuchać nowin i uderzać w gaz ~ a F G a
+Nie jeden raz, nie jeden raz, nie jeden raz ~ C a C
+
+#chorus
+Mogłaś być już na dnie, a nie byłaś ~ d B C
+Nigdy nie dowiesz się, co straciłaś ~ d B C
+
+#verse
+Mogłaś moją być kryzysową narzeczoną ~ a F G
+Pomalutku żyć, tak jak nam tu naznaczono ~ a F G
+Mogłaś moją być jakoś ze mną przebiedować ~ a F G
+Zamiast życzyć mi na pocztówce nie wiadomo skąd ~ a F G a
+Wesołych świąt, wesołych świąt, wesołych świąt ~ C a C
+
+#chorus
+Mogłaś być już na dnie, a nie byłaś ~ d B C
+Nigdy nie dowiesz się, co straciłaś ~ d B C
+

@@ -1,27 +1,28 @@
-{
-    "title": "G\u00f3ry i ludzie",
-    "author": "s\u0142. J. Harasymowicz, muz. tradycyjna",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "E fis\nA E\nE fis\nA E",
-            "lyrics": "G\u00f3ry i ludzie z nieba schodz\u0105,\nTrochanowscy prowadz\u0105 basy\nPrzez wie\u015b wiod\u0105 jak nied\u017awiedzia\nJak jastrz\u0105b skrzypeczki p\u0142acz\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "E fis\nA E\nE fis\nA E",
-            "lyrics": "To S\u0142awko gra skrzypce trzyma\nSmykiem zahacza o szczyty dalsze\nA bas Piotra jak wicher wydyma\nBanie na cerkwi na cerkwi w Bielance",
-            "chorus": false
-        },
-        {
-            "chords": "E fis\nA E\nE fis\nA E",
-            "lyrics": "G\u00f3ry i ludzie z nieba schodz\u0105\nna drodze \u017cyczliwa \u017cyczliwa ciemno\u015b\u0107\nwreszcie po latach tych przy stole\nzsiad\u0142o si\u0119 ze mn\u0105 morze \u0141emk\u00f3w.",
-            "chorus": false
-        },
-        {
-            "chords": "E fis\nA E\nE fis\nA E",
-            "lyrics": "Jedna nad nami \u0141emkowyna\ni jeden \u015awi\u0119ty Jerzy czuwa\nJezus na tronie wypoczywa\nczesany w koki jak Samuraj",
-            "chorus": false
-        }
-    ]
-}
+#title Góry i ludzie
+#author sł. J. Harasymowicz, muz. tradycyjna
+#category Turystyczne
+
+#verse
+Góry i ludzie z nieba schodzą, ~ E fis
+Trochanowscy prowadzą basy ~ A E
+Przez wieś wiodą jak niedźwiedzia ~ E fis
+Jak jastrząb skrzypeczki płaczą ~ A E
+
+#verse
+To Sławko gra skrzypce trzyma ~ E fis
+Smykiem zahacza o szczyty dalsze ~ A E
+A bas Piotra jak wicher wydyma ~ E fis
+Banie na cerkwi na cerkwi w Bielance ~ A E
+
+#verse
+Góry i ludzie z nieba schodzą ~ E fis
+na drodze życzliwa życzliwa ciemność ~ A E
+wreszcie po latach tych przy stole ~ E fis
+zsiadło się ze mną morze Łemków. ~ A E
+
+#verse
+Jedna nad nami Łemkowyna ~ E fis
+i jeden Święty Jerzy czuwa ~ A E
+Jezus na tronie wypoczywa ~ E fis
+czesany w koki jak Samuraj ~ A E
+

@@ -1,42 +1,48 @@
-{
-    "title": "Zrobi\u0119 m\u0119\u017cczyzn z was",
-    "author": "muz. Matthew Wilder",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e D G a D\ne D G a D\nC D\nG a\nC D e",
-            "lyrics": "Bra\u0107 si\u0119 do roboty, wroga bi\u0107 ju\u017c czas\nWidz\u0119 zamiast m\u0119\u017cczyzn mn\u00f3stwo bab w\u015br\u00f3d was \nTakiej bandy nikt nie zl\u0119knie si\u0119\nZadr\u017cyjcie wi\u0119c na d\u017awi\u0119k tych s\u0142\u00f3w\nM\u0119\u017cczyzn z was wkr\u00f3tce sam zrobi\u0119 zn\u00f3w",
-            "chorus": false
-        },
-        {
-            "chords": "e D G a D\ne D G a D\nC D\nG a\nC D e",
-            "lyrics": "Z wierzchu masz by\u0107 ska\u0142\u0105, ma si\u0119 \u017car w niej tli\u0107 \nKa\u017cdy b\u00f3j zwyci\u0119\u017cysz; zawsze tak ma by\u0107 \nDzi\u015b, gdy widz\u0119 was, niedobrze mi \nLecz wyt\u0119\u017ccie wreszcie s\u0142uch \nM\u0119\u017cczyzn z was wkr\u00f3tce sam zrobi\u0119 zn\u00f3w ",
-            "chorus": false
-        },
-        {
-            "chords": "C\nD\ne h\nC\nD\ne h",
-            "lyrics": "Co chwila co\u015b zatyka mnie! \nJa ostatnio czuj\u0119 dreszcze! \nNieraz z wuefu wia\u0142em, by\u0142em k\u0142am\nTen go\u015b\u0107 da\u0142 im nie\u017ale w ko\u015b\u0107! \nMo\u017ce mnie nie przejrza\u0142 jeszcze? \nNie chodzi\u0142em na p\u0142ywalni\u0119, to by\u0142 b\u0142\u0105d! ",
-            "chorus": true
-        },
-        {
-            "chords": "C D e\nC D e\nC D e\nC D e",
-            "lyrics": "(Silny b\u0105d\u017a) Musicie by\u0107 jak szalona rzeka\n(Silny b\u0105d\u017a) Jak tajfun, kt\u00f3ry obali mur \n(Silny b\u0105d\u017a) A r\u00f3wnocze\u015bnie tak tajemniczy \nJak ksi\u0119\u017cyc co wygl\u0105da tu zza chmur ",
-            "chorus": true
-        },
-        {
-            "chords": "fis E A h E\nfis E A h E\nD E\nA h\nD E fis",
-            "lyrics": "Blisko ju\u017c do walki, naprz\u00f3d gna ten czas \nTylko twardy rozkaz \u0142\u0105czy mnie i was \nLepiej odejd\u017a, bo dla ciebie brak miejsca \nWi\u0119c gnaj st\u0105d co tchu \nZ ciebie nic nie da si\u0119 zrobi\u0107 tu! ",
-            "chorus": false
-        },
-        {
-            "chords": "D E fis\nD E fis\nD E fis\nD E fis",
-            "lyrics": "(Silny b\u0105d\u017a) Musicie by\u0107 jak szalona rzeka\n(Silny b\u0105d\u017a) Jak tajfun, kt\u00f3ry obali mur \n(Silny b\u0105d\u017a) A r\u00f3wnocze\u015bnie tak tajemniczy \nJak ksi\u0119\u017cyc co wygl\u0105da tu zza chmur ",
-            "chorus": true
-        },
-        {
-            "chords": "",
-            "lyrics": "(Silny b\u0105d\u017a) Musicie by\u0107 ...",
-            "chorus": true
-        }
-    ]
-}
+#title Zrobię mężczyzn z was
+#author muz. Matthew Wilder
+#category Piosenki różne
+
+#verse
+Brać się do roboty, wroga bić już czas ~ e D G a D
+Widzę zamiast mężczyzn mnóstwo bab wśród was  ~ e D G a D
+Takiej bandy nikt nie zlęknie się ~ C D
+Zadrżyjcie więc na dźwięk tych słów ~ G a
+Mężczyzn z was wkrótce sam zrobię znów ~ C D e
+
+#verse
+Z wierzchu masz być skałą, ma się żar w niej tlić  ~ e D G a D
+Każdy bój zwyciężysz; zawsze tak ma być  ~ e D G a D
+Dziś, gdy widzę was, niedobrze mi  ~ C D
+Lecz wytężcie wreszcie słuch  ~ G a
+Mężczyzn z was wkrótce sam zrobię znów  ~ C D e
+
+#chorus
+Co chwila coś zatyka mnie!  ~ C
+Ja ostatnio czuję dreszcze!  ~ D
+Nieraz z wuefu wiałem, byłem kłam ~ e h
+Ten gość dał im nieźle w kość!  ~ C
+Może mnie nie przejrzał jeszcze?  ~ D
+Nie chodziłem na pływalnię, to był błąd!  ~ e h
+
+#chorus
+(Silny bądź) Musicie być jak szalona rzeka ~ C D e
+(Silny bądź) Jak tajfun, który obali mur  ~ C D e
+(Silny bądź) A równocześnie tak tajemniczy  ~ C D e
+Jak księżyc co wygląda tu zza chmur  ~ C D e
+
+#verse
+Blisko już do walki, naprzód gna ten czas  ~ fis E A h E
+Tylko twardy rozkaz łączy mnie i was  ~ fis E A h E
+Lepiej odejdź, bo dla ciebie brak miejsca  ~ D E
+Więc gnaj stąd co tchu  ~ A h
+Z ciebie nic nie da się zrobić tu!  ~ D E fis
+
+#chorus
+(Silny bądź) Musicie być jak szalona rzeka ~ D E fis
+(Silny bądź) Jak tajfun, który obali mur  ~ D E fis
+(Silny bądź) A równocześnie tak tajemniczy  ~ D E fis
+Jak księżyc co wygląda tu zza chmur  ~ D E fis
+
+#chorus
+(Silny bądź) Musicie być ...
+

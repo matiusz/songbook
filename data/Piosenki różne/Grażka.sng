@@ -1,27 +1,29 @@
-{
-    "title": "Gra\u017cka",
-    "author": "Domowe melodie",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "C\ne\nF\nF G\nC\ne\nF\nF G",
-            "lyrics": "Gra\u017cyna zrobi\u0142a dziecko,\nA teraz chce je wywali\u0107\nZe swojego cia\u0142a\nOdda\u0107 komu\u015b za nic.\nGra\u017cyna pochodzi z domu\nGdzie m\u0142ode si\u0119 topi\u0142o.\nJej ojciec te\u017c uton\u0105\u0142,\nJak z matk\u0105 w tango p\u0142yn\u0105\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "C\nF G\nC\nF G (C)",
-            "lyrics": "Gra\u017cka, Gra\u017cka\nWe\u017a przesta\u0144, bo do nieba nie p\u00f3jdziesz.\nGra\u017cka, Gra\u017cka\nKorzystaj, daj siebie unie\u015b\u0107.",
-            "chorus": true
-        },
-        {
-            "chords": "C e\nF F G\nC e\nF F G",
-            "lyrics": "Gra\u017cyna podj\u0119\u0142a kroki do czynu nieprawego.\nZnalaz\u0142a z og\u0142oszenia doktora wybitnego.\nLecz wcze\u015bniej u spowiedzi si\u0119 ksi\u0119dzu wypapla\u0142a,\nA on do niej zza kratki wychyli\u0142 si\u0119 i gada:",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Gra\u017cka, Gra\u017cka...",
-            "chorus": true
-        }
-    ]
-}
+#title Grażka
+#author Domowe melodie
+#category Piosenki różne
+
+#verse
+Grażyna zrobiła dziecko, ~ C
+A teraz chce je wywalić ~ e
+Ze swojego ciała ~ F
+Oddać komuś za nic. ~ F G
+Grażyna pochodzi z domu ~ C
+Gdzie młode się topiło. ~ e
+Jej ojciec też utonął, ~ F
+Jak z matką w tango płynął ~ F G
+
+#chorus
+Grażka, Grażka ~ C
+Weź przestań, bo do nieba nie pójdziesz. ~ F G
+Grażka, Grażka ~ C
+Korzystaj, daj siebie unieść. ~ F G (C)
+
+#verse
+Grażyna podjęła kroki do czynu nieprawego. ~ C e
+Znalazła z ogłoszenia doktora wybitnego. ~ F F G
+Lecz wcześniej u spowiedzi się księdzu wypaplała, ~ C e
+A on do niej zza kratki wychylił się i gada: ~ F F G
+
+#chorus
+Grażka, Grażka...
+

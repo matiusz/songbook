@@ -1,63 +1,69 @@
-{
-    "title": "Bieszczadzkie anio\u0142y",
-    "author": "s\u0142. Adam Ziemianin, muz. Krzysztof Myszkowski",
-    "capo": "Capo IV",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "a\nG\na\ne",
-            "lyrics": "Anio\u0142y s\u0105 takie ciche\nZw\u0142aszcza te w Bieszczadach\nGdy spotkasz takiego w g\u00f3rach\nWiele z nim nie pogadasz",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nC F\nC G\na e a",
-            "lyrics": "Najwy\u017cej na ucho ci powie\nGdy b\u0119dzie w dobrym humorze\n\u017be skrzyd\u0142a nosi w plecaku\nNawet przy dobrej pogodzie",
-            "chorus": false
-        },
-        {
-            "chords": "a\nG\na\ne",
-            "lyrics": "Anio\u0142y s\u0105 ca\u0142e zielone\nZw\u0142aszcza te w Bieszczadach\n\u0141atwo w trawie si\u0119 kryj\u0105\nI w opuszczonych sadach",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nC F\nC G\na e a",
-            "lyrics": "W zielone graj\u0105 ukradkiem\nNawet karty maj\u0105 zielone\nZielone maj\u0105 poj\u0119cie\nA nawet zielony kielonek",
-            "chorus": false
-        },
-        {
-            "chords": "C G\na\nC G\na\nC G\na\nC G\na",
-            "lyrics": "Anio\u0142y bieszczadzkie\nBieszczadzkie anio\u0142y\nDu\u017co w was rado\u015bci\nI dobrej pogody\nBieszczadzkie anio\u0142y\nAnio\u0142y bieszczadzkie\nGdy skrzyd\u0142em ci\u0119 dotkn\u0105\nJu\u017c jeste\u015b ich bratem",
-            "chorus": true
-        },
-        {
-            "chords": "a\nG\na\ne",
-            "lyrics": "Anio\u0142y s\u0105 ca\u0142kiem samotne\nZw\u0142aszcza te w Bieszczadach\nW kapliczkach zim\u0105 drzemi\u0105\nCho\u0107 mo\u017ce im nie wypada",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nC F\nC G\na e a",
-            "lyrics": "Czasem taki anio\u0142 samotny\nZapomni dok\u0105d ma lecie\u0107\nI wtedy ca\u0142e Bieszczady\nMaj\u0105 szalon\u0105 uciech\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Anio\u0142y bieszczadzkie...",
-            "chorus": true
-        },
-        {
-            "chords": "a\nG\na\ne",
-            "lyrics": "Anio\u0142y s\u0105 wiecznie ulotne\nZw\u0142aszcza te w Bieszczadach\nNas te\u017c czasami nosi\nPo ich anielskich \u015bladach",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nC F\nC G\na e a",
-            "lyrics": "One nam przyzwalaj\u0105\nI skrzyd\u0142em wskazuj\u0105 drog\u0119\nI wtedy w nas si\u0119 zapala\nWieczny bieszczadzki ogie\u0144",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Anio\u0142y bieszczadzkie...",
-            "chorus": true
-        }
-    ]
-}
+#title Bieszczadzkie anioły
+#author sł. Adam Ziemianin, muz. Krzysztof Myszkowski
+#category SDM
+#capo Capo IV
+
+#verse
+Anioły są takie ciche ~ a
+Zwłaszcza te w Bieszczadach ~ G
+Gdy spotkasz takiego w górach ~ a
+Wiele z nim nie pogadasz ~ e
+
+#verse
+Najwyżej na ucho ci powie ~ C G
+Gdy będzie w dobrym humorze ~ C F
+Że skrzydła nosi w plecaku ~ C G
+Nawet przy dobrej pogodzie ~ a e a
+
+#verse
+Anioły są całe zielone ~ a
+Zwłaszcza te w Bieszczadach ~ G
+Łatwo w trawie się kryją ~ a
+I w opuszczonych sadach ~ e
+
+#verse
+W zielone grają ukradkiem ~ C G
+Nawet karty mają zielone ~ C F
+Zielone mają pojęcie ~ C G
+A nawet zielony kielonek ~ a e a
+
+#chorus
+Anioły bieszczadzkie ~ C G
+Bieszczadzkie anioły ~ a
+Dużo w was radości ~ C G
+I dobrej pogody ~ a
+Bieszczadzkie anioły ~ C G
+Anioły bieszczadzkie ~ a
+Gdy skrzydłem cię dotkną ~ C G
+Już jesteś ich bratem ~ a
+
+#verse
+Anioły są całkiem samotne ~ a
+Zwłaszcza te w Bieszczadach ~ G
+W kapliczkach zimą drzemią ~ a
+Choć może im nie wypada ~ e
+
+#verse
+Czasem taki anioł samotny ~ C G
+Zapomni dokąd ma lecieć ~ C F
+I wtedy całe Bieszczady ~ C G
+Mają szaloną uciechę ~ a e a
+
+#chorus
+Anioły bieszczadzkie...
+
+#verse
+Anioły są wiecznie ulotne ~ a
+Zwłaszcza te w Bieszczadach ~ G
+Nas też czasami nosi ~ a
+Po ich anielskich śladach ~ e
+
+#verse
+One nam przyzwalają ~ C G
+I skrzydłem wskazują drogę ~ C F
+I wtedy w nas się zapala ~ C G
+Wieczny bieszczadzki ogień ~ a e a
+
+#chorus
+Anioły bieszczadzkie...
+

@@ -1,32 +1,44 @@
-{
-    "title": "Lubi\u0119 kiedy sie zieleni",
-    "author": "Zdrowa Woda",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "E E7\nA\nE H7\nE E7\nA\nE H7 E",
-            "lyrics": "Lubi\u0119 kiedy si\u0119 zieleni\nLubi\u0119 jak si\u0119 piwo pieni\nI gdy mo\u017cna w pian\u0119 lekko wsun\u0105\u0107 w\u0105s\nChocia\u017c czasem tak si\u0119 spoj\u0119\n\u017be do domu i\u015b\u0107 si\u0119 boj\u0119\nNo bo stara \u0142apie zaraz dziwny ton",
-            "chorus": false
-        },
-        {
-            "chords": "E E7\nA\nE H7\nE E7\nA\nE H7 E",
-            "lyrics": "Lec\u0105 garnki i talerze\nLekko si\u0119 unosi pierze\nNo i gratk\u0119 ma s\u0105siedztwo na dok\u0142adk\u0119\nDr\u017cy w posadach kamienica\nTaki szum robi diablica\nJu\u017c j\u0105 chyba wszyscy bior\u0105 za wariatk\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "E E7\nA\nE H7\nE E7\nA\nE H7 E",
-            "lyrics": "By wprowadzi\u0107 \u0142ad i spok\u00f3j\nCicho sw\u00f3j opuszczam pok\u00f3j\nI unosz\u0119 ca\u0142o \u017cycie na ulic\u0119\nTam na rogu kumple stoj\u0105\nOni te\u017c si\u0119 widz\u0119 boj\u0105\nBo ratunek wszelki czerpi\u0105 wprost z butelki",
-            "chorus": false
-        },
-        {
-            "chords": "E E7\nA\nE H7\nE E7\nA\nE H7 E",
-            "lyrics": "A ja wiem \u017ce na m\u00f3j b\u00f3l\nZawsze jest najlepszy full\nSpr\u0119\u017cam cia\u0142o i do baru wal\u0119 \u015bmia\u0142o\nI po chwili ju\u017c rado\u015bnie\nZnowu si\u0119 przygl\u0105dam wio\u015bnie\nBarman leje a w oko\u0142o jest weso\u0142o",
-            "chorus": false
-        },
-        {
-            "chords": "E E7\nA\nE H7\nE E7\nA\nE H7 E",
-            "lyrics": "Lubi\u0119 kiedy si\u0119 zieleni\nLubi\u0119 jak si\u0119 piwo pieni\nGdyby to zrozumie\u0107 chcia\u0142a moja ma\u0142a\n\u015awiat by inne mia\u0142 wymiary\nZnik\u0142y wreszcie by koszmary\nNo a \u017cycie by p\u0142yn\u0119\u0142o nale\u017cycie",
-            "chorus": false
-        }
-    ]
-}
+#title Lubię kiedy sie zieleni
+#author Zdrowa Woda
+#category Piosenki różne
+
+#verse
+Lubię kiedy się zieleni ~ E E7
+Lubię jak się piwo pieni ~ A
+I gdy można w pianę lekko wsunąć wąs ~ E H7
+Chociaż czasem tak się spoję ~ E E7
+Że do domu iść się boję ~ A
+No bo stara łapie zaraz dziwny ton ~ E H7 E
+
+#verse
+Lecą garnki i talerze ~ E E7
+Lekko się unosi pierze ~ A
+No i gratkę ma sąsiedztwo na dokładkę ~ E H7
+Drży w posadach kamienica ~ E E7
+Taki szum robi diablica ~ A
+Już ją chyba wszyscy biorą za wariatkę ~ E H7 E
+
+#verse
+By wprowadzić ład i spokój ~ E E7
+Cicho swój opuszczam pokój ~ A
+I unoszę cało życie na ulicę ~ E H7
+Tam na rogu kumple stoją ~ E E7
+Oni też się widzę boją ~ A
+Bo ratunek wszelki czerpią wprost z butelki ~ E H7 E
+
+#verse
+A ja wiem że na mój ból ~ E E7
+Zawsze jest najlepszy full ~ A
+Sprężam ciało i do baru walę śmiało ~ E H7
+I po chwili już radośnie ~ E E7
+Znowu się przyglądam wiośnie ~ A
+Barman leje a w około jest wesoło ~ E H7 E
+
+#verse
+Lubię kiedy się zieleni ~ E E7
+Lubię jak się piwo pieni ~ A
+Gdyby to zrozumieć chciała moja mała ~ E H7
+Świat by inne miał wymiary ~ E E7
+Znikły wreszcie by koszmary ~ A
+No a życie by płynęło należycie ~ E H7 E
+

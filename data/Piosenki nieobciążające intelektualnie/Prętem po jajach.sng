@@ -1,47 +1,37 @@
-{
-    "title": "Pr\u0119tem po jajach",
-    "author": "Lej Mi P\u00f3\u0142",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "C G a F\nC G a F",
-            "lyrics": "Kiedy by\u0142em ma\u0142ym ch\u0142opcem to dosta\u0142em pr\u0119tem po jajach, woo hoo\nKiedy by\u0142em troch\u0119 starszy to dosta\u0142em pr\u0119tem po jajach, woo hoo",
-            "chorus": false
-        },
-        {
-            "chords": "C G\na F\nC G\na F",
-            "lyrics": "Pr\u0119tem, pr\u0119tem, pr\u0119tem po jajach\nPr\u0119tem, pr\u0119tem, pr\u0119tem po jajach\nPr\u0119tem, pr\u0119tem, pr\u0119tem po jajach\nPr\u0119tem",
-            "chorus": true
-        },
-        {
-            "chords": "C G a F\nC G a F",
-            "lyrics": "Kiedy by\u0142em jeszcze starszy poszed\u0142em do podstaw\u00f3wki, woo hoo\nChcia\u0142em napi\u0107 si\u0119 tam smacznej w\u00f3dki, woo hoo",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Pr\u0119tem, pr\u0119tem, pr\u0119tem po jajach...",
-            "chorus": true
-        },
-        {
-            "chords": "C G a F\nC G a F",
-            "lyrics": "Kiedy by\u0142em w szkole \u015bredniej chcia\u0142em pozna\u0107 fajn\u0105 dziewczyn\u0119,\nBardzo chcia\u0142em, \u017ceby fajn\u0105 mia\u0142a min\u0119, woo hoo",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Pr\u0119tem, pr\u0119tem, pr\u0119tem po jajach...",
-            "chorus": true
-        },
-        {
-            "chords": "C\nG\na\nF",
-            "lyrics": "Pr\u0119tem\nPoo!\nJajach\nMmm! X2",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Pr\u0119tem, pr\u0119tem, pr\u0119tem po jajach...",
-            "chorus": true
-        }
-    ]
-}
+#title Prętem po jajach
+#author Lej Mi Pół
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+Kiedy byłem małym chłopcem to dostałem prętem po jajach, woo hoo ~ C G a F
+Kiedy byłem trochę starszy to dostałem prętem po jajach, woo hoo ~ C G a F
+
+#chorus
+Prętem, prętem, prętem po jajach ~ C G
+Prętem, prętem, prętem po jajach ~ a F
+Prętem, prętem, prętem po jajach ~ C G
+Prętem ~ a F
+
+#verse
+Kiedy byłem jeszcze starszy poszedłem do podstawówki, woo hoo ~ C G a F
+Chciałem napić się tam smacznej wódki, woo hoo ~ C G a F
+
+#chorus
+Prętem, prętem, prętem po jajach...
+
+#verse
+Kiedy byłem w szkole średniej chciałem poznać fajną dziewczynę, ~ C G a F
+Bardzo chciałem, żeby fajną miała minę, woo hoo ~ C G a F
+
+#chorus
+Prętem, prętem, prętem po jajach...
+
+#verse
+Prętem ~ C
+Poo! ~ G
+Jajach ~ a
+Mmm! X2 ~ F
+
+#chorus
+Prętem, prętem, prętem po jajach...
+

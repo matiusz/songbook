@@ -1,37 +1,40 @@
-{
-    "title": "House of the Rising Sun",
-    "author": "The Animals",
-    "category": "Piosenki zagraniczne",
-    "sections": [
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "There is a house in New Orleans\nThey call the Rising Sun\nAnd it's been the ruin of many a poor boy\nAnd God I know I'm one",
-            "chorus": false
-        },
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "My mother was a tailor\nShe sewed my new bluejeans\nMy father was a gamblin' man\nDown in New Orleans",
-            "chorus": false
-        },
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "Now the only thing a gambler needs\nIs a suitcase and trunk\nAnd the only time he's satisfied\nIs when he's on a drunk",
-            "chorus": false
-        },
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "Oh mother tell your children\nNot to do what I have done\nSpend your lives in sin and misery\nIn the House of the Rising Sun",
-            "chorus": false
-        },
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "Well, I got one foot on the platform\nThe other on the train\nI'm goin' back to New Orleans\nTo wear that ball and chain",
-            "chorus": false
-        },
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "Well, there is a house in New Orleans\nThey call the Rising Sun\nAnd it's been the ruin of many a poor boy\nAnd God I know I'm one",
-            "chorus": false
-        }
-    ]
-}
+#title House of the Rising Sun
+#author The Animals
+#category Piosenki zagraniczne
+
+#verse
+There is a house in New Orleans ~ a C D F
+They call the Rising Sun ~ a C E
+And it's been the ruin of many a poor boy ~ a C D F
+And God I know I'm one ~ a E a E
+
+#verse
+My mother was a tailor ~ a C D F
+She sewed my new bluejeans ~ a C E
+My father was a gamblin' man ~ a C D F
+Down in New Orleans ~ a E a E
+
+#verse
+Now the only thing a gambler needs ~ a C D F
+Is a suitcase and trunk ~ a C E
+And the only time he's satisfied ~ a C D F
+Is when he's on a drunk ~ a E a E
+
+#verse
+Oh mother tell your children ~ a C D F
+Not to do what I have done ~ a C E
+Spend your lives in sin and misery ~ a C D F
+In the House of the Rising Sun ~ a E a E
+
+#verse
+Well, I got one foot on the platform ~ a C D F
+The other on the train ~ a C E
+I'm goin' back to New Orleans ~ a C D F
+To wear that ball and chain ~ a E a E
+
+#verse
+Well, there is a house in New Orleans ~ a C D F
+They call the Rising Sun ~ a C E
+And it's been the ruin of many a poor boy ~ a C D F
+And God I know I'm one ~ a E a E
+

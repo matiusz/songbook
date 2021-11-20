@@ -1,43 +1,45 @@
-{
-    "title": "Nied\u017awied\u017a Janusz",
-    "author": "Zacier",
-    "capo": "Capo I",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "D Fis h G\nD h A",
-            "lyrics": "Je\u015bli nied\u017awied\u017a ma w\u0105sy i na imi\u0119 mu Janusz\nTo na pewno jest mi\u0142y, konie kra\u015b\u0107 mo\u017cna z nim\nJe\u015bli nied\u017awied\u017a ma w\u0105sy i tatua\u017c na \u0142ydce\nOn na pewno zaw\u0142adnie sercem twym",
-            "chorus": false
-        },
-        {
-            "chords": "D Fis h G\nD h A",
-            "lyrics": "Nied\u017awied\u017a ten mieszka w bloku czasem s\u0142ucha hip-hopu\nUcz\u0119szcza na si\u0142owni\u0119 i szacunek ma dla barw\nBywa, blanta przysma\u017cy, czasem z nud\u00f3w si\u0119 zwa\u017cy\nNie dor\u00f3wnasz mu kroku, pr\u0119dzej ci uro\u015bnie garb - bo to jest",
-            "chorus": false
-        },
-        {
-            "chords": "G D A\nG A\nG D A\nG A D\nG A D",
-            "lyrics": "Nied\u017awied\u017a Janusz, nied\u017awied\u017a Janusz\nWci\u0105\u017c horyzont muska smutnym wzrokiem swym\nNied\u017awied\u017a Janusz, nied\u017awied\u017a Janusz\nW\u015br\u00f3d nied\u017awiedzi z w\u0105sami wiedzie prym\nW\u015br\u00f3d nied\u017awiedzi z w\u0105sami wiedzie prym",
-            "chorus": true
-        },
-        {
-            "chords": "D Fis h G\nD h A",
-            "lyrics": "Je\u015bli nied\u017awied\u017a ma w\u0105sy i na imi\u0119 mu Janusz\nA kapelusz kowbojski zdobi jego skro\u0144\nJe\u015bli nied\u017awied\u017a ma w\u0105sy, pow\u0142\u00f3czyste spojrzenie\nTo nie l\u0119kaj si\u0119 ujmij jego d\u0142o\u0144 - bo to jest",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nied\u017awied\u017a Janusz, nied\u017awied\u017a Janusz...",
-            "chorus": true
-        },
-        {
-            "chords": "D Fis h G\nD h A",
-            "lyrics": "Mo\u017ce gdzie\u015b s\u0105 nied\u017awiedzie,\nPi\u0119kniejsze ni\u017c Janusz\nBrunatne, grizzly, lub polarne\nCho\u0107by by\u0142o ich tysi\u0105c,\nJa jednego Janusza\nZ w\u0105sami do serca przygarn\u0119\n- bo to jest",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Nied\u017awied\u017a Janusz...",
-            "chorus": true
-        }
-    ]
-}
+#title Niedźwiedź Janusz
+#author Zacier
+#category Piosenki różne
+#capo Capo I
+
+#verse
+Jeśli niedźwiedź ma wąsy i na imię mu Janusz ~ D Fis h G
+To na pewno jest miły, konie kraść można z nim ~ D h A
+Jeśli niedźwiedź ma wąsy i tatuaż na łydce
+On na pewno zawładnie sercem twym
+
+#verse
+Niedźwiedź ten mieszka w bloku czasem słucha hip-hopu ~ D Fis h G
+Uczęszcza na siłownię i szacunek ma dla barw ~ D h A
+Bywa, blanta przysmaży, czasem z nudów się zważy
+Nie dorównasz mu kroku, prędzej ci urośnie garb - bo to jest
+
+#chorus
+Niedźwiedź Janusz, niedźwiedź Janusz ~ G D A
+Wciąż horyzont muska smutnym wzrokiem swym ~ G A
+Niedźwiedź Janusz, niedźwiedź Janusz ~ G D A
+Wśród niedźwiedzi z wąsami wiedzie prym ~ G A D
+Wśród niedźwiedzi z wąsami wiedzie prym ~ G A D
+
+#verse
+Jeśli niedźwiedź ma wąsy i na imię mu Janusz ~ D Fis h G
+A kapelusz kowbojski zdobi jego skroń ~ D h A
+Jeśli niedźwiedź ma wąsy, powłóczyste spojrzenie
+To nie lękaj się ujmij jego dłoń - bo to jest
+
+#chorus
+Niedźwiedź Janusz, niedźwiedź Janusz...
+
+#verse
+Może gdzieś są niedźwiedzie, ~ D Fis h G
+Piękniejsze niż Janusz ~ D h A
+Brunatne, grizzly, lub polarne
+Choćby było ich tysiąc,
+Ja jednego Janusza
+Z wąsami do serca przygarnę
+- bo to jest
+
+#chorus
+Niedźwiedź Janusz...
+

@@ -1,22 +1,22 @@
-{
-    "title": "Modlitwa o wschodzie s\u0142o\u0144ca",
-    "author": "s\u0142. Natan Tenenbaum, muz. Przemys\u0142aw Gintrowski",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "D G D G\nD A D A\nD G D G\nD A D A",
-            "lyrics": "Ka\u017cdy tw\u00f3j wyrok przyjm\u0119 twardy\nPrzed moc\u0105 twoj\u0105 si\u0119 ukorz\u0119\nAle chro\u0144 mnie Panie od pogardy\nOd nienawi\u015bci strze\u017c mnie Bo\u017ce",
-            "chorus": false
-        },
-        {
-            "chords": "D G D G\nD A D A\nD G D G\nD A D A",
-            "lyrics": "Wszak ty\u015b jest niezmierzone dobro\nKt\u00f3rego nie wyra\u017c\u0105 s\u0142owa\nWi\u0119c mnie od nienawi\u015bci obro\u0144\nI od pogardy mnie zachowaj",
-            "chorus": false
-        },
-        {
-            "chords": "E A E A\nE H E H\nE A E A\nE H E H",
-            "lyrics": "Co postanowisz niech si\u0119 zi\u015bci\nNiechaj si\u0119 wola twoja stanie\nAle zbaw mnie od nienawi\u015bci\nOcal mnie od pogardy Panie",
-            "chorus": false
-        }
-    ]
-}
+#title Modlitwa o wschodzie słońca
+#author sł. Natan Tenenbaum, muz. Przemysław Gintrowski
+#category Jacek Kaczmarski
+
+#verse
+Każdy twój wyrok przyjmę twardy ~ D G D G
+Przed mocą twoją się ukorzę ~ D A D A
+Ale chroń mnie Panie od pogardy ~ D G D G
+Od nienawiści strzeż mnie Boże ~ D A D A
+
+#verse
+Wszak tyś jest niezmierzone dobro ~ D G D G
+Którego nie wyrażą słowa ~ D A D A
+Więc mnie od nienawiści obroń ~ D G D G
+I od pogardy mnie zachowaj ~ D A D A
+
+#verse
+Co postanowisz niech się ziści ~ E A E A
+Niechaj się wola twoja stanie ~ E H E H
+Ale zbaw mnie od nienawiści ~ E A E A
+Ocal mnie od pogardy Panie ~ E H E H
+

@@ -1,37 +1,34 @@
-{
-    "title": "Jaka jeste\u015b (Bitwa)",
-    "author": "Tomasz Lewandowski",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "G a\nC D\nG a\nC D",
-            "lyrics": "Jeste\u015b bitw\u0105 moj\u0105 niesko\u0144czon\u0105,\nW kt\u00f3rej co dzie\u0144 o przycz\u00f3\u0142ek walcz\u0119,\nJeste\u015b drzwiami, kt\u00f3re otworzy\u0142em,\nA potem przyci\u0119\u0142y mi palce",
-            "chorus": false
-        },
-        {
-            "chords": "G a\nC D\nG a\nC D",
-            "lyrics": "Jeste\u015b kartk\u0105 z kalendarza\nZagubion\u0105 gdzie\u015b pomi\u0119dzy szufladami\nI ulic\u0105, na kt\u00f3rej co dzie\u0144\nUcieka\u0142em mi\u0119dzy latarniami",
-            "chorus": true
-        },
-        {
-            "chords": "G a\nC D\nG a\nC D",
-            "lyrics": "Jeste\u015b mg\u0142\u0105 ogromn\u0105 niezmierzon\u0105\nCisz\u0105 w huku i \u0142oskotem w ciszy\nJeste\u015b pi\u00f3rem i wyblak\u0142\u0105 kartk\u0105\nKt\u00f3rym i na kt\u00f3rej dzisiaj pisz\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Jeste\u015b kartk\u0105 z kalendarza...",
-            "chorus": true
-        },
-        {
-            "chords": "G a\nC D\nG a\nC D",
-            "lyrics": "Przysz\u0142a\u015b do mnie, a ja nie spostrzeg\u0142em\nDzisiaj tylko mog\u0119 m\u00f3wi\u0107: \"by\u0142a\u015b\"\nNie wiem, czy na jawie wzi\u0119\u0142a\u015b mnie za r\u0119k\u0119,\nCzy jak wszystko tylko mi si\u0119 \u015bni\u0142a\u015b",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Jeste\u015b kartk\u0105 z kalendarza...",
-            "chorus": true
-        }
-    ]
-}
+#title Jaka jesteś (Bitwa)
+#author Tomasz Lewandowski
+#category Piosenki różne
+
+#verse
+Jesteś bitwą moją nieskończoną, ~ G a
+W której co dzień o przyczółek walczę, ~ C D
+Jesteś drzwiami, które otworzyłem, ~ G a
+A potem przycięły mi palce ~ C D
+
+#chorus
+Jesteś kartką z kalendarza ~ G a
+Zagubioną gdzieś pomiędzy szufladami ~ C D
+I ulicą, na której co dzień ~ G a
+Uciekałem między latarniami ~ C D
+
+#verse
+Jesteś mgłą ogromną niezmierzoną ~ G a
+Ciszą w huku i łoskotem w ciszy ~ C D
+Jesteś piórem i wyblakłą kartką ~ G a
+Którym i na której dzisiaj piszę ~ C D
+
+#chorus
+Jesteś kartką z kalendarza...
+
+#verse
+Przyszłaś do mnie, a ja nie spostrzegłem ~ G a
+Dzisiaj tylko mogę mówić: "byłaś" ~ C D
+Nie wiem, czy na jawie wzięłaś mnie za rękę, ~ G a
+Czy jak wszystko tylko mi się śniłaś ~ C D
+
+#chorus
+Jesteś kartką z kalendarza...
+

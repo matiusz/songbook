@@ -1,42 +1,53 @@
-{
-    "title": "Piosenka w sam\u0105 por\u0119",
-    "author": "Szymon Zychowicz, Jan Kondrak",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "h D\nA Fis\nh D\nA Fis\nh D\nA Fis\nh A h",
-            "lyrics": "Pozw\u00f3l odej\u015b\u0107 ju\u017c\n\u017be nie ca\u0142kiem zechciej wierzy\u0107\nPozw\u00f3l odej\u015b\u0107 ju\u017c\nNajlepszemu z Twych \u017co\u0142nierzy\nMiejsce w szyku znam\n\u017bo\u0142nierz mieszka w czasie przesz\u0142ym\nGdy w swojej roli ma trwa\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "h D\nA Fis\nh D\nA Fis\nh D\nA Fis\nh A h",
-            "lyrics": "Tam we mnie ob\u0142oki\nOb\u0142oki g\u0119stniej\u0105\nTam dzban przepe\u0142niony \nLekko si\u0119 chyli\nTam para danieli \nPrzykrywa si\u0119 kniej\u0105\nNoc wr\u00f3\u017cy z nocnych motyli",
-            "chorus": false
-        },
-        {
-            "chords": "h D\nA e Fis\nh D A e G\nh D A e Fis\nh A h",
-            "lyrics": "Na mnie ju\u017c pora\nNim s\u0142owo za ciasne\nNim gest za obszerny nim karta znaczona\nNim zimna koszula obejmie ca\u0142unem\nT\u0119 chwil\u0119 co w nas jak ikona",
-            "chorus": true
-        },
-        {
-            "chords": "h D\nA Fis\nh D\nA Fis\nh D\nA Fis\nh A h",
-            "lyrics": "Tam we mnie granica\nGranica za cicha\nTam grobla mizerna\nNadmiaru nie zbiera\nTam stra\u017cnik zak\u0142ada\n\u0141ach przemytnika\nNoc wr\u00f3\u017cy z r\u0119ki d\u017cokera",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Na mnie ju\u017c pora...",
-            "chorus": true
-        },
-        {
-            "chords": "h D\nA Fis\nh D\nA Fis\nh D\nA Fis\nh A h",
-            "lyrics": "Pozw\u00f3l odej\u015b\u0107 ju\u017c\n\u017be nie ca\u0142kiem mo\u017cesz wierzy\u0107\nPozw\u00f3l odej\u015b\u0107 ju\u017c\nNajlepszemu z twych \u017co\u0142nierzy\nMiejsce w szyku znam\nMoje miejsce w czasie przesz\u0142ym\nGdy w swojej roli mam trwa\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Na mnie ju\u017c pora...",
-            "chorus": true
-        }
-    ]
-}
+#title Piosenka w samą porę
+#author Szymon Zychowicz, Jan Kondrak
+#category Piosenki różne
+
+#verse
+Pozwól odejść już ~ h D
+Że nie całkiem zechciej wierzyć ~ A Fis
+Pozwól odejść już ~ h D
+Najlepszemu z Twych żołnierzy ~ A Fis
+Miejsce w szyku znam ~ h D
+Żołnierz mieszka w czasie przeszłym ~ A Fis
+Gdy w swojej roli ma trwać ~ h A h
+
+#verse
+Tam we mnie obłoki ~ h D
+Obłoki gęstnieją ~ A Fis
+Tam dzban przepełniony  ~ h D
+Lekko się chyli ~ A Fis
+Tam para danieli  ~ h D
+Przykrywa się knieją ~ A Fis
+Noc wróży z nocnych motyli ~ h A h
+
+#chorus
+Na mnie już pora ~ h D
+Nim słowo za ciasne ~ A e Fis
+Nim gest za obszerny nim karta znaczona ~ h D A e G
+Nim zimna koszula obejmie całunem ~ h D A e Fis
+Tę chwilę co w nas jak ikona ~ h A h
+
+#verse
+Tam we mnie granica ~ h D
+Granica za cicha ~ A Fis
+Tam grobla mizerna ~ h D
+Nadmiaru nie zbiera ~ A Fis
+Tam strażnik zakłada ~ h D
+Łach przemytnika ~ A Fis
+Noc wróży z ręki dżokera ~ h A h
+
+#chorus
+Na mnie już pora...
+
+#verse
+Pozwól odejść już ~ h D
+Że nie całkiem możesz wierzyć ~ A Fis
+Pozwól odejść już ~ h D
+Najlepszemu z twych żołnierzy ~ A Fis
+Miejsce w szyku znam ~ h D
+Moje miejsce w czasie przeszłym ~ A Fis
+Gdy w swojej roli mam trwać ~ h A h
+
+#chorus
+Na mnie już pora...
+

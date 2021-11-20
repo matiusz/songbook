@@ -1,52 +1,57 @@
-{
-    "title": "Znajomy smak ksi\u0119\u017cyc\u00f3wy",
-    "author": "Pawe\u0142 Orkisz",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "a C G a",
-            "lyrics": "Ju\u017c dawno nie by\u0142em na rajdzie - znajomy smak ksi\u0119\u017cyc\u00f3wy\nSyn mi na g\u0142ow\u0119 wy\u0142azi - znajomy smak ksi\u0119\u017cyc\u00f3wy -\n\u017bona mnie z domu nie puszcza - znajomy smak ksi\u0119\u017cyc\u00f3wy -\nPo rajdach pozosta\u0142 mi w ustach - znajomy smak ksi\u0119\u017cyc\u00f3wy.",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nE7 a\nC G\nE7 a",
-            "lyrics": "A smaka mam, smaka mam jak fiks!\nWypi\u0142bym ca\u0142e morze piwa!\nOczy p\u0142on\u0105, r\u0119ce dr\u017c\u0105, dusza z piersi si\u0119 wyrywa,\nBo rajd si\u0119 zbli\u017ca.",
-            "chorus": true
-        },
-        {
-            "chords": "a C G a",
-            "lyrics": "Wyje\u017cd\u017ca\u0142em \u2013 dali strzemiennego - znajomy smak ksi\u0119\u017cyc\u00f3wy\nPrzyjecha\u0142em, przywitali swego - znajomy smak ksi\u0119\u017cyc\u00f3wy\nPrzy ognisku siedz\u0119 \u2013 dla rozgrzewki - znajomy smak ksi\u0119\u017cyc\u00f3wy\nCoraz cz\u0119\u015bciej dobrze mi pod drzewkiem - znajomy smak ksi\u0119\u017cyc\u00f3wy",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nE7 a\nC G\nE7 a",
-            "lyrics": "A smaka mam, smaka mam jak fiks!\nWypi\u0142bym ca\u0142e morze w\u00f3dki!\nWlewam w siebie bez umiaru, piwo, wino, bimber, char\u0119,\nbo rajd jest kr\u00f3tki!",
-            "chorus": true
-        },
-        {
-            "chords": "a C G a",
-            "lyrics": "Jak si\u0119 tutaj wzi\u0105\u0142em \u2013 nie pami\u0119tam! - znajomy smak ksi\u0119\u017cyc\u00f3wy\nWiem, \u017ce ci\u0105gle depta\u0142 mi po pi\u0119tach - znajomy smak ksi\u0119\u017cyc\u00f3wy\nNogi wcale mnie nie bol\u0105, nie! - znajomy smak ksi\u0119\u017cyc\u00f3wy\nZa to w g\u0142owie huczy, szumi, wre - znajomy smak ksi\u0119\u017cyc\u00f3wy",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nE7 a\nC G\nE7 a",
-            "lyrics": "Ech, kaca mam, kaca mam jak fiks!\n\u017bo\u0142\u0105dek n\u0119ka, g\u0142owa mi p\u0119ka!\nGadaj, bracie, jak to by\u0142o, jak do domu si\u0119 wr\u00f3ci\u0142o?\nnic nie pami\u0119tam!",
-            "chorus": true
-        },
-        {
-            "chords": "C G\nE7 a\nC G\nE7 a",
-            "lyrics": "Lecz smaka mam, smaka mam jak fiks!\nNa kacu tylko smak mi zosta\u0142!\nGadaj szybko, do cholery, gdzie nast\u0119pny rajd i kiedy,\nbo smak jest constans!",
-            "chorus": true
-        },
-        {
-            "chords": "a C G a",
-            "lyrics": "Piosenka ta dedykowana jest turystom przez du\u017ce \u201etfu\u201d, kt\u00f3rych jednak\nw\u0119drowcami nazwa\u0107 nie mo\u017cna i trzeba by im by\u0142o za\u015bpiewa\u0107 np. tak:",
-            "chorus": false
-        },
-        {
-            "chords": "C G\nE7 a\nC G\nE7 a",
-            "lyrics": "Wypij\u017ce se, byku, w domu! Na szlaku nie rzygaj,\nna szlaku nie rzygaj, na szlaku nie rzygaj!\nBo jak z\u0142api\u0119 Ci\u0119 na szlaku -\nnie daj Bo\u017ce! \u2013 po pijaku,\nnogi z dupy powyrywam!!!",
-            "chorus": true
-        }
-    ]
-}
+#title Znajomy smak księżycówy
+#author Paweł Orkisz
+#category Turystyczne
+
+#verse
+Już dawno nie byłem na rajdzie - znajomy smak księżycówy ~ a C G a
+Syn mi na głowę wyłazi - znajomy smak księżycówy -
+Żona mnie z domu nie puszcza - znajomy smak księżycówy -
+Po rajdach pozostał mi w ustach - znajomy smak księżycówy.
+
+#chorus
+A smaka mam, smaka mam jak fiks! ~ C G
+Wypiłbym całe morze piwa! ~ E7 a
+Oczy płoną, ręce drżą, dusza z piersi się wyrywa, ~ C G
+Bo rajd się zbliża. ~ E7 a
+
+#verse
+Wyjeżdżałem – dali strzemiennego - znajomy smak księżycówy ~ a C G a
+Przyjechałem, przywitali swego - znajomy smak księżycówy
+Przy ognisku siedzę – dla rozgrzewki - znajomy smak księżycówy
+Coraz częściej dobrze mi pod drzewkiem - znajomy smak księżycówy
+
+#chorus
+A smaka mam, smaka mam jak fiks! ~ C G
+Wypiłbym całe morze wódki! ~ E7 a
+Wlewam w siebie bez umiaru, piwo, wino, bimber, charę, ~ C G
+bo rajd jest krótki! ~ E7 a
+
+#verse
+Jak się tutaj wziąłem – nie pamiętam! - znajomy smak księżycówy ~ a C G a
+Wiem, że ciągle deptał mi po piętach - znajomy smak księżycówy
+Nogi wcale mnie nie bolą, nie! - znajomy smak księżycówy
+Za to w głowie huczy, szumi, wre - znajomy smak księżycówy
+
+#chorus
+Ech, kaca mam, kaca mam jak fiks! ~ C G
+Żołądek nęka, głowa mi pęka! ~ E7 a
+Gadaj, bracie, jak to było, jak do domu się wróciło? ~ C G
+nic nie pamiętam! ~ E7 a
+
+#chorus
+Lecz smaka mam, smaka mam jak fiks! ~ C G
+Na kacu tylko smak mi został! ~ E7 a
+Gadaj szybko, do cholery, gdzie następny rajd i kiedy, ~ C G
+bo smak jest constans! ~ E7 a
+
+#verse
+Piosenka ta dedykowana jest turystom przez duże „tfu”, których jednak ~ a C G a
+wędrowcami nazwać nie można i trzeba by im było zaśpiewać np. tak:
+
+#chorus
+Wypijże se, byku, w domu! Na szlaku nie rzygaj, ~ C G
+na szlaku nie rzygaj, na szlaku nie rzygaj! ~ E7 a
+Bo jak złapię Cię na szlaku - ~ C G
+nie daj Boże! – po pijaku, ~ E7 a
+nogi z dupy powyrywam!!!
+

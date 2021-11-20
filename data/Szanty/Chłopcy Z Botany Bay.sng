@@ -1,47 +1,52 @@
-{
-    "title": "Ch\u0142opcy z Botany Bay",
-    "author": "Mietek Folk",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "Ju\u017c nad Hornem zapada noc,\nWiatr na \u017caglach po\u0142o\u017cy\u0142 si\u0119,\nA tam jeszcze korsarze na Botany Bay\nUpychaj\u0105 zdobycze swe.",
-            "chorus": false
-        },
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "Jolly Roger na maszcie ju\u017c \u015bpi,\nJutro przyjdzie z Hiszpanem si\u0119 bi\u0107,\nA korsarze znu\u017ceni na Botany Bay\nZa zwyci\u0119stwo dzi\u015b b\u0119d\u0105 swe pi\u0107.",
-            "chorus": false
-        },
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "\u015aniady Clark puchar wznosi do ust:\n\"Bracia, toast: Niech idzie na dno!\"\nTylko Johnny nie pije, bo kilka mil st\u0105d\nOtuli\u0142o z\u0142e morze go.",
-            "chorus": false
-        },
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "Nie podnosi kielicha do ust,\nZawsze on tu najg\u0142o\u015bniej si\u0119 \u015bmia\u0142.\nMistrz fechtunku z Florencji ugodzi\u0142 go,\nJu\u017c nie b\u0119dzie za szoty si\u0119 bra\u0142.",
-            "chorus": false
-        },
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "W starym porcie zap\u0142acze Margot,\nJej kochany nie wr\u00f3ci ju\u017c.\nZa dezercj\u0119 do panny na kei w Brisbane\nOdda\u0107 musia\u0142 sw\u0105 g\u0142ow\u0119 pod n\u00f3\u017c.",
-            "chorus": false
-        },
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "Tak niewielu zosta\u0142o dzi\u015b ich,\nReszt\u0119 zabra\u0142 Neptun pod dach.\nCho\u0107 na ustach wci\u0105\u017c u\u015bmiech, to w sercach l\u00f3d,\nW kuflu miesza si\u0119 rum i strach.",
-            "chorus": false
-        },
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "To ostatni chyba ju\u017c rejs,\nCios sztyletem lub kula w pier\u015b.\nB\u00f3g na szkuner w niebiosach zabierze ich,\nWszystkich ch\u0142opc\u00f3w z Botany Bay.",
-            "chorus": false
-        },
-        {
-            "chords": "d C d\nF C F\nB C d B\nB C d",
-            "lyrics": "Ju\u017c nad Hornem zapada noc,\nWiatr na \u017caglach po\u0142o\u017cy\u0142 si\u0119,\nA tam jeszcze korsarze na Botany Bay\nUpychaj\u0105 zdobycze swe.",
-            "chorus": false
-        }
-    ]
-}
+#title Chłopcy z Botany Bay
+#author Mietek Folk
+#category Szanty
+
+#verse
+Już nad Hornem zapada noc, ~ d C d
+Wiatr na żaglach położył się, ~ F C F
+A tam jeszcze korsarze na Botany Bay ~ B C d B
+Upychają zdobycze swe. ~ B C d
+
+#verse
+Jolly Roger na maszcie już śpi, ~ d C d
+Jutro przyjdzie z Hiszpanem się bić, ~ F C F
+A korsarze znużeni na Botany Bay ~ B C d B
+Za zwycięstwo dziś będą swe pić. ~ B C d
+
+#verse
+Śniady Clark puchar wznosi do ust: ~ d C d
+"Bracia, toast: Niech idzie na dno!" ~ F C F
+Tylko Johnny nie pije, bo kilka mil stąd ~ B C d B
+Otuliło złe morze go. ~ B C d
+
+#verse
+Nie podnosi kielicha do ust, ~ d C d
+Zawsze on tu najgłośniej się śmiał. ~ F C F
+Mistrz fechtunku z Florencji ugodził go, ~ B C d B
+Już nie będzie za szoty się brał. ~ B C d
+
+#verse
+W starym porcie zapłacze Margot, ~ d C d
+Jej kochany nie wróci już. ~ F C F
+Za dezercję do panny na kei w Brisbane ~ B C d B
+Oddać musiał swą głowę pod nóż. ~ B C d
+
+#verse
+Tak niewielu zostało dziś ich, ~ d C d
+Resztę zabrał Neptun pod dach. ~ F C F
+Choć na ustach wciąż uśmiech, to w sercach lód, ~ B C d B
+W kuflu miesza się rum i strach. ~ B C d
+
+#verse
+To ostatni chyba już rejs, ~ d C d
+Cios sztyletem lub kula w pierś. ~ F C F
+Bóg na szkuner w niebiosach zabierze ich, ~ B C d B
+Wszystkich chłopców z Botany Bay. ~ B C d
+
+#verse
+Już nad Hornem zapada noc, ~ d C d
+Wiatr na żaglach położył się, ~ F C F
+A tam jeszcze korsarze na Botany Bay ~ B C d B
+Upychają zdobycze swe. ~ B C d
+

@@ -1,37 +1,61 @@
-{
-    "title": "Bezpowrotnie",
-    "author": "Na Bani",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "cis\nA\ncis\nA\ngis\nA\ngis\nA gis\ncis\nA\ngis\nA gis",
-            "lyrics": "W niebie czas nie istnieje,\nA wszystkie anio\u0142y s\u0105 wolne.\nMog\u0105 \u017cy\u0107 tylko dla siebie,\nDlatego sypiaj\u0105 spokojnie.\nCo kt\u00f3ry, gdy zapadnie\nNa mi\u0142o\u015b\u0107 z nieznanej przyczyny,\nW nag\u0142ym ataku euforii\nPodcina sobie skrzyd\u0142a.\nI rzuca si\u0119 g\u0142ow\u0105 w d\u00f3\u0142,\nW wir ludzkich nami\u0119tno\u015bci.\nA gdy uderza o bruk,\nBudzi si\u0119 nagle z mi\u0142o\u015bci.",
-            "chorus": false
-        },
-        {
-            "chords": "cis\ncis\ncis\ncis\nA H\ncis\nA H\ncis",
-            "lyrics": "G\u0142ow\u0105 chmury nie przebijesz,\nNie podskoczysz zbyt wysoko.\nNie powr\u00f3cisz, sk\u0105d przyby\u0142e\u015b,\nT\u0119sknie patrzysz ku ob\u0142okom.\nTu masz swoje miejsce w \u015bwiecie,\nTu wybudowa\u0142e\u015b dom.\nTam ci\u0119 nikt nie wpu\u015bci,\nPrzecie\u017c one \u015bpi\u0105.",
-            "chorus": true
-        },
-        {
-            "chords": "cis\nA\ncis\nA\ngis\nA\ngis\nA gis\ncis\nA\ngis\nA gis",
-            "lyrics": "Na ziemi \u017cycie up\u0142ywa\nP\u0142yn\u0105c od troski do troski.\nW\u0105wozy zmarszczek wymywa\nWspomnienie dawnej wolno\u015bci.\nDopiero nagi, bezbronny,\nDo sk\u00f3ry odarty z pi\u00f3r\nUmiesz odczuwa\u0107 szcz\u0119\u015bcie,\nLecz wiesz te\u017c czym jest b\u00f3l.\nA blizny na plecach bol\u0105\nZw\u0142aszcza gdy przyjdzie noc.\nWiercisz si\u0119 dziel\u0105c na dwoje\nJeden zbyt ma\u0142y koc.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "G\u0142ow\u0105 chmury nie przebijesz\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "cis\nA\ngis\nA gis",
-            "lyrics": "A kiedy staro\u015b\u0107 pokryje\nBia\u0142ym puchem twe skronie\nOdzyskasz swoj\u0105 wolno\u015b\u0107\nCho\u0107 ju\u017c nie t\u0119sknisz do niej.",
-            "chorus": false
-        },
-        {
-            "chords": "cis\ncis\ncis\ncis\nA H\ncis\nA H\ncis",
-            "lyrics": "Wolno\u015b\u0107 i samotno\u015b\u0107 tylko\nZaczynaj\u0105 si\u0119 inaczej.\nObie staj\u0105 o\u015bci\u0105 w gardle;\nTo odwieczna wojna znacze\u0144.\nTu masz swoje miejsce w domu\nTu na ciebie czekam ja.\nPorzu\u0107 sny i ocal to,\nCo jeszcze trwa.",
-            "chorus": true
-        }
-    ]
-}
+#title Bezpowrotnie
+#author Na Bani
+#category Turystyczne
+
+#verse
+W niebie czas nie istnieje, ~ cis
+A wszystkie anioły są wolne. ~ A
+Mogą żyć tylko dla siebie, ~ cis
+Dlatego sypiają spokojnie. ~ A
+Co który, gdy zapadnie ~ gis
+Na miłość z nieznanej przyczyny, ~ A
+W nagłym ataku euforii ~ gis
+Podcina sobie skrzydła. ~ A gis
+I rzuca się głową w dół, ~ cis
+W wir ludzkich namiętności. ~ A
+A gdy uderza o bruk, ~ gis
+Budzi się nagle z miłości. ~ A gis
+
+#chorus
+Głową chmury nie przebijesz, ~ cis
+Nie podskoczysz zbyt wysoko. ~ cis
+Nie powrócisz, skąd przybyłeś, ~ cis
+Tęsknie patrzysz ku obłokom. ~ cis
+Tu masz swoje miejsce w świecie, ~ A H
+Tu wybudowałeś dom. ~ cis
+Tam cię nikt nie wpuści, ~ A H
+Przecież one śpią. ~ cis
+
+#verse
+Na ziemi życie upływa ~ cis
+Płynąc od troski do troski. ~ A
+Wąwozy zmarszczek wymywa ~ cis
+Wspomnienie dawnej wolności. ~ A
+Dopiero nagi, bezbronny, ~ gis
+Do skóry odarty z piór ~ A
+Umiesz odczuwać szczęście, ~ gis
+Lecz wiesz też czym jest ból. ~ A gis
+A blizny na plecach bolą ~ cis
+Zwłaszcza gdy przyjdzie noc. ~ A
+Wiercisz się dzieląc na dwoje ~ gis
+Jeden zbyt mały koc. ~ A gis
+
+#chorus
+Głową chmury nie przebijesz…
+
+#verse
+A kiedy starość pokryje ~ cis
+Białym puchem twe skronie ~ A
+Odzyskasz swoją wolność ~ gis
+Choć już nie tęsknisz do niej. ~ A gis
+
+#chorus
+Wolność i samotność tylko ~ cis
+Zaczynają się inaczej. ~ cis
+Obie stają ością w gardle; ~ cis
+To odwieczna wojna znaczeń. ~ cis
+Tu masz swoje miejsce w domu ~ A H
+Tu na ciebie czekam ja. ~ cis
+Porzuć sny i ocal to, ~ A H
+Co jeszcze trwa. ~ cis
+

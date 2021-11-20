@@ -1,63 +1,56 @@
-{
-    "title": "W lesie listopadowym",
-    "author": "s\u0142. Jerzy Harasymowicz, muz. Zbigniew Bogda\u0144ski",
-    "capo": "Capo II",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "a G a G a G a E",
-            "lyrics": "",
-            "chorus": false
-        },
-        {
-            "chords": "E7 a\nE7 a\nC G\nE7 a",
-            "lyrics": "Wok\u00f3\u0142 g\u00f3ry, g\u00f3ry i g\u00f3ry\nI ca\u0142e moje \u017cycie jest w g\u00f3rach\nIle\u017c pi\u0119kniej drozdy le\u015bne \u015bpiewaj\u0105\nNi\u017c \u015bpiewak p\u0142atny na ch\u00f3rach",
-            "chorus": true
-        },
-        {
-            "chords": "E7 a\nE7 a\nC G\nE7 a",
-            "lyrics": "Wok\u00f3\u0142 lasy, lasy i wiatr\nI ca\u0142e \u017cycie w wiatru \u015bwistach\nWszyscy kt\u00f3rych kocham wita was\nModrzewia ikona z\u0142ocista",
-            "chorus": true
-        },
-        {
-            "chords": "d E7 a\nd G C a\nd E7 a\nE7 a",
-            "lyrics": "Jak \u0142asiczki \u015bcie\u017cka w \u015bniegach\nDroga \u017cycia by\u0142a kr\u0119ta\nTeraz z las\u00f3w zesz\u0142a na mnie\nM\u0142odych jode\u0142 ziele\u0144 \u015bwi\u0119ta",
-            "chorus": false
-        },
-        {
-            "chords": "d E7 a\nd G C a\nd E7 a\nE7 a",
-            "lyrics": "Wa\u017cne s\u0105 tylko kopu\u0142y pie\u015bni\nKt\u00f3re na g\u00f3rze wysokiej zostan\u0105\nNikt nie szuka inicja\u0142\u00f3w cie\u015bli\nGdy cie\u015ble dom postawi\u0105",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wok\u00f3\u0142 g\u00f3ry, g\u00f3ry i g\u00f3ry...",
-            "chorus": true
-        },
-        {
-            "chords": "",
-            "lyrics": "Wok\u00f3\u0142 lasy, lasy i wiatr...",
-            "chorus": true
-        },
-        {
-            "chords": "d E7 a\nd G C a\nd E7 a\nE7 a",
-            "lyrics": "Nieludzk\u0105 r\u0119k\u0105 malowany jest\nWielki smutek duszy mojej\nLecz nawet z\u0142ockiej ikonie\nJa nigdy nic nie powiem",
-            "chorus": false
-        },
-        {
-            "chords": "d E7 a\nd G C a\nd E7 a\nE7 a",
-            "lyrics": "Przyjaciele kt\u00f3rzy jemio\u0142\u0119 czcicie\nDobrze \u017ce chodzicie \u015bwiatem\nWkr\u00f3tce jode\u0142k\u0119 zielon\u0105 spalicie\nBy darzy\u0142a was ciep\u0142ym latem",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wok\u00f3\u0142 g\u00f3ry, g\u00f3ry i g\u00f3ry...",
-            "chorus": true
-        },
-        {
-            "chords": "",
-            "lyrics": "Wok\u00f3\u0142 lasy, lasy i wiatr...",
-            "chorus": true
-        }
-    ]
-}
+#title W lesie listopadowym
+#author sł. Jerzy Harasymowicz, muz. Zbigniew Bogdański
+#category Turystyczne
+#capo Capo II
+
+#verse
+~ a G a G a G a E
+
+#chorus
+Wokół góry, góry i góry ~ E7 a
+I całe moje życie jest w górach ~ E7 a
+Ileż piękniej drozdy leśne śpiewają ~ C G
+Niż śpiewak płatny na chórach ~ E7 a
+
+#chorus
+Wokół lasy, lasy i wiatr ~ E7 a
+I całe życie w wiatru świstach ~ E7 a
+Wszyscy których kocham wita was ~ C G
+Modrzewia ikona złocista ~ E7 a
+
+#verse
+Jak łasiczki ścieżka w śniegach ~ d E7 a
+Droga życia była kręta ~ d G C a
+Teraz z lasów zeszła na mnie ~ d E7 a
+Młodych jodeł zieleń święta ~ E7 a
+
+#verse
+Ważne są tylko kopuły pieśni ~ d E7 a
+Które na górze wysokiej zostaną ~ d G C a
+Nikt nie szuka inicjałów cieśli ~ d E7 a
+Gdy cieśle dom postawią ~ E7 a
+
+#chorus
+Wokół góry, góry i góry...
+
+#chorus
+Wokół lasy, lasy i wiatr...
+
+#verse
+Nieludzką ręką malowany jest ~ d E7 a
+Wielki smutek duszy mojej ~ d G C a
+Lecz nawet złockiej ikonie ~ d E7 a
+Ja nigdy nic nie powiem ~ E7 a
+
+#verse
+Przyjaciele którzy jemiołę czcicie ~ d E7 a
+Dobrze że chodzicie światem ~ d G C a
+Wkrótce jodełkę zieloną spalicie ~ d E7 a
+By darzyła was ciepłym latem ~ E7 a
+
+#chorus
+Wokół góry, góry i góry...
+
+#chorus
+Wokół lasy, lasy i wiatr...
+

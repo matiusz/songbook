@@ -1,37 +1,45 @@
-{
-    "title": "Pi\u0142em w Spale, spa\u0142em w Pile",
-    "author": "Artur Andrus",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "h\nh Fis\nFis\nFis h",
-            "lyrics": "Id\u0105 sobie poln\u0105 drog\u0105 tacy, kt\u00f3rzy du\u017co mog\u0105.\nTr\u0105bka im do marszu gra.\nDyrektory i prezesy, \u0142ase toto na sukcesy,\nA tymczasem ja:",
-            "chorus": false
-        },
-        {
-            "chords": "h\nFis\nFis\nh\nh\nFis\nFis\nh",
-            "lyrics": "Pi\u0142em w Spale, spa\u0142em w Pile i to jak na razie tyle!\nHeeej, o hej\u2026\nZnak szczeg\u00f3lny mam na ciele, wytatuowany jele\u0144!\nHeeej, \u0142oo heej!\nOn ma rogi gdzie ja mi\u0119\u015bnie, jak ja schudn\u0119, to on wkl\u0119\u015bnie!\nHeeej, o hej\u2026\nPi\u0142em w Spale, spa\u0142em w Pile, i to jak na razie tyle!\nHeeej, \u0142oo heej.",
-            "chorus": true
-        },
-        {
-            "chords": "h\nh Fis\nFis\nFis h",
-            "lyrics": "Na co mnie tam do cholery te zaszczyty, te ordery,\nrauty, gale itp.\nMnie do szcz\u0119\u015bcia nie potrzeba, ani igrzysk, ani chleba.\nWa\u017cne tylko, \u017ce:",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Pi\u0142em w Spale...",
-            "chorus": true
-        },
-        {
-            "chords": "h\nh Fis\nFis\nFis h",
-            "lyrics": "A najgorsi to s\u0105 m\u0142odzi, \u015bwiat przez m\u0142odych na psy schodzi,\n\u017cadnych marze\u0144, tylko pic.\nSyn studiuje medycyn\u0119, martwi\u0119 si\u0119 tym moim synem.\nNie osi\u0105gn\u0105\u0142 nic...",
-            "chorus": false
-        },
-        {
-            "chords": "h\nFis\nFis\nh\nh\nFis\nFis\nh",
-            "lyrics": "Nie pi\u0142 w Spale, nie spa\u0142 w Pile\n\u017bycia ju\u017c zmarnowa\u0142 tyle...Heeej, okej!\nDobrze, \u017ce cho\u0107 na kolanie\nMa tatuowan\u0105 \u0142ani\u0119... Heeej, okej!\nJak przykucnie to jest hiena\nJednak co\u015b zostaje w genach. Heeej, okej!\nW czasie studi\u00f3w jego matka\nHien\u0119 mia\u0142a na \u0142opatkach. Heeej, okej!",
-            "chorus": true
-        }
-    ]
-}
+#title Piłem w Spale, spałem w Pile
+#author Artur Andrus
+#category Piosenki różne
+
+#verse
+Idą sobie polną drogą tacy, którzy dużo mogą. ~ h
+Trąbka im do marszu gra. ~ h Fis
+Dyrektory i prezesy, łase toto na sukcesy, ~ Fis
+A tymczasem ja: ~ Fis h
+
+#chorus
+Piłem w Spale, spałem w Pile i to jak na razie tyle! ~ h
+Heeej, o hej… ~ Fis
+Znak szczególny mam na ciele, wytatuowany jeleń! ~ Fis
+Heeej, łoo heej! ~ h
+On ma rogi gdzie ja mięśnie, jak ja schudnę, to on wklęśnie! ~ h
+Heeej, o hej… ~ Fis
+Piłem w Spale, spałem w Pile, i to jak na razie tyle! ~ Fis
+Heeej, łoo heej. ~ h
+
+#verse
+Na co mnie tam do cholery te zaszczyty, te ordery, ~ h
+rauty, gale itp. ~ h Fis
+Mnie do szczęścia nie potrzeba, ani igrzysk, ani chleba. ~ Fis
+Ważne tylko, że: ~ Fis h
+
+#chorus
+Piłem w Spale...
+
+#verse
+A najgorsi to są młodzi, świat przez młodych na psy schodzi, ~ h
+żadnych marzeń, tylko pic. ~ h Fis
+Syn studiuje medycynę, martwię się tym moim synem. ~ Fis
+Nie osiągnął nic... ~ Fis h
+
+#chorus
+Nie pił w Spale, nie spał w Pile ~ h
+Życia już zmarnował tyle...Heeej, okej! ~ Fis
+Dobrze, że choć na kolanie ~ Fis
+Ma tatuowaną łanię... Heeej, okej! ~ h
+Jak przykucnie to jest hiena ~ h
+Jednak coś zostaje w genach. Heeej, okej! ~ Fis
+W czasie studiów jego matka ~ Fis
+Hienę miała na łopatkach. Heeej, okej! ~ h
+

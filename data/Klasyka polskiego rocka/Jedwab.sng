@@ -1,37 +1,38 @@
-{
-    "title": "Jedwab",
-    "author": "R\u00f3\u017ce Europy",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a D C G D\na D C G D\na D C G D\na D C G D",
-            "lyrics": "Ofiaruj\u0119 mojej dziewczynie z kwiat\u00f3w Holandii utkany\nSzlafrok, w kt\u00f3rym utonie ca\u0142kiem niez\u0142y posi\u0142ek jaki\nKonsumuje lubie\u017cnie co wiecz\u00f3r w ciep\u0142ych dekoracjach pokoju\nPrzy \u015bwiecach i przy koniaku a nad sob\u0105 mam jej loki",
-            "chorus": false
-        },
-        {
-            "chords": "a D C G",
-            "lyrics": "Tak, tylko ona, jak jedwab",
-            "chorus": true
-        },
-        {
-            "chords": "a D C G D\na D C G D\na D C G D\na D C G D",
-            "lyrics": "Ofiaruj\u0119 mojej dziewczynie wszystkie kwiaty Holandii\nJe\u015bli b\u0119dzie trzeba ukradn\u0119 w nocy przy ksi\u0119\u017cycowej pe\u0142ni\nA potem wycisn\u0119 z nich soki przyprawi\u0119 kalifornijskim winem\nI zanurz\u0119 si\u0119 z moj\u0105 dziewczyn\u0105 po kolana po pas po szyj\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "C D\ne G\nC D\ne G\n \na D C G",
-            "lyrics": "Lubi\u0119 jej farbowane rz\u0119sy,\nPiegi i policzki blade\nLubi\u0119 kiedy mi\u0119kko l\u0105duje,\nOna zmys\u0142owo na mojej twarzy\n \nTak, tylko ona, jak jedwab",
-            "chorus": true
-        },
-        {
-            "chords": "a D C G D\na D C G D\na D C G D\na D C G D",
-            "lyrics": "Ofiaruje mojej dziewczynie Holandii morskie owoce\nwraz z nimi podejrzane przygody bez pieni\u0119dzy dzikie podr\u00f3\u017ce\nSkrawek wszystkich tajemnych wycieczek sam w s\u0142owa ubieram doskonale\nReszt\u0119 stanowi moja dziewczyna tylko ona jest jak jedwab",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Lubi\u0119 jej farbowane..\n\nTak, tylko ona, jak jedwab",
-            "chorus": true
-        }
-    ]
-}
+#title Jedwab
+#author Róże Europy
+#category Klasyka polskiego rocka
+
+#verse
+Ofiaruję mojej dziewczynie z kwiatów Holandii utkany ~ a D C G D
+Szlafrok, w którym utonie całkiem niezły posiłek jaki ~ a D C G D
+Konsumuje lubieżnie co wieczór w ciepłych dekoracjach pokoju ~ a D C G D
+Przy świecach i przy koniaku a nad sobą mam jej loki ~ a D C G D
+
+#chorus
+Tak, tylko ona, jak jedwab ~ a D C G
+
+#verse
+Ofiaruję mojej dziewczynie wszystkie kwiaty Holandii ~ a D C G D
+Jeśli będzie trzeba ukradnę w nocy przy księżycowej pełni ~ a D C G D
+A potem wycisnę z nich soki przyprawię kalifornijskim winem ~ a D C G D
+I zanurzę się z moją dziewczyną po kolana po pas po szyję ~ a D C G D
+
+#chorus
+Lubię jej farbowane rzęsy, ~ C D
+Piegi i policzki blade ~ e G
+Lubię kiedy miękko ląduje, ~ C D
+Ona zmysłowo na mojej twarzy ~ e G
+  ~  
+Tak, tylko ona, jak jedwab ~ a D C G
+
+#verse
+Ofiaruje mojej dziewczynie Holandii morskie owoce ~ a D C G D
+wraz z nimi podejrzane przygody bez pieniędzy dzikie podróże ~ a D C G D
+Skrawek wszystkich tajemnych wycieczek sam w słowa ubieram doskonale ~ a D C G D
+Resztę stanowi moja dziewczyna tylko ona jest jak jedwab ~ a D C G D
+
+#chorus
+Lubię jej farbowane..
+
+Tak, tylko ona, jak jedwab
+

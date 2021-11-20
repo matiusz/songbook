@@ -1,37 +1,34 @@
-{
-    "title": "Gdy nie ma dzieci",
-    "author": "Kult",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a E",
-            "lyrics": "Jedna flaszka druga flaszka i te\u017c trzecia kurde bele leci\nDom stoi zupe\u0142nie pusty noc\u0105 kurz\u0105 si\u0119 dooko\u0142a rupiecie\nWracamy chwiejnym krokiem po okr\u0105\u017ceniu nad ranem\nPo schodach na piechot\u0119 raczej rady nie damy",
-            "chorus": false
-        },
-        {
-            "chords": "a E",
-            "lyrics": "Wyjechali na wakacje wszyscy nasi podopieczni\nGdy nie ma dzieci w domu to jeste\u015bmy niegrzeczni\nWyjechali na wakacje wszyscy nasi podopieczni\nGdy nie ma w domu dzieci to jeste\u015bmy niegrzeczni",
-            "chorus": true
-        },
-        {
-            "chords": "a E",
-            "lyrics": "Trasa bardzo dobrze znana od jednego baru do baru\nPoznajcie tych albo owych i mamy troszeczk\u0119 kataru\nJe\u015bli wiesz o czym ja m\u00f3wi\u0119 natomiast zupe\u0142nym rankiem\nWychylam patrz\u0105c t\u0119po ostatni\u0105 bez gazu szklank\u0119 he!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wyjechali na wakacje wszyscy nasi podopieczni...",
-            "chorus": true
-        },
-        {
-            "chords": "a E",
-            "lyrics": "Jeszcze kilka dni i nocy i wszystko wr\u00f3ci do normy\nB\u0119dziemy zorganizowani i powa\u017cni uczesani i przezorni\nJednak jeszcze dzisiaj i jutro po jutrze i po pojutrze\nPozw\u00f3l nocy kochana \u017cyciu nosa utrze\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wyjechali na wakacje wszyscy nasi podopieczni...",
-            "chorus": true
-        }
-    ]
-}
+#title Gdy nie ma dzieci
+#author Kult
+#category Klasyka polskiego rocka
+
+#verse
+Jedna flaszka druga flaszka i też trzecia kurde bele leci ~ a E
+Dom stoi zupełnie pusty nocą kurzą się dookoła rupiecie
+Wracamy chwiejnym krokiem po okrążeniu nad ranem
+Po schodach na piechotę raczej rady nie damy
+
+#chorus
+Wyjechali na wakacje wszyscy nasi podopieczni ~ a E
+Gdy nie ma dzieci w domu to jesteśmy niegrzeczni
+Wyjechali na wakacje wszyscy nasi podopieczni
+Gdy nie ma w domu dzieci to jesteśmy niegrzeczni
+
+#verse
+Trasa bardzo dobrze znana od jednego baru do baru ~ a E
+Poznajcie tych albo owych i mamy troszeczkę kataru
+Jeśli wiesz o czym ja mówię natomiast zupełnym rankiem
+Wychylam patrząc tępo ostatnią bez gazu szklankę he!
+
+#chorus
+Wyjechali na wakacje wszyscy nasi podopieczni...
+
+#verse
+Jeszcze kilka dni i nocy i wszystko wróci do normy ~ a E
+Będziemy zorganizowani i poważni uczesani i przezorni
+Jednak jeszcze dzisiaj i jutro po jutrze i po pojutrze
+Pozwól nocy kochana życiu nosa utrzeć
+
+#chorus
+Wyjechali na wakacje wszyscy nasi podopieczni...
+

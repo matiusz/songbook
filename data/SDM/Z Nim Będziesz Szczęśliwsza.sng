@@ -1,32 +1,38 @@
-{
-    "title": "Z nim b\u0119dziesz szcz\u0119\u015bliwsza",
-    "author": "s\u0142. Edward Stachura, muz. Krzysztof Myszkowski",
-    "category": "SDM",
-    "sections": [
-        {
-            "chords": "e H7\nG D\nC G\na H7\nC G\nH7",
-            "lyrics": "Zrozum to, co powiem,\nSpr\u00f3buj to zrozumie\u0107 dobrze,\nJak \u017cyczenia najlepsze, te urodzinowe\nAlbo noworoczne, jeszcze lepsze mo\u017ce\nO p\u00f3\u0142nocy, gdy sk\u0142adane\nDr\u017c\u0105cym g\u0142osem, niek\u0142amane",
-            "chorus": false
-        },
-        {
-            "chords": "C G\na HH7\nC G\na D7\ne\nC G a\nG a C G\na C\ne",
-            "lyrics": "Z nim b\u0119dziesz szcz\u0119\u015bliwsza,\ndu\u017co szcz\u0119\u015bliwsza b\u0119dziesz z nim\nJa, c\u00f3\u017c - w\u0142\u00f3cz\u0119ga, niespokojny duch,\nZe mn\u0105 mo\u017cna tylko p\u00f3j\u015b\u0107 na wrzosowisko\nI zapomnie\u0107 wszystko.\nJaka epoka, jaki wiek,\nJaki rok, jaki miesi\u0105c, jaki dzie\u0144\nI jaka godzina ko\u0144czy si\u0119,\nA jaka zaczyna",
-            "chorus": true
-        },
-        {
-            "chords": "e H7\nG D\nC G\na H7\nC G\nH7",
-            "lyrics": "Nie my\u015bl, \u017ce nie kocham,\nLub \u017ce tylko troch\u0119,\nJak ci\u0119 kocham, nie powiem, no bo nie wypowiem -\nTak ogromnie bardzo, jeszcze wi\u0119cej mo\u017ce\nI dlatego w\u0142a\u015bnie \u017cegnaj,\nZrozum dobrze, \u017cegnaj",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Z nim b\u0119dziesz szcz\u0119\u015bliwsza...",
-            "chorus": true
-        },
-        {
-            "chords": "a\nC e",
-            "lyrics": "Ze mn\u0105 mo\u017cna tylko\nW dali znika\u0107 cicho.",
-            "chorus": false
-        }
-    ]
-}
+#title Z nim będziesz szczęśliwsza
+#author sł. Edward Stachura, muz. Krzysztof Myszkowski
+#category SDM
+
+#verse
+Zrozum to, co powiem, ~ e H7
+Spróbuj to zrozumieć dobrze, ~ G D
+Jak życzenia najlepsze, te urodzinowe ~ C G
+Albo noworoczne, jeszcze lepsze może ~ a H7
+O północy, gdy składane ~ C G
+Drżącym głosem, niekłamane ~ H7
+
+#chorus
+Z nim będziesz szczęśliwsza, ~ C G
+dużo szczęśliwsza będziesz z nim ~ a HH7
+Ja, cóż - włóczęga, niespokojny duch, ~ C G
+Ze mną można tylko pójść na wrzosowisko ~ a D7
+I zapomnieć wszystko. ~ e
+Jaka epoka, jaki wiek, ~ C G a
+Jaki rok, jaki miesiąc, jaki dzień ~ G a C G
+I jaka godzina kończy się, ~ a C
+A jaka zaczyna ~ e
+
+#verse
+Nie myśl, że nie kocham, ~ e H7
+Lub że tylko trochę, ~ G D
+Jak cię kocham, nie powiem, no bo nie wypowiem - ~ C G
+Tak ogromnie bardzo, jeszcze więcej może ~ a H7
+I dlatego właśnie żegnaj, ~ C G
+Zrozum dobrze, żegnaj ~ H7
+
+#chorus
+Z nim będziesz szczęśliwsza...
+
+#verse
+Ze mną można tylko ~ a
+W dali znikać cicho. ~ C e
+

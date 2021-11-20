@@ -1,52 +1,57 @@
-{
-    "title": "Nocny kamboj",
-    "author": "Jacek Kaczmarski",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "",
-            "lyrics": "(tekst po polsku, angielsku, rosyjsku i \u0142\u00f3dzku)",
-            "chorus": false
-        },
-        {
-            "chords": "C\nC7\nF G C",
-            "lyrics": "Kiedy kamboj nie ma konia\nKiedy kamboj nie ma konia\nNie wie po co \u017cyje po co jest",
-            "chorus": false
-        },
-        {
-            "chords": "F G\nC e a\nF G C\nF G C e a\nF G C",
-            "lyrics": "Jed\u017a do miasta wielkiego\nDo wielkiego miasta jed\u017a\nTam kambojom bez konia \u0142atwiej \u017cy\u0107\nZapytaj\u0105 ci\u0119 ludzie: Gdzie jest tw\u00f3j ko\u0144?\nPowiedz by si\u0119 nie przypierdalali do\u0144",
-            "chorus": true
-        },
-        {
-            "chords": "C\nC7\nF G C",
-            "lyrics": "\u0141en de kamboj hez no\u0142 horsez,\n\u0141en de kamboj hez no\u0142 horsez,\nHi dazynt no\u0142 how tu bi or not tu bi.",
-            "chorus": false
-        },
-        {
-            "chords": "F G\nC e a\nF G C\nF G C e a\nF G C",
-            "lyrics": "Lets go\u0142 tu big siti,\nTu big siti lets go\u0142\nDer \u0142ida\u0142t horsez is izjer tu liw.\nEnd dej \u0142il esk ju\nWer iz jor hors\nEnd ju enser \"Kis maj es\"",
-            "chorus": true
-        },
-        {
-            "chords": "C\nC7\nF G C",
-            "lyrics": "Niet \u0142oszadi u kamboja,\nNiet \u0142oszadi u kamboja,\nOn nie znajet kak jemu \u017cyt'",
-            "chorus": false
-        },
-        {
-            "chords": "F G\nC e a\nF G C\nF G C e a\nF G C",
-            "lyrics": "Ujez\u017caj w balszoj gorad,\nW balszoj gorad ujez\u017caj,\nTam kambojom bez \u0142oszadi liegczie \u017cyt'\nBudu sprasziwat' ludi -\nGdzie \u0142oszad' twaja,\nNiet \u0142oszadi, ni szczastia ni chuja.",
-            "chorus": true
-        },
-        {
-            "chords": "C\nC7\nF G C",
-            "lyrics": "Kiedy aktor nie ma rola,\nKiedy aktor nie ma rola,\nNie wie, po co \u017cyje, po co jest.",
-            "chorus": false
-        },
-        {
-            "chords": "F G\nC e a\nF G C\nF G C e a\nF G C",
-            "lyrics": "Jed\u017a do miasta ma\u0142ego,\nDo ma\u0142ego miasta - jed\u017a,\nTam aktorom bez rola \u0142atwiej \u017cy\u0107.\nZapytaj\u0105 koledzy - gdzie sukces tw\u00f3j,\n\"Sukces m\u00f3j, biznes m\u00f3j I taki...\"",
-            "chorus": true
-        }
-    ]
-}
+#title Nocny kamboj
+#author Jacek Kaczmarski
+#category Jacek Kaczmarski
+
+#verse
+(tekst po polsku, angielsku, rosyjsku i łódzku)
+
+#verse
+Kiedy kamboj nie ma konia ~ C
+Kiedy kamboj nie ma konia ~ C7
+Nie wie po co żyje po co jest ~ F G C
+
+#chorus
+Jedź do miasta wielkiego ~ F G
+Do wielkiego miasta jedź ~ C e a
+Tam kambojom bez konia łatwiej żyć ~ F G C
+Zapytają cię ludzie: Gdzie jest twój koń? ~ F G C e a
+Powiedz by się nie przypierdalali doń ~ F G C
+
+#verse
+Łen de kamboj hez noł horsez, ~ C
+Łen de kamboj hez noł horsez, ~ C7
+Hi dazynt noł how tu bi or not tu bi. ~ F G C
+
+#chorus
+Lets goł tu big siti, ~ F G
+Tu big siti lets goł ~ C e a
+Der łidałt horsez is izjer tu liw. ~ F G C
+End dej łil esk ju ~ F G C e a
+Wer iz jor hors ~ F G C
+End ju enser "Kis maj es"
+
+#verse
+Niet łoszadi u kamboja, ~ C
+Niet łoszadi u kamboja, ~ C7
+On nie znajet kak jemu żyt' ~ F G C
+
+#chorus
+Ujezżaj w balszoj gorad, ~ F G
+W balszoj gorad ujezżaj, ~ C e a
+Tam kambojom bez łoszadi liegczie żyt' ~ F G C
+Budu sprasziwat' ludi - ~ F G C e a
+Gdzie łoszad' twaja, ~ F G C
+Niet łoszadi, ni szczastia ni chuja.
+
+#verse
+Kiedy aktor nie ma rola, ~ C
+Kiedy aktor nie ma rola, ~ C7
+Nie wie, po co żyje, po co jest. ~ F G C
+
+#chorus
+Jedź do miasta małego, ~ F G
+Do małego miasta - jedź, ~ C e a
+Tam aktorom bez rola łatwiej żyć. ~ F G C
+Zapytają koledzy - gdzie sukces twój, ~ F G C e a
+"Sukces mój, biznes mój I taki..." ~ F G C
+

@@ -1,87 +1,111 @@
-{
-    "title": "Po\u0142oniny kieleckie",
-    "author": "Korniszony, s\u0142. i muz. Rafa\u0142 Pawlicki",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "c g",
-            "lyrics": "Jesie\u0144 jesie\u0144 chodzi\u0107 chodzi\u0107\nRzeka mokro brodzi\u0107 brodzi\u0107\nJesie\u0144 jesie\u0144 chodzi\u0107 chodzi\u0107\nRzeka mokro brodzi\u0107 brodzi\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "c g",
-            "lyrics": "Po\u0142oniny po\u0142oniny kieleckie ojojoj\nPo\u0142oniny po\u0142oniny kieleckie",
-            "chorus": true
-        },
-        {
-            "chords": "c g",
-            "lyrics": "Grudki ziemi na trawniku\nHokus-pokus fiku-miku\nKwiat paproci w bluszczu li\u015bciach\nDeszcz ze \u015bniegiem po\u015bciel skis\u0142a\nPola \u0142\u0105ki rzeki lasy\nDrogi szlaki \u015bcie\u017cki trasy\n\u017baba plecak czaple w g\u00f3rze\nKonik polny \u015bpi w mundurze\nMiedza b\u0142ocko i wykrocie\nPieszo bie\u017c\u0119 ku t\u0119sknocie\nG\u00f3ry g\u00f3ry plusk w strumieniu\n\u015awit si\u0119 \u015bwi\u0119ci na kamieniu\nNiebo chmury gwiazd postronki\nBajdy bujdy klechdy mrzonki",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Po\u0142oniny po\u0142oniny kieleckie ojojoj...",
-            "chorus": true
-        },
-        {
-            "chords": "c g",
-            "lyrics": "Zima zima zaspy zator\nMr\u00f3z to prestidigitator\nZima zima zaspy zator\nMr\u00f3z to prestidigitator",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Po\u0142oniny po\u0142oniny kieleckie ojojoj...",
-            "chorus": true
-        },
-        {
-            "chords": "c g",
-            "lyrics": "Piasek w d\u0142oniach ryba w rzece\nS\u0142o\u0144ca szron na mej powiece\nStruny fletnie rezonanse\nSkrzypek skrzypcom gra w fajansie\nPajda chleba w brudnej g\u0119bie\nZ przodu wr\u00f3bel z ty\u0142u l\u0119d\u017awie\nWiatr ze smalcem igra w trzewiach\nW butach ziemia we \u0142bie drzewa\nMuchy mr\u00f3wki chrz\u0105szcze pszczo\u0142y\nOre ore hej soko\u0142y\nOstry kamie\u0144 kostka krzywa\nStaro\u015b\u0107 panie to pokrzywa\nCie\u0144 u\u015bmiechu w \u015bwie\u017cych wi\u00f3rach\nBanialuka brednia bzdura",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Po\u0142oniny po\u0142oniny kieleckie ojojoj...",
-            "chorus": true
-        },
-        {
-            "chords": "c g",
-            "lyrics": "Wiosna wiosna ro\u015bnie kwitnie\nBaby kocha\u0107 cho\u0107by brzydkie\nWiosna wiosna ro\u015bnie kwitnie\nBaby kocha\u0107 cho\u0107by brzydkie",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Po\u0142oniny po\u0142oniny kieleckie ojojoj...",
-            "chorus": true
-        },
-        {
-            "chords": "c g",
-            "lyrics": "Sosny pi\u0119kne \u0107my kobitki\nKocha\u0107 m\u0142ode rozwielitki\nBreja w kubku szlam w manierce\nKrzyk schabowych w poniewierce\nKlekot jezior przez sitowie\nMrowie kruk\u00f3w mruczy w rowie\nSypie \u015bwiszcze hula duje\nSkrz\u0105 si\u0119 w \u015bniegu \u015blady bure\nStare lejce z okiennic\u0105\nOkaryna pod sp\u00f3dnic\u0105\nSzczyty chrz\u0119szcz\u0105 \u017cleby drgaj\u0105\nKamie\u0144 rosa wilk i zaj\u0105c\nDwie jask\u00f3\u0142ki cztery wrony\nFarmazony i androny",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Po\u0142oniny po\u0142oniny kieleckie ojojoj...",
-            "chorus": true
-        },
-        {
-            "chords": "c g",
-            "lyrics": "Lato lato zbo\u017ce kosa\nBaba w kiecce ale bosa\nLato lato zbo\u017ce kosa\nBaba w kiecce ale bosa",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Po\u0142oniny po\u0142oniny kieleckie ojojoj...",
-            "chorus": true
-        },
-        {
-            "chords": "c\ng\nc\ng\nc\ng\nc\ng c",
-            "lyrics": "Nie napiszesz d\u0142ugopisem\nNie wy\u015bpiewasz g\u0119b\u0105\nJakie pi\u0119kne jest to \u017cycie\nCo je mamy jedno\nHej pie\u015bniarzu hej poeto\nWetknij sobie s\u0142owa w rzy\u0107\nNie po to jestem by jak jest s\u0142ucha\u0107\nAle by ca\u0142ym sob\u0105 by\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "c   g c",
-            "lyrics": "[instrumental]",
-            "chorus": true
-        }
-    ]
-}
+#title Połoniny kieleckie
+#author Korniszony, sł. i muz. Rafał Pawlicki
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+Jesień jesień chodzić chodzić ~ c g
+Rzeka mokro brodzić brodzić
+Jesień jesień chodzić chodzić
+Rzeka mokro brodzić brodzić
+
+#chorus
+Połoniny połoniny kieleckie ojojoj ~ c g
+Połoniny połoniny kieleckie
+
+#verse
+Grudki ziemi na trawniku ~ c g
+Hokus-pokus fiku-miku
+Kwiat paproci w bluszczu liściach
+Deszcz ze śniegiem pościel skisła
+Pola łąki rzeki lasy
+Drogi szlaki ścieżki trasy
+Żaba plecak czaple w górze
+Konik polny śpi w mundurze
+Miedza błocko i wykrocie
+Pieszo bieżę ku tęsknocie
+Góry góry plusk w strumieniu
+Świt się święci na kamieniu
+Niebo chmury gwiazd postronki
+Bajdy bujdy klechdy mrzonki
+
+#chorus
+Połoniny połoniny kieleckie ojojoj...
+
+#verse
+Zima zima zaspy zator ~ c g
+Mróz to prestidigitator
+Zima zima zaspy zator
+Mróz to prestidigitator
+
+#chorus
+Połoniny połoniny kieleckie ojojoj...
+
+#verse
+Piasek w dłoniach ryba w rzece ~ c g
+Słońca szron na mej powiece
+Struny fletnie rezonanse
+Skrzypek skrzypcom gra w fajansie
+Pajda chleba w brudnej gębie
+Z przodu wróbel z tyłu lędźwie
+Wiatr ze smalcem igra w trzewiach
+W butach ziemia we łbie drzewa
+Muchy mrówki chrząszcze pszczoły
+Ore ore hej sokoły
+Ostry kamień kostka krzywa
+Starość panie to pokrzywa
+Cień uśmiechu w świeżych wiórach
+Banialuka brednia bzdura
+
+#chorus
+Połoniny połoniny kieleckie ojojoj...
+
+#verse
+Wiosna wiosna rośnie kwitnie ~ c g
+Baby kochać choćby brzydkie
+Wiosna wiosna rośnie kwitnie
+Baby kochać choćby brzydkie
+
+#chorus
+Połoniny połoniny kieleckie ojojoj...
+
+#verse
+Sosny piękne ćmy kobitki ~ c g
+Kochać młode rozwielitki
+Breja w kubku szlam w manierce
+Krzyk schabowych w poniewierce
+Klekot jezior przez sitowie
+Mrowie kruków mruczy w rowie
+Sypie świszcze hula duje
+Skrzą się w śniegu ślady bure
+Stare lejce z okiennicą
+Okaryna pod spódnicą
+Szczyty chrzęszczą żleby drgają
+Kamień rosa wilk i zając
+Dwie jaskółki cztery wrony
+Farmazony i androny
+
+#chorus
+Połoniny połoniny kieleckie ojojoj...
+
+#verse
+Lato lato zboże kosa ~ c g
+Baba w kiecce ale bosa
+Lato lato zboże kosa
+Baba w kiecce ale bosa
+
+#chorus
+Połoniny połoniny kieleckie ojojoj...
+
+#verse
+Nie napiszesz długopisem ~ c
+Nie wyśpiewasz gębą ~ g
+Jakie piękne jest to życie ~ c
+Co je mamy jedno ~ g
+Hej pieśniarzu hej poeto ~ c
+Wetknij sobie słowa w rzyć ~ g
+Nie po to jestem by jak jest słuchać ~ c
+Ale by całym sobą być ~ g c
+
+#chorus
+[instrumental] ~ c   g c
+

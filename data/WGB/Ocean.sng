@@ -1,27 +1,28 @@
-{
-    "title": "Ocean",
-    "author": "Miros\u0142aw Hrynkiewicz",
-    "category": "WGB",
-    "sections": [
-        {
-            "chords": "A G D A\nA G D A\nA E G D\nA G D A",
-            "lyrics": "Oceanie sinow\u0142osy bia\u0142e statki ku mnie wy\u015blij\nDwa kamyki moje my\u015bli na otwartych d\u0142oniach nios\u0119\nDaj mi miejsce w g\u0142\u0119bi morza szczypt\u0119 l\u0105du szczypt\u0119 ska\u0142y\nTu zbuduj\u0119 zamek bia\u0142y tutaj gniazdo swe za\u0142o\u017c\u0119",
-            "chorus": false
-        },
-        {
-            "chords": "A G D A\nA G D A\nA E G D\nA G D A",
-            "lyrics": "Gdzie\u015b daleko w stu stolicach \u017cyj\u0105 ludzie bij\u0105 w dzwony\nNiezliczone bataliony przyczajone na granicach\nMarsza\u0142kowie szklanoocy pal\u0105 owce i dziewcz\u0119ta\nKto o kwiatach dzi\u015b pami\u0119ta szumi\u0105 gie\u0142dy w g\u0142\u0119bi nocy",
-            "chorus": false
-        },
-        {
-            "chords": "A G D A\nA G D A\nA E G D\nA G D A",
-            "lyrics": "W g\u0142\u0119bi morza zab\u0142\u0105kany nie chc\u0119 nic o ludziach s\u0142ysze\u0107\nBia\u0142y kolor, kolor ciszy w moim zamku bia\u0142e \u015bciany\nW moim zamku gdzie\u015b w ogrodzie b\u0119d\u0119 czyta\u0142 wschodnie ba\u015bnie\nZanim s\u0142o\u0144ce w morzu zga\u015bnie \u017ceby z morza powsta\u0107 znowu",
-            "chorus": false
-        },
-        {
-            "chords": "A G D A\nA G D A\nA E G D\nA G D A",
-            "lyrics": "A gdy ludzie wype\u0142nieni nienawi\u015bci\u0105 w jednej chwili\nZniszcz\u0105 wszystko co stworzyli wielkim ogniem z wn\u0119trza ziemi\nZnikn\u0105 l\u0105dy zniknie morze nie wie nikt co b\u0119dzie potem\nW bia\u0142ych \u015bwiatach ja z powrotem w \u0142onie matki si\u0119 u\u0142o\u017c\u0119",
-            "chorus": false
-        }
-    ]
-}
+#title Ocean
+#author Mirosław Hrynkiewicz
+#category WGB
+
+#verse
+Oceanie sinowłosy białe statki ku mnie wyślij ~ A G D A
+Dwa kamyki moje myśli na otwartych dłoniach niosę ~ A G D A
+Daj mi miejsce w głębi morza szczyptę lądu szczyptę skały ~ A E G D
+Tu zbuduję zamek biały tutaj gniazdo swe założę ~ A G D A
+
+#verse
+Gdzieś daleko w stu stolicach żyją ludzie biją w dzwony ~ A G D A
+Niezliczone bataliony przyczajone na granicach ~ A G D A
+Marszałkowie szklanoocy palą owce i dziewczęta ~ A E G D
+Kto o kwiatach dziś pamięta szumią giełdy w głębi nocy ~ A G D A
+
+#verse
+W głębi morza zabłąkany nie chcę nic o ludziach słyszeć ~ A G D A
+Biały kolor, kolor ciszy w moim zamku białe ściany ~ A G D A
+W moim zamku gdzieś w ogrodzie będę czytał wschodnie baśnie ~ A E G D
+Zanim słońce w morzu zgaśnie żeby z morza powstać znowu ~ A G D A
+
+#verse
+A gdy ludzie wypełnieni nienawiścią w jednej chwili ~ A G D A
+Zniszczą wszystko co stworzyli wielkim ogniem z wnętrza ziemi ~ A G D A
+Znikną lądy zniknie morze nie wie nikt co będzie potem ~ A E G D
+W białych światach ja z powrotem w łonie matki się ułożę ~ A G D A
+

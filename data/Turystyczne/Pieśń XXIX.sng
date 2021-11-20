@@ -1,42 +1,40 @@
-{
-    "title": "Pie\u015b\u0144 XXIX",
-    "author": "s\u0142. Jerzy Harasymowicz, muz. Wojtek Szyma\u0144ski",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "D C G D",
-            "lyrics": "",
-            "chorus": false
-        },
-        {
-            "chords": "D\nC7+\nG6\nD2",
-            "lyrics": "Ca\u0142e \u017cycie w niebo idzie\nM\u00f3j po\u0142oni\u0144ski poch\u00f3d\nI buki srebrni je\u017ad\u017acy\nNad nimi wiosny sok\u00f3\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "D\nC7+\nG6\nD2",
-            "lyrics": "I nadal tamtej po\u0142oniny wiatr\nI chmur wiosennych grzywy\nI na chor\u0105gwi wspomnie\u0144 twarz\nZ w\u0142osami wiej\u0105cymi",
-            "chorus": false
-        },
-        {
-            "chords": "D\ne\nG\nD",
-            "lyrics": "Jak cia\u0142a nasze w mrocznym rytmie\nWznosi\u0142y si\u0119 g\u00f3ry opada\u0142y\nTak dzieje si\u0119 gdy wiosna przyjdzie\nWypala mi\u0142o\u015b\u0107 stare trawy",
-            "chorus": true
-        },
-        {
-            "chords": "D\nC7+\nG6\nD2",
-            "lyrics": "Ca\u0142e \u017cycie w niebo idzie\nM\u00f3j po\u0142oni\u0144ski poch\u00f3d\nI buki srebrni je\u017ad\u017acy\nNad nimi wiosny sok\u00f3\u0142",
-            "chorus": false
-        },
-        {
-            "chords": "D\nC7+\nG6\nD2",
-            "lyrics": "Jak popi\u00f3\u0142 rozwia\u0142y si\u0119 grzechy\nW ciszy kto\u015b zawilce zasia\u0142\nI tylko grzmi\u0105 g\u0142osy przestrzeni\nW wielkich oknach mego \u015bwiata",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Jak cia\u0142a nasze w mrocznym rytmie...",
-            "chorus": true
-        }
-    ]
-}
+#title Pieśń XXIX
+#author sł. Jerzy Harasymowicz, muz. Wojtek Szymański
+#category Turystyczne
+
+#verse
+~ D C G D
+
+#verse
+Całe życie w niebo idzie ~ D
+Mój połoniński pochód ~ C7+
+I buki srebrni jeźdźcy ~ G6
+Nad nimi wiosny sokół ~ D2
+
+#verse
+I nadal tamtej połoniny wiatr ~ D
+I chmur wiosennych grzywy ~ C7+
+I na chorągwi wspomnień twarz ~ G6
+Z włosami wiejącymi ~ D2
+
+#chorus
+Jak ciała nasze w mrocznym rytmie ~ D
+Wznosiły się góry opadały ~ e
+Tak dzieje się gdy wiosna przyjdzie ~ G
+Wypala miłość stare trawy ~ D
+
+#verse
+Całe życie w niebo idzie ~ D
+Mój połoniński pochód ~ C7+
+I buki srebrni jeźdźcy ~ G6
+Nad nimi wiosny sokół ~ D2
+
+#verse
+Jak popiół rozwiały się grzechy ~ D
+W ciszy ktoś zawilce zasiał ~ C7+
+I tylko grzmią głosy przestrzeni ~ G6
+W wielkich oknach mego świata ~ D2
+
+#chorus
+Jak ciała nasze w mrocznym rytmie...
+

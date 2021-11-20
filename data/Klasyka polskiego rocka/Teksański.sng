@@ -1,27 +1,31 @@
-{
-    "title": "Teksa\u0144ski",
-    "author": "Hey",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "D G A",
-            "lyrics": "Herbata stygnie zapada zmrok\nA pod pi\u00f3rem ci\u0105gle nic\nObowi\u0105zek obowi\u0105zkiem jest\nPiosenka musi posiada\u0107 tekst\nGdyby chocia\u017c\nMucha zjawi\u0142a si\u0119\nMog\u0142abym j\u0105\nZabi\u0107 a p\u00f3\u017aniej to opisa\u0107",
-            "chorus": false
-        },
-        {
-            "chords": "G A D",
-            "lyrics": "W moich s\u0142owach s\u0142oma czai si\u0119\nNie znacz\u0105 nic\nJe\u015bli szukasz sensu prawdy w nich\nZawiedziesz si\u0119",
-            "chorus": true
-        },
-        {
-            "chords": "D G A",
-            "lyrics": "A mo\u017ce zmieni\u0107 zasady gry\nChcesz us\u0142ysze\u0107 s\u0142owa\nTo sam je sobie wymy\u015bl",
-            "chorus": false
-        },
-        {
-            "chords": "G A D",
-            "lyrics": "Nabij diab\u0142a, chmur\u0119 \u015bmierci we\u017a\nPomo\u017ce ci\nWnet twe my\u015bli w s\u0142owa zmieni\u0105 si\u0119\nWy\u015bpiewasz je sam",
-            "chorus": true
-        }
-    ]
-}
+#title Teksański
+#author Hey
+#category Klasyka polskiego rocka
+
+#verse
+Herbata stygnie zapada zmrok ~ D G A
+A pod piórem ciągle nic
+Obowiązek obowiązkiem jest
+Piosenka musi posiadać tekst
+Gdyby chociaż
+Mucha zjawiła się
+Mogłabym ją
+Zabić a później to opisać
+
+#chorus
+W moich słowach słoma czai się ~ G A D
+Nie znaczą nic
+Jeśli szukasz sensu prawdy w nich
+Zawiedziesz się
+
+#verse
+A może zmienić zasady gry ~ D G A
+Chcesz usłyszeć słowa
+To sam je sobie wymyśl
+
+#chorus
+Nabij diabła, chmurę śmierci weź ~ G A D
+Pomoże ci
+Wnet twe myśli w słowa zmienią się
+Wyśpiewasz je sam
+

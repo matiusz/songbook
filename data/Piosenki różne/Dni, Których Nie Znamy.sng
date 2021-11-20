@@ -1,52 +1,44 @@
-{
-    "title": "Dni, kt\u00f3rych nie znamy",
-    "author": "Marek Grechuta",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e G D G\nC G e D\ne G D G\nC G e D",
-            "lyrics": "Tyle by\u0142o dni do utraty si\u0142\nDo utraty tchu tyle by\u0142o chwil\nGdy \u017ca\u0142ujesz tych, z kt\u00f3rych nie masz nic\nJedno warto zna\u0107, jedno tylko wiedz, \u017ce",
-            "chorus": false
-        },
-        {
-            "chords": "C a D\ne C D G e\nC a D\ne C D G e",
-            "lyrics": "Wa\u017cne s\u0105 tylko te dni kt\u00f3rych jeszcze nie znamy\nWa\u017cnych jest kilka tych chwil, tych na kt\u00f3re czekamy",
-            "chorus": true
-        },
-        {
-            "chords": "e G D G\nC G e D\ne G D G\nC G e D",
-            "lyrics": "Pewien znany kto\u015b, kto mia\u0142 dom i sad\nZgubi\u0142 nagle sens i w z\u0142e kr\u0119gi wpad\u0142\nCho\u0107 maj\u0105tek prys\u0142, on nie stoczy\u0142 si\u0119\nWyt\u0142umaczy\u0107 umia\u0142 sobie wtedy w\u0142a\u015bnie, \u017ce",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wa\u017cne s\u0105 tylko te dni...",
-            "chorus": true
-        },
-        {
-            "chords": "e G D G\ne G D G",
-            "lyrics": "Jak rozpozna\u0107 ludzi, kt\u00f3rych ju\u017c nie znamy?\nJak pozbiera\u0107 my\u015bli z tych nie posk\u0142adanych?",
-            "chorus": false
-        },
-        {
-            "chords": "a G e C D G\ne G D G",
-            "lyrics": "Jak oddzieli\u0107 nagle serce od rozumu?\nJak us\u0142ysze\u0107 siebie po\u015br\u00f3d \u015bpiewu t\u0142umu?",
-            "chorus": false
-        },
-        {
-            "chords": "e G D G\ne G D G",
-            "lyrics": "Jak rozpozna\u0107 ludzi, kt\u00f3rych ju\u017c nie znamy?\nJak pozbiera\u0107 my\u015bli z tych nie posk\u0142adanych?",
-            "chorus": false
-        },
-        {
-            "chords": "a G e C D G\ne G D G",
-            "lyrics": "Jak odnale\u017a\u0107 nagle rado\u015b\u0107 i nadziej\u0119?\nOdpowiedzi szukaj, czasu jest tak wiele",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wa\u017cne s\u0105 tylko te dni...",
-            "chorus": true
-        }
-    ]
-}
+#title Dni, których nie znamy
+#author Marek Grechuta
+#category Piosenki różne
+
+#verse
+Tyle było dni do utraty sił ~ e G D G
+Do utraty tchu tyle było chwil ~ C G e D
+Gdy żałujesz tych, z których nie masz nic ~ e G D G
+Jedno warto znać, jedno tylko wiedz, że ~ C G e D
+
+#chorus
+Ważne są tylko te dni których jeszcze nie znamy ~ C a D
+Ważnych jest kilka tych chwil, tych na które czekamy ~ e C D G e
+~ C a D
+~ e C D G e
+
+#verse
+Pewien znany ktoś, kto miał dom i sad ~ e G D G
+Zgubił nagle sens i w złe kręgi wpadł ~ C G e D
+Choć majątek prysł, on nie stoczył się ~ e G D G
+Wytłumaczyć umiał sobie wtedy właśnie, że ~ C G e D
+
+#chorus
+Ważne są tylko te dni...
+
+#verse
+Jak rozpoznać ludzi, których już nie znamy? ~ e G D G
+Jak pozbierać myśli z tych nie poskładanych? ~ e G D G
+
+#verse
+Jak oddzielić nagle serce od rozumu? ~ a G e C D G
+Jak usłyszeć siebie pośród śpiewu tłumu? ~ e G D G
+
+#verse
+Jak rozpoznać ludzi, których już nie znamy? ~ e G D G
+Jak pozbierać myśli z tych nie poskładanych? ~ e G D G
+
+#verse
+Jak odnaleźć nagle radość i nadzieję? ~ a G e C D G
+Odpowiedzi szukaj, czasu jest tak wiele ~ e G D G
+
+#chorus
+Ważne są tylko te dni...
+

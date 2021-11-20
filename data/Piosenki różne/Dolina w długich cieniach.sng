@@ -1,37 +1,37 @@
-{
-    "title": "Dolina w d\u0142ugich cieniach",
-    "author": "s\u0142. Edward Stachura, muz. Jan Kondrak",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "A E fis\nA E fis\nD E A D\nD A D A",
-            "lyrics": "S\u0142o\u0144ce na mojej sta\u0142o wysoko\u015bci \nNa widnokr\u0119gu tam po drugiej stronie\nI mo\u017cna by\u0142o jego blask \u0142agodny\nNareszcie znosi\u0107 bez mru\u017cenia powiek",
-            "chorus": false
-        },
-        {
-            "chords": "E D A\nE D A\nD A D A\nD E A",
-            "lyrics": "Dolina za\u015b le\u017ca\u0142a w d\u0142ugich cieniach \nMi\u0119dzy g\u00f3rami sinoniebieskimi \nCicho i spokojnie tu by\u0142o \nTu by\u0142o dawno po wojnie.",
-            "chorus": true
-        },
-        {
-            "chords": "A E fis\nA E fis\nD E A D\nD A D A",
-            "lyrics": "G\u0142owa mi ci\u0105\u017cy\u0142a ku do\u0142owi,\nBy\u0142em zm\u0119czony d\u0142ug\u0105 znojn\u0105 drog\u0105,\nWszystkiego mia\u0142em dosy\u0107 ju\u017c i w my\u015blach\nWidzia\u0142em wreszcie tu go\u015bcin\u0119 b\u0142og\u0105.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Dolina za\u015b le\u017ca\u0142a...",
-            "chorus": true
-        },
-        {
-            "chords": "A E fis\nA E fis\nD E A D\nD A D A",
-            "lyrics": "D\u0142ugo my\u015bla\u0142em: w d\u00f3\u0142 nie polecia\u0142em.\n\u017balu do siebie jak na razie nie mam.\nJu\u017c s\u0142o\u0144ce zasz\u0142o, a ja dalej sta\u0142em,\nI stamt\u0105d w\u0142a\u015bnie tu zaszed\u0142em \u015bpiewa\u0107!",
-            "chorus": false
-        },
-        {
-            "chords": "E D A\nE D A\nD A D A\nD E A",
-            "lyrics": "Dolina \u015bmierci le\u017cy w d\u0142ugich cieniach\nMi\u0119dzy g\u00f3rami sinoniebieskimi;\nCicho i spokojnie -\nTam jest ju\u017c dawno po wojnie.",
-            "chorus": true
-        }
-    ]
-}
+#title Dolina w długich cieniach
+#author sł. Edward Stachura, muz. Jan Kondrak
+#category Piosenki różne
+
+#verse
+Słońce na mojej stało wysokości  ~ A E fis
+Na widnokręgu tam po drugiej stronie ~ A E fis
+I można było jego blask łagodny ~ D E A D
+Nareszcie znosić bez mrużenia powiek ~ D A D A
+
+#chorus
+Dolina zaś leżała w długich cieniach  ~ E D A
+Między górami sinoniebieskimi  ~ E D A
+Cicho i spokojnie tu było  ~ D A D A
+Tu było dawno po wojnie. ~ D E A
+
+#verse
+Głowa mi ciążyła ku dołowi, ~ A E fis
+Byłem zmęczony długą znojną drogą, ~ A E fis
+Wszystkiego miałem dosyć już i w myślach ~ D E A D
+Widziałem wreszcie tu gościnę błogą. ~ D A D A
+
+#chorus
+Dolina zaś leżała...
+
+#verse
+Długo myślałem: w dół nie poleciałem. ~ A E fis
+Żalu do siebie jak na razie nie mam. ~ A E fis
+Już słońce zaszło, a ja dalej stałem, ~ D E A D
+I stamtąd właśnie tu zaszedłem śpiewać! ~ D A D A
+
+#chorus
+Dolina śmierci leży w długich cieniach ~ E D A
+Między górami sinoniebieskimi; ~ E D A
+Cicho i spokojnie - ~ D A D A
+Tam jest już dawno po wojnie. ~ D E A
+

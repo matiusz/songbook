@@ -1,32 +1,55 @@
-{
-    "title": "Jeszcze w zielone gramy",
-    "author": "Wojciech M\u0142ynarski",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "h\nA\nD\nFis\nh\nA\nD\nFis",
-            "lyrics": "Przez kolejne grudnie, maje\nCz\u0142owiek goni jak szalony\nA za nami pozostaje\nSto okazji przegapionych\nKto\u015b wytyka nam co chwil\u0119\nW mr\u00f3z czy w upa\u0142, w zimie, w lecie\nSzans nie dostrze\u017conych tyle\nI kto\u015b racj\u0119 ma, lecz przecie\u017c",
-            "chorus": false
-        },
-        {
-            "chords": "h D\ne Fis\nh D\ne Fis\nh D\ne Fis\nh D\ne Fis",
-            "lyrics": "Jeszcze w zielone gramy, jeszcze nie umieramy\nJeszcze kt\u00f3rego\u015b ranka odbijemy si\u0119 od \u015bciany\nJeszcze wiosenne deszcze obudz\u0105 ru\u0144 zielon\u0105\nJeszcze zimowe \u015bmieci na ogniskach wiosny sp\u0142on\u0105\nJeszcze w zielone gramy, jeszcze wzrok nam si\u0119 pali\nJeszcze si\u0119 nam pok\u0142oni\u0105 ci, co palcem wygra\u017cali\nMy mo\u017cemy by\u0107 w k\u0142opocie, ale na rozpaczy dnie\nJeszcze nie, d\u0142ugo nie",
-            "chorus": true
-        },
-        {
-            "chords": "h\nA\nD\nFis\nh\nA\nD\nFis",
-            "lyrics": "Wi\u0119c nie martwmy si\u0119, bo w ko\u0144cu\nNie nam jednym si\u0119 nie klei\nWa\u017cne, by cho\u0107 raz na ko\u0144cu\nMie\u0107 dyktando u nadziei\n\u017beby w serca kajeciku\nPo literkach zanotowa\u0107\nI powtarza\u0107 sobie cicho\nTakie pro\u015bciute\u0144kie s\u0142owa",
-            "chorus": false
-        },
-        {
-            "chords": "h D\ne Fis\nh D\ne Fis\nh D\ne Fis\nh D\ne Fis",
-            "lyrics": "Jeszcze w zielone gramy, jeszcze nie umieramy\nJeszcze si\u0119 spe\u0142ni\u0105 nasze, pi\u0119kne sny, marzenia plany\nTylko nie ulegajmy przedwczesnym niepokojom\nB\u0105d\u017amy jak stare wr\u00f3ble, kt\u00f3re stracha si\u0119 nie boj\u0105\nJeszcze w zielone gramy, cho\u0107 skro\u0144 niejedna siwa\nJeszcze s\u00f3l b\u0119dzie m\u0105dra a oliwa sprawiedliwa\nR\u00f3\u017cne drogi nas prowadz\u0105, lecz ta, kt\u00f3ra w przepa\u015b\u0107 rwie\nJeszcze nie, d\u0142ugo nie",
-            "chorus": true
-        },
-        {
-            "chords": "h D\ne Fis\nh D\ne Fis\nh D\ne Fis\nh\nD\ne Fis",
-            "lyrics": "Jeszcze w zielone gramy, ch\u0119\u0107 \u017cycia nam nie zbrzyd\u0142a\nJeszcze na strychu ka\u017cdy klei po\u0142amane skrzyd\u0142a\nI my\u015bli sobie Ikar co nie raz ju\u017c w d\u00f3\u0142 run\u0105\u0142\nJakby powia\u0142o zdrowo, to bym jeszcze raz pofrun\u0105\u0142\nJeszcze w zielone gramy, cho\u0107 \u017cycie nam doskwiera\nGramy w nim swoje role naturszczycy bez suflera\nW najr\u00f3\u017cniejszych sztukach gramy, \nlecz w tej, co si\u0119 sko\u0144czy \u017ale\nJeszcze nie, d\u0142ugo nie!",
-            "chorus": true
-        }
-    ]
-}
+#title Jeszcze w zielone gramy
+#author Wojciech Młynarski
+#category Klasyka polskiego rocka
+
+#verse
+Przez kolejne grudnie, maje ~ h
+Człowiek goni jak szalony ~ A
+A za nami pozostaje ~ D
+Sto okazji przegapionych ~ Fis
+Ktoś wytyka nam co chwilę ~ h
+W mróz czy w upał, w zimie, w lecie ~ A
+Szans nie dostrzeżonych tyle ~ D
+I ktoś rację ma, lecz przecież ~ Fis
+
+#chorus
+Jeszcze w zielone gramy, jeszcze nie umieramy ~ h D
+Jeszcze któregoś ranka odbijemy się od ściany ~ e Fis
+Jeszcze wiosenne deszcze obudzą ruń zieloną ~ h D
+Jeszcze zimowe śmieci na ogniskach wiosny spłoną ~ e Fis
+Jeszcze w zielone gramy, jeszcze wzrok nam się pali ~ h D
+Jeszcze się nam pokłonią ci, co palcem wygrażali ~ e Fis
+My możemy być w kłopocie, ale na rozpaczy dnie ~ h D
+Jeszcze nie, długo nie ~ e Fis
+
+#verse
+Więc nie martwmy się, bo w końcu ~ h
+Nie nam jednym się nie klei ~ A
+Ważne, by choć raz na końcu ~ D
+Mieć dyktando u nadziei ~ Fis
+Żeby w serca kajeciku ~ h
+Po literkach zanotować ~ A
+I powtarzać sobie cicho ~ D
+Takie prościuteńkie słowa ~ Fis
+
+#chorus
+Jeszcze w zielone gramy, jeszcze nie umieramy ~ h D
+Jeszcze się spełnią nasze, piękne sny, marzenia plany ~ e Fis
+Tylko nie ulegajmy przedwczesnym niepokojom ~ h D
+Bądźmy jak stare wróble, które stracha się nie boją ~ e Fis
+Jeszcze w zielone gramy, choć skroń niejedna siwa ~ h D
+Jeszcze sól będzie mądra a oliwa sprawiedliwa ~ e Fis
+Różne drogi nas prowadzą, lecz ta, która w przepaść rwie ~ h D
+Jeszcze nie, długo nie ~ e Fis
+
+#chorus
+Jeszcze w zielone gramy, chęć życia nam nie zbrzydła ~ h D
+Jeszcze na strychu każdy klei połamane skrzydła ~ e Fis
+I myśli sobie Ikar co nie raz już w dół runął ~ h D
+Jakby powiało zdrowo, to bym jeszcze raz pofrunął ~ e Fis
+Jeszcze w zielone gramy, choć życie nam doskwiera ~ h D
+Gramy w nim swoje role naturszczycy bez suflera ~ e Fis
+W najróżniejszych sztukach gramy,  ~ h
+lecz w tej, co się skończy źle ~ D
+Jeszcze nie, długo nie! ~ e Fis
+

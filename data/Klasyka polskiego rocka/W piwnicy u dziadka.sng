@@ -1,62 +1,76 @@
-{
-    "title": "W piwnicy u dziadka",
-    "author": "Happysad",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "C a\nC a\nd G (C)",
-            "lyrics": "Pami\u0119tasz to miejsce w piwnicy u dziadka\nKiedy przychodzi\u0142a jesie\u0144 zrzucali tam w\u0119giel i jab\u0142ka\nI tam ca\u0142owali\u015bmy si\u0119 pierwszy raz",
-            "chorus": false
-        },
-        {
-            "chords": "C\na\nC\na\nC\na\nC\na",
-            "lyrics": "Bra\u0142em wtedy Twoje r\u0119ce\nI k\u0142ad\u0142em je sobie na twarz\nA skronie pulsowa\u0142y g\u0119\u015bciej\nGdy d\u0142onie masowa\u0142y l\u0119d\u017awie\nNo a na g\u00f3rze szala\u0142a burza\nI wiatr z miejsca na miejsce przegania\u0142 piach\nKa\u0142u\u017ce wypi\u0142y podw\u00f3rze do cna\nA buda gania\u0142a psa",
-            "chorus": false
-        },
-        {
-            "chords": "d G (C)",
-            "lyrics": "No gdzie by\u0142o nam tak bezpiecznie jak tam?",
-            "chorus": true
-        },
-        {
-            "chords": "C\na\nC\na\nC\na\nC\na",
-            "lyrics": "A kiedy przychodzi\u0142a zima\nI w mig w czarno-bia\u0142y zmienia\u0142 si\u0119 \u015bwiat\nLizali\u015bmy paprocie na szybach\nA mr\u00f3z trzaska\u0142 jak bat\nNo a je\u015bli wychylali\u015bmy nosa\nNo to tylko na moment nad staw\nA coby rybom poda\u0107 tlen\nNo ale p\u00f3ki jeszcze by\u0142 dzie\u0144 wracali\u015bmy pod dach",
-            "chorus": false
-        },
-        {
-            "chords": "d G (C)",
-            "lyrics": "No gdzie by\u0142o nam tak bezpiecznie jak tam?",
-            "chorus": true
-        },
-        {
-            "chords": "C\na\nC\na\nC\na\nC\na\nC\na",
-            "lyrics": "A na wiosn\u0119 i letnie dni radosne\nBiegli\u015bmy co \u015bwit na sad\nI tam zwykle chichrali\u015bmy si\u0119 w g\u0142os\nKiedy rosa \u0142askota\u0142a nas po stopach\nPodsadza\u0142em Ci\u0119 wtedy na wi\u015bnie\nNo i stamt\u0105d strzelali\u015bmy do wron\nA pestki to by\u0142a nasza bro\u0144\nA pestki to by\u0142a nasza bro\u0144\nTak, pestki to by\u0142a nasza bro\u0144\nA dom to schron by\u0142 nasz",
-            "chorus": false
-        },
-        {
-            "chords": "d G (C)",
-            "lyrics": "No gdzie by\u0142o nam tak bezpiecznie jak tam?",
-            "chorus": true
-        },
-        {
-            "chords": "C\na\nC\na\nC\na\nC\na",
-            "lyrics": "A teraz, teraz to jest wojna\nI dzie\u0144 za dniem coraz bardziej ko\u0144czy si\u0119 \u015bwiat\nKolejna armia bogobojna nie wiedzie\u0107 czemu upatrzy\u0142a sobie nas\nStrzelaj\u0105 do nas jak do wron\nTyle \u017ce z ostrej broni ze wszystkich stron\nKwiaty we w\u0142osach potarga\u0142 wiatr\nJak smr\u00f3d po gaciach lata za nami strach",
-            "chorus": false
-        },
-        {
-            "chords": "C\na\nC\na\nC\na\nC\na",
-            "lyrics": "No a my, a my to si\u0119 nie znamy ju\u017c prawie\nCzasem napiszesz co\u015b zza oceanu\nJakie\u015b my\u015bli ledwie pouk\u0142adane\nWrzucisz mi do skrzynki ze spamem\nAle kt\u00f3rego\u015b pi\u0119knego dnia\nZaraz przed tym jak wszystko trafi szlag\nJa si\u0119gn\u0119 do pami\u0119ci dna\nNo i stamt\u0105d wyci\u0105gn\u0119 ten \u015blad",
-            "chorus": false
-        },
-        {
-            "chords": "d G (C C7+)",
-            "lyrics": "Bo gdzie by\u0142o nam tak bezpiecznie jak tam?",
-            "chorus": true
-        },
-        {
-            "chords": "d G (C)",
-            "lyrics": "No bo gdzie by\u0142o nam tak bezpiecznie jak tam?",
-            "chorus": true
-        }
-    ]
-}
+#title W piwnicy u dziadka
+#author Happysad
+#category Klasyka polskiego rocka
+
+#verse
+Pamiętasz to miejsce w piwnicy u dziadka ~ C a
+Kiedy przychodziła jesień zrzucali tam węgiel i jabłka ~ C a
+I tam całowaliśmy się pierwszy raz ~ d G (C)
+
+#verse
+Brałem wtedy Twoje ręce ~ C
+I kładłem je sobie na twarz ~ a
+A skronie pulsowały gęściej ~ C
+Gdy dłonie masowały lędźwie ~ a
+No a na górze szalała burza ~ C
+I wiatr z miejsca na miejsce przeganiał piach ~ a
+Kałuże wypiły podwórze do cna ~ C
+A buda ganiała psa ~ a
+
+#chorus
+No gdzie było nam tak bezpiecznie jak tam? ~ d G (C)
+
+#verse
+A kiedy przychodziła zima ~ C
+I w mig w czarno-biały zmieniał się świat ~ a
+Lizaliśmy paprocie na szybach ~ C
+A mróz trzaskał jak bat ~ a
+No a jeśli wychylaliśmy nosa ~ C
+No to tylko na moment nad staw ~ a
+A coby rybom podać tlen ~ C
+No ale póki jeszcze był dzień wracaliśmy pod dach ~ a
+
+#chorus
+No gdzie było nam tak bezpiecznie jak tam? ~ d G (C)
+
+#verse
+A na wiosnę i letnie dni radosne ~ C
+Biegliśmy co świt na sad ~ a
+I tam zwykle chichraliśmy się w głos ~ C
+Kiedy rosa łaskotała nas po stopach ~ a
+Podsadzałem Cię wtedy na wiśnie ~ C
+No i stamtąd strzelaliśmy do wron ~ a
+A pestki to była nasza broń ~ C
+A pestki to była nasza broń ~ a
+Tak, pestki to była nasza broń ~ C
+A dom to schron był nasz ~ a
+
+#chorus
+No gdzie było nam tak bezpiecznie jak tam? ~ d G (C)
+
+#verse
+A teraz, teraz to jest wojna ~ C
+I dzień za dniem coraz bardziej kończy się świat ~ a
+Kolejna armia bogobojna nie wiedzieć czemu upatrzyła sobie nas ~ C
+Strzelają do nas jak do wron ~ a
+Tyle że z ostrej broni ze wszystkich stron ~ C
+Kwiaty we włosach potargał wiatr ~ a
+Jak smród po gaciach lata za nami strach ~ C
+~ a
+
+#verse
+No a my, a my to się nie znamy już prawie ~ C
+Czasem napiszesz coś zza oceanu ~ a
+Jakieś myśli ledwie poukładane ~ C
+Wrzucisz mi do skrzynki ze spamem ~ a
+Ale któregoś pięknego dnia ~ C
+Zaraz przed tym jak wszystko trafi szlag ~ a
+Ja sięgnę do pamięci dna ~ C
+No i stamtąd wyciągnę ten ślad ~ a
+
+#chorus
+Bo gdzie było nam tak bezpiecznie jak tam? ~ d G (C C7+)
+
+#chorus
+No bo gdzie było nam tak bezpiecznie jak tam? ~ d G (C)
+

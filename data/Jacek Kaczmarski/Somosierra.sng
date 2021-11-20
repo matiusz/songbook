@@ -1,28 +1,46 @@
-{
-    "title": "Somosierra",
-    "author": "Jacek Kaczmarski, Zbigniew \u0141api\u0144ski",
-    "capo": "Capo III",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "a e\nF C d E7\na e\nC F C B E7 (G D)\nE7 a G\nC G C\nF C d a\nF C d E7 a",
-            "lyrics": "Pod pr\u0105d w\u0105wozem w twarz ognistym wiatrom\nPo ko\u0144skie brzuchy w nurt p\u0142yn\u0105cej lawy\nPrze szwole\u017cer\u00f3w \u0142atwopalny szwadron\nGard\u0142a armatnie kolanami d\u0142awi\u0107\nW mokry mrok topi g\u0142owy szwole\u017cer\u00f3w\nDeszcz gliny ziemi i rozbitej ska\u0142y\nCi co polegn\u0105 - p\u00f3jd\u0105 w bohatery\nCi co prze\u017cyj\u0105 - p\u00f3jd\u0105 w genera\u0142y",
-            "chorus": false
-        },
-        {
-            "chords": "E7\nE7\nE7\nE7 d E7 G C\nE7 a G\nC G C\nF C d a\nF C B E7 h",
-            "lyrics": "Potem twarz z ognia jeszcze nieobesch\u0142\u0105\nB\u0119d\u0105 musieli w szczere gi\u0105\u0107 u\u015bmiechy\nZ oczu wymaza\u0107 swoj\u0105 hard\u0105 przesz\u0142o\u015b\u0107\nUszy nastawia\u0107 na szept\u00f3w oddechy\nZwyci\u0119skie piersi obci\u0105\u017c\u0105 ordery\nI wst\u0119gi sp\u0142yn\u0105 z ramion sytych chwa\u0142y\nCi co polegli - id\u0105 w bohatery\nCi co prze\u017cyli - id\u0105 w genera\u0142y",
-            "chorus": true
-        },
-        {
-            "chords": "h Fis\nG D e Fis7\nH Fis\nD G D e Fis7 (A D)\nFis7 h A\nD A D\nG D e h\nG D e Fis7 h\nG D e Fis7 h",
-            "lyrics": "Potem za\u015b czy\u015bci w paradnych mundurach\nGalopem w w\u0105w\u00f3z wielkiej polityki\nGdzie w deszczu z\u0142ota i kadzide\u0142 chmurach\nPi\u00f3ra miast armat pa\u0144stw krzy\u017cuj\u0105 szyki\nI tylko paru nie minie pokuta\nW mrowisku l\u0119kiem karmionych koterii\nI nie\u015b\u0107 b\u0119d\u0105 ci\u0119\u017car wytrz\u0105\u015bni\u0119tej z buta\nGrudki zaschni\u0119tej gliny Somosierry",
-            "chorus": false
-        },
-        {
-            "chords": "Fis7\nFis7\nFis7\nFis7 e Fis7 A D\nFis7 h A\nD A D\nG D e h\nG D e Fis7 h",
-            "lyrics": "Ale twarz z ognia jeszcze nieobesch\u0142\u0105\nB\u0119d\u0105 musieli w szczere gi\u0105\u0107 u\u015bmiechy\nZ oczu wymaza\u0107 swoj\u0105 hard\u0105 przesz\u0142o\u015b\u0107\nUszy nastawi\u0107 na szept\u00f3w oddechy\nNie ten umiera co w\u0142a\u015bnie umiera\nLecz ten co \u017cyj\u0105c w martwej kroczy chwale\nWi\u0119c ci co polegli - poszli w bohatery\nCi co prze\u017cyli - musz\u0105 walczy\u0107 dalej!",
-            "chorus": true
-        }
-    ]
-}
+#title Somosierra
+#author Jacek Kaczmarski, Zbigniew Łapiński
+#category Jacek Kaczmarski
+#capo Capo III
+
+#verse
+Pod prąd wąwozem w twarz ognistym wiatrom ~ a e
+Po końskie brzuchy w nurt płynącej lawy ~ F C d E7
+Prze szwoleżerów łatwopalny szwadron ~ a e
+Gardła armatnie kolanami dławić ~ C F C B E7 (G D)
+W mokry mrok topi głowy szwoleżerów ~ E7 a G
+Deszcz gliny ziemi i rozbitej skały ~ C G C
+Ci co polegną - pójdą w bohatery ~ F C d a
+Ci co przeżyją - pójdą w generały ~ F C d E7 a
+
+#chorus
+Potem twarz z ognia jeszcze nieobeschłą ~ E7
+Będą musieli w szczere giąć uśmiechy ~ E7
+Z oczu wymazać swoją hardą przeszłość ~ E7
+Uszy nastawiać na szeptów oddechy ~ E7 d E7 G C
+Zwycięskie piersi obciążą ordery ~ E7 a G
+I wstęgi spłyną z ramion sytych chwały ~ C G C
+Ci co polegli - idą w bohatery ~ F C d a
+Ci co przeżyli - idą w generały ~ F C B E7 h
+
+#verse
+Potem zaś czyści w paradnych mundurach ~ h Fis
+Galopem w wąwóz wielkiej polityki ~ G D e Fis7
+Gdzie w deszczu złota i kadzideł chmurach ~ H Fis
+Pióra miast armat państw krzyżują szyki ~ D G D e Fis7 (A D)
+I tylko paru nie minie pokuta ~ Fis7 h A
+W mrowisku lękiem karmionych koterii ~ D A D
+I nieść będą ciężar wytrząśniętej z buta ~ G D e h
+Grudki zaschniętej gliny Somosierry ~ G D e Fis7 h
+~ G D e Fis7 h
+
+#chorus
+Ale twarz z ognia jeszcze nieobeschłą ~ Fis7
+Będą musieli w szczere giąć uśmiechy ~ Fis7
+Z oczu wymazać swoją hardą przeszłość ~ Fis7
+Uszy nastawić na szeptów oddechy ~ Fis7 e Fis7 A D
+Nie ten umiera co właśnie umiera ~ Fis7 h A
+Lecz ten co żyjąc w martwej kroczy chwale ~ D A D
+Więc ci co polegli - poszli w bohatery ~ G D e h
+Ci co przeżyli - muszą walczyć dalej! ~ G D e Fis7 h
+

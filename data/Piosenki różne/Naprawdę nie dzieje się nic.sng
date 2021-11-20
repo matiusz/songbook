@@ -1,38 +1,48 @@
-{
-    "title": "Naprawd\u0119 nie dzieje si\u0119 nic",
-    "author": "Grzegorz Turnau",
-    "capo": "Capo V",
-    "category": "Piosenki r\u00f3\u017cne",
-    "sections": [
-        {
-            "chords": "e\ng d\na g\nd ",
-            "lyrics": "Czy zdanie okr\u0105g\u0142e wypowiesz,\nCzy ksi\u0119g\u0119 m\u0105dr\u0105 napiszesz,\nB\u0119dziesz zawsze mie\u0107 w g\u0142owie\nT\u0119 sam\u0105 pustk\u0119 i cisz\u0119.\n",
-            "chorus": false
-        },
-        {
-            "chords": "e\ng d\na g\nd ",
-            "lyrics": "S\u0142owo to zimny powiew\nNag\u0142ego wiatru w przestworze;\nMo\u017ce orze\u017awi ci\u0119, ale\nDonik\u0105d doj\u015b\u0107 nie pomo\u017ce.",
-            "chorus": false
-        },
-        {
-            "chords": "a G C G C F C F\na G C F E E7\nd a e g\nd e a\nd a e g\nd e a d\na d a d e",
-            "lyrics": "Zwie\u015b\u0107 ci\u0119 mo\u017ce ci\u0105gn\u0105cy ulicami t\u0142um,\nW\u00f3dka w parku wypita albo zach\u00f3d s\u0142o\u0144ca,\nLecz pami\u0119taj: naprawd\u0119 nie dzieje si\u0119 nic\nI nie stanie si\u0119 nic - a\u017c do ko\u0144ca.",
-            "chorus": true
-        },
-        {
-            "chords": "e\ng d\na g\nd ",
-            "lyrics": "Czy zdanie okr\u0105g\u0142e wypowiesz,\nCzy ksi\u0119g\u0119 m\u0105dr\u0105 napiszesz,\nB\u0119dziesz zawsze mie\u0107 w g\u0142owie\nT\u0119 sam\u0105 pustk\u0119 i cisz\u0119.",
-            "chorus": false
-        },
-        {
-            "chords": "e\ng d\na g\nd ",
-            "lyrics": "Zaufaj tylko warg splotom,\nBe\u0142kotom niezrozumia\u0142ym,\nGestom w pr\u00f3\u017cni zawis\u0142ym,\nNiedoskona\u0142ym.",
-            "chorus": false
-        },
-        {
-            "chords": "a G C G C F C F\na G C F E E7\nd a e g\nd e a\nd a e g\nd e a d\na d a d e",
-            "lyrics": "Zwie\u015b\u0107 ci\u0119 mo\u017ce ci\u0105gn\u0105cy ulicami t\u0142um,\nW\u00f3dka w parku wypita albo zach\u00f3d s\u0142o\u0144ca,\nLecz pami\u0119taj: naprawd\u0119 nie dzieje si\u0119 nic\nI nie stanie si\u0119 nic - a\u017c do ko\u0144ca.",
-            "chorus": true
-        }
-    ]
-}
+#title Naprawdę nie dzieje się nic
+#author Grzegorz Turnau
+#category Piosenki różne
+#capo Capo V
+
+#verse
+Czy zdanie okrągłe wypowiesz, ~ e
+Czy księgę mądrą napiszesz, ~ g d
+Będziesz zawsze mieć w głowie ~ a g
+Tę samą pustkę i ciszę. ~ d 
+
+
+#verse
+Słowo to zimny powiew ~ e
+Nagłego wiatru w przestworze; ~ g d
+Może orzeźwi cię, ale ~ a g
+Donikąd dojść nie pomoże. ~ d 
+
+#chorus
+Zwieść cię może ciągnący ulicami tłum, ~ a G C G C F C F
+Wódka w parku wypita albo zachód słońca, ~ a G C F E E7
+Lecz pamiętaj: naprawdę nie dzieje się nic ~ d a e g
+I nie stanie się nic - aż do końca. ~ d e a
+~ d a e g
+~ d e a d
+~ a d a d e
+
+#verse
+Czy zdanie okrągłe wypowiesz, ~ e
+Czy księgę mądrą napiszesz, ~ g d
+Będziesz zawsze mieć w głowie ~ a g
+Tę samą pustkę i ciszę. ~ d 
+
+#verse
+Zaufaj tylko warg splotom, ~ e
+Bełkotom niezrozumiałym, ~ g d
+Gestom w próżni zawisłym, ~ a g
+Niedoskonałym. ~ d 
+
+#chorus
+Zwieść cię może ciągnący ulicami tłum, ~ a G C G C F C F
+Wódka w parku wypita albo zachód słońca, ~ a G C F E E7
+Lecz pamiętaj: naprawdę nie dzieje się nic ~ d a e g
+I nie stanie się nic - aż do końca. ~ d e a
+~ d a e g
+~ d e a d
+~ a d a d e
+

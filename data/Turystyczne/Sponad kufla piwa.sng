@@ -1,42 +1,50 @@
-{
-    "title": "Sponad kufla piwa",
-    "author": "Na Bani",
-    "category": "Turystyczne",
-    "sections": [
-        {
-            "chords": "E H fis A\nE H fis A H\nE H fis A\nE H fis A H",
-            "lyrics": "Jak szczyty do wzi\u0119cia, kufle kud\u0142ate\nWynurzaj\u0105 si\u0119 po sobie i pi\u0119trz\u0105 w oddali\nWspinaj\u0105 si\u0119 s\u0142owa starym znanym szlakiem\nSzlakiem dawno zdobytych ju\u017c szklanic",
-            "chorus": false
-        },
-        {
-            "chords": "E H fis A\nE H fis A H\nE H fis A\nE H fis A H",
-            "lyrics": "I wzrasta potem - s\u0142ono potem okupiona\nWiatrem odarta z drzew Jaworzyna\nSpojrzenie b\u0142\u0105dzi po szczytach zielonych\nGubi si\u0119 w mg\u0142\u0105 zasnutych dolinach",
-            "chorus": false
-        },
-        {
-            "chords": "A H cis gis\nA H E\nA H cis D\nA H E",
-            "lyrics": "Wiecz\u00f3r gdzie\u015b tam z wiatrem ku nocy odp\u0142ywa\nPo kamieniach pn\u0105 si\u0119 my\u015bli w niesko\u0144czono\u015b\u0107\nKu lotom bez granic - sponad kufla piwa\nDo bo\u017cych schronisk niepami\u0119ci drog\u0105",
-            "chorus": true
-        },
-        {
-            "chords": "E H fis A\nE H fis A H\nE H fis A\nE H fis A H",
-            "lyrics": "Przewala si\u0119 po k\u0105tach mej pijanej duszy\nOdchodzi i wraca, potyka i wstaje\nGrzmot dawno przebrzmia\u0142ej, radocy\u0144skiej burzy\nI \u015bmiech bez pami\u0119ci, i echa wo\u0142anie",
-            "chorus": false
-        },
-        {
-            "chords": "E H fis A\nE H fis A H\nE H fis A\nC D e\nC D e\nC D E",
-            "lyrics": "Z ka\u017cdym \u0142ykiem l\u017cejszy wzbijam si\u0119 nad domy\nPonad sady dolin i cerkiewne g\u0142owy\nW rozespanych wspomnieniach nieprzytomnie ton\u0119\nMi\u0119dzy drog\u0105 z Koma\u0144czy a bram\u0105 Lackowej",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "Wiecz\u00f3r gdzie\u015b tam z wiatrem ku nocy odp\u0142ywa...",
-            "chorus": true
-        },
-        {
-            "chords": "\n\n\nA H\nA H\nA H E\nC D e\nC D e\nC D E",
-            "lyrics": "Wiecz\u00f3r gdzie\u015b tam z wiatrem ku nocy odp\u0142ywa\nPo kamieniach pn\u0105 si\u0119 my\u015bli w niesko\u0144czono\u015b\u0107\nKu lotom bez granic - sponad kufla piwa\nDo bo\u017cych schronisk niepami\u0119ci\nBo\u017cych schronisk niepami\u0119ci\nBo\u017cych schronisk niepami\u0119ci drog\u0105",
-            "chorus": true
-        }
-    ]
-}
+#title Sponad kufla piwa
+#author Na Bani
+#category Turystyczne
+
+#verse
+Jak szczyty do wzięcia, kufle kudłate ~ E H fis A
+Wynurzają się po sobie i piętrzą w oddali ~ E H fis A H
+Wspinają się słowa starym znanym szlakiem ~ E H fis A
+Szlakiem dawno zdobytych już szklanic ~ E H fis A H
+
+#verse
+I wzrasta potem - słono potem okupiona ~ E H fis A
+Wiatrem odarta z drzew Jaworzyna ~ E H fis A H
+Spojrzenie błądzi po szczytach zielonych ~ E H fis A
+Gubi się w mgłą zasnutych dolinach ~ E H fis A H
+
+#chorus
+Wieczór gdzieś tam z wiatrem ku nocy odpływa ~ A H cis gis
+Po kamieniach pną się myśli w nieskończoność ~ A H E
+Ku lotom bez granic - sponad kufla piwa ~ A H cis D
+Do bożych schronisk niepamięci drogą ~ A H E
+
+#verse
+Przewala się po kątach mej pijanej duszy ~ E H fis A
+Odchodzi i wraca, potyka i wstaje ~ E H fis A H
+Grzmot dawno przebrzmiałej, radocyńskiej burzy ~ E H fis A
+I śmiech bez pamięci, i echa wołanie ~ E H fis A H
+
+#verse
+Z każdym łykiem lżejszy wzbijam się nad domy ~ E H fis A
+Ponad sady dolin i cerkiewne głowy ~ E H fis A H
+W rozespanych wspomnieniach nieprzytomnie tonę ~ E H fis A
+Między drogą z Komańczy a bramą Lackowej ~ C D e
+~ C D e
+~ C D E
+
+#chorus
+Wieczór gdzieś tam z wiatrem ku nocy odpływa...
+
+#chorus
+Wieczór gdzieś tam z wiatrem ku nocy odpływa
+Po kamieniach pną się myśli w nieskończoność
+Ku lotom bez granic - sponad kufla piwa
+Do bożych schronisk niepamięci ~ A H
+Bożych schronisk niepamięci ~ A H
+Bożych schronisk niepamięci drogą ~ A H E
+~ C D e
+~ C D e
+~ C D E
+

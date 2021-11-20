@@ -1,27 +1,28 @@
-{
-    "title": "Zrzucam ci\u0119",
-    "author": "Lej Mi P\u00f3\u0142",
-    "category": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-    "sections": [
-        {
-            "chords": "a F C G",
-            "lyrics": "Ostatniego dnia kolonii ja spojrza\u0142em w twoj\u0105 twarz,\nI wiedzia\u0142em, \u017ce p\u00f3jdziemy sobie tam g\u0142\u0119boko w las.\nTam nad klif, gdzie pi\u0119kne ptaki graj\u0105 nuty z naszych sn\u00f3w,\nB\u0119d\u0119 Ci\u0119 ca\u0142owa\u0107 w usta, a Ty mnie te\u017c tu.",
-            "chorus": false
-        },
-        {
-            "chords": "a F C G",
-            "lyrics": "Stoimy nad klifem, wszystko takie pi\u0119kne,\nJa patrz\u0119 w twoje oczy, Ty patrzysz w moje te\u017c,\nI ju\u017c masz mnie ca\u0142owa\u0107, ju\u017c Ci\u0119 chwytam w me ramiona,\nA Ty si\u0119 patrzysz w moje oczy...",
-            "chorus": false
-        },
-        {
-            "chords": "a F\nC G\na F\nC G",
-            "lyrics": "A ja zrzucam Ci\u0119, zrzucam Ci\u0119,\nZrzucam w chuj...\nZrzucam Ci\u0119, zrzucam Ci\u0119\nW chuj z klifu...",
-            "chorus": true
-        },
-        {
-            "chords": "a F\nC G\na F\nC G",
-            "lyrics": "Zrzucam Ci\u0119, zrzucam Ci\u0119,\nZrzucam w chuj...\nRozpierdalasz si\u0119 o ska\u0142y,\nA na twoje martwe cia\u0142o, szcza bezdomny pies.",
-            "chorus": true
-        }
-    ]
-}
+#title Zrzucam cię
+#author Lej Mi Pół
+#category Piosenki nieobciążające intelektualnie
+
+#verse
+Ostatniego dnia kolonii ja spojrzałem w twoją twarz, ~ a F C G
+I wiedziałem, że pójdziemy sobie tam głęboko w las.
+Tam nad klif, gdzie piękne ptaki grają nuty z naszych snów,
+Będę Cię całować w usta, a Ty mnie też tu.
+
+#verse
+Stoimy nad klifem, wszystko takie piękne, ~ a F C G
+Ja patrzę w twoje oczy, Ty patrzysz w moje też,
+I już masz mnie całować, już Cię chwytam w me ramiona,
+A Ty się patrzysz w moje oczy...
+
+#chorus
+A ja zrzucam Cię, zrzucam Cię, ~ a F
+Zrzucam w chuj... ~ C G
+Zrzucam Cię, zrzucam Cię ~ a F
+W chuj z klifu... ~ C G
+
+#chorus
+Zrzucam Cię, zrzucam Cię, ~ a F
+Zrzucam w chuj... ~ C G
+Rozpierdalasz się o skały, ~ a F
+A na twoje martwe ciało, szcza bezdomny pies. ~ C G
+

@@ -1,47 +1,52 @@
-{
-    "title": "A my nie chcemy ucieka\u0107 st\u0105d",
-    "author": "Jacek Kaczmarski, Przemys\u0142aw Gintrowski",
-    "category": "Jacek Kaczmarski",
-    "sections": [
-        {
-            "chords": "d",
-            "lyrics": "Stan\u0105\u0142 w ogniu nasz wielki dom\nDym w korytarzach kr\u0119ci sznury\nJest g\u0142\u0119boka, naprawd\u0119 czarna noc\nZ piwnic p\u0142on\u0105ce uciekaj\u0105 szczury",
-            "chorus": false
-        },
-        {
-            "chords": "A B\nC d\nA B\nC d",
-            "lyrics": "Krzycz\u0119 przez okno, czo\u0142o w szyb\u0119 wgniatam\nHaustem powietrza robi\u0119 w \u017carze wy\u0142om\nTen co mnie widzi ma mnie za wariata\nWo\u0142a: co jeszcze \u015bwirze ci si\u0119 \u015bni\u0142o?!",
-            "chorus": false
-        },
-        {
-            "chords": "A B\nC d\nA B\nC d",
-            "lyrics": "Wi\u0119c chwytam kraty rozgrzane do bia\u0142o\u015bci\nTwarz swoj\u0105 widz\u0119 \u2013 twarz przekle\u0144stwa\nA obok s\u0105siad patrzy z ciekawo\u015bci\u0105\nJak p\u0142onie na nim kaftan bezpiecze\u0144stwa",
-            "chorus": false
-        },
-        {
-            "chords": "A B\nC d\nA B\nC d",
-            "lyrics": "Dym w dziurce od klucza a drzwi bez klamek\nP\u0119kaj\u0105 tynki wzd\u0142u\u017c spoconej \u015bciany\nWsuwam sw\u00f3j j\u0119zyk w rozpalony zamek\n\u015amieje si\u0119 za mn\u0105 kto\u015b jak ob\u0142\u0105kany",
-            "chorus": false
-        },
-        {
-            "chords": "d a d\nd B a d\nd a d\nd B a d",
-            "lyrics": "Lecz wi\u0119kszo\u015b\u0107 \u015bpi, przez sen si\u0119 u\u015bmiecha\nA kto si\u0119 zbudzi nie wierzy w przebudzenie\nKrzyk w wyt\u0142umionych salach nie zna echa\nNa rusztach \u0142\u00f3\u017cek milczy przera\u017cenie",
-            "chorus": true
-        },
-        {
-            "chords": "d a C d\nd B a d\nd a C d\nd B a d",
-            "lyrics": "Ci przywi\u0105zani dymem materac\u00f3w\nPrzepowiadaj\u0105 \u017cycia swego s\u0142owa\nNam pod nogami \u017carz\u0105 si\u0119 posadzki\nDeszcz iskier czerwonych osiada na g\u0142owach",
-            "chorus": false
-        },
-        {
-            "chords": "d a C d\nd B a d\nd a C d\nd B a d",
-            "lyrics": "Dym coraz g\u0119stszy, obcy kto\u015b si\u0119 wdziera\nA my wci\u015bni\u0119ci w najdalszy sali k\u0105t\nT\u0119dy! \u2013 wrzeszczy \u2013 niech was jasna cholera!\nA my nie chcemy ucieka\u0107 st\u0105d",
-            "chorus": false
-        },
-        {
-            "chords": "d a C d\nd B a d\nd a C d\nd B a d",
-            "lyrics": "A my nie chcemy ucieka\u0107 st\u0105d!\nKrzyczymy w szale w\u015bciek\u0142o\u015bci i pokory\nStan\u0105\u0142 w ogniu nasz wielki dom\nDom dla psychicznie i nerwowo chorych",
-            "chorus": false
-        }
-    ]
-}
+#title A my nie chcemy uciekać stąd
+#author Jacek Kaczmarski, Przemysław Gintrowski
+#category Jacek Kaczmarski
+
+#verse
+Stanął w ogniu nasz wielki dom ~ d
+Dym w korytarzach kręci sznury
+Jest głęboka, naprawdę czarna noc
+Z piwnic płonące uciekają szczury
+
+#verse
+Krzyczę przez okno, czoło w szybę wgniatam ~ A B
+Haustem powietrza robię w żarze wyłom ~ C d
+Ten co mnie widzi ma mnie za wariata ~ A B
+Woła: co jeszcze świrze ci się śniło?! ~ C d
+
+#verse
+Więc chwytam kraty rozgrzane do białości ~ A B
+Twarz swoją widzę – twarz przekleństwa ~ C d
+A obok sąsiad patrzy z ciekawością ~ A B
+Jak płonie na nim kaftan bezpieczeństwa ~ C d
+
+#verse
+Dym w dziurce od klucza a drzwi bez klamek ~ A B
+Pękają tynki wzdłuż spoconej ściany ~ C d
+Wsuwam swój język w rozpalony zamek ~ A B
+Śmieje się za mną ktoś jak obłąkany ~ C d
+
+#chorus
+Lecz większość śpi, przez sen się uśmiecha ~ d a d
+A kto się zbudzi nie wierzy w przebudzenie ~ d B a d
+Krzyk w wytłumionych salach nie zna echa ~ d a d
+Na rusztach łóżek milczy przerażenie ~ d B a d
+
+#verse
+Ci przywiązani dymem materaców ~ d a C d
+Przepowiadają życia swego słowa ~ d B a d
+Nam pod nogami żarzą się posadzki ~ d a C d
+Deszcz iskier czerwonych osiada na głowach ~ d B a d
+
+#verse
+Dym coraz gęstszy, obcy ktoś się wdziera ~ d a C d
+A my wciśnięci w najdalszy sali kąt ~ d B a d
+Tędy! – wrzeszczy – niech was jasna cholera! ~ d a C d
+A my nie chcemy uciekać stąd ~ d B a d
+
+#verse
+A my nie chcemy uciekać stąd! ~ d a C d
+Krzyczymy w szale wściekłości i pokory ~ d B a d
+Stanął w ogniu nasz wielki dom ~ d a C d
+Dom dla psychicznie i nerwowo chorych ~ d B a d
+

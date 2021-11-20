@@ -1,47 +1,41 @@
-{
-    "title": "Wielorybnicy",
-    "author": "EKT Gdynia",
-    "category": "Szanty",
-    "sections": [
-        {
-            "chords": "a e a e\na e d e a",
-            "lyrics": "Nasz diament prawie got\u00f3w ju\u017c, w cie\u015bninach nie ma kry.\nNa kei pi\u0119kne panny stoj\u0105, w oczach b\u0142yszcz\u0105 \u0142zy.\nKapitan w niebo wbija wzrok \u2013 ruszamy lada dzie\u0144,\nP\u0142yniemy tam gdzie s\u0142o\u0144ca blask nie zm\u0105ci nocy cie\u0144.",
-            "chorus": false
-        },
-        {
-            "chords": "a e a\na e a\na C G\nd e a",
-            "lyrics": "A wi\u0119c krzycz O\u2013 ho!\nOdwag\u0119 w sercu miej!\nWieloryb\u00f3w cielska gro\u017ane s\u0105,\nLecz dostaniemy je!",
-            "chorus": true
-        },
-        {
-            "chords": "a e a e\na e d e a",
-            "lyrics": "Hej panno powiedz po co \u0142zy, nic nie zatrzyma mnie.\nBo pr\u0119dzej w morzach kwiat zakwitnie, ni\u017c wycofam si\u0119.\nNo nie p\u0142acz ma\u0142a, wr\u00f3c\u0119 tu, nasz los nie taki z\u0142y,\nBo da dukat\u00f3w w\u00f3r za tran i wieloryba k\u0142y.",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "A wi\u0119c krzycz O\u2013 ho\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "a e a e\na e d e a",
-            "lyrics": "Na deku stary w\u0105cha\u0142 wiatr, lunet\u0119 w r\u0119ku mia\u0142.\nNa \u0142odziach, co zwisa\u0142y ju\u017c, z harpunem ka\u017cdy sta\u0142.\nI dmucha tu i dmucha tam ogromne stado wci\u0105\u017c.\nHarpuny, wios\u0142a liny bra\u0107 i ci\u0105gaj brachu ci\u0105g!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "A wi\u0119c krzycz O\u2013 ho\u2026",
-            "chorus": true
-        },
-        {
-            "chords": "a e a e\na e d e a",
-            "lyrics": "I dla wieloryba ju\u017c ostatni to dzie\u0144,\nGdy \u015bmia\u0142y harpunnik uderza we\u0144!",
-            "chorus": false
-        },
-        {
-            "chords": "",
-            "lyrics": "A wi\u0119c krzycz O\u2013 ho\u2026",
-            "chorus": true
-        }
-    ]
-}
+#title Wielorybnicy
+#author EKT Gdynia
+#category Szanty
+
+#verse
+Nasz diament prawie gotów już, w cieśninach nie ma kry. ~ a e a e
+Na kei piękne panny stoją, w oczach błyszczą łzy. ~ a e d e a
+Kapitan w niebo wbija wzrok – ruszamy lada dzień,
+Płyniemy tam gdzie słońca blask nie zmąci nocy cień.
+
+#chorus
+A więc krzycz O– ho! ~ a e a
+Odwagę w sercu miej! ~ a e a
+Wielorybów cielska groźne są, ~ a C G
+Lecz dostaniemy je! ~ d e a
+
+#verse
+Hej panno powiedz po co łzy, nic nie zatrzyma mnie. ~ a e a e
+Bo prędzej w morzach kwiat zakwitnie, niż wycofam się. ~ a e d e a
+No nie płacz mała, wrócę tu, nasz los nie taki zły,
+Bo da dukatów wór za tran i wieloryba kły.
+
+#chorus
+A więc krzycz O– ho…
+
+#verse
+Na deku stary wąchał wiatr, lunetę w ręku miał. ~ a e a e
+Na łodziach, co zwisały już, z harpunem każdy stał. ~ a e d e a
+I dmucha tu i dmucha tam ogromne stado wciąż.
+Harpuny, wiosła liny brać i ciągaj brachu ciąg!
+
+#chorus
+A więc krzycz O– ho…
+
+#verse
+I dla wieloryba już ostatni to dzień, ~ a e a e
+Gdy śmiały harpunnik uderza weń! ~ a e d e a
+
+#chorus
+A więc krzycz O– ho…
+

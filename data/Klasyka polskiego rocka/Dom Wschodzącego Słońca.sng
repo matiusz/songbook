@@ -1,22 +1,22 @@
-{
-    "title": "Dom wschodz\u0105cego s\u0142o\u0144ca",
-    "author": "s\u0142. Kult, muz. The Animals",
-    "category": "Klasyka polskiego rocka",
-    "sections": [
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "W ciemnej tej celi na zgni\u0142ym pos\u0142aniu\nM\u0142ody gitfunfel kopyrta\nPikawa mu sta\u0142a w tym wolnym konaniu\nTo m\u0142ody gitfunfel kopyrta",
-            "chorus": false
-        },
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "Przy jego tym koju gitsiorka przycup\u0142a\nM\u0142odemu gitowi nawija:\nTy wr\u00f3cisz do funfli, ty wr\u00f3cisz do zgredki\nGdy tylko zakwitn\u0105 nagietki",
-            "chorus": false
-        },
-        {
-            "chords": "a C D F\na C E\na C D F\na E a E",
-            "lyrics": "Nad ranem znale\u017ali m\u0142odego gitowca\nZ\u0142o\u017cyli go w ciemnej mogile\nA gity, jak stali, si\u0119 wszystkie chlastali\nTo m\u0142ody gitfunfel kopyrtn\u0105\u0142",
-            "chorus": false
-        }
-    ]
-}
+#title Dom wschodzącego słońca
+#author sł. Kult, muz. The Animals
+#category Klasyka polskiego rocka
+
+#verse
+W ciemnej tej celi na zgniłym posłaniu ~ a C D F
+Młody gitfunfel kopyrta ~ a C E
+Pikawa mu stała w tym wolnym konaniu ~ a C D F
+To młody gitfunfel kopyrta ~ a E a E
+
+#verse
+Przy jego tym koju gitsiorka przycupła ~ a C D F
+Młodemu gitowi nawija: ~ a C E
+Ty wrócisz do funfli, ty wrócisz do zgredki ~ a C D F
+Gdy tylko zakwitną nagietki ~ a E a E
+
+#verse
+Nad ranem znaleźli młodego gitowca ~ a C D F
+Złożyli go w ciemnej mogile ~ a C E
+A gity, jak stali, się wszystkie chlastali ~ a C D F
+To młody gitfunfel kopyrtnął ~ a E a E
+
