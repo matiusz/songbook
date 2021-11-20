@@ -47,7 +47,7 @@ jobs:
           command: docker run --rm -it --name songbook songbook python3 songbook_pdf.py
       - run:
           name: Copy Output
-          command: docker cp songbook:/app/songbook.pdf /output/songbook.pdf
+          command: docker cp songbook:/app/songbook.pdf /output
       - store_artifacts:
           path: /output/songbook.pdf
 
