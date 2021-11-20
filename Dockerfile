@@ -2,39 +2,17 @@
 FROM ubuntu:focal
 
 RUN apt-get update && apt-get install -y \
-    python3 python3-pip
-
-RUN apt-get install -y \
-        apt-transport-https \
-        ca-certificates \
-        dirmngr \
-        ghostscript \
-        gnupg \
-        gosu \
-        make \
-        perl
-
-RUN apt-get clean
-
-RUN echo 'Acquire::https::ctan.gust.org.pl::Verify-Peer "false";' > /etc/apt/apt.conf.d/99influxdata-cert
-
-RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D6BC243565B2087BC3F897C9277A7293F59E4889
-
-RUN echo "deb http://miktex.org/download/ubuntu focal universe" | tee /etc/apt/sources.list.d/miktex.list
-
-RUN apt-get update -y \
-    &&  DEBIAN_FRONTEND='noninteractive' apt-get install -y --no-install-recommends \
-           miktex
-
-RUN    miktexsetup finish \
-    && initexmf --admin --set-config-value=[MPM]AutoInstall=1 \
-    && mpm --admin --update-db \
-    && mpm --admin \
-           --install amsfonts \
-           --install biber-linux-x86_64 \
-    && initexmf --admin --update-fndb
+    python3 python3-pip \
+    perl wget libfontconfig1 && \
+    # The only reasonable way of installing pdflatex I found, see https://tex.stackexchange.com/a/493882
+    wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh  && \
+    apt-get clean
 
 ENV PATH="${PATH}:/root/bin"
+
+# This will probably install all the latex crap ever invented
+# so it takes forever, occupies several GB and returns error if any plugin fails
+RUN tlmgr install scheme-full || echo "who cares ¯\_(ツ)_/¯"
 
 RUN pip install aiofiles pyside6
 
