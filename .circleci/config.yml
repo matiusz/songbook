@@ -41,7 +41,7 @@ jobs:
           command: docker build -t songbook .
       - run:
           name: Run Docker
-          command: docker run --rm -it --name songbook songbook /bin/bash -c "updmap --admin; initexmf --admin --mkmaps; python3 songbook.py"
+          command: docker run --rm -it --name songbook songbook /bin/bash -c "mpm --verbose --update; updmap --admin; initexmf --admin --mkmaps; python3 songbook_pdf.py"
       - run:
           name: Copy Output
           command: docker cp songbook:/app/songbook.pdf /output/songbook.pdf
