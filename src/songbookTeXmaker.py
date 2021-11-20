@@ -100,8 +100,8 @@ class TexSong:
         songStr += "\\begin{paracol}{2}\n"
         sections = [self.convertSection(section) for section in self.song.sections]
         if len(sections)>2:
-            sections[-2] = self.convertSection(self.dict['sections'][-2], additionalVspace=sections[-1][1]+1)
-            sections[-1] = self.convertSection(self.dict['sections'][-1], additionalVspace=0)
+            sections[-2] = self.convertSection(self.song.sections[-2], additionalVspace=sections[-1][1]+1)
+            sections[-1] = self.convertSection(self.song.sections[-1], additionalVspace=0)
         for section in sections:
             songStr += section[0]
         songStr += "\\end{paracol}\n"
