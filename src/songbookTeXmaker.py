@@ -90,7 +90,7 @@ class TexSong:
 
     @property
     def tex(self):
-        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.78,0.22}}\n\\rmfamily"
+        songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.78,0.22}}\n\\rmfamily\\raggedbottom"
         author = self.song.author
         if author:
             songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
@@ -98,8 +98,12 @@ class TexSong:
         if capo:
             songStr += f"\\begin{{flushright}}\n{capo}\n\\end{{flushright}}"
         songStr += "\\begin{paracol}{2}\n"
-        for section in self.song.sections:
-            songStr += self.convertSection(section)
+        sections = [self.convertSection(section) for section in self.song.sections]
+        if len(sections)>2:
+            sections[-2] = self.convertSection(self.dict['sections'][-2], additionalVspace=sections[-1][1]+1)
+            sections[-1] = self.convertSection(self.dict['sections'][-1], additionalVspace=0)
+        for section in sections:
+            songStr += section[0]
         songStr += "\\end{paracol}\n"
         songStr += "\\newpage\n"
         return songStr
@@ -112,8 +116,8 @@ class TexSong:
             sorted([re.escape(key) for key in chDict.keys()], key=len, reverse=True)))
         result = pattern.sub(lambda x: chDict[x.group()], text)
         return result
-
-    def convertSection(self, section):
+        
+    def convertSection(self, section, additionalVspace = 2):
         chordShift = config.chordShift
         lyrics, l1 = self.convertLineBreaks(section.lyrics)
         if section.chords:
@@ -121,8 +125,8 @@ class TexSong:
                 section.chords, chordShift).replace("\\", "\\textbackslash "), chords=True)
         else:
             chords, l2 = "", 0
-        songStr = ""
-        songStr = f"\n\\ensurevspace{{{max(l1, l2)+2}\\baselineskip}}\n"
+        vspace = max(l1, l2)
+        songStr = f"\n\\ensurevspace{{{vspace+additionalVspace}\\baselineskip}}\n"
         songStr += "\\begin{leftcolumn*} "
         songStr += "\\noindent"
         if section.chorus:
@@ -142,8 +146,8 @@ class TexSong:
             songStr += "\\end{bfseries}\n"
             songStr += "\\vspace{\\baselineskip}\n"
             songStr += "\\end{rightcolumn}\n"
-            songStr += "\n\\rmfamily\n"
-        return songStr
+            songStr += "\n\\rmfamily\n"    
+        return songStr, vspace
 
     def chorusWrapper(self, text):
         wrapped_text = "\\begin{chorus}" + text + "\\end{chorus}"
