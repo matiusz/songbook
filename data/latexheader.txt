@@ -28,6 +28,7 @@
 \apptocmd\adjustwidth{\@inlabelfalse\@newlistfalse}
 \makeatother
 
+\raggedbottom
 \geometry{
  a4paper,
  inner=30mm,

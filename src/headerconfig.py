@@ -22,7 +22,7 @@ def hyperSetup():
 
 def minorSettings():
     return "\\graphicspath{{./data/.images/}}\n\\setlength\\parindent{0pt}\n\n\\hbadness=15000  % or any number >=10000" + \
-    "\n\\vfuzz = 15pt\n\n% HACKING \\adjustwidth\n\\usepackage{etoolbox}\n\\makeatletter\n\\apptocmd\\adjustwidth{\@inlabelfalse\@newlistfalse}\n\\makeatother\n\n"
+    "\n\\vfuzz = 15pt\n\n% HACKING \\adjustwidth\n\\usepackage{etoolbox}\n\\makeatletter\n\\apptocmd\\adjustwidth{\@inlabelfalse\@newlistfalse}\n\\makeatother\n\n\\raggedbottom\n"
 
 def geometry(form, width, height, horizontal, vertical, sides):
     return f"\\geometry{{\n {form},\n {'inner' if sides == 'twoside' else 'left'}={horizontal}mm,\n top={vertical}mm,\n {'outer' if sides == 'twoside' else 'right'}=15mm, \n  bottom={vertical}mm, \n}}\n\n"
