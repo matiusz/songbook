@@ -1,4 +1,6 @@
   # songbook
+
+  [![CircleCI](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook.svg?style=svg)](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook)
   
   ## songbook
 

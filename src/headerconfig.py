@@ -15,7 +15,7 @@ def packages(packs):
     return string
 
 def getPackageList():
-    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref", "multicol", "tikz"]
+    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref", "multicol", "tikz", "zi4"]
 
 def hyperSetup():
     return "\\hypersetup{\n    hidelinks,\n    linktoc=all\n}\n\n"
@@ -24,7 +24,7 @@ def minorSettings():
     return "\\graphicspath{{./data/.images/}}\n\\setlength\\parindent{0pt}\n\n\\hbadness=15000  % or any number >=10000" + \
     "\n\\vfuzz = 15pt\n\n% HACKING \\adjustwidth\n\\usepackage{etoolbox}\n\\makeatletter\n\\apptocmd\\adjustwidth{\@inlabelfalse\@newlistfalse}\n\\makeatother\n\n\\raggedbottom\n"
 
-def geometry(form, width, height, horizontal, vertical, sides):
+def geometry(form, horizontal, vertical, sides):
     return f"\\geometry{{\n {form},\n {'inner' if sides == 'twoside' else 'left'}={horizontal}mm,\n top={vertical}mm,\n {'outer' if sides == 'twoside' else 'right'}=15mm, \n  bottom={vertical}mm, \n}}\n\n"
 
 def beginDoc():
@@ -61,14 +61,12 @@ def assembleHeader():
     sides = config.canvas.sides
     vertical = config.canvas.margins.vertical
     horizontal = config.canvas.margins.horizontal
-    width = config.canvas.textFieldSize.width
-    height = config.canvas.textFieldSize.height
     
     header += docClass(form = form, sides = sides, size = config.fontSize)
     header += packages(getPackageList())
     header += hyperSetup()
     header += minorSettings()
-    header += geometry(form = form, width = width, height = height, horizontal = horizontal, vertical = vertical, sides = sides)
+    header += geometry(form = form, horizontal = horizontal, vertical = vertical, sides = sides)
     header += titleSettings()
     header += beginDoc()
     header += makeTitle()

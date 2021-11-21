@@ -13,11 +13,6 @@
         "chordShift": 0,
         "format": "a4paper",
         "sides": "twoside",
-        "textFieldSize": 
-        {
-            "width":180,
-            "height":247
-        },
         "margins":
         {
             "horizontal": 30,
