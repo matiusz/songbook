@@ -40,16 +40,16 @@ jobs:
           name: Build Image
           command: docker build -t songbook .
       - run:
-          name: Create Output Directory
-          command: mkdir output
-      - run:
           name: Run Docker
           command: docker run -it --name songbook songbook python3 songbook_pdf.py
       - run:
+          name: Create Output Directory
+          command: mkdir output
+      - run:
           name: Copy Output
-          command: docker cp songbook:/app/songbook.pdf /songbook.pdf
+          command: docker cp songbook:/app/songbook.pdf /output/songbook.pdf
       - store_artifacts:
-          path: /songbook.pdf
+          path: /output/songbook.pdf
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
