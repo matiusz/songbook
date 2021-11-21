@@ -10,6 +10,7 @@
 \usepackage{hyperref}
 \usepackage{multicol}
 \usepackage{tikz}
+\usepackage{zi4}
 
 \hypersetup{
     hidelinks,
@@ -42,7 +43,7 @@
 Numer KRS 0000083727\\
 Z dopiskiem:\\
 Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\
-Dziękujemy!}
+Dziękujemy!\\[3\baselineskip]\the\year{}}
 \author{}
 
 \newcommand\mystrut{\rule{0pt}{12pt}}
