@@ -15,7 +15,7 @@ def packages(packs):
     return string
 
 def getPackageList():
-    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref", "multicol", "tikz"]
+    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref", "multicol", "tikz", "zi4"]
 
 def hyperSetup():
     return "\\hypersetup{\n    hidelinks,\n    linktoc=all\n}\n\n"
