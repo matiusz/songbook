@@ -5,14 +5,14 @@ RUN apt-get update && apt-get install -y \
     python3 python3-pip
 
 RUN apt-get install -y \
-        apt-transport-https \
-        ca-certificates \
-        dirmngr \
-        ghostscript \
-        gnupg \
-        gosu \
-        make \
-        perl
+    apt-transport-https \
+    ca-certificates \
+    dirmngr \
+    ghostscript \
+    gnupg \
+    gosu \
+    make \
+    perl
 
 RUN apt-get clean
 
@@ -24,19 +24,18 @@ RUN echo "deb http://miktex.org/download/ubuntu focal universe" | tee /etc/apt/s
 
 RUN apt-get update -y \
     &&  DEBIAN_FRONTEND='noninteractive' apt-get install -y --no-install-recommends \
-           miktex
+    miktex
 
-RUN    miktexsetup finish \
+RUN miktexsetup finish \
     && initexmf --admin --set-config-value=[MPM]AutoInstall=1 \
     && mpm --admin --update-db \
     && mpm --admin \
-           --install amsfonts \
-           --install biber-linux-x86_64 \
+    --install amsfonts \
+    --install biber-linux-x86_64 \
     && initexmf --admin --update-fndb
 
 ENV PATH="${PATH}:/root/bin"
 
 RUN pip install aiofiles pyside6
 
-COPY . /app
 WORKDIR /app
