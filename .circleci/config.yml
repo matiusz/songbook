@@ -2,14 +2,16 @@ version: 2.1
 
 jobs:
   generate-pdf:
-    working_directory: /app
     docker:
       - image: mathek/songbook:1.0.0
+    working_directory: /app
+    steps:
+      - checkout
       - run:
           name: Generate PDF
           command: python3 songbook_pdf.py
       - store_artifacts:
-          path: output/songbook.pdf
+          path: songbook.pdf
 
 workflows:
   build-and-test:
