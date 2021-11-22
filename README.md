@@ -2,6 +2,8 @@
 
   [![CircleCI](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook.svg?style=svg)](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook)
   
+  [Current PDF](https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts/0/output/songbook.pdf)
+  
   ## songbook
 
   Songbook is an easy to use tool for creating songbooks where each song is represented by a different file, allowing them to be easily shared or moved between different songbooks. It has it's own display module or it can generate LaTeX files and compile them to pdf.
