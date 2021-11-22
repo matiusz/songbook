@@ -1,5 +1,7 @@
 from src.obj.Config import config
 import os
+from datetime import date
+months = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"]
 
 
 def docClass(form, sides, size):
@@ -55,14 +57,13 @@ def toc():
 
 
 def titleSettings():
-    onePercentHack = "\\vspace{0.40\\textheight} 1 \% podatku dla “Hawiarskiej Koliby”\\\\\n" + \
+    onePercentHack = "\\vspace{0.40\\textheight} \\\\1 \% podatku dla “Hawiarskiej Koliby”\\\\\n" + \
         "Numer KRS 0000083727\\\\\n" + \
         "Z dopiskiem:\\\\\n" + \
         "Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\\\\n" + \
         "Dziękujemy!"
-
-    version = "\\\\[3\\baselineskip]\\the\\year{}"
-    return f"\\title{{{config.title}}}\n\\date{{{onePercentHack}{version}}}\n\\author{{{config.author}}}\n\n"
+    today = date.today()
+    return f"\\title{{{config.title}}}\n\\date{{{months[today.month-1]} {today.year}}}\n\\author{{{onePercentHack}}}\n\n"
 
 
 def makeTitle():
