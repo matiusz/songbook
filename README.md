@@ -2,7 +2,7 @@
 
   [![CircleCI](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook.svg?style=svg)](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook)
   
-  [Current PDF](https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts/0/songbook.pdf)
+  [Current PDF](https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts/0/songbook.pdf?branch=hk-songbook)
   
   ## songbook
 
