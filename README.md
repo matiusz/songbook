@@ -25,8 +25,7 @@
 
   ### With docker
   ```
-  docker build -t songbook .
-  docker run --rm -it songbook
+  docker run -v $(pwd):/app --rm -it mathek/songbook
   ```
   and you can run the commands as above. Note that any command involving GUI may require additional setup, depending on the OS.
 
