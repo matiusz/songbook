@@ -127,7 +127,7 @@ class TexSong:
             chords, l2 = "", 0
         vspace = max(l1, l2)
         songStr = f"\n\\ensurevspace{{{vspace+additionalVspace}\\baselineskip}}\n"
-        songStr = "\\begin{leftcolumn*} "
+        songStr += "\\begin{leftcolumn*} "
         songStr += "\\noindent"
         if section.chorus:
             lyrics = self.chorusWrapper("\\mystrut " + lyrics)
