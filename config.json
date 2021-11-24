@@ -12,10 +12,10 @@
     {
         "chordShift": 0,
         "format": "a4paper",
-        "sides": "twoside",
+        "sides": "oneside",
         "margins":
         {
-            "horizontal": 30,
+            "horizontal": 20,
             "vertical": 15
         },
         "fontSize" : 12,
