@@ -12,7 +12,9 @@ RUN apt-get install -y \
     gnupg \
     gosu \
     make \
-    perl
+    perl \
+    language-pack-pl \
+    language-pack-pl-base
 
 RUN apt-get clean
 
