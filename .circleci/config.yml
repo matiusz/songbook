@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   generate-pdf:
     docker:
-      - image: mathek/songbook:1.0.0
+      - image: mathek/songbook:latest
     working_directory: /app
     steps:
       - checkout
