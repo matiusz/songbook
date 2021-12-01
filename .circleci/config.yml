@@ -12,6 +12,8 @@ jobs:
           command: python3 songbook_pdf.py
       - store_artifacts:
           path: songbook.pdf
+      - store_artifacts:
+          path: /root/.miktex/texmfs/data/miktex/log/pdflatex.log
 
 workflows:
   build-and-test:
