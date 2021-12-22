@@ -57,6 +57,9 @@ class Configuration:
         except KeyError:
             self.devSettings = defaultdict(lambda: False)
 
+    def update(self):
+        self.__init__("config.json")
+
 
 config = Configuration("config.json")
 
