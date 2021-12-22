@@ -219,6 +219,7 @@ def main():
 
 
 async def _asyncMain():
+    config.update()
     headerconfig.main()
 
     texOutFile = f"{config.outputFile}.tex"
