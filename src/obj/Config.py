@@ -36,6 +36,8 @@ class Configuration:
 
         self.chordShift = pdfSettings['chordShift']
 
+        self.globalBold = pdfSettings['globalBold']
+
         self.canvas = Canvas(pdfSettings['format'], pdfSettings['sides'], pdfSettings['margins'])
 
         self.fontSize = pdfSettings['fontSize']

@@ -38,7 +38,8 @@ def geometry(form, horizontal, vertical, sides):
 
 def beginDoc():
     string = f"\\newcommand\\mystrut{{\\rule{{0pt}}{{{config.fontSize}pt}}}}\n"
-    #string = ""
+    if config.globalBold:
+        string += "\\renewcommand{\\seriesdefault}{\\bfdefault}\n\n"
     string += "\\begin{document}\n\n"
     return string
 
@@ -48,7 +49,7 @@ def minorSettings2():
 
 
 def font():
-    return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n"
+    return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n" 
 
 
 def toc():

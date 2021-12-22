@@ -10,6 +10,7 @@
         },
     "pdfSettings": 
     {
+        "globalBold" : false,
         "chordShift": 0,
         "format": "a4paper",
         "sides": "oneside",
@@ -22,7 +23,7 @@
         "lyricsFont" : "ptm",
         "chordsFont" : "zi4",
         "titlePage" : {
-            "title" : "Śpiewnik Hawiarskiej Koliby",
+            "title" : "Śpiewnik Hawiarskiej Koliby\\\\Edycja Rozszerzona",
             "author" : ""
         }
     },
