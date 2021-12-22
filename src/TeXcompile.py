@@ -4,6 +4,7 @@ from src import ToCedit
 
 from src.obj.Config import config
 
+
 def main():
     songbookTitle = config.outputFile
     inFile = f"{songbookTitle}.tex"
@@ -19,8 +20,8 @@ def main():
         os.system(texcompile)
 
     if not config.devSettings['keepAuxOut']:
-        auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk", 
-                    f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls", 
+        auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk",
+                    f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls",
                     f"{songbookTitle}_list.toc", f"{songbookTitle}.out"]
         for auxFil in auxFiles:
             try:
@@ -30,5 +31,6 @@ def main():
                 pass
     return outFile
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()

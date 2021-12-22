@@ -5,5 +5,5 @@ from src.gui.MainMenu import MainMenu
 import sys
 
 app = QApplication(sys.argv)
-window = MainMenu(editorMode=True)
+window = MainMenu()
 app.exec()

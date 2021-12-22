@@ -1,7 +1,10 @@
 from src.obj.Config import config
 import os
 from datetime import date
-months = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"]
+
+from src.tools.ResourcePath import resource_path
+months = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec",
+          "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"]
 
 
 def docClass(form, sides, size):
@@ -28,7 +31,9 @@ def hyperSetup():
 
 
 def minorSettings():
-    return "\\graphicspath{{./data/.images/}}\n\\setlength\\parindent{0pt}\n\n\\hbadness=15000  % or any number >=10000" + \
+    imgPath = os.path.join(config.dataFolder, config.imageFolder).replace(
+        '\\', '//', 1).replace("\\", "/") + "/"
+    return f"\\graphicspath{{{{{imgPath}}}}}\n\\setlength\\parindent{{0pt}}\n\n\\hbadness=15000  % or any number >=10000" + \
         "\n\\vfuzz = 15pt\n\n% HACKING \\adjustwidth\n\\usepackage{etoolbox}\n\\makeatletter\n\\apptocmd\\adjustwidth{\@inlabelfalse\@newlistfalse}\n\\makeatother\n\n\\raggedbottom\n"
 
 
@@ -49,7 +54,7 @@ def minorSettings2():
 
 
 def font():
-    return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n" 
+    return f"\\renewcommand{{\\rmdefault}}{{{config.lyricsFont}}}\n\\renewcommand{{\\ttdefault}}{{{config.chordsFont}}}\n\n"
 
 
 def toc():
@@ -93,11 +98,5 @@ def assembleHeader():
     return header
 
 
-def main():
-    with open(os.path.join(config.dataFolder, config.latexHeaderFile), "wb") as headerFile:
-        headerFile.write(assembleHeader().encode("utf-8"))
-    pass
-
-
-if __name__ == "__main__":
-    main()
+def getHeader():
+    return assembleHeader()

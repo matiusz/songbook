@@ -15,14 +15,6 @@ from src.obj.Config import config
 from src.obj.Song import Song
 
 
-def raw(string: str, replace: bool = False) -> str:
-    """Returns the raw representation of a string. If replace is true, replace a single backslash's repr \\ with \."""
-    r = repr(string)[1:-1]  # Strip the quotes from representation
-    if replace:
-        r = r.replace('\\\\', '\\')
-    return r
-
-
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
 
@@ -98,10 +90,13 @@ class TexSong:
         if capo:
             songStr += f"\\begin{{flushright}}\n{capo}\n\\end{{flushright}}"
         songStr += "\\begin{paracol}{2}\n"
-        sections = [self.convertSection(section) for section in self.song.sections]
-        if len(sections)>2:
-            sections[-2] = self.convertSection(self.song.sections[-2], additionalVspace=sections[-1][1]+1)
-            sections[-1] = self.convertSection(self.song.sections[-1], additionalVspace=0)
+        sections = [self.convertSection(section)
+                    for section in self.song.sections]
+        if len(sections) > 2:
+            sections[-2] = self.convertSection(
+                self.song.sections[-2], additionalVspace=sections[-1][1]+1)
+            sections[-1] = self.convertSection(
+                self.song.sections[-1], additionalVspace=0)
         for section in sections:
             songStr += section[0]
         songStr += "\\end{paracol}\n"
@@ -116,8 +111,8 @@ class TexSong:
             sorted([re.escape(key) for key in chDict.keys()], key=len, reverse=True)))
         result = pattern.sub(lambda x: chDict[x.group()], text)
         return result
-        
-    def convertSection(self, section, additionalVspace = 2):
+
+    def convertSection(self, section, additionalVspace=2):
         chordShift = config.chordShift
         lyrics, l1 = self.convertLineBreaks(section.lyrics)
         if section.chords:
@@ -146,7 +141,7 @@ class TexSong:
             songStr += "\\end{bfseries}\n"
             songStr += "\\vspace{\\baselineskip}\n"
             songStr += "\\end{rightcolumn}\n"
-            songStr += "\n\\rmfamily\n"    
+            songStr += "\n\\rmfamily\n"
         return songStr, vspace
 
     def chorusWrapper(self, text):
@@ -168,12 +163,6 @@ class TexSong:
             else:
                 converted_text += " \\\\\n"
         return converted_text, len(lines)
-
-
-async def copyHeader(headerFilename, songbookFilename):
-    async with aiofiles.open(songbookFilename, "wb") as songbookFile:
-        async with aiofiles.open(headerFilename, "rb") as headerFile:
-            await songbookFile.write(await headerFile.read())
 
 
 def makeSongbookDict(songs):
@@ -220,11 +209,11 @@ def main():
 
 async def _asyncMain():
     config.update()
-    headerconfig.main()
 
     texOutFile = f"{config.outputFile}.tex"
 
-    await copyHeader(os.path.join(config.dataFolder, config.latexHeaderFile), texOutFile)
+    async with aiofiles.open(texOutFile, "wb") as songbookFile:
+        await songbookFile.write(enUTF8(headerconfig.getHeader()))
 
     max_open_files = 100
     sem = asyncio.Semaphore(max_open_files)
