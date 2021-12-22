@@ -22,7 +22,7 @@ class Configuration:
     def __init__(self, configFilename):
         self._configFilename = configFilename
         try:
-            with open(resource_path(self._configFilename), "rb") as configFile:
+            with open(self._configFilename, "rb") as configFile:
                 config = json.loads(deUTF8(configFile.read()))
         except FileNotFoundError as ex:
             config = json.loads(self.getDefaultConfig())

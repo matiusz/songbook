@@ -25,11 +25,5 @@
             "title" : "Śpiewnik Hawiarskiej Koliby\\\\Edycja Rozszerzona",
             "author" : ""
         }
-    },
-    "devSettings":
-    {
-        "drawLines" : false,
-        "singleCompile" : false,
-        "keepAuxOut" : false
     }
 }
