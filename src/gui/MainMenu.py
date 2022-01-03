@@ -5,6 +5,7 @@ from PySide6.QtGui import QPixmap
 from src.gui.SongEditor import ScrollableSongEditor
 from src.gui.CategoryEditor import NewCategory
 from src.gui.SongList import ScrollAndSearchSongList
+from src.gui.SongTabs import QSongTabs
 
 from src.tools.openDefault import open_with_default_app
 from src.tools import dirTools
@@ -37,8 +38,11 @@ class MainMenu(QWidget):
             songButton = QPushButton('Song Editor', self)
             songButton.clicked.connect(self.addSongField)
 
-        listButton = QPushButton('Songs List', self)
-        listButton.clicked.connect(self.listSongsField)
+        tabsButton = QPushButton('Show Songs', self)
+        tabsButton.clicked.connect(self.tabsSongsField)
+
+        #listButton = QPushButton('Songs List', self)
+        #listButton.clicked.connect(self.listSongsField)
 
         compileButton = QPushButton('Create PDF', self)
         compileButton.clicked.connect(self.generateAndCompileTex)
@@ -48,7 +52,8 @@ class MainMenu(QWidget):
         if editorMode:
             layout.addWidget(categoryButton)
             layout.addWidget(songButton)
-        layout.addWidget(listButton)
+        layout.addWidget(tabsButton)
+        #layout.addWidget(listButton)
         layout.addWidget(compileButton)
         self.setLayout(layout)
         self.show()
@@ -68,6 +73,9 @@ class MainMenu(QWidget):
 
     def listSongsField(self):
         self.songList = ScrollAndSearchSongList()
+
+    def tabsSongsField(self):
+        self.songTabs = QSongTabs()
 
     def addSongField(self):
         self.currentSong = ScrollableSongEditor()
