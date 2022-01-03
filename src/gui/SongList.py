@@ -84,10 +84,10 @@ class SongList(QLabel):
         cat, _, song = link.partition('#')
         QScrollableSongDisplay(cat, song)
 
-    def reloadText(self, filt : str = "", detailed : bool = False):
+    def reloadText(self, filt : str = None, detailed : bool = False):
         self.setText(self.getText(filt, detailed))
 
-    def getText(self, filt = None, detailed = False):
+    def getText(self, filt : str = None, detailed : bool = False):
         textLines = []
         for cat in self.catSongs.keys():
             songs = []

@@ -52,10 +52,12 @@ class Configuration:
         #Date is currently generated automatically by headerconfig.py script
         #self.date = titlePageSettings['date']
         self.author = titlePageSettings['author']
+        self.devSettings = defaultdict(lambda: False)
         try:
-            self.devSettings = config['devSettings']
+            for k, v in  config['devSettings'].items():
+                self.devSettings[k] = v
         except KeyError:
-            self.devSettings = defaultdict(lambda: False)
+            pass
 
     def update(self):
         try:

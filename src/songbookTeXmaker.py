@@ -14,19 +14,27 @@ from src.tools.codings import enUTF8, deUTF8
 from src.obj.Config import config
 from src.obj.Song import Song
 
+from src.tools.loggerSetup import logging
+
+logger = logging.getLogger(__name__)
+
+
 
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
 
 
 async def gatherAllCategories(sem):
+    logger.debug(f"Starting loading songs...")
     tasks = [gatherSongs(os.path.join(config.dataFolder, dirname), sem)
              for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
     categories = await asyncio.gather(*tasks)
+    logger.info(f"All songs successfully loaded")
     return categories
 
 
 async def gatherSongs(dirpath, sem):
+    logger.debug(f"Loading songs from {dirpath}")
     tasks = [semaphoredLoadSong(dirpath, filename, sem) for filename in os.listdir(
         dirpath) if filename.endswith(".sng")]
     songs = await asyncio.gather(*tasks)
@@ -34,6 +42,7 @@ async def gatherSongs(dirpath, sem):
 
 
 async def semaphoredLoadSong(dirpath, filename, sem):
+    logger.debug(f"Loading song from {filename} at {dirpath}")
     async with sem:
         return await TexSong.load(os.path.join(dirpath, filename))
 
@@ -173,24 +182,25 @@ def makeSongbookDict(songs):
     return songbookDict
 
 
-async def getCategoriesConfig(configFilepath, songbookDict):
+async def getCategoriesConfig(categoryDictFile, songbookDict):
     try:
-        async with aiofiles.open(configFilepath, "rb") as configFile:
+        async with aiofiles.open(categoryDictFile, "rb") as configFile:
             cats_dict = json.loads(deUTF8(await configFile.read()))
     except FileNotFoundError:
-        print("mapping not found")
+        logger.warning("Category titles mapping file not found")
         cats_dict = {cat: cat for cat in sorted(
             songbookDict.keys(), key=plSortKey)}
     return cats_dict
 
 
 async def processCategory(cat, songbookFile, ignoredSongs=None):
+    logger.info(f"Writing category {cat.name} to {songbookFile.name} file")
     keys = cat.songs.keys()
     ignoredCount = 0
     for songKey in sorted(keys, key=plSortKey):
         song = cat.songs[songKey]
         if (cat.name, song.title) not in ignoredSongs:
-            print("\t" + song.title)
+            logger.debug(f"Writing song {song.title} to {songbookFile.name} file")
             await songbookFile.write(enUTF8(song.tex))
         else:
             ignoredCount += 1
@@ -198,7 +208,7 @@ async def processCategory(cat, songbookFile, ignoredSongs=None):
 
 
 async def processSingleSong(song, songbookFile):
-    print("\t" + song.title)
+    logger.info(f"Writing song {song.title} to {songbookFile.name} file")
     await songbookFile.write(enUTF8(song.tex))
     return 1
 
@@ -212,8 +222,12 @@ async def _asyncMain():
 
     texOutFile = f"{config.outputFile}.tex"
 
+    logger.debug(f"Copying header to {texOutFile}...")
+
     async with aiofiles.open(texOutFile, "wb") as songbookFile:
         await songbookFile.write(enUTF8(headerconfig.getHeader()))
+
+    logger.info(f"Header copied")
 
     max_open_files = 100
     sem = asyncio.Semaphore(max_open_files)
@@ -228,7 +242,6 @@ async def _asyncMain():
         cat.setCatMapping(cats)
 
     songCount = 0
-    print("Title songs")
 
     async with aiofiles.open(texOutFile, "ab") as songbookFile:
 
@@ -240,13 +253,12 @@ async def _asyncMain():
 
         for cat in cats.keys():
             if cat != "Title":
-                print(cat)
                 await songbookFile.write(enUTF8(songbookDict[cat].tex))
                 songCount += await processCategory(songbookDict[cat], songbookFile, titleSongs)
 
         await songbookFile.write(enUTF8(f"\\IfFileExists{{{config.outputFile}_list.toc}}{{\n\t\\chapter*{{Spis treści}}\n\\begin{{multicols}}{{2}}\n\t\\input{{{config.outputFile}_list.toc}}\n\\end{{multicols}}\n}}{{}}\n"))
         await songbookFile.write(enUTF8("\\end{document}"))
-    print(f"Total number of songs: {songCount}")
+    logger.info(f"Total number of songs: {songCount}")
     return texOutFile
 
 if __name__ == "__main__":
