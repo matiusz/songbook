@@ -17,7 +17,6 @@ class QScrollableSongDisplay(QScrollArea):
         self.setWindowTitle(songTitle)
         self.setWidget(self.song)
         self.setWidgetResizable(True)
-        self.show()
         if category:
             if songTitle:
                 self.song.loadSong(category, songTitle)
@@ -58,7 +57,6 @@ class QSong(QWidget):
         layout.addLayout(shiftButtonBox)
 
         self.setLayout(layout)
-        self.show()
 
     def sizeUp(self):
         self.resizeOffset += 1

@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QPushButton,
                                QLabel, QMessageBox)
-from PySide6.QtGui import QPixmap
+from PySide6.QtGui import QIcon, QPixmap
 
 from src.gui.SongEditor import ScrollableSongEditor
 from src.gui.CategoryEditor import NewCategory
@@ -23,7 +23,8 @@ class MainMenu(QWidget):
         self.setWindowTitle('Songbook Maker')
 
         dirTools.ensureDir(os.path.join(config.dataFolder, config.imageFolder))
-
+        icon = QIcon("guitar.ico")
+        self.setWindowIcon(icon)
         label = QLabel()
         image = QPixmap(os.path.join(config.dataFolder, config.appLogo))
         if image:

@@ -1,3 +1,4 @@
+from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import (QSizePolicy, QTabWidget, QWidget,
                                QHBoxLayout)
 
@@ -9,7 +10,9 @@ from pynput import keyboard
 class QSongTabs(QWidget):
     def __init__(self):
         super().__init__()
-
+        self.setWindowTitle('HK Songbook')
+        icon = QIcon("guitar.ico")
+        self.setWindowIcon(icon)
         layout = QHBoxLayout()
 
         songList = ScrollAndSearchSongList()
