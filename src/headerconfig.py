@@ -76,7 +76,7 @@ def makeTitle():
     return "\\begin{titlepage}\n\\maketitle\n\\end{titlepage}\n\n"
 
 
-def assembleHeader():
+def getHeader():
     header = ""
     form = config.canvas.format
     sides = config.canvas.sides
@@ -96,7 +96,3 @@ def assembleHeader():
     header += font()
     header += toc()
     return header
-
-
-def getHeader():
-    return assembleHeader()

@@ -4,8 +4,6 @@ from src.obj.Config import config
 from src.obj.Songbook import Song
 import os, asyncio, aiofiles
 
-from src.songbookTeXmaker import TexSong
-
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
 

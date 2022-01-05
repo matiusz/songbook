@@ -1,6 +1,5 @@
 import os
 import sys
-import logging
 import subprocess
 
 def get_platform():
@@ -14,6 +13,7 @@ def get_platform():
     return sys.platform
 
 def open_with_default_app(filename):
+    """Opens a file with OS-default app for that file extension"""
     platform = get_platform()
     if platform == 'darwin':
         subprocess.call(('open', filename))

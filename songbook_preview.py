@@ -1,5 +1,4 @@
 from PySide6.QtWidgets import QApplication
-
 from src.gui.SongTabs import QSongTabs
 
 import sys

@@ -1,4 +1,4 @@
-from PySide6.QtGui import QIcon
+from PySide6.QtGui import QIcon, QPalette
 from PySide6.QtWidgets import (QSizePolicy, QTabWidget, QWidget,
                                QHBoxLayout)
 
@@ -13,6 +13,8 @@ class QSongTabs(QWidget):
         self.setWindowTitle('HK Songbook')
         icon = QIcon("guitar.ico")
         self.setWindowIcon(icon)
+        self.setBackgroundRole(QPalette.Base)
+        self.setAutoFillBackground(True)
         layout = QHBoxLayout()
 
         songList = ScrollAndSearchSongList()

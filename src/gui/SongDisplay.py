@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import (QWidget, QHBoxLayout, QVBoxLayout,
                                 QPushButton,QScrollArea, QLabel)
-from PySide6.QtGui import QPalette, QFont
+from PySide6.QtGui import QFont
 from PySide6.QtCore import Qt
 
 from src.tools.chordShift import shiftChords
@@ -11,9 +11,6 @@ class QScrollableSongDisplay(QScrollArea):
     def __init__(self, category=None, songTitle=None):
         super().__init__()
         self.song = QSong(self)
-        self.setBackgroundRole(QPalette.Base)
-        self.setAutoFillBackground(True)
-        self.setGeometry(400, 50, 1300, 900)
         self.setWindowTitle(songTitle)
         self.setWidget(self.song)
         self.setWidgetResizable(True)

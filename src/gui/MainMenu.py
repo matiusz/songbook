@@ -18,7 +18,7 @@ import os
 
 
 class MainMenu(QWidget):
-    def __init__(self, editorMode=False):
+    def __init__(self):
         super().__init__()
         self.setWindowTitle('Songbook Maker')
 
@@ -32,30 +32,25 @@ class MainMenu(QWidget):
         else:
             label.setText("Songbook Maker\n<Warning: logo file is missing>")
 
-        if editorMode:
-            categoryButton = QPushButton('New Category', self)
-            categoryButton.clicked.connect(self.addCategoryField)
+        categoryButton = QPushButton('New Category', self)
+        categoryButton.clicked.connect(self.addCategoryField)
 
-            songButton = QPushButton('Song Editor', self)
-            songButton.clicked.connect(self.addSongField)
+        songButton = QPushButton('Song Editor', self)
+        songButton.clicked.connect(self.addSongField)
 
         tabsButton = QPushButton('Show Songs', self)
         tabsButton.clicked.connect(self.tabsSongsField)
-
-        #listButton = QPushButton('Songs List', self)
-        #listButton.clicked.connect(self.listSongsField)
 
         compileButton = QPushButton('Create PDF', self)
         compileButton.clicked.connect(self.generateAndCompileTex)
 
         layout = QVBoxLayout()
         layout.addWidget(label)
-        if editorMode:
-            layout.addWidget(categoryButton)
-            layout.addWidget(songButton)
+        layout.addWidget(categoryButton)
+        layout.addWidget(songButton)
         layout.addWidget(tabsButton)
-        #layout.addWidget(listButton)
         layout.addWidget(compileButton)
+
         self.setLayout(layout)
         self.show()
 
@@ -68,12 +63,8 @@ class MainMenu(QWidget):
             msgBox.setText(
                 "Please check if pdflatex is installed or if .tex file was successfully generated.")
             msgBox.exec()
-            return
         else:
             open_with_default_app(os.path.join(os.getcwd(), songbookPdfFile))
-
-    def listSongsField(self):
-        self.songList = ScrollAndSearchSongList()
 
     def tabsSongsField(self):
         self.songTabs = QSongTabs()

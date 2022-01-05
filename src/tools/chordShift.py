@@ -1,6 +1,7 @@
 import re
 
-def shiftChords(chords, diff):
+def shiftChords(chords : str, diff : int) -> str:
+    """Returns chords shifted by diff semitones up"""
     if not diff:
         return chords
     majChords = ['C', 'Cis', 'D', 'Dis', 'E', 'F', 'Fis', 'G', 'Gis', 'A', 'B', 'H']
