@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import (QWidget, QHBoxLayout, QVBoxLayout,
+from PySide6.QtWidgets import (QLayout, QSizePolicy, QWidget, QHBoxLayout, QVBoxLayout,
                                 QPushButton,QScrollArea, QLabel)
 from PySide6.QtGui import QFont
 from PySide6.QtCore import Qt
@@ -26,6 +26,25 @@ class QSong(QWidget):
         self.resizeOffset = 0
         self.qSections = []
         layout = QVBoxLayout()
+
+        headerLayout = QHBoxLayout()
+        headerLayout.setSizeConstraint(QLayout.SetMinimumSize)
+        ffBig = QFont("Times")
+        ffBig.setPointSize(30)
+        self.title = QLabel()
+        self.title.setSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
+        self.title.setFont(ffBig)
+        self.title.setAlignment(Qt.AlignLeft | Qt.AlignTop)
+        ffSmall = QFont("Times")
+        ffSmall.setPointSize(15)
+        self.authorAndCapo = QLabel()
+        self.authorAndCapo.setFont(ffSmall)
+        self.authorAndCapo.setAlignment(Qt.AlignRight | Qt.AlignBottom)
+
+        headerLayout.addWidget(self.title)
+        headerLayout.addWidget(self.authorAndCapo)
+
+        layout.addLayout(headerLayout)
 
         shiftButtonBox = QHBoxLayout()
         
@@ -87,9 +106,10 @@ class QSong(QWidget):
         self.sections = []
     def loadSong(self, category, songTitle):
         self.clearSections()
-        song = Song.loadFromCatAndTitle(category, songTitle)
         if songTitle:
             song = Song.loadFromCatAndTitle(category, songTitle)
+            self.title.setText(song.title)
+            self.authorAndCapo.setText(song.author + "\n" + song.capo)
             for section in song.sections:
                 sect = self.newSection(chorus=section.chorus)
                 sect.lyrics.setText(section.lyrics)

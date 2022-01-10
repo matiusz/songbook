@@ -4,7 +4,6 @@ from PySide6.QtGui import QIcon, QPixmap
 
 from src.gui.SongEditor import ScrollableSongEditor
 from src.gui.CategoryEditor import NewCategory
-from src.gui.SongList import ScrollAndSearchSongList
 from src.gui.SongTabs import QSongTabs
 
 from src.tools.openDefault import open_with_default_app

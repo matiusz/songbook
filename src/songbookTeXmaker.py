@@ -247,8 +247,10 @@ async def _asyncMain():
 
         titleSongs = [("Turystyczne", "Hawiarska Koliba")]
         for titleSong in titleSongs:
-            songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)
-
+            try:
+                songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)
+            except KeyError:
+                logger.warning(f"Title song {titleSong[0]} not found")
         await songbookFile.write(enUTF8("\n\t\\chapter*{Spis treści}\n\\begin{multicols}{2}\n\\tableofcontents\n\\end{multicols}\n"))
 
         for cat in cats.keys():
