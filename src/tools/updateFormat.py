@@ -28,4 +28,5 @@ async def reformatSong(dirpath, filename):
         except UnicodeDecodeError:
             print(filename)
 
-asyncio.run(reformatAll())
+if __name__ == "__main__":
+    asyncio.run(reformatAll())
