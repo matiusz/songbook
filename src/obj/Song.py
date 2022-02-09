@@ -1,5 +1,4 @@
 from __future__ import annotations
-import json
 import os
 import itertools
 import re
@@ -113,13 +112,3 @@ class SongSection:
         newSection.chords = sectionDict['chords']
         newSection.chorus = sectionDict['chorus']
         return newSection
-
-
-if __name__ == "__main__":
-    song = Song.loadFromFile(os.path.join(
-        os.getcwd(), config.dataFolder, "SDM", "Majka" + ".sng"))
-    print(song.title)
-    print(song.author)
-    print(song.category)
-    for section in song.sections:
-        print(section.lyrics)

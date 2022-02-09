@@ -4,6 +4,7 @@ from src.obj.Config import config
 
 
 def main():
+    '''Creates TeX table of contents from section items sorted alphabetically'''
     filename = f'{config.outputFile}.toc'
 
     with open(filename, 'rb') as f:

@@ -61,8 +61,8 @@ class Configuration:
 
     def update(self):
         try:
-            with open(self._configFilename, "rb") as configFile:
-                config = json.loads(deUTF8(configFile.read()))
+            with open(self._configFilename, "r") as configFile:
+                config = json.load(configFile)
         except (FileNotFoundError, KeyError) as ex:
             print("WARN: Failed to parse new config file, config not updated.")
             return
@@ -108,5 +108,3 @@ class Configuration:
 
 
 config = Configuration("config.json")
-
-

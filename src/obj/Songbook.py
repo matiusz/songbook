@@ -1,4 +1,4 @@
-from src.obj.Song import Song
+from .Song import Song
 import os
 
 
