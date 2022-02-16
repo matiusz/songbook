@@ -1,0 +1,101 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 30%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+  }
+  
+  
+
+  .search {
+    font-size: 25px;
+    height: 30px;
+    width: 50vw;
+    padding: 2px 2px 2px 5px;
+    margin-top: 20px;
+    margin-left: 10vw;
+  }
+  
+  input {
+    width: 20vw;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+
+
+  .toc {
+    background-color: #00152c;
+  }
+
+  /* The navigation menu links */
+  .toc a {
+    padding: 16px 0px 00px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #aaaaaa;
+    display: block;
+  }
+
+  .toc a:hover {
+    color: #f1f1f1;
+  }
+
+  .toc h1 {
+    padding: 16px 0px 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #cccccc;
+    display: block;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;         /* Reset default margin on the body element */
+  }
+  
+  iframe {
+      display: block;       /* iframes are inline by default */
+      border: none;         /* Reset default border */
+      width: 100%;
+      height: 100%;
+  }
+
+  /* Style page content */
+  .main {
+    margin-left: 30%; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    height: 100%;
+    background-color: #cef7ff;
+  }
+  
+  .song table {
+    border-collapse:separate;
+    border-spacing:0 15px;
+  }
+
+  .song * {
+    font-size: 25px;
+  }
+  
+  .song {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .song h1 {
+    font-size: 50px;
+  }
+
+  .song h2 {
+    font-size: 30px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 5px;}
+    .sidenav a {font-size: 18px;}
+  }
