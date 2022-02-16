@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
+    '''Compiles the tex file into a pdf using pdflatex'''
     songbookTitle = config.outputFile
     inFile = f"{songbookTitle}.tex"
     outFile = f"{songbookTitle}.pdf"
