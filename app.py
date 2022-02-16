@@ -8,6 +8,8 @@ from src.obj.Songbook import Songbook
 from src.obj.Song import Song
 import os
 
+
+port = int(os.getenv('PORT'))
 app = Flask(__name__)
 
 SECRET_KEY = os.urandom(32)
@@ -59,3 +61,6 @@ def get_song(category, title):
 @app.route('/favicon.ico')
 def fav():
     return send_from_directory(app.root_path,'guitar.ico')
+
+if __name__=="__main__":
+    app.run(host='0.0.0.0', debug=False, port=port)
