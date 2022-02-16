@@ -3,6 +3,9 @@ import json
 from src.obj.Config import config
 from src.obj.Songbook import Song
 import os, asyncio, aiofiles
+from src.tools.dirTools import ensureDir
+from pathlib import Path
+
 
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
@@ -28,4 +31,23 @@ async def reformatSong(dirpath, filename):
         except UnicodeDecodeError:
             print(filename)
 
-asyncio.run(reformatAll())
+async def resaveAll():
+    ensureDir("dataNEW")
+    tasks = [resaveCategory(os.path.join(config.dataFolder, dirname))
+             for dirname in os.listdir(config.dataFolder) if isSongCategoryDir(dirname)]
+    categories = await asyncio.gather(*tasks)
+    return categories
+
+async def resaveCategory(dirpath):
+    ensureDir(os.path.join("dataNEW", Path(dirpath).stem)) 
+    tasks = [resaveSong(dirpath, filename) for filename in os.listdir(dirpath) if filename.endswith(".sng")]
+    songs = await asyncio.gather(*tasks)
+    return songs
+
+async def resaveSong(dirpath, filename):
+    config.dataFolder = "data"
+    song = Song.loadFromFile(os.path.join(dirpath, filename))
+    config.dataFolder = "dataNEW"
+    song.save()
+
+asyncio.run(resaveAll())
