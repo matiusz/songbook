@@ -47,18 +47,18 @@ class QSong(QWidget):
 
         self.changeCatBar = QComboBox()
         self.changeCatBar.addItem("Change Category")
-        self.changeCatBar.addItems(dirTools.getCategoriesFromDirs())
+        self.changeCatBar.addItems(dirTools.getCategoryNames())
         layout.addWidget(self.changeCatBar)
 
         self.catBar = QComboBox()
-        self.catBar.addItems(dirTools.getCategoriesFromDirs())
+        self.catBar.addItems(dirTools.getCategoryNames())
         self.catBar.currentTextChanged.connect(self.reloadSongs)
         layout.addWidget(self.catBar)
 
         self.readySongsBar = QComboBox()
         self.readySongsBar.addItem("")
         self.readySongsBar.addItems(
-            dirTools.getSongsFromCatDir(self.catBar.currentText()))
+            dirTools.getSongFilenamesFromCatDir(self.catBar.currentText()))
         self.readySongsBar.currentTextChanged.connect(self.loadSong)
         layout.addWidget(self.readySongsBar)
 
@@ -153,7 +153,7 @@ class QSong(QWidget):
     def reloadSongs(self):
         self.changeCatBar.setCurrentText("Change Category")
         self.readySongsBar.clear()
-        catSongs = dirTools.getSongsFromCatDir(self.catBar.currentText())
+        catSongs = dirTools.getSongFilenamesFromCatDir(self.catBar.currentText())
         self.readySongsBar.addItem("")
         self.readySongsBar.addItems(catSongs)
 
