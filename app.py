@@ -63,4 +63,4 @@ def fav():
     return send_from_directory(app.root_path,'guitar.ico')
 
 if __name__=="__main__":
-    app.run(debug=False, port=port)
+    app.run(host='0.0.0.0', debug=False, port=port)
