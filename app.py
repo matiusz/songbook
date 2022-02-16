@@ -55,3 +55,7 @@ def toc():
 @app.route("/<category>/<title>")
 def get_song(category, title):
     return render_template("song.html", song = Song.loadFromCatAndTitle(category, title))
+
+@app.route('/favicon.ico')
+def fav():
+    return send_from_directory(app.root_path,'guitar.ico')
