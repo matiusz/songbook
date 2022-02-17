@@ -38,6 +38,6 @@ RUN miktexsetup finish \
 
 ENV PATH="${PATH}:/root/bin"
 
-RUN pip install aiofiles pyside6
+RUN pip install -r requirements.txt
 
 WORKDIR /app

@@ -20,6 +20,8 @@ tex.py
 texput.log
 39venv/
 output/
+dataMSZ/
+dataAll/
 dataHK/
 dataAll/
 dataMSZ/

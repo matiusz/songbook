@@ -1,3 +1,4 @@
+from functools import lru_cache
 import os
 from PySide6.QtWidgets import (QCheckBox, QHBoxLayout, QWidget, QLineEdit, QVBoxLayout, 
                                 QScrollArea, QLabel)
@@ -72,7 +73,7 @@ class ScrollableSongList(QScrollArea):
 class SongList(QLabel):
     def __init__(self):
         super().__init__()
-        self.catSongs = Songbook(config.dataFolder).sb
+        self.catSongs = Songbook().sb
         
         self.reloadText()
         self.setTextFormat(Qt.RichText)

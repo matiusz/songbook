@@ -1,26 +1,17 @@
 from .Song import Song
 import os
+from src.tools.loggerSetup import logging
 
+from src.tools.dirTools import getCategoryNames, getSongFilenamesFromCatDir
+
+logger = logging.getLogger(__name__)
 
 class Songbook:
-    def __init__(self, dataFolder):
+    def __init__(self):
         self.sb = {}
-        for cat in Songbook.getCategoriesFromDirs(dataFolder):
-            self.sb[cat] = [Song.loadFromCatAndTitle(
-                cat, songFilename) for songFilename in Songbook.getSongsFromCatDir(dataFolder, cat)]
-
-    @staticmethod
-    def getCategoriesFromDirs(dataFolder) -> list:
-        categories = []
-        for dirname in os.listdir(dataFolder):
-            if os.path.isdir(os.path.join(dataFolder, dirname)) and not dirname.startswith("."):
-                categories.append(dirname)
-        return categories
-
-    @staticmethod
-    def getSongsFromCatDir(dataFolder, category) -> list:
-        songs = []
-        for songname in os.listdir(os.path.join(dataFolder, category)):
-            if songname.endswith(".sng"):
-                songs.append(songname[:-4])
-        return songs
+        for cat in getCategoryNames():
+            self.sb[cat] = [Song.loadFromCatAndTitle(cat, songFilename[:-4]) for songFilename in getSongFilenamesFromCatDir(cat)]
+            for song in self.sb[cat]:
+                if song.category != cat:
+                    logger.warning(f"Category mismatch for song {song.title} - category: {song.category}, folder: {cat}")
+    

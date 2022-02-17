@@ -53,8 +53,8 @@ class Song:
         with open(os.path.join(config.dataFolder, self.category, self.title + ".sng"), "w", encoding='utf-8') as f:
             return f.write(self.serialize())
 
-    @staticmethod
-    def parse(str) -> Song:
+    @classmethod
+    def parse(cls, str) -> Song:
         commands = "title|author|category|capo|chorus|verse"
         dict = {'sections': []}
         # finds all occurences of #command, followed by blank, until another #command or the end
@@ -71,11 +71,11 @@ class Song:
                 })
             else:
                 dict[cmd] = val.strip()
-        return Song.loadFromDict(dict)
+        return cls.loadFromDict(dict)
 
-    @staticmethod
-    def loadFromDict(songDict: dict) -> Song:
-        newSong = Song(songDict['title'], songDict['category'])
+    @classmethod
+    def loadFromDict(cls, songDict: dict) -> Song:
+        newSong = cls(songDict['title'], songDict['category'])
         try:
             newSong.author = songDict['author']
         except KeyError:
@@ -88,14 +88,14 @@ class Song:
             newSong.addSection(SongSection.loadFromDict(section))
         return newSong
 
-    @staticmethod
-    def loadFromFile(filePath: str) -> Song:
+    @classmethod
+    def loadFromFile(cls, filePath: str) -> Song:
         with open(filePath, "r", encoding='utf-8') as f:
-            return Song.parse(f.read())
+            return cls.parse(f.read())
 
-    @staticmethod
-    def loadFromCatAndTitle(category, title) -> Song:
-        return Song.loadFromFile(os.path.join(
+    @classmethod
+    def loadFromCatAndTitle(cls, category, title) -> Song:
+        return cls.loadFromFile(os.path.join(
             config.dataFolder, category, title + ".sng"))
 
 
@@ -105,9 +105,9 @@ class SongSection:
         self.chords = None
         self.chorus = chorus
 
-    @staticmethod
-    def loadFromDict(sectionDict: dict) -> SongSection:
-        newSection = SongSection()
+    @classmethod
+    def loadFromDict(cls, sectionDict: dict) -> SongSection:
+        newSection = cls()
         newSection.lyrics = sectionDict['lyrics']
         newSection.chords = sectionDict['chords']
         newSection.chorus = sectionDict['chorus']

@@ -2,6 +2,8 @@ import os
 
 from src.obj.Config import config
 
+def isSongCategoryDir(dirname):
+    return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))
 
 def ensureFileDir(file_path: str):
     directory = os.path.dirname(file_path)
@@ -19,6 +21,7 @@ def getCategoriesFromDirs() -> list[str]:
         if os.path.isdir(os.path.join(config.dataFolder, dirname)) and not dirname.startswith("."):
             categories.append(dirname)
     return categories
+
 
 
 def getSongsFromCatDir(category: str) -> list[str]:
