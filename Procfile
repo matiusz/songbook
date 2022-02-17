@@ -1,1 +1,1 @@
-web: python songbook_web.py
+web: python wsgi.py
