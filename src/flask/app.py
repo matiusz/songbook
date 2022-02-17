@@ -19,7 +19,7 @@ app.config['SECRET_KEY'] = SECRET_KEY
 
 class SongList:
     def __init__(self):
-        self.catSongs = Songbook(config.dataFolder).sb
+        self.catSongs = Songbook().sb
         self.text = self.getText()
 
     def reloadText(self, filt : str = None, detailed : bool = False):
