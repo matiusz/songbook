@@ -49,7 +49,7 @@
   .toc {
     background-color: #0a1831;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 90%;
     padding-left: 20px;
   }
 
@@ -109,7 +109,9 @@
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 600px) {
-    .toc {padding-top: 5px;}
+    .toc {
+      padding-top: 5px;
+    }
     .toc a {
       padding-top: 2px;
       padding-bottom: 2px;
