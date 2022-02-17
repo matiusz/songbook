@@ -65,8 +65,3 @@ def get_song(category, title):
 def fav():
     return send_from_directory(app.root_path,'guitar.ico')
 
-def main():
-    app.run(host='0.0.0.0', debug=True, port=port)
-
-if __name__=="__main__":
-    main()

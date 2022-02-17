@@ -49,13 +49,12 @@
   .toc {
     background-color: #0a1831;
     min-height: 100vh;
-    padding-top: 50px;
+    min-width: 100vh;
     padding-left: 20px;
   }
 
   /* The navigation menu links */
   .toc a {
-    padding: 16px 0px 00px 40px;
     text-decoration: none;
     font-size: 20px;
     color: #aaaaaa;
@@ -67,7 +66,6 @@
   }
 
   .toc h1 {
-    padding: 16px 0px 10px 20px;
     text-decoration: none;
     font-size: 20px;
     color: #cccccc;
@@ -89,35 +87,81 @@
   /* Style page content */
   .main {
     margin-left: 30%; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+    padding: 0px 0px;
     height: 100%;
     background-color: #e6f3ff;
   }
   
   .song table {
     border-collapse:separate;
-    border-spacing:0 15px;
+    border-spacing:0 5px;
   }
 
-  .song * {
+  body {
     font-size: 25px;
   }
   
   .song {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
-  .song h1 {
-    font-size: 50px;
-  }
-
-  .song h2 {
-    font-size: 30px;
-  }
-
+  
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 600px) {
+    .toc {padding-top: 5px;}
+    .toc a {
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    .toc h1 {
+      padding-top: 2px;
+      padding-bottom: 7px;
+    }
+  }
+
+  @media screen and (min-height: 601px) {
+    .toc {padding-top: 15px;}
+    .toc a {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .toc h1 {
+      padding-top: 8px;
+      padding-bottom: 18px;
+    }
+  }
+
+  @media screen and (max-width: 200px) {
     .sidenav {padding-top: 5px;}
-    .sidenav a {font-size: 18px;}
+    body {font-size: 15px;}
+    .song h1, h2 {font-size: 15px}
+    .toc a, h1{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+
+  @media screen and (min-width: 201px) {
+    .song h1 {font-size: 50px;}
+    .song h2 {font-size: 30px;}
+    .toc a{
+      padding-left: 40px;
+      padding-right: 5px;
+    }
+    .toc h1 {
+      padding-left: 20px;
+      padding-right: 5px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .sidenav {padding-top: 5px;}
+    body {font-size: 15px;}
+    .song h1, h2 {font-size: 15px}
+  }
+
+  @media screen and (min-width: 501px) {
+    .song h1 {font-size: 50px;}
+    .song h2 {font-size: 30px;}
   }

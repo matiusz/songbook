@@ -3,4 +3,4 @@ from flask_wtf import FlaskForm
 from wtforms.validators import DataRequired
 
 class FilterForm(FlaskForm):
-    filter = StringField('Search: ', validators=[DataRequired()])
+    filter = StringField('Search: ')
