@@ -1,6 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 
-from forms.forms import FilterForm
+from src.flask.forms.forms import FilterForm
 from flask import request
 
 from src.obj.Config import config
@@ -8,8 +8,10 @@ from src.obj.Songbook import Songbook
 from src.obj.Song import Song
 import os
 
-
-port = int(os.getenv('PORT'))
+try:
+    port = int(os.getenv('PORT'))
+except TypeError:
+    port = 5000
 app = Flask(__name__)
 
 SECRET_KEY = os.urandom(32)
@@ -50,6 +52,7 @@ def start():
 @app.route("/toc")
 def toc():
     filter = FilterForm()
+    filter.validate_on_submit()
     filterString = request.args.get("filter")
     songList.reloadText(filterString, True)
     return render_template("songList.html", songListText = songList.text, filter = filter)
@@ -62,5 +65,8 @@ def get_song(category, title):
 def fav():
     return send_from_directory(app.root_path,'guitar.ico')
 
+def main():
+    app.run(host='0.0.0.0', debug=True, port=port)
+
 if __name__=="__main__":
-    app.run(host='0.0.0.0', debug=False, port=port)
+    main()

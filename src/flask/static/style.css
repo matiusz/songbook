@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -8,27 +10,47 @@
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
   }
-  
-  
-
   .search {
-    font-size: 25px;
-    height: 30px;
-    width: 50vw;
-    padding: 2px 2px 2px 5px;
-    margin-top: 20px;
-    margin-left: 10vw;
+    width: 100%;
   }
   
-  input {
-    width: 20vw;
+  .searchTerm {
+    width: 80%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    position: relative;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
   }
 
   /* When you mouse over the navigation links, change their color */
 
 
   .toc {
-    background-color: #00152c;
+    background-color: #0a1831;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-left: 20px;
   }
 
   /* The navigation menu links */
@@ -69,7 +91,7 @@
     margin-left: 30%; /* Same as the width of the sidebar */
     padding: 0px 10px;
     height: 100%;
-    background-color: #cef7ff;
+    background-color: #e6f3ff;
   }
   
   .song table {
