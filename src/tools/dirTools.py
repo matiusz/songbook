@@ -24,7 +24,7 @@ def getCategoriesFromDirs() -> list[str]:
 
 
 
-def getSongsFromCatDir(category: str) -> list[str]:
+def getSongFilenamesFromCatDir(category: str) -> list[str]:
     '''Returns all .sng files from a specified category within data folder defined in config'''
     songs = []
     for songname in os.listdir(os.path.join(config.dataFolder, category)):
