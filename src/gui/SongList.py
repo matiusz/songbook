@@ -82,7 +82,8 @@ class SongList(QLabel):
         self.linkActivated.connect(self.openSongDisplay)
 
     def openSongDisplay(self, link):
-        cat, _, song = link.partition('#')
+        _, _, song = link.partition('/')
+        cat, _, song = song.partition('/')
         QScrollableSongDisplay(cat, song)
 
     def reloadText(self, filt : str = None, detailed : bool = False):

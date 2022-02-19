@@ -20,7 +20,7 @@ class Song:
 
     @property
     def linkedTitle(self) -> str:
-        return f"{'&nbsp;'*8}<a href=\"{self.category}#{self.title}\">{self.title}</a>"
+        return f"{'&nbsp;'*8}<a href=\"/{self.category}/{self.title}\">{self.title}</a>"
 
     @property
     def filterString(self) -> str:

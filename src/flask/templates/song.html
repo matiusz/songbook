@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href={{url_for('static', filename='style.css')}}>
+</head>
+    <body class = "song">
+        {% autoescape false %}
+        <div class="song">
+            <table width="100%">
+                <tr>
+                    <td><h2 class="song">{{song.title}}</h2></td>
+                    <td>
+                        <h2 class="song" align="right">{{song.author}}</h2>
+                    </td>
+                </tr>
+            <tr>
+                <td></td>
+                <td><h2 class="song" align="right">{{song.capo}}</h2></td>
+            </tr>
+            </table>
+            <table>{% for section in song.sections %}
+                <tr style="vertical-align:top">
+                    {% if section.chorus %}
+                        <td class="chorus">&emsp;&emsp;</td>
+                        <td ><p class="lyrics">{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p></td>
+                    {% else %}
+                        <td colspan="2"><p class="lyrics">{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p></td>
+                    {% endif %}
+                    <td><p class="chords">{{section.chords.replace("\n", "&emsp;&emsp;<br>")}}</p></td>
+                </tr>{% endfor %}
+            </table>
+        </div>
+        {% endautoescape %}
+    </body>
+</html>
