@@ -139,14 +139,15 @@
     body {font-size: 15px;}
     .song h1, h2 {font-size: 15px}
     .toc a, h1{
-      padding-left: 5px;
-      padding-right: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
   }
 
-  @media screen and (min-width: 201px) {
-    .song h1 {font-size: 50px;}
-    .song h2 {font-size: 30px;}
+  @media screen and (min-width: 201px) and (max-width: 700px) {
+    .sidenav {padding-top: 5px;}
+    body {font-size: 15px;}
+    .song h1, h2 {font-size: 20px}
     .toc a{
       padding-left: 40px;
       padding-right: 5px;
@@ -157,13 +158,8 @@
     }
   }
 
-  @media screen and (max-width: 500px) {
-    .sidenav {padding-top: 5px;}
-    body {font-size: 15px;}
-    .song h1, h2 {font-size: 15px}
-  }
 
-  @media screen and (min-width: 501px) {
+  @media screen and (min-width: 701px) {
     .song h1 {font-size: 50px;}
     .song h2 {font-size: 30px;}
   }
