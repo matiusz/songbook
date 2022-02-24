@@ -95,6 +95,7 @@
   .song table {
     border-collapse:separate;
     border-spacing:0 5px;
+    margin-bottom: 20px;
   }
 
   body {

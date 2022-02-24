@@ -4,6 +4,7 @@ from src.flask.forms.forms import FilterForm
 from flask import request
 
 from src.obj.Config import config
+from src.tools.chordShift import shiftChords
 from src.obj.Songbook import Songbook
 from src.obj.Song import Song
 import os
@@ -59,7 +60,11 @@ def toc():
 
 @app.route("/<category>/<title>")
 def get_song(category, title):
-    return render_template("song.html", song = Song.loadFromCatAndTitle(category, title))
+    try:
+        chordShift = int(request.args.get("chordShift", 0, int))
+    except ValueError:
+        chordShift = 0
+    return render_template("song.html", song = Song.loadFromCatAndTitle(category, title), chordShift = chordShift, shiftChords = shiftChords)
 
 @app.route('/favicon.ico')
 def fav():

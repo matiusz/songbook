@@ -5,6 +5,7 @@
     <link rel="stylesheet" href={{url_for('static', filename='style.css')}}>
 </head>
     <body class = "song">
+        <script src="https://use.fontawesome.com/4be8498a81.js"></script>
         {% autoescape false %}
         <div class="song">
             <table width="100%">
@@ -18,6 +19,24 @@
                 <td></td>
                 <td><h2 class="song" align="right">{{song.capo}}</h2></td>
             </tr>
+            <tr>
+                <td>
+                    <form method="GET" action="" target="main" align="center">
+                        <input type="hidden" name="chordShift" value="{{(chordShift-1) % 12}}">
+                        <button type="submit" class="searchButton" value="Search">
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <form method="GET" action="" target="main" align="center">
+                        <input type="hidden" name="chordShift" value="{{(chordShift+1) % 12}}">
+                        <button type="submit" class="searchButton" value="Search">
+                            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
             </table>
             <table>{% for section in song.sections %}
                 <tr style="vertical-align:top">
@@ -27,7 +46,7 @@
                     {% else %}
                         <td colspan="2"><p class="lyrics">{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p></td>
                     {% endif %}
-                    <td><p class="chords">{{section.chords.replace("\n", "&emsp;&emsp;<br>")}}</p></td>
+                    <td><p class="chords">{{shiftChords(section.chords, chordShift).replace("\n", "&emsp;&emsp;<br>")}}</p></td>
                 </tr>{% endfor %}
             </table>
         </div>
