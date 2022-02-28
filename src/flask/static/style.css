@@ -1,19 +1,72 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+iframe {
+  display: block;       /* iframes are inline by default */
+  border: none;         /* Reset default border */
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
 /* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 30%; /* Set the width of the sidebar */
+    background-color: #0a1831;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    height: 100%;
+    display: block;
+    width: 0; /* Set the width of the sidebar */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
+
   }
-  .search {
-    width: 100%;
-  }
-  
+
+
+.toc {
+  display: block;
+  padding-left: 20px;
+  overflow-y: hidden;
+}
+
+/* The navigation menu links */
+.toc a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #aaaaaa;
+  display: block;
+}
+
+.toc a:hover {
+  color: #f1f1f1;
+}
+
+.toc h1 {
+  text-decoration: none;
+  font-size: 20px;
+  color: #cccccc;
+  display: block;
+}
+
+
+/* The button used to open the sidebar */
+.navbtn {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: fixed;
+  margin-top: 40vh;
+  font-size: 20px;
+  color: #aaaaaa;
+  cursor: pointer;
+  background-color: #0a1831;
+  color: white;
+  padding: 10px 15px;
+  border: 3px solid #00B4CC;
+  border-left: none;
+  border-radius: 0px 20px 20px 0px;
+}
+
   .searchTerm {
     width: 80%;
     border: 3px solid #00B4CC;
@@ -43,50 +96,32 @@
     font-size: 20px;
   }
 
+  .chordsButton {
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
   /* When you mouse over the navigation links, change their color */
 
 
-  .toc {
-    background-color: #0a1831;
-    min-height: 100vh;
-    min-width: 90%;
-    padding-left: 20px;
-  }
-
-  /* The navigation menu links */
-  .toc a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #aaaaaa;
-    display: block;
-  }
-
-  .toc a:hover {
-    color: #f1f1f1;
-  }
-
-  .toc h1 {
-    text-decoration: none;
-    font-size: 20px;
-    color: #cccccc;
-    display: block;
-  }
 
   html, body {
     height: 100%;
     margin: 0;         /* Reset default margin on the body element */
   }
   
-  iframe {
-      display: block;       /* iframes are inline by default */
-      border: none;         /* Reset default border */
-      width: 100%;
-      height: 100%;
-  }
-
   /* Style page content */
   .main {
-    margin-left: 30%; /* Same as the width of the sidebar */
+    transition: margin-left .5s;
+    margin-left: 0; /* Same as the width of the sidebar */
     padding: 0px 0px;
     height: 100%;
     background-color: #e6f3ff;
@@ -103,7 +138,7 @@
   }
   
   .song {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 5px;
   }
 
@@ -137,7 +172,6 @@
 
   @media screen and (max-width: 200px) {
     .sidenav {padding-top: 5px;}
-    body {font-size: 15px;}
     .song h1, h2 {font-size: 15px}
     .toc a, h1{
       padding-left: 0px;
@@ -163,4 +197,21 @@
   @media screen and (min-width: 701px) {
     .song h1 {font-size: 50px;}
     .song h2 {font-size: 30px;}
+  }
+
+  
+  @media screen and (max-width: 400px) {
+    body {font-size: 12px;}
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 700px) {
+    body {font-size: 15px;}
+  }
+
+  @media screen and (min-width: 701px) and (min-height: 401px) {
+    body {font-size: 25px;}
+  }
+
+  @media screen and (min-width: 701px) and (max-height: 400px) {
+    body {font-size: 18px;}
   }

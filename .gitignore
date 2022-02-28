@@ -33,3 +33,4 @@ data/latexheader.txt
 debug.log
 songbook-pdf.log
 songbook-py.log
+so.py

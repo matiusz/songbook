@@ -58,6 +58,10 @@ def toc():
     songList.reloadText(filterString, True)
     return render_template("songList.html", songListText = songList.text, filter = filter)
 
+@app.route("/js/navBar.js")
+def navBarJS():
+    return send_from_directory(os.path.join(app.root_path,"js"),'navBar.js')
+
 @app.route("/<category>/<title>")
 def get_song(category, title):
     try:

@@ -3,13 +3,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href={{url_for('static', filename='style.css')}}>
+    <script src="js/navBar.js"></script>
 </head>
-    <body>
+    <body background-color="#e6f3ff">
         {% autoescape false %}
-        <div class="sidenav">
-            <iframe src="/toc" name="toc" title="TOC" frameborder="0"  seamless="seamless" style="border: 0"></iframe>
+        <div class="sidenav" id ="sidenav">
+            <iframe src="/toc" name="toc" title="TOC" frameborder="0"  seamless="seamless" style="border: 0"
+            onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';">></iframe>
         </div>
-        <div class="main">
+        <div class="main" id="main">
+            <button id="closebtn" class="navbtn" onclick="closeNav()" display="none">&times;</button>
+            <button id="openbtn" class="navbtn" onclick="openNav()">&#9776;</button>
             <iframe name="main" title="Song" frameborder="0"  seamless="seamless" style="border: 0"></iframe>
         </div>
         {% endautoescape %}
