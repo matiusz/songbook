@@ -1,3 +1,4 @@
+from shutil import ExecError
 from PySide6.QtWidgets import (QWidget, QLineEdit,
                                QHBoxLayout, QVBoxLayout, QPlainTextEdit,
                                QPushButton, QScrollArea, QLayout,
@@ -114,8 +115,11 @@ class QSong(QWidget):
             jsonSong['capo'] = capo
         if (newCat := self.changeCatBar.currentText()) != "Change Category":
             jsonSong["category"] = newCat
-            os.remove(os.path.join(config.dataFolder,
-                      self.catBar.currentText(), self.titleBar.text() + ".sng"))
+            try:
+                os.remove(os.path.join(config.dataFolder,
+                        self.catBar.currentText(), self.titleBar.text() + ".sng"))
+            except FileNotFoundError:
+                pass
         else:
             jsonSong['category'] = self.catBar.currentText()
         jsonSong['sections'] = [section.toJSON()
