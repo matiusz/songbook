@@ -47,11 +47,11 @@ class QSong(QWidget):
 
         self.changeCatBar = QComboBox()
         self.changeCatBar.addItem("Change Category")
-        self.changeCatBar.addItems(dirTools.getCategoryNames())
+        self.changeCatBar.addItems(dirTools.getCategoriesFromDirs())
         layout.addWidget(self.changeCatBar)
 
         self.catBar = QComboBox()
-        self.catBar.addItems(dirTools.getCategoryNames())
+        self.catBar.addItems(dirTools.getCategoriesFromDirs())
         self.catBar.currentTextChanged.connect(self.reloadSongs)
         layout.addWidget(self.catBar)
 
