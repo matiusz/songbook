@@ -28,7 +28,7 @@ class SongList:
 
     def getText(self, filt : str = None, detailed : bool = False):
         textLines = []
-        for cat in self.catSongs.keys():
+        for cat in sorted(self.catSongs.keys()):
             songs = []
             for song in self.catSongs[cat]:
                 if filt:
@@ -41,7 +41,7 @@ class SongList:
                     songs.append(song.linkedTitle)
             if songs:
                 textLines.append(f"<h1>{cat}</h1>")
-                textLines.extend(songs)
+                textLines.extend(sorted(songs))
         return "<br>".join(textLines)
 
 songList = SongList()
