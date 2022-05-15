@@ -7,7 +7,7 @@ import os
 
 logger = logging.getLogger(__name__)
 
-songbookTexFile = songbookTeXmaker.main()
+#songbookTexFile = songbookTeXmaker.main()
 try:
     songbookPdfFile = TeXcompile.main()
 except ModuleNotFoundError:

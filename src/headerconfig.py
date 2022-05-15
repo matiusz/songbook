@@ -8,7 +8,7 @@ months = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec",
 
 
 def docClass(form, sides, size):
-    return f"\\documentclass[{form}, {sides}, {size}pt]{{report}}\n"
+    return f"\\documentclass[{form}, {sides}, {size}pt]{{extreport}}\n"
 
 
 def packages(packs):
@@ -68,6 +68,7 @@ def titleSettings():
         "Z dopiskiem:\\\\\n" + \
         "Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\\\\n" + \
         "Dziękujemy!"
+    onePercentHack = ""
     today = date.today()
     return f"\\title{{{config.title}}}\n\\date{{{months[today.month-1]} {today.year}}}\n\\author{{{onePercentHack}}}\n\n"
 

@@ -245,7 +245,7 @@ async def _asyncMain():
 
     async with aiofiles.open(texOutFile, "ab") as songbookFile:
 
-        titleSongs = [("Turystyczne", "Hawiarska Koliba")]
+        titleSongs = [("111 ADH", "Pieśń włóczęgi"), ("111 ADH", "Kołysanka dla druhny Miłki")]
         for titleSong in titleSongs:
             try:
                 songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)
