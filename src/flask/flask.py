@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, send_from_directory, redirect
 
 from src.flask.forms.forms import FilterForm
 from flask import request
@@ -7,7 +7,9 @@ from src.obj.Config import config
 from src.tools.chordShift import shiftChords
 from src.obj.Songbook import Songbook
 from src.obj.Song import Song
+
 import os
+import requests
 
 try:
     port = int(os.getenv('PORT'))
@@ -74,3 +76,9 @@ def get_song(category, title):
 def fav():
     return send_from_directory(app.root_path,'guitar.ico')
 
+@app.route("/landing")
+def landing():
+    r = requests.get('https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts')
+    for arti in r.json():
+        if arti['path'] == 'songbook.pdf':
+            return render_template("landing.html", pdfUrl = arti['url'])
