@@ -18,12 +18,16 @@
             "horizontal": 20,
             "vertical": 15
         },
-        "fontSize" : 12,
+        "fontSize" : 14,
         "lyricsFont" : "ptm",
         "chordsFont" : "zi4",
         "titlePage" : {
             "title" : "Śpiewnik 111 Artystycznej Drużyny Harcerskiej",
             "author" : ""
         }
+    },
+    "devSettings": {
+        "keepAuxOut": true,
+        "drawLines": true
     }
 }
