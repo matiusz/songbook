@@ -28,6 +28,6 @@
     },
     "devSettings": {
         "keepAuxOut": true,
-        "drawLines": true
+        "drawLines": false
     }
 }
