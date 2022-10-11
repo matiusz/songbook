@@ -78,7 +78,8 @@ def fav():
 
 @app.route("/landing")
 def landing():
-    r = requests.get('https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts')
-    for arti in r.json():
-        if arti['path'] == 'songbook.pdf':
-            return render_template("landing.html", pdfUrl = arti['url'])
+    #r = requests.get('https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts')
+    #for arti in r.json():
+    #    if arti['path'] == 'songbook.pdf':
+    #        return render_template("landing.html", pdfUrl = arti['url'])
+    return render_template("landing.html", pdfUrl = "")
