@@ -8,6 +8,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Update MiKTeX
+          command: miktex --admin fndb refresh
+      - run:
           name: Generate PDF
           command: python3 songbook_pdf.py
       - store_artifacts:
