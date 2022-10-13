@@ -26,7 +26,7 @@ sb = Songbook()
 
 @app.route("/")
 @app.route("/<category>/<song>")
-def start(category = None, song = None):
+def start(category = "Turystyczne", song = "Hawiarska Koliba"):
     filter = FilterForm()
     filter.validate_on_submit()
     filterString = request.args.get("filter")
