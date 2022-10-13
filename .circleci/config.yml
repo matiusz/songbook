@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Update MiKTeX
-          command: miktex --admin fndb refresh
+          command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
       - run:
           name: Generate PDF
           command: python3 songbook_pdf.py
