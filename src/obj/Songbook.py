@@ -1,6 +1,6 @@
 from .Song import Song
-import os
 from src.tools.loggerSetup import logging
+from collections import defaultdict
 
 from src.tools.dirTools import getCategoriesFromDirs, getSongFilenamesFromCatDir
 
@@ -14,4 +14,12 @@ class Songbook:
             for song in self.sb[cat]:
                 if song.category != cat:
                     logger.warning(f"Category mismatch for song {song.title} - category: {song.category}, folder: {cat}")
+
+    def filteredSongs(self, filter):
+        filtered = defaultdict(list)
+        for cat, songs in self.sb.items():
+            for song in songs:
+                if filter in song.filterString:
+                    filtered[cat].append(song)
+        return filtered
     

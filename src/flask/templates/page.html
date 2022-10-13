@@ -1,22 +1,109 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src *.circle-artifacts.com *.amazonaws.com blob:; style-src 'self' *.googleapis.com 'unsafe-inline'; font-src 'self' *.gstatic.com; frame-src 'self' *.circle-artifacts.com *.amazonaws.com">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-    <link rel="stylesheet" href={{url_for('static', filename='style.css')}}>
-    <script src="js/navBar.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href={{url_for('static', filename='style.css' )}}>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Hello, world!</title>
 </head>
-    <body background-color="#e6f3ff">
+
+<body>
+        <div class="p-2 nav-side-menu">
+            <div class="brand">Śpiewnik HK</div>
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+            <div class="menu-list">
+                <ul id="menu-content" class="menu-content collapse out">
+                    <li data-toggle="collapse" data-target="#search">
+                        <div class="input-group justify-content-center">
+                            <div class="form-outline">
+                                <form method="GET" class="form-inline my-2 my-lg-0 w-auto"
+                                    action="/{{'{}/{}'.format(song.category, song.title) if song and song.category and song.title else ''}}">
+                                    {{ filter.filter(class_ = "form-control w-auto", placeholder="Search for songs...",
+                                    style="width: auto;") }}
+                                    <button type="submit" value="Search" class="btn btn-primary">
+                                        <i class="fa fa-search" type="submit" aria-hidden="true"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    {% for category in songList.keys() %}
+                    <li data-toggle="collapse" data-target="#{{category}}" class="collapsed category">
+                        <a href="#">{{category}}<span class="arrow"></span></a>
+                    </li>
+                    <ul class="collapse song {{'show' if filterString else ''}}" id="{{category}}">
+                        {% for song in songList[category] %}
+                        <li><a href="/{{category}}/{{song.title}}">{{song.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <script src="https://use.fontawesome.com/4be8498a81.js"></script>
         {% autoescape false %}
-        <div class="sidenav" id ="sidenav">
-            <iframe src="/toc" name="toc" title="TOC" frameborder="0"  seamless="seamless" style="border: 0"
-            onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';">></iframe>
+    <div class="main">
+        <div class="d-flex flex-column">
+            <div class="h2 ">{{song.title}}</div>
+            <div class="h3 p-2 align-self-end">{{song.author}}</div>
+            <div class="h3 p-2 align-self-end">{{song.capo}}</div>
         </div>
-        <div class="main" id="main">
-            <button id="closebtn" class="navbtn" onclick="closeNav()" display="none">&times;</button>
-            <button id="openbtn" class="navbtn" onclick="openNav()">&#9776;</button>
-            <iframe src="/landing" sandbox="allow-top-navigation allow-scripts allow-forms allow-popups" name="main" title="Song" frameborder="0"  seamless="seamless" style="border: 0"></iframe>
-        </div>
-        {% endautoescape %}
-    </body>
+        <table width="100%">
+            <tr>
+                <td>
+                    <form method="GET" action="" align="center">
+                        <input type="hidden" name="chordShift" value="{{(chordShift-1) % 12}}">
+                        <button type="submit" value="Down" class="btn btn-primary">
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <form method="GET" action="" align="center">
+                        <input type="hidden" name="chordShift" value="{{(chordShift+1) % 12}}">
+                        <button type="submit" value="Up" class="btn btn-primary">
+                            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table>
+            {% for section in song.sections %}
+            <tr style="vertical-align:top">
+                {% if section.chorus %}
+                <td style="white-space: nowrap;">&emsp;&emsp;</td>
+                <td style="white-space: nowrap;">
+                    <p>{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p>
+                </td>
+                {% else %}
+                <td colspan="2" style="white-space: nowrap;">
+                    <p>{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p>
+                </td>
+                {% endif %}
+                <td style="white-space: nowrap;">
+                    <p>{{shiftChords(section.chords, chordShift).replace("\n", "&emsp;&emsp;<br>")}}</p>
+                </td>
+            </tr>{% endfor %}
+        </table>
+    </div>
+    </div>
+    {% endautoescape %}
+</body>
+
 </html>
