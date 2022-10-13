@@ -19,7 +19,7 @@ class Songbook:
         filtered = defaultdict(list)
         for cat, songs in self.sb.items():
             for song in songs:
-                if filter in song.filterString:
+                if not filter or filter.lower() in song.filterString.lower():
                     filtered[cat].append(song)
         return filtered
     
