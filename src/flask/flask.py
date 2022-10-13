@@ -17,9 +17,10 @@ app = Flask(__name__)
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 
-@app.route('/favicon.ico')
-def fav():
-    return send_from_directory(app.root_path,'guitar.ico')
+class SongList:
+    def __init__(self):
+        self.catSongs = Songbook().sb
+        self.text = self.getText()
 
 sb = Songbook()
 
