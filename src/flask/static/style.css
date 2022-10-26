@@ -312,7 +312,11 @@ body {
 }
 
 @media only screen and (min-width : 768px) {
-  .container, .main {
+  .main {
     padding-left: 450px;
   }
+}
+
+.container {
+  width: 100vw;
 }
