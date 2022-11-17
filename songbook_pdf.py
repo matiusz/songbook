@@ -1,13 +1,13 @@
 
 from src.tools.loggerSetup import logging
 
-from src import TeXcompile
+from src import TeXcompile, songbookTeXmaker
 import sys
 import os
 
 logger = logging.getLogger(__name__)
 
-#songbookTexFile = songbookTeXmaker.main()
+songbookTexFile = songbookTeXmaker.main()
 try:
     songbookPdfFile = TeXcompile.main()
 except ModuleNotFoundError:
