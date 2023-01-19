@@ -33,3 +33,4 @@ debug.log
 songbook-pdf.log
 songbook-py.log
 so.py
+.vscode/settings.json
