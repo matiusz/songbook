@@ -11,4 +11,5 @@ jobs:
         with:
           release-type: node
           package-name: release-please-action
+          skip-github-release: true
           changelog-types: '[{"type":"feat","section":"Nowości","hidden":false},{"type":"fix","section":"Poprawki","hidden":false},{"type":"code","hidden":true}]'
