@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 1.0.0 (2023-01-19)
+
+
+### Poprawki
+
+* PR test ([aed46d7](https://github.com/matiusz/songbook/commit/aed46d77004eee68bb1d6d4f674e2436f5cceb38))
+
+
+### Nowości
+
+* **Kasprzycki:** Prorok nieśmiałych ([4acc1b8](https://github.com/matiusz/songbook/commit/4acc1b8a18b3a9738f46618bc303f419ce699350))
+
 ## [v2.0](https://github.com/matiusz/songbook/releases/tag/v2.0) - 2021-12-07 10:39:31
 
 Single file executable for extended version of songbook app. Number of songs: 304
