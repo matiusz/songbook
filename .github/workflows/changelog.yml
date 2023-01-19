@@ -1,19 +1,14 @@
-name: Generate changelog
 on:
   push:
-    branches: [ hk-songbook ]
-
+    branches:
+      - hk-songbook
+name: release-please
 jobs:
-  generate-changelog:
+  release-please:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - uses: BobAnkh/auto-generate-changelog@v1.2.3
-      with:
-        REPO_NAME: 'matiusz/songbook'
-        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        PATH: 'CHANGELOG.md'
-        COMMIT_MESSAGE: 'code(CHANGELOG): update release notes'
-        TYPE: 'new:Nowe,fix:Poprawki'
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: release-please-action
+          changelog-types: '[{"type":"feat","section":"Nowości","hidden":false},{"type":"fix","section":"Poprawki","hidden":false},{"type":"code","hidden":true}]'
