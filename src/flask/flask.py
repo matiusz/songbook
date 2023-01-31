@@ -46,12 +46,13 @@ def start(category = None, song = None):
         song = None
     changelog = None
     if song == None and category == None:
-        with open('CHANGELOG.md', "r", encoding="utf-8") as f:
-            text = f.read()
-            pattern = r'.+?(?=## \[v1\.0\])'
-            text = re.match(pattern, text, flags=re.DOTALL)[0]
-            pattern2 = r' \(\[\w{7}\]\(https.+\)\)'
-            text = re.sub(pattern2, '', text)
-            text = re.sub('CHANGELOG', 'Historia zmian', text)
-        changelog = markdown2.markdown(text)
+        try:
+            with open('CHANGELOG.md', "r", encoding="utf-8") as f:
+                text = f.read()
+                pattern2 = r' \(\[\w{7}\]\(https.+\)\)'
+                text = re.sub(pattern2, '', text)
+                text = re.sub('CHANGELOG', 'Historia zmian', text)
+            changelog = markdown2.markdown(text)
+        except Exception as ex:
+            changelog = "<p></p>"
     return render_template("page.html", songList = songs, filter = filter, filterString = filterString, song = song, chordShift = chordShift, shiftChords = shiftChords, changelog = changelog)
