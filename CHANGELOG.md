@@ -12,10 +12,6 @@
 
 * **Kasprzycki:** Prorok nieśmiałych ([4acc1b8](https://github.com/matiusz/songbook/commit/4acc1b8a18b3a9738f46618bc303f419ce699350))
 
-## [v2.0](https://github.com/matiusz/songbook/releases/tag/v2.0) - 2021-12-07 10:39:31
-
-Single file executable for extended version of songbook app. Number of songs: 304
-
 ## [v1.0](https://github.com/matiusz/songbook/releases/tag/v1.0) - 2021-11-23 08:59:09
 
 First official release of the App, including PDF that went to print.

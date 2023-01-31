@@ -58,50 +58,54 @@
         <script src="https://use.fontawesome.com/4be8498a81.js"></script>
         {% autoescape false %}
     <div class="main">
-        <div class="d-flex flex-column">
-            <div class="h2 ">{{song.title}}</div>
-            <div class="h3 p-2 align-self-end">{{song.author}}</div>
-            <div class="h3 p-2 align-self-end">{{song.capo}}</div>
+        {% if song and category %}
+            <div class="d-flex flex-column">
+                <div class="h2 ">{{song.title}}</div>
+                <div class="h3 p-2 align-self-end">{{song.author}}</div>
+                <div class="h3 p-2 align-self-end">{{song.capo}}</div>
+            </div>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <form method="GET" action="" align="center">
+                            <input type="hidden" name="chordShift" value="{{(chordShift-1) % 12}}">
+                            <button type="submit" value="Down" class="btn btn-primary">
+                                <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="GET" action="" align="center">
+                            <input type="hidden" name="chordShift" value="{{(chordShift+1) % 12}}">
+                            <button type="submit" value="Up" class="btn btn-primary">
+                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                {% for section in song.sections %}
+                <tr style="vertical-align:top">
+                    {% if section.chorus %}
+                    <td style="white-space: nowrap;">&emsp;&emsp;</td>
+                    <td style="white-space: nowrap;">
+                        <p>{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p>
+                    </td>
+                    {% else %}
+                    <td colspan="2" style="white-space: nowrap;">
+                        <p>{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p>
+                    </td>
+                    {% endif %}
+                    <td style="white-space: nowrap;">
+                        <p>{{shiftChords(section.chords, chordShift).replace("\n", "&emsp;&emsp;<br>")}}</p>
+                    </td>
+                </tr>{% endfor %}
+            </table>
         </div>
-        <table width="100%">
-            <tr>
-                <td>
-                    <form method="GET" action="" align="center">
-                        <input type="hidden" name="chordShift" value="{{(chordShift-1) % 12}}">
-                        <button type="submit" value="Down" class="btn btn-primary">
-                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                        </button>
-                    </form>
-                </td>
-                <td>
-                    <form method="GET" action="" align="center">
-                        <input type="hidden" name="chordShift" value="{{(chordShift+1) % 12}}">
-                        <button type="submit" value="Up" class="btn btn-primary">
-                            <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                        </button>
-                    </form>
-                </td>
-            </tr>
-        </table>
-        <table>
-            {% for section in song.sections %}
-            <tr style="vertical-align:top">
-                {% if section.chorus %}
-                <td style="white-space: nowrap;">&emsp;&emsp;</td>
-                <td style="white-space: nowrap;">
-                    <p>{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p>
-                </td>
-                {% else %}
-                <td colspan="2" style="white-space: nowrap;">
-                    <p>{{section.lyrics.replace("\n", "&emsp;&emsp;<br>")}}</p>
-                </td>
-                {% endif %}
-                <td style="white-space: nowrap;">
-                    <p>{{shiftChords(section.chords, chordShift).replace("\n", "&emsp;&emsp;<br>")}}</p>
-                </td>
-            </tr>{% endfor %}
-        </table>
-    </div>
+    {% else %}
+        {{changelog}}
+    {% endif %}
     </div>
     {% endautoescape %}
 </body>

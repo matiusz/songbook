@@ -7,6 +7,8 @@ from src.tools.chordShift import shiftChords
 from src.obj.Songbook import Songbook
 from src.obj.Song import Song
 import os
+import markdown2
+import re
 
 try:
     port = int(os.getenv('PORT'))
@@ -26,7 +28,7 @@ sb = Songbook()
 
 @app.route("/")
 @app.route("/<category>/<song>")
-def start(category = "Turystyczne", song = "Hawiarska Koliba"):
+def start(category = None, song = None):
     filter = FilterForm()
     filter.validate_on_submit()
     filterString = request.args.get("filter")
@@ -42,4 +44,14 @@ def start(category = "Turystyczne", song = "Hawiarska Koliba"):
         song = Song.loadFromCatAndTitle(category, song)
     except Exception as e:
         song = None
-    return render_template("page.html", songList = songs, filter = filter, filterString = filterString, song = song, chordShift = chordShift, shiftChords = shiftChords)
+    changelog = None
+    if song == None and category == None:
+        with open('CHANGELOG.md', "r", encoding="utf-8") as f:
+            text = f.read()
+            pattern = r'.+?(?=## \[v1\.0\])'
+            text = re.match(pattern, text, flags=re.DOTALL)[0]
+            pattern2 = r' \(\[\w{7}\]\(https.+\)\)'
+            text = re.sub(pattern2, '', text)
+            text = re.sub('CHANGELOG', 'Historia zmian', text)
+        changelog = markdown2.markdown(text)
+    return render_template("page.html", songList = songs, filter = filter, filterString = filterString, song = song, chordShift = chordShift, shiftChords = shiftChords, changelog = changelog)
