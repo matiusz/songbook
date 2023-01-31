@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.2.0](https://github.com/matiusz/songbook/compare/v1.1.0...v1.2.0) (2023-01-31)
+
+
+### Nowości
+
+* **Różne:** Wilcza Zamieć ([4126294](https://github.com/matiusz/songbook/commit/412629462cd41edd26307ec7c821cc219d042750))
+* **Zagraniczne:** Wind of Change ([d1cb371](https://github.com/matiusz/songbook/commit/d1cb371d5f09de64017bb33bb2e167ee0ba6ae49))
+
 ## [1.1.0](https://github.com/matiusz/songbook/compare/1.0.0...v1.1.0) (2023-01-31)
 
 
