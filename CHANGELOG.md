@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [1.1.0](https://github.com/matiusz/songbook/compare/1.0.0...v1.1.0) (2023-01-31)
+
+
+### Nowości
+
+* **Kasprzycki:** Prorok nieśmiałych ([2eb5ee5](https://github.com/matiusz/songbook/commit/2eb5ee5e41dfec0195eb3c7258bb4dc103333fbc))
+* **Różne:** Dzielna Margot ([77e566d](https://github.com/matiusz/songbook/commit/77e566d3a4b83cb3210310867f99f0b554b6308f))
+* **Różne:** Irlandzki sen ([a9f8589](https://github.com/matiusz/songbook/commit/a9f85891b358c6f8e7479dabf318fc8a97e32a5e))
+* **Różne:** Słynny niebieski prochowiec ([e0308ef](https://github.com/matiusz/songbook/commit/e0308efc5b7c5cd3125a81d015da7dbe159163f8))
+* **Zagraniczne:** Hurt by Johnny Cash ([b80bb28](https://github.com/matiusz/songbook/commit/b80bb28d148fe3921647f62d6cf9ec8a4e358cbf))
+
 ## 1.0.0 (2023-01-19)
 
 
