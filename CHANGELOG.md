@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.3.0](https://github.com/matiusz/songbook/compare/v1.2.0...v1.3.0) (2023-02-01)
+
+
+### Nowości
+
+* Fineasz i Ferb ([e1bfd8a](https://github.com/matiusz/songbook/commit/e1bfd8a60fabc7787a550b9aedce58357278377f))
+
 ## [1.2.0](https://github.com/matiusz/songbook/compare/v1.1.0...v1.2.0) (2023-01-31)
 
 
