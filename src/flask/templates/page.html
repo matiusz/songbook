@@ -46,7 +46,7 @@
                     <li data-toggle="collapse" data-target="#{{category}}" class="collapsed category">
                         <a href="#">{{category}}<span class="arrow"></span></a>
                     </li>
-                    <ul class="collapse song {{'show' if filterString or category == song.category else ''}}" id="{{category}}">
+                    <ul class="collapse song {{'show' if filterString or (hasattr(song, 'category') and category == song.category) else ''}}" id="{{category}}">
                         {% for song in songList[category] %}
                         <li><a href="/{{category}}/{{song.title}}">{{song.title}}</a></li>
                         {% endfor %}
