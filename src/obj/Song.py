@@ -49,8 +49,8 @@ class Song:
 
         return result
 
-    def save(self) -> None:
-        with open(os.path.join(config.dataFolder, self.category, self.title + ".sng"), "w", encoding='utf-8') as f:
+    def save(self):
+        with open(os.path.join(config.dataFolder, self.category, self.title.replace("/", "") + ".sng"), "w", encoding='utf-8') as f:
             return f.write(self.serialize())
 
     @classmethod
