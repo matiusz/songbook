@@ -48,7 +48,7 @@
                     </li>
                     <ul class="collapse song {{'show' if filterString or (hasattr(song, 'category') and category == song.category) else ''}}" id="{{category}}">
                         {% for song in songList[category] %}
-                        <li><a href="/{{category}}/{{song.title}}">{{song.title}}</a></li>
+                        <li><a href="/{{category}}/{{song.title.replace('/', '')}}">{{song.title}}</a></li>
                         {% endfor %}
                     </ul>
                     {% endfor %}
