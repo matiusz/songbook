@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## [1.4.0](https://github.com/matiusz/songbook/compare/v1.3.0...v1.4.0) (2023-03-20)
+
+
+### Poprawki
+
+* Accept slashes in title ([807d3b8](https://github.com/matiusz/songbook/commit/807d3b8def3d2d300754e475beee164dc17e219c))
+* ananas chords ([d7163a1](https://github.com/matiusz/songbook/commit/d7163a1c3f0b8deb32db358da8927496fb4a260a))
+* Do Wietnamca chords ([6d8254c](https://github.com/matiusz/songbook/commit/6d8254c5cff594ee50185204479222c9610aef60))
+
+
+### Nowości
+
+* Chwyty do Małych kin ([5f22b67](https://github.com/matiusz/songbook/commit/5f22b67f4c626f8126fc73b30ff7a24ecc51b714))
+* Cross My Heart and Hope to Die by Me and That Man ([4434511](https://github.com/matiusz/songbook/commit/44345118571a508758fb6f3859f2bac2780b0bcc))
+* Inspiracje Yapowe cz.1 ([e139ddb](https://github.com/matiusz/songbook/commit/e139ddb5225e8ea43780d2b2e5b27098ad925a88))
+* Inspiracje Yapowe cz.2 ([2814af3](https://github.com/matiusz/songbook/commit/2814af365b304f7d1852e984980b34c506b37f16))
+* Inspiracje Yapowe cz.3 ([acc323c](https://github.com/matiusz/songbook/commit/acc323cfc841ee72e061c21e24c7b1d23ecc3236))
+* keep current category open ([c9b006e](https://github.com/matiusz/songbook/commit/c9b006ed7fb811e4502d66626ff9044451c9c202))
+* Pańska 7/8/2 ([9ec7a94](https://github.com/matiusz/songbook/commit/9ec7a94398af75360ffb0fc57dbeb466ad950041))
+* Rozmowa by Słodki Całus od Buby ([9b4d45a](https://github.com/matiusz/songbook/commit/9b4d45a1113ac5a315349f55f04d021939ed2e54))
+* Tak tak to ja - Obywatel G.C. ([e97258f](https://github.com/matiusz/songbook/commit/e97258f4906a84327121bb650490ef957c3b95dc))
+
 ## [1.3.0](https://github.com/matiusz/songbook/compare/v1.2.0...v1.3.0) (2023-02-01)
 
 
