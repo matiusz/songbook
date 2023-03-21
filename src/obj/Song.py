@@ -19,6 +19,28 @@ class Song:
         return section
 
     @property
+    def expandedSections(self):
+        sections = []
+        firstChorus = None
+        for section in self.sections:
+            if not section.chorus:
+                sections.append(section)
+            else:
+                if not firstChorus:
+                    firstChorus = section
+                    sections.append(section)
+                else:
+                    print(section.lyrics)
+                    if section.lyrics.endswith(("…", "...")) and \
+                            "\n" not in section.lyrics and \
+                            firstChorus.lyrics.startswith(section.lyrics[:-5]):
+
+                        sections.append(firstChorus)
+                    else:
+                        sections.append(section)
+        return sections
+
+    @property
     def linkedTitle(self) -> str:
         return f"{'&nbsp;'*8}<a href=\"/{self.category}/{self.title}\">{self.title}</a>"
 
@@ -112,3 +134,4 @@ class SongSection:
         newSection.chords = sectionDict['chords']
         newSection.chorus = sectionDict['chorus']
         return newSection
+    
