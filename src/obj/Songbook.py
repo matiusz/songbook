@@ -1,7 +1,9 @@
 from .Song import Song
 from src.tools.loggerSetup import logging
 from collections import defaultdict
-
+from unidecode import unidecode
+from src.tools import fuzz
+from string import punctuation
 from src.tools.dirTools import getCategoriesFromDirs, getSongFilenamesFromCatDir
 
 logger = logging.getLogger(__name__)
@@ -19,7 +21,17 @@ class Songbook:
         filtered = defaultdict(list)
         for cat, songs in self.sb.items():
             for song in songs:
-                if not filter or filter.lower() in song.filterString.lower():
+                print(fuzz.partial_ratio(prepareSearchString(filter), prepareSearchString(song.filterString)))
+                print(prepareSearchString(filter))
+                print(prepareSearchString(song.filterString))
+                if not filter or \
+                    prepareSearchString(filter) in prepareSearchString(song.title) or \
+                    fuzz.partial_ratio(prepareSearchString(filter), prepareSearchString(song.filterString)) > 90:
                     filtered[cat].append(song)
         return filtered
     
+def prepareSearchString(string):
+    string = string.lower()
+    string = unidecode(string)
+    string = string.translate(str.maketrans('', '', punctuation))
+    return string

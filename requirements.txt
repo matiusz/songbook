@@ -5,3 +5,4 @@ Flask-WTF>=1.0.0
 requests>=2.27.1
 pre-commit
 markdown2
+rapidfuzz

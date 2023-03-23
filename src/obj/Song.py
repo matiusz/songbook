@@ -12,7 +12,7 @@ class Song:
         self.category = category
         self.author: str = None
         self.capo: str = None
-        self.sections: SongSection = []
+        self.sections: list[SongSection] = []
 
     def addSection(self, section: dict) -> SongSection:
         self.sections.append(section)
@@ -30,7 +30,6 @@ class Song:
                     firstChorus = section
                     sections.append(section)
                 else:
-                    print(section.lyrics)
                     if section.lyrics.endswith(("…", "...")) and \
                             "\n" not in section.lyrics and \
                             firstChorus.lyrics.startswith(section.lyrics[:-5]):
