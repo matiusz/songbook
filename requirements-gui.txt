@@ -8,3 +8,4 @@ requests>=2.27.1
 pre-commit
 markdown2
 rapidfuzz
+unidecode
