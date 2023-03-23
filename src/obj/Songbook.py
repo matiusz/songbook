@@ -21,12 +21,9 @@ class Songbook:
         filtered = defaultdict(list)
         for cat, songs in self.sb.items():
             for song in songs:
-                print(fuzz.partial_ratio(prepareSearchString(filter), prepareSearchString(song.filterString)))
-                print(prepareSearchString(filter))
-                print(prepareSearchString(song.filterString))
                 if not filter or \
                     prepareSearchString(filter) in prepareSearchString(song.title) or \
-                    fuzz.partial_ratio(prepareSearchString(filter), prepareSearchString(song.filterString)) > 90:
+                    fuzz.partial_ratio(prepareSearchString(filter), prepareSearchString(song.filterString)) > 95:
                     filtered[cat].append(song)
         return filtered
     
