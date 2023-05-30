@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [1.5.0](https://github.com/matiusz/songbook/compare/v1.4.0...v1.5.0) (2023-05-25)
+
+
+### Nowości
+
+* Expand chorus in web app ([6eccb4b](https://github.com/matiusz/songbook/commit/6eccb4bd2f363e922af4374f805591dc550bc1af))
+* Fuzzy search ([84ee90e](https://github.com/matiusz/songbook/commit/84ee90e2f93caf1fb8d73478fabf6184fc280119))
+* Pretty Woman and The Time of My Life ([ff2758a](https://github.com/matiusz/songbook/commit/ff2758a31ff855f3b0e85b01ad7f24507a0f06c5))
+* Wojtka Bellona ostatnia..., Freed From Desire ([185a35d](https://github.com/matiusz/songbook/commit/185a35d63c3e3bf3fb6f48305b1f8c76e8f2629e))
+
 ## [1.4.0](https://github.com/matiusz/songbook/compare/v1.3.0...v1.4.0) (2023-03-20)
 
 
