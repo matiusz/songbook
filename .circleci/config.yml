@@ -8,11 +8,14 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Update Apt
+          command: apt-get update
+      - run:
+          name: Update Apt
+          command: apt-get upgrade -y --allow-downgrades --allow-remove-essential --allow-change-held-packages
+      - run:
           name: Update MiKTeX
           command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
-      - run:
-          name: Initialize PDFLatex
-          command: pdflatex --initialize
       - run:
           name: Generate PDF
           command: python3 songbook_pdf.py
