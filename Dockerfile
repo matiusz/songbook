@@ -2,9 +2,7 @@
 FROM ubuntu:focal
 
 RUN apt-get update && apt-get install -y \
-    python3 python3-pip
-
-RUN apt-get install -y \
+    python3 python3-pip \
     apt-transport-https \
     ca-certificates \
     dirmngr \
@@ -30,13 +28,13 @@ RUN apt-get update -y \
 
 RUN miktexsetup finish \
     && initexmf --admin --set-config-value=[MPM]AutoInstall=1 \
-    && mpm --admin --update-db \
-    && mpm --admin \
-    --install amsfonts \
-    --install biber-linux-x86_64 \
+    && miktex packages update \
+    && miktex packages install amsfonts \
     && initexmf --admin --update-fndb
-
+    
 ENV PATH="${PATH}:/root/bin"
+
+RUN cd ~/.miktex/texmfs/install/miktex/config && miktex-makefmt --engine=pdftex --dest-name=pdflatex --no-dump pdflatex.ini
 
 RUN pip install aiofiles
 
