@@ -12,7 +12,7 @@ jobs:
           command: apt-get update
       - run:
           name: Update Apt
-          command: apt-get upgrade
+          command: apt-get upgrade --allow-downgrades --allow-remove-essential --allow-change-held-packages
       - run:
           name: Update MiKTeX
           command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
