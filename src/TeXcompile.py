@@ -14,7 +14,7 @@ def main():
     songbookTitle = config.outputFile
     inFile = f"{songbookTitle}.tex"
     outFile = f"{songbookTitle}.pdf"
-    texcompile = f"pdflatex {inFile}"
+    texcompile = f"pdflatex --initialize --interaction=nonstopmode {inFile}"
     logger.info(f"Compiling {inFile} to {outFile}")
     if os.system(texcompile) != 0:
         logger.error("Command pdflatex exited with error")
