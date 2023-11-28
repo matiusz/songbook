@@ -8,8 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Spin PDFLatex up
-          command: pdflatex --initialize --interaction=nonstopmode fix.tex
+          name: APT update
+          command: apt update
       - run:
           name: Update MiKTeX
           command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
