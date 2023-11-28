@@ -11,6 +11,9 @@ jobs:
           name: APT update
           command: apt update
       - run:
+          name: APT upgrade
+          command: apt upgrade -y
+      - run:
           name: Update MiKTeX
           command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
       - run:
