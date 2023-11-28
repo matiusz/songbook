@@ -38,6 +38,6 @@ RUN miktexsetup finish \
 
 ENV PATH="${PATH}:/root/bin"
 
-RUN pip install -r requirements.txt
+RUN pip install aiofiles
 
 WORKDIR /app
