@@ -15,7 +15,7 @@ jobs:
           command: apt upgrade -y
       - run:
           name: change mpm repo
-          command: mpm --set-repository=http://ctan.net/systems/win32/miktex/tm/packages/
+          command: mpm --set-repository=http://ctan.org/tex-archive/systems/win32/miktex/tm/packages
       - run:
           name: Update MiKTeX
           command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
