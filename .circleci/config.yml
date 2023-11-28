@@ -3,16 +3,10 @@ version: 2.1
 jobs:
   generate-pdf:
     docker:
-      - image: mathek/songbook:latest
+      - image: matiusz/songbook:latest
     working_directory: /app
     steps:
       - checkout
-      - run:
-          name: Update Apt
-          command: apt-get update
-      - run:
-          name: Update Apt
-          command: apt-get upgrade -y --allow-downgrades --allow-remove-essential --allow-change-held-packages
       - run:
           name: Update MiKTeX
           command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
