@@ -11,6 +11,9 @@ jobs:
           name: Update MiKTeX
           command: initexmf --admin --set-config-value=[MPM]AutoInstall=1     && mpm --admin --update-db     && initexmf --admin --update-fndb # buildkit
       - run:
+          name: Initialize PDFLatex
+          command: pdflatex --initialize
+      - run:
           name: Generate PDF
           command: python3 songbook_pdf.py
       - store_artifacts:
