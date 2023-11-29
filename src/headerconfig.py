@@ -63,7 +63,7 @@ def toc():
 
 
 def titleSettings():
-    onePercentHack = "\\vspace{0.40\\textheight} \\\\1 \% podatku dla “Hawiarskiej Koliby”\\\\\n" + \
+    onePercentHack = "\\vspace{0.40\\textheight} \\\\1.5 \% podatku dla “Hawiarskiej Koliby”\\\\\n" + \
         "Numer KRS 0000083727\\\\\n" + \
         "Z dopiskiem:\\\\\n" + \
         "Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\\\\n" + \
