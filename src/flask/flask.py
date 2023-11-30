@@ -26,16 +26,15 @@ class SongList:
 
 sb = Songbook()
 
+
+
 @app.route("/")
-@app.route("/<category>/<song>")
-def start(category = None, song = None):
+@app.route("/<category>/<song>/<chordShift>.html")
+def start(category = None, song = None, chordShift = 0):
     filter = FilterForm()
     filter.validate_on_submit()
     filterString = request.args.get("filter")
-    try:
-        chordShift = int(request.args.get("chordShift", 0, int))
-    except ValueError:
-        chordShift = 0
+    chordShift = int(chordShift)
     if filterString:
         songs = sb.filteredSongs(filterString)
     else:

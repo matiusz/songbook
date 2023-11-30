@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href={{url_for('static', filename='style.css' )}}>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css" rel="stylesheet">
     <title>Śpiewnik HK</title>
 </head>
 
@@ -32,7 +32,7 @@
                         <div class="input-group justify-content-center">
                             <div class="form-outline">
                                 <form method="GET" class="form-inline my-2 my-lg-0 w-auto"
-                                    action="/{{'{}/{}'.format(song.category, song.title) if song and song.category and song.title else ''}}">
+                                    action="{{url_for('start', category=song.category, song=song.title.replace('/', ''), chordShift=0) if song and song.category and song.title else ''}}">
                                     {{ filter.filter(class_ = "form-control w-auto", placeholder="Search for songs...",
                                     style="width: auto;") }}
                                     <button type="submit" value="Search" class="btn btn-primary">
@@ -48,7 +48,7 @@
                     </li>
                     <ul class="collapse song {{'show' if filterString or (hasattr(song, 'category') and category == song.category) else ''}}" id="{{category}}">
                         {% for song in songList[category] %}
-                        <li><a href="/{{category}}/{{song.title.replace('/', '')}}">{{song.title}}</a></li>
+                        <li><a href="{{url_for('start', category=category, song=song.title.replace('/', ''), chordShift=0)}}">{{song.title}}</a></li>
                         {% endfor %}
                     </ul>
                     {% endfor %}
@@ -67,18 +67,16 @@
             <table width="100%">
                 <tr>
                     <td>
-                        <form method="GET" action="" align="center">
-                            <input type="hidden" name="chordShift" value="{{(chordShift-1) % 12}}">
+                        <form action="{{url_for('start', category=song.category, song=song.title.replace('/', ''), chordShift=(chordShift-1) % 12)}}">
                             <button type="submit" value="Down" class="btn btn-primary">
                                 <i class="fa fa-arrow-down" aria-hidden="true"></i>
                             </button>
                         </form>
                     </td>
                     <td>
-                        <form method="GET" action="" align="center">
-                            <input type="hidden" name="chordShift" value="{{(chordShift+1) % 12}}">
-                            <button type="submit" value="Up" class="btn btn-primary">
-                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        <form action="{{url_for('start', category=song.category, song=song.title.replace('/', ''), chordShift=(chordShift+1) % 12)}}">
+                            <button type="submit" value="Down" class="btn btn-primary">
+                                <i class="fa fa-arrow-down" aria-hidden="true"></i>
                             </button>
                         </form>
                     </td>

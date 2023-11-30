@@ -2,7 +2,7 @@ from __future__ import annotations
 import os
 import itertools
 import re
-
+from flask import url_for
 from src.obj.Config import config
 
 
@@ -41,7 +41,7 @@ class Song:
 
     @property
     def linkedTitle(self) -> str:
-        return f"{'&nbsp;'*8}<a href=\"/{self.category}/{self.title}\">{self.title}</a>"
+        return f"{'&nbsp;'*8}<a href={url_for('start', category=self.category, song=self.title.replace('/', ''), chordShift=0)}>{self.title}</a>"
 
     @property
     def filterString(self) -> str:
