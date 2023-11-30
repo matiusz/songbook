@@ -99,8 +99,8 @@
                     </td>
                     <td>
                         <form action="{{url_for('start', category=song.category, song=song.title.replace('/', ''), chordShift=(chordShift+1) % 12)}}">
-                            <button type="submit" value="Down" class="btn btn-primary">
-                                <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                            <button type="submit" value="Up" class="btn btn-primary">
+                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
                             </button>
                         </form>
                     </td>
