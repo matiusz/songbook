@@ -2,9 +2,14 @@ from __future__ import annotations
 import os
 import itertools
 import re
-
 from src.obj.Config import config
 
+try:
+    from flask import url_for
+except ImportError:
+    flaskSupported = False
+else:
+    flaskSupported = True
 
 class Song:
     def __init__(self, title: str, category: str):
@@ -41,7 +46,10 @@ class Song:
 
     @property
     def linkedTitle(self) -> str:
-        return f"{'&nbsp;'*8}<a href=\"/{self.category}/{self.title}\">{self.title}</a>"
+        if flaskSupported:
+            return f"{'&nbsp;'*8}<a href={url_for('start', category=self.category, song=self.title.replace('/', ''), chordShift=0)}>{self.title}</a>"
+        else:
+            return f"""{'&nbsp;'*8}<a href={f'/{self.category}/{self.title.replace("/", "")}/0'}>{self.title}</a>"""
 
     @property
     def filterString(self) -> str:

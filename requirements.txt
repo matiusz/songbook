@@ -2,6 +2,7 @@
 Flask>=2.0.2
 WTForms>=3.0.0
 Flask-WTF>=1.0.0
+Frozen-Flask
 requests>=2.27.1
 pre-commit
 markdown2

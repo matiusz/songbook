@@ -34,3 +34,4 @@ songbook-pdf.log
 songbook-py.log
 so.py
 .vscode/settings.json
+src/flask/build/

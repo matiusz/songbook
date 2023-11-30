@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 class Songbook:
     def __init__(self):
-        self.sb = {}
+        self.sb: dict[str, list[Song]] = {}
         for cat in getCategoriesFromDirs():
             self.sb[cat] = [Song.loadFromCatAndTitle(cat, songFilename[:-4]) for songFilename in getSongFilenamesFromCatDir(cat)]
             for song in self.sb[cat]:
