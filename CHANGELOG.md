@@ -10,8 +10,6 @@
 ### Nowości
 
 * Client-side searching ([78e4d45](https://github.com/matiusz/songbook/commit/78e4d45f594e2ff239bd8f627d934310afa8dfc7))
-* Refactor to static frozen-flask site ([afc8aee](https://github.com/matiusz/songbook/commit/afc8aeecfc6a9768df08c4d4d0a31956c98365ba))
-* Static sites ([4677954](https://github.com/matiusz/songbook/commit/4677954526b1952cc69aeba0e18c66dd2f5bddc8))
 
 ## [1.6.0](https://github.com/matiusz/songbook/compare/v1.5.0...v1.6.0) (2023-11-30)
 
