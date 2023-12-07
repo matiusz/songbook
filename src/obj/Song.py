@@ -47,7 +47,7 @@ class Song:
     @property
     def linkedTitle(self) -> str:
         if flaskSupported:
-            return f"{'&nbsp;'*8}<a href={url_for('start', category=self.category, song=self.title.replace('/', ''), chordShift=0)}>{self.title}</a>"
+            return f"{'&nbsp;'*8}<a href={url_for('start', category=self.category, song=self.title.replace('/', ''))}>{self.title}</a>"
         else:
             return f"""{'&nbsp;'*8}<a href={f'/{self.category}/{self.title.replace("/", "")}/0'}>{self.title}</a>"""
 

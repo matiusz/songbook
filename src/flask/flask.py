@@ -1,11 +1,11 @@
-from flask import Flask, render_template, send_from_directory, redirect
+from flask import Flask, render_template, make_response
 
 from src.flask.forms.forms import FilterForm
 from flask import request
 
-from src.tools.chordShift import shiftChords
 from src.obj.Songbook import Songbook
 from src.obj.Song import Song
+import json
 import os
 import markdown2
 import re
@@ -26,15 +26,19 @@ class SongList:
 
 sb = Songbook()
 
-
+@app.route("/serve_js/app.js")
+def serve_js():
+    categories = json.dumps(list(sb.sb))
+    response = make_response(render_template("app.js", categories = categories))
+    response.headers['Content-Type'] = 'text/javascript'
+    return response
 
 @app.route("/")
-@app.route("/<category>/<song>/<chordShift>.html")
-def start(category = None, song = None, chordShift = 0):
+@app.route("/<category>/<song>.html")
+def start(category = None, song = None):
     filter = FilterForm()
     filter.validate_on_submit()
     filterString = request.args.get("filter")
-    chordShift = int(chordShift)
     if filterString:
         songs = sb.filteredSongs(filterString)
     else:
@@ -54,4 +58,4 @@ def start(category = None, song = None, chordShift = 0):
             changelog = markdown2.markdown(text)
         except Exception as ex:
             changelog = "<p></p>"
-    return render_template("page.html", songList = songs, filter = filter, filterString = filterString, song = song, chordShift = chordShift, shiftChords = shiftChords, changelog = changelog, hasattr=hasattr)
+    return render_template("page.html", songList = songs, filter = filter, filterString = filterString, song = song, changelog = changelog, hasattr=hasattr)

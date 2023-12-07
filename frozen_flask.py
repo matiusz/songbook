@@ -12,8 +12,7 @@ def start():
     sb = Songbook()
     for cat in sb.sb:
         for sng in sb.sb[cat]:
-            for i in range(0, 12):
-                yield {'category': cat, 'song': sng.title, 'chordShift': i}
+            yield {'category': cat, 'song': sng.title}
 
 if __name__ == '__main__':
     freezer.freeze()
