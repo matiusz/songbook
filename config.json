@@ -1,7 +1,6 @@
 { 
     "filePaths": 
         {
-            "dataFolder": "data",
             "categoriesFile": "categories.json",
             "imageFolder": ".images",
             "outputFile": "songbook",

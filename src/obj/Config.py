@@ -1,4 +1,4 @@
-import json
+import json, os
 from collections import defaultdict
 from src.tools.ResourcePath import resource_path
 
@@ -24,7 +24,7 @@ class Configuration:
         try:
             with open(self._configFilename, "rb") as configFile:
                 config = json.loads(deUTF8(configFile.read()))
-        except FileNotFoundError as ex:
+        except FileNotFoundError:
             config = json.loads(self.getDefaultConfig())
             print("WARN: Config file not found, using default config")
         self.loadFromDict(config)
@@ -32,7 +32,10 @@ class Configuration:
     def loadFromDict(self, config):
         filePathConfig = config['filePaths']
         
-        self.dataFolder = resource_path(filePathConfig['dataFolder'])
+        try:
+            self.dataFolder = os.environ['SONGBOOK_DATA_DIR']
+        except KeyError:
+            self.dataFolder = 'data'
         self.categoriesFile = filePathConfig['categoriesFile']
         self.imageFolder = filePathConfig['imageFolder']
         self.outputFile = filePathConfig['outputFile']
@@ -63,7 +66,7 @@ class Configuration:
         try:
             with open(self._configFilename, "r") as configFile:
                 config = json.load(configFile)
-        except (FileNotFoundError, KeyError) as ex:
+        except (FileNotFoundError, KeyError):
             print("WARN: Failed to parse new config file, config not updated.")
             return
         else:
@@ -73,7 +76,6 @@ class Configuration:
         return """{ 
             "filePaths": 
                 {
-                    "dataFolder": "data",
                     "categoriesFile": "categories.json",
                     "imageFolder": ".images",
                     "outputFile": "songbook",
@@ -108,3 +110,4 @@ class Configuration:
 
 
 config = Configuration("config.json")
+
