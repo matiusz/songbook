@@ -25,7 +25,7 @@
 
   ### With docker
   ```
-  docker run -v $(pwd):/app --rm -it mathek/songbook
+  docker run -v $(pwd):/app --rm -it matiusz/songbook
   ```
   and you can run the commands as above. Note that any command involving GUI may require additional setup, depending on the OS.
 
