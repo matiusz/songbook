@@ -13,5 +13,6 @@ jobs:
         with:
           service-id: srv-clkag2dae00c73e9on9g
           render-token: ${{ secrets.RENDER_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           retries: 6
           wait: 20000
