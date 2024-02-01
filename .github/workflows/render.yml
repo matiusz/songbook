@@ -1,0 +1,14 @@
+name: Render
+on: 
+  push:
+    branches:
+      - hk-songbook
+jobs:
+  deploy:
+    name: Render Deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for Render Deployment
+        uses: bounceapp/render-action@0.6.0
+        with:
+          service-id: srv-cmo0eumn7f5s73d1u2j0

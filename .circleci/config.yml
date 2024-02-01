@@ -13,11 +13,7 @@ jobs:
       - store_artifacts:
           path: songbook.pdf
       - store_artifacts:
-          path: /root/.miktex/texmfs/data/miktex/log/pdflatex.log
-      - store_artifacts:
           path: songbook-py.log
-      - store_artifacts:
-          path: /root/.miktex/texmfs/data/miktex/log/initexmf.log
 
 workflows:
   build-and-test:

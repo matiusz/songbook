@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            function getArtifact() {
+                jQuery.getJSON("https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts", function(data) {
+                for (const element of data) {
+                    if (element["path"] == "songbook.pdf") {
+                        window.location.replace(element["url"]);
+                    }
+                }
+                })
+            }
+            window.onload = function() {
+            getArtifact();
+            };
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

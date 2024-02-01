@@ -3,7 +3,6 @@ from src.flask.flask import app
 from src.obj.Songbook import Songbook
 
 freezer = Freezer(app)
-#app.config['FREEZER_BASE_URL'] = "/Users/rjsp4n/Desktop/vscode/songbook/songbook/src/flask/build/"
 app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html; charset=utf-8'
 
