@@ -1,17 +1,25 @@
-name: Render
+name: render-deployment
 on: 
   push:
     branches:
       - hk-songbook
 jobs:
   deploy:
-    name: Render Deployment
+    name: render-deployment
     runs-on: ubuntu-latest
     steps:
-      - name: Wait for Render Deployment
+      - name: hk-songbook
         uses: bounceapp/render-action@0.6.0
         with:
-          service-id: srv-clkag2dae00c73e9on9g
+          service-id: ${{ secrets.HK_RENDER_SERVICE }}
+          render-token: ${{ secrets.RENDER_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          retries: 6
+          wait: 20000
+      - name: spiewnik111adh
+        uses: bounceapp/render-action@0.6.0
+        with:
+          service-id: ${{ secrets.ADH_RENDER_SERVICE }}
           render-token: ${{ secrets.RENDER_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           retries: 6
