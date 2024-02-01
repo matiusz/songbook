@@ -14,7 +14,7 @@ jobs:
           service-id: ${{ secrets.HK_RENDER_SERVICE }}
           render-token: ${{ secrets.RENDER_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          retries: 6
+          retries: 10
           wait: 20000
       - name: spiewnik111adh
         uses: bounceapp/render-action@0.6.0
@@ -22,5 +22,5 @@ jobs:
           service-id: ${{ secrets.ADH_RENDER_SERVICE }}
           render-token: ${{ secrets.RENDER_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          retries: 6
+          retries: 10
           wait: 20000
