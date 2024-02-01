@@ -1,5 +1,3 @@
-from functools import lru_cache
-import os
 from PySide6.QtWidgets import (QCheckBox, QHBoxLayout, QWidget, QLineEdit, QVBoxLayout, 
                                 QScrollArea, QLabel)
 from PySide6.QtCore import Qt
@@ -84,6 +82,7 @@ class SongList(QLabel):
     def openSongDisplay(self, link):
         _, _, song = link.partition('/')
         cat, _, song = song.partition('/')
+        print(cat, song)
         QScrollableSongDisplay(cat, song)
 
     def reloadText(self, filt : str = None, detailed : bool = False):

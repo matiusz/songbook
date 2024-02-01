@@ -25,7 +25,7 @@ class MainMenu(QWidget):
         icon = QIcon("guitar.ico")
         self.setWindowIcon(icon)
         label = QLabel()
-        image = QPixmap(os.path.join(config.dataFolder, config.appLogo))
+        image = QPixmap(config.appLogo)
         if image:
             label.setPixmap(image)
         else:

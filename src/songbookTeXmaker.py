@@ -70,7 +70,7 @@ class TexCategory:
         catStr = ""
         if config.canvas.sides == "twoside":
             catStr += "\\cleardoublepage\n"
-        catStr += f"\\chapter*{{\centering {name}}}\n" + \
+        catStr += f"\\chapter*{{\\centering {name}}}\n" + \
             f"\\addcontentsline{{toc}}{{chapter}}{{{name}}}\n" + \
             f"{{\\centering \\includegraphics[width=\\textwidth,height=0.75\\textheight,keepaspectratio]{{{self.name}}} \\par}}\n"
         catStr += "\\newpage\n"

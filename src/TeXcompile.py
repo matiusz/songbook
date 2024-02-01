@@ -20,7 +20,7 @@ def main():
         logger.error("Command pdflatex exited with error")
         raise ModuleNotFoundError(texcompile)
     logger.info(f"PDF compiled successfully")
-    if not config.devSettings['singleCompile']:
+    if not config.devSettings.get('singleCompile', False):
         ToCedit.main()
         logger.info(f"Running second compilation...")
         os.system(texcompile)
@@ -28,7 +28,7 @@ def main():
         logger.info(f"Running third compilation...")
         os.system(texcompile)
 
-    if False and not config.devSettings['keepAuxOut']:
+    if config.devSettings.get('keepAuxOut', False):
         auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk",
                     f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls",
                     f"{songbookTitle}_list.toc", f"{songbookTitle}.out"]

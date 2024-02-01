@@ -1,6 +1,5 @@
 import json, os
 from collections import defaultdict
-from src.tools.ResourcePath import resource_path
 
 def enUTF8(st):
     return st.encode('utf-8')
@@ -35,7 +34,7 @@ class Configuration:
         try:
             self.dataFolder = os.environ['SONGBOOK_DATA_DIR']
         except KeyError:
-            self.dataFolder = 'data'
+            self.dataFolder = 'data/hk-songbook'
         self.categoriesFile = filePathConfig['categoriesFile']
         self.imageFolder = filePathConfig['imageFolder']
         self.outputFile = filePathConfig['outputFile']
@@ -52,8 +51,6 @@ class Configuration:
         
         titlePageSettings = pdfSettings['titlePage']
         self.title = titlePageSettings['title']
-        #Date is currently generated automatically by headerconfig.py script
-        #self.date = titlePageSettings['date']
         self.author = titlePageSettings['author']
         self.devSettings = defaultdict(lambda: False)
         try:

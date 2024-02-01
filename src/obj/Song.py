@@ -6,7 +6,8 @@ from src.obj.Config import config
 
 try:
     from flask import url_for
-except ImportError:
+    url_for('start')
+except (ImportError, RuntimeError):
     flaskSupported = False
 else:
     flaskSupported = True
@@ -49,7 +50,7 @@ class Song:
         if flaskSupported:
             return f"{'&nbsp;'*8}<a href={url_for('start', category=self.category, song=self.title.replace('/', ''))}>{self.title}</a>"
         else:
-            return f"""{'&nbsp;'*8}<a href={f'/{self.category}/{self.title.replace("/", "")}/0'}>{self.title}</a>"""
+            return f"""{'&nbsp;'*8}<a href="{f'/{self.category}/{self.title.replace("/", "")}'}">{self.title}</a>"""
 
     @property
     def filterString(self) -> str:
@@ -87,7 +88,7 @@ class Song:
         commands = "title|author|category|capo|chorus|verse"
         dict = {'sections': []}
         # finds all occurences of #command, followed by blank, until another #command or the end
-        for (cmd, val) in re.findall(f"^#({commands})(?:\n|\s)((?:.|\n)*?(?=#(?:{commands})|\Z))", str, flags=re.MULTILINE):
+        for (cmd, val) in re.findall(fr"^#({commands})(?:\n|\s)((?:.|\n)*?(?=#(?:{commands})|\Z))", str, flags=re.MULTILINE):
             if cmd in ["verse", "chorus"]:
                 split_lines = [line.split("~ ") + ['']
                                for line in val.strip().split('\n')]
