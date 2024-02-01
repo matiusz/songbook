@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Generate PDF
-          command: python3 songbook_pdf.py
+          command: python3 -m apps.create_pdf
       - store_artifacts:
           path: songbook.pdf
       - store_artifacts:
