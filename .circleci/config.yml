@@ -8,12 +8,27 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Generate PDF
+          name: Generate HK PDF
           command: python3 -m apps.create_pdf
+          environment:
+            SONGBOOK_DATA_DIR: hk-songbook
       - store_artifacts:
           path: songbook.pdf
+          destination: hk-songbook.pdf
       - store_artifacts:
           path: songbook-py.log
+          destination: hk-songbook.log
+      - run:
+          name: Generate 111 ADH PDF
+          command: python3 -m apps.create_pdf
+          environment:
+            SONGBOOK_DATA_DIR: spiewnik111adh
+      - store_artifacts:
+          path: songbook.pdf
+          destination: spiewnik111adh.pdf
+      - store_artifacts:
+          path: songbook-py.log
+          destination: spiewnik111adh.log
 
 workflows:
   build-and-test:

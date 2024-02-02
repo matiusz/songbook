@@ -1,5 +1,6 @@
-from flask import Flask, render_template, make_response
+from flask import Flask, render_template, make_response, redirect
 
+from src.obj.Config import config
 from src.obj.Songbook import Songbook
 from src.obj.Song import Song
 import json
@@ -29,6 +30,11 @@ def serve_js():
     response = make_response(render_template("app.js", categories = categories))
     response.headers['Content-Type'] = 'text/javascript'
     return response
+
+@app.route(f"/artifacts.html")
+def get_pdf():
+    name = config.dataFolder.split("/")[1]
+    return render_template("artifacts.html", name = name)
 
 @app.route("/")
 @app.route("/<category>/<song>.html")
