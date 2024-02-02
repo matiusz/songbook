@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [2.1.0](https://github.com/matiusz/songbook/compare/v2.0.0...v2.1.0) (2024-02-02)
+
+
+### Nowości
+
+* Add PDF link ([8f6475d](https://github.com/matiusz/songbook/commit/8f6475d07a4fb1b3933cb529066c1de48f906a71))
+* Adjust css for better mobile experience ([43e0e21](https://github.com/matiusz/songbook/commit/43e0e21fef6cffa173551edeaf836fe2ce53c680))
+* Handle shifting chords with JS ([99cf029](https://github.com/matiusz/songbook/commit/99cf029782bb8913396a3bdca1a3675db8b26aa0))
+* restructured files ([b6a280f](https://github.com/matiusz/songbook/commit/b6a280f411b052db181e4ae21162bd87d3e1e3a4))
+
 ## [2.0.0](https://github.com/matiusz/songbook/compare/v1.6.0...v2.0.0) (2023-11-30)
 
 
