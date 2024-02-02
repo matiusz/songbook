@@ -37,7 +37,7 @@ class MainMenu(QWidget):
         songButton = QPushButton('Song Editor', self)
         songButton.clicked.connect(self.addSongField)
 
-        tabsButton = QPushButton('Show Songs', self)
+        tabsButton = QPushButton('Song Display', self)
         tabsButton.clicked.connect(self.tabsSongsField)
 
         compileButton = QPushButton('Create PDF', self)

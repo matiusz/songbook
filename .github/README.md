@@ -1,53 +1,82 @@
-  # songbook
+# songbook
 
-  [![CircleCI](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook.svg?style=svg)](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook)
-  
-  [Current PDF](https://hk-songbook.onrender.com/static/artifacts.html)
-  
-  ## songbook
+[![CircleCI](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook.svg?style=svg)](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook)
 
-  Songbook is an easy to use tool for creating songbooks where each song is represented by a different file, allowing them to be easily shared or moved between different songbooks. It has its own display module or it can generate LaTeX files and compile them to pdf.
+[Current PDF](https://hk-songbook.onrender.com/static/artifacts.html)
 
-  ## Usage
+## songbook
 
-  ### Without docker
-  _Make sure to have installed everything from the Requirements section_
+Songbook is an easy to use tool for creating songbooks where each song is represented by a different file, allowing them to be easily shared or moved between different songbooks. It has its own display module or it can generate LaTeX files and compile them to pdf.
 
-  To start the GUI:
-  ```
-  python3 songbook.py
-  ```
+## Usage
 
-  To generate the songbook PDF:
-  ```
-  python3 songbook_pdf.py
-  ```
+### Without Docker
+_Make sure to have installed everything needed from the [Requirements](#requirements) section_
 
-  ### With docker
-  ```
-  docker run -v $(pwd):/app --rm -it matiusz/songbook
-  ```
-  and you can run the commands as above. Note that any command involving GUI may require additional setup, depending on the OS.
+#### GUI:
+```
+python3 -m apps.run_gui
+```
+Launches GUI application that allows editing and displaying songs.
 
-  ## Configuration
+#### Generate PDF:
+```
+python3 -m apps.create_pdf
+```
+Generates output PDF in root directory
 
-  The configuration can be altered by modifying the `config.json` file.
+#### Start Flask sever:
+```
+python3 -m apps.run_flask
+```
+Starts a Flask server listening on address `0.0.0.0` with `PORT` envvar (default: `5000`)
 
-  ### pdfSettings
+#### Generate static site files:
+```
+python3 -m apps.freeze_flask
+```
+Files are generated in `src/flask/build` directory
 
-  format - e.g. a4paper, a5paper\
-  sides - oneside/twoside - if twoside is set pdf will have inner and outer margins and will include a blank page if chapter would start on an even page otherwise\
-  margins 
-  - horizontal - inner in case of twoside option, left otherwise
-  - vertical - top margin
-  
-  fontSize - basic size of the font, supports sizes 10, 11, 12\
-  lyricsFont, chordsFont - one of the fontcodes available e.g. here: https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide
-  
+### With Docker
+```
+docker run -v $(pwd):/app --rm -it matiusz/songbook
+```
+and you can run the commands as above. Note that any command involving GUI may require additional setup, depending on the OS.
 
-  ## Requirements
-  
-  - Python 3.8+
-  - PySide6 (pip install PySide6) - GUI module
-  - aiofiles (pip install aiofiles) - module for async I/O operations on files
-  - pdfTeX (included with e.g. https://miktex.org/) - required for .tex -> .pdf compilation
+## Configuration
+
+### Environment variables
+`SONGBOOK_DATA_DIR` - directory in which songbook categories are located
+`PORT` - port to start Flask server on
+
+
+### Configuration file
+
+The configuration can be altered by modifying the `config.json` file.
+
+#### pdfSettings
+
+*format* - e.g. a4paper, a5paper\
+*sides* - oneside/twoside - if twoside is set pdf will have inner and outer margins and will include a blank page if chapter would start on an even page otherwise\
+*margins* -
+- *horizontal* - inner in case of twoside option, left otherwise
+- *vertical* - top margin
+
+*fontSize* - basic size of the font, supports sizes 10, 11, 12\
+*lyricsFont, chordsFon*t - one of the fontcodes available e.g. here: https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide
+
+
+## Requirements
+
+- Python 3.8+ (builds are tested with 3.12)
+- aiofiles
+
+### Static deployment
+- all modules listed in [requirements.txt](/requirements.txt)
+
+### PDF compilation
+- pdfTeX (suggested distribution - TeXLive)
+
+### Full functionality
+- pdfTeX
+- [requirements_full.txt](/requirements_full.txt)

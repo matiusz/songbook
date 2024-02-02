@@ -1,3 +1,5 @@
+
+
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;
@@ -143,7 +145,7 @@
   }
   
   body {
-    width: fit-content;
+    width: 100vw;
   }
 }
 @media (min-width: 767px) {
@@ -304,16 +306,28 @@ body {
     text-align: center;
   }
 }
-
+/*
 @media only screen and (min-width : 320px) {
   .container, .main {
     padding-left: 5%;
   }
 }
-
+*/  
 @media only screen and (min-width : 768px) {
   .main {
     padding-left: 450px;
+  }
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .main {
+    font-size: 2.8vw;
+  }
+  html {
+    font-size: 2.8vw;
   }
 }
 
