@@ -27,14 +27,10 @@ sb = Songbook()
 @app.route("/serve_js/app.js")
 def serve_js():
     categories = json.dumps(list(sb.sb))
-    response = make_response(render_template("app.js", categories = categories))
+    name = config.dataFolder.split("/")[1]
+    response = make_response(render_template("app.js", categories = categories, name = name))
     response.headers['Content-Type'] = 'text/javascript'
     return response
-
-@app.route(f"/artifacts.html")
-def get_pdf():
-    name = config.dataFolder.split("/")[1]
-    return render_template("artifacts.html", name = name)
 
 @app.route("/")
 @app.route("/<category>/<song>.html")

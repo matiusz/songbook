@@ -1077,3 +1077,13 @@ function shiftChordsDown() {
 		chords[i].innerText = replacedText;
 	}
 }
+
+function getArtifact() {
+	jQuery.getJSON("https://circleci.com/api/v1.1/project/github/matiusz/songbook/latest/artifacts", function(data) {
+	for (const element of data) {
+		if (element["path"] == "{{ name }}.pdf") {
+			window.location.href = element["url"];
+		}
+	}
+	})
+}

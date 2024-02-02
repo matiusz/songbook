@@ -34,7 +34,7 @@ class Configuration:
         try:
             self.dataFolder = "data/" + os.environ['SONGBOOK_DATA_DIR']
         except KeyError:
-            self.dataFolder = 'hk-songbook'
+            self.dataFolder = 'data/hk-songbook'
         self.categoriesFile = filePathConfig['categoriesFile']
         self.imageFolder = filePathConfig['imageFolder']
         self.outputFile = filePathConfig['outputFile']
