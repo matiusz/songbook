@@ -4,7 +4,7 @@
             "categoriesFile": "categories.json",
             "imageFolder": ".images",
             "outputFile": "songbook",
-            "appLogo": "data/global/images/guitar.ico"
+            "appLogo": "songbook/data/global/images/guitar.ico"
         },
     "pdfSettings": 
     {

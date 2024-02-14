@@ -2,8 +2,8 @@ from PySide6.QtGui import QIcon, QPalette
 from PySide6.QtWidgets import (QSizePolicy, QTabWidget, QWidget,
                                QHBoxLayout)
 
-from src.gui.SongDisplay import QScrollableSongDisplay
-from src.gui.SongList import ScrollAndSearchSongList
+from ..gui.SongDisplay import QScrollableSongDisplay
+from ..gui.SongList import ScrollAndSearchSongList
 
 from pynput import keyboard
 

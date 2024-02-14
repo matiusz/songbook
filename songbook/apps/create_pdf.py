@@ -1,6 +1,6 @@
 from ..src.tools.loggerSetup import logging
 
-from src import TeXcompile, songbookTeXmaker
+from ..src import TeXcompile, songbookTeXmaker
 import sys
 import os
 

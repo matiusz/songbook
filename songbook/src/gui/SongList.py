@@ -3,11 +3,11 @@ from PySide6.QtWidgets import (QCheckBox, QHBoxLayout, QWidget, QLineEdit, QVBox
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QPalette
 
-from src.obj.Songbook import Songbook
+from ..obj.Songbook import Songbook
 
-from src.gui.SongDisplay import QScrollableSongDisplay
+from ..gui.SongDisplay import QScrollableSongDisplay
 
-from src.obj.Config import config
+from ..obj.Config import config
 
 class ScrollAndSearchSongList(QWidget):
     def __init__(self):

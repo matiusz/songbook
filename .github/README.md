@@ -11,29 +11,36 @@ Songbook is an easy to use tool for creating songbooks where each song is repres
 ### Without Docker
 _Make sure to have installed everything needed from the [Requirements](#requirements) section_
 
+#### Package Installation
+You can install this application as a editable package with `pip install -e .`. This allows using `songbook` script from `cmd` 
+
 #### GUI:
-```
-python3 -m apps.run_gui
+```cmd
+python3 -m songbook.apps.run_gui
+songbook run-gui          # if installed as package
 ```
 Launches GUI application that allows editing and displaying songs.
 
 #### Generate PDF:
 ```
-python3 -m apps.create_pdf
+python3 -m songbook.apps.create_pdf
+songbook create_pdf       # if installed as package
 ```
 Generates output PDF in root directory
 
 #### Start Flask sever:
 ```
-python3 -m apps.run_flask
+python3 -m songbook.apps.run_flask
+songbook run-flask        # if installed as package
 ```
 Starts a Flask server listening on address `0.0.0.0` with `PORT` envvar (default: `5000`)
 
 #### Generate static site files:
 ```
-python3 -m apps.freeze_flask
+python3 -m songbook.apps.freeze_flask
+songbook freeze-flask     # if installed as package
 ```
-Files are generated in `src/flask/build` directory
+Files are generated in `songbook/src/flask/build` directory
 
 ### With Docker
 ```

@@ -2,16 +2,16 @@ from PySide6.QtWidgets import (QWidget, QVBoxLayout, QPushButton,
                                QLabel, QMessageBox)
 from PySide6.QtGui import QIcon, QPixmap
 
-from src.gui.SongEditor import ScrollableSongEditor
-from src.gui.CategoryEditor import NewCategory
-from src.gui.SongTabs import QSongTabs
+from ..gui.SongEditor import ScrollableSongEditor
+from ..gui.CategoryEditor import NewCategory
+from ..gui.SongTabs import QSongTabs
 
-from src.tools.openDefault import open_with_default_app
-from src.tools import dirTools
+from ..tools.openDefault import open_with_default_app
+from ..tools import dirTools
 
-from src.obj.Config import config
+from ..obj.Config import config
 
-from src import TeXcompile, songbookTeXmaker
+from .. import TeXcompile, songbookTeXmaker
 
 import os
 

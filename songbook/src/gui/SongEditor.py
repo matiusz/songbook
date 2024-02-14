@@ -9,11 +9,11 @@ import json
 import os
 
 from functools import partial
-from src.obj.Song import Song
+from ..obj.Song import Song
 
-from src.tools import dirTools
+from ..tools import dirTools
 
-from src.obj.Config import config
+from ..obj.Config import config
 
 
 class ScrollableSongEditor(QScrollArea):

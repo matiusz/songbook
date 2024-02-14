@@ -3,9 +3,9 @@ from PySide6.QtWidgets import (QLayout, QSizePolicy, QWidget, QHBoxLayout, QVBox
 from PySide6.QtGui import QFont
 from PySide6.QtCore import Qt
 
-from src.tools.chordShift import shiftChords
+from ..tools.chordShift import shiftChords
 
-from src.obj.Song import Song
+from ..obj.Song import Song
 
 class QScrollableSongDisplay(QScrollArea):
     def __init__(self, category=None, songTitle=None):

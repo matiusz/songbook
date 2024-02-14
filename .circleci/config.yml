@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Generate HK PDF
-          command: python3 -m apps.create_pdf
+          command: python3 -m songbook.apps.create_pdf
           environment:
             SONGBOOK_DATA_DIR: hk-songbook
       - store_artifacts:
@@ -20,7 +20,7 @@ jobs:
           destination: hk-songbook.log
       - run:
           name: Generate 111 ADH PDF
-          command: python3 -m apps.create_pdf
+          command: python3 -m songbook.apps.create_pdf
           environment:
             SONGBOOK_DATA_DIR: spiewnik111adh
       - store_artifacts:
