@@ -5,9 +5,9 @@ from PySide6.QtCore import QSize, Qt
 
 import os, json
 
-from src.tools import dirTools
+from ..tools import dirTools
 
-from src.obj.Config import config
+from ..obj.Config import config
 
 def getCatsDict():
     try:

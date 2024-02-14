@@ -1,10 +1,10 @@
 import os
 
-from src import ToCedit
+from . import ToCedit
 
-from src.obj.Config import config
+from .obj.Config import config
 
-from src.tools.loggerSetup import logging
+from .tools.loggerSetup import logging
 
 logger = logging.getLogger(__name__)
 
@@ -28,7 +28,7 @@ def main():
         logger.info(f"Running third compilation...")
         os.system(texcompile)
 
-    if config.devSettings.get('keepAuxOut', False):
+    if not config.devSettings.get('keepAuxOut', False):
         auxFiles = [f"{songbookTitle}.tex", f"{songbookTitle}.toc", f"{songbookTitle}.aux", f"{songbookTitle}.fdb_latexmk",
                     f"{songbookTitle}.ffs", f"{songbookTitle}.log", f"{songbookTitle}.synctex.gz", f"{songbookTitle}.fls",
                     f"{songbookTitle}_list.toc", f"{songbookTitle}.out"]

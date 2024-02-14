@@ -1,6 +1,6 @@
-from src.tools.plAlphabetSort import plSortKey
+from .tools.plAlphabetSort import plSortKey
 
-from src.obj.Config import config
+from .obj.Config import config
 
 
 def main():

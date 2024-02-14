@@ -2,7 +2,7 @@ from __future__ import annotations
 import os
 import itertools
 import re
-from src.obj.Config import config
+from ..obj.Config import config
 
 try:
     from flask import url_for

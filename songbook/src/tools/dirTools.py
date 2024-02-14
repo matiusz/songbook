@@ -1,6 +1,6 @@
 import os
 
-from src.obj.Config import config
+from ..obj.Config import config
 
 def isSongCategoryDir(dirname):
     return os.path.isdir(os.path.join(config.dataFolder, dirname)) and not (dirname.startswith((".", "_")))

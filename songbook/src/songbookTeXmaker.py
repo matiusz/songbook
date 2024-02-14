@@ -2,19 +2,19 @@ import os
 import json
 import re
 
-from src.tools.plAlphabetSort import plSortKey
+from ..src.tools.plAlphabetSort import plSortKey
 import asyncio
 import aiofiles
 
-from src import headerconfig as headerconfig
+from . import headerconfig as headerconfig
 
-from src.tools.chordShift import shiftChords
-from src.tools.codings import enUTF8, deUTF8
+from .tools.chordShift import shiftChords
+from .tools.codings import enUTF8, deUTF8
 
-from src.obj.Config import config
-from src.obj.Song import Song
+from .obj.Config import config
+from .obj.Song import Song
 
-from src.tools.loggerSetup import logging
+from .tools.loggerSetup import logging
 
 logger = logging.getLogger(__name__)
 

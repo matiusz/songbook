@@ -1,0 +1,21 @@
+[project]
+name = "songbook"
+dynamic = ["version"]
+dependencies = [
+  "Flask",
+  "Frozen-Flask",
+  "unidecode",
+  "markdown2",
+]
+[tool.setuptools_scm]
+
+[build-system]
+requires = [
+    "setuptools>=60",
+    "setuptools-scm>=8.0"]
+
+[project.scripts]
+songbook = "songbook.apps.cli_app:cli"
+
+[tool.setuptools.packages.find]
+include = ["songbook*"]

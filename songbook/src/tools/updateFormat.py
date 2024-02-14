@@ -1,9 +1,9 @@
 
 import json
-from src.obj.Config import config
-from src.obj.Songbook import Song
+from ..obj.Config import config
+from ..obj.Songbook import Song
 import os, asyncio, aiofiles
-from src.tools.dirTools import ensureDir, isSongCategoryDir
+from ..tools.dirTools import ensureDir, isSongCategoryDir
 from pathlib import Path
 
 async def reformatAll():

@@ -1,4 +1,4 @@
-from src.obj.Config import config
+from .obj.Config import config
 import os
 from datetime import date
 

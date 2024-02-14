@@ -17,3 +17,6 @@ so.py
 .vscode
 src/flask/build/
 songbook.pdf
+src/songbook.egg-info/
+build/
+songbook.egg-info

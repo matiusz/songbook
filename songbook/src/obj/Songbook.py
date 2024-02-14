@@ -1,6 +1,6 @@
 from .Song import Song
-from src.tools.loggerSetup import logging
-from src.tools.dirTools import getCategoriesFromDirs, getSongFilenamesFromCatDir
+from ..tools.loggerSetup import logging
+from ..tools.dirTools import getCategoriesFromDirs, getSongFilenamesFromCatDir
 
 logger = logging.getLogger(__name__)
 

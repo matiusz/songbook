@@ -1,8 +1,8 @@
 from flask import Flask, render_template, make_response, redirect
 
-from src.obj.Config import config
-from src.obj.Songbook import Songbook
-from src.obj.Song import Song
+from ..obj.Config import config
+from ..obj.Songbook import Songbook
+from ..obj.Song import Song
 import json
 import os
 import markdown2

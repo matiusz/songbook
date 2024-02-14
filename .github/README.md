@@ -44,7 +44,9 @@ and you can run the commands as above. Note that any command involving GUI may r
 ## Configuration
 
 ### Environment variables
+
 `SONGBOOK_DATA_DIR` - directory in which songbook categories are located
+
 `PORT` - port to start Flask server on
 
 

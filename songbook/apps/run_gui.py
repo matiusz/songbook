@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QApplication
 
-from src.gui.MainMenu import MainMenu
+from ..src.gui.MainMenu import MainMenu
 
 import sys
 

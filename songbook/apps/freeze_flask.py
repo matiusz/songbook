@@ -1,6 +1,6 @@
 from flask_frozen import Freezer
-from src.flask.flask_app import app
-from src.obj.Songbook import Songbook
+from ..src.flask.flask_app import app
+from ..src.obj.Songbook import Songbook
 
 freezer = Freezer(app)
 app.config['FREEZER_RELATIVE_URLS'] = True
@@ -13,5 +13,10 @@ def start():
         for sng in sb.sb[cat]:
             yield {'category': cat, 'song': sng.title}
 
-if __name__ == '__main__':
+
+def main():
     freezer.freeze()
+
+
+if __name__ == '__main__':
+    main()
