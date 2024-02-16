@@ -27,7 +27,7 @@ sb = Songbook()
 @app.route("/serve_js/app.js")
 def serve_js():
     categories = json.dumps(list(sb.sb))
-    name = config.dataFolder.split("/")[1]
+    name = config.dataFolder.split("/")[2]
     response = make_response(render_template("app.js", categories = categories, name = name))
     response.headers['Content-Type'] = 'text/javascript'
     return response
