@@ -111,7 +111,9 @@ def titleSettings():
         Numer KRS 0000083727\\
         Z dopiskiem:\\
         Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\
-        Dziękujemy!"""
+        Dziękujemy!\\\\
+        Opracowanie: Mateusz Szwed\\
+        matszwecja@gmail.com"""
     )
     today = date.today()
     return f"\\title{{{config.title}}}\n\\date{{{months[today.month-1]} {today.year}}}\n\\author{{{onePercentHack}}}\n\n"
