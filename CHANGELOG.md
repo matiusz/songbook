@@ -1,5 +1,30 @@
 # CHANGELOG
 
+## [2.2.0](https://github.com/matiusz/songbook/compare/v2.1.0...v2.2.0) (2024-03-14)
+
+
+### Nowości
+
+* Contact info ([291c93a](https://github.com/matiusz/songbook/commit/291c93a364221f028e9b5961aac4bd18a5c2089f))
+* Package setup ([a07a658](https://github.com/matiusz/songbook/commit/a07a658cf00f8c00252d246223e3943ef8affacf))
+* **Yapa 2024:** Danse macabre ([1f7dd13](https://github.com/matiusz/songbook/commit/1f7dd1314b52081ccbeb039b099a71c140045227))
+* **Yapa 2024:** Do Wetliny, Głos ([9aeec51](https://github.com/matiusz/songbook/commit/9aeec515d213b99e7c9f562c7997363fe1e2f41a))
+* **Yapa 2024:** Helena Montana, Rosół, Hej ([585ff37](https://github.com/matiusz/songbook/commit/585ff3787d02fa86efb19416729ffd7efe78ae1d))
+* **Yapa 2024:** Karuzela ([2924a12](https://github.com/matiusz/songbook/commit/2924a124dc32e7f4f0615cd0da10cffc3ecda57d))
+* **Yapa 2024:** Lejta od Oready ([ae7ed5e](https://github.com/matiusz/songbook/commit/ae7ed5e7aa926d67e82616e764878a26b08e19ed))
+* **Yapa 2024:** Na wykładzie ([7bfc31c](https://github.com/matiusz/songbook/commit/7bfc31cd7019743534b27023b8b446aaf86fee26))
+* **Zagraniczne:** Always Look on the Bright Side of Life by Monty Python ([120fa64](https://github.com/matiusz/songbook/commit/120fa64f52f1ea49e0a709e958276e0a6351cd90))
+* **Zagraniczne:** Californication by RHCP ([f90aeea](https://github.com/matiusz/songbook/commit/f90aeea7aa03ae8569bef4dbbea597cc7f027551))
+* **Zagraniczne:** In the Shadows by The Rasmus ([c6ce823](https://github.com/matiusz/songbook/commit/c6ce82323f581ee8b9b43e64f905c7a225e6705c))
+
+
+### Poprawki
+
+* Autorzy ([5005a65](https://github.com/matiusz/songbook/commit/5005a6558fa1fe0f36901cf81550574173317989))
+* **Kasprzycki:** Chwyty do Windy 7 ([ded4969](https://github.com/matiusz/songbook/commit/ded4969c626ca96520c21b2a52ff588f5505925e))
+* Moja Dumka - zmiana tonacji ([4a20bb5](https://github.com/matiusz/songbook/commit/4a20bb5464c74b190f284c637f44c2acfa7eea0b))
+* Zmiana w Little Talks ([750fc4c](https://github.com/matiusz/songbook/commit/750fc4c712a11b4f6dea46a545375ed5e6d2e89a))
+
 ## [2.1.0](https://github.com/matiusz/songbook/compare/v2.0.0...v2.1.0) (2024-02-02)
 
 
