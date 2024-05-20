@@ -38,12 +38,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: hk-songbook
-          path: hk-songbook.pdf
+          path: app/hk-songbook.pdf
           if-no-files-found: error
 
       - name: Archive 111 ADH PDF
         uses: actions/upload-artifact@v4
         with:
           name: spiewnik111adh
-          path: spiewnik111adh.pdf
+          path: app/spiewnik111adh.pdf
           if-no-files-found: error
