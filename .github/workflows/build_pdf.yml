@@ -8,8 +8,10 @@ on:
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
-    container:
-      image: matiusz/songbook:latest
+    container: matiusz/songbook:latest
+    defaults:
+      run:
+        working-directory: /app
     steps:
       - name: Generate HK PDF
         run: python3 -m songbook.apps.create_pdf
