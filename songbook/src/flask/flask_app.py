@@ -1,4 +1,4 @@
-from flask import Flask, render_template, make_response, redirect
+from flask import Flask, render_template, make_response
 
 from ..obj.Config import config
 from ..obj.Songbook import Songbook
