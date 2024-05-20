@@ -23,11 +23,13 @@ jobs:
         run: python3 -m songbook.apps.create_pdf
         env:
           SONGBOOK_DATA_DIR: hk-songbook
+          SONGBOOK_TITLE: hk-songbook
 
       - name: Generate 111 ADH PDF
         run: python3 -m songbook.apps.create_pdf
         env:
           SONGBOOK_DATA_DIR: spiewnik111adh
+          SONGBOOK_TITLE: spiewnik111adh
 
       - name: ls
         run: ls
