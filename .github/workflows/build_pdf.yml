@@ -19,7 +19,8 @@ jobs:
           repository: matiusz/songbook
           token: ${{ secrets.GITHUB_TOKEN }}
           path: ./app
-          
+      - name: ls
+        run: ls
       - name: Generate HK PDF
         run: python3 -m songbook.apps.create_pdf
         env:
