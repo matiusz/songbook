@@ -35,9 +35,13 @@ class Configuration:
             self.dataFolder = "songbook/data/" + os.environ['SONGBOOK_DATA_DIR']
         except KeyError:
             self.dataFolder = 'songbook/data/hk-songbook'
+        try:
+            self.outputFile = os.environ['SONGBOOK_TITLE']
+        except KeyError:
+            self.outputFile = 'songbook'
+
         self.categoriesFile = filePathConfig['categoriesFile']
         self.imageFolder = filePathConfig['imageFolder']
-        self.outputFile = filePathConfig['outputFile']
         self.appLogo = filePathConfig['appLogo']
 
         pdfSettings = config['pdfSettings']

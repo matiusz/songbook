@@ -3,7 +3,6 @@
         {
             "categoriesFile": "categories.json",
             "imageFolder": ".images",
-            "outputFile": "songbook",
             "appLogo": "songbook/data/global/images/guitar.ico"
         },
     "pdfSettings": 

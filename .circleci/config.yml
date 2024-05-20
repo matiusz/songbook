@@ -12,6 +12,7 @@ jobs:
           command: python3 -m songbook.apps.create_pdf
           environment:
             SONGBOOK_DATA_DIR: hk-songbook
+            SONGBOOK_TITLE: hk-songbook
       - store_artifacts:
           path: songbook.pdf
           destination: hk-songbook.pdf
@@ -23,6 +24,7 @@ jobs:
           command: python3 -m songbook.apps.create_pdf
           environment:
             SONGBOOK_DATA_DIR: spiewnik111adh
+            SONGBOOK_TITLE: spiewnik111adh
       - store_artifacts:
           path: songbook.pdf
           destination: spiewnik111adh.pdf
