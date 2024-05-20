@@ -13,6 +13,8 @@ jobs:
       run:
         working-directory: /app
     steps:
+      - name: ls
+        run: ls
       - name: Generate HK PDF
         run: python3 -m songbook.apps.create_pdf
         env:
