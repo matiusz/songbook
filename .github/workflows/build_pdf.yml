@@ -13,8 +13,13 @@ jobs:
       run:
         working-directory: /app
     steps:
-      - name: ls
-        run: ls
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          repository: matiusz/songbook
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./app
+          
       - name: Generate HK PDF
         run: python3 -m songbook.apps.create_pdf
         env:
