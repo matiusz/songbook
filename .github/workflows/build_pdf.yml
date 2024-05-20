@@ -29,14 +29,19 @@ jobs:
         env:
           SONGBOOK_DATA_DIR: spiewnik111adh
 
+      - name: ls
+        run: ls
+
       - name: Archive HK PDF
         uses: actions/upload-artifact@v4
         with:
           name: hk-songbook
           path: ./hk-songbook.pdf
+          if-no-files-found: error
 
       - name: Archive 111 ADH PDF
         uses: actions/upload-artifact@v4
         with:
           name: spiewnik111adh
           path: ./spiewnik111adh.pdf
+          if-no-files-found: error
