@@ -1,0 +1,34 @@
+name: build-pdf
+on:
+  push:
+    branches:
+      - hk-songbook
+  schedule:
+    - cron: '0 0 1 * *'
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate HK PDF
+        uses: matiusz/songbook:latest
+        run: python3 -m songbook.apps.create_pdf
+        env:
+          SONGBOOK_DATA_DIR: hk-songbook
+
+      - name: Generate 111 ADH PDF
+        uses: matiusz/songbook:latest
+        run: python3 -m songbook.apps.create_pdf
+        env:
+          SONGBOOK_DATA_DIR: spiewnik111adh
+
+      - name: Archive HK PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: hk-songbook
+          path: hk-songbook.pdf
+
+      - name: Archive 111 ADH PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: spiewnik111adh
+          path: spiewnik111adh.pdf
