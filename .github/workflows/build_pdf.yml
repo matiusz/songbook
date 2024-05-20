@@ -19,8 +19,6 @@ jobs:
           repository: matiusz/songbook
           token: ${{ secrets.GITHUB_TOKEN }}
           path: ./app
-      - name: ls
-        run: ls
       - name: Generate HK PDF
         run: python3 -m songbook.apps.create_pdf
         env:
@@ -35,10 +33,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: hk-songbook
-          path: hk-songbook.pdf
+          path: ./hk-songbook.pdf
 
       - name: Archive 111 ADH PDF
         uses: actions/upload-artifact@v4
         with:
           name: spiewnik111adh
-          path: spiewnik111adh.pdf
+          path: ./spiewnik111adh.pdf
