@@ -11,7 +11,7 @@ jobs:
     container: matiusz/songbook:latest
     defaults:
       run:
-        working-directory: /app
+        working-directory: ./app
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
