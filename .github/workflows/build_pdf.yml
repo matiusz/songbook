@@ -12,13 +12,11 @@ jobs:
       image: matiusz/songbook:latest
     steps:
       - name: Generate HK PDF
-        uses: matiusz/songbook:latest
         run: python3 -m songbook.apps.create_pdf
         env:
           SONGBOOK_DATA_DIR: hk-songbook
 
       - name: Generate 111 ADH PDF
-        uses: matiusz/songbook:latest
         run: python3 -m songbook.apps.create_pdf
         env:
           SONGBOOK_DATA_DIR: spiewnik111adh
