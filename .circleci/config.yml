@@ -14,7 +14,7 @@ jobs:
             SONGBOOK_DATA_DIR: hk-songbook
             SONGBOOK_TITLE: hk-songbook
       - store_artifacts:
-          path: songbook.pdf
+          path: hk-songbook.pdf
           destination: hk-songbook.pdf
       - store_artifacts:
           path: songbook-py.log
@@ -26,7 +26,7 @@ jobs:
             SONGBOOK_DATA_DIR: spiewnik111adh
             SONGBOOK_TITLE: spiewnik111adh
       - store_artifacts:
-          path: songbook.pdf
+          path: spiewnik111adh.pdf
           destination: spiewnik111adh.pdf
       - store_artifacts:
           path: songbook-py.log
