@@ -32,6 +32,11 @@ def serve_js():
     response.headers['Content-Type'] = 'text/javascript'
     return response
 
+
+@app.route("/wip")
+def wip():
+     return render_template("page-wip.html")
+
 @app.route("/")
 @app.route("/<category>/<song>.html")
 def start(category = None, song = None):
