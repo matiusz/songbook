@@ -1,15 +1,14 @@
-jobs:
-  generate-hk-pdf:
-    stage: build
-    image: matiusz/songbook:latest
-    working_directory: /app
-    variables:
-      SONGBOOK_DATA_DIR: hk-songbook
-      SONGBOOK_TITLE: hk-songbook
-    script: python3 -m songbook.apps.create_pdf
-          environment:
-    artifacts:
-          paths: hk-songbook.pdf
+generate-hk-pdf:
+  stage: build
+  image: matiusz/songbook:latest
+  variables:
+    SONGBOOK_DATA_DIR: hk-songbook
+    SONGBOOK_TITLE: hk-songbook
+  script: 
+    - python3 -m songbook.apps.create_pdf
+  artifacts:
+    paths: 
+      - hk-songbook.pdf
 
 stages:
   - build
