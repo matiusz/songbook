@@ -33,10 +33,6 @@ def serve_js():
     return response
 
 
-@app.route("/wip")
-def wip():
-     return render_template("page-wip.html")
-
 @app.route("/")
 @app.route("/<category>/<song>.html")
 def start(category = None, song = None):
