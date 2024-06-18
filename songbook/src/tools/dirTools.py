@@ -19,7 +19,11 @@ def getCategoriesFromDirs() -> list[str]:
     categories = []
     for dirname in os.listdir(config.dataFolder):
         if os.path.isdir(os.path.join(config.dataFolder, dirname)) and not dirname.startswith("."):
-            categories.append(dirname)
+            # hack this shit
+            with open(os.path.join(config.dataFolder, config.categoriesFile), "rb") as catConfig:
+                changes = json.loads(catConfig.read())
+            changed_name = changes[dirname]
+            categories.append(changed_name)
     return categories
 
 
