@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   generate-pdf:
     docker:
-      - image: matiusz/songbook:latest
+      - image: mmajewsk/songbook:latest
     working_directory: /app
     steps:
       - checkout

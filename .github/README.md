@@ -1,6 +1,6 @@
 # songbook
 
-[![CircleCI](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook.svg?style=svg)](https://circleci.com/gh/matiusz/songbook/tree/hk-songbook)
+[![CircleCI](https://circleci.com/gh/mmajewsk/songbook/tree/hk-songbook.svg?style=svg)](https://circleci.com/gh/mmajewsk/songbook/tree/hk-songbook)
 
 ## songbook
 
@@ -44,7 +44,7 @@ Files are generated in `songbook/src/flask/build` directory
 
 ### With Docker
 ```
-docker run -v $(pwd):/app --rm -it matiusz/songbook
+docker run -v $(pwd):/app --rm -it mmajewsk/songbook
 ```
 and you can run the commands as above. Note that any command involving GUI may require additional setup, depending on the OS.
 

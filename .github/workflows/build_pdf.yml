@@ -8,7 +8,7 @@ on:
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
-    container: matiusz/songbook:latest
+    container: mmajewsk/songbook:latest
     defaults:
       run:
         working-directory: ./app
@@ -16,7 +16,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          repository: matiusz/songbook
+          repository: mmajewsk/songbook
           token: ${{ secrets.GITHUB_TOKEN }}
           path: ./app
       - name: Generate HK PDF
