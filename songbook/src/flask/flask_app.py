@@ -52,4 +52,4 @@ def start(category = None, song = None):
             changelog = markdown2.markdown(text)
         except Exception as ex:
             changelog = "<p></p>"
-    return render_template("page.html", songList = songs, filter = filter, song = song, changelog = changelog, hasattr=hasattr)
+    return render_template("page.html", songList = songs, filter = filter, song = song, changelog = changelog, hasattr=hasattr, sorted=sorted)
