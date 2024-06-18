@@ -1,32 +1,15 @@
 {
-    "names": {
-        "Kupała": "🔥Kupała🔥",
-        "Turystyczne": "Piosenki turystyczne",
-        "WGB": "Wolna Grupa Bukowina",
-        "Jacek Kaczmarski": "Jacek Kaczmarski",
-        "SDM": "Stare Dobre Ma\u0142\u017ce\u0144stwo",
-        "Robert Kasprzycki": "Robert Kasprzycki",
-        "Szanty": "Szanty",
-        "Piosenki r\u00f3\u017cne": "Piosenki r\u00f3\u017cne",
-        "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
-        "Klasyka polskiego rocka": "Polski rock",
-        "Piosenki zagraniczne": "Piosenki zagraniczne",
-        "Autorskie": "Autorskie",
-        "Yapa": "Yapa"
-    },
-    "place": {
-        "Kupała": 0,
-        "Turystyczne": 1,
-        "WGB": 2,
-        "Jacek Kaczmarski": 3,
-        "SDM": 4,
-        "Robert Kasprzycki": 5,
-        "Szanty": 6,
-        "Piosenki r\u00f3\u017cne": 7,
-        "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie": 8,
-        "Klasyka polskiego rocka": 9,
-        "Piosenki zagraniczne": 10,
-        "Autorskie": 11,
-        "Yapa": 12
-    }
+    "Kupa\u0142a": "\ud83d\udd25Kupa\u0142a\ud83d\udd25",
+    "Turystyczne": "Piosenki turystyczne",
+    "WGB": "Wolna Grupa Bukowina",
+    "Jacek Kaczmarski": "Jacek Kaczmarski",
+    "SDM": "Stare Dobre Ma\u0142\u017ce\u0144stwo",
+    "Robert Kasprzycki": "Robert Kasprzycki",
+    "Szanty": "Szanty",
+    "Piosenki r\u00f3\u017cne": "Piosenki r\u00f3\u017cne",
+    "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
+    "Klasyka polskiego rocka": "Polski rock",
+    "Piosenki zagraniczne": "Piosenki zagraniczne",
+    "Autorskie": "Autorskie",
+    "Yapa": "Yapa"
 }
