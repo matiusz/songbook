@@ -37,6 +37,10 @@ def serve_js():
 @app.route("/<category>/<song>.html")
 def start(category = None, song = None):
     songs = sb.sb
+    songs_sorted = {k: v for k,v in sorted(songs.items(), key=lambda item: sb.changed_id[item[0]])}
+    songs2 = {sb.changed_name[s] for k,v in songs_sorted}
+
+
     try:
         song = Song.loadFromCatAndTitle(category, song)
     except Exception as e:
@@ -49,4 +53,5 @@ def start(category = None, song = None):
             changelog = markdown2.markdown(text)
         except Exception as ex:
             changelog = "<p></p>"
-    return render_template("page.html", songList = songs, filter = filter, song = song, changelog = changelog, hasattr=hasattr)
+
+    return render_template("page.html", songList = songs2, filter = filter, song = song, changelog = changelog, hasattr=hasattr)
