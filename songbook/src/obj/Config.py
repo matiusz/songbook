@@ -97,7 +97,7 @@ class Configuration:
                 "lyricsFont" : "ptm",
                 "chordsFont" : "zi4",
                 "titlePage" : {
-                    "title" : "Śpiewnik Hawiarskiej Koliby\\\\Edycja Rozszerzona",
+                    "title" : "Śpiewnik Kupalny \\\\ 2024",
                     "author" : ""
                 }
             },
