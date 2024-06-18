@@ -46,9 +46,6 @@ def start(category = None, song = None):
         try:
             with open('CHANGELOG.md', "r", encoding="utf-8") as f:
                 text = f.read()
-                pattern2 = r' \(\[\w{7}\]\(https.+\)\)'
-                text = re.sub(pattern2, '', text)
-                text = re.sub('CHANGELOG', 'Historia zmian', text)
             changelog = markdown2.markdown(text)
         except Exception as ex:
             changelog = "<p></p>"
