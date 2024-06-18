@@ -38,7 +38,7 @@ def serve_js():
 def start(category = None, song = None):
     songs = sb.sb
     songs_sorted = {k: v for k,v in sorted(songs.items(), key=lambda item: sb.changed_id[item[0]])}
-    songs2 = {sb.changed_name[s]:v for k,v in songs_sorted.items()}
+    songs2 = {sb.changed_name[k]:v for k,v in songs_sorted.items()}
 
 
     try:

@@ -14,6 +14,7 @@ class Songbook:
         # hack this shit
         with open(os.path.join(config.dataFolder, config.categoriesFile), "rb") as catConfig:
             changes = json.loads(catConfig.read())
+        print(changes)
         self.changed_name = changes['names']
         self.changed_id = changes['place']
         cats = getCategoriesFromDirs()
