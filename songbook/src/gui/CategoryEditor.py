@@ -12,7 +12,7 @@ from ..obj.Config import config
 def getCatsDict():
     try:
         with open(os.path.join(config.dataFolder, config.categoriesFile), "rb") as catConfig:
-            return json.loads(catConfig.read())
+            return json.loads(catConfig.read())['names']
     except FileNotFoundError:
        return {}
 

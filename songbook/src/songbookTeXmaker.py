@@ -185,7 +185,7 @@ def makeSongbookDict(songs):
 async def getCategoriesConfig(categoryDictFile, songbookDict):
     try:
         async with aiofiles.open(categoryDictFile, "rb") as configFile:
-            cats_dict = json.loads(deUTF8(await configFile.read()))
+            cats_dict = json.loads(deUTF8(await configFile.read()))['names']
     except FileNotFoundError:
         logger.warning("Category titles mapping file not found")
         cats_dict = {cat: cat for cat in sorted(

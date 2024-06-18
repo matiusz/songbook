@@ -3,6 +3,8 @@ from ..tools.loggerSetup import logging
 from ..tools.dirTools import getCategoriesFromDirs, getSongFilenamesFromCatDir
 import os
 
+from ..obj.Config import config
+
 logger = logging.getLogger(__name__)
 
 class Songbook:
