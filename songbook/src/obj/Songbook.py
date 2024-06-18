@@ -4,6 +4,7 @@ from ..tools.dirTools import getCategoriesFromDirs, getSongFilenamesFromCatDir
 import os
 
 from ..obj.Config import config
+import json
 
 logger = logging.getLogger(__name__)
 
