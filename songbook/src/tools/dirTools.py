@@ -1,5 +1,5 @@
 import os
-
+import json
 from ..obj.Config import config
 
 def isSongCategoryDir(dirname):
