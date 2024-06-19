@@ -227,7 +227,7 @@ async def _asyncMain():
 
     songbookDict = makeSongbookDict(gatheredSongs)
 
-    cats = await getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songbookDict)
+    cats = getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songbookDict)
 
     for cat in songbookDict.values():
         cat.setCatMapping(cats)

@@ -38,7 +38,7 @@ def serve_js():
 @app.route("/<category>/<song>.html")
 async def start(category = None, song = None):
     songs = sb.sb
-    cats = await getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songs, allowEmojis=True)
+    cats = getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songs, allowEmojis=True)
     try:
         song = Song.loadFromCatAndTitle(category, song)
         
