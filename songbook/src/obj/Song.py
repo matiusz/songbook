@@ -44,6 +44,9 @@ class Song:
                     else:
                         sections.append(section)
         return sections
+    
+    def __lt__(self, other: Song):
+        return self.title < other.title
 
     @property
     def linkedTitle(self) -> str:
