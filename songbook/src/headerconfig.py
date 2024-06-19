@@ -107,13 +107,9 @@ def toc():
 
 def titleSettings():
     onePercentHack = (
-        r"""\vspace{0.40\textheight} \\1 \% podatku dla “Hawiarskiej Koliby”\\
-        Numer KRS 0000083727\\
-        Z dopiskiem:\\
-        Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\
-        Dziękujemy!\\\\
-        Opracowanie: Mateusz Szwed\\
-        matszwecja@gmail.com"""
+        r"""\vspace{0.40\textheight}  Śpiewnik bazujący na śpiewniku “Hawiarskiej Koliby”.\\
+        Projekt ukradnięty bezwstydnie, acz za wiedzą i milczącym przyzwoleniem \\
+        przez Dr. Maciej 'Hawkera' Majewskiego."""
     )
     today = date.today()
     return f"\\title{{{config.title}}}\n\\date{{{months[today.month-1]} {today.year}}}\n\\author{{{onePercentHack}}}\n\n"

@@ -1,6 +1,6 @@
 {
     "names": {
-        "Kupa\u0142a": "\ud83d\udd25Kupa\u0142a\ud83d\udd25",
+        "Kupa\u0142a": "Kupa\u0142a",
         "Turystyczne": "Piosenki turystyczne",
         "WGB": "Wolna Grupa Bukowina",
         "Jacek Kaczmarski": "Jacek Kaczmarski",
@@ -11,8 +11,7 @@
         "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie": "Piosenki nieobci\u0105\u017caj\u0105ce intelektualnie",
         "Klasyka polskiego rocka": "Polski rock",
         "Piosenki zagraniczne": "Piosenki zagraniczne",
-        "Autorskie": "Autorskie",
-        "Yapa": "Yapa"
+        "Autorskie": "Autorskie"
     },
     "place": {
     "Kupała": 0,
@@ -26,7 +25,6 @@
     "Piosenki nieobciążające intelektualnie": 8,
     "Klasyka polskiego rocka": 9,
     "Piosenki zagraniczne": 10,
-    "Autorskie": 11,
-    "Yapa": 12
+    "Autorskie": 11
 }
 }
