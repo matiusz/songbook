@@ -1,7 +1,7 @@
 ﻿aiofiles>=0.7.0
 pynput>=1.7.6
 PySide6>=6.2.0
-Flask>=2.0.2
+Flask[async]>=2.0.2
 WTForms>=3.0.0
 Frozen-Flask
 Flask-WTF>=1.0.0
@@ -10,3 +10,4 @@ pre-commit
 markdown2
 rapidfuzz
 unidecode
+emoji

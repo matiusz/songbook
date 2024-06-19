@@ -3,6 +3,7 @@ from flask import Flask, render_template, make_response
 from ..obj.Config import config
 from ..obj.Songbook import Songbook
 from ..obj.Song import Song
+from ..songbookTeXmaker import getCategoriesConfig
 import json
 import os
 import markdown2
@@ -35,10 +36,12 @@ def serve_js():
 
 @app.route("/")
 @app.route("/<category>/<song>.html")
-def start(category = None, song = None):
+async def start(category = None, song = None):
     songs = sb.sb
+    cats = await getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songs, allowEmojis=True)
     try:
         song = Song.loadFromCatAndTitle(category, song)
+        
     except Exception as e:
         song = None
     changelog = None
@@ -52,4 +55,4 @@ def start(category = None, song = None):
             changelog = markdown2.markdown(text)
         except Exception as ex:
             changelog = "<p></p>"
-    return render_template("page.html", songList = songs, filter = filter, song = song, changelog = changelog, hasattr=hasattr)
+    return render_template("page.html", songList = songs, filter = filter, song = song, changelog = changelog, hasattr=hasattr, cats = cats)
