@@ -3,7 +3,7 @@ from flask import Flask, render_template, make_response
 from ..obj.Config import config
 from ..obj.Songbook import Songbook
 from ..obj.Song import Song
-from ..songbookTeXmaker import getCategoriesConfig
+from ..tools.getCategoriesConfig import getCategoriesConfig
 import json
 import os
 import markdown2

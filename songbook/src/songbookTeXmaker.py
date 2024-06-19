@@ -1,16 +1,15 @@
 import os
-import json
 import re
 
 from ..src.tools.plAlphabetSort import plSortKey
 import asyncio
 import aiofiles
-import emoji
 
 from . import headerconfig as headerconfig
 
 from .tools.chordShift import shiftChords
-from .tools.codings import enUTF8, deUTF8
+from .tools.codings import enUTF8
+from .tools.getCategoriesConfig import getCategoriesConfig
 
 from .obj.Config import config
 from .obj.Song import Song
@@ -18,10 +17,7 @@ from .obj.Song import Song
 from .tools.loggerSetup import logging
 
 
-
-
 logger = logging.getLogger(__name__)
-
 
 
 def isSongCategoryDir(dirname):
@@ -186,22 +182,6 @@ def makeSongbookDict(songs):
     return songbookDict
 
 
-def remove_emojis(s):
-  return ''.join(c for c in s if c not in emoji.EMOJI_DATA)
-
-async def getCategoriesConfig(categoryDictFile, songbookDict, allowEmojis = False):
-    try:
-        async with aiofiles.open(categoryDictFile, "rb") as configFile:
-            configFileText = deUTF8(await configFile.read())
-            if not allowEmojis:
-                configFileText = remove_emojis(configFileText)
-            cats_dict = json.loads(configFileText)
-
-    except FileNotFoundError:
-        logger.warning("Category titles mapping file not found")
-        cats_dict = {cat: cat for cat in sorted(
-            songbookDict.keys(), key=plSortKey)}
-    return cats_dict
 
 
 async def processCategory(cat, songbookFile, ignoredSongs=None):
