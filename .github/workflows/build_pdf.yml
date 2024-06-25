@@ -8,7 +8,7 @@ on:
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
-    container: mmajewsk/songbook:latest
+    container: matiusz/songbook:latest
     defaults:
       run:
         working-directory: ./app
@@ -25,25 +25,9 @@ jobs:
           SONGBOOK_DATA_DIR: hk-songbook
           SONGBOOK_TITLE: hk-songbook
 
-      - name: Generate 111 ADH PDF
-        run: python3 -m songbook.apps.create_pdf
-        env:
-          SONGBOOK_DATA_DIR: spiewnik111adh
-          SONGBOOK_TITLE: spiewnik111adh
-
-      - name: ls
-        run: ls
-
       - name: Archive HK PDF
         uses: actions/upload-artifact@v4
         with:
           name: hk-songbook
           path: app/hk-songbook.pdf
-          if-no-files-found: error
-
-      - name: Archive 111 ADH PDF
-        uses: actions/upload-artifact@v4
-        with:
-          name: spiewnik111adh
-          path: app/spiewnik111adh.pdf
           if-no-files-found: error
