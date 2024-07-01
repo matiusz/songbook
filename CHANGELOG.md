@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## [2.3.0](https://github.com/matiusz/songbook/compare/v2.2.0...v2.3.0) (2024-06-26)
+
+
+### Nowości
+
+* Allow special characters in categories on website ([4afcc0c](https://github.com/matiusz/songbook/commit/4afcc0cf0f8f07dd4f5dffe768a702b7bf9e9d23))
+* **Autorskie:** Z wiatrem - Jagoda Ciszewska ([88763c3](https://github.com/matiusz/songbook/commit/88763c39510b5d6520b290670c21f4503c6cb687))
+* **Różne:** Nie ma ciebie - Kayah i Bregovic ([3065f84](https://github.com/matiusz/songbook/commit/3065f84d9e9a8e3922931dc780de6ff4be194976))
+* **Różne:** Piosenka Pisana Nocą - Piotr Rogucki ([c28dc12](https://github.com/matiusz/songbook/commit/c28dc129add1c307cd588e56100e23109e259fc3))
+* **Różne:** Rzeka Marzeń z W pustyni i w puszczy ([b913510](https://github.com/matiusz/songbook/commit/b9135109f9ed385c2ff44782a484927bdee33200))
+* **Różne:** Sarajewo - Nohavica ([ae99fe1](https://github.com/matiusz/songbook/commit/ae99fe191accd594a31a47fc4c9628216e26eee5))
+* Sorted ToC ([ba04680](https://github.com/matiusz/songbook/commit/ba046800241da5619096f250f193bee2b7027630))
+* **Yapa 2024:** Mówili mi ludzie - Oreada ([3db8278](https://github.com/matiusz/songbook/commit/3db82787851373c8c09b2287defac35d0ea2f28c))
+* **Zagraniczne:** Scarborough Fair - Simon & Garfunkel ([b70a92e](https://github.com/matiusz/songbook/commit/b70a92eec53f971cf22cc54854351ac26c310dbe))
+* **Zagraniczne:** Wind of Change - Scorpions ([970013c](https://github.com/matiusz/songbook/commit/970013cac9bce739110df5fcf3cfcefa1aa8246d))
+
+
+### Poprawki
+
+* Lemon Tree - chwyty ([a8aec85](https://github.com/matiusz/songbook/commit/a8aec8560c2072104d796460ca65a304bba8bc21))
+
 ## [2.2.0](https://github.com/matiusz/songbook/compare/v2.1.0...v2.2.0) (2024-03-14)
 
 
