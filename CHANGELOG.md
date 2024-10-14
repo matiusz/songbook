@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.3.1](https://github.com/matiusz/songbook/compare/v2.3.0...v2.3.1) (2024-10-14)
+
+
+### Poprawki
+
+* Złe nazwy plików, link do PDF-a ([6805094](https://github.com/matiusz/songbook/commit/6805094fbc2b1d10ae989822444bb1b1546ac710))
+
 ## [2.3.0](https://github.com/matiusz/songbook/compare/v2.2.0...v2.3.0) (2024-06-26)
 
 
