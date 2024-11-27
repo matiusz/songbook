@@ -3,6 +3,7 @@ import os
 import itertools
 import re
 from ..obj.Config import config
+from .Chord import Chord
 
 try:
     from flask import url_for
@@ -19,6 +20,7 @@ class Song:
         self.author: str = None
         self.capo: str = None
         self.sections: list[SongSection] = []
+        self.special_chords: list[Chord] = []
 
     def addSection(self, section: dict) -> SongSection:
         self.sections.append(section)
@@ -72,6 +74,15 @@ class Song:
             (f"#capo {self.capo}\n" if self.capo else '') + \
             "\n"
 
+        if self.special_chords:
+            result += "#chords\n"
+            
+            for chord in self.special_chords:
+                chord.saveDiagram()
+                result += f"{chord.name} ~ {" ".join(str(el) for el in chord.frets)}\n"
+
+            result += "\n"
+
         for section in self.sections:
             result += "#chorus\n" if section.chorus else "#verse\n"
             for (lyrics, chords) in itertools.zip_longest(section.lyrics.split('\n'), section.chords.split('\n')):
@@ -88,7 +99,7 @@ class Song:
 
     @classmethod
     def parse(cls, str) -> Song:
-        commands = "title|author|category|capo|chorus|verse"
+        commands = "title|author|category|capo|chorus|verse|chords"
         dict = {'sections': []}
         # finds all occurences of #command, followed by blank, until another #command or the end
         for (cmd, val) in re.findall(fr"^#({commands})(?:\n|\s)((?:.|\n)*?(?=#(?:{commands})|\Z))", str, flags=re.MULTILINE):
@@ -102,6 +113,12 @@ class Song:
                     'chords': "\n".join(chords),
                     'chorus': cmd == 'chorus'
                 })
+            if cmd in ["chords"]:
+                dict[cmd] = []
+                for line in val.splitlines():
+                    if line:
+                        name, frets = line.split(" ~ ")
+                        dict[cmd].append({"name": name.strip(), "frets": tuple(int(el) if el.isnumeric() else el for el in frets.split(" "))})
             else:
                 dict[cmd] = val.strip()
         return cls.loadFromDict(dict)
@@ -119,6 +136,11 @@ class Song:
             newSong.capo = ""
         for section in songDict['sections']:
             newSong.addSection(SongSection.loadFromDict(section))
+        try:
+            for chord in songDict['chords']:
+                newSong.special_chords.append(Chord(chord["name"], chord["frets"]))
+        except KeyError:
+            newSong.special_chords = []     
         return newSong
 
     @classmethod

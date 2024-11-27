@@ -1,4 +1,8 @@
-{ 
+{
+    "devSettings":{
+        "singleCompile": false,
+        "keepAuxOut": true
+    },
     "filePaths": 
         {
             "dataFolder": "data",

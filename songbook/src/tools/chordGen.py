@@ -18,6 +18,9 @@ _svgStyle = """<style type="text/css"><![CDATA[
     .nut {{ 
         stroke: black; stroke-width: 2; 
     }}
+    .chordname {{ 
+        fill: black; font-size: {fontsize}px; 
+    }}
     .fretmark {{ 
         fill: black; font-style: italic; font-size: 24; 
     }}
@@ -31,6 +34,7 @@ _svgStyle = """<style type="text/css"><![CDATA[
 
 _templates = {
     'nut_or_capo_position': "<line class='nut' x1='{nutX1}' y1='{nutY1}' x2='{nutX2}' y2='{nutY2}'/>\n",
+    'chord_text': "<text class='chordname' x='{x}' y='{y}' dominant-baseline='middle' text-anchor='middle' font-style='italic'>{name}</text>\n",
     'capo_text': "<text class='fretmark' x='{x}' y='{y}'>{fretstarttext}</text>",
     'header': "<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='{w}' height='{h}'>\n",
     'fret_dot_text': "<text class='dot' x='{x}' y='{y}'>{nFret}fr</text>\n",
@@ -61,6 +65,7 @@ class chord():
         self.chord = notes
         self.Capo = kwargs.get('capo', 0)
         self.hand = kwargs.get('hand', 'R')
+        self.Chordname = kwargs.get('name', '')
         self.Myfile = kwargs.get('fname', 'chord.svg')
         self.style = self.set_styles(scaleFactor=self.scale)
 
@@ -135,6 +140,9 @@ class chord():
         Strings_y1 = FretFirstY
         Strings_y2 = Strings_y1 + (self.spacing['fret']['y'] * (self.dimensions['numfrets'] - 1))
 
+        # derived output line for Chord name.
+        cfg = {'x': self.coords['ChordName']['x']+40, 'y': self.coords['ChordName']['y']-5, 'name': self.Chordname}
+        chord_text = _templates['chord_text'].format(**cfg)
 
         # form text indicating capo position, if any
         FretStartText = str(self.Capo) if self.Capo != 0 else ""
@@ -157,7 +165,8 @@ class chord():
                 if self.Capo:
                     spos = spos - self.Capo
                 if self.barre:
-                    spos = spos - self.lowestfingerpos + 1
+                    if self.lowestfingerpos > 2:
+                        spos = spos - self.lowestfingerpos + 1
                 cx = self.coords['nut']['x1'] + (i * self.spacing['string']['x'])
                 cy = (nut_y1 - 5) + (spos * self.spacing['fret']['y']) # !!! literal alert!
                 while cy > Strings_y2: # need to lengthen chord?
@@ -196,7 +205,8 @@ class chord():
             if self.chord[i] not in ['x', 'X', 0]:
                 spos = self.chord[i]
                 if self.barre:
-                    spos = spos - self.lowestfingerpos + 1
+                    if self.lowestfingerpos > 2:
+                        spos = spos - self.lowestfingerpos + 1
                 elif self.Capo:
                     spos = spos - self.Capo
                 circleCFG = { 'cx': nut_x2 - (i * self.spacing['string']['x']),
@@ -212,11 +222,11 @@ class chord():
             cx2 = (self.dimensions['numstrings'] - 1) * self.spacing['string']['x']
             # The following draws an elliptical arc, which works well even when scaled
             pathCFG = {'nutX1': self.coords['nut']['x1'], 'cy': cy-5, 'cx2': cx2}
-            if all(self.chord):
+            if not any(el in ['x', 'X', 0] for el in self.chord):
                 barre_chord_position += _templates['barre'].format(**pathCFG)
             frLineCFG = {'x': FretStart_X, 'nFret': self.barrepos,
                     'y': FretStart_Y + (1 * self.spacing['fret']['y'])}
-            if self.barrepos > 1:
+            if self.barrepos > 2 or not any(el in ['x', 'X', 0] for el in self.chord):
                 fret_dot_text += _templates['fret_dot_text'].format(**frLineCFG)
         cut_position = ""
 
@@ -239,20 +249,25 @@ class chord():
             x = self.coords['nut']['x1'] + (i * self.spacing['string']['x'])
             noCutCFG = {'x': x, 'y1': Strings_y1, 'y2': Strings_y2}
             diagram_strings += _templates['diagram_strings'].format(**noCutCFG)
-        
+        outStr = f"""{header}
+            {self.style}
+            {chord_text}
+            {capo_text}
+            {fret_dot_text}
+            {open_and_unplayed_string_markers}
+            {finger_positions}
+            {barre_chord_position}
+            {nut_or_capo_position}
+            {cut_position}
+            {diagram_frets}
+            {diagram_strings}
+            \n</svg>\n
+        """
+        return outStr
+    
+    def drawToFile(self):
         with open(self.Myfile, 'w') as svgFile:
-            svgFile.write(header)
-            svgFile.write(self.style)
-            svgFile.write(capo_text)
-            svgFile.write(fret_dot_text)
-            svgFile.write(open_and_unplayed_string_markers)
-            svgFile.write(finger_positions)
-            svgFile.write(barre_chord_position)
-            svgFile.write(nut_or_capo_position)
-            svgFile.write(cut_position)
-            svgFile.write(diagram_frets)
-            svgFile.write(diagram_strings)
-            svgFile.write("\n</svg>\n") # as Bugs would say: 'That's it folks!'
+            svgFile.write(self.draw())
 
 if __name__ == "__main__":
     chords=[
@@ -265,7 +280,7 @@ if __name__ == "__main__":
         {"name":'A7', "notes":[0,0,2,2,2,3], "fname":"A7_var2.svg"},
         {"name":'A7sus4', "notes":['X',0,2,0,3,0], "fname":"6.svg"},
         {"name":'A9', "notes":['X',0,2,4,2,3], "fname":"7.svg"},
-        {"name":'A', "notes":[0,0,2,2,2,0], "fname":"8.svg"},
+        {"name":'D2/4', "notes":[0,5,4,0,3,0], "fname":"Dadd.svg"},
         {"name":'A', "notes":[5,7,7,6,5,5], "fname":"A_pos5.svg"},
         {"name":'A', "notes":[5,7,7,6,5,5],"capo":2, "fname":"Acapo2.svg"},
         {"name":'Amaj7', "notes":[0,0,2,2,2,4], "fname":"9.svg"},

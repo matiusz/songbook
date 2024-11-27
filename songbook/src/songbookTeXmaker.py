@@ -95,6 +95,8 @@ class TexSong:
         author = self.song.author
         if author:
             songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
+        for idx, chord in enumerate(self.song.special_chords):
+            songStr += chord.toTikz(idx)
         capo = self.song.capo
         if capo:
             songStr += f"\\begin{{flushright}}\n{capo}\n\\end{{flushright}}"
