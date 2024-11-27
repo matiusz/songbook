@@ -34,3 +34,5 @@ songbook-pdf.log
 songbook-py.log
 so.py
 .vscode/settings.json
+build/
+songbook.egg-info/
