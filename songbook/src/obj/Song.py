@@ -2,9 +2,15 @@ from __future__ import annotations
 import os
 import itertools
 import re
+from ..obj.Config import config
 
-from src.obj.Config import config
-
+try:
+    from flask import url_for
+    url_for('start')
+except (ImportError, RuntimeError):
+    flaskSupported = False
+else:
+    flaskSupported = True
 
 class Song:
     def __init__(self, title: str, category: str):
@@ -38,10 +44,16 @@ class Song:
                     else:
                         sections.append(section)
         return sections
+    
+    def __lt__(self, other: Song):
+        return self.title < other.title
 
     @property
     def linkedTitle(self) -> str:
-        return f"{'&nbsp;'*8}<a href=\"/{self.category}/{self.title}\">{self.title}</a>"
+        if flaskSupported:
+            return f"{'&nbsp;'*8}<a href={url_for('start', category=self.category, song=self.title.replace('/', ''))}>{self.title}</a>"
+        else:
+            return f"""{'&nbsp;'*8}<a href="{f'/{self.category}/{self.title.replace("/", "")}'}">{self.title}</a>"""
 
     @property
     def filterString(self) -> str:

@@ -1,23 +1,23 @@
 import os
-import json
 import re
 
-from src.tools.plAlphabetSort import plSortKey
+from ..src.tools.plAlphabetSort import plSortKey
 import asyncio
 import aiofiles
 
-from src import headerconfig as headerconfig
+from . import headerconfig as headerconfig
 
-from src.tools.chordShift import shiftChords
-from src.tools.codings import enUTF8, deUTF8
+from .tools.chordShift import shiftChords
+from .tools.codings import enUTF8
+from .tools.getCategoriesConfig import getCategoriesConfig
 
-from src.obj.Config import config
-from src.obj.Song import Song
+from .obj.Config import config
+from .obj.Song import Song
 
-from src.tools.loggerSetup import logging
+from .tools.loggerSetup import logging
+
 
 logger = logging.getLogger(__name__)
-
 
 
 def isSongCategoryDir(dirname):
@@ -182,15 +182,6 @@ def makeSongbookDict(songs):
     return songbookDict
 
 
-async def getCategoriesConfig(categoryDictFile, songbookDict):
-    try:
-        async with aiofiles.open(categoryDictFile, "rb") as configFile:
-            cats_dict = json.loads(deUTF8(await configFile.read()))
-    except FileNotFoundError:
-        logger.warning("Category titles mapping file not found")
-        cats_dict = {cat: cat for cat in sorted(
-            songbookDict.keys(), key=plSortKey)}
-    return cats_dict
 
 
 async def processCategory(cat, songbookFile, ignoredSongs=None):
@@ -236,7 +227,7 @@ async def _asyncMain():
 
     songbookDict = makeSongbookDict(gatheredSongs)
 
-    cats = await getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songbookDict)
+    cats = getCategoriesConfig(os.path.join(config.dataFolder, config.categoriesFile), songbookDict)
 
     for cat in songbookDict.values():
         cat.setCatMapping(cats)

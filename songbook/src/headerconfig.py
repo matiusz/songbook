@@ -1,10 +1,21 @@
-from src.obj.Config import config
+from .obj.Config import config
 import os
 from datetime import date
 
-from src.tools.ResourcePath import resource_path
-months = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec",
-          "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"]
+months = [
+    "Styczeń",
+    "Luty",
+    "Marzec",
+    "Kwiecień",
+    "Maj",
+    "Czerwiec",
+    "Lipiec",
+    "Sierpień",
+    "Wrzesień",
+    "Październik",
+    "Listopad",
+    "Grudzień",
+]
 
 
 def docClass(form, sides, size):
@@ -23,7 +34,20 @@ def packages(packs):
 
 
 def getPackageList():
-    return [("fontenc", "T1"), ("babel", "english"), "blindtext", "paracol", "geometry", "indentfirst", "changepage", "graphicx", "hyperref", "multicol", "tikz", "zi4"]
+    return [
+        ("fontenc", "T1"),
+        ("babel", "english"),
+        "blindtext",
+        "paracol",
+        "geometry",
+        "indentfirst",
+        "changepage",
+        "graphicx",
+        "hyperref",
+        "multicol",
+        "tikz",
+        "zi4",
+    ]
 
 
 def hyperSetup():
@@ -31,10 +55,27 @@ def hyperSetup():
 
 
 def minorSettings():
-    imgPath = os.path.join(config.dataFolder, config.imageFolder).replace(
-        '\\', '//', 1).replace("\\", "/") + "/"
-    return f"\\graphicspath{{{{{imgPath}}}}}\n\\setlength\\parindent{{0pt}}\n\n\\hbadness=15000  % or any number >=10000" + \
-        "\n\\vfuzz = 15pt\n\n% HACKING \\adjustwidth\n\\usepackage{etoolbox}\n\\makeatletter\n\\apptocmd\\adjustwidth{\\@inlabelfalse\\@newlistfalse}\n\\makeatother\n\n\\raggedbottom\n"
+    imgPath = (
+        os.path.join(config.dataFolder, config.imageFolder)
+        .replace("\\", "//", 1)
+        .replace("\\", "/")
+        + "/"
+    )
+    return (
+rf"""\graphicspath{{{{{imgPath}}}}}
+\setlength\parindent{{0pt}}
+
+\hbadness=15000  % or any number >=10000
+\vfuzz = 15pt
+
+% HACKING \adjustwidth
+\usepackage{{etoolbox}}
+\makeatletter
+\apptocmd\adjustwidth{{\@inlabelfalse\@newlistfalse}}
+\makeatother
+\raggedbottom
+"""
+    )
 
 
 def geometry(form, horizontal, vertical, sides):
@@ -50,7 +91,9 @@ def beginDoc():
 
 
 def minorSettings2():
-    return "\\newenvironment{chorus}{\\begin{adjustwidth}{2cm}{}}{\\end{adjustwidth}}\n\n"
+    return (
+        "\\newenvironment{chorus}{\\begin{adjustwidth}{2cm}{}}{\\end{adjustwidth}}\n\n"
+    )
 
 
 def font():
@@ -63,13 +106,15 @@ def toc():
 
 
 def titleSettings():
-    onePercentHack =         r"""\vspace{0.40\textheight} \\1.5 \% podatku dla “Hawiarskiej Koliby”\\
+    onePercentHack = (
+        r"""\vspace{0.40\textheight} \\1.5 \% podatku dla “Hawiarskiej Koliby”\\
         Numer KRS 0000083727\\
         Z dopiskiem:\\
         Cel szczegółowy: Koło nr 2 Hawiarska Koliba\\
         Dziękujemy!\\\\
         Opracowanie: Mateusz Szwed\\
         matszwecja@gmail.com"""
+    )
     today = date.today()
     return f"\\title{{{config.title}}}\n\\date{{{months[today.month-1]} {today.year}}}\n\\author{{{onePercentHack}}}\n\n"
 
@@ -89,8 +134,7 @@ def getHeader():
     header += packages(getPackageList())
     header += hyperSetup()
     header += minorSettings()
-    header += geometry(form=form, horizontal=horizontal,
-                       vertical=vertical, sides=sides)
+    header += geometry(form=form, horizontal=horizontal, vertical=vertical, sides=sides)
     header += titleSettings()
     header += beginDoc()
     header += makeTitle()
