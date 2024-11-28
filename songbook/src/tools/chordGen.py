@@ -141,7 +141,7 @@ class chord():
         Strings_y2 = Strings_y1 + (self.spacing['fret']['y'] * (self.dimensions['numfrets'] - 1))
 
         # derived output line for Chord name.
-        cfg = {'x': self.coords['ChordName']['x']+25, 'y': self.coords['ChordName']['y']-5, 'name': self.Chordname}
+        cfg = {'x': self.coords['ChordName']['x']+23, 'y': self.coords['ChordName']['y']-5, 'name': self.Chordname}
         chord_text = _templates['chord_text'].format(**cfg)
 
         # form text indicating capo position, if any

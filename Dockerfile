@@ -7,10 +7,10 @@ RUN tlmgr install babel blindtext paracol geometry tools changepage graphics hyp
 
 RUN apt-get install -y --no-install-recommends python3-pip pipx libcairo2-dev pkg-config python3-dev cmake libgirepository1.0-dev gobject-introspection
 
-RUN pip install aiofiles --break-system-packages
-
 RUN pipx ensurepath
 
 RUN pipx install svg2tikz
+
+RUN pip install svg2tikz aiofiles --break-system-packages
 
 WORKDIR /app
