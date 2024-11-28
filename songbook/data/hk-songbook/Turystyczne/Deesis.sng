@@ -2,12 +2,11 @@
 #author Na Bani
 #category Turystyczne
 
+#chords
+a* ~ 5 7 7 5 5 5
+A9 ~ 7 7 9 7 8 7
+
 #verse
-a      ------->	amoll na 5 progu
-a*    ------->	amoll na otwartych strunach
-A9    ------->	779787
-
-
 Tam las się pochyla prastarym chojarem ~ a A9 a a
 Nad ciemnym strumieniem niebo się zamyka ~ a A9 a a
 Tam buk rosochatym zakrywa konarem ~ a A9 a a
@@ -54,6 +53,11 @@ Ku czyjej chwale wzniosły się pochodnie ~ a* G D a*
 Całopalne ofiary dla którego Boga ~ e F d E7
 Jacyż to święci tej krwi byli głodni ~ a* G D a*
 W jakim obrządku ojców kto pochował ~ e F d d a*
+
+#verse
+ ~ 
+ ~
+ 
 
 #chorus
 Na przekór podnieśmy ku niebu ektenie ~ a* C

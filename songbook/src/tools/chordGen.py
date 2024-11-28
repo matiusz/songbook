@@ -40,7 +40,7 @@ _templates = {
     'fret_dot_text': "<text class='dot' x='{x}' y='{y}'>{nFret}fr</text>\n",
     'open_and_unplayed_string_markers': "<text class='unplayed' x='{sx}' y='{OSIY}'>{xOr0}</text>\n",
     'finger_positions': "<circle class='finger' cx='{cx}' cy='{cy}' r='{r}'/>\n",
-    'barre': "<path class='barre' d='M {nutX1} {cy} a 50 5 0 1,1 {cx2} 0'/>\n",
+    'barre': "<path class='barre' d='M {nutX1} {cy} a 25 5 0 1,1 {cx2} 0'/>\n",
     'diagram_frets': "<line class='fret' x1='{x1}' y1='{y}' x2='{x2}' y2='{y}'/>\n",
     'diagram_strings': "<line class='string' x1='{x}'  y1='{y1}' x2='{x}'  y2='{y2}'/>\n"
     }
@@ -218,7 +218,7 @@ class chord():
 
         barre_chord_position = ""
         if self.barre:
-            cy = (nut_y1 - 5) + (1 * self.spacing['fret']['y'])
+            cy = (nut_y1 - 5) + (self.spacing['fret']['y']-1)
             cx2 = (self.dimensions['numstrings'] - 1) * self.spacing['string']['x']
             # The following draws an elliptical arc, which works well even when scaled
             pathCFG = {'nutX1': self.coords['nut']['x1'], 'cy': cy, 'cx2': cx2}
@@ -310,5 +310,5 @@ if __name__ == "__main__":
                 f_out = val['fname']
             f.write("<div>{}: <img src='{}'/></div>\n".format(i, f_out))
             val['scale'] = 2.0
-            chord(**val).draw()
+            chord(**val).drawToFile()
         f.write("</div>")
