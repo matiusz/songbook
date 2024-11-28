@@ -85,8 +85,8 @@ class chord():
         }
 
         self.spacing = {
-            'string': {'x': 10*scaleFactor}, # X distance between each string
-            'fret': {'y': 10*scaleFactor,    # Y distance between each fret
+            'string': {'x': 6*scaleFactor}, # X distance between each string
+            'fret': {'y': 8*scaleFactor,    # Y distance between each fret
             'startcxdiff': 4*miniscaleFactor},
             'OpenStringIndicator': {'ytochordnameY': 7*scaleFactor, 'ytofirstfretY': 2*scaleFactor},
             'centrefontonstringX': 2.5
@@ -141,7 +141,7 @@ class chord():
         Strings_y2 = Strings_y1 + (self.spacing['fret']['y'] * (self.dimensions['numfrets'] - 1))
 
         # derived output line for Chord name.
-        cfg = {'x': self.coords['ChordName']['x']+40, 'y': self.coords['ChordName']['y']-5, 'name': self.Chordname}
+        cfg = {'x': self.coords['ChordName']['x']+25, 'y': self.coords['ChordName']['y']-5, 'name': self.Chordname}
         chord_text = _templates['chord_text'].format(**cfg)
 
         # form text indicating capo position, if any

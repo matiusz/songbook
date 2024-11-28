@@ -79,7 +79,7 @@ class Song:
             
             for chord in self.special_chords:
                 chord.saveDiagram()
-                result += f"{chord.name} ~ {" ".join(str(el) for el in chord.frets)}\n"
+                result += f"{chord.name} ~ {' '.join(str(el) for el in chord.frets)}\n"
 
             result += "\n"
 

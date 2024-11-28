@@ -16,7 +16,7 @@ class Chord:
                 outLines.append("}")
             if r"\begin{tikzpicture}" in line:
                 outLines.append(line.replace("[y=1cm", "[overlay, y=1cm"))
-                outLines.append(rf"\hspace*{{{5*i}cm}}\raisebox{{-20cm}}{{")
+                outLines.append(rf"\hspace*{{{1+3*i}cm}}\raisebox{{{-25+0.5*i}cm}}{{")
             else:
                 outLines.append(line)
         return "\n".join(outLines)
