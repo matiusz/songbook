@@ -221,11 +221,11 @@ class chord():
             cy = (nut_y1 - 5) + (1 * self.spacing['fret']['y'])
             cx2 = (self.dimensions['numstrings'] - 1) * self.spacing['string']['x']
             # The following draws an elliptical arc, which works well even when scaled
-            pathCFG = {'nutX1': self.coords['nut']['x1'], 'cy': cy-5, 'cx2': cx2}
+            pathCFG = {'nutX1': self.coords['nut']['x1'], 'cy': cy, 'cx2': cx2}
             if not any(el in ['x', 'X', 0] for el in self.chord):
                 barre_chord_position += _templates['barre'].format(**pathCFG)
             frLineCFG = {'x': FretStart_X, 'nFret': self.barrepos,
-                    'y': FretStart_Y + (1 * self.spacing['fret']['y'])}
+                    'y': FretStart_Y + (self.spacing['fret']['y']-5)}
             if self.barrepos > 2 or not any(el in ['x', 'X', 0] for el in self.chord):
                 fret_dot_text += _templates['fret_dot_text'].format(**frLineCFG)
         cut_position = ""
