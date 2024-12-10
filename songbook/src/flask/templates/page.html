@@ -30,7 +30,7 @@
         <div class="p-2 nav-side-menu">
             <div class="brand">Śpiewnik HK
                 <button onclick="collapse()" class="toggle-btn"><i class="fa fa-bars fa-2x btn"></i></button>
-                <button onclick="darkMode()"><i class="fa fa-moon-o fa-2x btn"></i></button>
+                <button onclick="toggleDarkMode(true)"><i class="fa fa-moon-o fa-2x btn"></i></button>
             </div>
             <div class="menu-list">
                 <ul id="menu-content" class="menu-content collapse out {{'show' if filterString else ''}}">
@@ -122,5 +122,7 @@
     </div>
     {% endautoescape %}
 </body>
-
+<script>
+    if(checkCookie("darkMode")){toggleDarkMode(false)}
+</script>
 </html>

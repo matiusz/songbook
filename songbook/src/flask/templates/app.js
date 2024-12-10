@@ -7,6 +7,8 @@
 * https://github.com/leeoniya/uFuzzy (v1.0.11)
 */
 
+
+
 var uFuzzy = (function () {
 	'use strict';
 
@@ -1088,10 +1090,48 @@ function getArtifact() {
 	})
 }
 
-function darkMode() {
+function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {
+    createCookie(name,"",-1);
+}
+
+function checkCookie(name)
+{
+    return readCookie(name) != null;
+}
+
+function toggleDarkMode(save){
+	if(save){
+		if(checkCookie("darkMode")){
+			eraseCookie("darkMode")
+		}
+		else{
+			createCookie("darkMode", 1, 365)
+		}
+	}
 	var element = document.body;
 	element.classList.toggle("dark-mode");
-  }
+}
 
 function collapse() {
 	$("#menu-content").collapse('toggle');
