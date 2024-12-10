@@ -1087,3 +1087,12 @@ function getArtifact() {
 	}
 	})
 }
+
+function darkMode() {
+	var element = document.body;
+	element.classList.toggle("dark-mode");
+  }
+
+function collapse() {
+	$("#menu-content").collapse('toggle');
+  }

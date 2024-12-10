@@ -28,8 +28,10 @@
 
 <body>
         <div class="p-2 nav-side-menu">
-            <div class="brand">Śpiewnik HK</div>
-            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+            <div class="brand">Śpiewnik HK
+                <button onclick="collapse()" class="toggle-btn"><i class="fa fa-bars fa-2x btn"></i></button>
+                <button onclick="darkMode()"><i class="fa fa-moon-o fa-2x btn"></i></button>
+            </div>
             <div class="menu-list">
                 <ul id="menu-content" class="menu-content collapse out {{'show' if filterString else ''}}">
                     <li data-toggle="collapse" data-target="#search">
@@ -59,6 +61,21 @@
             </div>
         </div>
         {% autoescape false %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="main" style="overflow: auto;">
         {% if song %}
             <div class="d-flex flex-column">
