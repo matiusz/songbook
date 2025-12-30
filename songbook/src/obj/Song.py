@@ -3,7 +3,15 @@ import os
 import itertools
 import re
 from ..obj.Config import config
-from .Chord import Chord
+try:
+    from .Chord import Chord
+except:
+    chordDiagramsAvailable = False
+    class Chord:
+        pass
+else:
+    chordDiagramsAvailable = True
+
 
 try:
     from flask import url_for
@@ -136,11 +144,12 @@ class Song:
             newSong.capo = ""
         for section in songDict['sections']:
             newSong.addSection(SongSection.loadFromDict(section))
-        try:
-            for chord in songDict['chords']:
-                newSong.special_chords.append(Chord(chord["name"], chord["frets"]))
-        except KeyError:
-            newSong.special_chords = []     
+        if chordDiagramsAvailable:
+            try:
+                for chord in songDict['chords']:
+                    newSong.special_chords.append(Chord(chord["name"], chord["frets"]))
+            except KeyError:
+                newSong.special_chords = []     
         return newSong
 
     @classmethod
