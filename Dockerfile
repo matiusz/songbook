@@ -1,11 +1,11 @@
 # No reasonable latex packages for alpine
 FROM texlive/texlive:latest-basic
 
-RUN apt-get clean && apt-get update && apt-get install -y build-essential locales locales-all && locale-gen pl_PL pl_PL.UTF-8 && update-locale 
+RUN apt-get clean && apt-get -y update && apt-get install -y build-essential locales locales-all && locale-gen pl_PL pl_PL.UTF-8 && update-locale 
 
 RUN tlmgr install babel blindtext paracol geometry tools changepage graphics hyperref inconsolata etoolbox pgf xkeyval upquote collection-fontsrecommended
 
-RUN apt-get install -y --no-install-recommends python3-pip pipx libcairo2-dev pkg-config python3-dev cmake libgirepository1.0-dev gobject-introspection
+RUN apt-get install -y --no-install-recommends python3-pip pipx libcairo2-dev pkg-config python3-dev cmake libgirepository-2.0-dev gobject-introspection
 
 RUN pipx ensurepath
 
