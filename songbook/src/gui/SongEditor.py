@@ -42,6 +42,7 @@ class QSong(QWidget):
         self.setGeometry(300, 100, 500, 100)
         self.setWindowTitle('Song Field')
         self.sections = []
+        self.special_chords = []
 
         layout = QVBoxLayout()
         layout.setSizeConstraint(QLayout.SetMinimumSize)
@@ -124,6 +125,7 @@ class QSong(QWidget):
             jsonSong['category'] = self.catBar.currentText()
         jsonSong['sections'] = [section.toJSON()
                                 for section in self.sections if section]
+        jsonSong['chords'] = self.special_chords
         return jsonSong
 
     def loadSong(self, songFilename):
@@ -143,6 +145,7 @@ class QSong(QWidget):
                 sect = self.newSection(chorus=section.chorus)
                 sect.lyrics.setPlainText(section.lyrics)
                 sect.chords.setPlainText(section.chords)
+            self.special_chords = [chord.toJSON() for chord in song.special_chords]
         else:
             for i, section in enumerate(self.sections):
                 section.setParent(None)
@@ -153,6 +156,7 @@ class QSong(QWidget):
             self.titleBar.setText("")
             self.authorBar.setText("")
             self.capoBar.setText("")
+            self.special_chords = []
 
     def reloadSongs(self):
         self.changeCatBar.setCurrentText("Change Category")

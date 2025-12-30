@@ -47,6 +47,17 @@ async def semaphoredLoadSong(dirpath, filename, sem):
         return await TexSong.load(os.path.join(dirpath, filename))
 
 
+
+def imageTex(song, songs):
+    songData=songs[song]
+    return f"""\n
+\\begin{{tikzpicture}}[remember picture,overlay]
+\\node[xshift={songData['xshift']}mm,yshift={songData['yshift']}mm,anchor=south] at (current page.south){{%
+\\includegraphics[width={songData['width']}mm]{{{songData['imgname']}}}}};
+\\end{{tikzpicture}}\n
+"""
+
+
 class CategoryDict(dict):
     def __missing__(self, key):
         res = self[key] = TexCategory(key)
@@ -89,12 +100,33 @@ class TexSong:
         self.title = self.song.title
         self.category = self.song.category
 
+
     @property
     def tex(self):
         songStr = f"\\section*{{{self.title}}}\n\\addcontentsline{{toc}}{{section}}{{{self.title}}}\n\\columnratio{{0.78,0.22}}\n\\rmfamily\\raggedbottom"
         author = self.song.author
         if author:
             songStr += f"\\begin{{flushright}}\n{author}\n\\end{{flushright}}"
+
+        imagedSongs = {
+            'Hawiarska Koliba': {
+                'imgname': 'ognisko-hk',
+                'xshift': 7.5,
+                'yshift': 30,
+                'width': 100
+            },
+            'Jeleń (on mknie)': {
+                'imgname': 'jeleń',
+                'xshift': -7.5,
+                'yshift': 30,
+                'width': 80
+            }
+        }
+            
+        if self.title in imagedSongs.keys():
+            songStr += imageTex(self.title, imagedSongs)
+        for idx, chord in enumerate(self.song.special_chords):
+            songStr += chord.toTikz(idx)
         capo = self.song.capo
         if capo:
             songStr += f"\\begin{{flushright}}\n{capo}\n\\end{{flushright}}"
@@ -236,7 +268,7 @@ async def _asyncMain():
 
     async with aiofiles.open(texOutFile, "ab") as songbookFile:
 
-        titleSongs = [("Turystyczne", "Hawiarska Koliba")]
+        titleSongs = [("Hawiarska Koliba")]
         for titleSong in titleSongs:
             try:
                 songCount += await processSingleSong(songbookDict[titleSong[0]].songs[titleSong[1]], songbookFile)

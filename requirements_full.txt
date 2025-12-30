@@ -11,3 +11,4 @@ markdown2
 rapidfuzz
 unidecode
 emoji
+svg2tikz

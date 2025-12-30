@@ -25,6 +25,7 @@ class QSong(QWidget):
         self.sections = []
         self.resizeOffset = 0
         self.qSections = []
+        self.special_chords = []
         layout = QVBoxLayout()
 
         headerLayout = QHBoxLayout()

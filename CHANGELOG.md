@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## [2.4.0](https://github.com/matiusz/songbook/compare/v2.3.0...v2.4.0) (2025-02-23)
+
+
+### Nowości
+
+* Dodanie trybu nocnego ([9f7afb6](https://github.com/matiusz/songbook/commit/9f7afb6087bddb795c211d594839aeb04110322d))
+* **Turystyczne:** Chrystus bieszczadzki i Ballada na trzy chwyty ([f219850](https://github.com/matiusz/songbook/commit/f219850a2241de92e6d36769336ef29d78d02101))
+
+
+### Poprawki
+
+* Zaliczenie ([4b85392](https://github.com/matiusz/songbook/commit/4b853923ffdf36585d4af041d2a49eb86116b5da))
+* Zaliczenie v2 ([5852232](https://github.com/matiusz/songbook/commit/58522328d1e3f2d83b22752f5b78f6ff6af70daf))
+* Złe nazwy plików, link do PDF-a ([6805094](https://github.com/matiusz/songbook/commit/6805094fbc2b1d10ae989822444bb1b1546ac710))
+
 ## [2.3.0](https://github.com/matiusz/songbook/compare/v2.2.0...v2.3.0) (2024-06-26)
 
 
