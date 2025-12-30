@@ -2,6 +2,11 @@
 #author Hey
 #category Klasyka polskiego rocka
 
+#chords
+a* ~ x x 7 5 0 0
+G* ~ x x 4 3 0 0
+F* ~ x x 3 2 3 0
+
 #verse
 Spróbuj powiedzieć to ~ a* G* F*
 Nim uwierzysz że nie warto mówić kocham ~ a* G* F*
@@ -32,12 +37,4 @@ Pozwoli uczynić dziś cuda ~ a G F G
 #chorus
 Nic naprawdę nic nie pomoże ~ a G F G
 Jeśli Ty nie pomożesz dziś miłości ~ a G F G
-
-#verse
-
-
-#verse
-a* = 007500
-G*= 005400
-F*= 003230
 

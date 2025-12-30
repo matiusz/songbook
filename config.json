@@ -1,4 +1,8 @@
 {
+    "devSettings":{
+        "singleCompile": false,
+        "keepAuxOut": true
+    },
     "filePaths": 
         {
             "categoriesFile": "categories.json",
@@ -10,7 +14,7 @@
         "globalBold" : false,
         "chordShift": 0,
         "format": "a4paper",
-        "sides": "oneside",
+        "sides": "twoside",
         "margins":
         {
             "horizontal": 20,
@@ -20,7 +24,7 @@
         "lyricsFont" : "ptm",
         "chordsFont" : "zi4",
         "titlePage" : {
-            "title" : "Śpiewnik Hawiarskiej Koliby\\\\Edycja Rozszerzona",
+            "title" : "Śpiewnik Hawiarskiej Koliby",
             "author" : ""
         }
     }
