@@ -1,5 +1,5 @@
 from flask import Flask, render_template, make_response, send_file, url_for
-
+from flask_clacks import Clacks
 from ..obj.Config import config
 from ..obj.Songbook import Songbook
 from ..obj.Song import Song
@@ -14,6 +14,7 @@ try:
 except TypeError:
     port = 5000
 app = Flask(__name__)
+Clacks(app)
 
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY

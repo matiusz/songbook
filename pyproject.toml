@@ -4,6 +4,7 @@ dynamic = ["version"]
 dependencies = [
   "Flask",
   "Frozen-Flask",
+  "flask-clacks",
   "unidecode",
   "markdown2",
 ]

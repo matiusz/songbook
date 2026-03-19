@@ -1,4 +1,5 @@
 Flask[async]
+flask-clacks
 Frozen-Flask
 unidecode
 markdown2

@@ -12,3 +12,4 @@ rapidfuzz
 unidecode
 emoji
 svg2tikz
+flask-clacks
