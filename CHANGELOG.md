@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [2.5.0](https://github.com/matiusz/songbook/compare/v2.4.0...v2.5.0) (2026-03-19)
+
+
+### Nowości
+
+* Add custom chords diagrams ([52d2195](https://github.com/matiusz/songbook/commit/52d2195f7ac3bd604698a07b16dec6c165a4b419))
+* **Nieobciązające intelektualnie:** Ajfon od Cantona ([06df18f](https://github.com/matiusz/songbook/commit/06df18ff716ba2ef42d107d7b281d299a890dabd))
+* PWA - Tryb aplikacji offline ([23a72c0](https://github.com/matiusz/songbook/commit/23a72c0ca40041f4314094021f469480d73288fc))
+* **Turystyczne:** Obietnice by Szumiłąka ([4eef4bc](https://github.com/matiusz/songbook/commit/4eef4bcf9777c1aceedf76a27d1644497172505c))
+
 ## [2.4.0](https://github.com/matiusz/songbook/compare/v2.3.0...v2.4.0) (2025-02-23)
 
 
