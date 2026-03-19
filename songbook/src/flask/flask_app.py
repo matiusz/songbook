@@ -1,4 +1,4 @@
-from flask import Flask, render_template, make_response
+from flask import Flask, render_template, make_response, send_file, url_for
 
 from ..obj.Config import config
 from ..obj.Songbook import Songbook
@@ -25,8 +25,17 @@ class SongList:
 
 sb = Songbook()
 
-@app.route("/serve_js/app.js")
-def serve_js():
+
+@app.route('/service_worker.js')
+def serve_sw():
+    songs = sb.sb
+    songPaths = ",".join([f'"{url_for('start', category=c, song=s.title.replace('/', ''))}"' for c, songs in songs.items() for s in songs])
+    response = make_response(render_template("service_worker.js", songPaths = songPaths))
+    response.headers['Content-Type'] = 'text/javascript'
+    return response
+
+@app.route("/app.js")
+def serve_app():
     categories = json.dumps(list(sb.sb))
     name = config.dataFolder.split("/")[2]
     response = make_response(render_template("app.js", categories = categories, name = name))
