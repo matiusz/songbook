@@ -21,7 +21,57 @@
 }
 
 .nav-side-menu .toggle-btn {
+  display: block;
+}
+
+/* Floating button to reopen the sidebar when it is hidden.
+   Visual style is provided by Bootstrap's .btn .btn-secondary in the markup. */
+.open-sidebar-btn {
   display: none;
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 1000;
+  font-size: 18px;
+  line-height: 1;
+}
+.sidebar-hidden .open-sidebar-btn {
+  display: block !important;
+}
+
+/* When the floating button is showing, push the main content's first
+   heading over so the button doesn't cover the song title.
+   Only applies on tablets/desktop -- on mobile the sidebar is always
+   visible and the floating button is hidden. */
+@media (min-width: 768px) {
+  .sidebar-hidden .main h1,
+  .sidebar-hidden .main h2,
+  .sidebar-hidden .main .h1,
+  .sidebar-hidden .main .h2 {
+    padding-left: 56px;
+  }
+}
+
+/* Sidebar hidden state -- slide off-canvas on tablets/desktop */
+.nav-side-menu {
+  transition: transform 0.3s ease;
+}
+@media (min-width: 768px) {
+  .sidebar-hidden .nav-side-menu {
+    transform: translateX(-100%);
+  }
+  .sidebar-hidden .main {
+    padding-left: 0 !important;
+  }
+}
+/* On mobile the nav pane is always visible; the in-brand hamburger only
+   toggles the menu list, so the sidebar-hidden state has no effect here
+   and the floating reopen button is not needed. */
+@media (max-width: 767px) {
+  .open-sidebar-btn,
+  .sidebar-hidden .open-sidebar-btn {
+    display: none !important;
+  }
 }
 
 .nav-side-menu .btn {
@@ -34,6 +84,21 @@
   margin-top: 4px;
   margin-right: 15px;
   float: right;
+}
+
+.brand .toggle-btn {
+  display: inline-block;
+  float: left;
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .brand .toggle-btn {
+    float: right;
+    margin-right: 15px;
+    margin-left: 0;
+  }
 }
 
 .nav-side-menu .song {
@@ -137,9 +202,6 @@
     position: relative;
     width: 100%;
     margin-bottom: 10px;
-  }
-  .nav-side-menu .toggle-btn {
-    display: block;
   }
 
   .nav-side-menu .btn {
