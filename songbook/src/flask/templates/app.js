@@ -1134,5 +1134,21 @@ function toggleDarkMode(save){
 }
 
 function collapse() {
-	$("#menu-content").collapse('toggle');
-  }
+	// On mobile the navpanel is always visible, so toggle songlist  rather than hide the panel
+	if (window.matchMedia && window.matchMedia("(max-width: 767px)").matches) {
+		var menu = document.getElementById("menu-content");
+		if (menu) {
+			menu.classList.toggle("show");
+		}
+		return;
+	}
+	var isHidden = document.documentElement.classList.toggle("sidebar-hidden");
+	document.body.classList.toggle("sidebar-hidden", isHidden);
+	try {
+		if (isHidden) {
+			sessionStorage.setItem("sidebarHidden", "1");
+		} else {
+			sessionStorage.removeItem("sidebarHidden");
+		}
+	} catch (e) { /* sessionStorage unavailable */ }
+}
