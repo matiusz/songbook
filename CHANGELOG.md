@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## [2.6.0](https://github.com/matiusz/songbook/compare/v2.5.0...v2.6.0) (2026-08-18)
+
+
+### Nowości
+
+* **Polski rock:** Niepokonani - Perfect ([c3b4d93](https://github.com/matiusz/songbook/commit/c3b4d93c237343f305f41fc359731811def73213))
+* **Różne:** Kołysanka o niedoli - Marcin Przybyłowicz ([0842943](https://github.com/matiusz/songbook/commit/0842943a7073b430b5f8462b0c2c5502864f7bad))
+* **sidebar:** enable sidebar hide while using mid-sized screen (eg. tablets) ([7eb28b0](https://github.com/matiusz/songbook/commit/7eb28b0a017eaa631adaf8b47a9746b39ee0fa2e))
+* **Zagraniczne:** Bard's Song (In the Forest) - Blind Guardian ([9e0b516](https://github.com/matiusz/songbook/commit/9e0b516d009c75aa6ce778f6f1b2c29f36ab131d))
+* **Zagraniczne:** Golden - Kpop Demon Hunters ([3a23992](https://github.com/matiusz/songbook/commit/3a2399272115a392279d86471f7283c08aaf4c00))
+* **Zagraniczne:** Shallow - Lady Gaga & Bradley Cooper ([a1ad825](https://github.com/matiusz/songbook/commit/a1ad8258ed02076cc695a9dcfcd8d3aa9a0a505a))
+* **Zagraniczne:** Wasted Years - Iron Maiden ([4747cb7](https://github.com/matiusz/songbook/commit/4747cb7bd1e32e254fe2a3aecd68fc3c3b331200))
+
+
+### Poprawki
+
+* **Turystyczne:** chwyty do "Sobie leżeć na łące" ([d8505bf](https://github.com/matiusz/songbook/commit/d8505bf5d8e1b10abb603d3c0234ed305021051b))
+
 ## [2.5.0](https://github.com/matiusz/songbook/compare/v2.4.0...v2.5.0) (2026-03-19)
 
 
