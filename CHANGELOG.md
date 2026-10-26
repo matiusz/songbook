@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.6.1](https://github.com/matiusz/songbook/compare/v2.6.0...v2.6.1) (2026-10-26)
+
+
+### Poprawki
+
+* **Turystyczne:** Tekst do We wtorek w schronisku ([4c920f6](https://github.com/matiusz/songbook/commit/4c920f62a23d5fac20bf5e73757be03c05640298))
+
 ## [2.6.0](https://github.com/matiusz/songbook/compare/v2.5.0...v2.6.0) (2026-08-18)
 
 
